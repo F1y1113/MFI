@@ -1,0 +1,151 @@
+Event 1
+event: Decarbonisation of the transportation sector
+event_id: ev1
+description: The transportation sector is shifting towards electric vehicles (EVs) equipped mainly with Lithium-Ion Batteries (LIBs) as a means to decarbonize.
+participants: Graphite supply chain ev1.1_P1, Parametric model development ev1.2_P1, Recycling and societal changes ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Graphite supply chain
+event_id: ev1.1
+description: The primary anode material for LIBs is graphite, sourced as either natural graphite or synthetic graphite. Rapid LIB penetration might disrupt these graphite value chains.
+participants: Natural graphite ev1.1.1_P1, Synthetic graphite ev1.1.2_P1
+Gate: or
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subsubevent: Natural graphite
+event_id: ev1.1.1
+description: Natural graphite is mined and sourced directly from graphite ore.
+participants: Mining ev1.1.1.1_P1, Geographic origin analysis ev1.1.1.2_P0.5
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubsubevent 1.1.1.1
+subsubsubevent: Mining
+event_id: ev1.1.1.1
+description: Mining activities for extracting natural graphite from the earth.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.1.1.2
+subsubsubevent: Geographic origin analysis
+event_id: ev1.1.1.2
+description: Analysis to determine the geographical sources of natural graphite supply and potential barriers to its expansion.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Synthetic graphite
+event_id: ev1.1.2
+description: Synthetic graphite is produced from a carbon precursor, usually needle coke.
+participants: Needle coke ev1.1.2.1_P1, Petroleum refineries ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubsubevent 1.1.2.1
+subsubsubevent: Needle coke
+event_id: ev1.1.2.1
+description: Needle coke is a carbon precursor used to produce synthetic graphite.
+participants: Petroleum extraction ev1.1.2.1.1_P1, Refining processes ev1.1.2.1.2_P0.5
+Gate: and
+Relations: ev1.1.2.1.1>ev1.1.2.1.2
+
+Subsubsubsubevent 1.1.2.1.1
+subsubsubsubevent: Petroleum extraction
+event_id: ev1.1.2.1.1
+description: The process of extracting petroleum, which is a precursor for producing needle coke.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubsubevent 1.1.2.1.2
+subsubsubsubevent: Refining processes
+event_id: ev1.1.2.1.2
+description: Refining petroleum to produce needle coke for synthetic graphite.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.1.2.2
+subsubsubevent: Petroleum refineries
+event_id: ev1.1.2.2
+description: Refineries process petroleum to produce needle coke, a critical material for synthetic graphite.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Parametric model development
+event_id: ev1.2
+description: A model was developed to quantify flows in the graphite value chain and its use in EVs between 2020 and 2050 under various scenarios.
+participants: Scenarios ev1.2.1_P1, Monte Carlo simulation ev1.2.2_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subsubevent: Scenarios
+event_id: ev1.2.1
+description: The model includes scenarios on vehicle ownership, EV penetration, battery chemistries, and the share of natural versus synthetic graphite in batteries.
+participants: EV penetration ev1.2.1.1_P0.5, Battery chemistries ev1.2.1.2_P0.5, Recycling technologies ev1.2.1.3_P0.5
+Gate: or
+Relations: ev1.2.1.1>ev1.2.1.2, ev1.2.1.2>ev1.2.1.3
+
+Subsubsubevent 1.2.1.1
+subsubsubevent: EV penetration
+event_id: ev1.2.1.1
+description: Scenarios considering the rate of EV adoption and penetration in the market.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.1.2
+subsubsubevent: Battery chemistries
+event_id: ev1.2.1.2
+description: Different battery chemistries considered in the scenarios.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.1.3
+subsubsubevent: Recycling technologies
+event_id: ev1.2.1.3
+description: Various recycling technologies considered in the scenarios.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: Monte Carlo simulation
+event_id: ev1.2.2
+description: Monte Carlo simulation was used to assess the uncertainty of the results in the model.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Recycling and societal changes
+event_id: ev1.3
+description: Efficient recycling techniques combined with societal changes, such as lower vehicle ownership and smaller vehicles, are needed to mitigate graphite supply shortages.
+participants: Recycling techniques ev1.3.1_P1, Societal changes ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subsubevent: Recycling techniques
+event_id: ev1.3.1
+description: The combination of the most efficient recycling techniques is essential to mitigate the risk of graphite supply shortages.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Societal changes
+event_id: ev1.3.2
+description: Societal changes such as lower vehicle ownership and smaller vehicles can help reduce the demand for graphite.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

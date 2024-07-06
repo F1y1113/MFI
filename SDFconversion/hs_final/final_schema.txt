@@ -1,0 +1,2399 @@
+Event 1
+event: EV Battery Supply Chain
+event_id: ev1
+description: The manufacturing process of EV batteries comprises several stages, including material mining, raw material processing, battery cell components manufacturing, battery pack production, battery re-use, and battery recycling.
+participants: Material Mining ev1.1_P1, Raw Material Processing ev1.2_P1, Battery Cell Components Manufacturing ev1.3_P1, Battery Pack Production ev1.4_P1, Battery Re-Use ev1.5_P1, Battery Recycling ev1.6_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5, ev1.5>ev1.6
+
+Subevent 1.1
+subevent: Material Mining
+event_id: ev1.1
+description: Material mining involves extracting indispensable materials such as lithium, nickel, cobalt, graphite, and manganese, which are crucial for manufacturing lithium-ion batteries (LBs).
+participants: Lithium Mining ev1.1.1_P1, Nickel Mining ev1.1.2_P1, Cobalt Mining ev1.1.3_P1, Graphite Mining ev1.1.4_P1, Manganese Mining ev1.1.5_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4, ev1.1.4>ev1.1.5
+
+Subsubevent 1.1.1
+subsubevent: Lithium Mining
+event_id: ev1.1.1
+description: Lithium is extracted from brine and hard-rock deposits, with major sources in Bolivia, Argentina, Chile, and Australia.
+participants: Brine Extraction ev1.1.1.1_P1, Hard-Rock Extraction ev1.1.1.2_P1
+Gate: or
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubevent 1.1.2
+subsubevent: Nickel Mining
+event_id: ev1.1.2
+description: Nickel is extracted from sulfide and laterite deposits, with significant sources in Russia, Canada, Australia, Indonesia, and the Philippines.
+participants: Sulfide Mining ev1.1.2.1_P1, Laterite Mining ev1.1.2.2_P1
+Gate: or
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubevent 1.1.3
+subsubevent: Cobalt Mining
+event_id: ev1.1.3
+description: Cobalt is primarily mined as a by-product of nickel and copper mining, with major producers including the Democratic Republic of Congo and Switzerland.
+participants: Nickel By-Product Mining ev1.1.3.1_P1, Copper By-Product Mining ev1.1.3.2_P1
+Gate: or
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subsubevent 1.1.4
+subsubevent: Graphite Mining
+event_id: ev1.1.4
+description: Graphite, used for battery anodes, is primarily mined in China, with additional sources in Tanzania, Mozambique, Canada, and Madagascar.
+participants: Natural Graphite Mining ev1.1.4.1_P1, Synthetic Graphite Production ev1.1.4.2_P1
+Gate: or
+Relations: ev1.1.4.1>ev1.4.2
+
+Subsubevent 1.1.5
+subsubevent: Manganese Mining
+event_id: ev1.1.5
+description: Manganese is widely available and primarily mined in South Africa, Australia, Gabon, and China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Raw Material Processing
+event_id: ev1.2
+description: The raw materials undergo intense processing involving heat and chemical treatment to transform them into battery-grade chemicals like lithium carbonate, lithium hydroxide, and nickel sulphate.
+participants: Lithium Processing ev1.2.1_P1, Nickel Processing ev1.2.2_P1, Cobalt Processing ev1.2.3_P1, Graphite Processing ev1.2.4_P1, Manganese Processing ev1.2.5_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3, ev1.2.3>ev1.2.4, ev1.2.4>ev1.2.5
+
+Subsubevent 1.2.1
+subsubevent: Lithium Processing
+event_id: ev1.2.1
+description: Lithium is processed into lithium carbonate and lithium hydroxide, essential for different battery chemistries.
+participants: Lithium Carbonate Production ev1.2.1.1_P1, Lithium Hydroxide Production ev1.2.1.2_P1
+Gate: or
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubevent 1.2.2
+subsubevent: Nickel Processing
+event_id: ev1.2.2
+description: Nickel is processed using methods like high-pressure acid leaching (HPAL) to produce battery-grade nickel.
+participants: HPAL Process ev1.2.2.1_P1, Nickel Matte Production ev1.2.2.2_P1
+Gate: or
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subsubevent 1.2.3
+subsubevent: Cobalt Processing
+event_id: ev1.2.3
+description: Cobalt is processed to produce chemicals like cobalt sulphate, essential for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.4
+subsubevent: Graphite Processing
+event_id: ev1.2.4
+description: Graphite is processed into spherical forms for natural graphite and synthesized for synthetic graphite.
+participants: Natural Graphite Spheronization ev1.2.4.1_P1, Synthetic Graphite Production ev1.2.4.2_P1
+Gate: or
+Relations: ev1.2.4.1>ev1.2.4.2
+
+Subsubevent 1.2.5
+subsubevent: Manganese Processing
+event_id: ev1.2.5
+description: Manganese is processed to produce battery-grade manganese.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Battery Cell Components Manufacturing
+event_id: ev1.3
+description: Manufacturing battery cell components involves producing cathodes, anodes, electrolytes, and separators through sophisticated chemical processing and process engineering.
+participants: Cathode Manufacturing ev1.3.1_P1, Anode Manufacturing ev1.3.2_P1, Electrolyte Manufacturing ev1.3.3_P1, Separator Manufacturing ev1.3.4_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3, ev1.3.3>ev1.3.4
+
+Subsubevent 1.3.1
+subsubevent: Cathode Manufacturing
+event_id: ev1.3.1
+description: Cathode materials undergo multiple processes using specialized syntheses, with major manufacturers holding a significant market share.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Anode Manufacturing
+event_id: ev1.3.2
+description: Anode materials, primarily graphite, are processed naturally or synthetically, with significant production concentrated in China.
+participants: Natural Graphite Anode Manufacturing ev1.3.2.1_P1, Synthetic Graphite Anode Manufacturing ev1.3.2.2_P1
+Gate: or
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subsubevent 1.3.3
+subsubevent: Electrolyte Manufacturing
+event_id: ev1.3.3
+description: Electrolytes consist of salts and solvents, requiring synthesis and mixing, with specialized production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.4
+subsubevent: Separator Manufacturing
+event_id: ev1.3.4
+description: Separators are microporous membranes often coated with ceramic to improve EV safety, produced by specialized manufacturers.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Battery Pack Production
+event_id: ev1.4
+description: Battery packs are produced through electrode manufacturing and cell fabrication, involving cleanroom conditions and significant capital investment.
+participants: Electrode Manufacturing ev1.4.1_P1, Cell Fabrication ev1.4.2_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2
+
+Subsubevent 1.4.1
+subsubevent: Electrode Manufacturing
+event_id: ev1.4.1
+description: Electrode manufacturing involves producing electrodes for battery cells under highly controlled conditions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.2
+subsubevent: Cell Fabrication
+event_id: ev1.4.2
+description: Cell fabrication requires cleanroom conditions to avoid impurities, with the final product being integrated into battery packs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: Battery Re-Use
+event_id: ev1.5
+description: Batteries are refurbished for second-life applications such as stationary storage, involving disassembly, reassessment, and repackaging.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.6
+subevent: Battery Recycling
+event_id: ev1.6
+description: Three main methods are used for lithium-ion battery recycling: pyrometallurgical, hydrometallurgical, and bioleaching, with emerging direct recycling methods.
+participants: Pyrometallurgical ev1.6.1_P1, Hydrometallurgical ev1.6.2_P1, Bioleaching ev1.6.3_P1, Direct Recycling ev1.6.4_P1
+Gate: or
+Relations: ev1.6.1>ev1.6.2, ev1.6.2>ev1.6.3, ev1.6.3>ev1.6.4
+
+Subsubevent 1.6.1
+subsubevent: Pyrometallurgical
+event_id: ev1.6.1
+description: This method involves melting the battery in a hot furnace to recover some of the cathode metals, using extreme heat to transform metal oxides into alloys.
+participants: Metal Oxides ev1.6.1.1_P1, Cobalt ev1.6.1.2_P0.5, Copper ev1.6.1.3_P0.5, Iron ev1.6.1.4_P0.5, Nickel Alloys ev1.6.1.5_P0.5
+Gate: and
+Relations: ev1.6.1.1>ev1.6.1.2, ev1.6.1.1>ev1.6.1.3, ev1.6.1.1>ev1.6.1.4, ev1.6.1.1>ev1.6.1.5
+
+Subsubevent 1.6.2
+subsubevent: Hydrometallurgical
+event_id: ev1.6.2
+description: This method involves using aqueous solutions to leach metals out from the cathode substance through specialized solution reagents.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.6.3
+subsubevent: Bioleaching
+event_id: ev1.6.3
+description: This method uses bacteria to retrieve precious metals, which is challenging due to the time required for bacterial growth and contamination risks.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.6.4
+subsubevent: Direct Recycling
+event_id: ev1.6.4
+description: Direct recycling involves dismantling anode and cathode components, followed by maintenance, processing, and production for reuse.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Challenges across the LIBs supply and value chains
+event_id: ev2
+description: The challenges in the LIBs supply and value chains involve raw material supply and demand issues, manufacturing considerations, and environmental impacts of battery production.
+participants: Supply and Demand of Battery Raw Materials ev2.1_P1, Manufacturing Considerations ev2.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 2.1
+subevent: Supply and Demand of Battery Raw Materials
+event_id: ev2.1
+description: The supply and demand of raw materials for LIBs face critical challenges including supply risks, environmental impacts, and geopolitical issues.
+participants: Lithium Supply Issues ev2.1.1_P1, Cobalt Supply Issues ev2.1.2_P1, Graphite Supply Issues ev2.1.3_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.1.1
+subsubevent: Lithium Supply Issues
+event_id: ev2.1.1
+description: The primary challenges in lithium supply include scarcity, environmental impacts of mining, and the need for increased production to meet demand.
+participants: Lithium Scarcity ev2.1.1.1_P1, Environmental Impact of Lithium Mining ev2.1.1.2_P1, Increase in Lithium Production ev2.1.1.3_P1
+Gate: and
+Relations: ev2.1.1.1>ev2.1.1.2, ev2.1.1.2>ev2.1.1.3
+
+Subsubsubevent 2.1.1.1
+subsubsubevent: Lithium Scarcity
+event_id: ev2.1.1.1
+description: Concerns over lithium scarcity are less significant compared to cobalt but still pose challenges in meeting short-term demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.1.1.2
+subsubsubevent: Environmental Impact of Lithium Mining
+event_id: ev2.1.1.2
+description: Producing lithium requires vast amounts of energy and water, affecting local water security and agricultural production.
+participants: Water Consumption ev2.1.1.2.1_P1, Energy Consumption ev2.1.1.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 2.1.1.3
+subsubsubevent: Increase in Lithium Production
+event_id: ev2.1.1.3
+description: The mining industry needs to ramp up lithium production to meet the increasing demand for LIBs in EVs.
+participants: Direct Lithium Extraction ev2.1.1.3.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.1.2
+subsubevent: Cobalt Supply Issues
+event_id: ev2.1.2
+description: The primary challenges in cobalt supply include geopolitical instability, social issues, and concentration of refining in China.
+participants: Geopolitical Instability ev2.1.2.1_P1, Social Issues ev2.1.2.2_P1, Concentration of Refining ev2.1.2.3_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 2.1.2.1
+subsubsubevent: Geopolitical Instability
+event_id: ev2.1.2.1
+description: Most cobalt is mined in the DRC, a country with political unrest that can affect supply and price stability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.1.2.2
+subsubsubevent: Social Issues
+event_id: ev2.1.2.2
+description: Child labor and other social issues are prevalent in small-scale copper-cobalt mines in the DRC.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.1.2.3
+subsubsubevent: Concentration of Refining
+event_id: ev2.1.2.3
+description: More than half of the cobalt and copper mining companies in the DRC are Chinese-owned, prioritizing Chinese LIB manufacturers.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.3
+subsubevent: Graphite Supply Issues
+event_id: ev2.1.3
+description: Concerns over the supply of natural graphite are mainly due to its production and reserves being concentrated in China.
+participants: Production Concentration ev2.1.3.1_P1, Reserve Concentration ev2.1.3.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 2.1.3.1
+subsubsubevent: Production Concentration
+event_id: ev2.1.3.1
+description: China's dominance in graphite production poses risks for supply chain stability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.1.3.2
+subsubsubevent: Reserve Concentration
+event_id: ev2.1.3.2
+description: China's significant graphite reserves create supply risks despite the global abundance of graphite.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Manufacturing Considerations
+event_id: ev2.2
+description: Manufacturing considerations include cost reductions, environmental impacts, and energy consumption during the production of LIBs.
+participants: Cost Reduction Strategies ev2.2.1_P1, Environmental Impact ev2.2.2_P1, Energy Consumption ev2.2.3_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.2.1
+subsubevent: Cost Reduction Strategies
+event_id: ev2.2.1
+description: Strategies for reducing LIB manufacturing costs include material selection, process improvement, and design innovation.
+participants: Material Selection ev2.2.1.1_P1, Process Improvement ev2.2.1.2_P1, Design Innovation ev2.2.1.3_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 2.2.1.1
+subsubsubevent: Material Selection
+event_id: ev2.2.1.1
+description: Selecting cost-effective materials can reduce the overall manufacturing costs of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.2.1.2
+subsubsubevent: Process Improvement
+event_id: ev2.2.1.2
+description: Improving manufacturing processes can enhance efficiency and lower production costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.2.1.3
+subsubsubevent: Design Innovation
+event_id: ev2.2.1.3
+description: Innovations in battery pack and cell design can reduce costs and improve performance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.2.2
+subsubevent: Environmental Impact
+event_id: ev2.2.2
+description: The environmental impact of LIB manufacturing includes greenhouse gas emissions and energy consumption, necessitating the use of renewable energy sources.
+participants: Greenhouse Gas Emissions ev2.2.2.1_P1, Energy Consumption ev2.2.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 2.2.2.1
+subsubsubevent: Greenhouse Gas Emissions
+event_id: ev2.2.2.1
+description: The manufacturing stage is a significant contributor to the life cycle greenhouse gas emissions of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.2.2.2
+subsubsubevent: Energy Consumption
+event_id: ev2.2.2.2
+description: High energy consumption during manufacturing impacts the overall environmental footprint of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.2.3
+subsubevent: Energy Consumption
+event_id: ev2.2.3
+description: The energy used in manufacturing LIBs significantly affects their environmental impact, with a need to shift to renewable energy sources.
+participants: Renewable Energy Sources ev2.2.3.1_P1, Fossil Fuels ev2.2.3.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 2.2.3.1
+subsubsubevent: Renewable Energy Sources
+event_id: ev2.2.3.1
+description: Shifting to renewable energy sources for manufacturing can reduce the environmental impact of LIB production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 2.2.3.2
+subsubsubevent: Fossil Fuels
+event_id: ev2.2.3.2
+description: Currently, a significant portion of energy for LIB manufacturing comes from fossil fuels, increasing greenhouse gas emissions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Global Supply Chain Dynamics
+event_id: ev3
+description: The global supply chain for EV batteries is influenced by geopolitical issues, economic and trade relationships, and efforts to diversify production capacity.
+participants: Dominance of China ev3.1_P1, US Efforts to De-Couple ev3.2_P1, De-Risking Approach ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Dominance of China
+event_id: ev3.1
+description: China currently dominates the EV battery supply chain, which poses risks to global stability due to geopolitical issues affecting economic and trade relationships.
+participants: Extraction ev3.1.1_P1, Refining ev3.1.2_P1, Processing ev3.1.3_P1, Assembling ev3.1.4_P1
+Gate: and
+Relations: ev3.1.1>ev3.1.2, ev3.1.2>ev3.1.3, ev3.1.3>ev3.1.4
+
+Subsubevent 3.1.1
+subsubevent: Extraction
+event_id: ev3.1.1
+description: China is a major player in the extraction of raw materials for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.1.2
+subsubevent: Refining
+event_id: ev3.1.2
+description: China leads in the refining of raw materials, transforming them into battery-grade chemicals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.1.3
+subsubevent: Processing
+event_id: ev3.1.3
+description: China processes raw materials into components necessary for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.1.4
+subsubevent: Assembling
+event_id: ev3.1.4
+description: The final assembly of EV batteries is also predominantly carried out in China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: US Efforts to De-Couple
+event_id: ev3.2
+description: US efforts to increase domestic EV battery supply chain capacity aim to reduce dependence on China, often described as "de-coupling."
+participants: Domestic Capacity Increase ev3.2.1_P1, Criticisms ev3.2.2_P1
+Gate: and
+Relations: ev3.2.1>ev3.2.2
+
+Subsubevent 3.2.1
+subsubevent: Domestic Capacity Increase
+event_id: ev3.2.1
+description: The US is increasing its domestic capacity for EV battery production to enhance supply chain resilience.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.2.2
+subsubevent: Criticisms
+event_id: ev3.2.2
+description: Efforts to de-couple from China have faced criticisms and are often seen as an oversimplification of the issue.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: De-Risking Approach
+event_id: ev3.3
+description: The current US administration's approach, termed "de-risking," aims to diversify production capacity and reduce supply chain risks.
+participants: Diversification ev3.3.1_P1, Growth Opportunities ev3.3.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 3.3.1
+subsubevent: Diversification
+event_id: ev3.3.1
+description: Diversifying the supply chain involves seeking alternative sources and partners to reduce reliance on any single country.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.3.2
+subsubevent: Growth Opportunities
+event_id: ev3.3.2
+description: Exploring growth opportunities in emerging markets and sectors to strengthen the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Expansion of Battery and Minerals Supply Chains
+event_id: ev4
+description: Battery and minerals supply chains will have to expand ten-fold to meet government EV ambitions, with significant investment required in mining and processing.
+participants: Investment in Mining ev4.1_P1, Investment in Processing ev4.2_P1, Expansion of Production Capacity ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: Investment in Mining
+event_id: ev4.1
+description: Additional investments are needed in mining, where lead times are much longer than for other parts of the supply chain.
+participants: Lithium Mining Investments ev4.1.1_P1, Cobalt Mining Investments ev4.1.2_P1, Nickel Mining Investments ev4.1.3_P1
+Gate: and
+Relations: ev4.1.1>ev4.1.2, ev4.1.2>ev4.1.3
+
+Subsubevent 4.1.1
+subsubevent: Lithium Mining Investments
+event_id: ev4.1.1
+description: Significant investments are required to expand lithium mining operations to meet future demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.1.2
+subsubevent: Cobalt Mining Investments
+event_id: ev4.1.2
+description: Investments in cobalt mining are crucial due to the geopolitical and social challenges associated with its extraction.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.1.3
+subsubevent: Nickel Mining Investments
+event_id: ev4.1.3
+description: Expanding nickel mining operations is essential to support the growing demand for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Investment in Processing
+event_id: ev4.2
+description: Investment in processing facilities is necessary to transform raw materials into battery-grade chemicals.
+participants: Lithium Processing Investments ev4.2.1_P1, Cobalt Processing Investments ev4.2.2_P1, Nickel Processing Investments ev4.2.3_P1
+Gate: and
+Relations: ev4.2.1>ev4.2.2, ev4.2.2>ev4.2.3
+
+Subsubevent 4.2.1
+subsubevent: Lithium Processing Investments
+event_id: ev4.2.1
+description: Building and upgrading lithium processing plants to increase production capacity.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.2.2
+subsubevent: Cobalt Processing Investments
+event_id: ev4.2.2
+description: Expanding cobalt processing facilities to enhance supply chain resilience.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.2.3
+subsubevent: Nickel Processing Investments
+event_id: ev4.2.3
+description: Increasing nickel processing capacity to support battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Expansion of Production Capacity
+event_id: ev4.3
+description: Expanding production capacity for battery cells, components, and raw materials to meet future demand.
+participants: Battery Cell Production Expansion ev4.3.1_P1, Component Production Expansion ev4.3.2_P1, Raw Material Production Expansion ev4.3.3_P1
+Gate: and
+Relations: ev4.3.1>ev4.3.2, ev4.3.2>ev4.3.3
+
+Subsubevent 4.3.1
+subsubevent: Battery Cell Production Expansion
+event_id: ev4.3.1
+description: Increasing the production capacity for battery cells to meet the growing demand for EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.3.2
+subsubevent: Component Production Expansion
+event_id: ev4.3.2
+description: Expanding production of battery components such as cathodes, anodes, electrolytes, and separators.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.3.3
+subsubevent: Raw Material Production Expansion
+event_id: ev4.3.3
+description: Enhancing the production of raw materials to ensure a stable supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 5
+event: Market and Price Dynamics
+event_id: ev5
+description: Market and price dynamics are influenced by the rapid increase in EV sales, geopolitical events, and supply chain disruptions.
+participants: EV Sales Increase ev5.1_P1, Geopolitical Events ev5.2_P1, Supply Chain Disruptions ev5.3_P1
+Gate: and
+Relations: ev5.1>ev5.2, ev5.2>ev5.3
+
+Subevent 5.1
+subevent: EV Sales Increase
+event_id: ev5.1
+description: The rapid increase in EV sales has tested the resilience of battery supply chains.
+participants: Market Demand Increase ev5.1.1_P1, Supply Chain Stress ev5.1.2_P1
+Gate: and
+Relations: ev5.1.1>ev5.1.2
+
+Subsubevent 5.1.1
+subsubevent: Market Demand Increase
+event_id: ev5.1.1
+description: Increased demand for EVs has led to higher sales and a surge in battery demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 5.1.2
+subsubevent: Supply Chain Stress
+event_id: ev5.1.2
+description: The surge in battery demand has placed stress on the supply chain, highlighting its vulnerabilities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.2
+subevent: Geopolitical Events
+event_id: ev5.2
+description: Geopolitical events, such as Russia's war in Ukraine, have exacerbated supply chain issues and increased raw material prices.
+participants: War Impact ev5.2.1_P1, Raw Material Price Surge ev5.2.2_P1
+Gate: and
+Relations: ev5.2.1>ev5.2.2
+
+Subsubevent 5.2.1
+subsubevent: War Impact
+event_id: ev5.2.1
+description: Russia's war in Ukraine has disrupted supply chains and affected the availability of raw materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 5.2.2
+subsubevent: Raw Material Price Surge
+event_id: ev5.2.2
+description: The conflict has led to a surge in prices of raw materials such as cobalt, lithium, and nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.3
+subevent: Supply Chain Disruptions
+event_id: ev5.3
+description: Supply chain disruptions due to geopolitical events and market dynamics have affected the stability and cost of battery production.
+participants: Supply Shortages ev5.3.1_P1, Increased Costs ev5.3.2_P1
+Gate: and
+Relations: ev5.3.1>ev5.3.2
+
+Subsubevent 5.3.1
+subsubevent: Supply Shortages
+event_id: ev5.3.1
+description: Disruptions have led to shortages in key materials, impacting battery production schedules.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 5.3.2
+subsubevent: Increased Costs
+event_id: ev5.3.2
+description: The cost of battery production has increased due to supply shortages and higher raw material prices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 6
+event: Future Projections and Needs
+event_id: ev6
+description: Future projections indicate a significant increase in demand for EV batteries, necessitating expansion and investment in the supply chain.
+participants: Demand Projections ev6.1_P1, Investment Needs ev6.2_P1, Technological Advancements ev6.3_P1
+Gate: and
+Relations: ev6.1>ev6.2, ev6.2>ev6.3
+
+Subevent 6.1
+subevent: Demand Projections
+event_id: ev6.1
+description: Demand for EV batteries is projected to increase from around 340 GWh today to over 3500 GWh by 2030.
+participants: Projected Demand Growth ev6.1.1_P1, Impact on Supply Chain ev6.1.2_P1
+Gate: and
+Relations: ev6.1.1>ev6.1.2
+
+Subsubevent 6.1.1
+subsubevent: Projected Demand Growth
+event_id: ev6.1.1
+description: The anticipated growth in EV battery demand requires significant scaling of the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.1.2
+subsubevent: Impact on Supply Chain
+event_id: ev6.1.2
+description: The supply chain must expand to accommodate the projected demand, requiring increased capacity and efficiency.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.2
+subevent: Investment Needs
+event_id: ev6.2
+description: Significant investments are needed in mining, processing, and production to meet the future demand for EV batteries.
+participants: Short-Term Investments ev6.2.1_P1, Long-Term Investments ev6.2.2_P1
+Gate: and
+Relations: ev6.2.1>ev6.2.2
+
+Subsubevent 6.2.1
+subsubevent: Short-Term Investments
+event_id: ev6.2.1
+description: Immediate investments are required to address the current supply constraints and meet short-term demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.2.2
+subsubevent: Long-Term Investments
+event_id: ev6.2.2
+description: Long-term investments are necessary to build sustainable and resilient supply chains for future demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.3
+subevent: Technological Advancements
+event_id: ev6.3
+description: Technological advancements are crucial to improve the efficiency and capacity of EV battery production.
+participants: R&D Initiatives ev6.3.1_P1, Innovative Manufacturing Techniques ev6.3.2_P1
+Gate: and
+Relations: ev6.3.1>ev6.3.2
+
+Subsubevent 6.3.1
+subsubevent: R&D Initiatives
+event_id: ev6.3.1
+description: Research and development initiatives aim to innovate and enhance battery technologies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.3.2
+subsubevent: Innovative Manufacturing Techniques
+event_id: ev6.3.2
+description: New manufacturing techniques are being developed to increase production efficiency and reduce costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 7
+event: Environmental and Social Impacts
+event_id: ev7
+description: The environmental and social impacts of EV battery production and supply chains must be addressed to ensure sustainability.
+participants: Environmental Concerns ev7.1_P1, Social Considerations ev7.2_P1
+Gate: and
+Relations: ev7.1>ev7.2
+
+Subevent 7.1
+subevent: Environmental Concerns
+event_id: ev7.1
+description: The production of EV batteries involves significant environmental impacts, including greenhouse gas emissions and resource depletion.
+participants: Emissions Reduction ev7.1.1_P1, Sustainable Resource Use ev7.1.2_P1
+Gate: and
+Relations: ev7.1.1>ev7.1.2
+
+Subsubevent 7.1.1
+subsubevent: Emissions Reduction
+event_id: ev7.1.1
+description: Reducing emissions in the production process is critical to minimizing the environmental impact of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 7.1.2
+subsubevent: Sustainable Resource Use
+event_id: ev7.1.2
+description: Ensuring the sustainable use of resources through recycling and efficient extraction methods.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 7.2
+subevent: Social Considerations
+event_id: ev7.2
+description: Addressing social issues such as labor conditions and community impacts is essential for sustainable EV battery production.
+participants: Labor Conditions ev7.2.1_P1, Community Impacts ev7.2.2_P1
+Gate: and
+Relations: ev7.2.1>ev7.2.2
+
+Subsubevent 7.2.1
+subsubevent: Labor Conditions
+event_id: ev7.2.1
+description: Improving labor conditions in the supply chain, particularly in mining and processing sectors.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 7.2.2
+subsubevent: Community Impacts
+event_id: ev7.2.2
+description: Mitigating the negative impacts on communities near mining and processing sites.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 8
+event: Upstream, Midstream, and Downstream Supply Chain Segments
+event_id: ev8
+description: The battery supply chain can be separated into three segments: upstream (mining and extraction of raw materials), midstream (processing of raw materials into battery-grade components), and downstream (cell and pack manufacturing, as well as end-of-life recycling and reuse).
+participants: Upstream ev8.1_P1, Midstream ev8.2_P1, Downstream ev8.3_P1
+Gate: and
+Relations: ev8.1>ev8.2, ev8.2>ev8.3
+
+Subevent 8.1
+subevent: Upstream
+event_id: ev8.1
+description: Upstream activities involve the mining and extraction of raw materials critical for battery production, such as lithium, nickel, and cobalt.
+participants: Mining ev8.1.1_P1, Extraction ev8.1.2_P1
+Gate: and
+Relations: ev8.1.1>ev8.1.2
+
+Subsubevent 8.1.1
+subsubevent: Mining
+event_id: ev8.1.1
+description: Mining activities focus on the extraction of key raw materials from various geographical locations.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 8.1.2
+subsubevent: Extraction
+event_id: ev8.1.2
+description: Extraction involves obtaining raw materials from mined ores, preparing them for further processing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.2
+subevent: Midstream
+event_id: ev8.2
+description: Midstream activities include processing raw materials into battery-grade components, such as cathodes, anodes, and electrolytes.
+participants: Processing ev8.2.1_P1, Refining ev8.2.2_P1
+Gate: and
+Relations: ev8.2.1>ev8.2.2
+
+Subsubevent 8.2.1
+subsubevent: Processing
+event_id: ev8.2.1
+description: Processing involves converting raw materials into intermediate products required for battery manufacturing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 8.2.2
+subsubevent: Refining
+event_id: ev8.2.2
+description: Refining includes chemical and physical processes that produce high-purity materials for battery components.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.3
+subevent: Downstream
+event_id: ev8.3
+description: Downstream activities encompass cell and pack manufacturing, along with end-of-life recycling and reuse.
+participants: Cell Manufacturing ev8.3.1_P1, Pack Manufacturing ev8.3.2_P1, Recycling ev8.3.3_P1
+Gate: and
+Relations: ev8.3.1>ev8.3.2, ev8.3.2>ev8.3.3
+
+Subsubevent 8.3.1
+subsubevent: Cell Manufacturing
+event_id: ev8.3.1
+description: Cell manufacturing involves assembling individual battery cells from processed materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 8.3.2
+subsubevent: Pack Manufacturing
+event_id: ev8.3.2
+description: Pack manufacturing involves assembling battery cells into modules and packs for use in EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 8.3.3
+subsubevent: Recycling
+event_id: ev8.3.3
+description: Recycling involves reclaiming materials from used batteries for reuse in new batteries, reducing environmental impact.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 9
+event: Cathode Material Selection
+event_id: ev9
+description: The selection of cathode material is crucial as it accounts for over half of the battery cell cost and determines key characteristics such as energy density and charging speed.
+participants: LFP Cathode Selection ev9.1_P1, NMC Cathode Selection ev9.2_P1
+Gate: or
+Relations: ev9.1>ev9.2
+
+Subevent 9.1
+subevent: LFP Cathode Selection
+event_id: ev9.1
+description: Lithium Iron Phosphate (LFP) cathodes offer lower cost and greater stability but have lower energy density compared to other cathode materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 9.2
+subevent: NMC Cathode Selection
+event_id: ev9.2
+description: Nickel Manganese Cobalt (NMC) cathodes provide higher energy density and faster charging but involve higher costs and supply chain complexities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 10
+event: Supply Chain Vulnerability Index
+event_id: ev10
+description: The vulnerability index estimates the potential for a disruption in one country to affect the overall supply of battery cathodes given current supply chain flows.
+participants: Disruption Analysis ev10.1_P1, Trade Data Uncertainty ev10.2_P1
+Gate: and
+Relations: ev10.1>ev10.2
+
+Subevent 10.1
+subevent: Disruption Analysis
+event_id: ev10.1
+description: Analyzing the global disruption vulnerability index for LFP and NMC cathode production in key countries such as China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.2
+subevent: Trade Data Uncertainty
+event_id: ev10.2
+description: Addressing uncertainties in trade data due to unobserved intranational flows, indirect trade, and missing data, impacting supply chain vulnerability assessments.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 11
+event: Policy Recommendations
+event_id: ev11
+description: Recommendations for policy actions include funding research and development to improve LFP batteries, enhancing lithium extraction and refining processes, and diversifying supply chains to reduce reliance on high-risk materials like NMC.
+participants: R&D Funding ev11.1_P1, Supply Chain Diversification ev11.2_P1
+Gate: and
+Relations: ev11.1>ev11.2
+
+Subevent 11.1
+subevent: R&D Funding
+event_id: ev11.1
+description: Funding research and development initiatives to enhance the performance and cost-effectiveness of LFP batteries and lithium processing technologies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 11.2
+subevent: Supply Chain Diversification
+event_id: ev11.2
+description: Promoting supply chain diversification to mitigate risks associated with heavy reliance on a single country or material, ensuring stability and resilience.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 12
+event: EU Production and Diversification of Supply
+event_id: ev12
+description: The EU is expected to expand its production base for battery raw materials and components over 2022-2030, addressing dependencies and bottlenecks in the supply chain while diversifying supply sources.
+participants: Battery Raw Materials Production ev12.1_P1, Supply Chain Dependencies ev12.2_P1, Diversification of Supply Sources ev12.3_P1
+Gate: and
+Relations: ev12.1>ev12.2, ev12.2>ev12.3
+
+Subevent 12.1
+subevent: Battery Raw Materials Production
+event_id: ev12.1
+description: The EU aims to increase the production of battery raw materials, including lithium, cobalt, and nickel, to reduce dependence on imports.
+participants: Lithium Production ev12.1.1_P1, Cobalt Production ev12.1.2_P1, Nickel Production ev12.1.3_P1
+Gate: and
+Relations: ev12.1.1>ev12.1.2, ev12.1.2>ev12.1.3
+
+Subsubevent 12.1.1
+subsubevent: Lithium Production
+event_id: ev12.1.1
+description: New lithium mines are being developed within the EU to secure a stable supply of lithium for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.1.2
+subsubevent: Cobalt Production
+event_id: ev12.1.2
+description: The EU continues to rely on imports of cobalt concentrates and intermediates for conversion in its refineries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.1.3
+subsubevent: Nickel Production
+event_id: ev12.1.3
+description: Efforts are being made to increase the domestic production of nickel to support the EU's battery manufacturing needs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 12.2
+subevent: Supply Chain Dependencies
+event_id: ev12.2
+description: The EU will remain dependent on imports for certain raw materials, creating vulnerabilities in the supply chain.
+participants: Cobalt Dependency ev12.2.1_P1, Nickel Dependency ev12.2.2_P1, Lithium Refining ev12.2.3_P1
+Gate: and
+Relations: ev12.2.1>ev12.2.2, ev12.2.2>ev12.2.3
+
+Subsubevent 12.2.1
+subsubevent: Cobalt Dependency
+event_id: ev12.2.1
+description: The EU will continue to be dependent on imports of cobalt concentrates and intermediates.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.2.2
+subsubevent: Nickel Dependency
+event_id: ev12.2.2
+description: The EU will remain dependent on imports of nickel concentrates and intermediates.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.2.3
+subsubevent: Lithium Refining
+event_id: ev12.2.3
+description: Most inputs for producing refined lithium compounds will originate from new lithium mines within the EU.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 12.3
+subevent: Diversification of Supply Sources
+event_id: ev12.3
+description: The EU is seeking to diversify its supply sources to reduce risks associated with reliance on a limited number of countries for raw materials.
+participants: Australia and Canada Supply ev12.3.1_P1, South America Supply ev12.3.2_P1, African Supply ev12.3.3_P1, North America Supply ev12.3.4_P1, European Supply ev12.3.5_P1
+Gate: or
+Relations: ev12.3.1>ev12.3.2, ev12.3.2>ev12.3.3, ev12.3.3>ev12.3.4, ev12.3.4>ev12.3.5
+
+Subsubevent 12.3.1
+subsubevent: Australia and Canada Supply
+event_id: ev12.3.1
+description: Australia and Canada have the potential to provide additional and low-risk supply to the EU.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.3.2
+subsubevent: South America Supply
+event_id: ev12.3.2
+description: Argentina and Chile are expected to be significant suppliers of lithium chemicals to the EU.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.3.3
+subsubevent: African Supply
+event_id: ev12.3.3
+description: Mozambique and Tanzania are key suppliers of natural graphite to the EU.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.3.4
+subsubevent: North America Supply
+event_id: ev12.3.4
+description: The USA is anticipated to be a significant supplier of refined graphite to the EU.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 12.3.5
+subsubevent: European Supply
+event_id: ev12.3.5
+description: In Europe, Serbia is a likely source of lithium minerals, and Norway is a reliable source of flake and refined graphite.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 13
+event: Supply Chain Risks
+event_id: ev13
+description: The supply chain for EV batteries faces various risks, including sustainability challenges, political instability, human rights issues, and environmental justice concerns.
+participants: Sustainability Challenges ev13.1_P1, Political Instability ev13.2_P1, Human Rights Concerns ev13.3_P1, Environmental Justice ev13.4_P1
+Gate: and
+Relations: ev13.1>ev13.2, ev13.2>ev13.3, ev13.3>ev13.4
+
+Subevent 13.1
+subevent: Sustainability Challenges
+event_id: ev13.1
+description: Sustainability challenges in the EV battery supply chain include the environmental impact of mining and the need for sustainable practices in material extraction and processing.
+participants: Environmental Impact ev13.1.1_P1, Sustainable Practices ev13.1.2_P1
+Gate: and
+Relations: ev13.1.1>ev13.1.2
+
+Subsubevent 13.1.1
+subsubevent: Environmental Impact
+event_id: ev13.1.1
+description: The environmental impact of mining includes habitat destruction, water contamination, and greenhouse gas emissions.
+participants: Habitat Destruction ev13.1.1.1_P1, Water Contamination ev13.1.1.2_P1, Greenhouse Gas Emissions ev13.1.1.3_P1
+Gate: and
+Relations: ev13.1.1.1>ev13.1.1.2, ev13.1.1.2>ev13.1.1.3
+
+Subsubsubevent 13.1.1.1
+subsubsubevent: Habitat Destruction
+event_id: ev13.1.1.1
+description: Mining activities can lead to the destruction of natural habitats, affecting biodiversity and ecosystems.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 13.1.1.2
+subsubsubevent: Water Contamination
+event_id: ev13.1.1.2
+description: Mining operations can contaminate local water sources with heavy metals and other pollutants, impacting local communities and wildlife.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 13.1.1.3
+subsubsubevent: Greenhouse Gas Emissions
+event_id: ev13.1.1.3
+description: The extraction and processing of raw materials for EV batteries contribute to greenhouse gas emissions, exacerbating climate change.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 13.1.2
+subsubevent: Sustainable Practices
+event_id: ev13.1.2
+description: Implementing sustainable practices in mining and processing can mitigate environmental impacts and improve the overall sustainability of the supply chain.
+participants: Green Mining Techniques ev13.1.2.1_P1, Recycling and Reuse ev13.1.2.2_P1
+Gate: and
+Relations: ev13.1.2.1>ev13.1.2.2
+
+Subsubsubevent 13.1.2.1
+subsubsubevent: Green Mining Techniques
+event_id: ev13.1.2.1
+description: Techniques such as reduced chemical use, lower energy consumption, and minimal waste production are considered green mining techniques.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 13.1.2.2
+subsubsubevent: Recycling and Reuse
+event_id: ev13.1.2.2
+description: Recycling and reusing materials can reduce the need for new raw material extraction and decrease the environmental footprint of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 13.2
+subevent: Political Instability
+event_id: ev13.2
+description: Political instability in countries with significant mineral deposits can disrupt the supply chain for EV batteries.
+participants: Country-Specific Instabilities ev13.2.1_P1, International Sanctions ev13.2.2_P1
+Gate: or
+Relations: ev13.2.1>ev13.2.2
+
+Subsubevent 13.2.1
+subsubevent: Country-Specific Instabilities
+event_id: ev13.2.1
+description: Countries like the Democratic Republic of Congo, which is a major producer of cobalt, face political unrest that can impact mining operations.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 13.2.2
+subsubevent: International Sanctions
+event_id: ev13.2.2
+description: Sanctions imposed by other countries can affect the export of critical minerals, disrupting the global supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 13.3
+subevent: Human Rights Concerns
+event_id: ev13.3
+description: Human rights issues, including child labor and poor working conditions, are prevalent in some mineral extraction industries.
+participants: Child Labor ev13.3.1_P1, Working Conditions ev13.3.2_P1
+Gate: and
+Relations: ev13.3.1>ev13.3.2
+
+Subsubevent 13.3.1
+subsubevent: Child Labor
+event_id: ev13.3.1
+description: Child labor is a significant concern in artisanal and small-scale mining operations in some countries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 13.3.2
+subsubevent: Working Conditions
+event_id: ev13.3.2
+description: Working conditions in some mining operations are poor, with inadequate safety measures and low wages.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 13.4
+subevent: Environmental Justice
+event_id: ev13.4
+description: The extraction of minerals in the Global South for manufacturing batteries and vehicles consumed in the Global North can replicate patterns of injustice and colonialism.
+participants: Inequitable Resource Distribution ev13.4.1_P1, Exploitative Practices ev13.4.2_P1
+Gate: and
+Relations: ev13.4.1>ev13.4.2
+
+Subsubevent 13.4.1
+subsubevent: Inequitable Resource Distribution
+event_id: ev13.4.1
+description: Resources are often extracted from the Global South but benefit the Global North, leading to inequitable economic benefits.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 13.4.2
+subsubevent: Exploitative Practices
+event_id: ev13.4.2
+description: Exploitative practices in mining and processing can lead to environmental degradation and social injustice.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 14
+event: Financial Challenges
+event_id: ev14
+description: Batteries are expensive components and must be managed carefully for the entire EV supply chain to remain cost-effective. This includes reducing costs on raw materials and finding new funding sources.
+participants: Cost Reduction Strategies ev14.1_P1, Funding Sources ev14.2_P1
+Gate: and
+Relations: ev14.1>ev14.2
+
+Subevent 14.1
+subevent: Cost Reduction Strategies
+event_id: ev14.1
+description: Strategies to reduce costs include optimizing raw material sourcing and improving production efficiency.
+participants: Raw Material Sourcing ev14.1.1_P1, Production Efficiency ev14.1.2_P1
+Gate: and
+Relations: ev14.1.1>ev14.1.2
+
+Subsubevent 14.1.1
+subsubevent: Raw Material Sourcing
+event_id: ev14.1.1
+description: Sourcing raw materials at lower costs can significantly reduce the overall cost of battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 14.1.2
+subsubevent: Production Efficiency
+event_id: ev14.1.2
+description: Improving production processes can enhance efficiency and lower production costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 14.2
+subevent: Funding Sources
+event_id: ev14.2
+description: New funding sources, such as government subsidies or tax breaks, are essential to support the EV battery supply chain.
+participants: Government Subsidies ev14.2.1_P1, Tax Breaks ev14.2.2_P1
+Gate: or
+Relations: ev14.2.1>ev14.2.2
+
+Subsubevent 14.2.1
+subsubevent: Government Subsidies
+event_id: ev14.2.1
+description: Government subsidies can provide financial support to reduce the cost burden on battery manufacturers.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 14.2.2
+subsubevent: Tax Breaks
+event_id: ev14.2.2
+description: Tax breaks can incentivize investments in the EV battery supply chain by reducing overall tax liabilities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 15
+event: Role of Manufacturers
+event_id: ev15
+description: Manufacturers play a crucial role in the EV battery supply chain by developing efficient strategies and processes to meet growing demand.
+participants: Production Strategies ev15.1_P1, Process Improvements ev15.2_P1
+Gate: and
+Relations: ev15.1>ev15.2
+
+Subevent 15.1
+subevent: Production Strategies
+event_id: ev15.1
+description: Manufacturers must develop production strategies to scale up battery production efficiently.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 15.2
+subevent: Process Improvements
+event_id: ev15.2
+description: Continuous process improvements are necessary to maintain high quality and reduce production costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 16
+event: Role of Logistics Companies
+event_id: ev16
+description: Logistics companies are responsible for transporting goods and materials, ensuring efficient delivery of raw materials to manufacturers and finished products to customers.
+participants: Transportation ev16.1_P1, Inventory Management ev16.2_P1
+Gate: and
+Relations: ev16.1>ev16.2
+
+Subevent 16.1
+subevent: Transportation
+event_id: ev16.1
+description: Efficient transportation systems are essential for timely delivery of raw materials and finished products.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 16.2
+subevent: Inventory Management
+event_id: ev16.2
+description: Effective inventory management helps reduce costs associated with overstocking or stockouts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 17
+event: Impact of Regulations
+event_id: ev17
+description: Regulations affect both manufacturers and consumers, as well as local governments, influencing how batteries are sourced, manufactured, tested, transported, and stored.
+participants: Regulatory Compliance ev17.1_P1, Environmental Regulations ev17.2_P1
+Gate: and
+Relations: ev17.1>ev17.2
+
+Subevent 17.1
+subevent: Regulatory Compliance
+event_id: ev17.1
+description: Ensuring compliance with safety and quality regulations is crucial for all supply chain participants.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 17.2
+subevent: Environmental Regulations
+event_id: ev17.2
+description: Environmental regulations dictate the sustainable practices required in sourcing, manufacturing, and recycling batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 18
+event: Impact of Regulations
+event_id: ev18
+description: Regulations have a significant impact on the global EV battery supply chain, affecting manufacturers, consumers, and local governments.
+participants: Production Regulations ev18.1_P1, Sales Regulations ev18.2_P1, Usage Regulations ev18.3_P1
+Gate: and
+Relations: ev18.1>ev18.2, ev18.2>ev18.3
+
+Subevent 18.1
+subevent: Production Regulations
+event_id: ev18.1
+description: Regulations affecting the production of EV batteries, including environmental standards and safety requirements.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 18.2
+subevent: Sales Regulations
+event_id: ev18.2
+description: Regulations affecting the sale of EVs and EV batteries, including incentives and restrictions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 18.3
+subevent: Usage Regulations
+event_id: ev18.3
+description: Regulations affecting the usage of EVs, including emission standards and infrastructure requirements.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 19
+event: Latest Supply Chain Innovations and Trends
+event_id: ev19
+description: Recent innovations and trends in the EV battery supply chain have enabled manufacturers to produce high-quality batteries at lower costs.
+participants: Automation ev19.1_P1, Robotics ev19.2_P1, Digitalization ev19.3_P1, Blockchain Technology ev19.4_P1
+Gate: and
+Relations: ev19.1>ev19.2, ev19.2>ev19.3, ev19.3>ev19.4
+
+Subevent 19.1
+subevent: Automation
+event_id: ev19.1
+description: Automation is being integrated into the production process, resulting in improved efficiency and cost savings.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 19.2
+subevent: Robotics
+event_id: ev19.2
+description: Robotics are used to automate repetitive tasks such as material handling, packaging, and assembly line operations.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 19.3
+subevent: Digitalization
+event_id: ev19.3
+description: Digital tools provide companies with real-time access to data about their supply chains, allowing for more informed decisions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 19.4
+subevent: Blockchain Technology
+event_id: ev19.4
+description: Blockchain technology is utilized to improve visibility and traceability across the entire value chain, from raw materials sourcing to final deliveries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 20
+event: Investment in Global EV Battery Supply Chain
+event_id: ev20
+description: Investing in a robust global EV battery supply chain can transform the automotive industry, providing better access to clean energy sources and creating new opportunities.
+participants: Strategic Planning ev20.1_P1, Infrastructure Development ev20.2_P1, Market Expansion ev20.3_P1
+Gate: and
+Relations: ev20.1>ev20.2, ev20.2>ev20.3
+
+Subevent 20.1
+subevent: Strategic Planning
+event_id: ev20.1
+description: Strategic planning is essential to manage the components of the EV battery supply chain efficiently.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 20.2
+subevent: Infrastructure Development
+event_id: ev20.2
+description: Developing infrastructure to support the production, distribution, and recycling of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 20.3
+subevent: Market Expansion
+event_id: ev20.3
+description: Expanding the market for EV batteries through investments in new technologies and expanding production capacity.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 21
+event: Supply Chain Management
+event_id: ev21
+description: Effective supply chain management is crucial for ensuring reliable delivery of high-quality EV batteries at competitive prices.
+participants: Information Management ev21.1_P1, Logistics Optimization ev21.2_P1, Risk Management ev21.3_P1
+Gate: and
+Relations: ev21.1>ev21.2, ev21.2>ev21.3
+
+Subevent 21.1
+subevent: Information Management
+event_id: ev21.1
+description: Accurate information about every aspect of the supply chain is essential to identify potential weaknesses before they become serious problems.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 21.2
+subevent: Logistics Optimization
+event_id: ev21.2
+description: Optimizing logistics to ensure efficient transportation of raw materials to manufacturers and finished products to customers.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 21.3
+subevent: Risk Management
+event_id: ev21.3
+description: Managing risks associated with the supply chain to ensure stability and resilience.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 22
+event: Environmental Protection
+event_id: ev22
+description: Ensuring environmental protection in the EV battery supply chain involves compliance with safety regulations and minimizing environmental impact.
+participants: Compliance ev22.1_P1, Sustainable Practices ev22.2_P1
+Gate: and
+Relations: ev22.1>ev22.2
+
+Subevent 22.1
+subevent: Compliance
+event_id: ev22.1
+description: Compliance with safety regulations and environmental standards is essential for the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 22.2
+subevent: Sustainable Practices
+event_id: ev22.2
+description: Implementing sustainable practices to minimize the environmental impact of the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 23
+event: Battery Performance Management
+event_id: ev23
+description: Managing the performance of EV batteries in end-use applications to ensure customers receive optimal performance over time.
+participants: Performance Monitoring ev23.1_P1, Maintenance Strategies ev23.2_P1
+Gate: and
+Relations: ev23.1>ev23.2
+
+Subevent 23.1
+subevent: Performance Monitoring
+event_id: ev23.1
+description: Monitoring the performance of EV batteries to identify any issues and ensure they are functioning optimally.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 23.2
+subevent: Maintenance Strategies
+event_id: ev23.2
+description: Developing maintenance strategies to prolong the lifespan of EV batteries and ensure their reliability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 24
+event: Global Supply Chain Collaboration
+event_id: ev24
+description: Collaboration among global stakeholders is crucial for the effective management and development of the EV battery supply chain.
+participants: International Partnerships ev24.1_P1, Industry Standards ev24.2_P1, Information Sharing ev24.3_P1
+Gate: and
+Relations: ev24.1>ev24.2, ev24.2>ev24.3
+
+Subevent 24.1
+subevent: International Partnerships
+event_id: ev24.1
+description: Building international partnerships to enhance the global EV battery supply chain through shared resources and expertise.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 24.2
+subevent: Industry Standards
+event_id: ev24.2
+description: Establishing industry standards to ensure quality and consistency in EV battery production and supply.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 24.3
+subevent: Information Sharing
+event_id: ev24.3
+description: Promoting information sharing among stakeholders to improve transparency and efficiency in the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 25
+event: Role of R&D in Supply Chain
+event_id: ev25
+description: Research and development play a pivotal role in advancing the EV battery supply chain, driving innovations and improvements.
+participants: R&D Initiatives ev25.1_P1, Technological Innovations ev25.2_P1
+Gate: and
+Relations: ev25.1>ev25.2
+
+Subevent 25.1
+subevent: R&D Initiatives
+event_id: ev25.1
+description: Investing in research and development to discover new materials and methods to enhance the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 25.2
+subevent: Technological Innovations
+event_id: ev25.2
+description: Developing technological innovations that improve the efficiency and performance of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 26
+event: Supply Chain Digitalization
+event_id: ev26
+description: Digitalization of the supply chain offers opportunities for enhanced efficiency, transparency, and responsiveness.
+participants: Digital Tools ev26.1_P1, Data Analytics ev26.2_P1
+Gate: and
+Relations: ev26.1>ev26.2
+
+Subevent 26.1
+subevent: Digital Tools
+event_id: ev26.1
+description: Implementing digital tools to streamline supply chain processes and improve coordination among stakeholders.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 26.2
+subevent: Data Analytics
+event_id: ev26.2
+description: Utilizing data analytics to gain insights into supply chain performance and identify areas for improvement.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 27
+event: Customer Experience Enhancement
+event_id: ev27
+description: Enhancing the customer experience by ensuring reliable and high-performing EV batteries.
+participants: Customer Feedback ev27.1_P1, Service Quality ev27.2_P1
+Gate: and
+Relations: ev27.1>ev27.2
+
+Subevent 27.1
+subevent: Customer Feedback
+event_id: ev27.1
+description: Collecting and analyzing customer feedback to improve the quality and performance of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 27.2
+subevent: Service Quality
+event_id: ev27.2
+description: Ensuring high service quality in the maintenance and support of EV batteries to enhance customer satisfaction.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 28
+event: Market Expansion Strategies
+event_id: ev28
+description: Strategies to expand the market for EV batteries, including entering new geographic regions and targeting different customer segments.
+participants: Geographic Expansion ev28.1_P1, Customer Segmentation ev28.2_P1
+Gate: and
+Relations: ev28.1>ev28.2
+
+Subevent 28.1
+subevent: Geographic Expansion
+event_id: ev28.1
+description: Expanding into new geographic regions to increase market share and meet growing demand for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 28.2
+subevent: Customer Segmentation
+event_id: ev28.2
+description: Targeting different customer segments with tailored products and services to enhance market penetration.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 29
+event: Role of AI in Supply Chain
+event_id: ev29
+description: Artificial intelligence is used to optimize supply chain operations, enhance forecasting accuracy, and improve decision-making.
+participants: AI for Forecasting ev29.1_P1, AI for Optimization ev29.2_P1
+Gate: and
+Relations: ev29.1>ev29.2
+
+Subevent 29.1
+subevent: AI for Forecasting
+event_id: ev29.1
+description: Using AI to improve forecasting accuracy and anticipate demand fluctuations in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 29.2
+subevent: AI for Optimization
+event_id: ev29.2
+description: Implementing AI solutions to optimize supply chain operations and enhance efficiency.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 30
+event: Environmental Sustainability Initiatives
+event_id: ev30
+description: Initiatives aimed at enhancing environmental sustainability in the EV battery supply chain, including reducing emissions and promoting recycling.
+participants: Emission Reduction Initiatives ev30.1_P1, Recycling Programs ev30.2_P1
+Gate: and
+Relations: ev30.1>ev30.2
+
+Subevent 30.1
+subevent: Emission Reduction Initiatives
+event_id: ev30.1
+description: Initiatives to reduce emissions during the production and transportation of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 30.2
+subevent: Recycling Programs
+event_id: ev30.2
+description: Programs to promote the recycling of EV batteries and reduce environmental impact.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 31
+event: Workforce Development
+event_id: ev31
+description: Developing a skilled workforce to support the growing EV battery supply chain through training and education programs.
+participants: Training Programs ev31.1_P1, Education Initiatives ev31.2_P1
+Gate: and
+Relations: ev31.1>ev31.2
+
+Subevent 31.1
+subevent: Training Programs
+event_id: ev31.1
+description: Implementing training programs to equip workers with the necessary skills for the EV battery industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 31.2
+subevent: Education Initiatives
+event_id: ev31.2
+description: Developing education initiatives to attract new talent and build expertise in EV battery technologies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 32
+event: Economic Impact
+event_id: ev32
+description: Analyzing the economic impact of the EV battery supply chain, including job creation and economic growth.
+participants: Job Creation ev32.1_P1, Economic Growth ev32.2_P1
+Gate: and
+Relations: ev32.1>ev32.2
+
+Subevent 32.1
+subevent: Job Creation
+event_id: ev32.1
+description: The expansion of the EV battery supply chain is expected to create numerous jobs in manufacturing, logistics, and R&D.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 32.2
+subevent: Economic Growth
+event_id: ev32.2
+description: The growth of the EV battery industry contributes to overall economic growth through increased investment and technological advancements.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 33
+event: Policy and Regulatory Support
+event_id: ev33
+description: Government policies and regulations play a crucial role in supporting the development of the EV battery supply chain.
+participants: Incentives ev33.1_P1, Regulations ev33.2_P1
+Gate: and
+Relations: ev33.1>ev33.2
+
+Subevent 33.1
+subevent: Incentives
+event_id: ev33.1
+description: Government incentives, such as subsidies and tax breaks, encourage investment in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 33.2
+subevent: Regulations
+event_id: ev33.2
+description: Regulations set standards for environmental protection, safety, and quality in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 34
+event: Supply Chain Resilience
+event_id: ev34
+description: Building resilience in the EV battery supply chain to withstand disruptions and ensure continuous operations.
+participants: Risk Mitigation ev34.1_P1, Contingency Planning ev34.2_P1
+Gate: and
+Relations: ev34.1>ev34.2
+
+Subevent 34.1
+subevent: Risk Mitigation
+event_id: ev34.1
+description: Identifying and mitigating risks in the supply chain to prevent disruptions and maintain stability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 34.2
+subevent: Contingency Planning
+event_id: ev34.2
+description: Developing contingency plans to ensure the supply chain can quickly recover from disruptions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 35
+event: Global Trade Dynamics
+event_id: ev35
+description: The dynamics of global trade affect the EV battery supply chain, including trade agreements and tariffs.
+participants: Trade Agreements ev35.1_P1, Tariffs ev35.2_P1
+Gate: and
+Relations: ev35.1>ev35.2
+
+Subevent 35.1
+subevent: Trade Agreements
+event_id: ev35.1
+description: Trade agreements between countries can facilitate or hinder the flow of raw materials and finished products in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 35.2
+subevent: Tariffs
+event_id: ev35.2
+description: Tariffs imposed on imports and exports can impact the cost and availability of materials and components in the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 36
+event: Technological Integration
+event_id: ev36
+description: Integrating new technologies into the EV battery supply chain to enhance efficiency, reduce costs, and improve performance.
+participants: Advanced Manufacturing Techniques ev36.1_P1, Smart Supply Chain Solutions ev36.2_P1
+Gate: and
+Relations: ev36.1>ev36.2
+
+Subevent 36.1
+subevent: Advanced Manufacturing Techniques
+event_id: ev36.1
+description: Implementing advanced manufacturing techniques to improve the production of EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 36.2
+subevent: Smart Supply Chain Solutions
+event_id: ev36.2
+description: Utilizing smart supply chain solutions, such as IoT and AI, to enhance visibility and coordination in the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 37
+event: Environmental, Social, and Governance (ESG) Criteria
+event_id: ev37
+description: Meeting ESG criteria is increasingly important for companies in the EV battery supply chain to ensure sustainability and social responsibility.
+participants: Environmental Criteria ev37.1_P1, Social Criteria ev37.2_P1, Governance Criteria ev37.3_P1
+Gate: and
+Relations: ev37.1>ev37.2, ev37.2>ev37.3
+
+Subevent 37.1
+subevent: Environmental Criteria
+event_id: ev37.1
+description: Adhering to environmental criteria to minimize the impact of EV battery production on the environment.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 37.2
+subevent: Social Criteria
+event_id: ev37.2
+description: Meeting social criteria to ensure fair labor practices and positive community impacts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 37.3
+subevent: Governance Criteria
+event_id: ev37.3
+description: Implementing strong governance practices to ensure ethical business operations and compliance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 38
+event: Criticality of LIB Value Chains
+event_id: ev38
+description: The criticality of material value chains in LIB development is crucial for understanding supply risks and informing battery technology development.
+participants: ESSENZ Method ev38.1_P1, LIB Cell Criticality Scores ev38.2_P1, Environmental Midpoint Impacts ev38.3_P1
+Gate: and
+Relations: ev38.1>ev38.2, ev38.2>ev38.3
+
+Subevent 38.1
+subevent: ESSENZ Method
+event_id: ev38.1
+description: The ESSENZ method is used to systematically assess eleven criticality aspects of ten LIB cells.
+participants: Criticality Aspects ev38.1.1_P1, LIB Cells ev38.1.2_P1
+Gate: and
+Relations: ev38.1.1>ev38.1.2
+
+Subsubevent 38.1.1
+subsubevent: Criticality Aspects
+event_id: ev38.1.1
+description: Eleven criticality aspects are assessed, including political stability, mining capacity, trade barriers, and more.
+participants: Political Stability ev38.1.1.1_P1, Mining Capacity ev38.1.1.2_P1, Trade Barriers ev38.1.1.3_P1, Feasibility of Exploration Projects ev38.1.1.4_P1, Occurrence of Co-Production ev38.1.1.5_P1, Demand Growth ev38.1.1.6_P1, Concentration of Reserves ev38.1.1.7_P1, Concentration of Production ev38.1.1.8_P1, Primary Material Used ev38.1.1.9_P1, Price Volatility ev38.1.1.10_P1, Company Concentration ev38.1.1.11_P1
+Gate: and
+Relations: ev38.1.1.1>ev38.1.1.2, ev38.1.1.2>ev38.1.1.3, ev38.1.1.3>ev38.1.1.4, ev38.1.1.4>ev38.1.1.5, ev38.1.1.5>ev38.1.1.6, ev38.1.1.6>ev38.1.1.7, ev38.1.1.7>ev38.1.1.8, ev38.1.1.8>ev38.1.1.9, ev38.1.1.9>ev38.1.1.10, ev38.1.1.10>ev38.1.1.11
+
+Subsubevent 38.1.2
+subsubevent: LIB Cells
+event_id: ev38.1.2
+description: Ten LIB cells are assessed using the ESSENZ method for criticality scores.
+participants: LFP Cell ev38.1.2.1_P1, LMO Cell ev38.1.2.2_P1, NMC111 Cell ev38.1.2.3_P1, NMC811 Cell ev38.1.2.4_P1, LMO-LTO Cell ev38.1.2.5_P1, NMC-Si Cell ev38.1.2.6_P1, Other LIB Cells ev38.1.2.7_P1
+Gate: and
+Relations: ev38.1.2.1>ev38.1.2.2, ev38.1.2.2>ev38.1.2.3, ev38.1.2.3>ev38.1.2.4, ev38.1.2.4>ev38.1.2.5, ev38.1.2.5>ev38.1.2.6, ev38.1.2.6>ev38.1.2.7
+
+Subevent 38.2
+subevent: LIB Cell Criticality Scores
+event_id: ev38.2
+description: Criticality scores of LIB cells are evaluated by aggregating the criticality scores of their constituent value chains.
+participants: Aggregated Criticality Scores ev38.2.1_P1, Constituent Value Chains ev38.2.2_P1
+Gate: and
+Relations: ev38.2.1>ev38.2.2
+
+Subsubevent 38.2.1
+subsubevent: Aggregated Criticality Scores
+event_id: ev38.2.1
+description: The aggregated scores reflect the overall criticality of each LIB cell.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 38.2.2
+subsubevent: Constituent Value Chains
+event_id: ev38.2.2
+description: Constituent value chains of LIB cells include mining, processing, and production of critical materials.
+participants: Cobalt Value Chain ev38.2.2.1_P1, Lithium Value Chain ev38.2.2.2_P1, Nickel Value Chain ev38.2.2.3_P1, Graphite Value Chain ev38.2.2.4_P1
+Gate: and
+Relations: ev38.2.2.1>ev38.2.2.2, ev38.2.2.2>ev38.2.2.3, ev38.2.2.3>ev38.2.2.4
+
+Subevent 38.3
+subevent: Environmental Midpoint Impacts
+event_id: ev38.3
+description: Twelve environmental midpoint impacts are assessed using life cycle assessments to complement criticality scores.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 39
+event: Criticality of Battery Value Chains and Aggregate Cell Chemistry Scores
+event_id: ev39
+description: This study identifies the criticality scores of different battery chemistries and the main contributors to these scores.
+participants: Political Stability ev39.1_P1, Demand Growth ev39.2_P1, Concentration of Reserves and Production ev39.3_P1, Primary Material Use ev39.4_P1, Company Concentration ev39.5_P1, Price Volatility ev39.6_P1
+Gate: and
+Relations: ev39.1>ev39.2, ev39.2>ev39.3, ev39.3>ev39.4, ev39.4>ev39.5, ev39.5>ev39.6
+
+Subevent 39.1
+subevent: Political Stability
+event_id: ev39.1
+description: The criticality score for political stability is driven by graphite and cobalt value chains.
+participants: Graphite Value Chain ev39.1.1_P1, Cobalt Value Chain ev39.1.2_P1
+Gate: and
+Relations: ev39.1.1>ev39.1.2
+
+Subsubevent 39.1.1
+subsubevent: Graphite Value Chain
+event_id: ev39.1.1
+description: The graphite value chain has high political instability due to the concentration of production in China and other high WGI score countries.
+participants: China ev39.1.1.1_P1, Brazil ev39.1.1.2_P1, Mozambique ev39.1.1.3_P1, Madagascar ev39.1.1.4_P1, India ev39.1.1.5_P1
+Gate: and
+Relations: ev39.1.1.1>ev39.1.1.2, ev39.1.1.2>ev39.1.1.3, ev39.1.1.3>ev39.1.1.4, ev39.1.1.4>ev39.1.1.5
+
+Subsubevent 39.1.2
+subsubevent: Cobalt Value Chain
+event_id: ev39.1.2
+description: The cobalt value chain has high political instability due to the concentration of production in the Democratic Republic of Congo.
+participants: Democratic Republic of Congo ev39.1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 39.2
+subevent: Demand Growth
+event_id: ev39.2
+description: Lithium is driving high demand growth scores across all chemistries, followed by cobalt for cobalt-containing chemistries.
+participants: Lithium Demand Growth ev39.2.1_P1, Cobalt Demand Growth ev39.2.2_P1
+Gate: and
+Relations: ev39.2.1>ev39.2.2
+
+Subsubevent 39.2.1
+subsubevent: Lithium Demand Growth
+event_id: ev39.2.1
+description: The demand for lithium increased by over 50% between 2016 and 2017 due to the fast development of electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 39.2.2
+subsubevent: Cobalt Demand Growth
+event_id: ev39.2.2
+description: Cobalt demand reduces during the transition from NMC111 to NMC811, while nickel demand grows progressively.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 39.3
+subevent: Concentration of Reserves and Production
+event_id: ev39.3
+description: Lithium has the highest score for concentration of reserves and production across all chemistries.
+participants: Lithium Reserves ev39.3.1_P1, Lithium Production ev39.3.2_P1
+Gate: and
+Relations: ev39.3.1>ev39.3.2
+
+Subsubevent 39.3.1
+subsubevent: Lithium Reserves
+event_id: ev39.3.1
+description: Almost half of the global lithium reserves are in Chile, with other reserves in Australia, Argentina, China, and the USA.
+participants: Chile ev39.3.1.1_P1, Australia ev39.3.1.2_P1, Argentina ev39.3.1.3_P1, China ev39.3.1.4_P1, USA ev39.3.1.5_P1
+Gate: and
+Relations: ev39.3.1.1>ev39.3.1.2, ev39.3.1.2>ev39.3.1.3, ev39.3.1.3>ev39.3.1.4, ev39.3.1.4>ev39.3.1.5
+
+Subsubevent 39.3.2
+subsubevent: Lithium Production
+event_id: ev39.3.2
+description: Lithium production is mostly concentrated in Australia, which accounts for nearly 80% of the global production.
+participants: Australia ev39.3.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 39.4
+subevent: Primary Material Use
+event_id: ev39.4
+description: Lithium dominates the primary material use category due to its low recycling potential at the end-of-life.
+participants: Lithium Use ev39.4.1_P1, Graphite Use ev39.4.2_P1, Cobalt Use ev39.4.3_P1
+Gate: and
+Relations: ev39.4.1>ev39.4.2, ev39.4.2>ev39.4.3
+
+Subsubevent 39.4.1
+subsubevent: Lithium Use
+event_id: ev39.4.1
+description: The primary material use of lithium is critical due to its low recycling potential.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 39.4.2
+subsubevent: Graphite Use
+event_id: ev39.4.2
+description: Graphite contributes to criticality scores in primary material use due to low recycling potentials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 39.4.3
+subsubevent: Cobalt Use
+event_id: ev39.4.3
+description: Cobalt also contributes to criticality scores in primary material use due to low recycling potentials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 39.5
+subevent: Company Concentration
+event_id: ev39.5
+description: Graphite has the highest impact in company concentration, except for NMC-Si and LMO-LTO chemistries.
+participants: Graphite Production Companies ev39.5.1_P1, NMC-Si Chemistries ev39.5.2_P1, LMO-LTO Chemistries ev39.5.3_P1
+Gate: or
+Relations: ev39.5.1>ev39.5.2, ev39.5.2>ev39.5.3
+
+Subsubevent 39.5.1
+subsubevent: Graphite Production Companies
+event_id: ev39.5.1
+description: A major amount of graphite is produced by a small number of companies in India, China, and Brazil.
+participants: India ev39.5.1.1_P1, China ev39.5.1.2_P1, Brazil ev39.5.1.3_P1
+Gate: and
+Relations: ev39.5.1.1>ev39.5.1.2, ev39.5.1.2>ev39.5.1.3
+
+Subsubevent 39.5.2
+subsubevent: NMC-Si Chemistries
+event_id: ev39.5.2
+description: NMC-Si chemistries are driven by silicon instead of graphite.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 39.5.3
+subsubevent: LMO-LTO Chemistries
+event_id: ev39.5.3
+description: LMO-LTO chemistries are driven by copper.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 39.6
+subevent: Price Volatility
+event_id: ev39.6
+description: Nickel dominates the price volatility category, partly influencing the mining capacity category.
+participants: Nickel Price Volatility ev39.6.1_P1, Mining Capacity ev39.6.2_P1
+Gate: and
+Relations: ev39.6.1>ev39.6.2
+
+Subsubevent 39.6.1
+subsubevent: Nickel Price Volatility
+event_id: ev39.6.1
+description: Nickel is the only dominating material in the price volatility category.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 39.6.2
+subsubevent: Mining Capacity
+event_id: ev39.6.2
+description: Nickel partly influences the mining capacity category due to its criticality.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 40
+event: Advanced Warehouse Configurations in EV Battery Supply Chain
+event_id: ev40
+description: Analysis of different configurations for advanced warehouses in EV battery supply chain to minimize costs and risks.
+participants: Scenario A ev40.1_P1, Scenario B ev40.2_P1, Scenario C ev40.3_P1, Scenario D ev40.4_P1
+Gate: xor
+Relations: ev40.1>ev40.2, ev40.2>ev40.3, ev40.3>ev40.4
+
+Subevent 40.1
+subevent: Scenario A
+event_id: ev40.1
+description: The Advanced Warehouse is located 20 km away from the plant, leading to the highest unit cost due to dedicated trips and the presence of a small buffer warehouse at the production site.
+participants: Advanced Warehouse ev40.1.1_P1, Small Buffer Warehouse ev40.1.2_P1, Dedicated Trips ev40.1.3_P1
+Gate: and
+Relations: ev40.1.1>ev40.1.2, ev40.1.2>ev40.1.3
+
+Subevent 40.2
+subevent: Scenario B
+event_id: ev40.2
+description: The Advanced Warehouse is located inside the production site, reducing the distance to 1 km, making it cheaper than Scenario A but with space constraints requiring redesign of the plant layout.
+participants: Advanced Warehouse Inside Plant ev40.2.1_P1, Space Constraints ev40.2.2_P1, Plant Layout Redesign ev40.2.3_P1
+Gate: and
+Relations: ev40.2.1>ev40.2.2, ev40.2.2>ev40.2.3
+
+Subevent 40.3
+subevent: Scenario C
+event_id: ev40.3
+description: Batteries are directly sent to the production line from the Advanced Warehouse located 20 km away, making it more expensive than Scenario B but cheaper than Scenario A without buffer storage.
+participants: Direct Delivery ev40.3.1_P1, No Buffer Storage ev40.3.2_P1
+Gate: and
+Relations: ev40.3.1>ev40.3.2
+
+Subevent 40.4
+subevent: Scenario D
+event_id: ev40.4
+description: Direct connection between the supplier plant and the production line without an Advanced Warehouse, resulting in the cheapest configuration but highest supply risk due to the 2,000 km distance.
+participants: Direct Supplier Connection ev40.4.1_P1, High Supply Risk ev40.4.2_P1
+Gate: and
+Relations: ev40.4.1>ev40.4.2
+
+Event 41
+event: Raw Material Demand Surge
+event_id: ev41
+description: The surge in demand for raw materials due to the growth of electric vehicles (EVs) has led to significant price increases and potential supply constraints.
+participants: Copper Demand ev41.1_P1, Battery Material Demand ev41.2_P1
+Gate: and
+Relations: ev41.1>ev41.2
+
+Subevent 41.1
+subevent: Copper Demand
+event_id: ev41.1
+description: EVs require three to four times more copper than conventional cars, significantly increasing the demand for copper.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 41.2
+subevent: Battery Material Demand
+event_id: ev41.2
+description: The demand for materials such as lithium, nickel, cobalt, manganese, graphite, and rare earth elements has surged due to their essential role in EV batteries.
+participants: Lithium Demand ev41.2.1_P1, Nickel Demand ev41.2.2_P1, Cobalt Demand ev41.2.3_P1, Manganese Demand ev41.2.4_P1, Graphite Demand ev41.2.5_P1, Rare Earth Elements Demand ev41.2.6_P1
+Gate: and
+Relations: ev41.2.1>ev41.2.2, ev41.2.2>ev41.2.3, ev41.2.3>ev41.2.4, ev41.2.4>ev41.2.5, ev41.2.5>ev41.2.6
+
+Subsubevent 41.2.1
+subsubevent: Lithium Demand
+event_id: ev41.2.1
+description: The global demand for lithium is expected to increase by up to 89 times current demand by 2050.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 41.2.2
+subsubevent: Nickel Demand
+event_id: ev41.2.2
+description: Nickel is essential for battery production, contributing to its rapidly increasing demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 41.2.3
+subsubevent: Cobalt Demand
+event_id: ev41.2.3
+description: Cobalt is a critical material for battery production, with increasing demand due to EV growth.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 41.2.4
+subsubevent: Manganese Demand
+event_id: ev41.2.4
+description: Manganese is used in battery production, contributing to the rising demand in the EV sector.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 41.2.5
+subsubevent: Graphite Demand
+event_id: ev41.2.5
+description: Graphite is essential for battery anodes, with demand increasing due to EV production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 41.2.6
+subsubevent: Rare Earth Elements Demand
+event_id: ev41.2.6
+description: Rare earth elements are crucial for electric motors, leading to increased demand in the EV industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 42
+event: Supply Chain Constraints and Price Volatility
+event_id: ev42
+description: Rapidly expanding demand and global supply chain constraints have led to significant price increases for key materials.
+participants: Supply Chain Constraints ev42.1_P1, Price Volatility ev42.2_P1
+Gate: and
+Relations: ev42.1>ev42.2
+
+Subevent 42.1
+subevent: Supply Chain Constraints
+event_id: ev42.1
+description: Global supply chain constraints are affecting the availability of critical raw materials for EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 42.2
+subevent: Price Volatility
+event_id: ev42.2
+description: The imbalance between supply and demand has caused significant price volatility for key materials used in EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 43
+event: Geographic Concentration of Raw Material Production
+event_id: ev43
+description: The production of critical raw materials for EVs is highly concentrated in specific countries and regions.
+participants: China Production Concentration ev43.1_P1, Russia Production Concentration ev43.2_P1, Australia Production Concentration ev43.3_P1, African Countries Production Concentration ev43.4_P1
+Gate: or
+Relations: ev43.1>ev43.2, ev43.2>ev43.3, ev43.3>ev43.4
+
+Subevent 43.1
+subevent: China Production Concentration
+event_id: ev43.1
+description: China holds a significant share of the production of EV-related commodities, affecting the global supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 43.2
+subevent: Russia Production Concentration
+event_id: ev43.2
+description: Russia is a major producer of critical raw materials used in EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 43.3
+subevent: Australia Production Concentration
+event_id: ev43.3
+description: Australia has significant production capacity for key EV battery materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 43.4
+subevent: African Countries Production Concentration
+event_id: ev43.4
+description: African countries contribute significantly to the global production of EV battery materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 44
+event: Responsible Sourcing Initiatives
+event_id: ev44
+description: Buyers, producers, and traders are prioritizing responsible sourcing to ensure sustainable and ethical supply chains.
+participants: London Metal Exchange Initiatives ev44.1_P1, Major Buyers Initiatives ev44.2_P1, Huayou Cobalt Initiatives ev44.3_P1
+Gate: and
+Relations: ev44.1>ev44.2, ev44.2>ev44.3
+
+Subevent 44.1
+subevent: London Metal Exchange Initiatives
+event_id: ev44.1
+description: The London Metal Exchange has mandated audit assessments for all traded cobalt to ensure compliance with OECD due diligence guidance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 44.2
+subevent: Major Buyers Initiatives
+event_id: ev44.2
+description: Major buyers like Apple, VW, and Tesla have reformed their purchasing rules to prioritize responsible sourcing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 44.3
+subevent: Huayou Cobalt Initiatives
+event_id: ev44.3
+description: Huayou Cobalt, China’s largest cobalt producer, stopped buying from artisanal producers in 2020 to ensure responsible sourcing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 45
+event: Governance and Transparency
+event_id: ev45
+description: Addressing the challenges in the EV supply chain requires robust governance frameworks, enhanced transparency, and sustainable practices.
+participants: DRC Initiatives ev45.1_P1, Chilean Government Initiatives ev45.2_P1
+Gate: and
+Relations: ev45.1>ev45.2
+
+Subevent 45.1
+subevent: DRC Initiatives
+event_id: ev45.1
+description: The Democratic Republic of Congo has focused on organizing artisanal cobalt miners into larger-scale operations and introduced traceability mechanisms.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 45.2
+subevent: Chilean Government Initiatives
+event_id: ev45.2
+description: The Chilean government has implemented production quotas for major lithium miners and insisted that producers compensate local communities for damages caused by competition for water.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 46
+event: Challenges and Opportunities in the EV Revolution
+event_id: ev46
+description: The EV revolution presents significant challenges and opportunities for both developed and developing countries.
+participants: Challenges ev46.1_P1, Opportunities ev46.2_P1
+Gate: and
+Relations: ev46.1>ev46.2
+
+Subevent 46.1
+subevent: Challenges
+event_id: ev46.1
+description: The challenges include navigating rapidly changing geopolitical landscapes and managing global value chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 46.2
+subevent: Opportunities
+event_id: ev46.2
+description: The opportunities include the potential for economic growth and technological advancements in EV and battery technologies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

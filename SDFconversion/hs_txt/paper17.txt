@@ -1,0 +1,151 @@
+Event 1
+event: Raw Material Supply and Manufacturing for Lithium-Ion Batteries (LIBs)
+event_id: ev1
+description: This event investigates the future raw material supply and manufacturing capabilities to meet the growing demand for lithium-ion batteries (LIBs) in the transportation and electricity sectors. It explores the availability of key materials, geopolitical risks, production challenges, and the geographical distribution of manufacturing capabilities.
+participants: Material supply ev1.1_P1, Production challenges ev1.2_P1, Recycling limitations ev1.3_P1, Geographical distribution of manufacturing ev1.4_P1, Electrolyte supply ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: Material supply
+event_id: ev1.1
+description: Tracking the supply of key materials used in lithium-ion batteries, including manganese, nickel, natural graphite, lithium, and cobalt.
+participants: Manganese supply ev1.1.1_P1, Nickel supply ev1.1.2_P1, Natural graphite supply ev1.1.3_P1, Lithium supply challenges ev1.1.4_P1, Cobalt supply challenges ev1.1.5_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4, ev1.1.4>ev1.1.5
+
+Subsubevent 1.1.1
+subevent: Manganese supply
+event_id: ev1.1.1
+description: Analyzing the supply of manganese for lithium-ion batteries, which is expected to meet the anticipated demand.
+participants: Supply analysis ev1.1.1.1_P1, Demand projections ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubevent 1.1.2
+subevent: Nickel supply
+event_id: ev1.1.2
+description: Assessing the supply of nickel for lithium-ion batteries, which is expected to be sufficient for future demand.
+participants: Supply analysis ev1.1.2.1_P1, Demand projections ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubevent 1.1.3
+subevent: Natural graphite supply
+event_id: ev1.1.3
+description: Evaluating the supply of natural graphite for lithium-ion batteries, which is projected to meet future demand.
+participants: Supply analysis ev1.1.3.1_P1, Demand projections ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subsubevent 1.1.4
+subevent: Lithium supply challenges
+event_id: ev1.1.4
+description: Examining the challenges in scaling the supply of lithium to meet the growing demand for lithium-ion batteries.
+participants: Supply constraints ev1.1.4.1_P1, Demand projections ev1.1.4.2_P1
+Gate: and
+Relations: ev1.1.4.1>ev1.1.4.2
+
+Subsubevent 1.1.5
+subevent: Cobalt supply challenges
+event_id: ev1.1.5
+description: Investigating the challenges in scaling the supply of cobalt, focusing on geopolitical risks and production capacity.
+participants: Geopolitical risks ev1.1.5.1_P1, Supply chain analysis ev1.1.5.2_P1
+Gate: and
+Relations: ev1.1.5.1>ev1.1.5.2
+
+Subevent 1.2
+subevent: Production challenges
+event_id: ev1.2
+description: Addressing the challenges in ramping up the production of lithium-ion batteries to meet the rapid increase in demand.
+participants: Production growth ev1.2.1_P1, Supply-demand imbalance ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subevent: Production growth
+event_id: ev1.2.1
+description: Analyzing the growth in production of lithium-ion batteries and the challenges associated with scaling production.
+participants: Production data ev1.2.1.1_P1, Growth projections ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubevent 1.2.2
+subevent: Supply-demand imbalance
+event_id: ev1.2.2
+description: Examining the imbalance between the rapid consumption of lithium-ion batteries and the slower growth in production.
+participants: Consumption analysis ev1.2.2.1_P1, Production analysis ev1.2.2.2_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subevent 1.3
+subevent: Recycling limitations
+event_id: ev1.3
+description: Investigating the limitations of recycling lithium-ion batteries and the impact on short-term supply.
+participants: Recycling feasibility ev1.3.1_P1, Short-term supply impact ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subevent: Recycling feasibility
+event_id: ev1.3.1
+description: Evaluating the feasibility of economically recovering lithium from recycled batteries under current market conditions.
+participants: Economic analysis ev1.3.1.1_P1, Recovery challenges ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subevent: Short-term supply impact
+event_id: ev1.3.2
+description: Assessing the impact of limited recycling on the short-term supply of lithium-ion batteries.
+participants: Supply analysis ev1.3.2.1_P1, Demand projections ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subevent 1.4
+subevent: Geographical distribution of manufacturing
+event_id: ev1.4
+description: Analyzing the geographical distribution of lithium-ion battery manufacturing, with a focus on China, Japan, and Korea.
+participants: Manufacturing capabilities ev1.4.1_P1, Trade flows ev1.4.2_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2
+
+Subsubevent 1.4.1
+subevent: Manufacturing capabilities
+event_id: ev1.4.1
+description: Evaluating the manufacturing capabilities of China, Japan, and Korea, which dominate the lithium-ion battery market.
+participants: Capacity analysis ev1.4.1.1_P1, Market share ev1.4.1.2_P1
+Gate: and
+Relations: ev1.4.1.1>ev1.4.1.2
+
+Subsubevent 1.4.2
+subevent: Trade flows
+event_id: ev1.4.2
+description: Analyzing the trade flows of lithium-ion batteries within Asia and to the United States.
+participants: Trade analysis ev1.4.2.1_P1, Export-import data ev1.4.2.2_P1
+Gate: and
+Relations: ev1.4.2.1>ev1.4.2.2
+
+Subevent 1.5
+subevent: Electrolyte supply
+event_id: ev1.5
+description: Examining the supply of electrolytes for lithium-ion batteries, which has not faced significant resource constraints to date.
+participants: Electrolyte production ev1.5.1_P1, Market analysis ev1.5.2_P1
+Gate: and
+Relations: ev1.5.1>ev1.5.2
+
+Subsubevent 1.5.1
+subevent: Electrolyte production
+event_id: ev1.5.1
+description: Analyzing the production of electrolytes for lithium-ion batteries, focusing on the most commonly used electrolytes and their production capacities.
+participants: Production data ev1.5.1.1_P1, Capacity analysis ev1.5.1.2_P1
+Gate: and
+Relations: ev1.5.1.1>ev1.5.1.2
+
+Subsubevent 1.5.2
+subevent: Market analysis
+event_id: ev1.5.2
+description: Evaluating the market for lithium-ion battery electrolytes, including overcapacity issues and geographical distribution of production.
+participants: Market trends ev1.5.2.1_P1, Overcapacity analysis ev1.5.2.2_P1
+Gate: and
+Relations: ev1.5.2.1>ev1.5.2.2

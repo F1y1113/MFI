@@ -1,0 +1,63 @@
+Event 1
+event: Current trends in transport electrification and mobile technologies have created an increas - ing demand for raw materials needed for EV battery production.
+event_id: ev1
+description: Current trends in transport electrification and mobile technologies have created an increasing demand for raw materials needed for EV battery production.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Transport electrification
+event_id: ev1.1
+description: The growth of electric vehicles (EVs) is driving the need for more efficient and sustainable battery technologies.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.2
+subevent: Mobile technologies
+event_id: ev1.2
+description: Advances in mobile technologies, such as smartphones and laptops, are also contributing to the increasing demand for raw materials.
+participants: xxxx
+Gate: and
+Relations: ev1.2>ev1.1
+
+Subevent 2
+subevent: Increasing demand for raw materials
+event_id: ev2
+description: The growth of EVs and advances in mobile technologies have created an increasing demand for raw materials needed for EV battery production.
+participants: xxxx
+Gate: or
+Relations: ev2>ev1.1, ev2>ev1.2
+
+Event 3
+event: Current trends in transport electrification and mobile technologies are driving the need for sustainable and efficient battery recycling methods.
+event_id: ev3
+description: The growth of EVs and advances in mobile technologies are driving the need for sustainable and efficient battery recycling methods.
+participants: xxxx
+Gate: or
+Relations: ev3>ev1.1, ev3>ev1.2
+
+Subevent 3.1
+subevent: Battery recycling methods
+event_id: ev3.1
+description: Current trends in transport electrification and mobile technologies are driving the need for sustainable and efficient battery recycling methods.
+participants: xxxx
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3
+
+Subevent 3.2
+subevent: Sustainable battery recycling
+event_id: ev3.2
+description: The growth of EVs and advances in mobile technologies are driving the need for sustainable and efficient battery recycling methods.
+participants: xxxx
+Gate: or
+Relations: ev3.2>ev3.1, ev3.2>ev3.3
+
+Subevent 3.3
+subevent: Efficient battery recycling
+event_id: ev3.3
+description: The growth of EVs and advances in mobile technologies are driving the need for sustainable and efficient battery recycling methods.
+participants: xxxx
+Gate: or
+Relations: ev3.3>ev3.1, ev3.3>ev3.2

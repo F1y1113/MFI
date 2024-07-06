@@ -1,0 +1,38 @@
+Event 1**
+event: LIB battery pack
+event_id: ev1
+description: A lithium-ion battery pack consists of battery cells, a battery management system, and a pack container with a cooling system.
+participants:
+	* Battery cells
+	* Battery management system
+	* Pack container
+	* Cooling system
+Gate: and
+Relations: none
+
+**Subevent 1.1**
+subevent: LIB battery cell
+event_id: ev1.1
+description: A single lithium-ion battery cell.
+participants:
+	* Cathode metal
+	* Anode material
+	* Electrolyte solution
+	* Separator material
+Gate: and
+Relations: none
+
+**Event 2**
+event: Lithium-Ion Recycling
+event_id: ev2
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants:
+	* Pyrometallurgy
+	* Hydrometallurgy
+	* Bioleaching
+	* Direct recycling
+Gate: or
+Relations:
+	* ev1.1 > ev2.1 (pyrometallurgy)
+	* ev1.1 > ev2.2 (hydrometallurgy)
+	* ev1.1 > ev2.3 (bioleaching)

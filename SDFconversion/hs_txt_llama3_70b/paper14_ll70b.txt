@@ -1,0 +1,79 @@
+Event 1
+event: Global warming and fast depletion of fossil fuels
+event_id: ev1
+description: xxxx
+participants: LIB ev1.1_P0.5, secondary recycling ev1.2_P0.5, recovery of useful components ev1.3_P0.5
+Gate: or
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: LIB
+event_id: ev1.1
+description: Due to global warming and fast depletion of fossil fuels.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: secondary recycling
+event_id: ev1.2
+description: To be used for some other purposes or to recover some useful components.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Increasing demand for EVs
+event_id: ev2
+description: Due to requirement of clean energy and low running cost.
+participants: government subsidies ev2.1_P0.5, purchase of electric vehicles ev2.2_P0.5, EV batteries ev2.3_P0.5
+Gate: or
+Relations: ev2.1>ev2.2, ev2.1>ev2.3
+
+Subevent 2.1
+subevent: government subsidies
+event_id: ev2.1
+description: For the purchase of an electric vehicle.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Sustainable supply chain for EV batteries
+event_id: ev3
+description: A comprehensive literature review and discussions with experts have identified 17 key challenges.
+participants: recycling and reuse of EV batteries ev3.1_P0.5, disposal of batteries ev3.2_P0.5, insufficient infrastructure for charging ev3.3_P0.5
+Gate: or
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: recycling and reuse of EV batteries
+event_id: ev3.1
+description: Identified as one of the key challenges.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Bioleaching technique uses bacteria to retrieve precious metals
+event_id: ev4
+description: The bioleaching technique is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: bioleaching ev4.1_P0.5, bacteria ev4.2_P0.5
+Gate: and
+Relations: ev4.1>ev4.2
+
+Subevent 4.1
+subevent: bioleaching
+event_id: ev4.1
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: bacteria
+event_id: ev4.2
+description: Need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

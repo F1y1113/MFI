@@ -1,0 +1,70 @@
+Event 1**
+event: (re)manufacturing and acquisition of EV batteries
+event_id: ev1
+description: The optimal (re)manufacturing quantities and acquisition prices are derived.
+participants: used battery return yield ev1.1_P0, high-quality sorting rate ev1.2_P0, reusable sorting rate ev1.3_P0, recycling rate ev1.4_P0, (re-)manufacturing costs ev1.5_P0
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+**Subevent 1.1**
+subevent: used battery return yield
+event_id: ev1.1
+description: Used battery return yield affects the optimal (re)manufacturing quantities and acquisition prices.
+participants: portfolio of all parameter values ev1.1.1_P0, total optimal profit ev1.1.2_P0
+Gate: or
+Relations: ev1.1.1>ev1.1.2
+
+**Subevent 1.2**
+subevent: high-quality sorting rate
+event_id: ev1.2
+description: High-quality sorting rate affects the optimal (re)manufacturing quantities and acquisition prices.
+participants: portfolio of all parameter values ev1.2.1_P0, total optimal profit ev1.2.2_P0
+Gate: or
+Relations: ev1.2.1>ev1.2.2
+
+**Subevent 1.3**
+subevent: reusable sorting rate
+event_id: ev1.3
+description: Reusable sorting rate affects the optimal (re)manufacturing quantities and acquisition prices.
+participants: portfolio of all parameter values ev1.3.1_P0, total optimal profit ev1.3.2_P0
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+**Subevent 1.4**
+subevent: recycling rate
+event_id: ev1.4
+description: Recycling rate affects the optimal (re)manufacturing quantities and acquisition prices.
+participants: portfolio of all parameter values ev1.4.1_P0, total optimal profit ev1.4.2_P0
+Gate: or
+Relations: ev1.4.1>ev1.4.2
+
+**Subevent 1.5**
+subevent: (re-)manufacturing costs
+event_id: ev1.5
+description: (Re-)manufacturing costs affect the optimal (re)manufacturing quantities and acquisition prices.
+participants: portfolio of all parameter values ev1.5.1_P0, total optimal profit ev1.5.2_P0
+Gate: or
+Relations: ev1.5.1>ev1.5.2
+
+The hierarchical structure is as follows:
+
+Event 1 (re)manufacturing and acquisition of EV batteries)
+	- Subevent 1.1 Used battery return yield)
+			+ Participants: portfolio of all parameter values, total optimal profit
+			+ Gate: or
+			+ Relations: ev1.1.1>ev1.1.2
+	- Subevent 1.2 High-quality sorting rate)
+			+ Participants: portfolio of all parameter values, total optimal profit
+			+ Gate: or
+			+ Relations: ev1.2.1>ev1.2.2
+	- Subevent 1.3 Reusable sorting rate)
+			+ Participants: portfolio of all parameter values, total optimal profit
+			+ Gate: or
+			+ Relations: ev1.3.1>ev1.3.2
+	- Subevent 1.4 Recycling rate)
+			+ Participants: portfolio of all parameter values, total optimal profit
+			+ Gate: or
+			+ Relations: ev1.4.1>ev1.4.2
+	- Subevent 1.5 (Re-)manufacturing costs)
+			+ Participants: portfolio of all parameter values, total optimal profit
+			+ Gate: or

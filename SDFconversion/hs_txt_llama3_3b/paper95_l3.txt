@@ -1,0 +1,39 @@
+Event 1
+event: High-quality materials and cleanliness necessary for desired cell performance
+event_id: ev1
+description: In order to obtain the desired cell performance, high-quality materials named battery grade, and cleanliness in all steps of the value chain is necessary.
+participants: battery grade ev1.1_P1, cleanliness ev1.2_P1
+Gate: and
+Relations: xxxx
+
+Event 2
+event: Risk of unavailability of battery product supply
+event_id: ev2
+description: The risk for unavailability of battery product supply is ranked as high for cobalt, nickel and the separator.
+participants: cobalt ev2.1_P0.8, nickel ev2.2_P0.7, separator ev2.3_P0.6
+Gate: or
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Cobalt refineries highly dependent on cobalt supply from D.R. of Congo
+event_id: ev2.1
+description: The geographical spread of cobalt refineries is wider than for the mine production. These refineries do on the other hand highly depend on the cobalt supply from D.R. of Congo.
+participants: cobalt supply from D.R. of Congo ev2.1.1_P1, cobalt refineries ev2.1.2_P0.9
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+Event 3
+event: High-quality materials necessary for desired cell performance
+event_id: ev3
+description: According to the paragraphs, high-quality materials named battery grade are necessary in order to obtain the desired cell performance.
+participants: battery grade ev3.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 3.1
+subevent: Battery grade materials necessary for desired cell performance
+event_id: ev3.1
+description: High-quality materials named battery grade are necessary in order to obtain the desired cell performance.
+participants: xxxx
+Gate: and
+Relations: xxxx

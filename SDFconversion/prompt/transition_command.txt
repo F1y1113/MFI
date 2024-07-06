@@ -1,0 +1,1 @@
+python3 hs2sdf_wgate.py --ID {paper_ID}

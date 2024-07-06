@@ -1,0 +1,71 @@
+Event 1
+event: EV Power Battery Recycling System
+event_id: ev1
+description: Establishing an effective recycling system for spent power batteries in China to manage the large-scale retirement of EV power batteries under the carbon cap-and-trade policy.
+participants: recycling mode selection ev1.1_P1, carbon abatement decision ev1.2_P1, equilibrium results ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: recycling mode selection
+event_id: ev1.1
+description: Investigation of recycling modes involving various participants such as retailers, third-party recyclers, and echelon utilization enterprises.
+participants: mixed-channel recycling modes ev1.1.1_P1, reverse chain process ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subevent: mixed-channel recycling modes
+event_id: ev1.1.1
+description: Proposal of four recycling modes involving two or three parties: retailer, third-party recycler, and echelon utilization enterprise.
+participants: retailer ev1.1.1.1_P1, third-party recycler ev1.1.1.2_P1, echelon utilization enterprise ev1.1.1.3_P1
+Gate: or
+Relations: ev1.1.1.1>ev1.1.1.2, ev1.1.1.2>ev1.1.1.3
+
+Subsubevent 1.1.2
+subevent: reverse chain process
+event_id: ev1.1.2
+description: Collected spent power batteries are classified and processed by echelon utilization enterprises and manufacturers.
+participants: echelon-utilizable batteries ev1.1.2.1_P1, non-echelon-utilizable batteries ev1.1.2.2_P1, postechelon-utilized batteries ev1.1.2.3_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2, ev1.1.2.2>ev1.1.2.3
+
+Subevent 1.2
+subevent: carbon abatement decision
+event_id: ev1.2
+description: Decision-making regarding carbon reduction activities in the recycling process under the carbon cap-and-trade policy.
+participants: carbon trading price ev1.2.1_P1, investment cost coefficient ev1.2.2_P1, consumer low-carbon awareness ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subevent 1.3
+subevent: equilibrium results
+event_id: ev1.3
+description: Analysis of equilibrium results using Stackelberg game models to determine optimal recycling modes and the impact on total recycling quantity and carbon emissions.
+participants: competition intensity ev1.3.1_P1, recycling price sensitivity ev1.3.2_P1, manufacturer’s profit ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+subevent: competition intensity
+event_id: ev1.3.1
+description: Analysis of the impact of competition intensity among recycling channels on the recycling system.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subevent: recycling price sensitivity
+event_id: ev1.3.2
+description: Examination of how recycling price sensitivity affects the total recycling quantity.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subevent: manufacturer’s profit
+event_id: ev1.3.3
+description: Evaluation of the manufacturer's profit based on different recycling modes and carbon reduction activities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

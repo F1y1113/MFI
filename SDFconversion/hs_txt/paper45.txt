@@ -1,0 +1,191 @@
+Event 1
+event: Competitive advantage of blockchain technology in EV battery recycling
+event_id: ev1
+description: The competitiveness of EV manufacturers using blockchain technology compared to informal third-party EV battery recyclers, focusing on service user identification and security.
+participants: Service user identification ev1.1_P1, Security ev1.2_P1
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: Service user identification
+event_id: ev1.1
+description: EV manufacturers can accurately identify customers who need to recycle or reuse batteries using blockchain technology.
+participants: Customer identification ev1.1.1_P1, Blockchain technology ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Security
+event_id: ev1.2
+description: EV manufacturers monitor battery safety performance through blockchain technology to ensure safety.
+participants: Battery safety ev1.2.1_P1, Blockchain monitoring ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Event 2
+event: Cooperation between competitors in EV battery recycling
+event_id: ev2
+description: The cooperation between informal third-party EV battery recyclers and EV manufacturers to achieve synergy and improve innovation performance.
+participants: Informal recyclers ev2.1_P1, EV manufacturers ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: Informal recyclers
+event_id: ev2.1
+description: Informal third-party EV battery recyclers' high recycling rate and their role in the circular economy.
+participants: Recycling rate ev2.1.1_P1, Circular economy ev2.1.2_P1
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+Subevent 2.2
+subevent: EV manufacturers
+event_id: ev2.2
+description: EV manufacturers' environmental protection and technical advantages in battery recycling.
+participants: Environmental protection ev2.2.1_P1, Technical advantages ev2.2.2_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Event 3
+event: Application of blockchain technology in EV battery recycling
+event_id: ev3
+description: The decision-making process of EV manufacturers regarding the application of blockchain technology in the three stages of the EV battery recycling industry.
+participants: Initial stage ev3.1_P1, Intermediate stage ev3.2_P1, Mature stage ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Initial stage
+event_id: ev3.1
+description: In the early stage, EV manufacturers are unaware of the advantages of adopting blockchain and tend to refuse its application under low subsidy and penalty policies.
+participants: Low subsidy ev3.1.1_P1, Penalty policy ev3.1.2_P1
+Gate: and
+Relations: ev3.1.1>ev3.1.2
+
+Subevent 3.2
+subevent: Intermediate stage
+event_id: ev3.2
+description: The decision-making process in the intermediate stage, influenced by revenue and cost considerations.
+participants: Revenue from blockchain ev3.2.1_P1, Cost considerations ev3.2.2_P1
+Gate: and
+Relations: ev3.2.1>ev3.2.2
+
+Subevent 3.3
+subevent: Mature stage
+event_id: ev3.3
+description: The decision-making process in the mature stage, where high revenue and subsidy lead to the adoption of blockchain technology.
+participants: High revenue ev3.3.1_P1, High subsidy ev3.3.2_P1
+Gate: and
+Relations: ev3.3.1>ev3.3.2
+
+Event 4
+event: Smart EV battery reverse supply chain
+event_id: ev4
+description: The construction of a smart EV battery reverse supply chain consisting of an EV manufacturer and a third-party EV battery recycler under government supervision.
+participants: EV manufacturer ev4.1_P1, Third-party recycler ev4.2_P1, Government supervision ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2>ev4.3
+
+Subevent 4.1
+subevent: EV manufacturer
+event_id: ev4.1
+description: The role of the EV manufacturer in the smart reverse supply chain, including blockchain adoption.
+participants: Blockchain adoption ev4.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 4.2
+subevent: Third-party recycler
+event_id: ev4.2
+description: The role of the third-party EV battery recycler in the smart reverse supply chain, including cooperation strategies.
+participants: Cooperation strategies ev4.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 4.3
+subevent: Government supervision
+event_id: ev4.3
+description: The role of government supervision in the smart reverse supply chain, including subsidy and penalty policies.
+participants: Subsidy policy ev4.3.1_P1, Penalty policy ev4.3.2_P1
+Gate: and
+Relations: ev4.3.1>ev4.3.2
+
+Event 5
+event: Behavioral decisions in EV battery recycling
+event_id: ev5
+description: The relationship between the behavioral decisions of the EV manufacturer, third-party recycler, and government in the EV battery recycling industry.
+participants: EV manufacturer decisions ev5.1_P1, Third-party recycler decisions ev5.2_P1, Government decisions ev5.3_P1
+Gate: and
+Relations: ev5.1>ev5.2>ev5.3
+
+Subevent 5.1
+subevent: EV manufacturer decisions
+event_id: ev5.1
+description: The probability of the EV manufacturer choosing blockchain adoption influenced by government supervision.
+participants: Blockchain adoption ev5.1.1_P1, Government supervision ev5.1.2_P1
+Gate: and
+Relations: ev5.1.1>ev5.1.2
+
+Subevent 5.2
+subevent: Third-party recycler decisions
+event_id: ev5.2
+description: The optimal strategy of the third-party EV battery recycler under government regulation.
+participants: Cooperation strategies ev5.2.1_P1, Government regulation ev5.2.2_P1
+Gate: and
+Relations: ev5.2.1>ev5.2.2
+
+Subevent 5.3
+subevent: Government decisions
+event_id: ev5.3
+description: The impact of high penalties and subsidies on the government's supervision strategy.
+participants: High penalties ev5.3.1_P1, High subsidies ev5.3.2_P1
+Gate: and
+Relations: ev5.3.1>ev5.3.2
+
+Event 6
+event: Economic and environmental performance of EOL EVB disposal
+event_id: ev6
+description: The economic and environmental performance of EOL EVB disposal, including the role of subsidies and penalties.
+participants: Economic performance ev6.1_P1, Environmental performance ev6.2_P1
+Gate: and
+Relations: ev6.1>ev6.2
+
+Subevent 6.1
+subevent: Economic performance
+event_id: ev6.1
+description: The impact of subsidies and penalties on the economic performance of EOL EVB disposal.
+participants: Subsidies ev6.1.1_P1, Penalties ev6.1.2_P1
+Gate: and
+Relations: ev6.1.1>ev6.1.2
+
+Subevent 6.2
+subevent: Environmental performance
+event_id: ev6.2
+description: The impact of proper EOL EVB disposal on environmental performance.
+participants: Environmental benefits ev6.2.1_P1
+Gate: and
+Relations: xxxx
+
+Event 7
+event: Subsidy and penalty policy impacts
+event_id: ev7
+description: The impact of subsidy and penalty policies on the adoption of blockchain technology in EV battery recycling.
+participants: Subsidy policy ev7.1_P1, Penalty policy ev7.2_P1
+Gate: and
+Relations: ev7.1>ev7.2
+
+Subevent 7.1
+subevent: Subsidy policy
+event_id: ev7.1
+description: The role of subsidy policy in influencing the adoption of blockchain technology.
+participants: Subsidy rates ev7.1.1_P1, Adoption rates ev7.1.2_P1
+Gate: and
+Relations: ev7.1.1>ev7.1.2
+
+Subevent 7.2
+subevent: Penalty policy
+event_id: ev7.2
+description: The role of penalty policy in influencing the adoption of blockchain technology.
+participants: Penalty rates ev7.2.1_P1, Adoption rates ev7.2.2_P1
+Gate: and
+Relations: ev7.2.1>ev7.2.2

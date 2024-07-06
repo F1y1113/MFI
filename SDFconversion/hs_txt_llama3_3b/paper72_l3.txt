@@ -1,0 +1,31 @@
+Event 1
+event: China's industrial policy for EVs
+event_id: ev1
+description: Beijing prioritized the sector as part of its highly controversial "Made in China 2025" industrial policy program announced in 2015.
+participants: Made in China 2025 ev1.1_P1, supply-side policies for batteries ev1.2_P0.8, high import tariffs ev1.3_P0.6
+Gate: and
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Subevent 1.1
+subevent: Made in China 2025
+event_id: ev1.1
+description: Beijing prioritized the sector as part of its industrial policy program.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: supply-side policies for batteries
+event_id: ev1.2
+description: China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms.
+participants: supply-side policies ev1.2.1_P0.8, indigenous firms ev1.2.2_P0.9, battery manufacturers ev1.2.3_P0.7
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.1>ev1.2.3
+
+Subevent 1.3
+subevent: high import tariffs
+event_id: ev1.3
+description: China imposed high import tariffs to protect its domestic industry.
+participants: high import tariffs ev1.3.1_P0.6, domestic industry ev1.3.2_P0.8
+Gate: and
+Relations: ev1.3.1>ev1.3.2

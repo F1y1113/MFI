@@ -1,0 +1,86 @@
+Event 1 (lithium-ion recycling)
+	+ Subevent 1.1 (pyrometallurgy)
+		- participants: metal oxides, cobalt, copper, iron, nickel alloys
+	+ Subevent 1.2 (hydrometallurgy)
+		- participants: xxxx (no specific details provided)
+	+ Subevent 1.3 (bioleaching)
+		- participants: xxxx (no specific details provided)
+
+Event 2 (pyrometallurgy)
+	event_id: ev2
+	description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+	participants: metal oxides ev2.1_P0.5, cobalt ev2.2_P1, copper ev2.3_P1, iron ev2.4_P1, nickel alloys ev2.5_P1
+	Gate: and
+	Relations: ev2.1>ev2.2, ev2.1>ev2.3, ev2.1>ev2.4, ev2.1>ev2.5
+
+Event 3 (hydrometallurgy)
+	event_id: ev3
+	description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+	participants: xxxx (no specific details provided)
+	Gate: xxxx (no specific details provided)
+	Relations: xxxx (no specific details provided)
+
+Event 4 (bioleaching)
+	event_id: ev4
+	description: Uses bacteria to retrieve precious metals.
+	participants: xxxx (no specific details provided)
+	Gate: xxxx (no specific details provided)
+	Relations: xxxx (no specific details provided)
+
+The output hierarchical structure:
+```
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgy, hydrometallurgy, bioleaching, and direct recycling.
+participants: pyrometallurgy ev1.1_P1, hydrometallurgy ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Event 2
+event: pyrometallurgy
+event_id: ev2
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev2.1_P0.5, cobalt ev2.2_P1, copper ev2.3_P1, iron ev2.4_P1, nickel alloys ev2.5_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.1>ev2.3, ev2.1>ev2.4, ev2.1>ev2.5
+
+Event 3
+event: hydrometallurgy
+event_id: ev3
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx (no specific details provided)
+Gate: xxxx (no specific details provided)
+Relations: xxxx (no specific details provided)
+
+Event 4
+event: bioleaching
+event_id: ev4
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx (no specific details provided)
+Gate: xxxx (no specific details provided)
+Relations: xxxx (no specific details provided)
+
+Subevent 1.1
+subevent: pyrometallurgy
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx (no specific details provided)
+Gate: xxxx (no specific details provided)
+Relations: xxxx (no specific details provided)
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx (no specific details provided)
+Gate: xxxx (no specific details provided)
+Relations: xxxx (no specific details provided)

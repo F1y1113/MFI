@@ -1,0 +1,110 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P0.5, bioleaching ev1.3_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: pyrometallurgy
+event_id: ev1.1
+description: Uses high-temperature processes to recover metals from lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: global lithium-ion battery production
+event_id: ev2
+description: Most refining of lithium, cobalt, and graphite takes place in China, with Japan and Korea hosting significant midstream cell manufacturing and downstream supply chain activities.
+participants: China ev2.1_P1, Japan ev2.2_P0.5, Korea ev2.3_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 2.1
+subevent: refining of lithium in China
+event_id: ev2.1
+description: Refining of lithium takes place in China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: midstream cell manufacturing in Japan
+event_id: ev2.2
+description: Japan hosts significant midstream cell manufacturing activities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: downstream supply chain activities in Korea
+event_id: ev2.3
+description: Korea hosts significant downstream supply chain activities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: supply chain risks
+event_id: ev3
+description: Risks associated with the supply chain, including sustainability challenges, political instability and corruption in countries with mineral deposits, human rights or environmental justice concerns.
+participants: sustainability challenges ev3.1_P0.5, political instability ev3.2_P0.5, corruption ev3.3_P0.5, human rights ev3.4_P0.5, environmental justice concerns ev3.5_P0.5
+Gate: and
+Relations: xxxx
+
+Subevent 3.1
+subevent: sustainability challenges
+event_id: ev3.1
+description: Challenges related to the sustainability of the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: political instability
+event_id: ev3.2
+description: Risks associated with political instability in countries with mineral deposits.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: corruption
+event_id: ev3.3
+description: Corruption risks in countries with mineral deposits.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.4
+subevent: human rights concerns
+event_id: ev3.4
+description: Concerns related to human rights in the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.5
+subevent: environmental justice concerns
+event_id: ev3.5
+description: Concerns related to environmental justice in the supply chain.
+participants: xxxx
+Gate: xxxx

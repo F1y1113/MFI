@@ -1,0 +1,79 @@
+Event 1
+event: EV battery supply chain growth
+event_id: ev1
+description: EV markets growing exponentially, putting pressure on EV battery supply chains.
+participants: xxxx
+Gate: or
+Relations: ev1>ev2
+
+Subevent 1.1
+subevent: exponential market growth
+event_id: ev1.1
+description: Markets are growing exponentially, putting pressure on EV battery supply chains.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev2
+
+Subevent 1.2
+subevent: supply chain pressure
+event_id: ev2
+description: Putting pressure on EV battery supply chains due to market growth.
+participants: xxxx
+Gate: and
+Relations: 1.3>ev2
+
+Event 2
+event: EV battery supply chain management
+event_id: ev3
+description: Managing EV battery supply chains under pressure from market growth.
+participants: xxxx
+Gate: or
+Relations: ev3>ev4
+
+Subevent 2.1
+subevent: pressure from market growth
+event_id: ev3.1
+description: Pressure on EV battery supply chains due to market growth.
+participants: xxxx
+Gate: and
+Relations: ev4>ev3.1
+
+Subevent 2.2
+subevent: managing supply chain risks
+event_id: ev4
+description: Managing risks in EV battery supply chains.
+participants: xxxx
+Gate: and
+Relations: ev4>ev5
+
+Event 3
+event: EV battery recycling
+event_id: ev5
+description: Recycling lithium-ion batteries to recover precious metals.
+participants: pyrometallurgical, hydrometallurgical, bioleaching
+Gate: or
+Relations: ev6>ev5
+
+Subevent 3.1
+subevent: pyrometallurgy
+event_id: ev5.1
+description: Recycling lithium-ion batteries using pyrometallurgical method.
+participants: metal oxides, cobalt, copper, iron, nickel alloys
+Gate: and
+Relations: ev5.1>ev5.2
+
+Subevent 3.2
+subevent: hydrometallurgy
+event_id: ev5.2
+description: Recycling lithium-ion batteries using hydrometallurgical method.
+participants: xxxx
+Gate: and
+Relations: ev5.3>ev5.2
+
+Subevent 3.3
+subevent: bioleaching
+event_id: ev5.3
+description: Recycling lithium-ion batteries using bioleaching method.
+participants: xxxx
+Gate: and
+Relations: xxxx

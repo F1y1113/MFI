@@ -1,0 +1,39 @@
+Event 1
+event: Automotive industry transformation
+event_id: ev1
+description: The automotive industry is undergoing one of the most dramatic transformations in its history, with manufacturers recognising their role in developing reliable supply chains, as well as logistics companies taking steps to optimise performance.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Manufacturers recognising role in developing reliable supply chains
+event_id: ev1.1
+description: With manufacturers recognising their role in developing reliable supply chains, it seems that an evolved EV battery supply chain may soon become a reality.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev1
+
+Subevent 1.2
+subevent: Logistics companies taking steps to optimise performance
+event_id: ev1.2
+description: As well as logistics companies taking steps to optimise performance, it seems that an evolved EV battery supply chain may soon become a reality.
+participants: xxxx
+Gate: and
+Relations: ev1.2>ev1
+
+Subevent 1.3
+subevent: Cost considerations have been considered when assessing potential solutions for this difficult problem
+event_id: ev1.3
+description: Cost considerations have been considered when assessing potential solutions for this difficult problem.
+participants: xxxx
+Gate: and
+Relations: ev1.3>ev1
+
+Subevent 1.4
+subevent: Investing in a global EV battery supply chain has the potential to completely transform how cars are produced and distributed on a worldwide scale
+event_id: ev1.4
+description: Ultimately, investing in a global EV battery supply chain has the potential to completely transform how cars are produced and distributed on a worldwide scale – providing better access to clean energy sources for both consumers and businesses alike.
+participants: xxxx
+Gate: and
+Relations: ev1.4>ev1

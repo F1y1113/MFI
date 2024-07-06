@@ -1,0 +1,199 @@
+Event 1
+event: History and revival of electric vehicles
+event_id: ev1
+description: Electric vehicles (EVs) were popular in the early 1900s, with significant advancements made by Thomas Davenport and widespread use in cities like New York. The mass-produced gas-powered Model T by Henry Ford in 1908 led to a decline in EVs until their recent revival.
+participants: early EV development ev1.1_P1, mass production of gas-powered vehicles ev1.2_P1, recent EV revival ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Early EV development
+event_id: ev1.1
+description: Thomas Davenport built the first electric vehicle in 1835, and by 1900, EVs were a common sight, with New York operating a fleet of electric taxis.
+participants: Thomas Davenport ev1.1.1_P1, New York electric taxis ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subsubevent: Thomas Davenport
+event_id: ev1.1.1
+description: Thomas Davenport is credited with building the first electric vehicle in 1835.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: New York electric taxis
+event_id: ev1.1.2
+description: By 1900, New York had a fleet of electric taxis, with electric cars making up one-third of all vehicles on the road.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Mass production of gas-powered vehicles
+event_id: ev1.2
+description: The introduction of the mass-produced gas-powered Model T by Henry Ford in 1908 marked the decline of electric vehicles.
+participants: Henry Ford ev1.2.1_P1, Model T ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subsubevent: Henry Ford
+event_id: ev1.2.1
+description: Henry Ford introduced the mass-produced gas-powered Model T in 1908.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: Model T
+event_id: ev1.2.2
+description: The Model T symbolized the end of the early age of electric cars and the rise of gas-powered vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Recent EV revival
+event_id: ev1.3
+description: The recent revival of electric vehicles is revolutionizing the automotive industry ecosystem, leading to revised business strategies, new technologies, and reconfigured supply chains.
+participants: business strategies ev1.3.1_P1, new technologies ev1.3.2_P1, supply chains ev1.3.3_P1, access to raw materials ev1.3.4_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3, ev1.3.3>ev1.3.4
+
+Subsubevent 1.3.1
+subsubevent: Business strategies
+event_id: ev1.3.1
+description: Automotive industry players are revising their business strategies to adapt to the EV revolution.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: New technologies
+event_id: ev1.3.2
+description: The development of new technologies is crucial for the growth of the electric vehicle industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subsubevent: Supply chains
+event_id: ev1.3.3
+description: Global supply chains and manufacturing footprints are being reconfigured to support the EV revolution.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.4
+subsubevent: Access to raw materials
+event_id: ev1.3.4
+description: Securing access to battery raw materials is essential for the sustained growth of the electric vehicle industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Impact of EV revolution on battery raw materials
+event_id: ev2
+description: The electric vehicle revolution has led to a dramatic increase in the prices of key battery commodities like lithium and cobalt, raising concerns about future supply availability and production costs.
+participants: lithium price increase ev2.1_P1, cobalt price increase ev2.2_P1, demand for energy storage ev2.3_P1, strategic responses ev2.4_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3, ev2.3>ev2.4
+
+Subevent 2.1
+subevent: Lithium price increase
+event_id: ev2.1
+description: The price of lithium has significantly increased over the past 24 months due to the growing demand for electric vehicles and energy storage.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Cobalt price increase
+event_id: ev2.2
+description: The price of cobalt has also dramatically increased, reflecting its importance in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Demand for energy storage
+event_id: ev2.3
+description: The growing need for energy storage, e-bikes, and other battery-intensive applications is increasing interest in lithium and cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: Strategic responses
+event_id: ev2.4
+description: Different industry players need to develop robust strategies to address the complexities and dynamics of the rapidly changing battery raw materials market.
+participants: automotive OEMs ev2.4.1_P1, battery manufacturers ev2.4.2_P1, mining companies ev2.4.3_P1, financial investors ev2.4.4_P1
+Gate: and
+Relations: ev2.4.1>ev2.4.2, ev2.4.2>ev2.4.3, ev2.4.3>ev2.4.4
+
+Subsubevent 2.4.1
+subsubevent: Automotive OEMs
+event_id: ev2.4.1
+description: Automotive OEMs need to understand the market dynamics and develop strategies to secure raw material supplies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.2
+subsubevent: Battery manufacturers
+event_id: ev2.4.2
+description: Battery manufacturers must adapt to the changing market conditions and ensure a stable supply of raw materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.3
+subsubevent: Mining companies
+event_id: ev2.4.3
+description: Mining and refining companies play a critical role in the supply of lithium and cobalt for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.4
+subsubevent: Financial investors
+event_id: ev2.4.4
+description: Financial investors need to understand the complexities of the battery raw materials market to make informed investment decisions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Future demand for lithium and cobalt
+event_id: ev3
+description: The adoption of electric vehicles is driving a significant increase in the demand for lithium and cobalt, with forecasts indicating substantial growth in these markets by 2025.
+participants: lithium demand ev3.1_P1, cobalt demand ev3.2_P1, Li-ion battery technology ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Lithium demand
+event_id: ev3.1
+description: The demand for lithium is expected to increase more than threefold from 214 kt to 669 kt LCE between 2017 and 2025.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Cobalt demand
+event_id: ev3.2
+description: The demand for cobalt is projected to increase by 60 percent from 136 kt to 222 kt over the same period.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Li-ion battery technology
+event_id: ev3.3
+description: Li-ion battery technology is expected to remain the prevalent battery technology for the foreseeable future, driving demand for lithium and cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

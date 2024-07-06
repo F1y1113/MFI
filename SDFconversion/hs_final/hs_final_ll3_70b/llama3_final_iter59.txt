@@ -1,0 +1,11 @@
+
+Once I receive the new paragraphs, I'll follow the guidelines to:
+
+1. Identify events
+2. Assign event IDs
+3. Describe events
+4. List participants
+5. Determine gates
+6. Define relations
+
+And output the whole hierarchical structure.

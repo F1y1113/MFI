@@ -1,0 +1,7 @@
+Event 1
+event: Production of battery materials
+event_id: ev1
+description: The production of battery materials has been identified as the main contributor to produce cleaner batteries.
+participants: xxxx
+Gate: xxxx
+Relations: ev1.1>ev1.2

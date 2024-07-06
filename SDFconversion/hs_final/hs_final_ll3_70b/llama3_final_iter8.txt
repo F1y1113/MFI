@@ -1,0 +1,92 @@
+
+**New Paragraphs:**
+```
+An algorithm was developed for geospatial optimization of dismantling and recycling facility sites using a location-allocation methodology that integrates the economic and environmental metrics into the segments of a GIS network [23]. The optimization process was based on the minimization of the total ton-kilometers transported between the collection points and the final recycling destination. This is the appropriate objective function to minimize as the economic and environmental costs correspond to the total distance traveled by applying specific metrics and emission factors.
+
+Battery recycling processes will be crucial to diverting PEV batteries from waste streams but the full impacts of collecting, dismantling, and recycling these batteries must be accounted for. The collection and transportation of batteries contributes significantly to environmental and economic burdens, highlighting the need for improved optimization of end-of-life logistics. Moreover, the specific location of these activities has a strong effect on the overall human health impacts of recycling supply chains. This study demonstrates the feasibility and effectiveness of integrated models as an analytical and planning tool for decision makers. The model presented here provides a framework for integrating geospatial scenario analysis and LCA to support infrastructure decision-making.
+```
+
+**Extracted Hierarchical Structure:**
+```
+Event 2
+event: geospatial optimization
+event_id: ev2
+description: Optimizes dismantling and recycling facility sites using location-allocation methodology.
+participants: collection points ev2.1_P1, final recycling destination ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: collection points
+event_id: ev2.1
+description: Contributing to environmental and economic burdens.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: final recycling destination
+event_id: ev2.2
+description: The location where recycled materials are sent.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: battery recycling processes
+event_id: ev3
+description: Crucial to diverting PEV batteries from waste streams.
+participants: collecting ev3.1_P1, dismantling ev3.2_P1, recycling ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: collecting
+event_id: ev3.1
+description: Contributes to environmental and economic burdens.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: dismantling
+event_id: ev3.2
+description: A process that affects human health impacts of recycling supply chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: recycling
+event_id: ev3.3
+description: The final process in battery recycling.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: integrated models
+event_id: ev4
+description: Provides a framework for integrating geospatial scenario analysis and LCA.
+participants: geospatial scenario analysis ev4.1_P1, LCA ev4.2_P1
+Gate: and
+Relations: ev4.1>ev4.2
+
+Subevent 4.1
+subevent: geospatial scenario analysis
+event_id: ev4.1
+description: Analyzes scenarios for infrastructure decision-making.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: LCA
+event_id: ev4.2
+description: Supports infrastructure decision-making.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```
+
+**Extended Hierarchical Structure:**

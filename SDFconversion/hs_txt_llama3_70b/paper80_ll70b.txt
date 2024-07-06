@@ -1,0 +1,47 @@
+Event 1
+event: Automakers announce investments for EV manufacturing
+event_id: ev1
+description: The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.
+participants: Ford ev1.1_P0.8, General Motors ev1.2_P0.7, Toyota ev1.3_P0.5, Honda ev1.4_P0.4, Nissan ev1.5_P0.3, Volkswagen ev1.6_P0.2, Hyundai ev1.7_P0.1, Kia ev1.8_P0.05
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.2>ev1.4, ev1.3>ev1.5, ev1.4>ev1.6, ev1.5>ev1.7, ev1.6>ev1.8
+
+Event 2
+event: Department of Energy estimates U.S. EV market growth
+event_id: ev2
+description: The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev2, ev2>ev3
+
+Event 3
+event: EV market growth is driven by government incentives
+event_id: ev3
+description: The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.
+participants: xxxx
+Gate: xxxx
+Relations: ev2>ev3, ev1>ev3
+
+Subevent 1.1
+subevent: Ford announces $5 billion investment in EV production
+event_id: ev1.1
+description: Ford Motor Company announced a significant investment of $5 billion to support its electric vehicle (EV) manufacturing.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev1, ev1.1>ev2
+
+Subevent 1.2
+subevent: General Motors announces $3 billion investment in EV production
+event_id: ev1.2
+description: General Motors announced a significant investment of $3 billion to support its electric vehicle (EV) manufacturing.
+participants: xxxx
+Gate: and
+Relations: ev1.2>ev1, ev1.2>ev2
+
+Subevent 1.3
+subevent: Toyota announces $2 billion investment in EV production
+event_id: ev1.3
+description: Toyota Motor Corporation announced a significant investment of $2 billion to support its electric vehicle (EV) manufacturing.
+participants: xxxx
+Gate: and
+Relations: ev1.3>ev1, ev1.3>ev2

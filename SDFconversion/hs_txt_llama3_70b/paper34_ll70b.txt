@@ -1,0 +1,167 @@
+Event 1
+event: Rapid development of electric vehicles (EVs)
+event_id: ev1
+description: The rapid development of EVs has led to increased cobalt demand and geopolitical changes.
+participants: Increased cobalt demand from EVs ev1.1_P1, Geopolitical changes affecting cobalt supply ev1.2_P1
+Gate: or
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: Increased cobalt demand from EVs
+event_id: ev1.1
+description: The growing demand for cobalt from the increasing production of EVs.
+participants: EVs ev1.1.1_P0.5, Cobalt ev1.1.2_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Geopolitical changes affecting cobalt supply
+event_id: ev1.2
+description: The impact of geopolitical risks on the cobalt supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Reduction in China's cobalt imports due to geopolitical events
+event_id: ev2
+description: A reduction in China's cobalt imports resulting from geopolitical events.
+participants: Cobalt imports ev2.1_P0.5, Geopolitical events ev2.2_P0.5
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: Reduction in cobalt imports
+event_id: ev2.1
+description: A reduction in China's cobalt imports.
+participants: Cobalt imports ev2.1.1_P0.5, China ev2.1.2_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+Subevent 2.2
+subevent: Geopolitical events affecting cobalt supply
+event_id: ev2.2
+description: The impact of geopolitical risks on the cobalt supply chain.
+participants: Cobalt supply ev2.2.1_P0.5, Geopolitical risks ev2.2.2_P0.5
+Gate: or
+Relations: ev2.2.1>ev2.2.2
+
+Event 3
+event: Increased demand for cobalt from EVs and electronics
+event_id: ev3
+description: The growing demand for cobalt from the increasing production of EVs and electronics.
+participants: Cobalt demand ev3.1_P0.5, EVs ev3.2_P0.5, Electronics ev3.3_P0.5
+Gate: or
+Relations: ev3.1>ev3.2, ev3.1>ev3.3
+
+Subevent 3.1
+subevent: Increased demand for cobalt from EVs
+event_id: ev3.1
+description: The growing demand for cobalt from the increasing production of EVs.
+participants: Cobalt demand ev3.1.1_P0.5, EVs ev3.1.2_P0.5
+Gate: and
+Relations: ev3.1.1>ev3.1.2
+
+Subevent 3.2
+subevent: Increased demand for cobalt from electronics
+event_id: ev3.2
+description: The growing demand for cobalt from the increasing production of electronics.
+participants: Cobalt demand ev3.2.1_P0.5, Electronics ev3.2.2_P0.5
+Gate: and
+Relations: ev3.2.1>ev3.2.2
+
+Event 4
+event: Reduced supply of cobalt due to mining challenges
+event_id: ev4
+description: The reduced supply of cobalt resulting from mining challenges.
+participants: Cobalt supply ev4.1_P0.5, Mining challenges ev4.2_P0.5
+Gate: or
+Relations: ev4.1>ev4.2
+
+Subevent 4.1
+subevent: Reduced supply of cobalt due to mining challenges
+event_id: ev4.1
+description: The reduced supply of cobalt resulting from mining challenges.
+participants: Cobalt supply ev4.1.1_P0.5, Mining challenges ev4.1.2_P0.5
+Gate: and
+Relations: ev4.1.1>ev4.1.2
+
+Subevent 4.2
+subevent: Mining challenges affecting cobalt supply
+event_id: ev4.2
+description: The impact of mining challenges on the cobalt supply chain.
+participants: Cobalt supply ev4.2.1_P0.5, Mining challenges ev4.2.2_P0.5
+Gate: or
+Relations: ev4.2.1>ev4.2.2
+
+Event 5
+event: Increased recycling of cobalt to meet demand
+event_id: ev5
+description: The increased recycling of cobalt to meet the growing demand.
+participants: Cobalt recycling ev5.1_P0.5, Demand ev5.2_P0.5
+Gate: and
+Relations: ev5.1>ev5.2
+
+Subevent 5.1
+subevent: Increased recycling of cobalt
+event_id: ev5.1
+description: The increased recycling of cobalt to meet the growing demand.
+participants: Cobalt recycling ev5.1.1_P0.5, Demand ev5.1.2_P0.5
+Gate: and
+Relations: ev5.1.1>ev5.1.2
+
+Subevent 5.2
+subevent: Growing demand for recycled cobalt
+event_id: ev5.2
+description: The growing demand for recycled cobalt.
+participants: Recycled cobalt ev5.2.1_P0.5, Demand ev5.2.2_P0.5
+Gate: and
+Relations: ev5.2.1>ev5.2.2
+
+Event 6
+event: Development of new technologies to reduce cobalt usage
+event_id: ev6
+description: The development of new technologies to reduce the usage of cobalt in EVs.
+participants: New technologies ev6.1_P0.5, Cobalt usage ev6.2_P0.5
+Gate: or
+Relations: ev6.1>ev6.2
+
+Subevent 6.1
+subevent: Development of new technologies
+event_id: ev6.1
+description: The development of new technologies to reduce the usage of cobalt in EVs.
+participants: New technologies ev6.1.1_P0.5, Cobalt usage ev6.1.2_P0.5
+Gate: and
+Relations: ev6.1.1>ev6.1.2
+
+Subevent 6.2
+subevent: Reduced cobalt usage in EVs
+event_id: ev6.2
+description: The reduced usage of cobalt in EVs.
+participants: Cobalt usage ev6.2.1_P0.5, EVs ev6.2.2_P0.5
+Gate: and
+Relations: ev6.2.1>ev6.2.2
+
+Event 7
+event: Increased investment in cobalt recycling to meet demand
+event_id: ev7
+description: The increased investment in cobalt recycling to meet the growing demand.
+participants: Cobalt recycling ev7.1_P0.5, Demand ev7.2_P0.5
+Gate: or
+Relations: ev7.1>ev7.2
+
+Subevent 7.1
+subevent: Increased investment in cobalt recycling
+event_id: ev7.1
+description: The increased investment in cobalt recycling to meet the growing demand.
+participants: Cobalt recycling ev7.1.1_P0.5, Demand ev7.1.2_P0.5
+Gate: and
+Relations: ev7.1.1>ev7.1.2
+
+Subevent 7.2
+subevent: Growing demand for recycled cobalt
+event_id: ev7.2
+description: The growing demand for recycled cobalt.
+participants: Recycled cobalt ev7.2.1_P0.5, Demand ev7.2.2_P0.5
+Gate: and
+Relations: ev7.2.1>ev7.2.2

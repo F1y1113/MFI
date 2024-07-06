@@ -1,0 +1,180 @@
+Event 1**
+event: Lithium-ion battery industry
+event_id: ev1
+description: The lithium-ion battery industry has a cyclical and growth-oriented nature.
+participants: upstream end ev1.1_P1, downstream demand ev1.2_P1
+Gate: and
+Relations: ev1.1>ev1.2
+
+**Subevent 1.1**
+subevent: Upstream end
+event_id: ev1.1
+description: The upstream end of the lithium-ion battery industry.
+participants: Australian mining companies ev1.1.1_P1, Core Lithium ev1.1.2_P0.5, Alita Resources ev1.1.3_P0.5
+Gate: or
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3
+
+**Subevent 1.1.1**
+subevent: Australian mining companies
+event_id: ev1.1.1
+description: Australian mining companies such as Alita Resources.
+participants: Alita Resources ev1.1.1.1_P1, other Australian mining companies ev1.1.1.2_P0.5
+Gate: or
+Relations: xxxx
+
+**Subevent 1.1.2**
+subevent: Core Lithium
+event_id: ev1.1.2
+description: Core Lithium's involvement in the upstream end of the lithium-ion battery industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.1.3**
+subevent: Alita Resources
+event_id: ev1.1.3
+description: Alita Resources' involvement in the upstream end of the lithium-ion battery industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.2**
+subevent: Downstream demand
+event_id: ev1.2
+description: The downstream demand for lithium-ion batteries.
+participants: electric vehicles ev1.2.1_P1, consumer electronics ev1.2.2_P0.5, renewable energy systems ev1.2.3_P0.5
+Gate: or
+Relations: ev1.2.1>ev1.2.2, ev1.2.1>ev1.2.3
+
+**Subevent 1.2.1**
+subevent: Electric vehicles
+event_id: ev1.2.1
+description: The demand for lithium-ion batteries from electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.2.2**
+subevent: Consumer electronics
+event_id: ev1.2.2
+description: The demand for lithium-ion batteries from consumer electronics.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.2.3**
+subevent: Renewable energy systems
+event_id: ev1.2.3
+description: The demand for lithium-ion batteries from renewable energy systems.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Here is the whole hierarchical structure I have now:
+
+```
+Event 1
+event: Lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: Hydrometallurgical
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+
+Event 2
+event: Lithium-ion battery industry
+event_id: ev2
+description: The lithium-ion battery industry has a cyclical and growth-oriented nature.
+participants: upstream end ev2.1_P1, downstream demand ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: Upstream end
+event_id: ev2.1
+description: The upstream end of the lithium-ion battery industry.
+participants: Australian mining companies ev2.1.1_P1, Core Lithium ev2.1.2_P0.5, Alita Resources ev2.1.3_P0.5
+Gate: or
+Relations: ev2.1.1>ev2.1.2, ev2.1.1>ev2.1.3
+
+Subevent 2.1.1
+subevent: Australian mining companies
+event_id: ev2.1.1
+description: Australian mining companies such as Alita Resources.
+participants: Alita Resources ev2.1.1.1_P1, other Australian mining companies ev2.1.1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 2.1.2
+subevent: Core Lithium
+event_id: ev2.1.2
+description: Core Lithium's involvement in the upstream end of the lithium-ion battery industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.1.3
+subevent: Alita Resources
+event_id: ev2.1.3
+description: Alita Resources' involvement in the upstream end of the lithium-ion battery industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Downstream demand
+event_id: ev2.2
+description: The downstream demand for lithium-ion batteries.
+participants: electric vehicles ev2.2.1_P1, consumer electronics ev2.2.2_P0.5, renewable energy systems ev2.2.3_P0.5
+Gate: or
+Relations: ev2.2.1>ev2.2.2, ev2.2.1>ev2.2.3
+
+Subevent 2.2.1
+subevent: Electric vehicles
+event_id: ev2.2.1
+description: The demand for lithium-ion batteries from electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2.2
+subevent: Consumer electronics
+event_id: ev2.2.2
+description: The demand for lithium-ion batteries from consumer electronics.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2.3
+subevent: Renewable energy systems
+event_id: ev2.2.3
+description: The demand for lithium-ion batteries from renewable energy systems.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

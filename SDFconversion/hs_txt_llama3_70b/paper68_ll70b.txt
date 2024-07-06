@@ -1,0 +1,119 @@
+Event 1
+event: Improved means for energy storage, key element to support increasing demand for technologies using renewable energy sources.
+event_id: ev1
+description: Sovacool et al. (2020) literature focuses on improved means for energy storage.
+participants: new materials ev1.1_P1, recycling and substitution ev1.2_P1
+Gate: or
+Relations: ev1>ev2
+
+Event 2
+event: Efforts required to understand real and tangible costs of using critical raw materials.
+event_id: ev2
+description: Accessibility to resources a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev2.1_P1, literature on low-carbon transition ev2.2_P1
+Gate: and
+Relations: ev2>ev3
+
+Event 3
+event: Significant part of literature on low-carbon transition focuses on energy storage.
+event_id: ev3
+description: Energy storage a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev3.1_P1, literature on low-carbon transition ev3.2_P1
+Gate: or
+Relations: ev3>ev4
+
+Event 4
+event: Literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev4
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev4.1_P1, literature on low-carbon transition ev4.2_P1
+Gate: and
+Relations: ev4>ev5
+
+Event 5
+event: Significant part of literature on low-carbon transition focuses on critical raw materials.
+event_id: ev5
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev5.1_P1, literature on low-carbon transition ev5.2_P1
+Gate: or
+Relations: ev5>ev6
+
+Event 6
+event: Literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev6
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev6.1_P1, literature on low-carbon transition ev6.2_P1
+Gate: and
+Relations: ev6>ev7
+
+Event 7
+event: Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev7
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev7.1_P1, literature on low-carbon transition ev7.2_P1
+Gate: or
+Relations: ev7>ev8
+
+Event 8
+event: Literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev8
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev8.1_P1, literature on low-carbon transition ev8.2_P1
+Gate: and
+Relations: ev8>ev9
+
+Event 9
+event: Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev9
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev9.1_P1, literature on low-carbon transition ev9.2_P1
+Gate: or
+Relations: ev9>ev10
+
+Event 10
+event: Literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev10
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev10.1_P1, literature on low-carbon transition ev10.2_P1
+Gate: and
+Relations: ev10>ev11
+
+Event 11
+event: Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev11
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev11.1_P1, literature on low-carbon transition ev11.2_P1
+Gate: or
+Relations: ev11>ev12
+
+Event 12
+event: Literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev12
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev12.1_P1, literature on low-carbon transition ev12.2_P1
+Gate: and
+Relations: ev12>ev13
+
+Event 13
+event: Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev13
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev13.1_P1, literature on low-cararbon transition ev13.2_P1
+Gate: or
+Relations: ev13>ev14
+
+Event 14
+event: Literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev14
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev14.1_P1, literature on low-carbon transition ev14.2_P1
+Gate: and
+Relations: ev14>ev15
+
+Event 15
+event: Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.
+event_id: ev15
+description: Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.
+participants: Sovacool et al. (2020) ev15.1_P1, literature on low-carbon transition ev15.2_P1
+Gate: or
+Relations: xxxx

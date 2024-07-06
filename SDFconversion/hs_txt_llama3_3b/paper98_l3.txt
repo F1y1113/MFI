@@ -1,0 +1,47 @@
+Event 1
+event: Responsible Mineral Sourcing Initiatives
+event_id: ev1
+description: Approaches taken by initiatives to clean up supply chains and protect the reputation of major companies.
+participants: conflict minerals ev1.1_P0.5, tin ev1.2_P0.3, tungsten ev1.3_P0.3, tantalum ev1.4_P0.3, gold ev1.5_P0.3
+Gate: or
+Relations: ev1>ev1.1
+
+Event 2
+event: Evolution of Initiatives
+event_id: ev2
+description: Brief description of the evolution of responsible mineral supply chain initiatives.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev2, ev2>ev3
+
+Subevent 1.1
+subevent: Conflict Minerals
+event_id: ev1.1
+description: Focus on conflict minerals (tin, tungsten tantalum and gold).
+participants: tin ev1.1.1_P0.5, tungsten ev1.1.2_P0.3, tantalum ev1.1.3_P0.3, gold ev1.1.4_P0.3
+Gate: and
+Relations: ev1.1>ev1.1.1, ev1.1>ev1.1.2, ev1.1>ev1.1.3, ev1.1>ev1.1.4
+
+Subevent 1.2
+subevent: Metals for Renewable Energy Technologies
+event_id: ev1.2
+description: Focus on metals and minerals needed for renewable energy technologies in a transition to a low carbon economy (cobalt, graphite, lithium, manganese and nickel).
+participants: cobalt ev1.2.1_P0.5, graphite ev1.2.2_P0.3, lithium ev1.2.3_P0.3, manganese ev1.2.4_P0.3, nickel ev1.2.5_P0.3
+Gate: and
+Relations: ev1>ev1.2, ev1.2>ev1.2.1, ev1.2>ev1.2.2, ev1.2>ev1.2.3, ev1.2>ev1.2.4, ev1.2>ev1.2.5
+
+Subevent 1.3
+subevent: Mandatory and Voluntary Approaches
+event_id: ev1.3
+description: Comparison of mandatory and voluntary approaches to responsible mineral sourcing.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev1.3, ev1.3>ev2
+
+Subevent 1.4
+subevent: Impact on Reputation
+event_id: ev1.4
+description: Effect of responsible mineral sourcing initiatives on the reputation of major companies.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev1.4, ev1.4>ev2

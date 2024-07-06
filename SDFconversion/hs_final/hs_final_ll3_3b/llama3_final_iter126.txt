@@ -1,0 +1,92 @@
+Event 1**
+event: EV manufacturer's decision to adopt blockchain technology
+event_id: ev1
+description: The EV manufacturer will decide not to apply blockchain in a short time. It can also be found that a high subsidy (subsidy reduction rate) and penalty (penalty reduction rate) correspondingly delay the time taken for the EV manufacturer to decide on rejecting the blockchain.
+participants: no blockchain adoption ev1.1_P0.5, high subsidy ev1.2_P0.3, high penalty ev1.3_P0.4
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+**Subevent 1.1**
+subevent: no blockchain adoption
+event_id: ev1.1
+description: The EV manufacturer will decide not to apply blockchain in a short time.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+**Event 2**
+event: Government's decision on regulation
+event_id: ev2
+description: When the probability of the government actively supervising the used EV battery recycling industry is high, the EV manufacturer tends to adopt blockchain technology. The CR strategy of the third-party EV battery recycler is the optimal choice when the government tends to actively regulate.
+participants: government supervision ev2.1_P0.7, EV manufacturer's blockchain adoption ev2.2_P0.6
+Gate: and
+Relations: ev2.1>ev2.2
+
+**Subevent 2.1**
+subevent: government supervision
+event_id: ev2.1
+description: The probability of the government actively supervising the used EV battery recycling industry is high.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+**Event 3**
+event: Third-party EV battery recycler's CR strategy
+event_id: ev3
+description: The CR strategy of the third-party EV battery recycler is the optimal choice when the government tends to actively regulate.
+participants: CR strategy ev3.1_P0.8, government regulation ev3.2_P0.6
+Gate: and
+Relations: ev3.1>ev3.2
+
+**Subevent 3.1**
+subevent: CR strategy
+event_id: ev3.1
+description: The CR strategy of the third-party EV battery recycler is the optimal choice.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Here's the whole hierarchical structure I have now:
+
+```
+Event 1:
+  Event ID: ev1
+  Description: The EV manufacturer will decide not to apply blockchain in a short time. It can also be found that a high subsidy (subsidy reduction rate) and penalty (penalty reduction rate) correspondingly delay the time taken for the EV manufacturer to decide on rejecting the blockchain.
+  Participants: no blockchain adoption ev1.1_P0.5, high subsidy ev1.2_P0.3, high penalty ev1.3_P0.4
+  Gate: or
+  Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Subevent 1.1:
+  Event ID: ev1.1
+  Description: The EV manufacturer will decide not to apply blockchain in a short time.
+  Participants: xxxx
+  Gate: and
+  Relations: xxxx
+
+Event 2:
+  Event ID: ev2
+  Description: When the probability of the government actively supervising the used EV battery recycling industry is high, the EV manufacturer tends to adopt blockchain technology. The CR strategy of the third-party EV battery recycler is the optimal choice when the government tends to actively regulate.
+  Participants: government supervision ev2.1_P0.7, EV manufacturer's blockchain adoption ev2.2_P0.6
+  Gate: and
+  Relations: ev2.1>ev2.2
+
+Subevent 2.1:
+  Event ID: ev2.1
+  Description: The probability of the government actively supervising the used EV battery recycling industry is high.
+  Participants: xxxx
+  Gate: and
+  Relations: xxxx
+
+Event 3:
+  Event ID: ev3
+  Description: The CR strategy of the third-party EV battery recycler is the optimal choice when the government tends to actively regulate.
+  Participants: CR strategy ev3.1_P0.8, government regulation ev3.2_P0.6
+  Gate: and
+  Relations: ev3.1>ev3.2
+
+Subevent 3.1:
+  Event ID: ev3.1
+  Description: The CR strategy of the third-party EV battery recycler is the optimal choice.
+  Participants: xxxx
+  Gate: and
+  Relations: xxxx

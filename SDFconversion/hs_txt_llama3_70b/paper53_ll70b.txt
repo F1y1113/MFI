@@ -1,0 +1,79 @@
+Event 1
+event: Decarbonizing Electricity Production via Solar, Wind, and Lithium Supply
+event_id: ev1
+description: As electricity production decarbonizes via the deployment of solar, wind environment. The industry goal in the 2010s was to meet Chinese demand, not to have low CO2 intensity lithium supply.
+participants: Australian spodumene-Chinese conversion LiOH•H2O supply chain ev1.1_P1
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Australian spodumene-Chinese conversion LiOH•H2O supply chain
+event_id: ev1.1
+description: This "lithium rush" has moved the world's lithium production center of gravity to China, where the hard rock resources predominantly come from Australia.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev1.1
+
+Event 2
+event: Developing an LCA Model for Lithium Products
+event_id: ev2
+description: We developed an LCA model and data structure tailored specially for the lithium industry in collaboration with Robert Pell at Minviro.
+participants: Alex and David's knowledge of lithium extraction processes and markets ev2.1_P1, Robert's deep background in LCA calculations ev2.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 2.1
+subevent: Alex and David's knowledge of lithium extraction processes and markets
+event_id: ev2.1
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: ev2>ev2.1
+
+Event 3
+event: Deploying Solar, Wind, and Lithium Supply for Decarbonizing Electricity Production
+event_id: ev3
+description:xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 3.1
+subevent: xxxx
+event_id: ev3.1
+description:xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Meeting Chinese Demand for Decarbonizing Electricity Production
+event_id: ev4
+description: The industry goal in the 2010s was to meet Chinese demand, not to have low CO2 intensity lithium supply.
+participants: Australian spodumene-Chinese conversion LiOH•H2O supply chain ev4.1_P1
+Gate: or
+Relations: xxxx
+
+Subevent 4.1
+subevent: Australian spodumene-Chinese conversion LiOH•H2O supply chain
+event_id: ev4.1
+description: This "lithium rush" has moved the world's lithium production center of gravity to China, where the hard rock resources predominantly come from Australia.
+participants: xxxx
+Gate: xxxx
+Relations: ev4>ev4.1
+
+Event 5
+event: Using Bacteria for Retrieving Precious Metals in Lithium-Ion Recycling
+event_id: ev5
+description: The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: bacteria ev5.1_P1, precious metals ev5.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 5.1
+subevent: bacteria
+event_id: ev5.1
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: ev5>ev5.1

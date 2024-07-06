@@ -1,0 +1,42 @@
+Event 1 (LIB supply chain issues)
+event_id: ev1
+description: The LIB supply chain can be tracked back to the extraction and processing of raw minerals. A volatile supply chain or inefficient manufacturing may offset the performance benefit promoted by electrode materials.
+participants: raw mineral extraction and processing ev1.1_P1, industrial manufacturing processes ev1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 1.1 (Raw mineral extraction and processing)
+subevent_id: ev1.1
+description: Extraction and processing of raw minerals for LIB production.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 2 (Russia-Ukraine war impact on LIB industry)
+event_id: ev2
+description: The Russia-Ukraine war has led to a significant increase in Ni prices, affecting the global LIB industry.
+participants: Russia ev2.1_P1, Ukraine ev2.2_P0.5, Ni mining and refining ev2.3_P0.5
+Gate: and
+Relations: ev2 > (price increase of Ni)
+
+Subevent 2.1 (Russia's role)
+subevent_id: ev2.1
+description: Russia's involvement in the conflict.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.2 (Ukraine's role)
+subevent_id: ev2.2
+description: Ukraine's involvement in the conflict.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.3 (Ni mining and refining)
+subevent_id: ev2.3
+description: Ni mining and refining affected by the conflict.
+participants: xxxx
+Gate: and
+Relations: xxxx
+```

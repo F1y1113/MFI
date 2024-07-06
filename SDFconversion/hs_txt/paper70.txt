@@ -1,0 +1,199 @@
+Event 1
+event: Lithium-ion value chain and raw material extraction
+event_id: ev1
+description: The lithium-ion value chain begins with the extraction of raw materials such as lithium, cobalt, and nickel. These materials are refined and processed, with significant production and refining capacity concentrated in a few countries.
+participants: raw material extraction ev1.1_P1, refining capacity ev1.2_P1, geographical concentration ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Raw material extraction
+event_id: ev1.1
+description: More than 90 percent of the world's lithium is produced in Australia, Chile, Argentina, Bolivia, and China. The Democratic Republic of Congo accounts for over three-quarters of global cobalt output.
+participants: lithium production ev1.1.1_P1, cobalt production ev1.1.2_P1, nickel production ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subsubevent: Lithium production
+event_id: ev1.1.1
+description: Lithium is produced in Australia, Chile, Argentina, Bolivia, and China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Cobalt production
+event_id: ev1.1.2
+description: The Democratic Republic of Congo accounts for over three-quarters of global cobalt output.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: Nickel production
+event_id: ev1.1.3
+description: Nickel production is geographically dispersed, with Russia being the largest producer.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Refining capacity
+event_id: ev1.2
+description: China is the largest refiner of lithium and cobalt, holding a significant share of the refining capacity. Nickel refining is more geographically dispersed.
+participants: lithium refining ev1.2.1_P1, cobalt refining ev1.2.2_P1, nickel refining ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subsubevent: Lithium refining
+event_id: ev1.2.1
+description: China accounts for 61 percent of global lithium refining capacity, followed by Chile and Argentina.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: Cobalt refining
+event_id: ev1.2.2
+description: China holds 72 percent of global cobalt refining capacity, with the balance in Europe.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.3
+subsubevent: Nickel refining
+event_id: ev1.2.3
+description: Nickel refining is geographically dispersed, with China holding 16 percent of the market share.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Geographical concentration
+event_id: ev1.3
+description: The production and refining of critical materials like lithium and cobalt are concentrated in specific countries, leading to supply chain dependencies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Battery component production and market share
+event_id: ev2
+description: The refined materials are processed into battery components such as cathodes, anodes, separators, and electrolytes. China, Japan, and Korea dominate the market share for these components, with China holding the largest share.
+participants: cathode production ev2.1_P1, anode production ev2.2_P1, separator production ev2.3_P1, electrolyte production ev2.4_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3, ev2.3>ev2.4
+
+Subevent 2.1
+subevent: Cathode production
+event_id: ev2.1
+description: China holds 52 percent of the market share for cathode production, the most important component of a battery cell.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Anode production
+event_id: ev2.2
+description: China holds 78 percent of the market share for anode production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Separator production
+event_id: ev2.3
+description: China holds 66 percent of the market share for separator production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: Electrolyte production
+event_id: ev2.4
+description: China holds 62 percent of the market share for electrolyte production, while the United States has 8 percent.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Cell manufacturing and future capacity
+event_id: ev3
+description: Battery components are assembled into cells, with 78 percent of global cell manufacturing capacity located in China. There are planned capacity additions in China and Europe, while the US lags behind.
+participants: current cell manufacturing capacity ev3.1_P1, future capacity additions ev3.2_P1, US capacity ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Current cell manufacturing capacity
+event_id: ev3.1
+description: 78 percent of the world's cell manufacturing capacity is located in China, with some capacity in Europe and the United States.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Future capacity additions
+event_id: ev3.2
+description: There are more planned capacity additions in China and Europe compared to the United States.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: US capacity
+event_id: ev3.3
+description: Even with all planned projects, the US will have about one-tenth of China's cell manufacturing capacity by 2025.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Solar PV manufacturing value chain
+event_id: ev4
+description: The solar PV manufacturing value chain consists of five main components: polysilicon, ingots, wafers, cells, and modules. The upstream parts are technically challenging and capital-intensive, with significant consolidation in the market.
+participants: polysilicon production ev4.1_P1, ingot production ev4.2_P1, wafer production ev4.3_P1, cell production ev4.4_P1, module production ev4.5_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3, ev4.3>ev4.4, ev4.4>ev4.5
+
+Subevent 4.1
+subevent: Polysilicon production
+event_id: ev4.1
+description: The upstream part of the PV value chain, polysilicon production, is highly consolidated with significant Chinese presence.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Ingot production
+event_id: ev4.2
+description: Ingot production is integrated within wafer plants and is capital-intensive.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Wafer production
+event_id: ev4.3
+description: Over 90 percent of the world's wafer production capacity is in China, crucial for PV supply chain dominance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.4
+subevent: Cell production
+event_id: ev4.4
+description: The production of solar PV cells involves converting wafers into functional cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.5
+subevent: Module production
+event_id: ev4.5
+description: The final part of the PV value chain, module production, is also dominated by Chinese firms with 72 percent of global capacity.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

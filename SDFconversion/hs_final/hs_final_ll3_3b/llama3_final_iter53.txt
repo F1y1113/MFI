@@ -1,0 +1,114 @@
+Event 1**
+
+* Event: China's efforts to support EV manufacturing sector
+* Event ID: ev1
+* Description: China has pursued various policies intended to support the EV manufacturing sector, including subsidies, production quotas, and higher fuel economy standards.
+* Participants:
+	+ Subevent 1.1: Made in China 2025 program (P1)
+	+ Subevent 1.2: Chinese domestic firms' target of having 70% of the Chinese market for electric vehicles and plug-in hybrids by 2020, and 80% by 2025 (P0.8)
+* Gate: or
+* Relations: ev1 > ev1.1
+
+**Subevent 1.1**
+
+* Subevent: Made in China 2025 program
+* Event ID: ev1.1
+* Description: China's industrial modernization plan, which calls for Chinese domestic firms to have a significant share of the global EV market.
+* Participants:
+	+ Subevent 1.1.1: Target of having 70% of the Chinese market for electric vehicles and plug-in hybrids by 2020 (P1)
+	+ Subevent 1.1.2: Target of having 80% of the Chinese market for electric vehicles and plug-in hybrids by 2025 (P0.9)
+* Gate: and
+* Relations: ev1.1 > ev1.1.1, ev1.1 > ev1.1.2
+
+**Subevent 1.2**
+
+* Subevent: Chinese domestic firms' target for EV market share
+* Event ID: ev1.2
+* Description: The target of having 70% of the Chinese market for electric vehicles and plug-in hybrids by 2020, and 80% by 2025.
+* Participants:
+	+ Subevent 1.2.1: Target of having 70% of the Chinese market for electric vehicles and plug-in hybrids by 2020 (P1)
+	+ Subevent 1.2.2: Target of having 80% of the Chinese market for electric vehicles and plug-in hybrids by 2025 (P0.9)
+* Gate: or
+* Relations: ev1.2 > ev1.2.1, ev1.2 > ev1.2.2
+
+**Event 2**
+
+* Event: China's efforts to support EV manufacturing industry
+* Event ID: ev2
+* Description: China has been actively promoting the development of its EV manufacturing industry.
+* Participants:
+	+ Subevent 2.1: Government policies and incentives (P1)
+	+ Subevent 2.2: Investment in EV technology research and development (P0.8)
+* Gate: or
+* Relations: ev2 > ev2.1, ev2 > ev2.2
+
+**Subevent 2.1**
+
+* Subevent: Government policies and incentives
+* Event ID: ev2.1
+* Description: The Chinese government has implemented various policies and incentives to support the growth of its EV manufacturing industry.
+* Participants:
+	+ Subevent 2.1.1: Subsidies for EV manufacturers (P1)
+	+ Subevent 2.1.2: Tax breaks for EV-related businesses (P0.8)
+* Gate: and
+* Relations: ev2.1 > ev2.1.1, ev2.1 > ev2.1.2
+
+**Subevent 2.2**
+
+* Subevent: Investment in EV technology research and development
+* Event ID: ev2.2
+* Description: China has been investing heavily in the research and development of EV technologies.
+* Participants:
+	+ Subevent 2.2.1: Research grants for EV-related projects (P0.9)
+	+ Subevent 2.2.2: Investment in EV testing facilities (P0.7)
+* Gate: or
+* Relations: ev2.2 > ev2.2.1, ev2.2 > ev2.2.2
+
+Here is the extended hierarchical structure:
+
+```
+Event 1:
+	+ Event ID: ev1
+	+ Description: China has pursued various policies intended to support the EV manufacturing sector.
+	+ Participants:
+		- Subevent 1.1: Made in China 2025 program (P1)
+		- Subevent 1.2: Chinese domestic firms' target of having 70% of the Chinese market for electric vehicles and plug-in hybrids by 2020, and 80% by 2025 (P0.8)
+	+ Gate: or
+	+ Relations: ev1 > ev1.1
+
+Event 1.1:
+	+ Subevent ID: ev1.1
+	+ Description: China's industrial modernization plan, which calls for Chinese domestic firms to have a significant share of the global EV market.
+	+ Participants:
+		- Subevent 1.1.1: Target of having 70% of the Chinese market for electric vehicles and plug-in hybrids by 2020 (P1)
+		- Subevent 1.1.2: Target of having 80% of the Chinese market for electric vehicles and plug-in hybrids by 2025 (P0.9)
+	+ Gate: and
+	+ Relations: ev1.1 > ev1.1.1, ev1.1 > ev1.1.2
+
+Event 2:
+	+ Event ID: ev2
+	+ Description: China has been actively promoting the development of its EV manufacturing industry.
+	+ Participants:
+		- Subevent 2.1: Government policies and incentives (P1)
+		- Subevent 2.2: Investment in EV technology research and development (P0.8)
+	+ Gate: or
+	+ Relations: ev2 > ev2.1, ev2 > ev2.2
+
+Event 2.1:
+	+ Subevent ID: ev2.1
+	+ Description: The Chinese government has implemented various policies and incentives to support the growth of its EV manufacturing industry.
+	+ Participants:
+		- Subevent 2.1.1: Subsidies for EV manufacturers (P1)
+		- Subevent 2.1.2: Tax breaks for EV-related businesses (P0.8)
+	+ Gate: and
+	+ Relations: ev2.1 > ev2.1.1, ev2.1 > ev2.1.2
+
+Event 2.2:
+	+ Subevent ID: ev2.2
+	+ Description: China has been investing heavily in the research and development of EV technologies.
+	+ Participants:
+		- Subevent 2.2.1: Research grants for EV-related projects (P0.9)
+		- Subevent 2.2.2: Investment in EV testing facilities (P0.7)
+	+ Gate: or
+	+ Relations: ev2.2 > ev2.2.1, ev2.2 > ev2.2.2
+```

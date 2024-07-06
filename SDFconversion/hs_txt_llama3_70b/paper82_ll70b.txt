@@ -1,0 +1,16 @@
+Event 1
+event: LIBS commercialization by Sony
+event_id: ev1
+description: LIBS were first commercialized by Sony in 1991.
+participants: Sony ev1.1_P1, large scale and pilot processes ev1.2_P1, closed loop recycling ev1.3_P0.5, high potentials for doing so ev1.4_P0.5
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.1>ev1.4
+
+Subevent 1.1
+subevent: LIBS commercialization by Sony
+event_id: ev1.1
+description: LIBS were first commercialized by Sony in 1991.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+

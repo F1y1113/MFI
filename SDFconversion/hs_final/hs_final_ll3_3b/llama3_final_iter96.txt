@@ -1,0 +1,31 @@
+Event 1**
+event: calculating value-added of EV battery
+event_id: ev1
+description: Coffin and Horowitz (2018) updated the methodology for calculating the value-added of EV batteries.
+participants: U.S. EV sales ev1.1_P0.5, U.S. EV battery supply chain ev1.2_P0.5
+Gate: and
+Relations: ev1.1>ev1.2
+
+**Event 2**
+event: expanding U.S. EV market
+event_id: ev2
+description: U.S. EV sales have expanded significantly in recent years.
+participants: U.S. EV manufacturers ev2.1_P0.8, U.S. government ev2.2_P0.2
+Gate: and
+Relations: ev2.1>ev2.2
+
+**Event 3**
+event: calculating value-added of cell assembly and pack assembly
+event_id: ev3
+description: Coffin and Horowitz (2018) calculated the value-added of cell assembly and pack assembly.
+participants: EV battery costs BATPAC ev3.1_P0.5, materials and purchased items ev3.2_P0.5
+Gate: and
+Relations: ev3.1>ev3.2
+
+**Event 4**
+event: attempting to extract value-added from cost of materials used in making cells and battery packs
+event_id: ev4
+description: Future research should look at how much U.S. value-added is consumed in electric vehicles sold in other markets.
+participants: materials used in making cells and battery packs ev4.1_P0.8, countries with competitive advantage ev4.2_P0.2
+Gate: or
+Relations: ev4.1>ev4.2

@@ -1,0 +1,103 @@
+Event 1**
+event: Lithium extraction from brine
+event_id: ev1
+description: The evaporation processes used for lithium extraction from brine can last 12 to 18 months.
+participants: supply imbalances ev1.1_P1, lead time ev1.2_P1
+Gate: and
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: Supply imbalances
+event_id: ev1.1
+description: In the event of supply imbalances, the lead time with respect to lithium supply from brine may not be elastic enough to meet demand in a timely manner.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.2**
+subevent: Lead time
+event_id: ev1.2
+description: The lead time with respect to lithium supply from brine may not be elastic enough to meet demand in a timely manner.
+participants: new processing facilities ev1.2.1_P0.5, permitting and construction ev1.2.2_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.3, ev1.2.2>ev1.2.3
+
+**Subevent 1.2.1**
+subevent: New processing facilities
+event_id: ev1.2.1
+description: New processing facilities take time to be built.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.2.2**
+subevent: Permitting and construction
+event_id: ev1.2.2
+description: Permitting and construction of new processing facilities take time.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: Lithium-ion recycling
+event_id: ev2
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev2.1_P1, hydrometallurgical ev2.2_P1, bioleaching ev2.3_P1
+Gate: or
+Relations: ev2.1>ev2.4, ev2.2>ev2.4
+
+**Subevent 2.1**
+subevent: Pyrometallurgical
+event_id: ev2.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev2.1.1_P1, cobalt ev2.1.2_P0.5, copper ev2.1.3_P0.5, iron ev2.1.4_P0.5, nickel alloys ev2.1.5_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2, ev2.1.1>ev2.1.3, ev2.1.1>ev2.1.4, ev2.1.1>ev2.1.5
+
+**Subevent 2.2**
+subevent: Hydrometallurgy
+event_id: ev2.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.3**
+subevent: Bioleaching
+event_id: ev2.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 3**
+event: High cost and high environmental pollution
+event_id: ev3
+description: The main drawbacks of pyrometallurgical method are its high cost and high environmental pollution.
+participants: pyrometallurgical ev3.1_P1, high cost ev3.2_P1, high environmental pollution ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.4, ev3.2>ev3.4
+
+**Subevent 3.1**
+subevent: Pyrometallurgical
+event_id: ev3.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.2**
+subevent: High cost
+event_id: ev3.2
+description: The high cost of pyrometallurgical method is a major drawback.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.3**
+subevent: High environmental pollution
+event_id: ev3.3
+description: The high environmental pollution caused by pyrometallurgical method is a major concern.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

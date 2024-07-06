@@ -1,0 +1,47 @@
+Event 1**
+event: Graphite supply chain for electric vehicles
+event_id: ev1
+description: The study focuses on building a model of the graphite value chain and its use in electric vehicles between 2020 and 2050.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.1**
+subevent: Scenario development
+event_id: ev1.1
+description: Six selected scenarios were developed to quantify the demand for graphite ore and needle coke.
+participants: EV penetration, vehicle size, battery chemistries, recycling technologies, share of natural versus synthetic graphite in batteries xxxx
+Gate: or
+Relations: ev1.1>ev1.2
+
+**Subevent 1.2**
+subevent: Parametric model development
+event_id: ev1.2
+description: A parametric model was developed to quantify the demand for graphite ore and needle coke.
+participants: xxxx
+Gate: or
+Relations: ev1.2>ev1.3
+
+**Subevent 1.3**
+subevent: Monte Carlo simulation
+event_id: ev1.3
+description: The study used Monte Carlo simulation to assess the uncertainty of results.
+participants: xxxx
+Gate: and
+Relations: ev1.3>ev1.4, ev1.3>ev1.5
+
+**Subevent 2**
+subevent: Graphite supply chain constraints
+event_id: ev2
+description: The study revealed the dependence of LIB production on the extraction of hydrocarbons leads to supply constraints for synthetic graphite.
+participants: EV penetration, refineries flexibility xxxx
+Gate: or
+Relations: ev2>ev3
+
+**Subevent 3**
+subevent: Recycling techniques and societal changes
+event_id: ev3
+description: The study suggests that recycling techniques and societal changes can help alleviate supply chain constraints.
+participants: Recycling technologies, societal changes xxxx
+Gate: or
+Relations: ev3>ev4

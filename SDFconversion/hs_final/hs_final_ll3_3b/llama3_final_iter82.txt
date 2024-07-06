@@ -1,0 +1,40 @@
+
+**Event 2**
+event: supplier selection for EV batteries
+event_id: ev2
+description: Three scenarios are investigated to analyze the influence of location on supplier selection for EV batteries.
+participants: baseline scenario ev2.1_P1, scenario 1 ev2.2_P0.5, scenario 2 ev2.3_P0.5, scenario 3 ev2.4_P0.5
+Gate: and
+Relations: ev2.1>ev2.2, ev2.1>ev2.3, ev2.1>ev2.4
+
+**Subevent 2.1**
+subevent: baseline scenario
+event_id: ev2.1
+description: Results show that LFP battery is favorable from an environmental perspective, while supply chain of NCA battery has the highest environmental indicator scores.
+participants: LFP ev2.1.1_P0.5, NCA ev2.1.2_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+**Subevent 2.2**
+subevent: scenario 1
+event_id: ev2.2
+description: Investigates the influence of location on battery cell production, assuming 100% production in one of the countries depicted in Figure 2.
+participants: country A ev2.2.1_P0.5, country B ev2.2.2_P0.5, ...
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+**Subevent 2.3**
+subevent: scenario 2
+event_id: ev2.3
+description: Investigates the influence of location on positive active material production, assuming production in countries currently producing NMC811, NCA, or LFP.
+participants: country A ev2.3.1_P0.5, country B ev2.3.2_P0.5, ...
+Gate: and
+Relations: ev2.3.1>ev2.3.2
+
+**Subevent 2.4**
+subevent: scenario 3
+event_id: ev2.4
+description: Investigates the influence of location on supplier selection for EV batteries in different countries.
+participants: country A ev2.4.1_P0.5, country B ev2.4.2_P0.5, ...
+Gate: and
+Relations: ev2.4.1>ev2.4.2

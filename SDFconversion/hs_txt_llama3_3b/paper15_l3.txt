@@ -1,0 +1,15 @@
+Event 1
+event: lithium-ion battery supply chain sustainability transparency
+event_id: ev1
+description: Limited transparency on the sustainability of the lithium-ion battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1
+subevent: xxxxx
+event_id: ev1.1
+description: xxxxxxxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

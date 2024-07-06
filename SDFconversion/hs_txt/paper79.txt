@@ -1,0 +1,191 @@
+Event 1
+event: Life cycle inventory creation and analysis for three battery types
+event_id: ev1
+description: Life cycle inventories (LCIs) are created for three battery types and their respective supply chains based on the goal and scope definition. The inventories are derived from various models and data sources to analyze material flows and energy demand.
+participants: goal and scope definition ev1.1_P1, BatPac 5.0 model ev1.2_P1, GREET 2021 model ev1.3_P1, Engels et al. inventories ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: Goal and scope definition
+event_id: ev1.1
+description: The goal and scope of the study are defined to create life cycle inventories for three battery types and their supply chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: BatPac 5.0 model
+event_id: ev1.2
+description: The composition of the battery cells is based on the BatPac 5.0 model.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: GREET 2021 model
+event_id: ev1.3
+description: The GREET 2021 model is used for the composition and energy demand of the positive active materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Engels et al. inventories
+event_id: ev1.4
+description: The inventories for the negative active material are based on Engels et al.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Data sources for materials and energy flows
+event_id: ev2
+description: The materials and energy flow data for components and cell production are derived from various studies and databases, with specific data for lithium hydroxide routes from Schenker et al. and Chordia et al.
+participants: ecoinvent database ev2.1_P1, Schenker et al. data ev2.2_P1, Chordia et al. data ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Ecoinvent database
+event_id: ev2.1
+description: The activities of raw material extraction and processing are based on the ecoinvent database.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Schenker et al. data
+event_id: ev2.2
+description: Data for specific locations for lithium extraction and processing are based on Schenker et al.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Chordia et al. data
+event_id: ev2.3
+description: Data for specific locations for lithium extraction and processing are based on Chordia et al.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Scenarios with adapted supply chains
+event_id: ev3
+description: Three scenarios with adapted supply chains are investigated to analyze the influence of location on battery cell production, positive active material production, and different production routes for lithium hydroxide.
+participants: location influence scenario ev3.1_P1, positive active material production scenario ev3.2_P1, lithium hydroxide production routes scenario ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Location influence scenario
+event_id: ev3.1
+description: The influence of location on battery cell production is analyzed by assuming 100% production in one of eight countries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Positive active material production scenario
+event_id: ev3.2
+description: The influence of location on positive active material production is analyzed for NMC811, NCA, and LFP batteries.
+participants: NMC811 production locations ev3.2.1_P1, NCA production locations ev3.2.2_P1, LFP production locations ev3.2.3_P1
+Gate: and
+Relations: ev3.2.1>ev3.2.2, ev3.2.2>ev3.2.3
+
+Subsubevent 3.2.1
+subsubevent: NMC811 production locations
+event_id: ev3.2.1
+description: NMC811 is produced in China, South Korea, Japan, Europe, and other regions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.2.2
+subsubevent: NCA production locations
+event_id: ev3.2.2
+description: NCA is produced in Japan, South Korea, China, and other regions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.2.3
+subsubevent: LFP production locations
+event_id: ev3.2.3
+description: LFP is produced in China, Canada, and the USA.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Lithium hydroxide production routes scenario
+event_id: ev3.3
+description: The influence of different production routes for lithium hydroxide is analyzed for Australia, Chile, and China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Baseline scenario results and environmental impact
+event_id: ev4
+description: The baseline scenario results show that LFP batteries are favorable from an environmental perspective, while NCA batteries have the highest environmental indicator scores. There are trade-offs between different sustainability dimensions and impact categories.
+participants: LFP battery environmental impact ev4.1_P1, NCA battery environmental impact ev4.2_P1, sustainability trade-offs ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: LFP battery environmental impact
+event_id: ev4.1
+description: LFP batteries are favorable from an environmental perspective and also in terms of cost.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: NCA battery environmental impact
+event_id: ev4.2
+description: NCA batteries have the highest environmental indicator scores in the baseline scenario.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Sustainability trade-offs
+event_id: ev4.3
+description: There are trade-offs between impact categories of different sustainability dimensions, and even within the social dimension.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 5
+event: Influence of location on sustainability dimensions
+event_id: ev5
+description: The investigated scenarios show that location can significantly influence the results of all three sustainability dimensions, varying depending on the locations and processes considered.
+participants: environmental impact ev5.1_P1, social impact ev5.2_P1, economic impact ev5.3_P1
+Gate: and
+Relations: ev5.1>ev5.2, ev5.2>ev5.3
+
+Subevent 5.1
+subevent: Environmental impact
+event_id: ev5.1
+description: The environmental impact of battery production varies significantly based on the location of the production facilities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.2
+subevent: Social impact
+event_id: ev5.2
+description: The social impact of battery production also varies depending on the location, with different countries having different social implications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.3
+subevent: Economic impact
+event_id: ev5.3
+description: The economic impact of battery production is influenced by the location, affecting costs and investment returns.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

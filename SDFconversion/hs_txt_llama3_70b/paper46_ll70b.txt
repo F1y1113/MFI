@@ -1,0 +1,23 @@
+Event 1
+event: EV Battery Supply Chain
+event_id: ev1
+description: The supply chain for electric vehicle (EV) batteries, including production ramp-up and suppliers.
+participants: Niche EV Manufacturer ev1.1_P1, Suppliers ev1.2_P1
+Gate: or
+Relations: ev1>ev1.1
+
+Subevent 1.1
+subevent: Niche EV Manufacturer
+event_id: ev1.1
+description: Plans to move from producing five units to 30,000 units within five years.
+participants: Suppliers of drivetrain-related components ev1.1.1_P0.5, Motor ev1.1.2_P0.25, Battery ev1.1.3_P0.25, Fuel Cells ev1.1.4_P0.1, Electronic Control Units ev1.1.5_P0.05
+Gate: and
+Relations: ev1.1>ev1.1.1
+
+Subevent 1.2
+subevent: Suppliers
+event_id: ev1.2
+description: Provide drivetrain-related components for the EV manufacturer.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

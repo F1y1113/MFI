@@ -1,0 +1,47 @@
+Event 1
+event: Closed-loop supply chain for spent power batteries
+event_id: ev1
+description: Establishing an effective recycling system for spent power batteries.
+participants: retailer ev1.1_P0.5, third-party recycler ev1.2_P0.3, echelon utilization enterprise ev1.3_P0.2
+Gate: or
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3
+
+Subevent 1.1
+subevent: retailer participation
+event_id: ev1.1
+description: The retailer participates in the recycling business.
+participants: spent power batteries ev1.1.1_P0.8, raw materials ev1.1.2_P0.2
+Gate: and
+Relations: ev1.1>ev1.1.1, ev1.1>ev1.1.2
+
+Subevent 1.2
+subevent: third-party recycler participation
+event_id: ev1.2
+description: The third-party recycler participates in the recycling business.
+participants: spent power batteries ev1.2.1_P0.8, raw materials ev1.2.2_P0.2
+Gate: and
+Relations: ev1.2>ev1.2.1, ev1.2>ev1.2.2
+
+Subevent 1.3
+subevent: echelon utilization enterprise participation
+event_id: ev1.3
+description: The echelon utilization enterprise participates in the recycling business.
+participants: spent power batteries ev1.3.1_P0.8, echelon utilization products ev1.3.2_P0.2
+Gate: and
+Relations: ev1.3>ev1.3.1, ev1.3>ev1.3.2
+
+Subevent 1.4
+subevent: raw materials extraction
+event_id: ev1.4
+description: Raw materials are extracted from spent power batteries.
+participants: spent power batteries ev1.4.1_P0.9, raw materials ev1.4.2_P0.1
+Gate: and
+Relations: ev1.4>ev1.4.1, ev1.4>ev1.4.2
+
+Subevent 1.5
+subevent: echelon utilization products creation
+event_id: ev1.5
+description: Echelon utilization products are created from spent power batteries.
+participants: spent power batteries ev1.5.1_P0.8, echelon utilization products ev1.5.2_P0.2
+Gate: and
+Relations: ev1.5>ev1.5.1, ev1.5>ev1.5.2

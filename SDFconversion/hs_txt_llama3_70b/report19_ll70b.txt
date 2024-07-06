@@ -1,0 +1,16 @@
+Event 1
+event: 本周主要生产国印尼镍矿审批速度面临回调压力
+event_id: ev1
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent:xxxx
+event_id: ev1.1
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+

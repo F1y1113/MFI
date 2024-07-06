@@ -1,0 +1,152 @@
+Event 1
+event: Lithium-Ion Battery Development and Impact
+event_id: ev1
+description: Lithium-ion batteries (Li-ion) are a type of rechargeable battery known for their high specific energy, energy density, efficiency, and long cycle and calendar life. Since their market introduction in 1991, they have significantly improved in energy density and cost, impacting various sectors including consumer electronics, transportation, and grid-scale energy storage.
+participants: Construction and Chemistries ev1.1_P1, Impact on Technologies ev1.2_P1, Safety and Environmental Concerns ev1.3_P1, Cathode Materials ev1.4_P1, Anode Materials ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: Construction and Chemistries
+event_id: ev1.1
+description: Lithium-ion batteries use the reversible intercalation of Li+ ions into electronically conducting solids to store energy. There are at least 12 different chemistries of Li-ion batteries, each optimized for specific applications.
+participants: Energy Optimization ev1.1.1_P1, Different Chemistries ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subevent: Energy Optimization
+event_id: ev1.1.1
+description: Lithium-ion cells can be manufactured to optimize either energy or power density, making them suitable for a wide range of applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subevent: Different Chemistries
+event_id: ev1.1.2
+description: At least 12 different chemistries of Li-ion batteries exist, each offering unique benefits and trade-offs for various applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Impact on Technologies
+event_id: ev1.2
+description: The invention and commercialization of Li-ion batteries enabled the development of portable consumer electronics, laptops, cellular phones, electric cars, and grid-scale energy storage, significantly impacting modern technology and earning a Nobel Prize in Chemistry in 2019.
+participants: Consumer Electronics ev1.2.1_P1, Transportation ev1.2.2_P1, Energy Storage ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subevent: Consumer Electronics
+event_id: ev1.2.1
+description: Li-ion batteries enabled the widespread use of portable consumer electronics, including laptops and cellular phones.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subevent: Transportation
+event_id: ev1.2.2
+description: Li-ion batteries play a crucial role in the electrification of transport, contributing to the reduction of greenhouse gas emissions from vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.3
+subevent: Energy Storage
+event_id: ev1.2.3
+description: Li-ion batteries are used for grid-scale energy storage as well as military and aerospace applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Safety and Environmental Concerns
+event_id: ev1.3
+description: Lithium-ion batteries can be a safety hazard if not properly engineered and manufactured due to their flammable electrolytes. Additionally, improper recycling can create toxic waste, and the extraction of lithium and other key minerals can have significant environmental impacts.
+participants: Safety Hazards ev1.3.1_P1, Recycling Concerns ev1.3.2_P1, Environmental Impact ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+subevent: Safety Hazards
+event_id: ev1.3.1
+description: Flammable electrolytes in Li-ion batteries can lead to explosions and fires if damaged or incorrectly charged.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subevent: Recycling Concerns
+event_id: ev1.3.2
+description: Improperly recycled Li-ion batteries can create toxic waste, especially from toxic metals, and pose a fire risk.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subevent: Environmental Impact
+event_id: ev1.3.3
+description: The extraction of lithium is water-intensive, often in arid regions, and other minerals used in Li-ion batteries, such as cobalt, can be conflict minerals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Cathode Materials
+event_id: ev1.4
+description: There are three classes of commercial cathode materials in lithium-ion batteries: layered oxides, spinel oxides, and oxoanion complexes, all discovered by John Goodenough and his collaborators.
+participants: Layered Oxides ev1.4.1_P1, Spinel Oxides ev1.4.2_P1, Oxoanion Complexes ev1.4.3_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3
+
+Subsubevent 1.4.1
+subevent: Layered Oxides
+event_id: ev1.4.1
+description: Layered oxides are one of the three classes of commercial cathode materials in lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.2
+subevent: Spinel Oxides
+event_id: ev1.4.2
+description: Spinel oxides are one of the three classes of commercial cathode materials in lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.3
+subevent: Oxoanion Complexes
+event_id: ev1.4.3
+description: Oxoanion complexes are one of the three classes of commercial cathode materials in lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: Anode Materials
+event_id: ev1.5
+description: Negative electrode materials in lithium-ion batteries are traditionally constructed from graphite and other carbon materials, with newer silicon-based materials being increasingly used.
+participants: Graphite and Carbon Materials ev1.5.1_P1, Silicon-Based Materials ev1.5.2_P1
+Gate: or
+Relations: ev1.5.1>ev1.5.2
+
+Subsubevent 1.5.1
+subevent: Graphite and Carbon Materials
+event_id: ev1.5.1
+description: In 2016, 89% of lithium-ion batteries contained graphite, with the remainder containing amorphous carbon, lithium titanate (LTO), or silicon/tin-based materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.5.2
+subevent: Silicon-Based Materials
+event_id: ev1.5.2
+description: Silicon-based materials are being increasingly used in lithium-ion batteries, offering potential benefits over traditional carbon-based materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+

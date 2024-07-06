@@ -1,0 +1,56 @@
+Event 1
+event: Rapidly expanding demand for minerals
+event_id: ev1
+description: The rapid adoption of electric vehicles is driving up demand for critical minerals such as lithium, nickel, cobalt, manganese, graphite, and rare earth elements.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Lithium demand surge
+event_id: ev1.1
+description: The global demand for lithium is expected to increase by up to 89 times current demand by 2050.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Supply chain constraints
+event_id: ev1.2
+description: Rapidly expanding demand, combined with supply chain constraints, is driving up prices for critical minerals.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Event 2
+event: Mined raw materials as anchor of manufacturing value chains
+event_id: ev2
+description: Mined raw materials are the foundation of all manufacturing value chains, including those for electric vehicles.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.1
+subevent: Lithium extraction
+event_id: ev2.1
+description: Lithium is extracted from mined ore through various processes such as pyrometallurgy, hydrometallurgy, bioleaching, and direct recycling.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 2.2
+subevent: Nickel extraction
+event_id: ev2.2
+description: Nickel is extracted from mined ore through various processes such as pyrometallurgy, hydrometallurgy, bioleaching, and direct recycling.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 2.3
+subevent: Cobalt extraction
+event_id: ev2.3
+description: Cobalt is extracted from mined ore through various processes such as pyrometallurgy, hydrometallurgy, bioleaching, and direct recycling.
+participants: xxxx
+Gate: or
+Relations: xxxx
+

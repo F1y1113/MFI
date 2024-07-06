@@ -1,0 +1,14 @@
+Event 1
+event: Electric vehicles (EVs) are a growing part of the passenger
+event_id: ev1
+description: Electric vehicles (EVs) are a growing part of the passenger
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1
+subevent: xxxx
+event_id: ev1.1
+description: xxxx
+participants: xxxx
+Gate: xxxx

@@ -1,0 +1,135 @@
+Event 1
+event: Multi-tiered Supply Chain Case Study
+event_id: ev1
+description: This study provides insights into a multi-tiered supply chain case study focusing on a niche EV manufacturer referred to as EV-Co. It includes an analysis of EV-Co's suppliers for drivetrain-related components.
+participants: EV-Co ev1.1_P1, Suppliers ev1.2_P1, Drivetrain Components ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: EV-Co
+event_id: ev1.1
+description: EV-Co is a relatively new start-up company planning to increase production from five units to 30,000 units within five years.
+participants: Production Ramp-up ev1.1.1_P1, Dependency on Suppliers ev1.1.2_P1, Resource Deficiencies ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subevent: Production Ramp-up
+event_id: ev1.1.1
+description: EV-Co plans to increase production volume significantly within five years.
+participants: Current Production ev1.1.1.1_P1, Target Production ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubevent 1.1.2
+subevent: Dependency on Suppliers
+event_id: ev1.1.2
+description: EV-Co is highly dependent on its suppliers to achieve quick volume ramp-up and improved operational performance.
+participants: Supplier Dependency ev1.1.2.1_P1, Supplier Relationship Management ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubevent 1.1.3
+subevent: Resource Deficiencies
+event_id: ev1.1.3
+description: EV-Co faces resource deficiencies and risks associated with rapid expansion.
+participants: Resource Constraints ev1.1.3.1_P1, Risk Management ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subevent 1.2
+subevent: Suppliers
+event_id: ev1.2
+description: The identity of EV-Co's suppliers for drivetrain-related components is disguised to preserve their anonymity.
+participants: Anonymous Suppliers ev1.2.1_P1, Drivetrain Components Suppliers ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subevent: Anonymous Suppliers
+event_id: ev1.2.1
+description: The suppliers' identities are kept anonymous for confidentiality.
+participants: Supplier 1 ev1.2.1.1_P0.5, Supplier 2 ev1.2.1.2_P0.5, Supplier 3 ev1.2.1.3_P0.5
+Gate: or
+Relations: xxxx
+
+Subsubevent 1.2.2
+subevent: Drivetrain Components Suppliers
+event_id: ev1.2.2
+description: Suppliers provide essential drivetrain-related components that distinguish EVs from ICE vehicles.
+participants: Motor Suppliers ev1.2.2.1_P1, Battery Suppliers ev1.2.2.2_P1, Fuel Cells Suppliers ev1.2.2.3_P1, ECU Suppliers ev1.2.2.4_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2, ev1.2.2.2>ev1.2.2.3, ev1.2.2.3>ev1.2.2.4
+
+Subsubevent 1.2.2.1
+subevent: Motor Suppliers
+event_id: ev1.2.2.1
+description: Suppliers of motors that are critical for the EV drivetrain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2.2
+subevent: Battery Suppliers
+event_id: ev1.2.2.2
+description: Suppliers of batteries that power the EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2.3
+subevent: Fuel Cells Suppliers
+event_id: ev1.2.2.3
+description: Suppliers of fuel cells used in EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2.4
+subevent: ECU Suppliers
+event_id: ev1.2.2.4
+description: Suppliers of electronic control units (ECUs) that manage various aspects of the EV drivetrain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Drivetrain Components
+event_id: ev1.3
+description: Drivetrain-related components are essential for distinguishing EVs from ICE vehicles.
+participants: Motor ev1.3.1_P1, Battery ev1.3.2_P1, Fuel Cells ev1.3.3_P1, Electronic Control Units ev1.3.4_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3, ev1.3.3>ev1.3.4
+
+Subsubevent 1.3.1
+subevent: Motor
+event_id: ev1.3.1
+description: An electric motor is a key component of the EV drivetrain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subevent: Battery
+event_id: ev1.3.2
+description: The battery is a crucial component for powering the EV.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subevent: Fuel Cells
+event_id: ev1.3.3
+description: Fuel cells provide an alternative energy source for the EV drivetrain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.4
+subevent: Electronic Control Units
+event_id: ev1.3.4
+description: ECUs manage various functions of the EV drivetrain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

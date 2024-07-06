@@ -1,0 +1,47 @@
+Event 1
+event: Responsible Mineral Sourcing Initiatives
+event_id: ev1
+description: This event discusses the global efforts and approaches taken in responsible mineral sourcing, focusing on conflict minerals and materials needed for renewable energy technologies.
+participants: Conflict minerals initiatives ev1.1_P1, Renewable energy minerals initiatives ev1.2_P1, Evolution of initiatives ev1.3_P1, Approaches and impacts ev1.4_P1, Challenges and opportunities ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: Conflict minerals initiatives
+event_id: ev1.1
+description: Focuses on efforts to address the ethical concerns surrounding conflict minerals such as tin, tungsten, tantalum, and gold.
+participants: Ethical concerns ev1.1.1_P1, Supply chain initiatives ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Renewable energy minerals initiatives
+event_id: ev1.2
+description: Discusses initiatives for sourcing metals and minerals like cobalt, graphite, lithium, manganese, and nickel required for renewable energy technologies.
+participants: Cobalt initiatives ev1.2.1_P1, Graphite initiatives ev1.2.2_P1, Lithium initiatives ev1.2.3_P1, Manganese initiatives ev1.2.4_P1, Nickel initiatives ev1.2.5_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3, ev1.2.3>ev1.2.4, ev1.2.4>ev1.2.5
+
+Subevent 1.3
+subevent: Evolution of initiatives
+event_id: ev1.3
+description: Describes the development and changes in responsible mineral sourcing initiatives over the past two decades.
+participants: Initiative development ev1.3.1_P1, Changes in approaches ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subevent 1.4
+subevent: Approaches and impacts
+event_id: ev1.4
+description: Contrasts mandatory and voluntary approaches in responsible mineral sourcing and summarizes their impacts on local communities and corporate actors.
+participants: Mandatory approaches ev1.4.1_P1, Voluntary approaches ev1.4.2_P1, Local community impacts ev1.4.3_P1, Corporate actor impacts ev1.4.4_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3, ev1.4.3>ev1.4.4
+
+Subevent 1.5
+subevent: Challenges and opportunities
+event_id: ev1.5
+description: Discusses the challenges and opportunities presented by new technologies and traceability systems in responsible mineral sourcing.
+participants: New technologies ev1.5.1_P1, Traceability systems ev1.5.2_P1
+Gate: and
+Relations: ev1.5.1>ev1.5.2

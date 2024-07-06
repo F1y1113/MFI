@@ -1,0 +1,15 @@
+Event 1
+event: Nickel-Based Cathode Chemistry
+event_id: ev1
+description: Manufacturers used significantly lately due to the rising number of EVs, and the issue of echelon usage is becoming a study focus.
+participants: LB manufacturers ev1.1_P1, organizations ev1.2_P0.5, governments ev1.3_P0.5, policies ev1.4_P0.5
+Gate: or
+Relations: ev1>ev2
+
+Event 2
+event: Echelon Usage Strategies and Models
+event_id: ev2
+description: Place an emphasis on green economies and sustainability.
+participants: xxxx
+Gate: xxxxx
+Relations: xxxx

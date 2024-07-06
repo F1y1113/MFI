@@ -1,0 +1,63 @@
+Event 1**
+event: EV revolution
+event_id: ev1
+description: The rapid adoption of Electric Vehicles (EVs) and its impact on critical material supply chains.
+participants: lithium ev1.1_P1, cobalt ev1.2_P1, nickel ev1.3_P1, copper ev1.4_P1
+Gate: or
+Relations: ev1.1>ev1.5, ev1.2>ev1.5, ev1.3>ev1.5, ev1.4>ev1.5
+
+**Subevent 1.1**
+subevent: lithium demand increase
+event_id: ev1.1
+description: The global demand for lithium is expected to increase by up to 89 times current demand by 2050.
+participants: IEA report ev1.1.1_P1, exponential growth ev1.1.2_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+**Subevent 1.2**
+subevent: cobalt sourcing challenges
+event_id: ev1.2
+description: The high concentration of critical raw material production in certain countries or regions, such as China, Russia, Australia, and African countries.
+participants: OECD due diligence guidance ev1.2.1_P1, London Metal Exchange audit assessments ev1.2.2_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+**Subevent 1.3**
+subevent: nickel supply concerns
+event_id: ev1.3
+description: The potential future imbalance between supply and demand for nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.4**
+subevent: copper supply risks
+event_id: ev1.4
+description: The potential future imbalance between supply and demand for copper.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.5**
+subevent: responsible sourcing practices
+event_id: ev1.5
+description: The need for responsible sourcing practices to mitigate the risks associated with critical material supply chains.
+participants: Apple's commitment ev1.5.1_P1, recycling initiatives ev1.5.2_P0.5
+Gate: or
+Relations: ev1.5.1>ev1.6, ev1.5.2>ev1.6
+
+**Subevent 1.6**
+subevent: closed-loop production
+event_id: ev1.6
+description: The goal of achieving closed-loop production to minimize waste and reduce the demand for primary materials.
+participants: recycling technologies ev1.6.1_P1, design for recyclability ev1.6.2_P0.5
+Gate: and
+Relations: ev1.6.1>ev1.7, ev1.6.2>ev1.7
+
+**Subevent 1.7**
+subevent: reduced carbon footprint
+event_id: ev1.7
+description: The potential reduction in carbon footprint through the adoption of closed-loop production and responsible sourcing practices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

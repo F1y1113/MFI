@@ -1,0 +1,471 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The manufacturing process of EV batteries involves several stages, including extracting mineral ores, refining, synthesizing materials, battery cell production, and recycling.
+participants: Mineral extraction ev1.1_P1, Refining ev1.2_P1, Material synthesis ev1.3_P1, Battery cell production ev1.4_P1, Recycling ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: Mineral extraction
+event_id: ev1.1
+description: The initial stage in the EV battery supply chain, involving the extraction of necessary mineral ores such as lithium, cobalt, and nickel.
+participants: Lithium extraction ev1.1.1_P1, Cobalt extraction ev1.1.2_P1, Nickel extraction ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subsubevent: Lithium extraction
+event_id: ev1.1.1
+description: The process of extracting lithium, a critical raw material for battery production, primarily dominated by China.
+participants: China ev1.1.1.1_P1, Other countries ev1.1.1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Cobalt extraction
+event_id: ev1.1.2
+description: The extraction of cobalt, used in super-alloys, hard metals, and catalysts, though its usage has decreased with the rise of nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: Nickel extraction
+event_id: ev1.1.3
+description: Nickel extraction, essential for stainless steel production and requiring highly pure-grade nickel for battery production.
+participants: Class-1 nickel ev1.1.3.1_P1, Class-2 nickel ev1.1.3.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 1.2
+subevent: Refining
+event_id: ev1.2
+description: The refining stage involves processing extracted ores into usable forms, crucial for subsequent material synthesis.
+participants: Class-1 nickel refining ev1.2.1_P1, Cobalt refining ev1.2.2_P1, Lithium refining ev1.2.3_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: Material synthesis
+event_id: ev1.3
+description: Synthesis of materials like cathodes and anodes from refined minerals, determining battery performance.
+participants: Cathode synthesis ev1.3.1_P1, Anode synthesis ev1.3.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.3.1
+subsubevent: Cathode synthesis
+event_id: ev1.3.1
+description: Creation of cathode materials, where nickel and iron-based chemistries play a critical role in battery performance.
+participants: Nickel-based cathodes ev1.3.1.1_P1, Iron-based cathodes ev1.3.1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Anode synthesis
+event_id: ev1.3.2
+description: Production of anode materials, predominantly using graphite, which is supplied mainly by China.
+participants: Natural graphite ev1.3.2.1_P1, Synthetic graphite ev1.3.2.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 1.4
+subevent: Battery cell production
+event_id: ev1.4
+description: The production of battery cells from synthesized cathode and anode materials, a key phase in the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: Recycling
+event_id: ev1.5
+description: The final stage, involving the recycling of used batteries to recover valuable materials for reuse.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Global leaders in EV battery supply chain
+event_id: ev2
+description: Different countries' roles in the EV battery supply chain, highlighting China's dominance and contributions from Europe, the US, South Korea, and Japan.
+participants: China ev2.1_P1, Europe ev2.2_P0.5, US ev2.3_P0.5, South Korea ev2.4_P0.5, Japan ev2.5_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 2.1
+subevent: China
+event_id: ev2.1
+description: China dominates the EV battery supply chain with significant production capacities for both positive and negative electrode materials.
+participants: Positive electrode materials ev2.1.1_P1, Negative electrode materials ev2.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.1.1
+subsubevent: Positive electrode materials
+event_id: ev2.1.1
+description: China produces 70% of the world's positive electrode materials for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.2
+subsubevent: Negative electrode materials
+event_id: ev2.1.2
+description: China accounts for 85% of the global production capacity of negative electrode materials for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Europe
+event_id: ev2.2
+description: Europe has made strides in EV production but lags in other aspects of the battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: US
+event_id: ev2.3
+description: The US has a minimal contribution to the global EV battery supply chain but is focusing on developing its own supply chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: South Korea
+event_id: ev2.4
+description: South Korea has significant involvement in the downstream raw material processing supply chain for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.5
+subevent: Japan
+event_id: ev2.5
+description: Japan also has a notable presence in the EV battery supply chain, particularly in raw material processing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Industrial policies outlook
+event_id: ev3
+description: Industrial policies adopted by various nations to strengthen their positions in the integrated battery supply chains.
+participants: China ev3.1_P1, Japan ev3.2_P0.5, Korea ev3.3_P0.5, European Union ev3.4_P0.5, US ev3.5_P0.5, Indonesia ev3.6_P0.5, Thailand ev3.7_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 3.1
+subevent: China
+event_id: ev3.1
+description: China’s forward-thinking policies have secured a dominant position in the global EV industry, holding a 77% market share.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Japan
+event_id: ev3.2
+description: Japan holds 4% of the global production capacity for EV batteries and has unveiled significant financial initiatives.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Korea
+event_id: ev3.3
+description: Korea has 5% of the global production capacity and has launched significant financial initiatives to bolster its presence in the battery and EV industries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.4
+subevent: European Union
+event_id: ev3.4
+description: The European Union has invested significantly in R&D to develop an integrated battery manufacturing industry, though it will take time to establish supply chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.5
+subevent: US
+event_id: ev3.5
+description: The US has intensified efforts to develop indigenous supply chains for EVs and batteries, leveraging its automotive and mineral resource industries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.6
+subevent: Indonesia
+event_id: ev3.6
+description: Indonesia is strategically focusing on battery and EV production, leveraging its geographical advantages to attract investments from major EV producers.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.7
+subevent: Thailand
+event_id: ev3.7
+description: Thailand is concentrating on producing batteries, EVs, and distributing materials, maintaining close ties with the Asian market to attract investments.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Critical materials for EV batteries
+event_id: ev4
+description: The demand for critical materials such as lithium, cobalt, and nickel has increased due to their essential roles in battery production.
+participants: Lithium ev4.1_P1, Cobalt ev4.2_P1, Nickel ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: Lithium
+event_id: ev4.1
+description: Lithium is a critical raw material for EV batteries, with China dominating its supply.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Cobalt
+event_id: ev4.2
+description: Cobalt is used in the fabrication of super-alloys, hard metals, and catalysts, though its usage has decreased with the rise of nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Nickel
+event_id: ev4.3
+description: Nickel, particularly class-1 nickel with a purity greater than 99.8%, is essential for battery production. The Russia-Ukraine conflict has significantly impacted its supply chain.
+participants: Class-1 nickel ev4.3.1_P1, Class-2 nickel ev4.3.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subsubevent 4.3.1
+subsubevent: Class-1 nickel
+event_id: ev4.3.1
+description: Highly pure-grade nickel required for battery production, with a purity greater than 99.8%.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.3.2
+subsubevent: Class-2 nickel
+event_id: ev4.3.2
+description: Nickel with less than 99.8% purity, which cannot be used in battery production without multistage processing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 5
+event: Impact of geopolitical conflicts on supply chain
+event_id: ev5
+description: The Russia-Ukraine conflict has drastically affected the global supply chain of class-1 battery-grade nickel.
+participants: Nickel supply disruption ev5.1_P1, Geopolitical tensions ev5.2_P1
+Gate: and
+Relations: ev5.2>ev5.1
+
+Subevent 5.1
+subevent: Nickel supply disruption
+event_id: ev5.1
+description: The disruption in the supply of class-1 nickel due to the geopolitical conflict between Russia and Ukraine.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.2
+subevent: Geopolitical tensions
+event_id: ev5.2
+description: The ongoing geopolitical conflict between Russia and Ukraine, impacting various global supply chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 6
+event: Cathode and anode material demands
+event_id: ev6
+description: The demand for cathode and anode materials has surged, driven by the need to compensate for the high energy density of graphite anodes in battery cells.
+participants: Cathode materials ev6.1_P1, Anode materials ev6.2_P1
+Gate: and
+Relations: ev6.1>ev6.2
+
+Subevent 6.1
+subevent: Cathode materials
+event_id: ev6.1
+description: Materials used in the cathode of batteries, crucial for determining battery performance and material requirements.
+participants: Nickel-based cathodes ev6.1.1_P1, Iron-based cathodes ev6.1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 6.2
+subevent: Anode materials
+event_id: ev6.2
+description: Materials used in the anode of batteries, primarily graphite, which has seen increased demand alongside battery demand.
+participants: Natural graphite ev6.2.1_P1, Synthetic graphite ev6.2.2_P0.5
+Gate: or
+Relations: xxxx
+
+Event 7
+event: Global distribution of EV battery materials
+event_id: ev7
+description: The geographical concentration of critical materials required for the EV battery supply chain, dominated by specific countries.
+participants: Lithium supply ev7.1_P1, Cobalt supply ev7.2_P1, Nickel supply ev7.3_P1, Graphite supply ev7.4_P1
+Gate: and
+Relations: ev7.1>ev7.2, ev7.2>ev7.3, ev7.3>ev7.4
+
+Subevent 7.1
+subevent: Lithium supply
+event_id: ev7.1
+description: The global supply of lithium, with China being a dominant supplier.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 7.2
+subevent: Cobalt supply
+event_id: ev7.2
+description: The global supply of cobalt, used in various battery-related applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 7.3
+subevent: Nickel supply
+event_id: ev7.3
+description: The global supply of nickel, especially class-1 nickel, crucial for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 7.4
+subevent: Graphite supply
+event_id: ev7.4
+description: The global supply of graphite, essential for producing anodes, with China holding a significant market share.
+participants: Natural graphite ev7.4.1_P1, Synthetic graphite ev7.4.2_P0.5
+Gate: or
+Relations: xxxx
+
+Event 8
+event: Influence of industrial policies
+event_id: ev8
+description: The impact of industrial policies adopted by various nations to secure positions in the integrated battery supply chain.
+participants: China policy ev8.1_P1, Japan policy ev8.2_P0.5, Korea policy ev8.3_P0.5, EU policy ev8.4_P0.5, US policy ev8.5_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 8.1
+subevent: China policy
+event_id: ev8.1
+description: China's forward-thinking policies have secured a dominant position in the global EV industry, holding a 77% market share.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.2
+subevent: Japan policy
+event_id: ev8.2
+description: Japan holds 4% of the global production capacity for EV batteries and has unveiled significant financial initiatives.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.3
+subevent: Korea policy
+event_id: ev8.3
+description: Korea holds 5% of the global production capacity and has launched significant financial initiatives to bolster its presence in the battery and EV industries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.4
+subevent: EU policy
+event_id: ev8.4
+description: The European Union has invested significantly in R&D to develop an integrated battery manufacturing industry, though it will take time to establish supply chains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.5
+subevent: US policy
+event_id: ev8.5
+description: The US has intensified efforts to develop indigenous supply chains for EVs and batteries, leveraging its automotive and mineral resource industries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 9
+event: Newcomers in EV battery production
+event_id: ev9
+description: Newcomer countries like Indonesia and Thailand are strategically focusing on producing batteries and electric vehicles, leveraging their geographical advantages.
+participants: Indonesia ev9.1_P1, Thailand ev9.2_P1
+Gate: or
+Relations: xxxx
+
+Subevent 9.1
+subevent: Indonesia
+event_id: ev9.1
+description: Indonesia is focusing on battery and EV production, attracting investments from major EV producers due to its geographical advantages.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 9.2
+subevent: Thailand
+event_id: ev9.2
+description: Thailand is concentrating on producing batteries, EVs, and distributing materials, maintaining close ties with the Asian market to attract investments.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 10
+event: Challenges in EV battery supply chain
+event_id: ev10
+description: The EV battery supply chain faces challenges such as availability of technical resources, quality assurance, critical material abundance, capital, and above-ground limitations.
+participants: Technical resources ev10.1_P1, Quality assurance ev10.2_P1, Critical material abundance ev10.3_P1, Capital ev10.4_P1, Above-ground limitations ev10.5_P1
+Gate: and
+Relations: ev10.1>ev10.2, ev10.2>ev10.3, ev10.3>ev10.4, ev10.4>ev10.5
+
+Subevent 10.1
+subevent: Technical resources
+event_id: ev10.1
+description: The availability of technical resources required for EV battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.2
+subevent: Quality assurance
+event_id: ev10.2
+description: Ensuring the quality of materials and processes involved in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.3
+subevent: Critical material abundance
+event_id: ev10.3
+description: The availability and abundance of critical materials like lithium, cobalt, and nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.4
+subevent: Capital
+event_id: ev10.4
+description: The financial resources required to develop and sustain the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.5
+subevent: Above-ground limitations
+event_id: ev10.5
+description: Physical and logistical limitations impacting the EV battery supply chain, including infrastructure and transportation.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

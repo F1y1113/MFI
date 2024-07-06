@@ -1,0 +1,44 @@
+
+Event 1
+event: focus on nickel-based cathode chemistry
+event_id: ev1
+description: LB manufacturers used cob lately due to the rising number of EVs, and the issue of echelon usage is becoming a study focus.
+participants: rising number of EVs ev1.1_P1, echelon usage ev1.2_P0.5
+Gate: and
+Relations: ev1.1>ev1.2
+
+
+Subevent 1.1
+subevent: rising number of EVs
+event_id: ev1.1
+description: the increasing demand for electric vehicles
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+
+Subevent 1.2
+subevent: echelon usage
+event_id: ev1.2
+description: becoming a study focus due to the issue of echelon usage
+participants: governments introducing pertinent policies ev1.2.1_P0.5, organizations strengthening industrial supply chain ev1.2.2_P0.5
+Gate: or
+Relations: ev1.2.1>ev1.2.2
+
+
+Subevent 1.2.1
+subevent: governments introducing pertinent policies
+event_id: ev1.2.1
+description: introducing policies to strengthen the industrial supply chain
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+
+Subevent 1.2.2
+subevent: organizations strengthening industrial supply chain
+event_id: ev1.2.2
+description: strengthening the industrial supply chain for nickel-based cathode chemistry
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

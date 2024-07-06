@@ -1,0 +1,39 @@
+Event 1
+event: EV Battery Recycling and Reuse
+event_id: ev1
+description: Three main methods are used in lithium-ion recycling and reuse: pyrometallurgical, hydrometallurgical, bioleaching, and re-manufacturing.
+participants: pyrometallurgical ev1.1_P0.5, hydrometallurgical ev1.2_P0.3, bioleaching ev1.3_P0.2, re-manufacturing ev1.4_P0.7
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.4
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgical
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: bacteria ev1.3.1_P0.7, contamination ev1.3.2_P0.3
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+Subevent 1.4
+subevent: re-manufacturing
+event_id: ev1.4
+description: (re-)manufactures lithium-ion batteries using recycled materials.
+participants: recycled materials ev1.4.1_P0.8, new materials ev1.4.2_P0.2
+Gate: and
+Relations: ev1.4.1>ev1.4.2

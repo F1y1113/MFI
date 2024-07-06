@@ -1,0 +1,87 @@
+Event 1
+event: Lithium-Ion Recycling
+event_id: ev1
+description: xxxxx
+participants: Greenbush ev1.1_P1, Core Lithium ev1.2_P0.5, Grants ev1.3_P0.5
+Gate: or
+Relations: xxxxx
+
+Subevent 1.1
+subevent: Greenbush
+event_id: ev1.1
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: xxxxx
+
+Event 2
+event: Core Lithium Investment Decision
+event_id: ev2
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: ev1>ev2, ev2>ev3
+
+Subevent 2.1
+subevent: Core Lithium Construction Start
+event_id: ev2.1
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: ev2>ev2.1, ev2.1>ev2.2
+
+Event 3
+event: DSO Production
+event_id: ev3
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: ev2.2>ev3, ev3>ev4
+
+Subevent 3.1
+subevent: DMS Factory Completion
+event_id: ev3.1
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: ev3>ev3.1, ev3.1>ev5
+
+Event 5
+event: Grants Investment Decision
+event_id: ev5
+description: xxxxx
+participants: xxxxx
+Gate: or
+Relations: ev4>ev5, ev2>ev5
+
+Subevent 5.1
+subevent: Greenbush Development
+event_id: ev5.1
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: ev5>ev5.1, ev5.1>ev6
+
+Event 6
+event: Bioleaching Technique
+event_id: ev6
+description: Uses bacteria to retrieve precious metals.
+participants: bacteria ev6.1_P1, precious metals ev6.2_P0.5
+Gate: and
+Relations: ev5.1>ev6, ev6>ev7
+
+Subevent 6.1
+subevent: Contamination Risk
+event_id: ev6.1
+description: Bacteria are easily susceptible to contamination.
+participants: bacteria ev6.1.1_P0.5, contamination ev6.1.2_P0.5
+Gate: or
+Relations: ev6>ev6.1, ev6.1>ev8
+
+Event 8
+event: Greenbush Development Completion
+event_id: ev8
+description: xxxxx
+participants: xxxxx
+Gate: and
+Relations: ev7>ev8, ev2>ev8

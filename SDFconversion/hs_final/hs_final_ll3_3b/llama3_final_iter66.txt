@@ -1,0 +1,95 @@
+Event 1**
+event: Low domestic supply of EV battery minerals and recycled materials for battery manufacturing
+event_id: ev1
+description: The concern about low domestic supply of EV battery minerals and recycled materials for battery manufacturing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.1**
+subevent: Transition mineral reserves are highly concentrated outside of the United States
+event_id: ev1.1
+description: The fact that transition mineral reserves are highly concentrated outside of the United States, specifically in Chile and the Democratic Republic of Congo (DRC).
+participants: Chile ev1.1.1_P0.5, DRC ev1.1.2_P0.5
+Gate: and
+Relations: ev1.1>ev1.2
+
+**Subevent 1.2**
+subevent: Midstream supply chain activities are also concentrated in a small number of countries
+event_id: ev1.2
+description: The fact that midstream supply chain activities, such as mineral refining and battery cell manufacturing, are also concentrated in a small number of countries.
+participants: xxxx
+Gate: or
+Relations: ev1.1>ev1.2
+
+**Event 2**
+event: Shifting extraction to the U.S. could potentially reduce these geopolitical risks
+event_id: ev2
+description: The idea that shifting extraction to the United States could potentially reduce the geopolitical risks.
+participants: xxxx
+Gate: or
+Relations: ev1.1>ev2, ev1.2>ev2
+
+**Subevent 2.1**
+subevent: Improved safety standards and health protections for workers
+event_id: ev2.1
+description: The potential benefit of shifting extraction to the United States is improved safety standards and health protections for workers.
+participants: xxxx
+Gate: and
+Relations: ev2>ev2.1
+
+**Event 3**
+event: Material substitution and technological improvements are key factors in reducing demand for minerals
+event_id: ev3
+description: The importance of material substitution and technological improvements in reducing the demand for minerals.
+participants: xxxx
+Gate: or
+Relations: ev1.1>ev3, ev1.2>ev3
+
+**Subevent 3.1**
+subevent: Improved battery chemistries can provide the same amount of energy storage with much less mineral inputs
+event_id: ev3.1
+description: The idea that improved battery chemistries can provide the same amount of energy storage with much less mineral inputs.
+participants: xxxx
+Gate: and
+Relations: ev3>ev3.1
+
+**Subevent 3.2**
+subevent: Technological improvements in manufacturing processes can reduce waste and increase recycling rates
+event_id: ev3.2
+description: The idea that technological improvements in manufacturing processes can reduce waste and increase recycling rates.
+participants: xxxx
+Gate: or
+Relations: ev3>ev3.2
+
+Here is the extended hierarchical structure:
+
+```
+Event 1:
+Subevent 1.1:
+  participants: Chile, DRC
+  Gate: and
+  Relations: ev1.1>ev1.2
+
+Subevent 1.2:
+  participants: xxxx
+  Gate: or
+  Relations: ev1.1>ev1.2
+
+Event 2:
+Subevent 2.1:
+  participants: xxxx
+  Gate: and
+  Relations: ev2>ev2.1
+
+Event 3:
+Subevent 3.1:
+  participants: xxxx
+  Gate: and
+  Relations: ev3>ev3.1
+
+Subevent 3.2:
+  participants: xxxx
+  Gate: or
+  Relations: ev3>ev3.2
+```

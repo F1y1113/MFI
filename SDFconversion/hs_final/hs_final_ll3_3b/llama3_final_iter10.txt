@@ -1,0 +1,115 @@
+Event 1**
+event: U.S. EV battery manufacturing growth
+event_id: ev1
+description: The Department of Energy estimates the U.S. is growing in EV battery manufacturing.
+participants: pyrometallurgical, hydrometallurgical, bioleaching ev1.1_P0.5, direct recycling ev1.2_P0.5
+Gate: or
+Relations: ev1.1>ev1.2
+
+**Subevent 1.1**
+subevent: EV battery manufacturing growth in the U.S.
+event_id: ev1.1
+description: The Department of Energy estimates the U.S. is growing in EV battery manufacturing.
+participants: pyrometallurgical ev1.1.1_P0.5, hydrometallurgical ev1.1.2_P0.5, bioleaching ev1.1.3_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+**Subevent 1.2**
+subevent: Direct recycling
+event_id: ev1.2
+description: The Department of Energy estimates the U.S. is growing in direct recycling EV battery manufacturing.
+participants: direct recycling ev1.2.1_P0.5, pyrometallurgical ev1.2.2_P0.5, hydrometallurgical ev1.2.3_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+**Event 2**
+event: Challenges in EV battery manufacturing
+event_id: ev2
+description: The growth of the U.S. EV battery manufacturing faces challenges.
+participants: high cost ev2.1_P0.5, environmental pollution ev2.2_P0.5, lengthy production time ev2.3_P0.5
+Gate: or
+Relations: ev2.1>ev2.2
+
+**Subevent 2.1**
+subevent: High cost challenge
+event_id: ev2.1
+description: The growth of the U.S. EV battery manufacturing faces high cost challenges.
+participants: high cost ev2.1.1_P0.5, environmental pollution ev2.1.2_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+**Subevent 2.2**
+subevent: Environmental pollution challenge
+event_id: ev2.2
+description: The growth of the U.S. EV battery manufacturing faces environmental pollution challenges.
+participants: environmental pollution ev2.2.1_P0.5, lengthy production time ev2.2.2_P0.5
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+**Subevent 2.3**
+subevent: Lengthy production time challenge
+event_id: ev2.3
+description: The growth of the U.S. EV battery manufacturing faces lengthy production time challenges.
+participants: lengthy production time ev2.3.1_P0.5, high cost ev2.3.2_P0.5
+Gate: and
+Relations: ev2.3.1>ev2.3.2
+
+The output hierarchical structure is:
+
+```
+Event 1
+event: U.S. EV battery manufacturing growth
+event_id: ev1
+description: The Department of Energy estimates the U.S. is growing in EV battery manufacturing.
+participants: pyrometallurgical, hydrometallurgical, bioleaching ev1.1_P0.5, direct recycling ev1.2_P0.5
+Gate: or
+Relations: ev1.1>ev1.2
+
+Event 2
+event: Challenges in EV battery manufacturing
+event_id: ev2
+description: The growth of the U.S. EV battery manufacturing faces challenges.
+participants: high cost ev2.1_P0.5, environmental pollution ev2.2_P0.5, lengthy production time ev2.3_P0.5
+Gate: or
+Relations: ev2.1>ev2.2
+
+Subevent 1.1
+subevent: EV battery manufacturing growth in the U.S.
+event_id: ev1.1
+description: The Department of Energy estimates the U.S. is growing in EV battery manufacturing.
+participants: pyrometallurgical ev1.1.1_P0.5, hydrometallurgical ev1.1.2_P0.5, bioleaching ev1.1.3_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Direct recycling
+event_id: ev1.2
+description: The Department of Energy estimates the U.S. is growing in direct recycling EV battery manufacturing.
+participants: direct recycling ev1.2.1_P0.5, pyrometallurgical ev1.2.2_P0.5, hydrometallurgical ev1.2.3_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subevent 2.1
+subevent: High cost challenge
+event_id: ev2.1
+description: The growth of the U.S. EV battery manufacturing faces high cost challenges.
+participants: high cost ev2.1.1_P0.5, environmental pollution ev2.1.2_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+Subevent 2.2
+subevent: Environmental pollution challenge
+event_id: ev2.2
+description: The growth of the U.S. EV battery manufacturing faces environmental pollution challenges.
+participants: environmental pollution ev2.2.1_P0.5, lengthy production time ev2.2.2_P0.5
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subevent 2.3
+subevent: Lengthy production time challenge
+event_id: ev2.3
+description: The growth of the U.S. EV battery manufacturing faces lengthy production time challenges.
+participants: lengthy production time ev2.3.1_P0.5, high cost ev2.3.2_P0.5
+Gate: and
+Relations: ev2.3.1>ev2.3.2
+```

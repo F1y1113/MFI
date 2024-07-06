@@ -1,0 +1,104 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: variability in price and availability of critical minerals
+event_id: ev2
+description: Explains developments in battery chemistry, shift towards lower-cobalt ratios, and use of chemistries less reliant on nickel.
+participants: NMC333 ev2.1_P0.5, NMC622 ev2.2_P0.5, NMC811 ev2.3_P0.5, LFP ev2.4_P0.5
+Gate: or
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: NMC333
+event_id: ev2.1
+description: Popular until 2015, using an equal ratio of nickel, manganese, and cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: NMC622
+event_id: ev2.2
+description: Shift towards lower-cobalt ratios, more difficult to manufacture.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: NMC811
+event_id: ev2.3
+description: Lower-cobalt ratio, nevertheless more difficult to manufacture.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: LFP
+event_id: ev2.4
+description: Use of chemistries less reliant on nickel due to variability in price and availability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: increase in lithium-ion battery prices
+event_id: ev3
+description: Due to high demand, limited supply, and rising raw material costs.
+participants: high demand ev3.1_P0.5, limited supply ev3.2_P0.5, rising raw material costs ev3.3_P0.5
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: high demand
+event_id: ev3.1
+description: Contributing factor to increase in lithium-ion battery prices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: limited supply
+event_id: ev3.2
+description: Contributing factor to increase in lithium-ion battery prices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: rising raw material costs
+event_id: ev3.3
+description: Contributing factor to increase in lithium-ion battery prices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

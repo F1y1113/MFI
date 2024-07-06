@@ -1,0 +1,15 @@
+Event 1
+event: U.S partnerships
+event_id: ev1
+description: EERE will continue to coordinate and collaborate with stakeholders in battery critical material supply chains.
+participants: stakeholders ev1.1_P0.5, EERE ev1.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subevent 1.1
+subevent: stakeholders
+event_id: ev1.1
+description: All subevents related to this event and their probabilities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

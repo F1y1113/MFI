@@ -1,0 +1,79 @@
+Event 1
+event: China dominates supply chain
+event_id: ev1
+description: China currently dominates the supply chain as broader geopolitical issues affect economic and trade relationships.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: supply chain dominance
+event_id: ev1.1
+description: China's dominant position in the supply chain.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 2
+event: Broader geopolitical issues affect economic and trade relationships
+event_id: ev2
+description: Broader geopolitical issues affect economic and trade relationships, leading to supply chain dominance by China.
+participants: xxxx
+Gate: or
+Relations: ev1>ev2
+
+Subevent 2.1
+subevent: broader geopolitical issues
+event_id: ev2.1
+description: Geopolitical issues that affect the global economy.
+participants: xxxx
+Gate: and
+Relations: ev2.1>ev2
+
+Event 3
+event: China's dominance in supply chain affects economic and trade relationships
+event_id: ev3
+description: China's dominant position in the supply chain has significant implications for economic and trade relationships.
+participants: xxxx
+Gate: or
+Relations: ev1>ev3, ev2>ev3
+
+Subevent 3.1
+subevent: China's dominance in supply chain
+event_id: ev3.1
+description: China's dominant position in the supply chain.
+participants: xxxx
+Gate: and
+Relations: ev3.1>ev3
+
+Event 4
+event: Economic and trade relationships are affected by China's dominance in supply chain
+event_id: ev4
+description: The global economy is impacted by China's dominant position in the supply chain.
+participants: xxxx
+Gate: or
+Relations: ev2>ev4, ev3>ev4
+
+Subevent 4.1
+subevent: economic relationships are affected
+event_id: ev4.1
+description: The global economy is impacted by China's dominant position in the supply chain.
+participants: xxxx
+Gate: and
+Relations: ev4.1>ev4
+
+Event 5
+event: Trade relationships are affected
+event_id: ev5
+description: International trade is impacted by China's dominant position in the supply chain.
+participants: xxxx
+Gate: or
+Relations: ev2>ev5, ev3>ev5
+
+Subevent 5.1
+subevent: trade relationships are affected
+event_id: ev5.1
+description: International trade is impacted by China's dominant position in the supply chain.
+participants: xxxx
+Gate: and
+Relations: ev5.1>ev5

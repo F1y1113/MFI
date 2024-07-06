@@ -1,0 +1,79 @@
+Event 1
+event: Lithium extraction from geothermal or oilfield brines
+event_id: ev1
+description: For geothermal or oilfield brines to be a successful source of lithium, a proven direct lithium extraction (DLE) process is required. Various companies are testing different DLE approaches to extract lithium effectively.
+participants: DLE process ev1.1_P1, companies testing DLE approaches ev1.2_P1, lithium carbonate or lithium hydroxide production ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: DLE process
+event_id: ev1.1
+description: Direct lithium extraction (DLE) involves letting brine flow through a lithium-bonding material using various processes to extract lithium.
+participants: adsorption ev1.1.1_P1, ion-exchange ev1.1.2_P1, membrane-separation ev1.1.3_P1, solvent-extraction ev1.1.4_P1
+Gate: or
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4
+
+Subsubevent 1.1.1
+subsubevent: Adsorption
+event_id: ev1.1.1
+description: Adsorption is one of the processes used in DLE, where lithium ions are captured by a material that bonds with lithium.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Ion-exchange
+event_id: ev1.1.2
+description: Ion-exchange is another DLE process where lithium ions are exchanged with other ions in a material to capture lithium.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: Membrane-separation
+event_id: ev1.1.3
+description: Membrane-separation involves using membranes to separate lithium ions from the brine.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.4
+subsubevent: Solvent-extraction
+event_id: ev1.1.4
+description: Solvent-extraction is a DLE process where solvents are used to extract lithium ions from the brine.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Companies testing DLE approaches
+event_id: ev1.2
+description: Various companies are exploring and testing different approaches to direct lithium extraction to make the process viable and efficient.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Lithium carbonate or lithium hydroxide production
+event_id: ev1.3
+description: After extraction, a polishing solution is used to refine the lithium, producing lithium carbonate or lithium hydroxide.
+participants: lithium carbonate ev1.3.1_P1, lithium hydroxide ev1.3.2_P1
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subsubevent: Lithium carbonate
+event_id: ev1.3.1
+description: Lithium carbonate is one of the end products of the DLE process, used in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Lithium hydroxide
+event_id: ev1.3.2
+description: Lithium hydroxide is another end product of the DLE process, also used in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

@@ -1,0 +1,23 @@
+Event 1
+event: Decarbonisation of energy and transport for net zero ambitions
+event_id: ev1
+description: Decarbonisation of energy and transport will require increased demand for graphite, one of the major battery raw materials.
+participants: exploration ev1.1_P0.5, mining ev1.2_P0.3, processing ev1.3_P0.2, manufacturing ev1.4_P0.1, use ev1.5_P0.8, recycling ev1.6_P0.2
+Gate: and
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.1>ev1.4, ev1.5>ev1.1, ev1.2>ev1.6
+
+Event 2
+event: Graphite supply chains in Africa
+event_id: ev2
+description: Many African countries have significant graphite resources and some operating graphite mines.
+participants: Mozambique ev2.1_P0.3, Madagascar ev2.2_P0.2, Tanzania ev2.3_P0.1, Namibia ev2.4_P0.5
+Gate: or
+Relations: ev2>ev2.1, ev2>ev2.2, ev2>ev2.3, ev2>ev2.4
+
+Event 3
+event: Adding value to graphite products in Africa
+event_id: ev3
+description: Currently, Africa has no capacity for the production of specialist products such as spherical graphite or manufacture of battery components.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

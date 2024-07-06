@@ -1,0 +1,79 @@
+Event 1
+event: Future EV adoption and demand for battery raw materials
+event_id: ev1
+description: Depends on overcoming multiple barriers, including charging infrastructure, sufficient electricity generation, and the availability of battery raw materials at acceptable costs.
+participants: Charging Infrastructure ev1.1_P0.5, Sufficient Electricity Generation ev1.2_P0.3, Availability of Battery Raw Materials ev1.3_P0.4
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Subevent 1.1
+subevent: Charging Infrastructure
+event_id: ev1.1
+description: Needs to be established for widespread EV adoption.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Sufficient Electricity Generation
+event_id: ev1.2
+description: Required to support increased demand for electricity from EV charging.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: Availability of Battery Raw Materials
+event_id: ev1.3
+description: Needed at acceptable costs to support EV battery production.
+participants: Cobalt ev1.3.1_P0.2, Copper ev1.3.2_P0.1, Nickel ev1.3.3_P0.05
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Event 2
+event: EV deployment and associated increased demand for raw materials
+event_id: ev2
+description: Will have a greater impact on prices for cobalt than nickel and, in turn, for nickel than copper.
+participants: EV Deployment ev2.1_P0.7, Increased Demand for Raw Materials ev2.2_P0.3
+Gate: or
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: EV Deployment
+event_id: ev2.1
+description: Will lead to increased demand for raw materials.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.2
+subevent: Increased Demand for Raw Materials
+event_id: ev2.2
+description: Will drive up prices for cobalt, nickel, and copper.
+participants: Cobalt ev2.2.1_P0.3, Nickel ev2.2.2_P0.2, Copper ev2.2.3_P0.05
+Gate: or
+Relations: ev2.2.1>ev2.2.2, ev2.2.2>ev2.2.3
+
+Event 3
+event: Recycling of EV batteries
+event_id: ev3
+description: Will be important for sustainable production and reducing waste.
+participants: Recycling Technology ev3.1_P0.6, Public Acceptance ev3.2_P0.4
+Gate: or
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: Recycling Technology
+event_id: ev3.1
+description: Needs to be developed and implemented.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 3.2
+subevent: Public Acceptance
+event_id: ev3.2
+description: Needed for widespread adoption of EV battery recycling.
+participants: xxxx
+Gate: and
+Relations: xxxx

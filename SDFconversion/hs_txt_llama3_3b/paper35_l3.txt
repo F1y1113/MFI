@@ -1,0 +1,31 @@
+Event 1
+event: Post-consumer EV batteries and scrap processing
+event_id: ev1
+description: Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.
+participants: spent rechargeable batteries ev1.1_P0.5, Co-containing alloys ev1.2_P0.5, secondary Co ev1.3_P0.8
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Event 2
+event: Most Co production from Cu production by-product
+event_id: ev2
+description: Most Co is produced as a by-product of Cu production.
+participants: Cu production ev2.1_P1, Most Co ev2.2_P0.9
+Gate: and
+Relations: ev2.1>ev2.2
+
+Event 3
+event: Improved battery performance and longevity at the design/production stage
+event_id: ev3
+description: Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Coordination of battery performance and longevity at the design/production stage
+event_id: ev4
+description: Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.
+participants: xxxx
+Gate: or
+Relations: ev3>ev4

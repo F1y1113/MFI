@@ -1,0 +1,29 @@
+China currently dominates the supply chain. As broader geopolitical issues affect economic and trade relationships, the stability of the global supply chain is increasingly at risk when extracting, refining, processing, and assembling an outsized share of EV battery components occurs in any single country.
+
+Several critics have described US efforts to increase domestic EV battery supply chain capacity as an attempt to “de-couple” from China, which is an oversimplification. A more accurate assessment is provided by US Trade Representative Katherine Tai, who labels the current administration’s approach “de-risking.” As the market for EV batteries and other advanced energy technologies expands, there will be plenty of growth opportunities for all producing nations, even as that production capacity diversifies.
+
+It is important to recognize that strengthening the EV battery supply chain is not a zero-sum game with winners and losers. Creating a robust supply chain will benefit people around the world by providing economic opportunity, creating jobs, and making it easier for more people to purchase EVs.
+
+Upstream 
+
+The “upstream” portion of the EV battery supply chain, which refers to the extraction of the minerals needed to build batteries, has garnered considerable attention, and for good reason.
+
+Many worry that we won’t extract these minerals quickly enough to meet rising demand, which could lead to rising prices for consumers and slow EV adoption. There’s also concern that the US is missing out on economic opportunities, new jobs, and a chance to strengthen the supply chain.
+
+Midstream
+
+The “midstream” portion of the EV battery supply chain has the power to improve supply chain traceability, a practice in which products are tracked from their source to the consumer. Since companies participating in the midstream portion of the EV battery supply chain are the ones that interact most directly with upstream actors, they are essential to improving traceability and ensuring that materials are ethically sourced.
+
+After mines extract raw materials (the upstream portion of the EV battery supply chain), they are sent to facilities where they are processed, refined, and assembled into battery cells.
+
+Downstream
+
+The downstream portion of the EV battery supply chain involves the assembly of battery cells into modules and then packs before placing finished batteries into EVs. (To learn more about how EV batteries work and how they’re made, read “EV Batteries 101: The Basics.”)
+
+To make a battery module, manufacturers stack battery cells in series or in parallel in a metal frame that protects the cells from the shocks and vibrations that come with driving. Modules house several battery cells, ranging from fewer than 10 to several hundred, depending on the cell type and vehicle range.
+
+While the supply chain will remain global, North America is poised to become the second-largest player in the battery production market thanks to its efforts to strengthen local supply chains and increase investments in domestic assembly, according to a report from consulting firm LEK.
+
+A stronger domestic supply chain translates to well-paying, in-demand jobs for workers in diverse fields ranging from mining to engineering to manufacturing, which in turn results in healthier, robust economies.
+
+While downstream influence is limited by the current supply of the minerals that go into EV batteries, battery manufacturers and automakers still have considerable influence in improving the EV battery supply chain for one simple reason — downstream actors can influence responsible mining practices in the same way coffee shops can influence responsible coffee farming.

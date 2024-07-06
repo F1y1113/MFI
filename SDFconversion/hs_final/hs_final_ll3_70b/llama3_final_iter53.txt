@@ -1,0 +1,94 @@
+Event 1**
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+**Subevent 1.2**
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.3**
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: China's dominance in cobalt mining
+event_id: ev2
+description: China's control over the global supply chain of cobalt, a key material for electric vehicle batteries.
+participants: CMOC ev2.1_P0.5, Jinchuan Group ev2.2_P0.5
+Gate: or
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+**Subevent 2.1**
+subevent: CMOC's cobalt mining in the DRC
+event_id: ev2.1
+description: China Molybdenum Co. Ltd.'s (CMOC) control over cobalt mining in the Democratic Republic of Congo.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.2**
+subevent: Jinchuan Group's cobalt mining in South Africa
+event_id: ev2.2
+description: Jinchuan Group's control over cobalt mining in South Africa.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.3**
+subevent: Global supply chain of cobalt
+event_id: ev2.3
+description: The global supply chain of cobalt, a key material for electric vehicle batteries.
+participants: China ev2.3.1_P0.5, Democratic Republic of Congo ev2.3.2_P0.5, South Africa ev2.3.3_P0.5
+Gate: and
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+**Event 3**
+event: Electric vehicle battery production
+event_id: ev3
+description: The production of electric vehicle batteries, including the use of cobalt.
+participants: cobalt ev3.1_P0.5, lithium-ion ev3.2_P0.5, nickel alloys ev3.3_P0.5
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3
+
+**Subevent 3.1**
+subevent: Cobalt mining for electric vehicle batteries
+event_id: ev3.1
+description: The mining of cobalt for use in electric vehicle batteries.
+participants: CMOC ev3.1.1_P0.5, Jinchuan Group ev3.1.2_P0.5
+Gate: or
+Relations: ev3.1>ev3.2
+
+**Subevent 3.2**
+subevent: Lithium-ion battery production
+event_id: ev3.2
+description: The production of lithium-ion batteries for electric vehicles.
+participants: pyrometallurgical ev3.2.1_P0.5, hydrometallurgical ev3.2.2_P0.5, bioleaching ev3.2.3_P0.5
+Gate: or
+Relations: ev3.2>ev3.3
+
+**Subevent 3.3**
+subevent: Nickel alloy production for electric vehicle batteries
+event_id: ev3.3
+description: The production of nickel alloys for use in electric vehicle batteries.
+participants: xxxx
+Gate: xxxx

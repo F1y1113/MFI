@@ -1,0 +1,111 @@
+Event 1
+event: EU battery supply chain sustainability and security
+event_id: ev1
+description: The EU aims to ensure a sustainable and secure supply of raw materials for battery manufacturing to remain competitive in the global market, necessitating reliable information and systemic analysis.
+participants: Material System Analysis (MSA) ev1.1_P1, Self-sufficiency analysis ev1.2_P1, Recycling and dependency ev1.3_P1, Future demand and imports ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: Material System Analysis (MSA)
+event_id: ev1.1
+description: MSA studies provide crucial information for sustainable resource management, focusing on five key battery materials: cobalt, lithium, manganese, natural graphite, and nickel.
+participants: MSA results for 2016 ev1.1.1_P1, Data sources and harmonization ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.1.1
+subevent: MSA results for 2016
+event_id: ev1.1.1
+description: The report presents MSA results for the year 2016, summarizing material stocks and flows for five selected battery materials.
+participants: Cobalt ev1.1.1.1_P1, Lithium ev1.1.1.2_P1, Manganese ev1.1.1.3_P1, Natural graphite ev1.1.1.4_P1, Nickel ev1.1.1.5_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2, ev1.1.1.2>ev1.1.1.3, ev1.1.1.3>ev1.1.1.4, ev1.1.1.4>ev1.1.1.5
+
+Subevent 1.1.2
+subevent: Data sources and harmonization
+event_id: ev1.1.2
+description: Priority was given to official and publicly available data sources, harmonized with the latest available datasets from the ProSum database.
+participants: Official data sources ev1.1.2.1_P1, ProSum database ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subevent 1.2
+subevent: Self-sufficiency analysis
+event_id: ev1.2
+description: The EU's self-sufficiency for battery materials was analyzed separately for extraction and manufacturing stages, revealing significant reliance on imports.
+participants: Extraction stage ev1.2.1_P1, Manufacturing stage ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subevent 1.2.1
+subevent: Extraction stage
+event_id: ev1.2.1
+description: Analysis of self-sufficiency in the extraction stage showed low EU self-sufficiency for natural graphite and higher for nickel in 2016.
+participants: Natural graphite extraction ev1.2.1.1_P1, Nickel extraction ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subevent 1.2.2
+subevent: Manufacturing stage
+event_id: ev1.2.2
+description: Analysis of the manufacturing stage indicated that the EU was more self-sufficient in producing products containing cobalt and lithium compared to other materials in 2016.
+participants: Cobalt products ev1.2.2.1_P1, Lithium products ev1.2.2.2_P1, Manganese products ev1.2.2.3_P1, Natural graphite products ev1.2.2.4_P1, Nickel products ev1.2.2.5_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2, ev1.2.2.2>ev1.2.2.3, ev1.2.2.3>ev1.2.2.4, ev1.2.2.4>ev1.2.2.5
+
+Subevent 1.3
+subevent: Recycling and dependency
+event_id: ev1.3
+description: The report highlights the low functional recycling rates of battery materials in the EU and the continued dependency on primary materials.
+participants: End-of-life recycling input rate (EOL-RIR) ev1.3.1_P1, Dependency on primary materials ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subevent 1.3.1
+subevent: End-of-life recycling input rate (EOL-RIR)
+event_id: ev1.3.1
+description: Cobalt had the highest EOL-RIR at 22%, while lithium's recycling rate was close to 0%, indicating limited progress in recycling.
+participants: Cobalt recycling ev1.3.1.1_P1, Lithium recycling ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subevent 1.3.2
+subevent: Dependency on primary materials
+event_id: ev1.3.2
+description: The EU remains highly dependent on imports of primary materials for battery production, despite recycling efforts.
+participants: Import dependency ev1.3.2.1_P1, Primary material supply ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subevent 1.4
+subevent: Future demand and imports
+event_id: ev1.4
+description: The demand for battery materials is expected to increase significantly, leading to intensified imports and a need for increased EU production capacity.
+participants: Future demand projections ev1.4.1_P1, Increased imports ev1.4.2_P1, EU production capacity ev1.4.3_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3
+
+Subevent 1.4.1
+subevent: Future demand projections
+event_id: ev1.4.1
+description: Strong promotion of clean technologies is expected to multiply the demand for battery materials in the coming years.
+participants: Clean technology promotion ev1.4.1.1_P1, Demand growth ev1.4.1.2_P1
+Gate: and
+Relations: ev1.4.1.1>ev1.4.1.2
+
+Subevent 1.4.2
+subevent: Increased imports
+event_id: ev1.4.2
+description: The increasing demand will likely intensify imports of battery materials into the EU.
+participants: Import trends ev1.4.2.1_P1, Supply chain pressures ev1.4.2.2_P1
+Gate: and
+Relations: ev1.4.2.1>ev1.4.2.2
+
+Subevent 1.4.3
+subevent: EU production capacity
+event_id: ev1.4.3
+description: Expansion of the EU's production capacity for batteries and related products will be crucial for the region's competitiveness in the global market.
+participants: Capacity expansion plans ev1.4.3.1_P1, Competitive strategies ev1.4.3.2_P1
+Gate: and
+Relations: ev1.4.3.1>ev1.4.3.2

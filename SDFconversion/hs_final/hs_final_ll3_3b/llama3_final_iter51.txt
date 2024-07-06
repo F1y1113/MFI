@@ -1,0 +1,131 @@
+Event 1
+event: lithium-ion batteries' supply chain
+event_id: ev2
+description: The process involved in the production of lithium-ion batteries, including mining and recycling.
+participants: mining ev2.1_P0.8, recycling ev2.2_P0.2
+
+Subevent 1.1
+subevent: mining
+event_id: ev2.1
+description: Mining cobalt, nickel, and lithium from ore deposits.
+participants: cobalt ev2.1.1_P0.5, nickel ev2.1.2_P0.3, lithium ev2.1.3_P0.2
+Gate: and
+Relations: ev2.1>ev2.1.1, ev2.1>ev2.1.2, ev2.1>ev2.1.3
+
+Subevent 1.2
+subevent: recycling
+event_id: ev2.2
+description: Recycling lithium-ion batteries to recover valuable materials.
+participants: pyrometallurgical ev2.2.1_P0.4, hydrometallurgical ev2.2.2_P0.3, bioleaching ev2.2.3_P0.2, direct recycling ev2.2.4_P0.1
+Gate: or
+Relations: ev2.2>ev2.2.1, ev2.2>ev2.2.2, ev2.2>ev2.2.3, ev2.2>ev2.2.4
+
+Event 2 (extends Event 1)
+event: lithium-ion recycling
+event_id: ev3
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev3.1_P0.4, hydrometallurgical ev3.2_P0.3, bioleaching ev3.3_P0.2, direct recycling ev3.4_P0.1
+Gate: or
+Relations: ev3>ev3.1, ev3>ev3.2, ev3>ev3.3, ev3>ev3.4
+
+Subevent 2.1
+subevent: pyrometallurgical
+event_id: ev3.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev3.1.1_P0.5, cobalt ev3.1.2_P0.5, copper ev3.1.3_P0.4, iron ev3.1.4_P0.3, nickel ev3.1.5_P0.2
+Gate: and
+Relations: ev3.1>ev3.1.1, ev3.1>ev3.1.2, ev3.1>ev3.1.3, ev3.1>ev3.1.4, ev3.1>ev3.1.5
+
+Subevent 2.2
+subevent: hydrometallurgical
+event_id: ev3.2
+description: Metal recovery method involving aqueous solutions to perform leaching processes to precipitate a particular metal.
+participants: specialized solution reagents ev3.2.1_P0.7, targeted metals ev3.2.2_P0.3
+Gate: and
+Relations: ev3.2>ev3.2.1, ev3.2>ev3.2.2
+
+Subevent 2.3
+subevent: bioleaching
+event_id: ev3.3
+description: Microbial leaching process used to extract metals from ores.
+participants: microorganisms ev3.3.1_P0.8, metal ions ev3.3.2_P0.2
+Gate: and
+Relations: ev3.3>ev3.3.1, ev3.3>ev3.3.2
+
+Subevent 2.4
+subevent: direct recycling
+event_id: ev3.4
+description: Recycling of lithium-ion batteries without any intermediate processing steps.
+participants: recycled materials ev3.4.1_P0.9, waste reduction ev3.4.2_P0.1
+Gate: and
+Relations: ev3.4>ev3.4.1, ev3.4>ev3.4.2
+
+```
+
+**Current Hierarchical Structure (extends):**
+```
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P0.4, hydrometallurgical ev1.2_P0.3, bioleaching ev1.3_P0.2, direct recycling ev1.4_P0.1
+Gate: or
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3, ev1>ev1.4
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P0.5, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.4, iron ev1.1.4_P0.3, nickel ev1.1.5_P0.2
+Gate: and
+Relations: ev1.1>ev1.1.1, ev1.1>ev1.1.2, ev1.1>ev1.1.3, ev1.1>ev1.1.4, ev1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgical
+event_id: ev1.2
+description: Metal recovery method involving aqueous solutions to perform leaching processes to precipitate a particular metal.
+participants: specialized solution reagents ev1.2.1_P0.7, targeted metals ev1.2.2_P0.3
+Gate: and
+Relations: ev1.2>ev1.2.1, ev1.2>ev1.2.2
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Microbial leaching process used to extract metals from ores.
+participants: microorganisms ev1.3.1_P0.8, metal ions ev1.3.2_P0.2
+Gate: and
+Relations: ev1.3>ev1.3.1, ev1.3>ev1.3.2
+
+Subevent 1.4
+subevent: direct recycling
+event_id: ev1.4
+description: Recycling of lithium-ion batteries without any intermediate processing steps.
+participants: recycled materials ev1.4.1_P0.9, waste reduction ev1.4.2_P0.1
+Gate: and
+Relations: ev1.4>ev1.4.1, ev1.4>ev1.4.2
+
+Event 2 (extends)
+event: newly provided paragraphs
+event_id: ev2
+description: Hierarchical structure extracted from newly provided paragraphs.
+participants: hierarchical structure ev2.1_P0.5, new paragraphs ev2.2_P0.3
+Gate: and
+Relations: ev2>ev2.1, ev2>ev2.2
+
+Subevent 2.1
+subevent: hierarchical structure
+event_id: ev2.1
+description: Structure of the newly provided paragraphs.
+participants: new paragraphs ev2.1.1_P0.6, paragraph relationships ev2.1.2_P0.4
+Gate: and
+Relations: ev2.1>ev2.1.1, ev2.1>ev2.1.2
+
+Subevent 2.2
+subevent: new paragraphs
+event_id: ev2.2
+description: Newly provided paragraphs used to extend the hierarchical structure.
+participants: newly provided text ev2.2.1_P0.7, paragraph relationships ev2.2.2_P0.3
+Gate: and
+Relations: ev2.2>ev2.2.1, ev2.2>ev2.2.2
+
+```

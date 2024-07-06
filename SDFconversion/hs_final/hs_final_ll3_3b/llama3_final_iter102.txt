@@ -1,0 +1,51 @@
+
+```
+Event 3.1
+event: Enable players to set-up a long-term, sustainable LIB production ecosystem
+event_id: ev3.1
+description: This will enable players to set up a long-term, sustainable LIB production ecosystem.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 3.1
+subevent: EV markets are growing rapidly
+event_id: ev3.1.1
+description: Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: rapid growth ev3.1.1.1_P0.5, market demand ev3.1.1.2_P0.5
+Gate: and
+Relations: ev3.1.1.1>ev3.1.1.2
+
+Subevent 3.1.2
+subevent: LIB recycling is crucial for sustainability
+event_id: ev3.1.2
+description: The main drawbacks of pyrometallurgy are its high cost and high environmental pollution.
+participants: sustainability ev3.1.2.1_P0.5, environment protection ev3.1.2.2_P0.5
+Gate: or
+Relations: ev3.1.2.1>ev3.1.2.2
+
+Subevent 3.1.3
+subevent: LIB recycling methods have limitations
+event_id: ev3.1.3
+description: Hydrometallurgy is a highly effective and power-efficient method, but it has drawbacks including lengthy production time and complicated process.
+participants: limitation ev3.1.3.1_P0.5, effectiveness ev3.1.3.2_P0.5
+Gate: or
+Relations: ev3.1.3.1>ev3.1.3.2
+
+Subevent 3.1.4
+subevent: Combining LIB recycling methods is beneficial
+event_id: ev3.1.4
+description: Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells.
+participants: combination ev3.1.4.1_P0.5, advantage ev3.1.4.2_P0.5
+Gate: and
+Relations: ev3.1.4.1>ev3.1.4.2
+
+Subevent 3.1.5
+subevent: Direct recycling has challenges
+event_id: ev3.1.5
+description: The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: challenge ev3.1.5.1_P0.5, difficulty ev3.1.5.2_P0.5
+Gate: or
+Relations: ev3.1.5.1>ev3.1.5.2
+
+```

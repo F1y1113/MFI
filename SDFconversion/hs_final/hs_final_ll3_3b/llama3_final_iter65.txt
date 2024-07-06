@@ -1,0 +1,83 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+
+Subevent 1.1
+subevent: pyrometallurgy
+event_id: ev1.1
+description: Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Hydrometallurgy uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Bioleaching uses bacteria to retrieve precious metals.
+participants: xxxxx
+
+Event 2
+event: global commitment to decarbonizing transport sector
+event_id: ev2
+description: The global commitment to decarbonizing the transport sector has resulted in an unabated growth in the markets for electric vehicles and their batteries. Consequently, the demand for battery raw materials is continuously growing.
+participants: xxxxx
+
+Gate 2
+gate: and
+
+Event 3
+event: challenges facing decarbonization efforts
+event_id: ev3
+description: Decarbonization efforts face several challenges, including high costs and environmental pollution.
+participants: xxxxx
+
+Subevent 3.1
+subevent: high costs
+event_id: ev3.1
+description: High costs are a major challenge facing decarbonization efforts.
+participants: xxxxx
+
+Subevent 3.2
+subevent: environmental pollution
+event_id: ev3.2
+description: Environmental pollution is another significant challenge facing decarbonization efforts.
+participants: xxxxx
+
+Event 4
+event: opportunities in lithium-ion recycling
+event_id: ev4
+description: The growth in electric vehicle markets presents opportunities for lithium-ion recycling, including the development of more efficient and environmentally friendly methods.
+participants: pyrometallurgical ev4.1_P1, hydrometallurgical ev4.2_P1, bioleaching ev4.3_P1
+
+Subevent 4.1
+subevent: pyrometallurgy
+event_id: ev4.1
+description: Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev4.1.1_P1, cobalt ev4.1.2_P0.5, copper ev4.1.3_P0.5, iron ev4.1.4_P0.5, nickel alloys ev4.1.5_P0.5
+Gate: and
+
+Subevent 4.2
+subevent: hydrometallurgy
+event_id: ev4.2
+description: Hydrometallurgy uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxxx
+
+Subevent 4.3
+subevent: bioleaching
+event_id: ev4.3
+description: Bioleaching uses bacteria to retrieve precious metals.
+participants: xxxxx
+
+Gate 4
+gate: or
+
+Relations:
+ev1>ev2, ev2>ev3, ev3>ev4, ev1>ev5, ev2>ev5, ev3>ev5

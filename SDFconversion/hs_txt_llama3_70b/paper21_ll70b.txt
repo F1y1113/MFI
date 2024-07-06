@@ -1,0 +1,24 @@
+Event 1
+event: Decarbonisation of transportation sector
+event_id: ev1
+description: The decarbonisation of the transportation sector is expected to rely on electric vehicles (EV), mainly equipped with Lithium Ion Batteries (LIB).
+participants: synthetic graphite ev1.1_P0.5, natural graphite ev1.2_P0.5
+Gate: and
+Relations: ev1.1>ev1.2
+
+Event 2
+event: Development of parametric model
+event_id: ev2
+description: A parametric model was developed to quantify the flows in the graphite value chain and its use in electric vehicles between 2020 and 2050 in several scenarios.
+participants: needle coke ev2.1_P0.5, graphite ore ev2.2_P0.5
+Gate: or
+Relations: ev2.1>ev2.2
+
+Event 3
+event: Analysis of paragraphs
+event_id: ev3
+description: The provided paragraphs describe the expected decarbonisation of the transportation sector and the development of a parametric model.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

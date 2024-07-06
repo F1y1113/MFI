@@ -1,0 +1,120 @@
+Event 1
+event: Handling of end-of-life LIBs
+event_id: ev1
+description: The effective utilization of retired LIBs, which still remain about 70-80% of the initial capacity, can extend battery life, conserve natural resources and protect the environment.
+participants: reduce ev1.1_P1, redesign ev1.2_P1, remanufacturing ev1.3_P1, repurpose ev1.4_P1, recycling ev1.5_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: reduce
+event_id: ev1.1
+description: Reduce the waste of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: redesign
+event_id: ev1.2
+description: Redesign the battery to make it more recyclable.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: remanufacturing
+event_id: ev1.3
+description: Remanufacture the retired LIBs to extend their life.
+participants: state-of-the-art technologies ev1.3.1_P1
+Gate: and
+Relations: ev1.3>ev1.4, ev1.3>ev1.5
+
+Subevent 1.3.1
+subevent: state-of-the-art technologies
+event_id: ev1.3.1
+description: Advanced technologies used in remanufacturing process.
+participants: big data ev1.3.1.1_P0.7, block chain ev1.3.1.2_P0.5, cloud-based services ev1.3.1.3_P0.8
+Gate: and
+Relations: ev1.3.1>ev1.4, ev1.3.1>ev1.5
+
+Subevent 1.4
+subevent: repurpose
+event_id: ev1.4
+description: Repurpose the retired LIBs for other applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: recycling
+event_id: ev1.5
+description: Recycle the materials from retired LIBs.
+participants: pre-treatment ev1.5.1_P1, separation ev1.5.2_P1, purification ev1.5.3_P1
+Gate: and
+Relations: ev1.5>ev1.3, ev1.5>ev1.4
+
+**Current Hierarchical Structure:**
+
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Event 2
+event: Handling of end-of-life LIBs
+event_id: ev2
+description: The effective utilization of retired LIBs, which still remain about 70-80% of the initial capacity, can extend battery life, conserve natural resources and protect the environment.
+participants: reduce ev2.1_P1, redesign ev2.2_P1, remanufacturing ev2.3_P1, repurpose ev2.4_P1, recycling ev2.5_P1
+Gate: or
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: reduce
+event_id: ev2.1
+description: Reduce the waste of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: redesign
+event_id: ev2.2
+description: Redesign the battery to make it more recyclable.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: remanufacturing
+event_id: ev2.3
+description: Remanufacture the retired LIBs to extend their life.
+participants: state-of-the-art technologies ev2.3.1_P1
+Gate: and
+Relations: ev2.3>ev2.4, ev2.3>ev2.5
+
+Subevent 2.3.1
+subevent: state-of-the-art technologies
+event_id: ev2.3.1
+description: Advanced technologies used in remanufacturing process.
+participants: big data ev2.3.1.1_P0.7, block chain ev2.3.1.2_P0.5, cloud-based services ev2.3.1.3_P0.8
+Gate: and
+Relations: ev2.3.1>ev2.4, ev2.3.1>ev2.5
+
+Subevent 2.4
+subevent: repurpose
+event_id: ev2.4
+description: Repurpose the retired LIBs for other applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.5
+subevent: recycling
+event_id: ev2.5
+description: Recycle the materials from retired LIBs.
+participants: pre-treatment ev2.5.1_P1, separation ev2.5.2_P1, purification ev2.5.3_P1
+Gate: and

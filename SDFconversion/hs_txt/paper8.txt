@@ -1,0 +1,207 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: This event explores the strengths, weaknesses, opportunities, and threats (SWOT) of the UK EV battery supply chain, highlighting key factors influencing the industry.
+participants: UK EV battery industry SWOT analysis ev1.1_P1, Supply chain diversification ev1.2_P1, Supply chain challenges ev1.3_P1, Supply chain strategies ev1.4_P1, Supply chain trends and patterns ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: UK EV battery industry SWOT analysis
+event_id: ev1.1
+description: This subevent involves a SWOT analysis to identify and explore the strengths, weaknesses, opportunities, and threats in the UK EV battery supply chain.
+participants: Strengths ev1.1.1_P1, Weaknesses ev1.1.2_P1, Opportunities ev1.1.3_P1, Threats ev1.1.4_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4
+
+Subsubevent 1.1.1
+subevent: Strengths
+event_id: ev1.1.1
+description: Identifying internal strengths within the UK EV battery supply chain, such as collaboration and strong local supply chains.
+participants: Collaboration in supply chain ev1.1.1.1_P1, UK and European supply chains ev1.1.1.2_P1, Increasing demand ev1.1.1.3_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2, ev1.1.1.2>ev1.1.1.3
+
+Subsubevent 1.1.2
+subevent: Weaknesses
+event_id: ev1.1.2
+description: Identifying internal weaknesses within the UK EV battery supply chain, such as design issues and supplier maturity.
+participants: Design issues ev1.1.2.1_P1, Supplier maturity ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubevent 1.1.3
+subevent: Opportunities
+event_id: ev1.1.3
+description: Identifying external opportunities for the UK EV battery supply chain, such as supply chain diversification and cost reduction in battery parts.
+participants: Supply chain diversification ev1.1.3.1_P1, Cost reduction ev1.1.3.2_P1, Increase in supply parts ev1.1.3.3_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2, ev1.1.3.2>ev1.1.3.3
+
+Subsubevent 1.1.4
+subevent: Threats
+event_id: ev1.1.4
+description: Identifying external threats facing the UK EV battery supply chain, such as reliance on Chinese suppliers and supply bottlenecks.
+participants: Reliance on Chinese suppliers ev1.1.4.1_P1, Supply bottlenecks ev1.1.4.2_P1
+Gate: and
+Relations: ev1.1.4.1>ev1.1.4.2
+
+Subevent 1.2
+subevent: Supply chain diversification
+event_id: ev1.2
+description: Diversifying the supply base into multiple regions to reduce reliance on sourcing from China while maintaining good supplier relationships and continuous innovation.
+participants: Regional diversification ev1.2.1_P1, Supplier relationships ev1.2.2_P1, Continuous innovation ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subevent: Regional diversification
+event_id: ev1.2.1
+description: Expanding the supply chain into regions such as India, Africa, and the US to reduce reliance on Chinese suppliers.
+participants: India ev1.2.1.1_P1, Africa ev1.2.1.2_P1, US ev1.2.1.3_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2, ev1.2.1.2>ev1.2.1.3
+
+Subsubevent 1.2.2
+subevent: Supplier relationships
+event_id: ev1.2.2
+description: Maintaining strong relationships with suppliers to ensure a stable and reliable supply chain.
+participants: Supplier collaboration ev1.2.2.1_P1, Long-term contracts ev1.2.2.2_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subsubevent 1.2.3
+subevent: Continuous innovation
+event_id: ev1.2.3
+description: Promoting continuous innovation in the supply chain to improve efficiency and reduce costs.
+participants: R&D investment ev1.2.3.1_P1, Technical partnerships ev1.2.3.2_P1
+Gate: and
+Relations: ev1.2.3.1>ev1.2.3.2
+
+Subevent 1.3
+subevent: Supply chain challenges
+event_id: ev1.3
+description: Addressing challenges such as production capacity shortages and ethical concerns within the EV battery supply chain.
+participants: Production capacity ev1.3.1_P1, Ethical concerns ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subevent: Production capacity
+event_id: ev1.3.1
+description: Addressing the upcoming shortage of production capacity for battery components as EV sales grow.
+participants: Production bottlenecks ev1.3.1.1_P1, Capacity expansion ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subevent: Ethical concerns
+event_id: ev1.3.2
+description: Addressing ethical concerns related to the sourcing and production of battery components.
+participants: Ethical sourcing ev1.3.2.1_P1, Sustainability practices ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subevent 1.4
+subevent: Supply chain strategies
+event_id: ev1.4
+description: Implementing strategies to improve profit margins, reduce production costs, and increase market share in the EV battery industry.
+participants: Profit margin improvement ev1.4.1_P1, Cost reduction strategies ev1.4.2_P1, Market expansion ev1.4.3_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3
+
+Subsubevent 1.4.1
+subevent: Profit margin improvement
+event_id: ev1.4.1
+description: Strategies to improve profit margins by engaging with lower-cost suppliers and enhancing operational efficiency.
+participants: Lower-cost suppliers ev1.4.1.1_P1, Operational efficiency ev1.4.1.2_P1
+Gate: and
+Relations: ev1.4.1.1>ev1.4.1.2
+
+Subsubevent 1.4.2
+subevent: Cost reduction strategies
+event_id: ev1.4.2
+description: Reducing production costs through technological advancements and further R&D investment.
+participants: Technological advancements ev1.4.2.1_P1, R&D investment ev1.4.2.2_P1
+Gate: and
+Relations: ev1.4.2.1>ev1.4.2.2
+
+Subsubevent 1.4.3
+subevent: Market expansion
+event_id: ev1.4.3
+description: Expanding market share by entering new markets such as the stationary storage market.
+participants: New market entry ev1.4.3.1_P1, Stationary storage market ev1.4.3.2_P1
+Gate: and
+Relations: ev1.4.3.1>ev1.4.3.2
+
+Subevent 1.5
+subevent: Supply chain trends and patterns
+event_id: ev1.5
+description: Identifying patterns and trends in the supply chain based on coded interview data, including key supplier locations, cost factors, and other relevant elements.
+participants: Key supplier locations ev1.5.1_P1, Cost factors ev1.5.2_P1, Ethics and sustainability ev1.5.3_P1, Infrastructure ev1.5.4_P1, External events ev1.5.5_P1, Technology ev1.5.6_P1, Supply and demand ev1.5.7_P1, Lead times and timescales ev1.5.8_P1
+Gate: and
+Relations: ev1.5.1>ev1.5.2, ev1.5.2>ev1.5.3, ev1.5.3>ev1.5.4, ev1.5.4>ev1.5.5, ev1.5.5>ev1.5.6, ev1.5.6>ev1.5.7, ev1.5.7>ev1.5.8
+
+Subsubevent 1.5.1
+subevent: Key supplier locations
+event_id: ev1.5.1
+description: Identifying the locations of key suppliers in the EV battery supply chain and their impact on the overall supply network.
+participants: Supplier location data ev1.5.1.1_P1, Geographic distribution ev1.5.1.2_P1
+Gate: and
+Relations: ev1.5.1.1>ev1.5.1.2
+
+Subsubevent 1.5.2
+subevent: Cost factors
+event_id: ev1.5.2
+description: Analyzing cost factors affecting the EV battery supply chain, including production costs and supplier pricing.
+participants: Production cost analysis ev1.5.2.1_P1, Supplier pricing strategies ev1.5.2.2_P1
+Gate: and
+Relations: ev1.5.2.1>ev1.5.2.2
+
+Subsubevent 1.5.3
+subevent: Ethics and sustainability
+event_id: ev1.5.3
+description: Evaluating ethical and sustainability practices within the EV battery supply chain, focusing on sourcing and production processes.
+participants: Ethical sourcing practices ev1.5.3.1_P1, Sustainable production methods ev1.5.3.2_P1
+Gate: and
+Relations: ev1.5.3.1>ev1.5.3.2
+
+Subsubevent 1.5.4
+subevent: Infrastructure
+event_id: ev1.5.4
+description: Assessing the infrastructure supporting the EV battery supply chain, including logistics and transportation networks.
+participants: Logistics infrastructure ev1.5.4.1_P1, Transportation networks ev1.5.4.2_P1
+Gate: and
+Relations: ev1.5.4.1>ev1.5.4.2
+
+Subsubevent 1.5.5
+subevent: External events
+event_id: ev1.5.5
+description: Analyzing the impact of external events on the EV battery supply chain, such as geopolitical events and economic shifts.
+participants: Geopolitical events ev1.5.5.1_P1, Economic shifts ev1.5.5.2_P1
+Gate: and
+Relations: ev1.5.5.1>ev1.5.5.2
+
+Subsubevent 1.5.6
+subevent: Technology
+event_id: ev1.5.6
+description: Exploring technological advancements and their influence on the EV battery supply chain, including innovations in battery technology.
+participants: Battery technology advancements ev1.5.6.1_P1, Production technology improvements ev1.5.6.2_P1
+Gate: and
+Relations: ev1.5.6.1>ev1.5.6.2
+
+Subsubevent 1.5.7
+subevent: Supply and demand
+event_id: ev1.5.7
+description: Examining supply and demand dynamics within the EV battery supply chain and their effects on market stability.
+participants: Supply trends ev1.5.7.1_P1, Demand trends ev1.5.7.2_P1
+Gate: and
+Relations: ev1.5.7.1>ev1.5.7.2
+
+Subsubevent 1.5.8
+subevent: Lead times and timescales
+event_id: ev1.5.8
+description: Analyzing lead times and production timescales in the EV battery supply chain to identify opportunities for optimization.
+participants: Lead time data ev1.5.8.1_P1, Production timescale analysis ev1.5.8.2_P1
+Gate: and
+Relations: ev1.5.8.1>ev1.5.8.2

@@ -1,0 +1,71 @@
+Event 1
+event: key strategic issues in operations and supply chain management for the automobile battery industry
+event_id: ev1
+description: This research identifies strategic issues in operations and SCM for the automobile battery industry, focusing on demand assessment, supply fulfillment, and creating a network to bridge demand and supply.
+participants: demand assessment ev1.1_P1, supply fulfillment ev1.2_P1, network creation ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: demand assessment
+event_id: ev1.1
+description: Demand assessment includes forecasting sales and estimating warranty replacements to ensure accurate projections in the automotive battery industry.
+participants: sales forecasting ev1.1.1_P1, warranty replacement estimation ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: supply fulfillment
+event_id: ev1.2
+description: Supply fulfillment involves production planning to meet the assessed demand, taking into account various product mixes and production complexities.
+participants: production planning ev1.2.1_P1, product mix management ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subevent 1.3
+subevent: network creation
+event_id: ev1.3
+description: Creating an agile network involves strategic inventory planning to ensure timely and location-specific dispatches of automotive batteries.
+participants: inventory planning ev1.3.1_P1, location-specific dispatches ev1.3.2_P1, material-specific dispatches ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Event 2
+event: supply chain management in the Indian automotive battery industry
+event_id: ev2
+description: SCM in the Indian automotive battery industry focuses on integrating suppliers, manufacturers, warehouses, and customers to minimize system-wide costs and maximize profit and market share.
+participants: supplier integration ev2.1_P1, manufacturer integration ev2.2_P1, warehouse integration ev2.3_P1, customer integration ev2.4_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3, ev2.3>ev2.4
+
+Subevent 2.1
+subevent: supplier integration
+event_id: ev2.1
+description: Integrating suppliers involves coordinating with raw material providers to ensure a steady supply for battery production.
+participants: raw material coordination ev2.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 2.2
+subevent: manufacturer integration
+event_id: ev2.2
+description: Integrating manufacturers focuses on aligning production processes and schedules to meet the supply chain demands.
+participants: production alignment ev2.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 2.3
+subevent: warehouse integration
+event_id: ev2.3
+description: Integrating warehouses involves managing storage and distribution centers to facilitate efficient battery logistics.
+participants: storage management ev2.3.1_P1, distribution management ev2.3.2_P1
+Gate: and
+Relations: ev2.3.1>ev2.3.2
+
+Subevent 2.4
+subevent: customer integration
+event_id: ev2.4
+description: Integrating customers ensures that the end-product is distributed to the right place at the right time, fulfilling customer demands.
+participants: customer demand fulfillment ev2.4.1_P1
+Gate: and
+Relations: xxxx

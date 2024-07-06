@@ -1,0 +1,31 @@
+Event 1
+event: For geothermal or oilfield brines to succeed as a source of lithium supply, a proven process for DLE will be required.
+event_id: ev1
+description: A proven process for DLE will be required for geothermal or oilfield brines to succeed as a source of lithium supply.
+participants: geothermal brine ev1.1_P0.5, oilfield brine ev1.2_P0.5, proven process for DLE ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: geothermal brine
+event_id: ev1.1
+description: A source of lithium supply using geothermal brines.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: oilfield brine
+event_id: ev1.2
+description: A source of lithium supply using oilfield brines.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: proven process for DLE
+event_id: ev1.3
+description: A process that will be required to make geothermal or oilfield brines a source of lithium supply.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

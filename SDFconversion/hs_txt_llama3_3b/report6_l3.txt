@@ -1,0 +1,23 @@
+Event 1
+event: Developing reliable EV battery supply chain
+event_id: ev1
+description: xxxx
+participants: Manufacturers recognising their role in developing reliable supply chains ev1.1_P0.5, Logistics companies taking steps to optimise performance ev1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Manufacturers recognising their role in developing reliable supply chains
+event_id: ev1.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Logistics companies taking steps to optimise performance
+event_id: ev1.2
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx

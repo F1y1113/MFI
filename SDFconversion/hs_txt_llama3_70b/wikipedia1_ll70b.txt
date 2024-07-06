@@ -1,0 +1,7 @@
+Event 1
+event: Electric vehicle battery
+event_id: ev1
+description: An electric vehicle battery is a rechargeable battery.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>xxxx

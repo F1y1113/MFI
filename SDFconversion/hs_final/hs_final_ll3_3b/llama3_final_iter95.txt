@@ -1,0 +1,57 @@
+Event 1**
+event: Four-oxidation-three-tungsten (四氧化三钴) supply chain
+event_id: ev1
+description: The four-oxidation-three-tungsten supply chain includes domestic and international trade, with fluctuations in demand and supply.
+participants: ev1.1_P0.5, ev1.2_P0.3, ev1.3_P0.2 (see below for subevents)
+
+**Subevent 1.1**
+subevent: Domestic four-oxidation-three-tungsten supply chain
+event_id: ev1.1
+description: Domestic demand and supply of four-oxidation-three-tungsten are affected by various factors, including market fluctuations.
+participants: ev1.1.1_P0.8 (domestic demand), ev1.1.2_P0.6 (domestic supply)
+
+**Subevent 1.2**
+subevent: International four-oxidation-three-tungsten trade
+event_id: ev1.2
+description: The international trade of four-oxidation-three-tungsten is influenced by global market trends and demand.
+participants: ev1.2.1_P0.4 (export), ev1.2.2_P0.3 (import)
+
+**Subevent 1.3**
+subevent: Four-oxidation-three-tungsten consumption
+event_id: ev1.3
+description: The demand for four-oxidation-three-tungsten in various industries, such as electronics and energy storage, affects the supply chain.
+participants: ev1.3.1_P0.5 (electronics), ev1.3.2_P0.4 (energy storage)
+
+**Gate**: or
+
+Here is the updated hierarchical structure:
+
+```
+Event 1
+event: Four-oxidation-three-tungsten supply chain
+event_id: ev1
+description: The four-oxidation-three-tungsten supply chain includes domestic and international trade, with fluctuations in demand and supply.
+participants: ev1.1_P0.5, ev1.2_P0.3, ev1.3_P0.2
+
+Subevent 1.1
+subevent: Domestic four-oxidation-three-tungsten supply chain
+event_id: ev1.1
+description: Domestic demand and supply of four-oxidation-three-tungsten are affected by various factors, including market fluctuations.
+participants: ev1.1.1_P0.8 (domestic demand), ev1.1.2_P0.6 (domestic supply)
+
+Subevent 1.2
+subevent: International four-oxidation-three-tungsten trade
+event_id: ev1.2
+description: The international trade of four-oxidation-three-tungsten is influenced by global market trends and demand.
+participants: ev1.2.1_P0.4 (export), ev1.2.2_P0.3 (import)
+
+Subevent 1.3
+subevent: Four-oxidation-three-tungsten consumption
+event_id: ev1.3
+description: The demand for four-oxidation-three-tungsten in various industries, such as electronics and energy storage, affects the supply chain.
+participants: ev1.3.1_P0.5 (electronics), ev1.3.2_P0.4 (energy storage)
+
+Gate: or
+
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3
+```

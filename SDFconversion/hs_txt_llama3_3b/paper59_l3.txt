@@ -1,0 +1,63 @@
+Event 1
+event: Use Phase
+event_id: ev1
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.1
+subevent: Pyrometallurgical Route
+event_id: ev1.1
+description: The battery is melted in a hot furnace to recover some of the cathode metal.
+participants: Pyrometallurgy ev1.1.1_P0.5, High Temperature ev1.1.2_P0.3, Metal Oxides ev1.1.3_P0.2
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Hydrometallurgical Route
+event_id: ev1.2
+description: Hydrometallurgy employs aqueous solutions to perform leaching processes to precipitate a particular metal.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Bioleaching Route
+event_id: ev1.3
+description: Bioleaching uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: Bacteria ev1.3.1_P0.2, Time ev1.3.2_P0.1, Contamination ev1.3.3_P0.1
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+Subevent 1.4
+subevent: Combinations of Methods
+event_id: ev1.4
+description: Combinations of pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells.
+participants: Pyrometallurgy ev1.4.1_P0.2, Hydrometallurgy ev1.4.2_P0.2
+Gate: or
+Relations: ev1.4.1>ev1.4.2
+
+Event 2
+event: Battery Production
+event_id: ev2
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.1
+subevent: Cathode Substance Production
+event_id: ev2.1
+description: The cathode substance is produced through various methods such as pyrometallurgy, hydrometallurgy, and bioleaching.
+participants: Pyrometallurgy ev2.1.1_P0.5, Hydrometallurgy ev2.1.2_P0.3, Bioleaching ev2.1.3_P0.2
+Gate: or
+Relations: ev2.1.1>ev2.1.2, ev2.1.1>ev2.1.3
+
+Subevent 2.2
+subevent: Anode Substance Production
+event_id: ev2.2
+description: The anode substance is produced through various methods such as pyrometallurgy, hydrometallurgy, and bioleaching.
+participants: Pyrometallurgy ev2.2.1_P0.5, Hydrometallurgy ev2.2.2_P0.3, Bioleaching ev2.2.3_P0.2
+Gate: or
+Relations: ev2.2.1>ev2.2.2, ev2.2.1>ev2.2.3

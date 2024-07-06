@@ -1,0 +1,23 @@
+Event 1
+event: Battery Recycling Infrastructure Establishment
+event_id: ev1
+description: Establishing infrastructure for recycling EV batteries, including Better Place's reverse supply chain network.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Negotiation with Chinese Car Manufacturer
+event_id: ev1.1
+description: Better Place negotiating with a Chinese car manufacturer to establish a compatible battery infrastructure in China.
+participants: Chinese Car Manufacturer ev1.1.1_P0.5, Better Place ev1.1.2_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Reverse Supply Chain Network Implementation
+event_id: ev1.2
+description: Implementing a reverse supply chain network for recycling EV batteries.
+participants: xxxx
+Gate: or
+Relations: xxxx

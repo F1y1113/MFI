@@ -1,0 +1,87 @@
+Event 1**
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+**Subevent 1.2**
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.3**
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: EV manufacturer's decision-making process
+event_id: ev2
+description: The process of deciding whether to recycle or not, involving factors such as cost and environmental impact.
+participants: recycling ev2.1_P0.7, not recycling ev2.2_P0.3
+Gate: xor
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+**Subevent 2.1**
+subevent: recycling
+event_id: ev2.1
+description: The process of reusing materials from spent batteries.
+participants: cost ev2.1.1_P0.4, environmental impact ev2.1.2_P0.6
+Gate: and
+Relations: ev2.1.1>ev2.1.3, ev2.1.2>ev2.1.3
+
+**Subevent 2.2**
+subevent: not recycling
+event_id: ev2.2
+description: The process of not reusing materials from spent batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 3**
+event: EV manufacturer's supply chain management
+event_id: ev3
+description: The process of managing the flow of goods, services, and information from raw materials to end customers.
+participants: material sourcing ev3.1_P0.8, production planning ev3.2_P0.5, inventory management ev3.3_P0.7
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3, ev3.2>ev3.3
+
+**Subevent 3.1**
+subevent: material sourcing
+event_id: ev3.1
+description: The process of selecting and acquiring raw materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.2**
+subevent: production planning
+event_id: ev3.2
+description: The process of determining what to produce, when to produce it, and how much to produce.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.3**
+subevent: inventory management
+event_id: ev3.3
+description: The process of managing the storage and tracking of goods.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

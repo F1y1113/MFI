@@ -1,0 +1,95 @@
+Event 1**
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+**Subevent 1.2**
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.3**
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: EV battery market growth
+event_id: ev2
+description: The EV battery market is expected to grow due to increasing demand for electric vehicles.
+participants: increasing demand for electric vehicles ev2.1_P1, government regulations ev2.2_P0.5, decreasing battery costs ev2.3_P0.5
+Gate: and
+Relations: ev2.1>ev2.2, ev2.1>ev2.3
+
+**Subevent 2.1**
+subevent: increasing demand for electric vehicles
+event_id: ev2.1
+description: Growing popularity of electric vehicles drives the demand for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.2**
+subevent: government regulations
+event_id: ev2.2
+description: Government policies and incentives promote the adoption of electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.3**
+subevent: decreasing battery costs
+event_id: ev2.3
+description: Advancements in battery technology lead to reduced production costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 3**
+event: LFP battery development
+event_id: ev3
+description: Lithium iron phosphate (LFP) batteries are being developed for electric vehicles.
+participants: high energy density ev3.1_P1, long cycle life ev3.2_P0.5, low cost ev3.3_P0.5
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3
+
+**Subevent 3.1**
+subevent: high energy density
+event_id: ev3.1
+description: LFP batteries offer high energy density for electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.2**
+subevent: long cycle life
+event_id: ev3.2
+description: LFP batteries have a long cycle life, reducing the need for frequent replacements.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.3**
+subevent: low cost
+event_id: ev3.3
+description: LFP batteries are being developed to be more cost-effective.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

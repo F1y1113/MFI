@@ -1,0 +1,31 @@
+Event 1
+event: ZincPower zinc-nickel battery production
+event_id: ev1
+description: The supply chain structure for ZincPower, a zinc-nickel battery.
+participants: mining ev1.1_P0.8, refining ev1.2_P0.6, manufacturing ev1.3_P0.4
+Gate: and
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3
+
+Subevent 1.1
+subevent: mining
+event_id: ev1.1
+description: Extraction of zinc and nickel from ores.
+participants: excavation ev1.1.1_P0.7, processing ev1.1.2_P0.5
+Gate: and
+Relations: ev1.1>ev1.1.1, ev1.1>ev1.1.2
+
+Subevent 1.2
+subevent: refining
+event_id: ev1.2
+description: Purification of zinc and nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: manufacturing
+event_id: ev1.3
+description: Production of ZincPower batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

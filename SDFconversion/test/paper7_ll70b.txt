@@ -1,0 +1,8 @@
+
+Event 1
+event: powering 
+event_id: ev1
+description: Li-ion batteries can reduce carbon emissions by powering xxxx.
+participants: xxxx
+Gate: xor
+Relations: 

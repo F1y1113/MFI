@@ -1,0 +1,239 @@
+Event 1
+event: Battery Supply Chain Traceability
+event_id: ev1
+description: The increasing demand for battery production materials and the need for sustainable practices have led to efforts in tracing raw materials to their origins to verify production conditions. The European Union and companies are taking actions to improve transparency.
+participants: Regulatory Development ev1.1_P1, Customer Awareness ev1.2_P1, Sustainability Reporting ev1.3_P1, Traceability Pilots ev1.4_P1, Geo-based Fingerprinting ev1.5_P1, Mining Industry Traceability Systems ev1.6_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.1>ev1.4, ev1.1>ev1.5, ev1.1>ev1.6
+
+Subevent 1.1
+subevent: Regulatory Development
+event_id: ev1.1
+description: EU's battery directives and other regulatory measures are driving the need for traceability in the battery supply chain.
+participants: EU Battery Directives ev1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Customer Awareness
+event_id: ev1.2
+description: Increasing customer awareness of sustainability issues is influencing OEMs to invest in transparent supply chains for battery metals.
+participants: Consumer Demand ev1.2.1_P1, OEM Investments ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subevent 1.3
+subevent: Sustainability Reporting
+event_id: ev1.3
+description: Current sustainability and reporting systems in the mining industry are inadequate to meet the increased traceability needs.
+participants: Mining Industry Reporting ev1.3.1_P1, Reporting Limitations ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subevent 1.4
+subevent: Traceability Pilots
+event_id: ev1.4
+description: Initial traceability pilots are limited in scope but necessary for developing comprehensive traceability systems.
+participants: Pilot Programs ev1.4.1_P1, Scope Limitations ev1.4.2_P1, Ethical Considerations ev1.4.3_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3
+
+Subevent 1.5
+subevent: Geo-based Fingerprinting
+event_id: ev1.5
+description: Geo-based fingerprinting offers a reliable method for verifying the origin of raw materials due to the unique geological and elemental characteristics of samples.
+participants: Geological Characteristics ev1.5.1_P1, Elemental Characteristics ev1.5.2_P1, Verification Potential ev1.5.3_P1
+Gate: and
+Relations: ev1.5.1>ev1.5.3, ev1.5.2>ev1.5.3
+
+Subevent 1.6
+subevent: Mining Industry Traceability Systems
+event_id: ev1.6
+description: Many mining companies are developing intercompany systems to trace raw materials as the demand for battery materials grows.
+participants: Intercompany Systems ev1.6.1_P1, Development Projects ev1.6.2_P1, ESG Systems ev1.6.3_P1
+Gate: and
+Relations: ev1.6.1>ev1.6.2, ev1.6.2>ev1.6.3
+
+Subevent 1.1.1
+subevent: EU Battery Directives
+event_id: ev1.1.1
+description: The EU Battery Directives establish regulatory requirements for traceability in the battery supply chain to ensure sustainability and ethical practices.
+participants: Regulatory Requirements ev1.1.1.1_P1, Sustainability Goals ev1.1.1.2_P1, Ethical Practices ev1.1.1.3_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2, ev1.1.1.2>ev1.1.1.3
+
+Subevent 1.2.1
+subevent: Consumer Demand
+event_id: ev1.2.1
+description: Consumers are increasingly aware of sustainability issues, demanding greater transparency in the origins and production practices of battery materials.
+participants: Consumer Awareness Campaigns ev1.2.1.1_P1, Market Pressure ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subevent 1.2.2
+subevent: OEM Investments
+event_id: ev1.2.2
+description: Original Equipment Manufacturers (OEMs) are investing in transparent supply chains to meet consumer demands and regulatory requirements.
+participants: Supply Chain Investments ev1.2.2.1_P1, Compliance Initiatives ev1.2.2.2_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subevent 1.3.1
+subevent: Mining Industry Reporting
+event_id: ev1.3.1
+description: The mining industry currently uses sustainability and reporting systems to track the initial stages of the supply chain.
+participants: Initial Tracking Systems ev1.3.1.1_P1, Reporting Frameworks ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subevent 1.3.2
+subevent: Reporting Limitations
+event_id: ev1.3.2
+description: Existing reporting systems are limited and do not meet the new requirements for comprehensive traceability.
+participants: System Limitations ev1.3.2.1_P1, Need for Improvement ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subevent 1.4.1
+subevent: Pilot Programs
+event_id: ev1.4.1
+description: Initial pilot programs are being implemented to test traceability methods in the battery supply chain.
+participants: Pilot Projects ev1.4.1.1_P1, Test Methods ev1.4.1.2_P1
+Gate: and
+Relations: ev1.4.1.1>ev1.4.1.2
+
+Subevent 1.4.2
+subevent: Scope Limitations
+event_id: ev1.4.2
+description: The scope of current traceability pilots is limited, and further expansion is needed to cover the entire supply chain.
+participants: Limited Scope ev1.4.2.1_P1, Expansion Needs ev1.4.2.2_P1
+Gate: and
+Relations: ev1.4.2.1>ev1.4.2.2
+
+Subevent 1.4.3
+subevent: Ethical Considerations
+event_id: ev1.4.3
+description: Ethical questions, especially regarding cobalt production, are critical in sustainability considerations, indicating a need for traceable and certified materials.
+participants: Cobalt Traceability ev1.4.3.1_P1, Certified Materials ev1.4.3.2_P1
+Gate: and
+Relations: ev1.4.3.1>ev1.4.3.2
+
+Subevent 1.5.1
+subevent: Geological Characteristics
+event_id: ev1.5.1
+description: The unique geological characteristics of a sample are crucial for geo-based fingerprinting, making it a reliable traceability method.
+participants: Unique Geology ev1.5.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.5.2
+subevent: Elemental Characteristics
+event_id: ev1.5.2
+description: The elemental makeup of a sample provides additional verification for geo-based fingerprinting, enhancing its traceability potential.
+participants: Elemental Analysis ev1.5.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.5.3
+subevent: Verification Potential
+event_id: ev1.5.3
+description: Geo-based fingerprinting offers a unique verification method for ensuring the authenticity and sustainability of battery raw materials.
+participants: Verification Methods ev1.5.3.1_P1, Sustainability Verification ev1.5.3.2_P1
+Gate: and
+Relations: ev1.5.3.1>ev1.5.3.2
+
+Subevent 1.6.1
+subevent: Intercompany Systems
+event_id: ev1.6.1
+description: Mining companies are developing intercompany systems to track raw materials within their processes, responding to the growing demand for battery materials.
+participants: Development Initiatives ev1.6.1.1_P1, Tracking Technologies ev1.6.1.2_P1
+Gate: and
+Relations: ev1.6.1.1>ev1.6.1.2
+
+Subevent 1.6.2
+subevent: Development Projects
+event_id: ev1.6.2
+description: Various development projects are underway to enhance traceability systems within the mining industry.
+participants: Project Implementations ev1.6.2.1_P1, Technological Advancements ev1.6.2.2_P1
+Gate: and
+Relations: ev1.6.2.1>ev1.6.2.2
+
+Subevent 1.6.3
+subevent: ESG Systems
+event_id: ev1.6.3
+description: Environmental, Social, and Governance (ESG) systems are increasingly important in the mining sector, driving the development of effective traceability systems.
+participants: ESG Initiatives ev1.6.3.1_P1, Governance Frameworks ev1.6.3.2_P1
+Gate: and
+Relations: ev1.6.3.1>ev1.6.3.2
+
+Subevent 1.6.1.1
+subevent: Development Initiatives
+event_id: ev1.6.1.1
+description: Initiatives aimed at developing intercompany systems to enhance traceability in the mining industry.
+participants: Initiative Programs ev1.6.1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.6.1.2
+subevent: Tracking Technologies
+event_id: ev1.6.1.2
+description: Technologies being developed and implemented to track raw materials in the mining process.
+participants: Technology Solutions ev1.6.1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.6.2.1
+subevent: Project Implementations
+event_id: ev1.6.2.1
+description: Implementation of projects focused on enhancing traceability within the mining sector.
+participants: Project Teams ev1.6.2.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.6.2.2
+subevent: Technological Advancements
+event_id: ev1.6.2.2
+description: Advancements in technology aimed at improving traceability systems.
+participants: New Technologies ev1.6.2.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.6.3.1
+subevent: ESG Initiatives
+event_id: ev1.6.3.1
+description: Initiatives focusing on Environmental, Social, and Governance aspects within the mining industry.
+participants: ESG Programs ev1.6.3.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.6.3.2
+subevent: Governance Frameworks
+event_id: ev1.6.3.2
+description: Frameworks developed to govern and guide ESG initiatives.
+participants: Governance Policies ev1.6.3.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.5.3.1
+subevent: Verification Methods
+event_id: ev1.5.3.1
+description: Various methods used for verifying the authenticity and sustainability of battery raw materials.
+participants: Method A ev1.5.3.1.1_P1, Method B ev1.5.3.1.2_P1
+Gate: and
+Relations: ev1.5.3.1.1>ev1.5.3.1.2
+
+Subevent 1.5.3.2
+subevent: Sustainability Verification
+event_id: ev1.5.3.2
+description: Processes and systems in place to verify the sustainability of raw materials in the battery supply chain.
+participants: Sustainability Metrics ev1.5.3.2.1_P1, Verification Tools ev1.5.3.2.2_P1
+Gate: and
+Relations: ev1.5.3.2.1>ev1.5.3.2.2
+
+Subevent 1.6.3.2
+subevent: Governance Frameworks
+event_id: ev1.6.3.2
+description: Governance frameworks guide the implementation and monitoring of ESG initiatives within the mining industry.
+participants: Policy Development ev1.6.3.2.1_P1, Compliance Monitoring ev1.6.3.2.2_P1
+Gate: and
+Relations: ev1.6.3.2.1>ev1.6.3.2.2

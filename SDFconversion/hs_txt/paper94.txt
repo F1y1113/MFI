@@ -1,0 +1,191 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The EV battery supply chain involves the production, supply, and recycling of lithium-ion batteries (LIBs) used in various sectors, including transportation and energy storage.
+participants: LIB supply chain ev1.1_P1, critical materials supply ev1.2_P1, design and chemistry challenges ev1.3_P1, recycling and reuse ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: LIB supply chain
+event_id: ev1.1
+description: The LIB supply chain is segmented into three key sectors: portable microelectronics and tools, powertrains for transportation, and utility-grid energy storage.
+participants: portable microelectronics and tools ev1.1.1_P1, powertrains for transportation ev1.1.2_P1, utility-grid energy storage ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subsubevent: Portable microelectronics and tools
+event_id: ev1.1.1
+description: This sector involves the use of LIBs in various small-scale electronic devices and tools.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Powertrains for transportation
+event_id: ev1.1.2
+description: This sector focuses on the use of LIBs in electric vehicles and other transportation powertrains.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: Utility-grid energy storage
+event_id: ev1.1.3
+description: This sector involves the use of LIBs for storing energy in utility grids to balance supply and demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Critical materials supply
+event_id: ev1.2
+description: The supply of critical materials like cobalt and nickel is crucial for the production of LIBs, with concerns over their availability and costs due to limited reserves concentrated in a few countries.
+participants: cobalt ev1.2.1_P1, nickel ev1.2.2_P1, lithium ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.3>ev1.2.1
+
+Subsubevent 1.2.1
+subsubevent: Cobalt
+event_id: ev1.2.1
+description: Cobalt is a key material for LIBs, with its reserve and production concentrated in the Republic of Congo and China, raising concerns over availability and costs.
+participants: reserve concentration ev1.2.1.1_P1, cost concerns ev1.2.1.2_P1, research for alternatives ev1.2.1.3_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2, ev1.2.1.3>ev1.2.1.1
+
+Subsubsubevent 1.2.1.1
+subsubsubevent: Reserve concentration
+event_id: ev1.2.1.1
+description: Cobalt reserves are concentrated in a few countries, mainly the Republic of Congo and China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.1.2
+subsubsubevent: Cost concerns
+event_id: ev1.2.1.2
+description: The concentration of cobalt reserves raises concerns over its availability and the associated costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.1.3
+subsubsubevent: Research for alternatives
+event_id: ev1.2.1.3
+description: There is ongoing research to reduce the use of cobalt in LIBs and seek alternative materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: Nickel
+event_id: ev1.2.2
+description: Nickel is another critical material for LIBs, with concerns over its availability and costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.3
+subsubevent: Lithium
+event_id: ev1.2.3
+description: Lithium supply and reserve are emerging issues that need monitoring to maintain an affordable supply and ensure recovery.
+participants: supply monitoring ev1.2.3.1_P1, affordable supply maintenance ev1.2.3.2_P1, recovery efforts ev1.2.3.3_P1
+Gate: and
+Relations: ev1.2.3.1>ev1.2.3.2, ev1.2.3.3>ev1.2.3.1
+
+Subsubsubevent 1.2.3.1
+subsubsubevent: Supply monitoring
+event_id: ev1.2.3.1
+description: Monitoring the supply of lithium to ensure its availability for LIB production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.3.2
+subsubsubevent: Affordable supply maintenance
+event_id: ev1.2.3.2
+description: Efforts to maintain an affordable supply of lithium to support LIB production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.3.3
+subsubsubevent: Recovery efforts
+event_id: ev1.2.3.3
+description: Efforts to recover lithium from various sources to ensure a sustainable supply.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Design and chemistry challenges
+event_id: ev1.3
+description: The pursuit of newer designs and chemistries for LIBs faces challenges in durability, reliability, and safety, with a need for precise control of material properties.
+participants: durability challenges ev1.3.1_P1, reliability challenges ev1.3.2_P1, safety challenges ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.3>ev1.3.1
+
+Subsubevent 1.3.1
+subsubevent: Durability challenges
+event_id: ev1.3.1
+description: Durability issues arise from the high energy content and the complexity of balancing various energies in LIBs.
+participants: energy balance ev1.3.1.1_P1, force-phase fields ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubsubevent 1.3.1.1
+subsubsubevent: Energy balance
+event_id: ev1.3.1.1
+description: Balancing chemical, thermal, mechanical, and electrical energies in LIBs is crucial for durability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.3.1.2
+subsubsubevent: Force-phase fields
+event_id: ev1.3.1.2
+description: The coupling of force-phase fields from various energies poses challenges in achieving durability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Reliability challenges
+event_id: ev1.3.2
+description: Reliability issues in LIBs often stem from localized events that are difficult to detect, especially in the early stages.
+participants: localized events ev1.3.2.1_P1, early detection ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subsubsubevent 1.3.2.1
+subsubsubevent: Localized events
+event_id: ev1.3.2.1
+description: Localized events can trigger unintended consequences affecting LIB reliability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.3.2.2
+subsubsubevent: Early detection
+event_id: ev1.3.2.2
+description: Early detection of localized events is crucial for ensuring the reliability of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subsubevent: Safety challenges
+event_id: ev1.3.3
+description: Safety issues in LIBs are a concern due to the high energy content and the difficulty in controlling material properties accurately.
+participants: high energy content ev1.3.3.1_P1, material property control ev1.3.3.2_P1
+Gate: and
+Relations: ev1.3.3.1>ev1.3.3.2
+
+Subsubsubevent 1.3.3.1
+subsubsubevent: High energy content
+event_id: ev1.3.3.1
+description: The high energy content in LIBs poses significant safety challenges.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

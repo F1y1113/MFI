@@ -1,0 +1,31 @@
+Event 1
+event: Three-period electric vehicle battery recycle and reuse
+event_id: ev1
+description: Studies a three-period electric vehicle battery recycle and reuse closed-loop system.
+participants: Pyrometallurgical Recycling ev1.1_P0.5, Hydrometallurgical Recycling ev1.2_P0.3, Bioleaching Recycling ev1.3_P0.2, Direct Recycling ev1.4_P0.1
+Gate: or
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3, ev1>ev1.4
+
+Subevent 1.1
+subevent: Pyrometallurgical Recycling
+event_id: ev1.1
+description: Recycles lithium-ion batteries through pyrometallurgical methods.
+participants: Lithium-Ion Batteries ev1.1.1_P0.8, Cathode Metal ev1.1.2_P0.4, Cobalt ev1.1.3_P0.3
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subevent 1.2
+subevent: Hydrometallurgical Recycling
+event_id: ev1.2
+description: Recycles lithium-ion batteries through hydrometallurgical methods.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Bioleaching Recycling
+event_id: ev1.3
+description: Recycles lithium-ion batteries through bioleaching methods.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

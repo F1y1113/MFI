@@ -1,0 +1,40 @@
+Event 1
+event: Progressing further through the lithium supply chain
+event_id: ev1
+description: Following the conversion to intermediate products, various manufacturing and end-use applications are explored.
+participants: air conditioning and industrial process cooling ev1.1_P0.5, thermoplastics ev1.2_P0.3, pharmaceuticals (for bipolar and depression) ev1.3_P0.2, aluminum production to add strength and corrosion resistance ev1.4_P0.8, glass and ceramics ev1.5_P0.7, steel casting applications ev1.6_P0.9, lithium-ion batteries ev1.7_P1
+Gate: or
+Relations: ev1>ev2
+
+Event 2
+event: Manufacturing of lithium-ion batteries
+event_id: ev2
+description: Actual manufacturing occurs primarily in China, Japan, and South Korea.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev2
+
+Event 3
+event: U.S. government plans to use the Defense Production Act
+event_id: ev3
+description: To boost domestic production of lithium-ion batteries for electric vehicles.
+participants: Defense Production Act ev3.1_P0.9, domestic production ev3.2_P0.8, electric vehicles ev3.3_P1
+Gate: and
+Relations: ev2>ev3
+
+Event 4
+event: Exploring alternative sources of lithium
+event_id: ev4
+description: Due to concerns about the sustainability of current supply chains.
+participants: alternative sources ev4.1_P0.7, concerns about sustainability ev4.2_P0.8
+Gate: or
+Relations: ev3>ev4
+
+Event 5
+event: Researching more efficient extraction methods for lithium
+event_id: ev5
+description: To reduce environmental impact and increase production capacity.
+participants: more efficient extraction methods ev5.1_P0.9, reduced environmental impact ev5.2_P0.8, increased production capacity ev5.3_P0.7
+Gate: and
+Relations: ev4>ev5
+

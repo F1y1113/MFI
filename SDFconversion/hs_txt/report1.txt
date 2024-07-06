@@ -1,0 +1,95 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The EV battery supply chain involves various stages from the extraction of minerals to the assembly of finished batteries into EVs, with China currently dominating this global supply chain. Efforts to diversify production and strengthen local supply chains are ongoing.
+participants: Upstream ev1.1_P1, Midstream ev1.2_P1, Downstream ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Upstream
+event_id: ev1.1
+description: The upstream portion involves the extraction of minerals needed for EV batteries. There are concerns about meeting rising demand and the economic opportunities for countries involved in this stage.
+participants: Extraction ev1.1.1_P1, Economic Opportunities ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subevent: Extraction
+event_id: ev1.1.1
+description: This stage focuses on the extraction of minerals required for EV batteries. It has garnered considerable attention due to concerns about meeting demand and potential price increases.
+participants: Minerals ev1.1.1.1_P1, Demand ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubevent 1.1.2
+subevent: Economic Opportunities
+event_id: ev1.1.2
+description: Strengthening the upstream supply chain offers economic opportunities, job creation, and supply chain reinforcement for participating countries.
+participants: Jobs ev1.1.2.1_P1, Supply Chain Reinforcement ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subevent 1.2
+subevent: Midstream
+event_id: ev1.2
+description: The midstream portion involves processing, refining, and assembling raw materials into battery cells. It plays a crucial role in improving supply chain traceability and ethical sourcing of materials.
+participants: Processing ev1.2.1_P1, Refining ev1.2.2_P1, Assembling ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subevent: Processing
+event_id: ev1.2.1
+description: Raw materials extracted upstream are sent to facilities for processing. This step is essential for transforming raw minerals into usable components for battery production.
+participants: Facilities ev1.2.1.1_P1, Raw Materials ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubevent 1.2.2
+subevent: Refining
+event_id: ev1.2.2
+description: The refining process further purifies the processed materials to meet the required standards for battery production.
+participants: Purification ev1.2.2.1_P1, Standards ev1.2.2.2_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subsubevent 1.2.3
+subevent: Assembling
+event_id: ev1.2.3
+description: Refined materials are assembled into battery cells, forming the building blocks of battery modules used in EVs.
+participants: Battery Cells ev1.2.3.1_P1, Assembly Facilities ev1.2.3.2_P1
+Gate: and
+Relations: ev1.2.3.1>ev1.2.3.2
+
+Subevent 1.3
+subevent: Downstream
+event_id: ev1.3
+description: The downstream portion involves the assembly of battery cells into modules and packs, culminating in the placement of finished batteries into EVs. This stage also includes the influence of manufacturers and automakers on mining practices.
+participants: Modules ev1.3.1_P1, Packs ev1.3.2_P1, Influence ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+subevent: Modules
+event_id: ev1.3.1
+description: Battery cells are stacked in series or parallel in metal frames to form modules, which protect the cells from shocks and vibrations.
+participants: Battery Cells ev1.3.1.1_P1, Metal Frames ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subevent: Packs
+event_id: ev1.3.2
+description: Modules are further assembled into packs, which are then integrated into EVs.
+participants: Modules ev1.3.2.1_P1, Integration ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subsubevent 1.3.3
+subevent: Influence
+event_id: ev1.3.3
+description: Battery manufacturers and automakers can influence responsible mining practices, similar to how coffee shops influence responsible coffee farming.
+participants: Manufacturers ev1.3.3.1_P1, Automakers ev1.3.3.2_P1
+Gate: and
+Relations: ev1.3.3.1>ev1.3.3.2

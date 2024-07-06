@@ -1,0 +1,71 @@
+Event 1
+event: EV Battery Supply Chain
+event_id: ev1
+description: The process of supplying and utilizing electric vehicle batteries, including their production, use, and recycling.
+participants: Lithium Mining ev1.1_P0.8, Lithium Refining ev1.2_P0.7, Lithium-ion Battery Production ev1.3_P0.9, Electric Vehicle Sales ev1.4_P0.6
+Gate: or
+Relations: ev1>ev1.2, ev1>ev1.3, ev1>ev1.4
+
+Subevent 1.1
+subevent: Lithium Mining
+event_id: ev1.1
+description: The process of extracting lithium from ore deposits.
+participants: Open-Pit Mining ev1.1.1_P0.9, Underground Mining ev1.1.2_P0.7
+Gate: and
+Relations: ev1.1>ev1.1.1, ev1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Lithium Refining
+event_id: ev1.2
+description: The process of refining extracted lithium to produce high-purity lithium compounds.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Lithium-ion Battery Production
+event_id: ev1.3
+description: The process of manufacturing electric vehicle batteries using lithium and other materials.
+participants: Battery Assembly ev1.3.1_P0.8, Quality Control ev1.3.2_P0.7
+Gate: and
+Relations: ev1.3>ev1.3.1, ev1.3>ev1.3.2
+
+Subevent 1.4
+subevent: Electric Vehicle Sales
+event_id: ev1.4
+description: The process of selling electric vehicles equipped with lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2
+subevent: Battery Recycling
+event_id: ev2
+description: The process of recycling used lithium-ion batteries to recover valuable materials and reduce waste.
+participants: Disassembly ev2.1_P0.9, Material Recovery ev2.2_P0.8, Closed-Loop Production ev2.3_P0.7
+Gate: or
+Relations: ev2>ev2.1, ev2>ev2.2, ev2>ev2.3
+
+Subevent 2.1
+subevent: Disassembly
+event_id: ev2.1
+description: The process of disassembling used lithium-ion batteries to isolate components.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Material Recovery
+event_id: ev2.2
+description: The process of recovering valuable materials from disassembled batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Closed-Loop Production
+event_id: ev2.3
+description: The process of manufacturing new lithium-ion batteries using recovered materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

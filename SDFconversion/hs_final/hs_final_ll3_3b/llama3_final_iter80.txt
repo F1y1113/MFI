@@ -1,0 +1,53 @@
+Event 1: Criticality of Materials in EV Batteries Supply Chain**
+
+event: Criticality of materials in EV batteries supply chain
+event_id: ev1
+description: The criticality of materials in the EV batteries supply chain is discussed.
+participants: low recycling potential of lithium ev1.1_P0.5, graphite ev1.2_P0.3, cobalt ev1.3_P0.2, nickel ev1.4_P0.1, iron ev1.5_P0.05
+Gate: and
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.1>ev1.4, ev1.1>ev1.5
+
+**Subevent 1.1: Low Recycling Potential of Lithium**
+
+subevent: low recycling potential of lithium
+event_id: ev1.1
+description: Lithium has a low recycling potential due to its difficulty in being recovered from spent batteries.
+participants: spent batteries ev1.1.1_P0.5, difficulty in recovery ev1.1.2_P0.3, battery recycling facilities ev1.1.3_P0.2
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3
+
+**Subevent 1.2: Graphite**
+
+subevent: graphite
+event_id: ev1.2
+description: Graphite is a hotspot in the category due to its high production by a small number of companies located in India, China, and Brazil.
+participants: Indian companies ev1.2.1_P0.5, Chinese companies ev1.2.2_P0.3, Brazilian companies ev1.2.3_P0.2
+Gate: or
+Relations: ev1.2.1>ev1.2.2, ev1.2.1>ev1.2.3
+
+**Subevent 1.3: Cobalt**
+
+subevent: cobalt
+event_id: ev1.3
+description: Cobalt is a critical material due to its high demand and poor socio-economic factors in the Democratic Republic of Congo (DRC).
+participants: high demand ev1.3.1_P0.5, poor socio-economic factors ev1.3.2_P0.3, DRC ev1.3.3_P0.2
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.1>ev1.3.3
+
+**Subevent 1.4: Nickel**
+
+subevent: nickel
+event_id: ev1.4
+description: Nickel is a material with low criticality.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.5: Iron**
+
+subevent: iron
+event_id: ev1.5
+description: Iron is a material with very low criticality.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

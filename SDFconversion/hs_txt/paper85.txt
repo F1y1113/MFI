@@ -1,0 +1,167 @@
+Event 1
+event: Battery technology and clean energy transition
+event_id: ev1
+description: Battery technology is critical for the clean energy transition and reducing fossil fuel dependence. Governments are investing heavily in energy storage to support renewable energy adoption and lower greenhouse gas emissions. However, the demand for batteries is expected to surge, potentially leading to material shortages, particularly cobalt and lithium.
+participants: government investments ev1.1_P1, renewable energy adoption ev1.2_P1, battery demand surge ev1.3_P1, material shortages ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: Government investments
+event_id: ev1.1
+description: Governments worldwide are investing significant sums in energy storage and relevant industries to enable the widespread adoption of renewable energy sources.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Renewable energy adoption
+event_id: ev1.2
+description: Energy storage is essential for the adoption of renewable energy sources, which is crucial for reducing greenhouse gas emissions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Battery demand surge
+event_id: ev1.3
+description: The demand for batteries is expected to increase dramatically in the short term as efforts to decarbonize all sectors intensify.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Material shortages
+event_id: ev1.4
+description: The surge in battery demand could lead to shortages of critical battery materials like cobalt and lithium in the coming years.
+participants: cobalt ev1.4.1_P1, lithium ev1.4.2_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2
+
+Subsubevent 1.4.1
+subsubevent: Cobalt
+event_id: ev1.4.1
+description: Cobalt is a critical component in lithium-ion batteries, with potential supply shortages anticipated due to increased demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.2
+subsubevent: Lithium
+event_id: ev1.4.2
+description: Lithium is another critical component in lithium-ion batteries, with potential supply shortages anticipated due to increased demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Risk assessment of cobalt and lithium supply
+event_id: ev2
+description: This report analyzes the risk assessment of cobalt and lithium supply chains, focusing on the entire value chains from extraction to waste management at the global level. It includes scenarios for supply and demand up to 2030 and assesses the progress of emerging battery technologies.
+participants: value chain analysis ev2.1_P1, supply and demand scenarios ev2.2_P1, emerging battery technologies ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Value chain analysis
+event_id: ev2.1
+description: The report examines the entire value chains of cobalt and lithium, from extraction to waste management, at the global level.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Supply and demand scenarios
+event_id: ev2.2
+description: Scenarios for the supply and demand of cobalt and lithium up to 2030 are developed to predict the risk of supply distortions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Emerging battery technologies
+event_id: ev2.3
+description: The report assesses the progress and potential of new battery technologies such as solid-state, sodium-ion, lithium-sulphur, and lithium-air batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Future prospects of lithium-ion batteries
+event_id: ev3
+description: Despite advancements in battery technology, lithium-ion batteries will remain the dominant technology until at least 2030. Lithium cannot be substituted, but cobalt use is expected to decrease.
+participants: dominance of lithium-ion batteries ev3.1_P1, cobalt reduction ev3.2_P1
+Gate: and
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: Dominance of lithium-ion batteries
+event_id: ev3.1
+description: Lithium-ion batteries will continue to be the prevalent technology in use during the next decade, with lithium as a crucial constituent.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Cobalt reduction
+event_id: ev3.2
+description: The trend towards cathode materials with less or no cobalt is expected to grow, reducing dependency on cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Geological resources and reserves of cobalt and lithium
+event_id: ev4
+description: Large geological resources for cobalt and lithium exist globally, but current reserves are highly concentrated in a few countries. The extraction and production capabilities are crucial for meeting future demand.
+participants: geological resources ev4.1_P1, geological reserves ev4.2_P1, global production ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: Geological resources
+event_id: ev4.1
+description: Estimated geological resources for lithium are 63 million tons and for cobalt are 25 million tons.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Geological reserves
+event_id: ev4.2
+description: Geological reserves that can be economically extracted are estimated to be 17 million tons for lithium and 6.5 million tons for cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Global production
+event_id: ev4.3
+description: In 2019, global production from mining was approximately 88,000 tons of lithium and 144,000 tons of cobalt, with reserves concentrated in the DRC for cobalt and South America and Australia for lithium.
+participants: DRC cobalt production ev4.3.1_P1, South American lithium production ev4.3.2_P1, Australian lithium production ev4.3.3_P1
+Gate: and
+Relations: ev4.3.1>ev4.3.2, ev4.3.2>ev4.3.3
+
+Subsubevent 4.3.1
+subsubevent: DRC cobalt production
+event_id: ev4.3.1
+description: The Democratic Republic of Congo (DRC) is a primary producer of cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.3.2
+subsubevent: South American lithium production
+event_id: ev4.3.2
+description: South American countries are major producers of lithium.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.3.3
+subsubevent: Australian lithium production
+event_id: ev4.3.3
+description: Australia is a significant producer of lithium.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

@@ -1,0 +1,31 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P0.3, hydrometallurgical ev1.2_P0.3, bioleaching ev1.3_P0.3
+Gate: or
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: battery ev1.1.1_P0.5, furnace ev1.1.2_P0.3, metal oxides ev1.1.3_P0.2
+Gate: and
+Relations: ev1.1>ev1.1.1, ev1.1>ev1.1.2, ev1.1>ev1.1.3
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: ev1.2>ev1.3
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: bacteria ev1.3.1_P0.5, precious metals ev1.3.2_P0.4, time ev1.3.3_P0.1
+Gate: xor
+Relations: ev1.2>ev1.3, ev1.1>ev1.3

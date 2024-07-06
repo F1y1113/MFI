@@ -1,0 +1,70 @@
+```
+The process begins with disassembling the spent lithium-ion batteries into components. The goal is to recover as much of the valuable materials like cobalt, copper, nickel, and graphite as possible [1]. To achieve this, the battery's casing is removed, followed by disassembly of the cathode, anode, electrolyte, and other components.
+
+The recovered materials are then processed through a series of steps. First, the materials are crushed into smaller particles to increase their surface area. Next, the particles are mixed with chemicals that help extract the valuable metals.
+```
+
+**Extracted Hierarchical Structure:**
+```
+Event 2
+event: lithium-ion battery disassembly and recycling process
+event_id: ev2
+description: The process of disassembling spent lithium-ion batteries into components to recover valuable materials like cobalt, copper, nickel, and graphite.
+participants: spent lithium-ion batteries ev2.1_P1, casing removal ev2.2_P0.5, cathode disassembly ev2.3_P0.5, anode disassembly ev2.4_P0.5, electrolyte disassembly ev2.5_P0.5
+Gate: and
+Relations: ev2.1>ev2.2, ev2.1>ev2.3, ev2.1>ev2.4, ev2.1>ev2.5
+
+Subevent 2.1
+subevent: spent lithium-ion battery disassembly
+event_id: ev2.1
+description: The process begins with disassembling the spent lithium-ion batteries into components.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: casing removal
+event_id: ev2.2
+description: Remove the battery's casing to access the internal components.
+participants: battery casing ev2.2.1_P0.5, internal components ev2.2.2_P0.5
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subevent 2.3
+subevent: cathode disassembly
+event_id: ev2.3
+description: Disassemble the cathode to recover valuable materials.
+participants: cathode ev2.3.1_P0.5, valuable materials ev2.3.2_P0.5
+Gate: and
+Relations: ev2.3.1>ev2.3.2
+
+Subevent 2.4
+subevent: anode disassembly
+event_id: ev2.4
+description: Disassemble the anode to recover valuable materials.
+participants: anode ev2.4.1_P0.5, valuable materials ev2.4.2_P0.5
+Gate: and
+Relations: ev2.4.1>ev2.4.2
+
+Subevent 2.5
+subevent: electrolyte disassembly
+event_id: ev2.5
+description: Disassemble the electrolyte to recover valuable materials.
+participants: electrolyte ev2.5.1_P0.5, valuable materials ev2.5.2_P0.5
+Gate: and
+Relations: ev2.5.1>ev2.5.2
+
+Event 3
+event: material processing
+event_id: ev3
+description: The recovered materials are processed through a series of steps to extract the valuable metals.
+participants: crushed particles ev3.1_P0.5, chemicals ev3.2_P0.5, valuable metals ev3.3_P0.5
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+```
+
+Let's think about this extracted structure step by step:
+From the first sentence in the paragraph 'The process begins with disassembling the spent lithium-ion batteries into components.' we can learn that there are two main methods for recycling lithium-ion batteries: one is to disassemble the battery, and another is material processing. We select 'lithium-ion battery disassembly and recycling process' as event, and disassembling the spent lithium-ion batteries and material processing as subevent and participants of ‘lithium-ion battery disassembly and recycling process’.
+
+
+From this structure, you can see that it contains hierarchical information about different events ('lithium-ion battery disassembly and recycling process', 'disassembling the spent lithium-ion batteries into components', etc.) and their corresponding participants, descriptions, gates (AND or OR), and relations.

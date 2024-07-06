@@ -1,0 +1,32 @@
+Event 1
+event: Lithium mineral resources and exporter of lithium-ion batteries for EVs
+event_id: ev1
+description: Background information, Quebec's fleet of ICEVs emits more than 17 Mt of equivalent CO2 annually.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.1
+subevent: Background information on Quebec's fleet of ICEVs
+event_id: ev1.1
+description: Quebec's fleet of ICEVs emits more than 17 Mt of equivalent CO2 annually.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Lithium-ion batteries production in Quebec
+event_id: ev1.2
+description: Production of 14–28 million lithium-ion batteries from lithium hydroxide monohydrate in Quebec, under the conditions of the Whabouchi project.
+participants: energy demand ev1.2.1_P0.5, natural gas ev1.2.2_P0.5, electricity ev1.2.3_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.1>ev1.2.3
+
+Subevent 1.3
+subevent: Emission factor for Quebec's electricity grid
+event_id: ev1.3
+description: The emission factor for Quebec's electricity grid is as low as 1.2 g CO2e/kWh.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+

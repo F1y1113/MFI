@@ -1,0 +1,23 @@
+Event 1
+event: Battery Production Network Evolution
+event_id: ev1
+description: The increasing role of electricity as an energy carrier in decarbonising supply chains, and how this tension is mediated by existing geographies of production, drives the configuration of the LiB production network.
+participants: automakers' investment decisions ev1.1_P0.5, EV mandates ev1.2_P0.3, municipal and state decarbonisation strategies ev1.3_P0.4
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Event 2
+event: Battery Recycling Methods
+event_id: ev2
+description: Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev2.1_P0.4, hydrometallurgical ev2.2_P0.3, bioleaching ev2.3_P0.3
+Gate: or
+Relations: ev2.1>ev2.2, ev2.1>ev2.3, ev2.2>ev2.3
+
+Event 3
+event: Battery Recycling Methods (Pyrometallurgical)
+event_id: ev3
+description: Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev3.1_P0.5, cobalt ev3.2_P0.5, copper ev3.3_P0.5, iron ev3.4_P0.5, nickel alloys ev3.5_P0.5
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3, ev3.1>ev3.4, ev3.1>ev3.5

@@ -1,0 +1,126 @@
+Event 1**
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+**Subevent 1.2**
+subevent: hydrometallurgical
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.3**
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: IRA policy objectives
+event_id: ev2
+description: The IRA includes more than just consumer tax credits, aiming to achieve other objectives.
+participants: understanding pre-IRA economic equilibrium ev2.1_P1, domestic political-economic forces ev2.2_P1
+Gate: and
+Relations: xxxx
+
+**Subevent 2.1**
+subevent: understanding pre-IRA economic equilibrium
+event_id: ev2.1
+description: Understanding the initial economic and policy equilibrium before the IRA.
+participants: US government perception ev2.1.1_P1, green energy transition policy ev2.1.2_P1
+Gate: and
+Relations: xxxx
+
+**Subevent 2.2**
+subevent: domestic political-economic forces
+event_id: ev2.2
+description: The forces that make the green energy transition policy sustainable.
+participants: US automobile industry ev2.2.1_P1, job risks ev2.2.2_P1
+Gate: and
+Relations: xxxx
+
+**Event 3**
+event: US automobile industry
+event_id: ev3
+description: The current state of the automobile industry in the United States.
+participants: US automobile industry ev3.1_P1, job risks ev3.2_P1
+Gate: and
+Relations: xxxx
+
+**Subevent 3.1**
+subevent: US automobile industry
+event_id: ev3.1
+description: The current state of the automobile industry in the United States.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.2**
+subevent: job risks
+event_id: ev3.2
+description: The risks of job losses due to the transition from ICE vehicles to EVs.
+participants: job losses ev3.2.1_P1, swing states ev3.2.2_P1
+Gate: and
+Relations: xxxx
+
+**Event 4**
+event: job risks
+event_id: ev4
+description: The risks of job losses due to the transition from ICE vehicles to EVs.
+participants: job losses ev4.1_P1, swing states ev4.2_P1
+Gate: and
+Relations: xxxx
+
+**Subevent 4.1**
+subevent: job losses
+event_id: ev4.1
+description: The potential loss of jobs in the automobile industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 4.2**
+subevent: swing states
+event_id: ev4.2
+description: States that are crucial to the presidential election and have a significant impact on the automobile industry.
+participants: Michigan ev4.2.1_P1, Ohio ev4.2.2_P1
+Gate: or
+Relations: xxxx
+
+**Event 5**
+event: China's role
+event_id: ev5
+description: China's influence on the global automobile industry and trade policies.
+participants: Chinese government ev5.1_P1, trade policies ev5.2_P1
+Gate: and
+Relations: xxxx
+
+**Subevent 5.1**
+subevent: Chinese government
+event_id: ev5.1
+description: The Chinese government's role in shaping the global automobile industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 5.2**
+subevent: trade policies
+event_id: ev5.2
+description: Trade policies that affect the global automobile industry.
+participants: tariffs ev5.2.1_P1, trade agreements ev5.2.2_P1
+Gate: or

@@ -1,0 +1,39 @@
+Event 1
+event: Production of battery materials
+event_id: ev1
+description: The production of battery materials has been identified as the main contributor to in order to produce cleaner batteries.
+participants: xxxx
+Gate: and
+Relations: ev1>xxxx
+
+Subevent 1.1
+subevent: Identification of material requirements
+event_id: ev1.1
+description: The production of battery materials requires the identification of the required materials.
+participants: xxxx
+Gate: and
+Relations: ev1.1>xxxx
+
+Subevent 1.2
+subevent: Sourcing of raw materials
+event_id: ev1.2
+description: Raw materials are sourced from various suppliers to meet the identified material requirements.
+participants: xxxx
+Gate: or
+Relations: ev1.1>ev1.2, ev1.2>xxxx
+
+Subevent 1.3
+subevent: Processing of raw materials
+event_id: ev1.3
+description: The sourced raw materials are processed to produce the required battery materials.
+participants: xxxx
+Gate: and
+Relations: ev1.2>ev1.3, ev1.3>xxxx
+
+Subevent 1.4
+subevent: Quality control
+event_id: ev1.4
+description: Quality control measures are implemented to ensure the produced battery materials meet the required standards.
+participants: xxxx
+Gate: and
+Relations: ev1.3>ev1.4, ev1.4>xxxx

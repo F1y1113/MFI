@@ -1,0 +1,78 @@
+Event 1
+event: Benchmark Mineral Intelligence forecasts
+event_id: ev1
+description: Forecasts only 4% of Chinese battery supply will rely on imported precursors, down from 24% today and nearly 100% just five years ago.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.1
+subevent: Forecasted percentage change
+event_id: ev1.1
+description: Only 4% of Chinese battery supply will rely on imported precursors, down from 24%.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.2
+subevent: Current dependence level
+event_id: ev1.2
+description: Nearly 100% just five years ago.
+participants: xxxx
+Gate: and
+Relations: ev1.1<ev1.2
+
+Event 2
+event: Competitors' lack of integrated capacity
+event_id: ev2
+description: Competitors lack integrated capacity of this scale, forcing continued reliance on supply chains centered within China for the foreseeable future.
+participants: xxxx
+Gate: or
+Relations: ev2>ev3
+
+Subevent 2.1
+subevent: Competitors' current situation
+event_id: ev2.1
+description: Competitors lack integrated capacity of this scale.
+participants: xxxx
+Gate: and
+Relations: ev2.1<ev3.1
+
+Subevent 2.2
+subevent: Future reliance on supply chains
+event_id: ev2.2
+description: Forcing continued reliance on supply chains centered within China for the foreseeable future.
+participants: xxxx
+Gate: or
+Relations: ev2.2>ev3.2
+
+Event 3
+event: Reversing dependency requirements
+event_id: ev3
+description: Reversing this dependency will require equally ambitious capital investment from other nations to unlock alternative lithium reserves and localized refining.
+participants: xxxx
+Gate: xor
+Relations: ev3.1<ev3.2, ev3.1>ev3.3
+
+Subevent 3.1
+subevent: Competitors' current situation (again)
+event_id: ev3.1
+description: Competitors lack integrated capacity of this scale.
+participants: xxxx
+Gate: and
+Relations: ev3.1<ev2.1
+
+Subevent 3.2
+subevent: Alternative lithium reserves and localized refining
+event_id: ev3.2
+description: To unlock alternative lithium reserves and localized refining.
+participants: xxxx
+Gate: or
+Relations: ev3.3>ev3.2
+
+Subevent 3.3
+subevent: Capital investment from other nations
+event_id: ev3.3
+description: Requires equally ambitious capital investment from other nations.
+participants: xxxx
+Gate: and

@@ -1,0 +1,87 @@
+Event 1
+event: Indonesia's investment in lithium-ion battery production
+event_id: ev1
+description: Indonesia invests in lithium-ion battery production to develop a complete downstream supply chain.
+participants: Indonesian Battery Corporation ev1.1_P0.8, big players from EV battery industry (e.g., China, Japan or South Korea) ev1.2_P0.2
+Gate: and
+Relations: ev1>ev1.2
+
+Subevent 1.1
+subevent: Indonesian Battery Corporation
+event_id: ev1.1
+description: Focused on developing a complete downstream supply chain for lithium-ion battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: big players from EV battery industry (e.g., China, Japan or South Korea)
+event_id: ev1.2
+description: Inviting to invest in Indonesia's domestic market.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Development of EV industry
+event_id: ev2
+description: The development of the EV industry can increase employment rate in the industry.
+participants: Employment level ev2.1_P0.9, internal combustion powertrain industry ev2.2_P0.1
+Gate: and
+Relations: ev2>ev2.1, ev2>ev2.2
+
+Subevent 2.1
+subevent: Employment level
+event_id: ev2.1
+description: Increased employment rate in the EV industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Electrification of vehicle industry
+event_id: ev3
+description: The process of electrification of the vehicle industry involves investment in lithium-ion battery production and development of EV industry.
+participants: Indonesia's investment in lithium-ion battery production ev3.1_P0.8, development of EV industry ev3.2_P0.2
+Gate: or
+Relations: ev3>ev3.1, ev3>ev3.2
+
+Subevent 3.1
+subevent: Indonesia's investment in lithium-ion battery production
+event_id: ev3.1
+description: Investment in lithium-ion battery production to develop a complete downstream supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Invitation of big players from EV battery industry (e.g., China, Japan or South Korea)
+event_id: ev4
+description: Inviting big players from the EV battery industry to invest in Indonesia's domestic market.
+participants: Indonesian Battery Corporation ev4.1_P0.8, employment level ev4.2_P0.2
+Gate: and
+Relations: ev4>ev4.1, ev4>ev4.2
+
+Subevent 4.1
+subevent: Indonesian Battery Corporation
+event_id: ev4.1
+description: Focused on developing a complete downstream supply chain for lithium-ion battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 5
+event: Development of EV industry
+event_id: ev5
+description: The development of the EV industry can increase employment rate in the industry.
+participants: Employment level ev5.1_P0.9, internal combustion powertrain industry ev5.2_P0.1
+Gate: and
+Relations: ev5>ev5.1, ev5>ev5.2
+
+Subevent 5.1
+subevent: Employment level
+event_id: ev5.1
+description: Increased employment rate in the EV industry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

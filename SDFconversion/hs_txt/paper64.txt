@@ -1,0 +1,143 @@
+Event 1
+event: Global demand for nickel resources and supply risks
+event_id: ev1
+description: With the development of new energy vehicles, the global demand for nickel resources is expected to grow, leading to potential supply risks due to uncertainties in supply, natural disasters, and other factors.
+participants: demand growth ev1.1_P1, supply risks ev1.2_P1, uncertainty factors ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Demand growth
+event_id: ev1.1
+description: The development of new energy vehicles is driving the global demand for nickel resources.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Supply risks
+event_id: ev1.2
+description: The growing demand for nickel resources coupled with supply uncertainties may lead to supply risks.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Uncertainty factors
+event_id: ev1.3
+description: Supply uncertainties, natural disasters, and other factors contribute to the potential supply risks for nickel resources.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Nickel industrial chain trade structure and safety
+event_id: ev2
+description: Understanding the trade structure characteristics, the role of a country in the industrial chain, and the layout of a country's industrial chain is crucial for guaranteeing industrial safety, international competitiveness, and sustainable development.
+participants: trade structure ev2.1_P1, role of country ev2.2_P1, industrial safety ev2.3_P1, international competitiveness ev2.4_P1, sustainable development ev2.5_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3, ev2.3>ev2.4, ev2.4>ev2.5
+
+Subevent 2.1
+subevent: Trade structure
+event_id: ev2.1
+description: The nickel industrial chain is a multilayer trade system, and understanding its trade structure characteristics is important.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Role of country
+event_id: ev2.2
+description: The role of a country in the nickel industrial chain is crucial for its industrial safety and development.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Industrial safety
+event_id: ev2.3
+description: Understanding the trade structure helps guarantee a country's industrial safety.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: International competitiveness
+event_id: ev2.4
+description: The trade structure and role in the nickel industrial chain contribute to a country's international competitiveness.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.5
+subevent: Sustainable development
+event_id: ev2.5
+description: The layout of a country's industrial chain is important for sustainable development.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Analysis of the nickel industrial chain trade network
+event_id: ev3
+description: This study constructs a multilayer trade network for the nickel industry chain, analyzes trade structure characteristics, and identifies core trading countries. The correlation between adjacent layers of the industrial chain is also discussed.
+participants: multilayer trade network ev3.1_P1, trade structure analysis ev3.2_P1, core trading countries ev3.3_P1, correlation analysis ev3.4_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3, ev3.3>ev3.4
+
+Subevent 3.1
+subevent: Multilayer trade network
+event_id: ev3.1
+description: A multilayer trade network with six layers of the nickel industry chain is constructed for the year 2019.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Trade structure analysis
+event_id: ev3.2
+description: The trade structure characteristics of the nickel industrial chain are analyzed.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Core trading countries
+event_id: ev3.3
+description: Core trading countries of each layer in the nickel industrial chain are identified.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.4
+subevent: Correlation analysis
+event_id: ev3.4
+description: The correlation between adjacent layers of the industrial chain is discussed, focusing on trade relations and trade flow.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Implications for supply risk propagation
+event_id: ev4
+description: The results of the study provide a basis for future research on supply risk propagation in the global nickel industry chain multilayer trade network.
+participants: supply risk propagation ev4.1_P1, future research basis ev4.2_P1
+Gate: and
+Relations: ev4.1>ev4.2
+
+Subevent 4.1
+subevent: Supply risk propagation
+event_id: ev4.1
+description: The study's results can help understand how supply risks propagate in the global nickel industry chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Future research basis
+event_id: ev4.2
+description: The findings provide a basis for future research on supply risk propagation in the nickel industry chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

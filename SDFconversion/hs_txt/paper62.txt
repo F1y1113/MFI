@@ -1,0 +1,247 @@
+Event 1
+event: Variability in LCA studies of EVs
+event_id: ev1
+description: The results of life cycle assessment (LCA) studies about electric vehicles (EVs) vary due to several factors, including climatic conditions, data sources, battery production scale, and methodological choices. The choice of specific battery datasets, such as those for nickel sulphate, cobalt sulphate, and lithium hydroxide, also contributes to variability.
+participants: climatic conditions ev1.1_P1, data sources ev1.2_P1, battery production scale ev1.3_P1, methodological choices ev1.4_P1, specific battery datasets ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: Climatic conditions
+event_id: ev1.1
+description: Climatic conditions are one of the factors affecting the results of LCA studies for EVs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Data sources
+event_id: ev1.2
+description: The source and availability of primary data significantly influence the variability in LCA studies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Battery production scale
+event_id: ev1.3
+description: The scale of battery production is another factor contributing to variability in LCA studies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Methodological choices
+event_id: ev1.4
+description: Methodological choices made during the LCA studies impact the results and contribute to variability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: Specific battery datasets
+event_id: ev1.5
+description: The choice of specific battery datasets, such as nickel sulphate, cobalt sulphate, and lithium hydroxide, also contributes to variability in LCA study results.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Importance of nickel sulphate in LIB production
+event_id: ev2
+description: Nickel sulphate is a significant feedstock in the production of lithium-ion battery (LIB) cathodes. The demand for nickel sulphate is expected to increase significantly by 2030 due to the rising number of EVs and the trend toward nickel-rich LIBs.
+participants: nickel sulphate demand ev2.1_P1, LIB cathode production ev2.2_P1, environmental impact ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Nickel sulphate demand
+event_id: ev2.1
+description: The global annual demand for nickel sulphate is expected to increase from less than 200 kilotons in 2022 to more than 1000 kilotons by 2030.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: LIB cathode production
+event_id: ev2.2
+description: Nickel sulphate is an important feedstock for the production of LIB cathodes.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Environmental impact
+event_id: ev2.3
+description: Nickel sulphate as an active material of the cathode contributes significantly to the environmental impact of LIBs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Analysis of nickel sulphate datasets in LCA studies
+event_id: ev3
+description: This study analyzes the production of nickel sulphate based on different datasets used in LCA studies. The variability in global warming potential (GWP100) and terrestrial acidification results is explored, along with the impact of energy mix and recycled nickel usage.
+participants: nickel sulphate datasets ev3.1_P1, GWP100 variability ev3.2_P1, terrestrial acidification variability ev3.3_P1, energy mix impact ev3.4_P1, recycled nickel usage ev3.5_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3, ev3.3>ev3.4, ev3.4>ev3.5
+
+Subevent 3.1
+subevent: Nickel sulphate datasets
+event_id: ev3.1
+description: Different datasets are used to analyze the production of nickel sulphate in LCA studies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: GWP100 variability
+event_id: ev3.2
+description: The GWP100 results of different nickel sulphate datasets vary significantly.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Terrestrial acidification variability
+event_id: ev3.3
+description: The results for terrestrial acidification show even more variation between datasets than GWP100 results.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.4
+subevent: Energy mix impact
+event_id: ev3.4
+description: The energy mix used in the background datasets has a significant impact on GWP100 results but only a relatively small impact on terrestrial acidification results.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.5
+subevent: Recycled nickel usage
+event_id: ev3.5
+description: The usage of recycled nickel also contributes to the variability in environmental impacts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Need for representative primary data and process simulations
+event_id: ev4
+description: There is a need for technology-specific and ore-grade-specific primary data to model representative supply chain configurations. If primary data is not available, process simulations can be used to acquire necessary data.
+participants: representative primary data ev4.1_P1, process simulations ev4.2_P1, technology variability ev4.3_P1, ore grade variability ev4.4_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3, ev4.3>ev4.4
+
+Subevent 4.1
+subevent: Representative primary data
+event_id: ev4.1
+description: Technology-specific and ore-grade-specific primary data is needed to model representative supply chain configurations.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Process simulations
+event_id: ev4.2
+description: Process simulations can be used to acquire necessary data when primary data is not available.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Technology variability
+event_id: ev4.3
+description: Process simulations can consider the technology variabilities in nickel sulphate production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.4
+subevent: Ore grade variability
+event_id: ev4.4
+description: Process simulations can consider changes in ore grade of existing mining facilities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 5
+event: Modeling influential factors accurately
+event_id: ev5
+description: Influential factors identified in the study should be modeled as accurately as possible with low uncertainty. Allocation of feedstock material should reflect the real market mix, and production techniques and energy mix should be accurately depicted.
+participants: influential factors ev5.1_P1, feedstock material allocation ev5.2_P1, production techniques ev5.3_P1, energy mix ev5.4_P1
+Gate: and
+Relations: ev5.1>ev5.2, ev5.2>ev5.3, ev5.3>ev5.4
+
+Subevent 5.1
+subevent: Influential factors
+event_id: ev5.1
+description: Influential factors in nickel sulphate production should be modeled accurately with low uncertainty.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.2
+subevent: Feedstock material allocation
+event_id: ev5.2
+description: The allocation of feedstock material should reflect the real market mix of raw materials used to produce nickel sulphate.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.3
+subevent: Production techniques
+event_id: ev5.3
+description: The production techniques used in nickel sulphate production should be accurately depicted.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.4
+subevent: Energy mix
+event_id: ev5.4
+description: The energy mix used in the production of nickel sulphate should be accurately depicted.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 6
+event: Future LCI approach and the SIMTEGRAL project
+event_id: ev6
+description: Future life cycle inventory (LCI) studies should follow a transparent and modular approach. The SIMTEGRAL project aims to develop process simulations of specific gate-to-gate processes in battery supply chains to generate necessary life cycle inventory data.
+participants: transparent LCI approach ev6.1_P1, modular LCI approach ev6.2_P1, SIMTEGRAL project ev6.3_P1, process simulations ev6.4_P1
+Gate: and
+Relations: ev6.1>ev6.2, ev6.2>ev6.3, ev6.3>ev6.4
+
+Subevent 6.1
+subevent: Transparent LCI approach
+event_id: ev6.1
+description: Future life cycle inventory studies should follow a transparent approach.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.2
+subevent: Modular LCI approach
+event_id: ev6.2
+description: Future life cycle inventory studies should follow a modular approach.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.3
+subevent: SIMTEGRAL project
+event_id: ev6.3
+description: The SIMTEGRAL project develops process simulations of specific gate-to-gate processes in battery supply chains to generate necessary life cycle inventory data.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.4
+subevent: Process simulations
+event_id: ev6.4
+description: Process simulations in the SIMTEGRAL project can offer flexibility in modifying ore grades and provide granular data needed for process modifications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

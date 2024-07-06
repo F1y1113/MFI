@@ -1,0 +1,96 @@
+Event 1
+event: production of aluminum
+event_id: ev2
+description: Production of aluminum through the Bayer process and Hall-Heroult smelting process.
+participants: bauxite refining ev2.1_P1, alumina reduction ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: bauxite refining
+event_id: ev2.1
+description: Refining of bauxite to produce alumina through the Bayer process.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: alumina reduction
+event_id: ev2.2
+description: Reduction of alumina to pure aluminum through the Hall-Heroult smelting process.
+participants: electricity consumption ev2.2.1_P1, regional variability ev2.2.2_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subevent 2.2.1
+subevent: electricity consumption
+event_id: ev2.2.1
+description: Electricity consumption for alumina reduction in the Hall-Heroult smelting process.
+participants: GREET baseline ev2.2.1.1_P0.5, regional aluminum electricity mix ev2.2.1.2_P0.5
+Gate: or
+Relations: xxxx
+
+Subevent 2.2.2
+subevent: regional variability
+event_id: ev2.2.2
+description: Regional variability in the production of aluminum from different countries/regions.
+participants: China ev2.2.2.1_P0.25, Europe ev2.2.2.2_P0.25, North America ev2.2.2.3_P0.25, other regions ev2.2.2.4_P0.25
+Gate: or
+Relations: xxxx
+
+Event 3
+event: battery management system (BMS)
+event_id: ev3
+description: A system that monitors and controls the charging and discharging of batteries.
+participants: State of Charge (SOC) estimation ev3.1_P1, State of Health (SOH) estimation ev3.2_P1
+Gate: and
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: SOC estimation
+event_id: ev3.1
+description: Estimation of the State of Charge (SOC) of batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: SOH estimation
+event_id: ev3.2
+description: Estimation of the State of Health (SOH) of batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: lithium-ion battery recycling
+event_id: ev4
+description: Recycling of lithium-ion batteries using methods such as pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev4.1_P1, hydrometallurgical ev4.2_P1, bioleaching ev4.3_P1
+Gate: or
+Relations: ev4.1>ev4.3, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: pyrometallurgical
+event_id: ev4.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev4.1.1_P1, cobalt ev4.1.2_P0.5, copper ev4.1.3_P0.5, iron ev4.1.4_P0.5, nickel alloys ev4.1.5_P0.5
+Gate: and
+Relations: ev4.1.1>ev4.1.2, ev4.1.1>ev4.1.3, ev4.1.1>ev4.1.4, ev4.1.1>ev4.1.5
+
+Subevent 4.2
+subevent: hydrometallurgical
+event_id: ev4.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: bioleaching
+event_id: ev4.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

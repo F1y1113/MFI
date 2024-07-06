@@ -1,0 +1,39 @@
+Event 1
+event: Battery manufacturing supply chain
+event_id: ev1
+description: The battery manufacturing supply chain has three main parts: cell manufacturing, U.S. Lithium-ion Battery Trade 2017–19.
+participants: cell manufacturing ev1.1_P0.5, U.S. Lithium-ion Battery Trade 2017–19 ev1.2_P0.5
+Gate: or
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: cell manufacturing
+event_id: ev1.1
+description: Cell manufacturing is part of the battery manufacturing supply chain.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 2
+event: U.S. Lithium-ion Battery Trade 2017–19
+event_id: ev2
+description: The U.S. lithium-ion battery trade from 2017 to 2019 has three main parts: cell manufacturing, supply chain.
+participants: cell manufacturing ev2.1_P0.5, supply chain ev2.2_P0.5
+Gate: or
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: cell manufacturing
+event_id: ev2.1
+description: Cell manufacturing is part of the U.S. lithium-ion battery trade.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 3
+event: supply chain
+event_id: ev3
+description: The supply chain is part of the U.S. lithium-ion battery trade from 2017 to 2019.
+participants: xxxx
+Gate: and
+Relations: xxxx

@@ -1,0 +1,135 @@
+Event 1
+event: EV battery supply chain expansion
+event_id: ev1
+description: The growing demand for electric vehicles drives a significant increase in the demand for battery raw materials, requiring technological advancements and new investments to meet net-zero emissions targets.
+participants: Demand increase for raw materials ev1.1_P1, Challenges in meeting demand ev1.2_P1, Stakeholder approaches ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Demand increase for raw materials
+event_id: ev1.1
+description: The electric vehicle market demand for lithium, cobalt, nickel, and graphite is projected to increase significantly by 2050.
+participants: Lithium demand ev1.1.1_P1, Cobalt demand ev1.1.2_P1, Nickel demand ev1.1.3_P1, Graphite demand ev1.1.4_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4
+
+Subevent 1.1.1
+subevent: Lithium demand
+event_id: ev1.1.1
+description: The demand for lithium is expected to increase 26 times between 2021 and 2050 to meet net-zero emissions targets.
+participants: Lithium mining ev1.1.1.1_P1, Lithium processing ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subevent 1.1.2
+subevent: Cobalt demand
+event_id: ev1.1.2
+description: The demand for cobalt is expected to increase 6 times between 2021 and 2050 to meet net-zero emissions targets.
+participants: Cobalt mining ev1.1.2.1_P1, Cobalt processing ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subevent 1.1.3
+subevent: Nickel demand
+event_id: ev1.1.3
+description: The demand for nickel is expected to increase 12 times between 2021 and 2050 to meet net-zero emissions targets.
+participants: Nickel mining ev1.1.3.1_P1, Nickel processing ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subevent 1.1.4
+subevent: Graphite demand
+event_id: ev1.1.4
+description: The demand for graphite is expected to increase 9 times between 2021 and 2050 to meet net-zero emissions targets.
+participants: Graphite mining ev1.1.4.1_P1, Graphite processing ev1.1.4.2_P1
+Gate: and
+Relations: ev1.1.4.1>ev1.1.4.2
+
+Subevent 1.2
+subevent: Challenges in meeting demand
+event_id: ev1.2
+description: Diverse challenges in meeting the growing demand for battery minerals include sustainable supply uncertainties, environmental, social, and governance complexities, and geopolitical tensions.
+participants: Sustainable supply uncertainties ev1.2.1_P1, Environmental complexities ev1.2.2_P1, Social and governance complexities ev1.2.3_P1, Geopolitical tensions ev1.2.4_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3, ev1.2.3>ev1.2.4
+
+Subevent 1.2.1
+subevent: Sustainable supply uncertainties
+event_id: ev1.2.1
+description: Uncertainties in sustainably supplying the necessary battery minerals to meet future demand.
+participants: Supply chain disruptions ev1.2.1.1_P1, Resource depletion ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subevent 1.2.2
+subevent: Environmental complexities
+event_id: ev1.2.2
+description: Environmental challenges associated with extracting and processing battery minerals.
+participants: Environmental impact ev1.2.2.1_P1, Regulatory compliance ev1.2.2.2_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subevent 1.2.3
+subevent: Social and governance complexities
+event_id: ev1.2.3
+description: Social and governance issues related to mining and processing battery minerals, including labor practices and community impacts.
+participants: Social impact ev1.2.3.1_P1, Governance challenges ev1.2.3.2_P1
+Gate: and
+Relations: ev1.2.3.1>ev1.2.3.2
+
+Subevent 1.2.4
+subevent: Geopolitical tensions
+event_id: ev1.2.4
+description: Geopolitical issues affecting the stability and reliability of the battery mineral supply chain.
+participants: Trade conflicts ev1.2.4.1_P1, Political instability ev1.2.4.2_P1
+Gate: and
+Relations: ev1.2.4.1>ev1.2.4.2
+
+Subevent 1.3
+subevent: Stakeholder approaches
+event_id: ev1.3
+description: Evaluation of the approaches adopted by regulatory agencies, governments, mining companies, vehicle and battery manufacturers, and other stakeholders in the battery value chain.
+participants: Regulatory agencies ev1.3.1_P1, Governments ev1.3.2_P1, Mining companies ev1.3.3_P1, Vehicle manufacturers ev1.3.4_P1, Battery manufacturers ev1.3.5_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3, ev1.3.3>ev1.3.4, ev1.3.4>ev1.3.5
+
+Subevent 1.3.1
+subevent: Regulatory agencies
+event_id: ev1.3.1
+description: Approaches adopted by regulatory agencies to address the challenges in the battery value chain.
+participants: Policy development ev1.3.1.1_P1, Compliance monitoring ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subevent 1.3.2
+subevent: Governments
+event_id: ev1.3.2
+description: Governmental strategies to support the growth and sustainability of the battery value chain.
+participants: Investment incentives ev1.3.2.1_P1, International cooperation ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subevent 1.3.3
+subevent: Mining companies
+event_id: ev1.3.3
+description: Approaches taken by mining companies to ensure a sustainable and reliable supply of battery minerals.
+participants: Sustainable mining practices ev1.3.3.1_P1, Technological innovation ev1.3.3.2_P1
+Gate: and
+Relations: ev1.3.3.1>ev1.3.3.2
+
+Subevent 1.3.4
+subevent: Vehicle manufacturers
+event_id: ev1.3.4
+description: Strategies employed by vehicle manufacturers to integrate sustainable battery technologies into their products.
+participants: Research and development ev1.3.4.1_P1, Supply chain management ev1.3.4.2_P1
+Gate: and
+Relations: ev1.3.4.1>ev1.3.4.2
+
+Subevent 1.3.5
+subevent: Battery manufacturers
+event_id: ev1.3.5
+description: Efforts by battery manufacturers to optimize production and ensure the sustainability of battery supplies.
+participants: Production optimization ev1.3.5.1_P1, Sustainable sourcing ev1.3.5.2_P1
+Gate: and
+Relations: ev1.3.5.1>ev1.3.5.2

@@ -1,0 +1,103 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The supply chain for EV batteries involves multiple elements, including material availability, market demand, and geopolitical factors. This complex network faces various risks and challenges that impact the overall supply and stability of EV batteries.
+participants: market dynamics ev1.1_P1, material demand ev1.2_P1, geopolitical factors ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: market dynamics
+event_id: ev1.1
+description: Market dynamics in the EV battery supply chain are influenced by supply-demand imbalances, price volatility, and evolving regulations. These factors can disrupt the supply chain and affect the availability of materials needed for EV batteries.
+participants: supply-demand imbalance ev1.1.1_P1, price volatility ev1.1.2_P1, evolving regulations ev1.1.3_P1
+Gate: or
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subsubevent: supply-demand imbalance
+event_id: ev1.1.1
+description: Imbalances between supply and demand in the EV battery market can cause short-term disruptions and long-term volatility, impacting material availability and prices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: price volatility
+event_id: ev1.1.2
+description: Price volatility in the market can lead to economic uncertainty and impact investment decisions in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: evolving regulations
+event_id: ev1.1.3
+description: Changes in regulations in response to market dynamics can alter the economic landscape and affect the supply chain for EV batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: material demand
+event_id: ev1.2
+description: The demand for materials like cobalt (Co) is driven by their use in lithium-ion batteries (LIBs) for EVs. As the market for EVs grows, so does the demand for these critical materials.
+participants: Co demand ev1.2.1_P1, EV market growth ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subsubevent: Co demand
+event_id: ev1.2.1
+description: The demand for cobalt is significant due to its use in LIBs, with EVs and consumer electronics being the largest consumers of this material.
+participants: LIB usage ev1.2.1.1_P1, consumer electronics ev1.2.1.2_P0.5
+Gate: or
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubsubevent 1.2.1.1
+subsubsubevent: LIB usage
+event_id: ev1.2.1.1
+description: Cobalt is a critical component in lithium-ion batteries, which are essential for the functioning of EVs and other electronic devices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.2.1.2
+subsubsubevent: consumer electronics
+event_id: ev1.2.1.2
+description: Consumer electronics also drive demand for cobalt due to their reliance on lithium-ion batteries for power.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: EV market growth
+event_id: ev1.2.2
+description: The growing market for EVs is expected to increase significantly as costs for EVs become comparable to internal combustion engine vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: geopolitical factors
+event_id: ev1.3
+description: Geopolitical factors, such as mining concentration in specific regions and political instability, heavily influence the supply of materials for EV batteries.
+participants: mining concentration ev1.3.1_P1, political instability ev1.3.2_P1
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subsubevent: mining concentration
+event_id: ev1.3.1
+description: A significant portion of cobalt mining is concentrated in the Democratic Republic of the Congo (DRC), leading to supply chain risks due to regional instability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: political instability
+event_id: ev1.3.2
+description: Political and social issues in regions like the DRC can lead to supply constraints and price increases for critical materials like cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

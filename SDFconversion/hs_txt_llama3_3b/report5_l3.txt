@@ -1,0 +1,39 @@
+Event 1
+event: Upstream activities
+event_id: ev1
+description: Mining for required raw materials, including critical materials such as cobalt, lithium, nickel, manganese, and graphite.
+participants: mining for cobalt ev1.1_P1, mining for lithium ev1.2_P1, mining for nickel ev1.3_P1, mining for manganese ev1.4_P1, mining for graphite ev1.5_P1
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3, ev1.1>ev1.4, ev1.1>ev1.5
+
+Subevent 1.1
+subevent: mining for cobalt
+event_id: ev1.1
+description: Extracting cobalt from ore.
+participants: xxxx
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3
+
+Subevent 1.2
+subevent: mining for lithium
+event_id: ev1.2
+description: Extracting lithium from ore.
+participants: xxxx
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.1>ev1.2.3
+
+Event 2
+event: Midstream activities
+event_id: ev2
+description: Refining and smelting of raw mineral ores with heat or chemical treatment to achieve the high-purity materials required for batteries.
+participants: refining of cobalt ev2.1_P1, refining of lithium ev2.2_P1, refining of nickel ev2.3_P1
+Gate: or
+Relations: ev2.1>ev2.2, ev2.1>ev2.3
+
+Event 3
+event: Downstream activities
+event_id: ev3
+description: Processing the refined materials into usable forms for battery production.
+participants: processing of cobalt ev3.1_P1, processing of lithium ev3.2_P1, processing of nickel ev3.3_P1
+Gate: or
+Relations: ev3.1>ev3.2, ev3.1>ev3.3

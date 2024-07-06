@@ -1,0 +1,39 @@
+Event 1
+event: Electric Vehicle (EV) Battery Supply Chain
+event_id: ev1
+description: The EV battery supply chain, including extraction, refining, manufacturing, and recycling of raw materials such as lithium and cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Lithium Demand Increase
+event_id: ev2
+description: The demand for lithium increases significantly due to the growing adoption of electric vehicles (EVs) and the need for EV batteries with higher energy densities.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 3
+event: Cobalt Demand Increase
+event_id: ev3
+description: The demand for cobalt increases moderately due to the growing adoption of electric vehicles (EVs) and the need for EV batteries with higher energy densities.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 4
+event: Mining and Refining Companies' Response
+event_id: ev4
+description: Mining and refining companies respond to the increased demand for lithium and cobalt by increasing production and investing in new technologies.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Event 5
+event: Recycling Technologies Development
+event_id: ev5
+description: New recycling technologies are developed to extract valuable materials from spent batteries, reducing the environmental impact of the supply chain.
+participants: xxxx
+Gate: or
+Relations: xxxx

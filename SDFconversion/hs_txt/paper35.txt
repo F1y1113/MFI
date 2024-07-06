@@ -1,0 +1,183 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The supply chain of EV batteries involves the extraction, processing, and recycling of critical materials such as cobalt. This complex chain includes multiple stages and participants to ensure the availability of these materials for battery production.
+participants: cobalt extraction ev1.1_P1, cobalt processing ev1.2_P1, cobalt recycling ev1.3_P0.5
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: cobalt extraction
+event_id: ev1.1
+description: Cobalt extraction involves mining operations predominantly in the DRC, which is the main source of cobalt. The extraction methods include both artisanal and large-scale mining.
+participants: artisanal mining ev1.1.1_P1, large-scale mining ev1.1.2_P1
+Gate: or
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subsubevent: artisanal mining
+event_id: ev1.1.1
+description: Artisanal mining is a small-scale method often regulated to ensure conflict-free sourcing and minimize human rights violations.
+participants: mining regulation ev1.1.1.1_P0.5, conflict-free validation ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubsubevent 1.1.1.1
+subsubsubevent: mining regulation
+event_id: ev1.1.1.1
+description: The DRC government has implemented regulations to control artisanal mining activities and ensure they are conducted legally and ethically.
+participants: government policies ev1.1.1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.1.1.2
+subsubsubevent: conflict-free validation
+event_id: ev1.1.1.2
+description: The validation of mining sites as conflict-free involves inspections and certifications to prevent the use of minerals that fund conflicts.
+participants: inspection agencies ev1.1.1.2.1_P1, certification bodies ev1.1.1.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: large-scale mining
+event_id: ev1.1.2
+description: Large-scale mining operations in the DRC and other regions involve significant infrastructure and technology to extract cobalt efficiently.
+participants: mining companies ev1.1.2.1_P1, mining technology ev1.1.2.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.1.2.1
+subsubsubevent: mining companies
+event_id: ev1.1.2.1
+description: Large mining companies operate extensive cobalt extraction projects, often involving international investments and partnerships.
+participants: international investors ev1.1.2.1.1_P0.5, local contractors ev1.1.2.1.2_P1
+Gate: or
+Relations: xxxx
+
+Subsubsubevent 1.1.2.2
+subsubsubevent: mining technology
+event_id: ev1.1.2.2
+description: Advanced technology is employed in large-scale mining to improve efficiency and reduce environmental impact.
+participants: machinery ev1.1.2.2.1_P1, environmental controls ev1.1.2.2.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: cobalt processing
+event_id: ev1.2
+description: The processing of cobalt involves refining and purification to produce high-purity cobalt suitable for use in EV batteries. This stage includes both hydrometallurgical and pyrometallurgical methods.
+participants: hydrometallurgy ev1.2.1_P1, pyrometallurgy ev1.2.2_P1
+Gate: or
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subsubevent: hydrometallurgy
+event_id: ev1.2.1
+description: Hydrometallurgy involves using aqueous solutions to extract cobalt from its ores, often through leaching and solvent extraction.
+participants: leaching ev1.2.1.1_P1, solvent extraction ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubsubevent 1.2.1.1
+subsubsubevent: leaching
+event_id: ev1.2.1.1
+description: The leaching process uses chemicals to dissolve cobalt from its ores, creating a solution that can be further processed.
+participants: chemical reagents ev1.2.1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.2.1.2
+subsubsubevent: solvent extraction
+event_id: ev1.2.1.2
+description: Solvent extraction involves separating cobalt from other metals in the solution through selective solvent processes.
+participants: solvents ev1.2.1.2.1_P1, separation equipment ev1.2.1.2.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: pyrometallurgy
+event_id: ev1.2.2
+description: Pyrometallurgy uses high temperatures to smelt and refine cobalt, separating it from impurities.
+participants: smelting furnaces ev1.2.2.1_P1, refining agents ev1.2.2.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.2.2.1
+subsubsubevent: smelting furnaces
+event_id: ev1.2.2.1
+description: Smelting furnaces are used to melt cobalt ores, enabling the separation of cobalt from other materials based on melting points.
+participants: heat sources ev1.2.2.1.1_P0.5, ore feed ev1.2.2.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.2.2.2
+subsubsubevent: refining agents
+event_id: ev1.2.2.2
+description: Refining agents are added during pyrometallurgy to remove impurities and produce high-purity cobalt.
+participants: fluxes ev1.2.2.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: cobalt recycling
+event_id: ev1.3
+description: Cobalt recycling involves recovering cobalt from used batteries and other products to reintroduce it into the supply chain, supporting a circular economy.
+participants: battery recycling ev1.3.1_P1, scrap metal recycling ev1.3.2_P0.5
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subsubevent: battery recycling
+event_id: ev1.3.1
+description: Battery recycling processes aim to recover cobalt and other valuable metals from spent EV batteries, involving collection, dismantling, and material recovery.
+participants: collection systems ev1.3.1.1_P1, dismantling facilities ev1.3.1.2_P1, material recovery processes ev1.3.1.3_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2, ev1.3.1.2>ev1.3.1.3
+
+Subsubsubevent 1.3.1.1
+subsubsubevent: collection systems
+event_id: ev1.3.1.1
+description: Effective collection systems are necessary to gather used EV batteries from consumers and transport them to recycling facilities.
+participants: collection points ev1.3.1.1.1_P1, transportation logistics ev1.3.1.1.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.3.1.2
+subsubsubevent: dismantling facilities
+event_id: ev1.3.1.2
+description: Dismantling facilities safely disassemble batteries to separate components and prepare them for material recovery.
+participants: dismantling equipment ev1.3.1.2.1_P0.5, safety protocols ev1.3.1.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.3.1.3
+subsubsubevent: material recovery processes
+event_id: ev1.3.1.3
+description: Material recovery processes extract valuable metals like cobalt from battery components through various techniques.
+participants: extraction technologies ev1.3.1.3.1_P1, refining processes ev1.3.1.3.2_P0.5
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: scrap metal recycling
+event_id: ev1.3.2
+description: Recycling of cobalt-containing scrap metals from various industries to recover cobalt for reuse in the supply chain.
+participants: scrap collection ev1.3.2.1_P1, metal recovery ev1.3.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.3.2.1
+subsubsubevent: scrap collection
+event_id: ev1.3.2.1
+description: Collecting cobalt-containing scrap from industrial processes and consumer products.
+participants: collection networks ev1.3.2.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.3.2.2
+subsubsubevent: metal recovery
+event_id: ev1.3.2.2
+description: Processes to extract cobalt from scrap metals, including melting and refining techniques.
+participants: melting facilities ev1.3.2.2.1_P0.5, refining processes ev1.3.2.2.2_P1
+Gate: and
+Relations: xxxx

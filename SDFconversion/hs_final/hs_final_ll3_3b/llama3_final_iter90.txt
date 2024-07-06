@@ -1,0 +1,51 @@
+Event 1: Tech companies partnering with EV manufacturers and suppliers**
+
+* event: Tech companies partnering with EV manufacturers and suppliers
+* event_id: ev1
+* description: Partnerships between tech companies and EV manufacturers/suppliers to improve customer experience and satisfaction.
+* participants: Google ev1.1_G0.5, Microsoft ev1.2_G0.5
+* Gate: and
+* Relations: ev1.1>ev1.2
+
+**Event 2: Impact of regulations on the EV supply chain**
+
+* event: Impact of regulations on the global EV battery supply chain
+* event_id: ev2
+* description: Governments enacting laws affecting EV production, sales, and use, impacting manufacturers, consumers, and local governments.
+* participants: Regulations ev2.1_P1, Manufacturers ev2.2_P0.5, Consumers ev2.3_P0.5, Local governments ev2.4_P0.5
+* Gate: or
+* Relations: ev2.1>ev2.2, ev2.1>ev2.3, ev2.1>ev2.4
+
+**Event 3: Latest supply chain innovations and trends**
+
+* event: Latest supply chain innovations and trends in the global EV battery industry
+* event_id: ev3
+* description: Exponential growth in demand for EV batteries, leading to innovations and trends.
+* participants: Demand ev3.1_P1, Innovations ev3.2_P0.5, Trends ev3.3_P0.5
+* Gate: or
+* Relations: ev3.1>ev3.2, ev3.1>ev3.3
+
+**Event 4: Building on existing hierarchical structure**
+
+* event: Continuing to build and extend the current hierarchical structure based on newly extracted information.
+* event_id: ev4
+* description: Integrating new events and participants into the existing hierarchy.
+* participants: ev1, ev2, ev3
+* Gate: or
+* Relations: ev1>ev2, ev1>ev3, ev2>ev3
+
+The current hierarchical structure now looks like this:
+
+```
+Event 0 (root)
+  Event 1: Lithium-ion recycling
+    Subevent 1.1: Pyrometallurgical
+      Participant 1.1.1_P1: Metal oxides
+    ...
+  Event 2: Tech companies partnering with EV manufacturers and suppliers
+    Participants: Google ev2.1_G0.5, Microsoft ev2.2_G0.5
+  Event 3: Impact of regulations on the EV supply chain
+    Participants: Regulations ev3.1_P1, Manufacturers ev3.2_P0.5, Consumers ev3.3_P0.5, Local governments ev3.4_P0.5
+  Event 4: Latest supply chain innovations and trends
+    Participants: Demand ev4.1_P1, Innovations ev4.2_P0.5, Trends ev4.3_P0.5
+```

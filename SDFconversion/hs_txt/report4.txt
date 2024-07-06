@@ -1,0 +1,127 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The EU's strategy for EV battery supply chain involves significant growth in battery consumption, expansion of production bases, and diversification of supply sources to reduce dependencies and bottlenecks.
+participants: battery consumption growth ev1.1_P0.5, production base expansion ev1.2_P0.5, supply diversification ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.3>ev1.1
+
+Subevent 1.1
+subevent: Battery consumption growth
+event_id: ev1.1
+description: Total battery consumption in the EU will nearly reach 400 GWh in 2025, driven largely by e-mobility, and is expected to quadruple by 2040.
+participants: e-mobility consumption ev1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Production base expansion
+event_id: ev1.2
+description: The EU plans to expand its production base for battery raw materials and components over the period from 2022 to 2030 to improve its global share.
+participants: raw materials production ev1.2.1_P1, components production ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subevent 1.3
+subevent: Supply diversification
+event_id: ev1.3
+description: The EU aims to diversify its supply sources for critical battery materials such as cobalt, nickel, lithium, and graphite to reduce dependencies and bottlenecks in the supply chain.
+participants: cobalt and nickel import ev1.3.1_P1, lithium self-sufficiency ev1.3.2_P1, graphite import reliance ev1.3.3_P1, manganese self-sufficiency ev1.3.4_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.3>ev1.3.4
+
+Subsubevent 1.3.1
+subsubevent: Cobalt and nickel import
+event_id: ev1.3.1
+description: The EU will continue to depend on imports of cobalt and nickel for conversion in its refineries.
+participants: cobalt imports ev1.3.1.1_P1, nickel imports ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subsubevent: Lithium self-sufficiency
+event_id: ev1.3.2
+description: The EU will primarily source inputs for producing refined lithium compounds from new lithium mines within the EU.
+participants: new lithium mines ev1.3.2.1_P1, refined lithium production ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subsubevent 1.3.3
+subsubevent: Graphite import reliance
+event_id: ev1.3.3
+description: The refining of natural graphite for anodes will depend on both domestic production and imports.
+participants: domestic graphite production ev1.3.3.1_P1, graphite imports ev1.3.3.2_P1
+Gate: or
+Relations: xxxx
+
+Subsubevent 1.3.4
+subsubevent: Manganese self-sufficiency
+event_id: ev1.3.4
+description: The EU is likely to be self-sufficient in both primary and refined manganese raw materials.
+participants: primary manganese production ev1.3.4.1_P1, refined manganese production ev1.3.4.2_P1
+Gate: and
+Relations: ev1.3.4.1>ev1.3.4.2
+
+Event 2
+event: Global supply structure
+event_id: ev2
+description: The structure of global supply in the coming years provides insights into potential EU import sources and highlights the need for deeper analysis to forecast availability and competition.
+participants: potential import sources ev2.1_P1, deeper analysis ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: Potential import sources
+event_id: ev2.1
+description: Australia, Canada, Argentina, Chile, Mozambique, Tanzania, the USA, Serbia, and Norway are identified as potential low-risk and reliable sources for various raw materials needed by the EU.
+participants: Australia and Canada ev2.1.1_P1, Argentina and Chile ev2.1.2_P1, Mozambique and Tanzania ev2.1.3_P1, USA ev2.1.4_P1, Serbia and Norway ev2.1.5_P1
+Gate: and
+Relations: ev2.1.1>ev2.1.2, ev2.1.3>ev2.1.4, ev2.1.5>ev2.1.1
+
+Subsubevent 2.1.1
+subsubevent: Australia and Canada
+event_id: ev2.1.1
+description: Australia and Canada have the greatest potential to provide additional and low-risk supply to the EU.
+participants: Australia ev2.1.1.1_P1, Canada ev2.1.1.2_P1
+Gate: and
+Relations: ev2.1.1.1>ev2.1.1.2
+
+Subsubevent 2.1.2
+subsubevent: Argentina and Chile
+event_id: ev2.1.2
+description: Argentina and Chile are potential suppliers of lithium chemicals, reducing EU supply risks.
+participants: Argentina ev2.1.2.1_P1, Chile ev2.1.2.2_P1
+Gate: and
+Relations: ev2.1.2.1>ev2.1.2.2
+
+Subsubevent 2.1.3
+subsubevent: Mozambique and Tanzania
+event_id: ev2.1.3
+description: Mozambique and Tanzania are identified as potential suppliers of natural graphite, contributing to the EU's raw material security.
+participants: Mozambique ev2.1.3.1_P1, Tanzania ev2.1.3.2_P1
+Gate: and
+Relations: ev2.1.3.1>ev2.1.3.2
+
+Subsubevent 2.1.4
+subsubevent: USA
+event_id: ev2.1.4
+description: The USA is considered a reliable source of refined graphite for the EU.
+participants: refined graphite supply ev2.1.4.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.1.5
+subsubevent: Serbia and Norway
+event_id: ev2.1.5
+description: Serbia and Norway are likely sources of lithium minerals and flake/refined graphite respectively, providing additional supply security to the EU.
+participants: Serbia ev2.1.5.1_P1, Norway ev2.1.5.2_P1
+Gate: and
+Relations: ev2.1.5.1>ev2.1.5.2
+
+Subevent 2.2
+subevent: Deeper analysis
+event_id: ev2.2
+description: A deeper analysis is required to quantitatively forecast export availability worldwide, taking into account captive production, long-term offtake agreements, intermediate products, and ownership of producing companies.
+participants: captive production ev2.2.1_P1, long-term offtake agreements ev2.2.2_P1, intermediate products ev2.2.3_P1, ownership of producing companies ev2.2.4_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2, ev2.2.3>ev2.2.4

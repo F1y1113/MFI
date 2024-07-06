@@ -1,0 +1,71 @@
+Event 1
+event: EU production and diversification of supply
+event_id: ev1
+description: Total battery consumption in the EU will almost reach 400 GWh in 2025 (and 4 times more in 2040), driven by use in e-mobility (about 60% of the total capacity in 2025, and 80% in 2040).
+participants: xxxx
+Gate: or
+Relations: ev1>ev2
+
+Event 2
+event: EU expansion of production base for battery raw materials and components
+event_id: ev2
+description: The EU is expected to expand its production base for battery raw materials and components over 2022-2030, and improve its current position and global share.
+participants: xxxx
+Gate: and
+Relations: ev1>ev2
+
+Event 3
+event: Import dependencies and bottlenecks in the supply chain
+event_id: ev3
+description: However, dependencies and bottlenecks in the supply chain will remain creating vulnerabilities.
+participants: xxxx
+Gate: or
+Relations: ev1>ev3
+
+Subevent 1.1
+subevent: EU self-sufficiency in manganese
+event_id: ev1.1
+description: The EU is likely to be self-sufficient in both primary and refined raw materials.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.2
+subevent: EU imports of cobalt and nickel concentrates and intermediates
+event_id: ev1.2
+description: The EU will continue to be dependent on imports of cobalt and nickel (concentrates and intermediates) for the production of battery raw materials.
+participants: xxxx
+Gate: or
+Relations: ev1.1>ev1.2
+
+Subevent 2.1
+subevent: EU production of lithium-ion batteries
+event_id: ev2.1
+description: Total battery consumption in the EU will almost reach 400 GWh in 2025 (and 4 times more in 2040), driven by use in e-mobility (about 60% of the total capacity in 2025, and 80% in 2040).
+participants: xxxx
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.2
+subevent: EU diversification of supply sources
+event_id: ev2.2
+description: The EU is expected to expand its production base for battery raw materials and components over 2022-2030, and improve its current position and global share.
+participants: xxxx
+Gate: or
+Relations: ev2.1>ev2.2
+
+Subevent 3.1
+subevent: Import dependencies in the supply chain
+event_id: ev3.1
+description: However, import dependencies in the supply chain will remain creating vulnerabilities.
+participants: xxxx
+Gate: and
+Relations: ev2.1>ev3.1
+
+Subevent 3.2
+subevent: Bottlenecks in the supply chain
+event_id: ev3.2
+description: Dependencies and bottlenecks in the supply chain will remain creating vulnerabilities.
+participants: xxxx
+Gate: or
+Relations: ev2.1>ev3.2

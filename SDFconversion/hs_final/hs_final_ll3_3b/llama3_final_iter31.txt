@@ -1,0 +1,32 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Event 2
+event: analysis of nickel sulphate production based on different datasets used in life cycle assessment studies
+event_id: ev2
+description: This event involves analyzing the production of nickel sulphate using various datasets and identifying differences between them.
+participants: terrestrial acidification results (0.5), global warming potential results (0.3), energy mix impact on terrestrial acidification (0.1), recycling of nickel (E) (0.2)
+Gate: or
+Relations: ev1 > ev2, ev2.1 > ev2
+
+Subevent 1.1
+subevent: GWP100 results vary strongly across different datasets
+event_id: ev2.1
+description: This subevent describes the variations in global warming potential (GWP100) results across different datasets.
+participants: mix of feedstock materials (0.6), source of energy used in background datasets (0.4)
+Gate: and
+Relations: ev2 > ev2.1
+
+Subevent 2.2
+subevent: energy mix impact on terrestrial acidification results
+event_id: ev2.2
+description: This subevent describes how the energy mix affects the terrestrial acidification results.
+participants: xxxx
+Gate: xxxx
+Relations: ev2 > ev2.2
+```

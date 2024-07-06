@@ -1,0 +1,311 @@
+Event 1
+event: Green Electromobility and Lithium Mining
+event_id: ev1
+description: The emphasis on green electromobility has driven the demand for lithium, leading to socio-environmental pressures and water injustices in the Global South, particularly in the Salar de Atacama.
+participants: Green Electromobility ev1.1_P1, Lithium Extractivism ev1.2_P1, Socio-Environmental Damages ev1.3_P1, Water Injustices ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: Green Electromobility
+event_id: ev1.1
+description: Green electromobility, driven by the Global North's policies to mitigate climate change, has increased the demand for lithium, used in rechargeable batteries.
+participants: Global North Policies ev1.1.1_P1, Paris Agreement ev1.1.2_P1, Rechargeable Batteries ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subevent 1.2
+subevent: Lithium Extractivism
+event_id: ev1.2
+description: Lithium mining in the Salar de Atacama involves the extraction of large volumes of water, leading to significant environmental impacts.
+participants: Lithium Demand ev1.2.1_P1, Salar de Atacama Mining ev1.2.2_P1, Water Extraction ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subevent 1.3
+subevent: Socio-Environmental Damages
+event_id: ev1.3
+description: Lithium extraction has led to socio-environmental pressures, including water overexploitation and ethno-cultural fractures in local communities.
+participants: Water Overexploitation ev1.3.1_P1, Ethno-Cultural Fractures ev1.3.2_P1, Local Communities ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subevent 1.4
+subevent: Water Injustices
+event_id: ev1.4
+description: The overextraction of water for lithium mining disrupts local water ecosystems, affecting indigenous communities and creating water injustices.
+participants: Local Water Ecosystems ev1.4.1_P1, Indigenous Communities ev1.4.2_P1, Water Injustices ev1.4.3_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3
+
+Event 2
+event: Global Lithium Market Dynamics
+event_id: ev2
+description: The global market dynamics for lithium include leading production by Australia, significant reserves in the Andean salt flats, and the establishment of lithium mining rights in Chile.
+participants: Leading Production ev2.1_P1, Lithium Reserves ev2.2_P1, Mining Rights in Chile ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Leading Production
+event_id: ev2.1
+description: Australia leads global lithium production, followed by Chile, China, and Argentina.
+participants: Australia Production ev2.1.1_P1, Chile Production ev2.1.2_P1, China Production ev2.1.3_P1, Argentina Production ev2.1.4_P1
+Gate: and
+Relations: ev2.1.1>ev2.1.2, ev2.1.2>ev2.1.3, ev2.1.3>ev2.1.4
+
+Subevent 2.2
+subevent: Lithium Reserves
+event_id: ev2.2
+description: The largest lithium reserves are located in the Andean salt flats of Argentina, Bolivia, and Chile.
+participants: Argentina Reserves ev2.2.1_P1, Bolivia Reserves ev2.2.2_P1, Chile Reserves ev2.2.3_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2, ev2.2.2>ev2.2.3
+
+Subevent 2.3
+subevent: Mining Rights in Chile
+event_id: ev2.3
+description: Chile's lithium mining rights were established by the State-owned Production Development Corporation (CORFO) in the Salar de Atacama.
+participants: CORFO ev2.3.1_P1, Mining Rights ev2.3.2_P1, Salar de Atacama ev2.3.3_P1
+Gate: and
+Relations: ev2.3.1>ev2.3.2, ev2.3.2>ev2.3.3
+
+Event 3
+event: Commodification of Andean Salt Flats
+event_id: ev3
+description: The extraction of lithium in the Andean salt flats, known as the "lithium triangle," has led to the commodification of nature and the establishment of new extractivist territorialities.
+participants: Lithium Triangle ev3.1_P1, Extractivist Territorialities ev3.2_P1, Commodification of Nature ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Lithium Triangle
+event_id: ev3.1
+description: The Andean salt flats in Argentina, Bolivia, and Chile are referred to as the "lithium triangle," holding the largest lithium reserves in brines.
+participants: Argentina Salt Flats ev3.1.1_P1, Bolivia Salt Flats ev3.1.2_P1, Chile Salt Flats ev3.1.3_P1
+Gate: and
+Relations: ev3.1.1>ev3.1.2, ev3.1.2>ev3.1.3
+
+Subevent 3.2
+subevent: Extractivist Territorialities
+event_id: ev3.2
+description: Lithium extraction creates new territorialities that commodify nature and overlook local knowledge and Andean cosmovisions.
+participants: Commodification of Nature ev3.2.1_P1, Local Knowledge ev3.2.2_P1, Andean Cosmovisions ev3.2.3_P1
+Gate: and
+Relations: ev3.2.1>ev3.2.2, ev3.2.2>ev3.2.3
+
+Subevent 3.3
+subevent: Commodification of Nature
+event_id: ev3.3
+description: The process of commodifying nature involves business and government discourses that generate acceptance and legitimation of new commodities.
+participants: Business Discourses ev3.3.1_P1, Government Discourses ev3.3.2_P1, New Commodities ev3.3.3_P1
+Gate: and
+Relations: ev3.3.1>ev3.3.2, ev3.3.2>ev3.3.3
+
+Event 4
+event: Green Economy and Lithium Extractivism
+event_id: ev4
+description: The rise of the green economy has led to increased lithium extractivism, driven by the demand for rechargeable batteries in the Global North.
+participants: Green Economy ev4.1_P1, Lithium Extractivism ev4.2_P1, Demand for Batteries ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: Green Economy
+event_id: ev4.1
+description: The green economy boom, driven by carbon mitigation policies, has led to a surge in lithium demand for the manufacture of rechargeable batteries.
+participants: Carbon Mitigation Policies ev4.1.1_P1, Lithium Demand ev4.1.2_P1, Rechargeable Batteries ev4.1.3_P1
+Gate: and
+Relations: ev4.1.1>ev4.1.2, ev4.1.2>ev4.1.3
+
+Subevent 4.2
+subevent: Lithium Extractivism
+event_id: ev4.2
+description: The intensified demand for lithium has spurred the expansion of extractivism in high Andean salt flats, furthering socio-environmental pressures.
+participants: Lithium Demand ev4.2.1_P1, Andean Salt Flats ev4.2.2_P1, Socio-Environmental Pressures ev4.2.3_P1
+Gate: and
+Relations: ev4.2.1>ev4.2.2, ev4.2.2>ev4.2.3
+
+Subevent 4.3
+subevent: Demand for Batteries
+event_id: ev4.3
+description: The growing demand for rechargeable batteries in the Global North has significantly impacted the lithium market, leading to increased extraction activities.
+participants: Global North Demand ev4.3.1_P1, Rechargeable Batteries ev4.3.2_P1, Lithium Market ev4.3.3_P1
+Gate: and
+Relations: ev4.3.1>ev4.3.2, ev4.3.2>ev4.3.3
+
+Event 5
+event: Water Overexploitation in Lithium Mining
+event_id: ev5
+description: Lithium mining operations, particularly in the Salar de Atacama, have led to significant water overexploitation, affecting local water ecosystems and indigenous communities.
+participants: Lithium Mining Operations ev5.1_P1, Water Overexploitation ev5.2_P1, Local Water Ecosystems ev5.3_P1, Indigenous Communities ev5.4_P1
+Gate: and
+Relations: ev5.1>ev5.2, ev5.2>ev5.3, ev5.3>ev5.4
+
+Subevent 5.1
+subevent: Lithium Mining Operations
+event_id: ev5.1
+description: Lithium mining in the Salar de Atacama involves extensive extraction of water, authorized by entities like SQM and Albemarle.
+participants: Salar de Atacama ev5.1.1_P1, SQM ev5.1.2_P1, Albemarle ev5.1.3_P1, Water Extraction ev5.1.4_P1
+Gate: and
+Relations: ev5.1.1>ev5.1.2, ev5.1.2>ev5.1.3, ev5.1.3>ev5.1.4
+
+Subevent 5.2
+subevent: Water Overexploitation
+event_id: ev5.2
+description: The daily extraction of millions of liters of water for lithium mining has led to overexploitation, depleting local water resources.
+participants: Water Extraction ev5.2.1_P1, Local Water Resources ev5.2.2_P1, Overexploitation ev5.2.3_P1
+Gate: and
+Relations: ev5.2.1>ev5.2.2, ev5.2.2>ev5.2.3
+
+Subevent 5.3
+subevent: Local Water Ecosystems
+event_id: ev5.3
+description: The overextraction of water for lithium mining has disrupted local water ecosystems, impacting both human and non-human life in the region.
+participants: Local Water Resources ev5.3.1_P1, Ecosystem Disruption ev5.3.2_P1, Human and Non-Human Life ev5.3.3_P1
+Gate: and
+Relations: ev5.3.1>ev5.3.2, ev5.3.2>ev5.3.3
+
+Subevent 5.4
+subevent: Indigenous Communities
+event_id: ev5.4
+description: Indigenous communities in the Salar de Atacama are particularly affected by water overexploitation, experiencing socio-cultural impacts and water injustices.
+participants: Indigenous Communities ev5.4.1_P1, Socio-Cultural Impacts ev5.4.2_P1, Water Injustices ev5.4.3_P1
+Gate: and
+Relations: ev5.4.1>ev5.4.2, ev5.4.2>ev5.4.3
+
+Event 6
+event: Global Lithium Production and Reserves
+event_id: ev6
+description: The distribution of global lithium production and reserves highlights the leading roles of Australia, Chile, and the significant reserves in the Andean salt flats.
+participants: Global Production ev6.1_P1, Leading Producers ev6.2_P1, Andean Reserves ev6.3_P1
+Gate: and
+Relations: ev6.1>ev6.2, ev6.2>ev6.3
+
+Subevent 6.1
+subevent: Global Production
+event_id: ev6.1
+description: The global production of lithium is led by Australia, with significant contributions from Chile, China, and Argentina.
+participants: Australia Production ev6.1.1_P1, Chile Production ev6.1.2_P1, China Production ev6.1.3_P1, Argentina Production ev6.1.4_P1
+Gate: and
+Relations: ev6.1.1>ev6.1.2, ev6.1.2>ev6.1.3, ev6.1.3>ev6.1.4
+
+Subevent 6.2
+subevent: Leading Producers
+event_id: ev6.2
+description: Australia leads the world in lithium production, followed by Chile, China, and Argentina, with their respective production volumes.
+participants: Australia ev6.2.1_P1, Chile ev6.2.2_P1, China ev6.2.3_P1, Argentina ev6.2.4_P1
+Gate: and
+Relations: ev6.2.1>ev6.2.2, ev6.2.2>ev6.2.3, ev6.2.3>ev6.2.4
+
+Subevent 6.3
+subevent: Andean Reserves
+event_id: ev6.3
+description: The largest lithium reserves are located in the Andean salt flats of Argentina, Bolivia, and Chile, holding a significant portion of the world's lithium resources.
+participants: Argentina Reserves ev6.3.1_P1, Bolivia Reserves ev6.3.2_P1, Chile Reserves ev6.3.3_P1
+Gate: and
+Relations: ev6.3.1>ev6.3.2, ev6.3.2>ev6.3.3
+
+Event 7
+event: Decolonial Interpretation of Lithium Mining
+event_id: ev7
+description: A decolonial approach to lithium mining in the Andean salt flats emphasizes the need for water justice and challenges the green capitalist rationality.
+participants: Decolonial Approach ev7.1_P1, Water Justice ev7.2_P1, Green Capitalist Rationality ev7.3_P1
+Gate: and
+Relations: ev7.1>ev7.2, ev7.2>ev7.3
+
+Subevent 7.1
+subevent: Decolonial Approach
+event_id: ev7.1
+description: A decolonial interpretation of lithium mining highlights the importance of indigenous knowledge and perspectives in addressing extractivism.
+participants: Indigenous Knowledge ev7.1.1_P1, Extractivism Challenges ev7.1.2_P1, Andean Perspectives ev7.1.3_P1
+Gate: and
+Relations: ev7.1.1>ev7.1.2, ev7.1.2>ev7.1.3
+
+Subevent 7.2
+subevent: Water Justice
+event_id: ev7.2
+description: The need for water justice emphasizes equitable access and sustainable management of water resources, particularly in regions affected by lithium mining.
+participants: Equitable Access ev7.2.1_P1, Sustainable Management ev7.2.2_P1, Affected Regions ev7.2.3_P1
+Gate: and
+Relations: ev7.2.1>ev7.2.2, ev7.2.2>ev7.2.3
+
+Subevent 7.3
+subevent: Green Capitalist Rationality
+event_id: ev7.3
+description: The green capitalist rationality focuses on carbon emission reduction but often overlooks broader socio-environmental impacts and justice.
+participants: Carbon Emission Reduction ev7.3.1_P1, Socio-Environmental Impacts ev7.3.2_P1, Broader Justice Issues ev7.3.3_P1
+Gate: and
+Relations: ev7.3.1>ev7.3.2, ev7.3.2>ev7.3.3
+
+Event 8
+event: Expansion of Lithium Demand
+event_id: ev8
+description: The expansion of lithium demand from the Global North has generated socio-environmental damages and water injustices in the Global South, transforming local hydro-social processes.
+participants: Lithium Demand Expansion ev8.1_P1, Socio-Environmental Damages ev8.2_P1, Water Injustices ev8.3_P1, Hydro-Social Processes ev8.4_P1
+Gate: and
+Relations: ev8.1>ev8.2, ev8.2>ev8.3, ev8.3>ev8.4
+
+Subevent 8.1
+subevent: Lithium Demand Expansion
+event_id: ev8.1
+description: The increase in lithium demand is driven by the Global North's push for green electromobility and renewable energy technologies.
+participants: Global North Demand ev8.1.1_P1, Green Electromobility ev8.1.2_P1, Renewable Energy Technologies ev8.1.3_P1
+Gate: and
+Relations: ev8.1.1>ev8.1.2, ev8.1.2>ev8.1.3
+
+Subevent 8.2
+subevent: Socio-Environmental Damages
+event_id: ev8.2
+description: The socio-environmental damages include water overexploitation and the disruption of local communities, particularly indigenous populations.
+participants: Water Overexploitation ev8.2.1_P1, Local Community Disruption ev8.2.2_P1, Indigenous Populations ev8.2.3_P1
+Gate: and
+Relations: ev8.2.1>ev8.2.2, ev8.2.2>ev8.2.3
+
+Subevent 8.3
+subevent: Water Injustices
+event_id: ev8.3
+description: Water injustices arise from the overextraction of water for lithium mining, leading to unequal access and conflicts over water resources.
+participants: Overextraction ev8.3.1_P1, Unequal Access ev8.3.2_P1, Water Resource Conflicts ev8.3.3_P1
+Gate: and
+Relations: ev8.3.1>ev8.3.2, ev8.3.2>ev8.3.3
+
+Subevent 8.4
+subevent: Hydro-Social Processes
+event_id: ev8.4
+description: The transformation of local hydro-social processes includes changes in water distribution, usage patterns, and the socio-cultural significance of water.
+participants: Water Distribution Changes ev8.4.1_P1, Usage Pattern Changes ev8.4.2_P1, Socio-Cultural Significance ev8.4.3_P1
+Gate: and
+Relations: ev8.4.1>ev8.4.2, ev8.4.2>ev8.4.3
+
+Event 9
+event: Impact on Indigenous Andean Territories
+event_id: ev9
+description: Lithium mining in the Salar de Atacama has disproportionately affected indigenous Andean territories, causing environmental degradation and cultural disruptions.
+participants: Indigenous Territories ev9.1_P1, Environmental Degradation ev9.2_P1, Cultural Disruptions ev9.3_P1
+Gate: and
+Relations: ev9.1>ev9.2, ev9.2>ev9.3
+
+Subevent 9.1
+subevent: Indigenous Territories
+event_id: ev9.1
+description: The indigenous territories in the Salar de Atacama are rich in cultural and natural resources, but they face pressures from extensive lithium mining activities.
+participants: Cultural Resources ev9.1.1_P1, Natural Resources ev9.1.2_P1, Mining Pressures ev9.1.3_P1
+Gate: and
+Relations: ev9.1.1>ev9.1.2, ev9.1.2>ev9.1.3
+
+Subevent 9.2
+subevent: Environmental Degradation
+event_id: ev9.2
+description: The environmental degradation includes the depletion of water resources, loss of biodiversity, and disruption of ecosystems due to lithium extraction.
+participants: Water Depletion ev9.2.1_P1, Biodiversity Loss ev9.2.2_P1, Ecosystem Disruption ev9.2.3_P1
+Gate: and
+Relations: ev9.2.1>ev9.2.2, ev9.2.2>ev9.2.3
+
+Subevent 9.3
+subevent: Cultural Disruptions
+event_id: ev9.3
+description: The cultural disruptions involve changes in traditional practices, loss of heritage, and socio-cultural conflicts due to the impacts of mining.
+participants: Traditional Practices Changes ev9.3.1_P1, Heritage Loss ev9.3.2_P1, Socio-Cultural Conflicts ev9.3.3_P1
+Gate: and
+Relations: ev9.3.1>ev9.3.2, ev9.3.2>ev9.3.3

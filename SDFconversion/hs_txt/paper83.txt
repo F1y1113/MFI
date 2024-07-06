@@ -1,0 +1,127 @@
+Event 1
+event: Influence of raw materials on LIB production and GWP
+event_id: ev1
+description: The impact of raw materials on lithium-ion battery (LIB) production and their potential to reduce global warming potential (GWP) has been underexplored in life cycle assessment (LCA) studies. Existing research has primarily focused on other aspects such as cell design, specific energy, manufacturing energy consumption, and electricity mix.
+participants: cell design ev1.1_P1, battery specific energy ev1.2_P1, manufacturing energy consumption ev1.3_P1, electricity mix ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: Cell design
+event_id: ev1.1
+description: LCA studies have predominantly focused on the design of lithium-ion battery cells and their impact on overall performance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Battery specific energy
+event_id: ev1.2
+description: Research has emphasized the specific energy of batteries, affecting their efficiency and range.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Manufacturing energy consumption
+event_id: ev1.3
+description: The energy consumption during the manufacturing process has been a major focus in LCA studies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Electricity mix
+event_id: ev1.4
+description: The electricity mix used in battery production has been extensively studied for its impact on GWP.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Recent studies on raw materials in LIB production
+event_id: ev2
+description: Recent studies have begun to model the production of different LIB chemistries using life cycle inventory (LCI) data, considering future energy scenarios and the contributions of key battery metals.
+participants: Xu et al. study ev2.1_P1, Pell & Lindsay study ev2.2_P1, Manjong et al. study ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Xu et al. study
+event_id: ev2.1
+description: Xu et al. (2022) modeled the production of eight LIB chemistries, recommending the widespread deployment of lithium iron phosphate due to its low GHG emissions and advocating for low-carbon electricity in cell production.
+participants: LIB chemistries ev2.1.1_P1, low-carbon electricity ev2.1.2_P1
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+Subsubevent 2.1.1
+subsubevent: LIB chemistries
+event_id: ev2.1.1
+description: The study modeled the production of eight different LIB cell chemistries using background LCI data.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.2
+subsubevent: Low-carbon electricity
+event_id: ev2.1.2
+description: The study recommended using low-carbon electricity supply in cell production to reduce GHG emissions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Pell & Lindsay study
+event_id: ev2.2
+description: Pell & Lindsay (2022) analyzed the life cycle impacts of solid-state and conventional LIBs, highlighting the significant environmental impacts of graphite production in China and the potential benefits of using recycled raw materials.
+participants: graphite production impacts ev2.2.1_P1, recycled raw materials ev2.2.2_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subsubevent 2.2.1
+subsubevent: Graphite production impacts
+event_id: ev2.2.1
+description: The study found that graphite produced in China significantly contributes to the environmental impacts of LIB production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.2.2
+subsubevent: Recycled raw materials
+event_id: ev2.2.2
+description: The study suggested that recycled battery raw materials could provide an additional source of avoided impacts, though they were excluded from the analysis.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Manjong et al. study
+event_id: ev2.3
+description: Manjong et al. (2021) presented extensively parameterized LCIs for battery raw materials' extraction and refining, but did not evaluate the significance of parameters such as ore grade decline and metal extraction rates on GWP.
+participants: parameterized LCIs ev2.3.1_P1, ore grade decline ev2.3.2_P1, metal extraction rates ev2.3.3_P1
+Gate: and
+Relations: ev2.3.1>ev2.3.2, ev2.3.2>ev2.3.3
+
+Subsubevent 2.3.1
+subsubevent: Parameterized LCIs
+event_id: ev2.3.1
+description: The study presented extensively parameterized life cycle inventories for the extraction and refining of battery raw materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.3.2
+subsubevent: Ore grade decline
+event_id: ev2.3.2
+description: The study did not evaluate the impact of ore grade decline on the GWP of LIB cell production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.3.3
+subsubevent: Metal extraction rates
+event_id: ev2.3.3
+description: The study did not assess the significance of metal extraction rates from ores during the smelting process on LIB cell production GWP.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

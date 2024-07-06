@@ -1,0 +1,131 @@
+Event 1**
+event: lithium-ion battery production
+event_id: ev1
+description: The process of producing lithium-ion batteries.
+participants: material sourcing ev1.1_P1, manufacturing ev1.2_P1, quality control ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: material sourcing
+event_id: ev1.1
+description: Sourcing raw materials for lithium-ion battery production.
+participants: lithium mining ev1.1.1_P1, cobalt mining ev1.1.2_P0.5, nickel mining ev1.1.3_P0.5
+Gate: or
+Relations: ev1.1.1>ev1.2, ev1.1.2>ev1.3
+
+**Subevent 1.2**
+subevent: manufacturing
+event_id: ev1.2
+description: The process of assembling lithium-ion batteries.
+participants: cell assembly ev1.2.1_P1, electrode production ev1.2.2_P0.5, electrolyte preparation ev1.2.3_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+**Subevent 1.3**
+subevent: quality control
+event_id: ev1.3
+description: Ensuring the quality of lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: battery recycling
+event_id: ev2
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev2.1_P1, hydrometallurgical ev2.2_P1, bioleaching ev2.3_P1
+Gate: or
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+**Subevent 2.1**
+subevent: pyrometallurgical
+event_id: ev2.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev2.1.1_P1, cobalt ev2.1.2_P0.5, copper ev2.1.3_P0.5, iron ev2.1.4_P0.5, nickel alloys ev2.1.5_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2, ev2.1.1>ev2.1.3, ev2.1.1>ev2.1.4, ev2.1.1>ev2.1.5
+
+**Subevent 2.2**
+subevent: hydrometallurgical
+event_id: ev2.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.3**
+subevent: bioleaching
+event_id: ev2.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Here is the whole hierarchical structure:
+
+```
+Event 1
+event: lithium-ion battery production
+event_id: ev1
+description: The process of producing lithium-ion batteries.
+participants: material sourcing ev1.1_P1, manufacturing ev1.2_P1, quality control ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: material sourcing
+event_id: ev1.1
+description: Sourcing raw materials for lithium-ion battery production.
+participants: lithium mining ev1.1.1_P1, cobalt mining ev1.1.2_P0.5, nickel mining ev1.1.3_P0.5
+Gate: or
+Relations: ev1.1.1>ev1.2, ev1.1.2>ev1.3
+
+Subevent 1.2
+subevent: manufacturing
+event_id: ev1.2
+description: The process of assembling lithium-ion batteries.
+participants: cell assembly ev1.2.1_P1, electrode production ev1.2.2_P0.5, electrolyte preparation ev1.2.3_P0.5
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subevent 1.3
+subevent: quality control
+event_id: ev1.3
+description: Ensuring the quality of lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: battery recycling
+event_id: ev2
+description: Methods for recycling Lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev2.1_P1, hydrometallurgical ev2.2_P1, bioleaching ev2.3_P1
+Gate: or
+Relations: ev2.1>ev2.3, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: pyrometallurgical
+event_id: ev2.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev2.1.1_P1, cobalt ev2.1.2_P0.5, copper ev2.1.3_P0.5, iron ev2.1.4_P0.5, nickel alloys ev2.1.5_P0.5
+Gate: and
+Relations: ev2.1.1>ev2.1.2, ev2.1.1>ev2.1.3, ev2.1.1>ev2.1.4, ev2.1.1>ev2.1.5
+
+Subevent 2.2
+subevent: hydrometallurgical
+event_id: ev2.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: bioleaching
+event_id: ev2.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

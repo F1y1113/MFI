@@ -1,0 +1,63 @@
+Event 1
+event: EV Battery Supply Chain
+event_id: ev1
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Economic Theory Emphasizes Upper Bound on Co Demand
+event_id: ev1.1
+description: In well-functioning markets, over the upper bound on cumulative Co demand represents close to 10% of identified terrestrial resources.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Research Indicates Global Emissions Need to be Brought Down to Zero
+event_id: ev1.2
+description: This transformation will involve all sectors of the economy and has been the subject of several integrated assessments.
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.3
+subevent: IEA Reports Co EV Demand for an EV30@30 Scenario
+event_id: ev1.3
+description: The IEA reports Co EV demand of 350 kt/yr for an EV30@30 scenario, which reaches 30% market share for EVs.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.1
+subevent: Economic Theory Emphasizes that in Well-Functioning Markets, Over the Upper Bound on Co Demand Represents Close to 10% of Identified Terrestrial Resources
+event_id: ev2.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.2
+subevent: Economic Theory Emphasizes that in Well-Functioning Markets, Over the Upper Bound on Co Demand Represents Close to 10% of Identified Terrestrial Resources
+event_id: ev2.2
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 3.1
+subevent: Economic Theory Emphasizes that in Well-Functioning Markets, Over the Upper Bound on Co Demand Represents Close to 10% of Identified Terrestrial Resources
+event_id: ev3.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 3.2
+subevent: Economic Theory Emphasizes that in Well-Functioning Markets, Over the Upper Bound on Co Demand Represents Close to 10% of Identified Terrestrial Resources
+event_id: ev3.2
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx

@@ -1,0 +1,31 @@
+Event 1
+event: Transition to climate-neutrality boosts demand for batteries
+event_id: ev1
+description: The transition to a climate-neutrality is expected to boost the demand for batteries in the coming years.
+participants: cobalt, lithium, manganese, natural graphite, nickel ev1.1_P1
+Gate: and
+Relations: ev1>ev2
+
+Event 2
+event: Transition boosts demand for battery production
+event_id: ev2
+description: The transition to a climate-neutrality is expected to boost the demand for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: ev2>ev3
+
+Event 3
+event: Boost in demand for raw materials
+event_id: ev3
+description: The transition to a climate-neutrality is expected to lead to a boost in demand for raw materials.
+participants: xxxx
+Gate: xxxx
+Relations: ev3>ev4
+
+Event 4
+event: Increased demand for mining and processing
+event_id: ev4
+description: The increased demand for raw materials will lead to an increased demand for mining and processing.
+participants: xxxx
+Gate: xxxx
+Relations: ev4>ev5

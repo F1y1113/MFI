@@ -1,0 +1,103 @@
+Event 1
+event: EV battery power usage
+event_id: ev1
+description: The role and utilization of battery power in both internal combustion and electric vehicles, highlighting the replacement of the fuel tank with lithium-ion batteries in electric vehicles.
+participants: Internal combustion vehicle functions ev1.1_P1, Electric vehicle functions ev1.2_P1
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: Internal combustion vehicle functions
+event_id: ev1.1
+description: Battery power used for starting the engine and other functions such as electronic fuel injection, ignition of lights, and air conditioning.
+participants: Engine starting ev1.1.1_P1, Electronic functions ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Electric vehicle functions
+event_id: ev1.2
+description: Battery power responsible for supplying power to the electric engine, replacing the fuel tank with lithium-ion batteries.
+participants: Electric engine power ev1.2.1_P1, Fuel tank replacement ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Event 2
+event: Lithium-ion battery advantages
+event_id: ev2
+description: Advantages of lithium-ion batteries, including high power level, energy per mass unit, and suitability for applications where size and weight are important.
+participants: High power level ev2.1_P1, Energy efficiency ev2.2_P1, Suitability for size and weight requirements ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: High power level
+event_id: ev2.1
+description: Lithium batteries have higher power levels due to lithium being a small and light element.
+participants: Lithium element ev2.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 2.2
+subevent: Energy efficiency
+event_id: ev2.2
+description: Energy efficiency of lithium-ion batteries provides electric vehicles with a range of up to 150 km and can withstand up to 2000 recharge cycles.
+participants: Range ev2.2.1_P1, Recharge cycles ev2.2.2_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subevent 2.3
+subevent: Suitability for size and weight requirements
+event_id: ev2.3
+description: Lithium-ion batteries are suitable for applications where size and weight are important due to their small and light nature.
+participants: Size requirements ev2.3.1_P1, Weight requirements ev2.3.2_P1
+Gate: and
+Relations: ev2.3.1>ev2.3.2
+
+Event 3
+event: Lithium battery market dynamics
+event_id: ev3
+description: Factors affecting the price and market dynamics of lithium batteries, including supply shortages, political issues, technological advancements, and large-scale production.
+participants: Price increase factors ev3.1_P1, Price decrease factors ev3.2_P1
+Gate: xor
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: Price increase factors
+event_id: ev3.1
+description: Factors that may increase the price of lithium batteries, such as a shortage in global supply of lithium and rare earth materials, and political problems in high production countries.
+participants: Supply shortage ev3.1.1_P1, Political issues ev3.1.2_P1
+Gate: and
+Relations: ev3.1.1>ev3.1.2
+
+Subevent 3.2
+subevent: Price decrease factors
+event_id: ev3.2
+description: Factors that may reduce the price of lithium batteries, such as improvements in battery technology and large-scale production.
+participants: Technological advancements ev3.2.1_P1, Large-scale production ev3.2.2_P1
+Gate: and
+Relations: ev3.2.1>ev3.2.2
+
+Event 4
+event: Lithium reserves and growth potential
+event_id: ev4
+description: Distribution of lithium reserves and the growth potential of rechargeable batteries using lithium compounds.
+participants: Lithium reserves distribution ev4.1_P1, Growth potential of rechargeable batteries ev4.2_P1
+Gate: and
+Relations: ev4.1>ev4.2
+
+Subevent 4.1
+subevent: Lithium reserves distribution
+event_id: ev4.1
+description: Concentration of lithium reserves in South America, with Argentina, Chile, and Bolivia holding approximately 60% of the reserves, and Brazil having 0.5%.
+participants: Argentina ev4.1.1_P1, Chile ev4.1.2_P1, Bolivia ev4.1.3_P1, Brazil ev4.1.4_P1
+Gate: and
+Relations: ev4.1.1>ev4.1.2, ev4.1.2>ev4.1.3, ev4.1.3>ev4.1.4
+
+Subevent 4.2
+subevent: Growth potential of rechargeable batteries
+event_id: ev4.2
+description: Rechargeable batteries have the largest growth potential for lithium compounds due to their high demand and limited reserves.
+participants: High demand ev4.2.1_P1, Limited reserves ev4.2.2_P1
+Gate: and
+Relations: ev4.2.1>ev4.2.2

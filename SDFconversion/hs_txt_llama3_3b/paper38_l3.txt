@@ -1,0 +1,55 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: xxxx
+participants: Charging infrastructure ev1.1_P0.5, Sufficient electricity generation ev1.2_P0.3, Availability of battery raw materials at acceptable costs ev1.3_P0.2
+Gate: and
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Subevent 1.1
+subevent: Charging infrastructure
+event_id: ev1.1
+description: xxxx
+participants: Public charging stations ev1.1.1_P0.5, Home charging stations ev1.1.2_P0.4, Workplace charging stations ev1.1.3_P0.1
+Gate: or
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subevent 1.2
+subevent: Sufficient electricity generation
+event_id: ev1.2
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Availability of battery raw materials at acceptable costs
+event_id: ev1.3
+description: xxxx
+participants: Cobalt ev1.3.1_P0.5, Copper ev1.3.2_P0.4, Nickel ev1.3.3_P0.1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subevent 1.31
+subevent: Cobalt
+event_id: ev1.3.1
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.32
+subevent: Copper
+event_id: ev1.3.2
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.33
+subevent: Nickel
+event_id: ev1.3.3
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

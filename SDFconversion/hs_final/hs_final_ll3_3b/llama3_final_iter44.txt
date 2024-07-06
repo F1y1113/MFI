@@ -1,0 +1,47 @@
+Event 1**
+event: EV battery supply chain dominance
+event_id: ev1
+description: China dominates in the mid- to downstream EV battery supply chain.
+participants: none
+Gate: None
+Relations: None
+
+**Subevent 1.1**
+subevent: Korea's cathode and anode material production capacity
+event_id: ev1.1
+description: Korea is responsible for 15% of cathode, and 3% of anode material production capacity.
+participants: xxxx
+Gate: or
+Relations: None
+
+**Subevent 1.2**
+subevent: Japan's cathode and anode material production capacity
+event_id: ev1.2
+description: Japan accounts for 14% of cathode, and 11% of anode material production capacity.
+participants: xxxx
+Gate: or
+Relations: None
+
+**Event 2**
+event: Anode material production dominance
+event_id: ev2
+description: China dominates in anode material production as it holds the entire supply chain from mining through to anode material production.
+participants: Chinese top-ten anode material production companies xxxx
+Gate: and
+Relations: None
+
+**Subevent 2.1**
+subevent: Nouveau Monde Graphite's graphite mine and active material plant construction in Canada
+event_id: ev2.1
+description: Nouveau Monde Graphite is constructing both a graphite mine and graphite anode active material plant in Canada.
+participants: Nouveau Monde Graphite xxxx
+Gate: None
+Relations: None
+
+**Event 3**
+event: China's National Blueprint for Lithium Batteries (2021-2030)
+event_id: ev3
+description: The blueprint aims to establish secure battery materials and technology supply chains within the country.
+participants: none
+Gate: None
+Relations: None

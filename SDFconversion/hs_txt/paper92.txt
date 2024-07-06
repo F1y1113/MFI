@@ -1,0 +1,175 @@
+Event 1
+event: Lithium-ion battery life cycle management
+event_id: ev1
+description: The most critical phases of the life cycle of lithium-ion batteries are managed in a few key countries, focusing on raw material extraction, production, and recycling.
+participants: DRC cobalt supply ev1.1_P1, Chile lithium supply ev1.2_P1, China graphite and battery supply ev1.3_P1, South Korea battery recycling ev1.4_P1, OEM recycling efforts ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: DRC cobalt supply
+event_id: ev1.1
+description: The Democratic Republic of Congo (DRC) is the main provider of cobalt, a critical raw material for lithium-ion battery production.
+participants: cobalt extraction ev1.1.1_P1
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.1
+subsubevent: Cobalt extraction
+event_id: ev1.1.1
+description: Cobalt extraction in the DRC is a critical component of the lithium-ion battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Chile lithium supply
+event_id: ev1.2
+description: Chile is the main provider of lithium, another essential raw material for lithium-ion batteries.
+participants: lithium extraction ev1.2.1_P1
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.1
+subsubevent: Lithium extraction
+event_id: ev1.2.1
+description: Lithium extraction in Chile is a vital part of the lithium-ion battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: China graphite and battery supply
+event_id: ev1.3
+description: China is the leading provider of synthetic and natural graphite, refined cobalt, and lithium-ion cells and batteries.
+participants: graphite supply ev1.3.1_P1, refined cobalt supply ev1.3.2_P1, battery production ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+subsubevent: Graphite supply
+event_id: ev1.3.1
+description: China is the main provider of synthetic and natural graphite used in lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Refined cobalt supply
+event_id: ev1.3.2
+description: China is a major supplier of refined cobalt, an important component in lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subsubevent: Battery production
+event_id: ev1.3.3
+description: China leads in the production of lithium-ion cells and batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: South Korea battery recycling
+event_id: ev1.4
+description: South Korea is at the forefront of battery recycling technology.
+participants: recycling technology ev1.4.1_P1
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.1
+subsubevent: Recycling technology
+event_id: ev1.4.1
+description: South Korea leads in the development and implementation of battery recycling technology.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: OEM recycling efforts
+event_id: ev1.5
+description: Some original equipment manufacturers (OEMs) are implementing their own recycling programs.
+participants: OEM initiatives ev1.5.1_P1
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.5.1
+subsubevent: OEM initiatives
+event_id: ev1.5.1
+description: OEMs are developing and implementing their own battery recycling initiatives.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: European Commission on critical raw materials
+event_id: ev2
+description: The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production, highlighting the need for a sustainable supply chain, improved cell performance and durability, and innovation in recycling technology.
+participants: critical raw materials designation ev2.1_P1, sustainable supply chain ev2.2_P1, cell performance and durability ev2.3_P1, recycling technology innovation ev2.4_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3, ev2.3>ev2.4
+
+Subevent 2.1
+subevent: Critical raw materials designation
+event_id: ev2.1
+description: The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production.
+participants: cobalt ev2.1.1_P1, lithium ev2.1.2_P1, graphite ev2.1.3_P1, nickel ev2.1.4_P1
+Gate: and
+Relations: ev2.1.1>ev2.1.2, ev2.1.2>ev2.1.3, ev2.1.3>ev2.1.4
+
+Subsubevent 2.1.1
+subsubevent: Cobalt
+event_id: ev2.1.1
+description: Cobalt is designated as a critical raw material by the European Commission for its importance in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.2
+subsubevent: Lithium
+event_id: ev2.1.2
+description: Lithium is designated as a critical raw material by the European Commission for its role in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.3
+subsubevent: Graphite
+event_id: ev2.1.3
+description: Graphite is designated as a critical raw material by the European Commission for its importance in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.4
+subsubevent: Nickel
+event_id: ev2.1.4
+description: Nickel is designated as a critical raw material by the European Commission for its role in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Sustainable supply chain
+event_id: ev2.2
+description: The European Commission emphasizes the need for a sustainable supply chain for critical raw materials used in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Cell performance and durability
+event_id: ev2.3
+description: The European Commission stresses the importance of improved cell performance and durability in battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: Recycling technology innovation
+event_id: ev2.4
+description: The European Commission calls for innovation in recycling technology to support sustainable battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

@@ -1,0 +1,160 @@
+Event 1
+event: European cell production projects
+event_id: ev2
+description: Projects for European cell production in Sweden and Poland are underway.
+participants: Sweden ev2.1_P1, Poland ev2.2_P1
+Gate: or
+Relations: xxxx
+
+Subevent 2.1
+subevent: Sweden
+event_id: ev2.1
+description: Project location for European cell production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Poland
+event_id: ev2.2
+description: Project location for European cell production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: S-LCA methodology
+event_id: ev3
+description: Analyze potential positive and negative social impacts of products along their life cycle.
+participants: extraction ev3.1_P1, processing ev3.2_P1, manufacturing ev3.3_P1, distribution ev3.4_P1, use ev3.5_P1, maintenance ev3.6_P1, recycling ev3.7_P1, final disposal ev3.8_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3, ..., ev3.7>ev3.8
+
+Subevent 3.1
+subevent: extraction
+event_id: ev3.1
+description: Activity related to raw materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+...
+
+Event 4
+event: S-LCA methodology comparison with LCA
+event_id: ev4
+description: Comparison of S-LCA and LCA methodologies based on ISO 14040 framework.
+participants: goal definition ev4.1_P1, scope definition ev4.2_P1, life cycle inventory analysis ev4.3_P1, life cycle impact assessment ev4.4_P1, interpretation ev4.5_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.1>ev4.3, ..., ev4.4>ev4.5
+
+Subevent 4.1
+subevent: goal definition
+event_id: ev4.1
+description: Step in S-LCA methodology.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+...
+
+Event 5
+event: social hotspots analysis
+event_id: ev5
+description: Analysis of social hotspots in supply chain using site-specific data or less granular spatial level.
+participants: social theme ev5.1_P1, problem ev5.2_P1, risk ev5.3_P1, opportunity ev5.4_P1
+Gate: or
+Relations: xxxx
+
+Subevent 5.1
+subevent: social theme
+event_id: ev5.1
+description: Aspect of interest in social hotspots analysis.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 6
+event: social hotspots database (SHDB)
+event_id: ev6
+description: Comprehensive data source for analyzing social hotspots using standardized methodology.
+participants: identifying ev6.1_P1, assessing ev6.2_P1, social risks ev6.3_P1
+Gate: and
+Relations: ev6.1>ev6.2, ev6.1>ev6.3
+```
+
+**Whole Hierarchical Structure:**
+```
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ..., ev1.1.4>ev1.1.5
+
+...
+
+Event 2
+event: European cell production projects
+event_id: ev2
+description: Projects for European cell production in Sweden and Poland are underway.
+participants: Sweden ev2.1_P1, Poland ev2.2_P1
+Gate: or
+Relations: xxxx
+
+Subevent 2.1
+subevent: Sweden
+event_id: ev2.1
+description: Project location for European cell production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+...
+
+Event 3
+event: S-LCA methodology
+event_id: ev3
+description: Analyze potential positive and negative social impacts of products along their life cycle.
+participants: extraction ev3.1_P1, processing ev3.2_P1, manufacturing ev3.3_P1, distribution ev3.4_P1, use ev3.5_P1, maintenance ev3.6_P1, recycling ev3.7_P1, final disposal ev3.8_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.1>ev3.3, ..., ev3.7>ev3.8
+
+...
+
+Event 4
+event: S-LCA methodology comparison with LCA
+event_id: ev4
+description: Comparison of S-LCA and LCA methodologies based on ISO 14040 framework.
+participants: goal definition ev4.1_P1, scope definition ev4.2_P1, life cycle inventory analysis ev4.3_P1, life cycle impact assessment ev4.4_P1, interpretation ev4.5_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.1>ev4.3, ..., ev4.4>ev4.5
+
+...
+
+Event 5
+event: social hotspots analysis
+event_id: ev5
+description: Analysis of social hotspots in supply chain using site-specific data or less granular spatial level.
+participants: social theme ev5.1_P1, problem ev5.2_P1, risk ev5.3_P1, opportunity ev5.4_P1
+Gate: or
+Relations: xxxx
+
+...
+
+Event 6
+event: social hotspots database (SHDB)
+event_id: ev6
+description: Comprehensive data source for analyzing social hotspots using standardized methodology.
+participants: identifying ev6.1_P1, assessing ev6.2_P1, social risks ev6.3_P1
+Gate: and
+Relations: ev6.1>ev6.2, ev6.1>ev6.3

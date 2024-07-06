@@ -1,0 +1,56 @@
+Event 1
+event: Automakers' investment decisions, their performance requirements and the contracts they conclude with material suppliers
+event_id: ev1
+description: xxxx
+participants: automakers' investment decisions ev1.1_P1, performance requirements ev1.2_P1, contracts with material suppliers ev1.3_P1
+Gate: xxxx
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: automakers' investment decisions
+event_id: ev1.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: performance requirements
+event_id: ev1.2
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.3
+subevent: contracts with material suppliers
+event_id: ev1.3
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Event 2
+event: Increasing role of electricity as an energy carrier in decarbonising the transportation sector
+event_id: ev2
+description: xxxx
+participants: electric vehicles ev2.1_P1, public charging infrastructure ev2.2_P1
+event_id: ev2
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: electric vehicles
+event_id: ev2.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 2.2
+subevent: public charging infrastructure
+event_id: ev2.2
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+

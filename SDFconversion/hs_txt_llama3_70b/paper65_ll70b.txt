@@ -1,0 +1,47 @@
+Event 1
+event: spent LIB recovery optimization
+event_id: ev1
+description: The number of publications in the field of spent LIB recovery has grown, highlighting the importance of optimizing collection facility operations (e.g., dismantling).
+participants: Hoyer et al. [105] ev1.1_P0.5, Tadaros et al. [106] ev1.2_P0.3, Hendrickson et al. [107] ev1.3_P0.4
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Subevent 1.1
+subevent: sequential deployment of recycling plants over time
+event_id: ev1.1
+description: Developed an optimization model that allowed a sequential deployment of recycling plants over time.
+participants: xxxx
+Gate: and
+Relations: ev1.1.1>ev1.1
+
+Subevent 1.2
+subevent: future supply chain network for spent LIBS in Sweden
+event_id: ev1.2
+description: Designed a future supply chain network for spent LIBs in Sweden.
+participants: xxxx
+Gate: and
+Relations: ev1.2.1>ev1.2
+
+Subevent 1.3
+subevent: optimal facility locations for LIB recycling in California
+event_id: ev1.3
+description: Applied geospatial modeling to determine the optimal facility locations for LIB recycling in California with the goal of minimizing the cost and GHG emissions.
+participants: xxxx
+Gate: and
+Relations: ev1.3.1>ev1.3
+
+Subevent 2
+subevent: material recovery from pyro-process
+event_id: ev2
+description: Material recovery from pyro-process was found to lower the primary energy demand by 6—56% and decrease GHG emissions by 23% compared to virgin production.
+participants: xxxx
+Gate: and
+Relations: ev2.1>ev2
+
+Subsubevent 2.1
+subsubevent: comparison of LIB virgin production with pyrometallurgical recycling
+event_id: ev2.1
+description: Compared LIB virgin production with pyrometallurgical recycling.
+participants: xxxx
+Gate: and
+Relations: ev2.1.1>ev2.1

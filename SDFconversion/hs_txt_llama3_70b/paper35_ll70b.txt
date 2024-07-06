@@ -1,0 +1,143 @@
+Event 1
+event: Improved spent EV battery collection, transport, processing, and recycling
+event_id: ev1
+description: Efficient recycling of up to 98% for lead-acid batteries could offer key insights.
+participants: efficient recycling ev1.1_P0.9, key insights ev1.2_P0.1
+Gate: and
+Relations: ev1>ev2
+
+Event 2
+event: Post-consumer EV battery recycling and resource recovery
+event_id: ev2
+description: Future focus needs to be on post-consumer EV batteries.
+participants: xxxx
+Gate: or
+Relations: ev2>ev3, ev2>ev4
+
+Event 3
+event: Cu production by-product, Most Co production
+event_id: ev3
+description: Most Co is produced as a by-product of Cu production.
+participants: Cu production ev3.1_P0.8, Most Co production ev3.2_P0.2
+Gate: and
+Relations: ev3>ev4
+
+Event 4
+event: Direct recycling method in lithium-ion recycling
+event_id: ev4
+description: The battery is melted in a hot furnace to recover some of the cathode metal.
+participants: direct recycling ev4.1_P0.8, hot furnace ev4.2_P0.2
+Gate: or
+Relations: ev4>ev5
+
+Event 5
+event: Pyrometallurgical method in lithium-ion recycling
+event_id: ev5
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: pyrometallurgy ev5.1_P0.7, metal oxides ev5.2_P0.3
+Gate: and
+Relations: ev5>ev6
+
+Event 6
+event: Hydrometallurgical method in lithium-ion recycling
+event_id: ev6
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: hydrometallurgy ev6.1_P0.8, aqueous solutions ev6.2_P0.2
+Gate: or
+Relations: ev6>ev7
+
+Event 7
+event: Bioleaching method in lithium-ion recycling
+event_id: ev7
+description: Uses bacteria to retrieve precious metals.
+participants: bioleaching ev7.1_P0.9, bacteria ev7.2_P0.1
+Gate: or
+Relations: ev7>ev8
+
+Event 8
+event: Three main methods in lithium-ion recycling
+event_id: ev8
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev8.1_P0.4, hydrometallurgical ev8.2_P0.3, bioleaching ev8.3_P0.3
+Gate: or
+Relations: ev8>ev9
+
+Event 9
+event: Lithium-ion recycling
+event_id: ev9
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: xxxx
+Gate: or
+Relations: ev9>ev10
+
+Event 10
+event: Most Co production as Cu by-product
+event_id: ev10
+description: Most Co is produced as a by-product of Cu production.
+participants: Cu production ev10.1_P0.8, Most Co production ev10.2_P0.2
+Gate: and
+Relations: ev10>ev11
+
+Event 11
+event: Efficient recycling for lead-acid batteries
+event_id: ev11
+description: Efficient recycling of up to 98% for lead-acid batteries could offer key insights.
+participants: efficient recycling ev11.1_P0.9, key insights ev11.2_P0.1
+Gate: and
+Relations: ev11>ev12
+
+Event 12
+event: Improved spent EV battery collection, transport, processing, and recycling
+event_id: ev12
+description: Efficient recycling of up to 98% for lead-acid batteries could offer key insights.
+participants: efficient recycling ev12.1_P0.9, key insights ev12.2_P0.1
+Gate: and
+Relations: ev12>ev13
+
+Event 13
+event: Post-consumer EV battery recycling and resource recovery
+event_id: ev13
+description: Future focus needs to be on post-consumer EV batteries.
+participants: xxxx
+Gate: or
+Relations: ev13>ev14, ev13>ev15
+
+Event 14
+event: Cu production by-product, Most Co production
+event_id: ev14
+description: Most Co is produced as a by-product of Cu production.
+participants: Cu production ev14.1_P0.8, Most Co production ev14.2_P0.2
+Gate: and
+Relations: ev14>ev15
+
+Event 15
+event: Direct recycling method in lithium-ion recycling
+event_id: ev15
+description: The battery is melted in a hot furnace to recover some of the cathode metal.
+participants: direct recycling ev15.1_P0.8, hot furnace ev15.2_P0.2
+Gate: or
+Relations: ev15>ev16
+
+Event 16
+event: Pyrometallurgical method in lithium-ion recycling
+event_id: ev16
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: pyrometallurgy ev16.1_P0.7, metal oxides ev16.2_P0.3
+Gate: and
+Relations: ev16>ev17
+
+Event 17
+event: Hydrometallurgical method in lithium-ion recycling
+event_id: ev17
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: hydrometallurgy ev17.1_P0.8, aqueous solutions ev17.2_P0.2
+Gate: or
+Relations: ev17>ev18
+
+Event 18
+event: Bioleaching method in lithium-ion recycling
+event_id: ev18
+description: Uses bacteria to retrieve precious metals.
+participants: bioleaching ev18.1_P0.9, bacteria ev18.2_P0.1
+Gate: or
+Relations: ev18>ev19

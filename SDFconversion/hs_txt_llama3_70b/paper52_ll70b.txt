@@ -1,0 +1,23 @@
+Event 1
+event: Designing and developing sustainable circular supply chain networks for electric vehicle (EV) batteries
+event_id: ev1
+description: xxxx
+participants: Artificial IoT ev1.1_P1, MILP model ev1.2_P0.5, xxxx ev1.3_P0.5
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Artificial IoT
+event_id: ev1.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: MILP model
+event_id: ev1.2
+description: xxxx
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

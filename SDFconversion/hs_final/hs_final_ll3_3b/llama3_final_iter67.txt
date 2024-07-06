@@ -1,0 +1,60 @@
+Event 1
+event: Ensure lithium supply for companies within the global value chain
+event_id: ev1
+description: Prioritize lithium mining in Brazil to participate in the battery global value chain.
+participants:
+	* Event: Brazil has technology and experience in mining provided by Vale Company (ev1.1_P0.5)
+	* Event: Large lithium reserves are present in neighboring countries in South America (ev1.2_P0.5)
+	* Event: Argentina is a MERCOSUL member, benefiting both countries to extract lithium for batteries (ev1.3_P0.5)
+Gate: or
+Relations: ev1>ev1.1, ev1>ev1.2
+
+Event 2
+event: Map battery global value chain components highlighting those that can or should be produced in Brazil for strategic technology development.
+event_id: ev2
+description: Identify components of the battery global value chain and prioritize production in Brazil.
+participants:
+	* Event: Mapping of battery global value chain (ev2.1_P0.5)
+	* Event: Highlighting components suitable for production in Brazil (ev2.2_P0.5)
+Gate: and
+Relations: ev2>ev2.1, ev2>ev2.2
+
+Subevent 1.1
+subevent: Brazil has technology and experience in mining provided by Vale Company
+event_id: ev1.1
+description: 
+participants: 
+Gate: 
+Relations: 
+
+Subevent 1.2
+subevent: Large lithium reserves are present in neighboring countries in South America
+event_id: ev1.2
+description: 
+participants: 
+Gate: 
+Relations: 
+
+Subevent 1.3
+subevent: Argentina is a MERCOSUL member, benefiting both countries to extract lithium for batteries
+event_id: ev1.3
+description: 
+participants: 
+Gate: 
+Relations: 
+
+Subevent 2.1
+subevent: Mapping of battery global value chain
+event_id: ev2.1
+description: 
+participants: 
+Gate: 
+Relations: 
+
+Subevent 2.2
+subevent: Highlighting components suitable for production in Brazil
+event_id: ev2.2
+description: 
+participants: 
+Gate: 
+Relations: 

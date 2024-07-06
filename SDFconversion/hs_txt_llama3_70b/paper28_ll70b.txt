@@ -1,0 +1,63 @@
+Event 1
+event: Lithium-ion battery supply chain risks
+event_id: ev1
+description: Assessment of supply chain risks for lithium-ion batteries, including mining, refining, and manufacturing stages.
+participants: Mining ev1.1_P0.5, Refining ev1.2_P0.3, Manufacturing ev1.3_P0.2
+Gate: or
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Mining
+event_id: ev1.1
+description: Extraction of lithium and cobalt from ore.
+participants: Lithium ev1.1.1_P0.4, Cobalt ev1.1.2_P0.6, Nickel ev1.1.3_P0.1, Manganese ev1.1.4_P0.1
+Gate: or
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4
+
+Subevent 1.2
+subevent: Refining
+event_id: ev1.2
+description: Processing of lithium and cobalt to produce high-purity materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Manufacturing
+event_id: ev1.3
+description: Assembly of lithium-ion batteries from refined materials.
+participants:xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Lithium and cobalt risks
+event_id: ev2
+description: Risks associated with the mining stages of lithium and cobalt extraction.
+participants: Lithium ev2.1_P0.7, Cobalt ev2.2_P0.8
+Gate: or
+Relations: ev2.2>ev2.1
+
+Subevent 2.1
+subevent: Lithium risks
+event_id: ev2.1
+description: Supply chain disruptions and environmental concerns related to lithium mining.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Nickel and manganese risks
+event_id: ev3
+description: Risks associated with the refining stages of nickel and manganese processing.
+participants: Nickel ev3.1_P0.5, Manganese ev3.2_P0.4
+Gate: or
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: Nickel risks
+event_id: ev3.1
+description: Supply chain disruptions and environmental concerns related to nickel refining.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

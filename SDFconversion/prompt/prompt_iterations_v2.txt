@@ -1,0 +1,131 @@
+**Prompt:**
+Your task is to extract the hierarchical structure from newly provided paragraphs and continue building / extending old hierarchical structure based on newly extracted hierarchical structure. The final output of your task should be a new hierarchical structure with both information/knowledge from old hierarchical structure and newly provided paragraphs.
+
+Old hierarchical structure is:
+###
+{}.format(Current hierarchical structure)
+###
+
+The provided new paragraphs:
+###
+{}_Paragraphs_provided
+###
+
+### Hierarchical Structure Guidelines:
+
+- **Event**: Anything that takes place or happens related to the EV batteries supply chain. Multiple 'events' can exist.
+- **Event ID**: A unique identifier for each event.
+- **Description**: A detailed 2-3 sentence explanation about the event. Set the value to 'xxxx' if empty.
+- **Participants**: All subevents related to this event and their probabilities, set between 0 and 1, with one decimal place. Set the value to 'xxxx' if empty.
+- **Gate**: The relationship between an event and its sub-events:
+  - Use 'and' if no sub-events can be missing.
+  - Use 'or' if some sub-events can be missing.
+  - Use 'xor' if sub-events cannot exist simultaneously.
+  Set the value to 'xxxx' if empty.
+- **Relations**: Specify event-event relations (e.g., ev1.1>ev1.2, meaning ev1.2 is caused by or happens after ev1.1). Set to 'xxxx' if there are no relations.
+
+### Steps to Build the Hierarchical Structure:
+
+1. **Identify Events**: Extract events from the new paragraphs.
+2. **Assign Event IDs**: Ensure each event has a unique identifier.
+3. **Describe Events**: Provide a detailed 2-3 sentence description for each event.
+4. **List Participants**: Identify and list all subevents with their probabilities.
+5. **Determine Gates**: Specify the relationship between events and their subevents (and/or/xor).
+6. **Define Relations**: Specify any event-event relations, setting to 'xxxx' if none.
+
+### Example:
+
+**Input Paragraph**:
+```
+Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling [67,68,69]. The battery is melted in a hot furnace to recover some of the cathode metal in pyrometallurgy. Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys. Although it has a straightforward process and a reasonably mature technology, the main drawbacks are its high cost and high environmental pollution. Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes to precipitate a particular metal. In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance [70]. Although it is a highly effective and power-efficient method, its drawbacks include a lengthy production time and a complicated process. Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells. The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+```
+
+**Extracted Hierarchical Structure**:
+```
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```
+Let’s think about this extracted structure step by step:
+Starting with the first sentence in the paragraph ‘Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling [67,68,69].’ From this sentence, we can learn that ‘pyrometallurgical’, ‘hydrometallurgical’, ‘bioleaching, and direct recycling’ are three methods of ‘lithium-ion recycling’, so select ‘lithium-ion recycling’ as event, and the three methods as subevent and participants of ‘lithium-ion recycling’.
+### Combining Similar Events:
+
+If you encounter similar events, combine them and enhance the structure. For example:
+
+**Current Structure**:
+```
+Event 5
+event: Market and Price Dynamics
+event_id: ev5
+description: Market and price dynamics are influenced by the rapid increase in EV sales, geopolitical events, and supply chain disruptions.
+participants: EV Sales Increase ev5.1_P1, Geopolitical Events ev5.2_P1, Supply Chain Disruptions ev5.3_P1
+Gate: and
+Relations: ev5.1>ev5.2, ev5.2>ev5.3
+
+Event 35
+event: Global Trade Dynamics
+event_id: ev35
+description: The dynamics of global trade affect the EV battery supply chain, including trade agreements and tariffs.
+participants: Trade Agreements ev35.1_P1, Tariffs ev35.2_P1
+Gate: and
+Relations: ev35.1>ev35.2
+```
+
+**Combined Structure**:
+```
+Event 5
+event: Market and Trade Dynamics
+event_id: ev5
+description: Market and trade dynamics are influenced by EV sales, geopolitical events, supply chain disruptions, trade agreements, and tariffs.
+participants: EV Sales Increase ev5.1_P1, Geopolitical Events ev5.2_P1, Supply Chain Disruptions ev5.3_P1, Trade Agreements ev5.4_P1, Tariffs ev5.5_P1
+Gate: and
+Relations: ev5.1>ev5.2, ev5.2>ev5.3, ev5.4>ev5.5
+
+Subevent 5.4
+subevent: Trade Agreements
+event_id: ev5.4
+description: Trade agreements between countries can facilitate or hinder the flow of raw materials and finished products in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.5
+subevent: Tariffs
+event_id: ev5.5
+description: Tariffs imposed on imports and exports can impact the cost and availability of materials and components in the supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```
+
+Please extract the hierarchical structure from newly provided paragraphs and continue building / extending current hierarchical structure based on newly extracted hierarchical structure.
+
+And you need to output the whole hierarchical structure you have now!!!

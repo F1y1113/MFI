@@ -1,0 +1,104 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Three main methods are used in lithium-ion recycling.
+participants: pyrometallurgical ev1.1_P0.33, hydrometallurgy ev1.2_P0.33, bioleaching ev1.3_P0.33
+Gate: or
+Relations: ev1>ev1.1, ev1>ev1.2, ev1>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Uses high-temperature processes to extract metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: battery reuse methods
+event_id: ev2
+description: Efficient methods for reusing batteries have been put forth.
+participants: efficient echelon usage technology ev2.1_P0.5, professional standards and certification ev2.2_P0.5
+Gate: and
+Relations: ev2>ev2.1, ev2>ev2.2
+
+Subevent 2.1
+subevent: efficient echelon usage technology
+event_id: ev2.1
+description: Technologies created for efficient battery reuse.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: professional standards and certification
+event_id: ev2.2
+description: Necessary certifications and regulations for battery reuse technologies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: preferred option for EVs
+event_id: ev3
+description: LBs will continue to be the preferred option for Electric Vehicles in the near future.
+participants: rising number of EVs ev3.1_P1, pertinent policies ev3.2_P1
+Gate: and
+Relations: ev3>ev3.1, ev3>ev3.2
+
+Subevent 3.1
+subevent: rising number of EVs
+event_id: ev3.1
+description: The growing demand for Electric Vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: pertinent policies
+event_id: ev3.2
+description: Governments and organizations introducing policies to strengthen the industrial supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: study focus on echelon usage
+event_id: ev4
+description: The issue of echelon usage is becoming a study focus.
+participants: green economies ev4.1_P0.5, sustainability ev4.2_P0.5
+Gate: and
+Relations: ev4>ev4.1, ev4>ev4.2
+
+Subevent 4.1
+subevent: green economies
+event_id: ev4.1
+description: The present state of world development is focused on green economies.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: sustainability
+event_id: ev4.2
+description: Echelon usage strategies and models emphasizing sustainability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

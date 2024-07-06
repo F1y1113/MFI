@@ -1,0 +1,23 @@
+Event 1
+event: Lithium-Iron Phosphate Battery Recycling
+event_id: ev1
+description: The lithium iron phosphate battery recycling process includes pyrometallurgical, hydrometallurgical, and bioleaching methods.
+participants: pyrometallurgical ev1.1_P0.5, hydrometallurgical ev1.2_P0.3, bioleaching ev1.3_P0.2
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Pyrometallurgical
+event_id: ev1.1
+description: The battery is melted in a hot furnace to recover some of the cathode metal.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Hydrometallurgy
+event_id: ev1.2
+description: Specialized solution reagents are used to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

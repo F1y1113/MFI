@@ -1,0 +1,191 @@
+Event 1
+event: Critical minerals in lithium-ion batteries
+event_id: ev1
+description: Critical minerals like cobalt and manganese play essential roles in lithium-ion batteries, influencing their performance, safety, and sustainability. However, their extraction and supply chains pose significant political, environmental, and social challenges.
+participants: cobalt ev1.1_P1, manganese ev1.2_P1, supply chain optimization ev1.3_P1, new cathode materials ev1.4_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.1
+subevent: Cobalt
+event_id: ev1.1
+description: Cobalt improves battery safety and energy density but comes with political, environmental, social, and governance risks due to its concentrated production in the DRC and control by Chinese investors.
+participants: thermal stability ev1.1.1_P1, energy density ev1.1.2_P1, political risks ev1.1.3_P1, ESG risks ev1.1.4_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3, ev1.1.3>ev1.1.4
+
+Subsubevent 1.1.1
+subsubevent: Thermal stability
+event_id: ev1.1.1
+description: Cobalt enhances the thermal stability of lithium-ion batteries, contributing to their safety.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Energy density
+event_id: ev1.1.2
+description: Cobalt increases the energy density of lithium-ion batteries, extending their lifespan and capacity.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: Political risks
+event_id: ev1.1.3
+description: The concentration of cobalt production in the DRC and control by Chinese investors introduce significant political risks.
+participants: DRC cobalt production ev1.1.3.1_P1, Chinese control ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subsubsubevent 1.1.3.1
+subsubsubevent: DRC cobalt production
+event_id: ev1.1.3.1
+description: Two-thirds of global cobalt production occurs in the DRC, a country with poor resource governance and unsafe artisanal mining practices.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.1.3.2
+subsubsubevent: Chinese control
+event_id: ev1.1.3.2
+description: Chinese investors control 70 percent of the DRC's mining sector and refine 80 percent of global cobalt supply, adding to the political risk.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.4
+subsubevent: ESG risks
+event_id: ev1.1.4
+description: Cobalt mining in the DRC is associated with environmental, social, and governance (ESG) reputational risks, including unsafe conditions and child labor.
+participants: unsafe conditions ev1.1.4.1_P1, child labor ev1.1.4.2_P1
+Gate: and
+Relations: ev1.1.4.1>ev1.1.4.2
+
+Subsubsubevent 1.1.4.1
+subsubsubevent: Unsafe conditions
+event_id: ev1.1.4.1
+description: Artisanal mining in the DRC often involves unsafe working conditions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubsubevent 1.1.4.2
+subsubsubevent: Child labor
+event_id: ev1.1.4.2
+description: The use of child labor in artisanal mining in the DRC poses significant social and governance risks.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Manganese
+event_id: ev1.2
+description: Manganese is another critical mineral for lithium-ion batteries, primarily used in steelmaking. China controls 93 percent of global refining, leading to supply chain vulnerabilities.
+participants: steelmaking ev1.2.1_P1, supply chain disruptions ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subsubevent: Steelmaking
+event_id: ev1.2.1
+description: Manganese is primarily used in steelmaking, accounting for roughly 90 percent of its total demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: Supply chain disruptions
+event_id: ev1.2.2
+description: Power shortages in China disrupted the manganese supply chain, causing supply issues for European users.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Supply chain optimization
+event_id: ev1.3
+description: Optimizing existing technologies in line with supply chain realities can reduce the critical mineral intensity of lithium-ion batteries, focusing on reducing cobalt and graphite use.
+participants: cobalt reduction ev1.3.1_P1, graphite reduction ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subsubevent: Cobalt reduction
+event_id: ev1.3.1
+description: Reducing the cobalt content in lithium-ion batteries can mitigate some of the supply chain challenges and risks.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Graphite reduction
+event_id: ev1.3.2
+description: Reducing the use of graphite in lithium-ion batteries can also help in addressing supply chain challenges.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: New cathode materials
+event_id: ev1.4
+description: New cathode materials, such as LG's NMC 811 and Ultium Cells' cathodes, aim to reduce the reliance on cobalt and other critical minerals in lithium-ion batteries.
+participants: NMC 811 ev1.4.1_P1, Ultium Cells ev1.4.2_P1, cobalt-free batteries ev1.4.3_P1
+Gate: and
+Relations: ev1.4.1>ev1.4.2, ev1.4.2>ev1.4.3
+
+Subsubevent 1.4.1
+subsubevent: NMC 811
+event_id: ev1.4.1
+description: LG's NMC 811 cathode material contains eight parts nickel and one part each of cobalt and magnesium, reducing the reliance on cobalt.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.2
+subsubevent: Ultium Cells
+event_id: ev1.4.2
+description: Ultium Cells' cathodes, used in GM's EVs, further reduce the need for cobalt and magnesium with a composition of seventeen parts nickel to one part each of cobalt, magnesium, and aluminum.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.4.3
+subsubevent: Cobalt-free batteries
+event_id: ev1.4.3
+description: Cobalt-free batteries, such as LFP (lithium-iron-phosphate) batteries, offer a less mineral-intensive alternative, though with reduced energy density.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Expansion of battery material inputs
+event_id: ev2
+description: Expanding battery material inputs to include less environmentally intensive materials like salt, sulfur, silicon, or calcium can improve the sustainability of clean energy value chains.
+participants: alternative battery metals ev2.1_P1, sustainable mining practices ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: Alternative battery metals
+event_id: ev2.1
+description: Materials such as salt, sulfur, silicon, and calcium can be integrated into the battery supply chain, reducing environmental impact and improving sustainability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Sustainable mining practices
+event_id: ev2.2
+description: Integrating best-in-class mining practices from countries like the United States, Canada, and Australia can enhance the sustainability credentials of battery mineral supply chains.
+participants: US mining industry ev2.2.1_P1, Canadian mining industry ev2.2.2_P1, Australian mining industry ev2.2.3_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2, ev2.2.2>ev2.2.3
+
+Subsubevent 2.2.1
+subsubevent: US mining industry
+event_id: ev2.2.1
+description: The US mining industry can provide sustainably mined minerals for battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

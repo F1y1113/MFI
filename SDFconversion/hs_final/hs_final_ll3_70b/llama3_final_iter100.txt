@@ -1,0 +1,147 @@
+Event 1
+event: global battery arms race
+event_id: ev2
+description: The US is currently a bystander in the global competition for battery production.
+participants: China ev2.1_P1, battery megafactories ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: China's initiative
+event_id: ev2.1
+description: China has taken the lead in building battery capacity at speed and scale.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: battery megafactories
+event_id: ev2.2
+description: Super-sized producers of lithium-ion battery cells, which will be the platform technology for all EVs.
+participants: 181 battery megafactories ev2.2.1_P1, 88 active ones ev2.2.2_P0.5
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Event 3
+event: lithium-ion battery cell quality
+event_id: ev3
+description: The quality of lithium-ion battery cells depends on the raw materials used.
+participants: raw materials ev3.1_P1, cathode substance ev3.2_P1
+Gate: and
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: raw materials
+event_id: ev3.1
+description: The quality of lithium-ion battery cells depends on the raw materials used.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: cathode substance
+event_id: ev3.2
+description: The cathode substance is a critical component of lithium-ion battery cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: hierarchical structure of battery production
+event_id: ev4
+description: The hierarchical structure of battery production involves multiple stages and components.
+participants: lithium-ion recycling ev1_P1, global battery arms race ev2_P1, lithium-ion battery cell quality ev3_P1
+Gate: or
+Relations: ev1>ev4, ev2>ev4, ev3>ev4
+```
+
+**Whole Hierarchical Structure:**
+```
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: global battery arms race
+event_id: ev2
+description: The US is currently a bystander in the global competition for battery production.
+participants: China ev2.1_P1, battery megafactories ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: China's initiative
+event_id: ev2.1
+description: China has taken the lead in building battery capacity at speed and scale.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: battery megafactories
+event_id: ev2.2
+description: Super-sized producers of lithium-ion battery cells, which will be the platform technology for all EVs.
+participants: 181 battery megafactories ev2.2.1_P1, 88 active ones ev2.2.2_P0.5
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Event 3
+event: lithium-ion battery cell quality
+event_id: ev3
+description: The quality of lithium-ion battery cells depends on the raw materials used.
+participants: raw materials ev3.1_P1, cathode substance ev3.2_P1
+Gate: and
+Relations: ev3.1>ev3.2
+
+Subevent 3.1
+subevent: raw materials
+event_id: ev3.1
+description: The quality of lithium-ion battery cells depends on the raw materials used.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: cathode substance
+event_id: ev3.2
+description: The cathode substance is a critical component of lithium-ion battery cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: hierarchical structure of battery production
+event_id: ev4
+description: The hierarchical structure of battery production involves multiple stages and components.
+participants: lithium-ion recycling ev1_P1, global battery arms race ev2_P1, lithium-ion battery cell quality ev3_P1
+Gate: or
+Relations: ev1>ev4, ev2>ev4, ev3>ev4
+```

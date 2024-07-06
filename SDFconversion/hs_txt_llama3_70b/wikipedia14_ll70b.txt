@@ -1,0 +1,8 @@
+Event 1
+event: Global low-carbon contracts, along with energy and environmental crises
+event_id: ev1
+description: 
+participants: global low-carbon contracts ev1.1_P0.8, energy and environmental crises ev1.2_P0.9
+Gate: or
+Relations: xxxx
+

@@ -1,0 +1,63 @@
+Event 1
+event: Li-ion battery industry expansion
+event_id: ev1
+description: The Li-ion battery industry is expected to grow tenfold in the next 5-10 years, necessitating a similar expansion in the supply chain.
+participants: Cobalt supply constraints ev1.1_P1, Metals market reaction ev1.2_P1
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: Cobalt supply constraints
+event_id: ev1.1
+description: The majority of cobalt is mined as a byproduct of copper or iron ore in the Democratic Republic of Congo, making its supply inflexible and dependent on the demand for these primary minerals.
+participants: Congo mining operations ev1.1.1_P1, Copper demand ev1.1.2_P1, Iron ore demand ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subevent 1.1.1
+subevent: Congo mining operations
+event_id: ev1.1.1
+description: Cobalt is primarily mined in the Democratic Republic of Congo, often in conjunction with copper and iron ore extraction.
+participants: Mining practices ev1.1.1.1_P1, Co-extraction processes ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subevent 1.1.2
+subevent: Copper demand
+event_id: ev1.1.2
+description: The demand for copper directly influences the rate of cobalt extraction due to their co-occurrence in mining operations.
+participants: Copper market trends ev1.1.2.1_P1, Cobalt extraction rates ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subevent 1.1.3
+subevent: Iron ore demand
+event_id: ev1.1.3
+description: The demand for iron ore also affects cobalt extraction rates, as cobalt is a byproduct of iron ore mining.
+participants: Iron ore market trends ev1.1.3.1_P1, Cobalt extraction rates ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subevent 1.2
+subevent: Metals market reaction
+event_id: ev1.2
+description: The price of elemental cobalt has more than doubled in the last 12 months, driven by anticipated demand from the battery industry.
+participants: Cobalt pricing ev1.2.1_P1, Battery industry demand ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subevent 1.2.1
+subevent: Cobalt pricing
+event_id: ev1.2.1
+description: The significant increase in cobalt prices reflects the anticipated demand for cobalt in battery production.
+participants: Market speculation ev1.2.1.1_P1, Price trends ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subevent 1.2.2
+subevent: Battery industry demand
+event_id: ev1.2.2
+description: The expected growth of the battery industry is driving up demand for cobalt, influencing its market price.
+participants: EV market growth ev1.2.2.1_P1, Renewable energy storage ev1.2.2.2_P0.5
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2

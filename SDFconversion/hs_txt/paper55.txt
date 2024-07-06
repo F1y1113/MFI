@@ -1,0 +1,79 @@
+Event 1
+event: ev battery supply chain
+event_id: ev1
+description: The supply chain for electric vehicle batteries involves various stages from raw material extraction to battery recycling and reuse.
+participants: economic viability ev1.1_P1, cost analysis ev1.2_P1, hydrogen vehicles ev1.3_P1, lithium-ion battery ev1.4_P1, rare-earth elements ev1.5_P1, supply chain risk ev1.6_P1, supply chain resilience ev1.7_P1, synthetic gas supply chains ev1.8_P1, logistics sector ev1.9_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5, ev1.5>ev1.6, ev1.6>ev1.7, ev1.7>ev1.8, ev1.8>ev1.9
+
+Subevent 1.1
+subevent: economic viability
+event_id: ev1.1
+description: Discussion on the economic impacts of upgrading the electrical grid to support electric mobility.
+participants: electricity consumers ev1.1.1_P1, lower-income buyers ev1.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: cost analysis
+event_id: ev1.2
+description: Many studies analyze the economic feasibility of EVs by examining the cost of fuel and battery components.
+participants: life cycle cost ev1.2.1_P1, levelized fuel production cost ev1.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: hydrogen vehicles
+event_id: ev1.3
+description: Analysis of the cost of owning and driving a fuel-cell electric vehicle powered by green hydrogen.
+participants: hydrogen production ev1.3.1_P1, vehicle powertrain ev1.3.2_P1, taxes and subsidies ev1.3.3_P1, usage pattern ev1.3.4_P1, energy cost ev1.3.5_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.4
+subevent: lithium-ion battery
+event_id: ev1.4
+description: Examination of lithium-ion batteries, focusing on chemical components and life cycle analysis.
+participants: cobalt production ev1.4.1_P1, lithium-ion battery recycling ev1.4.2_P1, supply chain disruption ev1.4.3_P1, renewable energy sources ev1.4.4_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.5
+subevent: rare-earth elements
+event_id: ev1.5
+description: Analysis of the exploration and production of rare-earth elements, highlighting the need for further production and overcoming technical and economic challenges.
+participants: rare-earth element end use ev1.5.1_P1, bauxite by-product ev1.5.2_P1, phosphate by-product ev1.5.3_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.6
+subevent: supply chain risk
+event_id: ev1.6
+description: Examination of supply chain risks, especially during the COVID-19 pandemic and its impact on production and sales.
+participants: pandemic impact ev1.6.1_P1, supply chain risk management ev1.6.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.7
+subevent: supply chain resilience
+event_id: ev1.7
+description: Analysis of supply chain resilience strategies, including reverse resilience and reducing material scarcity.
+participants: reverse resilience ev1.7.1_P1, supply chain design ev1.7.2_P1, lithium supply chain ev1.7.3_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.8
+subevent: synthetic gas supply chains
+event_id: ev1.8
+description: Investigation of the greenhouse gas emissions of fuel cell electric vehicles fueled with hydrogen and synthetic natural gas.
+participants: greenhouse gas emissions ev1.8.1_P1, fuel cell electric vehicles ev1.8.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.9
+subevent: logistics sector
+event_id: ev1.9
+description: Analysis of the use of electric vehicles in the logistics sector, including challenges and benefits.
+participants: logistics challenges ev1.9.1_P1, vehicle autonomy ev1.9.2_P1
+Gate: and
+Relations: xxxx

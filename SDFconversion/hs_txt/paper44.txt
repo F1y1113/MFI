@@ -1,0 +1,95 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The supply chain for electric vehicle batteries involves the production, distribution, and recycling of batteries, with key players like Tesla creating vertically integrated supply chains.
+participants: Tesla supply chain ev1.1_P1, limitations and challenges ev1.2_P1, future research avenues ev1.3_P0.5
+Gate: and
+Relations: ev1.1>ev1.2, ev1.3>ev1.1
+
+Subevent 1.1
+subevent: Tesla supply chain
+event_id: ev1.1
+description: Tesla has established a vertically integrated supply chain that includes batteries, electric cars, and charging infrastructure to meet evolving customer needs.
+participants: Gigafactories ev1.1.1_P1, closed-loop supply chain ev1.1.2_P1, market expansion ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subevent: Gigafactories
+event_id: ev1.1.1
+description: Tesla’s gigafactories are large-scale manufacturing plants that produce batteries and electric vehicles, inspired by Ford T mass production.
+participants: production technology ev1.1.1.1_P1, mass production ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubevent 1.1.2
+subevent: Closed-loop supply chain
+event_id: ev1.1.2
+description: Tesla’s supply chain is designed to be green and vertically integrated, including recycling and repurposing of batteries.
+participants: battery recycling ev1.1.2.1_P1, charging infrastructure ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubevent 1.1.3
+subevent: Market expansion
+event_id: ev1.1.3
+description: Tesla's global market expansion is driven by innovative strategies and adapting lessons from past projects like EV1 and Better Place.
+participants: global sales ev1.1.3.1_P1, market demand ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subevent 1.2
+subevent: Limitations and challenges
+event_id: ev1.2
+description: Tesla faces several challenges such as utility grid overload and raw material shortages that could impede its expansion.
+participants: utility grid overload ev1.2.1_P1, raw material shortages ev1.2.2_P1, production goals ev1.2.3_P1
+Gate: or
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subevent: Utility grid overload
+event_id: ev1.2.1
+description: The increasing demand for electric vehicles may strain existing utility grids, requiring upgrades and innovations.
+participants: infrastructure upgrades ev1.2.1.1_P1, energy storage solutions ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubevent 1.2.2
+subevent: Raw material shortages
+event_id: ev1.2.2
+description: Tesla strives to address shortages of raw materials necessary for battery production by investing in the mining industry.
+participants: mining investments ev1.2.2.1_P1, sustainable sourcing ev1.2.2.2_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2
+
+Subsubevent 1.2.3
+subevent: Production goals
+event_id: ev1.2.3
+description: Meeting long-term production goals remains a challenge for Tesla, impacting future policy and investments.
+participants: manufacturing capacity ev1.2.3.1_P1, policy support ev1.2.3.2_P0.5
+Gate: and
+Relations: ev1.2.3.1>ev1.2.3.2
+
+Subevent 1.3
+subevent: Future research avenues
+event_id: ev1.3
+description: The study suggests potential areas for future research in the development of the electric vehicle supply chain and infrastructure.
+participants: competitor analysis ev1.3.1_P1, technological innovations ev1.3.2_P1
+Gate: or
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subevent: Competitor analysis
+event_id: ev1.3.1
+description: Future studies should track the growth and technological advancements of Tesla’s competitors to assess market dynamics.
+participants: market share ev1.3.1.1_P1, technological capabilities ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subevent: Technological innovations
+event_id: ev1.3.2
+description: Research should focus on innovations in battery technology and infrastructure to support the growing electric vehicle market.
+participants: battery technology ev1.3.2.1_P1, charging solutions ev1.3.2.2_P1
+Gate: and
+Relations: ev1.3.2.1>ev1.3.2.2

@@ -1,0 +1,55 @@
+Event 1
+event: Lithium Nickel Manganese Cobalt Oxides (NMC) optimization for electric vehicle applications
+event_id: ev1
+description: Reducing cobalt content and increasing nickel content in NMC to improve energy density and operating voltage.
+participants: reducing cobalt content ev1.1_P0.7, increasing nickel content ev1.2_P0.3
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: Reducing Cobalt Content
+event_id: ev1.1
+description: Due to ethical issues with cobalt mining and high cost, reducing the amount of cobalt in NMC.
+participants: high cost ev1.1.1_P0.5, ethical issues ev1.1.2_P0.3
+Gate: or
+Relations: ev1.1.1>ev1.1.2
+
+Subevent 1.2
+subevent: Increasing Nickel Content
+event_id: ev1.2
+description: Provides more capacity within the stable operation window.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: NMC Battery Usage in Electric Vehicles
+event_id: ev2
+description: Many electric cars use NMC cathode batteries, installed in BMW ActiveE and BMW i8.
+participants: NMC batteries ev2.1_P0.7, BMW ActiveE ev2.2_P0.3, BMW i8 ev2.3_P0.3
+Gate: or
+Relations: ev2.1>ev2.2, ev2.1>ev2.3
+
+Subevent 2.1
+subevent: NMC Batteries
+event_id: ev2.1
+description: Used as cathode batteries in electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: BMW ActiveE
+event_id: ev2.2
+description: Installed with NMC battery in 2011.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: BMW i8
+event_id: ev2.3
+description: Installed with NMC battery in 2014.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

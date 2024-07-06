@@ -1,0 +1,591 @@
+Event 1
+event: Battery Manufacturing Supply Chain
+event_id: ev1
+description: The battery manufacturing supply chain has three main parts: cell manufacturing, module manufacturing, and pack assembly. These stages can be conducted in the same place or at different locations, and the supply chain dynamics vary based on location and logistics.
+participants: Cell Manufacturing ev1.1_P1, Module Manufacturing ev1.2_P1, Pack Assembly ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Cell Manufacturing
+event_id: ev1.1
+description: Cell manufacturing involves producing the electrochemical cells, which consist of a cathode, an anode, and an electrolyte. This stage adds significant value to the battery.
+participants: Cathode Production ev1.1.1_P1, Anode Production ev1.1.2_P1, Electrolyte Production ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subsubevent: Cathode Production
+event_id: ev1.1.1
+description: Cathode production involves creating the positive electrode for the battery cell, which is crucial for the battery's performance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Anode Production
+event_id: ev1.1.2
+description: Anode production involves creating the negative electrode for the battery cell, facilitating the flow of lithium ions.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subsubevent: Electrolyte Production
+event_id: ev1.1.3
+description: Electrolyte production involves creating the medium that allows lithium ions to move between the cathode and anode, enabling battery discharge.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Module Manufacturing
+event_id: ev1.2
+description: Module manufacturing involves assembling multiple cells into a module, with the number of cells varying by manufacturer and cell type. This stage contributes to about 11 percent of the total cost of a finished lithium-ion battery pack.
+participants: Cell Assembly ev1.2.1_P1, Module Assembly ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subsubevent: Cell Assembly
+event_id: ev1.2.1
+description: Cell assembly involves arranging individual cells into a module, preparing them for integration into battery packs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subsubevent: Module Assembly
+event_id: ev1.2.2
+description: Module assembly involves putting together the modules using the assembled cells, readying them for pack assembly.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Pack Assembly
+event_id: ev1.3
+description: Pack assembly involves combining modules into a complete battery pack, which is often done near the vehicle assembly location due to transportation costs.
+participants: Module Integration ev1.3.1_P1, Final Pack Assembly ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subsubevent: Module Integration
+event_id: ev1.3.1
+description: Module integration involves fitting together modules into a structure that can be used in a battery pack.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Final Pack Assembly
+event_id: ev1.3.2
+description: Final pack assembly involves assembling the integrated modules into the final battery pack, ready for installation in electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: EV Battery Trade Dynamics
+event_id: ev2
+description: The trade dynamics of EV batteries, including lithium-ion batteries, have evolved significantly with changes in import and export patterns, HS classification updates, and value-added calculations.
+participants: Global EV Trade ev2.1_P1, Lithium-Ion Battery Trade ev2.2_P1, U.S. Lithium-Ion Battery Trade ev2.3_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Global EV Trade
+event_id: ev2.1
+description: Starting in 2017, a specific HS subheading for electric vehicles allows for empirical analysis of global EV trade trends, highlighting significant growth in imports among the top global importers.
+participants: Import Analysis ev2.1.1_P1, Export Analysis ev2.1.2_P1
+Gate: and
+Relations: ev2.1.1>ev2.1.2
+
+Subsubevent 2.1.1
+subsubevent: Import Analysis
+event_id: ev2.1.1
+description: Analyzing trends in EV imports, with significant growth observed among the top global importers over recent years.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.1.2
+subsubevent: Export Analysis
+event_id: ev2.1.2
+description: Examining trends in EV exports, highlighting which countries are leading in the export of electric vehicles.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Lithium-Ion Battery Trade
+event_id: ev2.2
+description: The trade of lithium-ion batteries involves significant imports and exports by countries like the U.S., Germany, and China, with classifications under HS subheading 8507.60 and additional U.S. HTS numbers for more precise tracking.
+participants: Import Trends ev2.2.1_P1, Export Trends ev2.2.2_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subsubevent 2.2.1
+subsubevent: Import Trends
+event_id: ev2.2.1
+description: The U.S. and Germany have seen significant growth in lithium-ion battery imports, nearly equaling China's imports in recent years.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.2.2
+subsubevent: Export Trends
+event_id: ev2.2.2
+description: Examining lithium-ion battery export trends, with China continuing to hold a large share of the world's exports.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: U.S. Lithium-Ion Battery Trade
+event_id: ev2.3
+description: The U.S. imports the majority of its assembled EV batteries from South Korea and battery parts from Japan, with exports primarily going to the Netherlands, Mexico, and the UK.
+participants: Import Patterns ev2.3.1_P1, Export Patterns ev2.3.2_P1, HTS Classification ev2.3.3_P1
+Gate: and
+Relations: ev2.3.1>ev2.3.2, ev2.3.2>ev2.3.3
+
+Subsubevent 2.3.1
+subsubevent: Import Patterns
+event_id: ev2.3.1
+description: The U.S. imports most of its assembled EV batteries from South Korea and battery parts from Japan.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.3.2
+subsubevent: Export Patterns
+event_id: ev2.3.2
+description: The U.S. exports the majority of its lithium-ion batteries to the Netherlands, Mexico, and the United Kingdom.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.3.3
+subsubevent: HTS Classification
+event_id: ev2.3.3
+description: The U.S. Harmonized Tariff System (HTS) provides specific statistical reporting numbers for EV batteries, allowing for precise trade analysis.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: EV Battery Supply Chain Value-added
+event_id: ev3
+description: Value-added in the EV battery supply chain is calculated by splitting value between the country where the battery is assembled and the country where the battery's cells were made, with adjustments for materials and purchased items.
+participants: Cell Assembly Value-added ev3.1_P1, Pack Assembly Value-added ev3.2_P1, U.S. Value-added Analysis ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Cell Assembly Value-added
+event_id: ev3.1
+description: The value-added of cell assembly is calculated by subtracting the cost of materials and purchased items from the total cell cost.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+event: Pack Assembly Value-added
+event_id: ev3.2
+description: The value-added of pack assembly is calculated by subtracting the cost of materials and purchased items from the final pack cost to the OEM, revealing a reduced share of value-added at the pack level compared to the cell level.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: U.S. Value-added Analysis
+event_id: ev3.3
+description: U.S. cell and battery assembly accounts for a significant share of the value-added in vehicles produced in the United States, with a focus on extracting value-added from the cost of materials used in cell and pack production.
+participants: U.S. EV Sales ev3.3.1_P1, Value-added Trends ev3.3.2_P1
+Gate: and
+Relations: ev3.3.1>ev3.3.2
+
+Subsubevent 3.3.1
+subsubevent: U.S. EV Sales
+event_id: ev3.3.1
+description: The U.S. EV sales and battery supply chain have expanded significantly, with declining battery costs contributing to increased value-added in domestic production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.3.2
+subsubevent: Value-added Trends
+event_id: ev3.3.2
+description: Future research aims to analyze value-added over time, revealing which countries are most competitive at different points in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 4
+event: Global Lithium-Ion Battery Trade
+event_id: ev4
+description: The global trade dynamics of lithium-ion batteries, focusing on import and export trends, classification issues, and trade statistics at the global and U.S. levels.
+participants: Import Trends ev4.1_P1, Export Trends ev4.2_P1, Classification Issues ev4.3_P1
+Gate: and
+Relations: ev4.1>ev4.2, ev4.2>ev4.3
+
+Subevent 4.1
+subevent: Import Trends
+event_id: ev4.1
+description: Significant growth in lithium-ion battery imports in countries like the U.S. and Germany, with nearly equal imports to China in recent years.
+participants: Top Importers Analysis ev4.1.1_P1, Import Unit Prices ev4.1.2_P1
+Gate: and
+Relations: ev4.1.1>ev4.1.2
+
+Subsubevent 4.1.1
+subsubevent: Top Importers Analysis
+event_id: ev4.1.1
+description: Analyzing the top global importers of lithium-ion batteries, including the U.S., Germany, Hong Kong, and Vietnam.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.1.2
+subsubevent: Import Unit Prices
+event_id: ev4.1.2
+description: Examining the unit prices of lithium-ion battery imports across different countries to infer the composition of imports.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.2
+subevent: Export Trends
+event_id: ev4.2
+description: China's continued dominance in lithium-ion battery exports, with significant shares in global trade.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 4.3
+subevent: Classification Issues
+event_id: ev4.3
+description: Challenges in tracking lithium-ion battery trade due to broad HS classifications, with U.S. HTS providing more precise data for EV batteries.
+participants: U.S. HTS Classification ev4.3.1_P1, Global HS Classification ev4.3.2_P1
+Gate: and
+Relations: ev4.3.1>ev4.3.2
+
+Subsubevent 4.3.1
+subsubevent: U.S. HTS Classification
+event_id: ev4.3.1
+description: The U.S. HTS provides additional 10-digit statistical reporting numbers for EV batteries, enabling precise trade analysis.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 4.3.2
+subsubevent: Global HS Classification
+event_id: ev4.3.2
+description: Global HS classifications for lithium-ion batteries remain broad, making it difficult to differentiate between EV batteries and other uses.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 5
+event: Electric Vehicle Trade Analysis
+event_id: ev5
+description: Analysis of electric vehicle trade trends, with the introduction of specific HS subheadings for EVs starting in 2017, allowing for detailed empirical examination.
+participants: Import Growth ev5.1_P1, Export Analysis ev5.2_P1
+Gate: and
+Relations: ev5.1>ev5.2
+
+Subevent 5.1
+subevent: Import Growth
+event_id: ev5.1
+description: Significant growth in EV imports among the top global importers, with total imports more than tripling over the last three years.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 5.2
+subevent: Export Analysis
+event_id: ev5.2
+description: Detailed analysis of EV export trends, focusing on the leading exporting countries and their impact on global trade.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 6
+event: U.S. Lithium-ion Battery Trade
+event_id: ev6
+description: Analysis of U.S. lithium-ion battery trade from 2017 to 2019, focusing on import and export trends, trade partners, and classification details.
+participants: Import Partners ev6.1_P1, Export Partners ev6.2_P1, HTS Classification ev6.3_P1
+Gate: and
+Relations: ev6.1>ev6.2, ev6.2>ev6.3
+
+Subevent 6.1
+subevent: Import Partners
+event_id: ev6.1
+description: The majority of U.S. lithium-ion battery imports come from South Korea, with battery parts primarily imported from Japan.
+participants: South Korea Imports ev6.1.1_P1, Japan Imports ev6.1.2_P1
+Gate: and
+Relations: ev6.1.1>ev6.1.2
+
+Subsubevent 6.1.1
+subsubevent: South Korea Imports
+event_id: ev6.1.1
+description: South Korea is the primary source of assembled EV battery imports to the U.S.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.1.2
+subsubevent: Japan Imports
+event_id: ev6.1.2
+description: Japan is the main supplier of battery parts imported into the U.S.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.2
+subevent: Export Partners
+event_id: ev6.2
+description: The U.S. exports most of its lithium-ion batteries to the Netherlands, Mexico, and the United Kingdom.
+participants: Netherlands Exports ev6.2.1_P1, Mexico Exports ev6.2.2_P1, United Kingdom Exports ev6.2.3_P1
+Gate: and
+Relations: ev6.2.1>ev6.2.2, ev6.2.2>ev6.2.3
+
+Subsubevent 6.2.1
+subsubevent: Netherlands Exports
+event_id: ev6.2.1
+description: The Netherlands is a key destination for U.S. lithium-ion battery exports.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.2.2
+subsubevent: Mexico Exports
+event_id: ev6.2.2
+description: Mexico imports a significant portion of U.S. lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.2.3
+subsubevent: United Kingdom Exports
+event_id: ev6.2.3
+description: The United Kingdom is a major market for U.S. lithium-ion battery exports.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 6.3
+subevent: HTS Classification
+event_id: ev6.3
+description: The U.S. HTS separates lithium-ion batteries for EVs from other uses, providing precise data for trade analysis.
+participants: EV Battery Classification ev6.3.1_P1, Battery Parts Classification ev6.3.2_P1
+Gate: and
+Relations: ev6.3.1>ev6.3.2
+
+Subsubevent 6.3.1
+subsubevent: EV Battery Classification
+event_id: ev6.3.1
+description: HTS 8507.60.0010 is used for importing EV battery packs into the U.S.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 6.3.2
+subsubevent: Battery Parts Classification
+event_id: ev6.3.2
+description: HTS 8507.90.8000 is used for importing battery cells and modules as parts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 7
+event: Value-added in EV Battery Supply Chain
+event_id: ev7
+description: Analysis of value-added in the EV battery supply chain, focusing on cell manufacturing, pack assembly, and the impact of updated methodologies.
+participants: Cell Manufacturing Value-added ev7.1_P1, Pack Assembly Value-added ev7.2_P1, Updated Methodologies ev7.3_P1
+Gate: and
+Relations: ev7.1>ev7.2, ev7.2>ev7.3
+
+Subevent 7.1
+subevent: Cell Manufacturing Value-added
+event_id: ev7.1
+description: Calculating the value-added in cell manufacturing by subtracting the cost of materials and purchased items from the cell cost.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 7.2
+subevent: Pack Assembly Value-added
+event_id: ev7.2
+description: The value-added in pack assembly is calculated by subtracting the cost of materials and purchased items from the final pack cost to the OEM.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 7.3
+subevent: Updated Methodologies
+event_id: ev7.3
+description: Updated methodologies reduce the share of value-added at the pack level compared to the cell level, highlighting differences in value-added calculations.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 8
+event: EV Battery Supply Chain Segments
+event_id: ev8
+description: The EV battery supply chain is divided into three main segments: cell manufacturing, module manufacturing, and pack assembly.
+participants: Cell Manufacturing ev8.1_P1, Module Manufacturing ev8.2_P1, Pack Assembly ev8.3_P1
+Gate: and
+Relations: ev8.1>ev8.2, ev8.2>ev8.3
+
+Subevent 8.1
+subevent: Cell Manufacturing
+event_id: ev8.1
+description: The process of producing the smallest, but most important, component of lithium-ion batteries, the electrochemical cell.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.2
+subevent: Module Manufacturing
+event_id: ev8.2
+description: The process of assembling multiple cells into a module, with the number of cells per module varying by manufacturer and cell type.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 8.3
+subevent: Pack Assembly
+event_id: ev8.3
+description: The process of assembling modules into battery packs, often conducted near the vehicle assembly location due to transportation costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 9
+event: EV and Battery Trade Analysis
+event_id: ev9
+description: Detailed analysis of electric vehicle and lithium-ion battery trade, focusing on import and export trends, classification challenges, and trade statistics.
+participants: EV Trade Trends ev9.1_P1, Battery Trade Trends ev9.2_P1, Classification Challenges ev9.3_P1
+Gate: and
+Relations: ev9.1>ev9.2, ev9.2>ev9.3
+
+Subevent 9.1
+subevent: EV Trade Trends
+event_id: ev9.1
+description: Analysis of trends in global electric vehicle trade, highlighting the growth in imports and exports among leading countries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 9.2
+subevent: Battery Trade Trends
+event_id: ev9.2
+description: Examination of global lithium-ion battery trade trends, with a focus on import and export patterns in key markets like the U.S., China, and Germany.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 9.3
+subevent: Classification Challenges
+event_id: ev9.3
+description: Challenges in tracking lithium-ion battery trade due to broad HS classifications and the need for more precise statistical reporting.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 10
+event: U.S. EV Battery Supply Chain Analysis
+event_id: ev10
+description: Comprehensive analysis of the U.S. EV battery supply chain, including trade dynamics, value-added calculations, and future research directions.
+participants: Trade Dynamics ev10.1_P1, Value-added Calculations ev10.2_P1, Future Research ev10.3_P1
+Gate: and
+Relations: ev10.1>ev10.2, ev10.2>ev10.3
+
+Subevent 10.1
+subevent: Trade Dynamics
+event_id: ev10.1
+description: Analysis of U.S. EV battery trade dynamics, including import and export patterns and key trade partners.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.2
+subevent: Value-added Calculations
+event_id: ev10.2
+description: Detailed calculations of value-added in the U.S. EV battery supply chain, focusing on cell and pack assembly.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 10.3
+subevent: Future Research
+event_id: ev10.3
+description: Future research directions aim to analyze value-added over time and identify competitive advantages in the EV battery supply chain.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 11
+event: EV Battery Manufacturing Locations
+event_id: ev11
+description: The geographical distribution of EV battery manufacturing, including examples of plants producing cells, modules, and packs in different locations.
+participants: Envision AESC Sunderland Plant ev11.1_P1, Tesla Gigafactory Nevada ev11.2_P1, Tesla Fremont Plant ev11.3_P1
+Gate: and
+Relations: ev11.1>ev11.2, ev11.2>ev11.3
+
+Subevent 11.1
+subevent: Envision AESC Sunderland Plant
+event_id: ev11.1
+description: The Envision AESC plant in Sunderland, England, produces battery cells and modules, and assembles packs for the Nissan Leaf.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 11.2
+subevent: Tesla Gigafactory Nevada
+event_id: ev11.2
+description: Tesla's Gigafactory in Nevada produces modules and packs using cells produced by Panasonic at the same location.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 11.3
+subevent: Tesla Fremont Plant
+event_id: ev11.3
+description: Tesla's Fremont plant produces modules and packs using cells produced both internally and by Panasonic in Japan.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 12
+event: EV Battery Supply Chain Cost Analysis
+event_id: ev12
+description: Analysis of cost components in the EV battery supply chain, focusing on the costs associated with cell manufacturing, module production, and pack assembly.
+participants: Cell Manufacturing Costs ev12.1_P1, Module Production Costs ev12.2_P1, Pack Assembly Costs ev12.3_P1
+Gate: and
+Relations: ev12.1>ev12.2, ev12.2>ev12.3
+
+Subevent 12.1
+subevent: Cell Manufacturing Costs
+event_id: ev12.1
+description: The costs associated with manufacturing electrochemical cells, including materials and production expenses.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 12.2
+subevent: Module Production Costs
+event_id: ev12.2
+description: The costs involved in assembling multiple cells into a module, which varies by manufacturer and cell type.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 12.3
+subevent: Pack Assembly Costs
+event_id: ev12.3
+description: The costs of assembling modules into battery packs, often conducted near vehicle assembly locations to reduce transportation costs.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

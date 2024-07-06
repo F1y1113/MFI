@@ -1,0 +1,23 @@
+Event 1
+event: Green economy as a new boom of lithium extractivism
+event_id: ev1
+description: As mentioned above, lithium demand for the manufacture of rechargeable batteries doubled in less than ten years (USGS, 2012, 2016, 2020), a process directly related to carbon mitigation policies (c.f. Gobel, 2013; Fornillo, 2019; Observatorio Plurinacional de Salares Andinos, 2021).
+participants: low-carbon future ev1.1_P1, mineral-rich countries ev1.2_P0.5
+Gate: or
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: new colonial inequality
+event_id: ev1.1
+description: As “a low-carbon future points to a more intensive demand for minerals, which would definitely have an effect on developing countries, rich in these resources” (La Porta, 2019, p. 28).
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: boom of lithium extractivism
+event_id: ev1.2
+description: This boom has triggered new eco-colonial rhetoric such as “Green Mining,” “Climate Smart Mining,” even “Mining for a low carbon future” (CEPAL, 2019).
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

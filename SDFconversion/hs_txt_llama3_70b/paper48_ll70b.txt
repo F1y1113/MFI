@@ -1,0 +1,39 @@
+Event 1
+event: Battery production and utilization
+event_id: ev1
+description: The process of producing lithium-ion batteries for electric vehicles, including the role of lithium in powering the vehicle.
+participants: Lithium extraction ev1.1_P1, Electrolysis ev1.2_P0.5, Cathode manufacturing ev1.3_P0.5, Anode manufacturing ev1.4_P0.5, Final assembly ev1.5_P0.5
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Event 2
+event: Battery recharging
+event_id: ev2
+description: The process of recharging lithium-ion batteries for electric vehicles.
+participants: Charging stations ev2.1_P0.7, Vehicle electronics ev2.2_P0.3
+Gate: or
+Relations: ev2.1>ev2.2
+
+Event 3
+event: Battery recycling
+event_id: ev3
+description: The process of recycling lithium-ion batteries for electric vehicles.
+participants: Pyrometallurgy ev3.1_P0.4, Hydrometallurgy ev3.2_P0.3, Bioleaching ev3.3_P0.3
+Gate: or
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Event 4
+event: Battery disposal
+event_id: ev4
+description: The process of disposing lithium-ion batteries for electric vehicles.
+participants: Landfilling ev4.1_P0.7, Recycling facilities ev4.2_P0.3
+Gate: or
+Relations: ev4.1>ev4.2
+
+Event 5
+event: Battery research and development
+event_id: ev5
+description: The process of researching and developing new lithium-ion battery technologies.
+participants: Research institutions ev5.1_P0.7, Companies ev5.2_P0.3
+Gate: or
+Relations: ev5.1>ev5.2

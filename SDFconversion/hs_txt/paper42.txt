@@ -1,0 +1,151 @@
+Event 1
+event: ev battery supply chain
+event_id: ev1
+description: The supply chain for electric vehicle (EV) batteries involves multiple processes, including extraction and refining of raw materials, production of battery components, and lifecycle assessments to quantify environmental impacts.
+participants: upstream processes ev1.1_P0.5, life cycle assessment modeling ev1.2_P0.5, refining locations and energy options ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.3>ev1.1
+
+Subevent 1.1
+subevent: upstream processes
+event_id: ev1.1
+description: Upstream processes in the EV battery supply chain involve converting raw materials into battery components, with significant impacts not fully understood.
+participants: mining ev1.1.1_P1, extraction ev1.1.2_P1, refining ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subsubevent: mining
+event_id: ev1.1.1
+description: Mining involves extracting raw materials like cobalt from the earth, which are essential for producing battery components.
+participants: cobalt ev1.1.1.1_P1, copper-cobalt ore ev1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2
+
+Subsubevent 1.1.2
+subsubevent: extraction
+event_id: ev1.1.2
+description: Extraction processes involve separating valuable metals from the ore, crucial for the next stages of refining and manufacturing battery components.
+participants: ore processing ev1.1.2.1_P1, intermediate products ev1.1.2.2_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2
+
+Subsubevent 1.1.3
+subsubevent: refining
+event_id: ev1.1.3
+description: Refining processes convert intermediate products into battery-grade materials, with impacts varying based on location and ore grade.
+participants: battery-grade products ev1.1.3.1_P1, refining locations ev1.1.3.2_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2
+
+Subevent 1.2
+subevent: life cycle assessment modeling
+event_id: ev1.2
+description: Life cycle assessment (LCA) modeling is used to quantify the environmental impacts along the full supply chain for cobalt, including various impact pathways and scenarios.
+participants: openLCA platform ev1.2.1_P1, environmental impacts ev1.2.2_P1, impact pathways ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subsubevent: openLCA platform
+event_id: ev1.2.1
+description: The openLCA platform is used for modeling the life cycle assessment, utilizing data from public and private sources.
+participants: public data ev1.2.1.1_P1, private data ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubevent 1.2.2
+subsubevent: environmental impacts
+event_id: ev1.2.2
+description: The LCA quantifies various environmental impacts such as global warming potential, acidification potential, and eutrophication potential.
+participants: GWP ev1.2.2.1_P1, AP ev1.2.2.2_P1, EP ev1.2.2.3_P1
+Gate: and
+Relations: ev1.2.2.1>ev1.2.2.2, ev1.2.2.2>ev1.2.2.3
+
+Subsubevent 1.2.3
+subsubevent: impact pathways
+event_id: ev1.2.3
+description: Various impact pathways are evaluated in the LCA, considering the mining, extraction, refining, transportation, use, and disposal of cobalt products.
+participants: mining impact ev1.2.3.1_P1, extraction impact ev1.2.3.2_P1, refining impact ev1.2.3.3_P1, transportation impact ev1.2.3.4_P1, use impact ev1.2.3.5_P1, disposal impact ev1.2.3.6_P1
+Gate: and
+Relations: ev1.2.3.1>ev1.2.3.2, ev1.2.3.2>ev1.2.3.3, ev1.2.3.3>ev1.2.3.4, ev1.2.3.4>ev1.2.3.5, ev1.2.3.5>ev1.2.3.6
+
+Subevent 1.3
+subevent: refining locations and energy options
+event_id: ev1.3
+description: Refining locations and the energy options used in the refining process significantly impact the environmental outcomes of the cobalt supply chain.
+participants: refinery locations ev1.3.1_P1, energy options ev1.3.2_P1, battery chemistries ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+subsubevent: refinery locations
+event_id: ev1.3.1
+description: The location of refineries can affect the environmental impacts, with refining outside of China showing a reduction in global warming potential.
+participants: China refineries ev1.3.1.1_P1, non-China refineries ev1.3.1.2_P1
+Gate: xor
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subsubevent: energy options
+event_id: ev1.3.2
+description: The energy options used in refining, such as wind or solar, influence the life cycle impacts, with wind generation showing lower impacts than solar.
+participants: wind energy ev1.3.2.1_P1, solar energy ev1.3.2.2_P1
+Gate: xor
+Relations: ev1.3.2.1>ev1.3.2.2
+
+Subsubevent 1.3.3
+subsubevent: battery chemistries
+event_id: ev1.3.3
+description: Different battery chemistries, including NCA, NMC111, and NMC811, have varying environmental impacts, with NMC811 showing the lowest impact.
+participants: NCA batteries ev1.3.3.1_P1, NMC111 batteries ev1.3.3.2_P1, NMC811 batteries ev1.3.3.3_P1
+Gate: or
+Relations: ev1.3.3.2>ev1.3.3.1, ev1.3.3.3>ev1.3.3.2
+
+Event 2
+event: future market trends for EV batteries
+event_id: ev2
+description: The market for EV batteries is expected to grow significantly, with various chemistries such as NMC, NCA, and LFP playing key roles in both EVs and energy storage systems (ESS).
+participants: NMC batteries ev2.1_P1, NCA batteries ev2.2_P1, LFP batteries ev2.3_P1
+Gate: or
+Relations: ev2.1>ev2.3, ev2.2>ev2.1
+
+Subevent 2.1
+subevent: NMC batteries
+event_id: ev2.1
+description: NMC batteries are widely used in EVs and ESS, with trends showing an increase in nickel content and a decrease in cobalt.
+participants: NMC111 ev2.1.1_P1, NMC811 ev2.1.2_P1
+Gate: or
+Relations: ev2.1.1>ev2.1.2
+
+Subsubevent 2.1.1
+subsubevent: NMC111
+event_id: ev2.1.1
+description: NMC111 batteries have a balanced ratio of nickel, manganese, and cobalt, offering a stable performance but lower energy density compared to newer chemistries.
+participants: nickel ev2.1.1.1_P1, manganese ev2.1.1.2_P1, cobalt ev2.1.1.3_P1
+Gate: and
+Relations: ev2.1.1.1>ev2.1.1.2, ev2.1.1.2>ev2.1.1.3
+
+Subsubevent 2.1.2
+subsubevent: NMC811
+event_id: ev2.1.2
+description: NMC811 batteries have a higher energy density due to a higher ratio of nickel compared to manganese and cobalt.
+participants: nickel ev2.1.2.1_P1, manganese ev2.1.2.2_P1, cobalt ev2.1.2.3_P1
+Gate: and
+Relations: ev2.1.2.1>ev2.1.2.2, ev2.1.2.2>ev2.1.2.3
+
+Subevent 2.2
+subevent: NCA batteries
+event_id: ev2.2
+description: NCA batteries have the highest energy density among commercially available LIB technologies, with an increased ratio of nickel compared to cobalt.
+participants: nickel ev2.2.1_P1, cobalt ev2.2.2_P1, aluminum ev2.2.3_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2, ev2.2.2>ev2.2.3
+
+Subevent 2.3
+subevent: LFP batteries
+event_id: ev2.3
+description: LFP batteries are known for their safety and cost-effectiveness, making them suitable for both EVs and ESS despite lower energy density.
+participants: lithium ev2.3.1_P1, iron ev2.3.2_P1, phosphate ev2.3.3_P1
+Gate: and
+Relations: ev2.3.1>ev2.3.2, ev2.3.2>ev2.3.3

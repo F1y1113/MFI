@@ -1,0 +1,55 @@
+Event 1
+event: EV Battery Supply Chain
+event_id: ev1
+description: xxxx
+participants: xxxx
+Gate: or
+Relations: xxxx
+
+Subevent 1.1
+subevent: Resource Extraction
+event_id: ev1.1
+description: xxxx
+participants: Aluminum ev1.1.1_P0.5, Cobalt ev1.1.2_P0.7, Copper ev1.1.3_P0.4, Nickel ev1.1.4_P0.6
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4
+
+Subevent 1.2
+subevent: Refining and Recycling
+event_id: ev1.2
+description: xxxx
+participants: Pyrometallurgy ev1.2.1_P0.5, Hydrometallurgy ev1.2.2_P0.7, Boleaching ev1.2.3_P0.4
+Gate: or
+Relations: ev1.2.1>ev1.2.2, ev1.2.1>ev1.2.3, ev1.2.2>ev1.2.3
+
+Subevent 1.3
+subevent: Low-Carbon Transition
+event_id: ev1.3
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.1>ev1.3.3
+
+Sub-subevent 1.1.1
+subevent: Aluminum Extraction
+event_id: ev1.1.1
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Sub-subevent 1.1.2
+subevent: Cobalt Extraction
+event_id: ev1.1.2
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Sub-subevent 1.1.3
+subevent: Copper Extraction
+event_id: ev1.1.3
+description: xxxx
+participants: xxxx
+Gate: and
+Relations: xxxx

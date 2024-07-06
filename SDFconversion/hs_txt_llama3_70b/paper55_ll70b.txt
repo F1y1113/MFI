@@ -1,0 +1,7 @@
+Event 1
+event: Electric Vehicle Deployment
+event_id: ev1
+description: The economic viability of electric vehicle deployment should be widely discussed, as sub-events cannot exist simultaneously.
+participants: xxxx
+Gate: or
+Relations: ev1>xxxx

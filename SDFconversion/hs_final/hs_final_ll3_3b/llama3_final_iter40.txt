@@ -1,0 +1,64 @@
+Event 1
+event: lithium-ion recycling methods
+event_id: ev1
+description: Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P0.4, hydrometallurgical ev1.2_P0.3, bioleaching ev1.3_P0.3, direct recycling ev1.4_P0.2
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Event 2
+event: lithium-ion battery life cycle impact studies
+event_id: ev2
+description: Recent studies on the production of LIB cell chemistries using LCI data that consider future energy scenarios and sustainability of key battery metals.
+participants: (Xu et al., 2022) study ev2.1_P0.5, (Pell & Lindsay, 2022) study ev2.2_P0.3, (Manjong et al., 2021 ) study ev2.3_P0.2
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 1.1
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P0.5, cobalt ev1.1.2_P0.4, copper ev1.1.3_P0.4, iron ev1.1.4_P0.3, nickel alloys ev1.1.5_P0.3
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+Subevent 1.2
+subevent: hydrometallurgical
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.1
+subevent: (Xu et al., 2022) study on LIB cell chemistries
+event_id: ev2.1
+description: Modelled the production of eight LIB cell chemistries using background LCI data that consider future energy scenarios and sustainability of key battery metals.
+participants: averaged LCIs for primary Ni and Co production ev2.1.1_P0.4, electrolytic manganese (Mn) production routes ev2.1.2_P0.2, secondary raw materials ev2.1.3_P0.1
+Gate: or
+Relations: ev2.1.1>ev2.1.2, ev2.1.2>ev2.1.3
+
+Subevent 2.2
+subevent: (Pell & Lindsay, 2022) study on LIBS life cycle impacts
+event_id: ev2.2
+description: Concluded that graphite produced in China significantly contributes to the environmental impacts, and recycled battery raw materials may provide an additional source of avoided impacts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: (Manjong et al., 2021 ) study on parameterized LCIs for battery raw materials' extraction and refining
+event_id: ev2.3
+description: Presented extensively parameterized LCIs for battery raw materials' extraction and refining.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+```

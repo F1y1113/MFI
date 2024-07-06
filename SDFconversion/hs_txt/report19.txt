@@ -1,0 +1,136 @@
+Event 1
+Event: Nickel Market Developments
+Event_ID: ev1
+Description: The nickel market has experienced significant fluctuations due to various factors, including Indonesian nickel ore approvals, global supply and demand dynamics, and macroeconomic influences.
+Participants: Indonesian Nickel Supply ev1.1_P1, Federal Reserve Rate Decisions ev1.2_P1, Global Nickel Demand ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.3, ev1.2>ev1.1
+
+Subevent 1.1
+Subevent: Indonesian Nickel Supply
+Event_ID: ev1.1
+Description: Approval speeds for Indonesian nickel ore have accelerated, alleviating some supply concerns. However, uncertainties remain about the overall resolution of supply issues.
+Participants: Nickel Mine Approvals ev1.1.1_P1, Production Capacity ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+Subsubevent: Nickel Mine Approvals
+Event_ID: ev1.1.1
+Description: Indonesian authorities have approved nickel ore production for 107 mines, with a total capacity of 152.619 million tons, improving mining efficiency.
+Participants: Indonesian Government ev1.1.1.1_P1, Mining Companies ev1.1.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.1.2
+Subsubevent: Production Capacity
+Event_ID: ev1.1.2
+Description: The increased approvals have enhanced Indonesia's nickel ore production capacity, easing tight supply conditions.
+Participants: Nickel Ore Production ev1.1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+Subevent: Federal Reserve Rate Decisions
+Event_ID: ev1.2
+Description: The Federal Reserve has maintained interest rates and signaled a potential rate cut in 2024, influencing market expectations and the value of the dollar, which in turn affects nickel prices.
+Participants: Interest Rate Decisions ev1.2.1_P1, Market Expectations ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+Subsubevent: Interest Rate Decisions
+Event_ID: ev1.2.1
+Description: The Federal Reserve announced that interest rates will remain unchanged and projected a 75 basis points cut in 2024.
+Participants: Federal Reserve ev1.2.1.1_P1, Jerome Powell ev1.2.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.2.2
+Subsubevent: Market Expectations
+Event_ID: ev1.2.2
+Description: Market expectations for a rate cut have increased, leading to a depreciation of the dollar and supporting a rise in nickel prices.
+Participants: Financial Markets ev1.2.2.1_P1, Investors ev1.2.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+Subevent: Global Nickel Demand
+Event_ID: ev1.3
+Description: Demand for nickel is driven by various industries, including electric vehicles, stainless steel, and battery production, with supply chain dynamics influencing overall market trends.
+Participants: Electric Vehicles ev1.3.1_P1, Stainless Steel Production ev1.3.2_P1, Battery Manufacturing ev1.3.3_P1
+Gate: or
+Relations: ev1.3.1>ev1.3.3, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+Subsubevent: Electric Vehicles
+Event_ID: ev1.3.1
+Description: The sales of electric vehicles continue to grow, boosting the demand for nickel used in batteries, especially nickel sulfate.
+Participants: EV Manufacturers ev1.3.1.1_P1, Nickel Sulfate Suppliers ev1.3.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.3.2
+Subsubevent: Stainless Steel Production
+Event_ID: ev1.3.2
+Description: The stainless steel industry maintains steady demand for nickel, although facing challenges from fluctuating prices and market conditions.
+Participants: Stainless Steel Manufacturers ev1.3.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.3.3
+Subsubevent: Battery Manufacturing
+Event_ID: ev1.3.3
+Description: Battery production, particularly for electric vehicles, continues to drive significant demand for nickel, with strong market competition and evolving technology.
+Participants: Battery Producers ev1.3.3.1_P1
+Gate: and
+Relations: xxxx
+
+Event 2
+Event: Nickel Price Trends
+Event_ID: ev2
+Description: Nickel prices have experienced volatility due to changes in supply and demand, as well as macroeconomic factors, with recent trends showing a decrease influenced by Indonesian supply approvals and Federal Reserve decisions.
+Participants: LME Nickel Prices ev2.1_P1, Domestic Nickel Market ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+Subevent: LME Nickel Prices
+Event_ID: ev2.1
+Description: The LME nickel price fluctuated around $17,500 per ton, with a settlement price of $17,300 per ton as of March 20, reflecting a 4.76% decrease from the previous week.
+Participants: LME Market Trends ev2.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 2.2
+Subevent: Domestic Nickel Market
+Event_ID: ev2.2
+Description: The domestic market saw stable nickel supply with slight increases in demand for electrolytic nickel, while prices for nickel intermediate products and nickel sulfate remained high.
+Participants: Electrolytic Nickel Demand ev2.2.1_P1, Nickel Intermediate Products ev2.2.2_P1, Nickel Sulfate Prices ev2.2.3_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2, ev2.2.2>ev2.2.3
+
+Subsubevent 2.2.1
+Subsubevent: Electrolytic Nickel Demand
+Event_ID: ev2.2.1
+Description: Demand for electrolytic nickel slightly increased, supported by the stainless steel and electric vehicle industries.
+Participants: Stainless Steel Manufacturers ev2.2.1.1_P1, EV Manufacturers ev2.2.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.2.2
+Subsubevent: Nickel Intermediate Products
+Event_ID: ev2.2.2
+Description: Prices for nickel intermediate products, such as nickel pig iron and nickel sulfate, remained high, adding pressure on production costs.
+Participants: Nickel Pig Iron Producers ev2.2.2.1_P1, Nickel Sulfate Producers ev2.2.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.2.3
+Subsubevent: Nickel Sulfate Prices
+Event_ID: ev2.2.3
+Description: Nickel sulfate prices remained strong, driven by high demand from battery manufacturers.
+Participants: Battery Manufacturers ev2.2.3.1_P1
+Gate: and
+Relations: xxxx
+

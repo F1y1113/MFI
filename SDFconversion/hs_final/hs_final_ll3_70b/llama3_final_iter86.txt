@@ -1,0 +1,103 @@
+Event 1**
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+**Subevent 1.1**
+subevent: pyrometallurgical
+event_id: ev1.1
+description: Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.
+participants: metal oxides ev1.1.1_P1, cobalt ev1.1.2_P0.5, copper ev1.1.3_P0.5, iron ev1.1.4_P0.5, nickel alloys ev1.1.5_P0.5
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.1>ev1.1.3, ev1.1.1>ev1.1.4, ev1.1.1>ev1.1.5
+
+**Subevent 1.2**
+subevent: hydrometallurgy
+event_id: ev1.2
+description: Uses aqueous solutions to leach targeted metals out from the cathode substance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 1.3**
+subevent: bioleaching
+event_id: ev1.3
+description: Uses bacteria to retrieve precious metals.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 2**
+event: lithium-ion battery production
+event_id: ev2
+description: Production process of lithium-ion batteries, including material selection and cell assembly.
+participants: material selection ev2.1_P1, cell assembly ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+**Subevent 2.1**
+subevent: material selection
+event_id: ev2.1
+description: Selection of materials for lithium-ion battery production.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 2.2**
+subevent: cell assembly
+event_id: ev2.2
+description: Assembly of lithium-ion battery cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 3**
+event: lithium mining
+event_id: ev3
+description: Mining process for extracting lithium from ore.
+participants: lithium extraction ev3.1_P1, ore processing ev3.2_P1
+Gate: and
+Relations: ev3.1>ev3.2
+
+**Subevent 3.1**
+subevent: lithium extraction
+event_id: ev3.1
+description: Extraction of lithium from ore.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 3.2**
+subevent: ore processing
+event_id: ev3.2
+description: Processing of ore to extract lithium.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Event 4**
+event: Mt. Holland lithium mine project
+event_id: ev4
+description: A lithium mining project in Mt. Holland, Western Australia.
+participants: mining operation ev4.1_P1, environmental impact ev4.2_P0.5
+Gate: and
+Relations: ev4.1>ev4.2
+
+**Subevent 4.1**
+subevent: mining operation
+event_id: ev4.1
+description: Mining operation at Mt. Holland lithium mine project.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+**Subevent 4.2**
+subevent: environmental impact
+event_id: ev4.2
+description: Environmental impact of the Mt. Holland lithium mine project.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

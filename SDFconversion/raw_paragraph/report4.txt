@@ -1,0 +1,13 @@
+EU production and diversification of supply
+
+Total battery consumption in the EU will almost reach 400 GWh in 2025 (and 4 times more in 2040), driven by use in e-mobility (about 60% of the total capacity in 2025, and 80% in 2040).
+
+The EU is expected to expand its production base for battery raw materials and components over 2022-2030, and improve its current position and global share. However, dependencies and bottlenecks in the supply chain will remain creating vulnerabilities.
+
+The EU will continue to be dependent on imports of cobalt and nickel (concentrates and intermediates) for conversion in its refineries. Conversely, most inputs for producing refined lithium compounds will originate from the development of new lithium mines in the EU.
+
+The refining of natural graphite for anodes will rely on both domestic production and imports. Concerning manganese, the EU is likely to be self-sufficient in both primary and refined raw materials.
+
+The structure of global supply in the coming years (Figure 3) provides an initial insight into potential EU import sources. Nevertheless, a deeper analysis is required to forecast quantitatively the export availability worldwide and reveal potential competition with other importing countries, after taking into account parameters such as captive production, long-term offtake agreements, intermediate products and ownership of producing companies.
+
+Australia and Canada are the two countries with the greatest potential to provide additional and low-risk supply to the EU. Other producers that could reduce the EU’s supply risks substantially are Argentina and Chile for lithium chemicals, Mozambique and Tanzania for natural graphite and the USA for refined graphite. In Europe, Serbia is a likely source of lithium minerals for conversion to chemicals, and Norway a reliable source of flake and refined graphite.

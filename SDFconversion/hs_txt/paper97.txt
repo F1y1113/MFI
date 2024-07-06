@@ -1,0 +1,103 @@
+Event 1
+event: Transition to Electromobility and LIB Development
+event_id: ev1
+description: As the global transport sector shifts towards electromobility, the value chain for raw materials used in lithium-ion battery (LIB) development becomes critical. This study assesses criticality aspects of LIB cells to identify supply risks and inform battery technology development.
+participants: Value Chain Criticality Assessment ev1.1_P1, Comparative LIB Cell Assessment ev1.2_P1
+Gate: and
+Relations: ev1.1>ev1.2
+
+Subevent 1.1
+subevent: Value Chain Criticality Assessment
+event_id: ev1.1
+description: The study uses the ESSENZ method to systematically assess eleven criticality aspects of ten LIB cells, evaluating the criticality scores by aggregating the scores of eleven constituent value chains.
+participants: Criticality Scores Analysis ev1.1.1_P1, Environmental Midpoint Impacts ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subsubevent: Criticality Scores Analysis
+event_id: ev1.1.1
+description: The criticality scores of LIB cells are analyzed by evaluating political stability, mining capacity, trade barriers, feasibility of exploration projects, and occurrence of co-production for materials like cobalt, lithium, nickel, and graphite.
+participants: Cobalt Analysis ev1.1.1.1_P1, Lithium Analysis ev1.1.1.2_P1, Nickel Analysis ev1.1.1.3_P1, Graphite Analysis ev1.1.1.4_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2, ev1.1.1.2>ev1.1.1.3, ev1.1.1.3>ev1.1.1.4
+
+Subsubsubevent 1.1.1.1
+subsubsubevent: Cobalt Analysis
+event_id: ev1.1.1.1
+description: Cobalt dominates criticality scores in political stability, mining capacity, trade barriers, feasibility of exploration projects, and occurrence of co-production, primarily due to production concentration in the Democratic Republic of Congo.
+participants: Political Stability ev1.1.1.1.1_P1, Mining Capacity ev1.1.1.1.2_P1
+Gate: and
+Relations: ev1.1.1.1.1>ev1.1.1.1.2
+
+Subsubsubevent 1.1.1.2
+subsubsubevent: Lithium Analysis
+event_id: ev1.1.1.2
+description: Lithium scores high in demand growth, concentration of reserves, concentration of production, and primary material use, driven by fast development of EVs and concentrated reserves in Chile and production in Australia.
+participants: Demand Growth ev1.1.1.2.1_P1, Concentration of Reserves ev1.1.1.2.2_P1
+Gate: and
+Relations: ev1.1.1.2.1>ev1.1.1.2.2
+
+Subsubsubevent 1.1.1.3
+subsubsubevent: Nickel Analysis
+event_id: ev1.1.1.3
+description: Nickel dominates criticality scores in price volatility and partly influences mining capacity due to its progressive demand growth and significant market fluctuations.
+participants: Price Volatility ev1.1.1.3.1_P1, Mining Capacity ev1.1.1.3.2_P1
+Gate: and
+Relations: ev1.1.1.3.1>ev1.1.1.3.2
+
+Subsubsubevent 1.1.1.4
+subsubsubevent: Graphite Analysis
+event_id: ev1.1.1.4
+description: Graphite scores high in company concentration and political instability due to high production concentration in China and other countries with unstable governance.
+participants: Company Concentration ev1.1.1.4.1_P1, Political Instability ev1.1.1.4.2_P1
+Gate: and
+Relations: ev1.1.1.4.1>ev1.1.1.4.2
+
+Subsubevent 1.1.2
+subsubevent: Environmental Midpoint Impacts
+event_id: ev1.1.2
+description: The criticality scores are complemented by twelve environmental midpoint impacts using life cycle assessments to provide a comprehensive view of the value chain impacts.
+participants: Life Cycle Assessment ev1.1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Comparative LIB Cell Assessment
+event_id: ev1.2
+description: The study develops a quadrant matrix chart depicting the relative performance of LIB cells based on their aggregated elemental criticality and environmental impact scores, identifying cells needing improvements.
+participants: Quadrant Matrix Chart ev1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Event 2
+event: Measures to Alleviate Criticality and Environmental Impacts
+event_id: ev2
+description: Proposes measures such as the transition towards cobalt-free batteries, material efficiency improvements, and end-of-life recycling to reduce the criticality and environmental impacts of LIB cells.
+participants: Cobalt-free Batteries ev2.1_P1, Material Efficiency Improvements ev2.2_P1, End-of-Life Recycling ev2.3_P1
+Gate: or
+Relations: ev2.1>ev2.2, ev2.2>ev2.3
+
+Subevent 2.1
+subevent: Cobalt-free Batteries
+event_id: ev2.1
+description: Transition towards using cobalt-free batteries to mitigate the high criticality associated with cobalt in LIB cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Material Efficiency Improvements
+event_id: ev2.2
+description: Improve material efficiency in the production of LIB cells to reduce dependency on critical materials and lower environmental impacts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: End-of-Life Recycling
+event_id: ev2.3
+description: Enhance end-of-life recycling processes for LIB cells to recover valuable materials and decrease overall criticality and environmental impacts.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

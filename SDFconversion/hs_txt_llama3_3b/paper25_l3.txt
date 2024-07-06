@@ -1,0 +1,119 @@
+Event 1
+event: Decarbonizing the transport sector
+event_id: ev1
+description: The global commitment to decarbonizing the transport sector has resulted in an unabated growth in the markets for electric vehicles and their batteries.
+participants: Unabated growth ev1.1_P1, Electric vehicle market demand ev1.2_P0.5, Battery raw materials ev1.3_P0.8
+Gate: and
+Relations: ev1>ev1.1
+
+Subevent 1.1
+subevent: Unabated growth
+event_id: ev1.1
+description: The demand for battery raw materials is continuously growing.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Electric vehicle market demand
+event_id: ev1.2
+description: To meet the net-zero emissions targets, the electric vehicle market demand for lithium, cobalt, nickel, and graphite will increase 26-times, 6-times, 12-times, and 9-times respectively between 2021 and 2050.
+participants: xxxx
+Gate: xxxx
+Relations: ev1.2>ev1.3
+
+Subevent 1.3
+subevent: Battery raw materials
+event_id: ev1.3
+description: The demand for lithium, cobalt, nickel, and graphite will increase 26-times, 6-times, 12-times, and 9-times respectively between 2021 and 2050.
+participants: xxxx
+Gate: xxxx
+Relations: ev1.2>ev1.3
+
+Event 2
+event: Challenges in meeting demand for battery raw materials
+event_id: ev2
+description: There are diverse challenges in meeting this demand, requiring the world to embrace technological and knowledge advancements and new investments without provoking conflicts between competing goals.
+participants: Diverse challenges ev2.1_P1, Technological advancements ev2.2_P0.5, Knowledge advancements ev2.3_P0.7, New investments ev2.4_P0.9
+Gate: or
+Relations: ev2>ev2.1
+
+Subevent 2.1
+subevent: Diverse challenges
+event_id: ev2.1
+description: There are diverse challenges in meeting this demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Technological advancements
+event_id: ev2.2
+description: The world needs to embrace technological advancements.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: Knowledge advancements
+event_id: ev2.3
+description: The world needs to embrace knowledge advancements.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: New investments
+event_id: ev2.4
+description: The world needs to make new investments.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Conclusion
+event_id: ev3
+description: Decarbonizing the transport sector requires meeting demand for battery raw materials, which has diverse challenges and technological, knowledge, and new investments needed.
+participants: Meeting demand ev3.1_P0.8, Diverse challenges ev3.2_P0.5, Technological advancements ev3.3_P0.7, Knowledge advancements ev3.4_P0.6, New investments ev3.5_P0.9
+Gate: and
+Relations: ev3>ev3.1
+
+Subevent 3.1
+subevent: Meeting demand
+event_id: ev3.1
+description: Meeting the demand for battery raw materials is needed.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Diverse challenges
+event_id: ev3.2
+description: There are diverse challenges in meeting this demand.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Technological advancements
+event_id: ev3.3
+description: Technological advancements are needed.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.4
+subevent: Knowledge advancements
+event_id: ev3.4
+description: Knowledge advancements are needed.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.5
+subevent: New investments
+event_id: ev3.5
+description: New investments are needed.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

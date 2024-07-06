@@ -1,0 +1,111 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The battery supply chain is divided into three main segments: upstream, midstream, and downstream. The supply chains for critical minerals vary by geography, with significant control exercised by automotive manufacturers over their material supply chains.
+participants: Upstream ev1.1_P1, Midstream ev1.2_P1, Downstream ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Upstream
+event_id: ev1.1
+description: Involves the mining and extraction of raw materials for battery production.
+participants: Mining ev1.1.1_P1, Extraction ev1.1.2_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2
+
+Subsubevent 1.1.1
+subsubevent: Mining
+event_id: ev1.1.1
+description: The process of extracting ores and minerals from the earth to supply raw materials for battery production.
+participants: Raw materials ev1.1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.1.2
+subsubevent: Extraction
+event_id: ev1.1.2
+description: The process of isolating valuable minerals from extracted ores to prepare for further processing.
+participants: Refined materials ev1.1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: Midstream
+event_id: ev1.2
+description: The processing of raw materials into battery-grade components, focusing mainly on cathode production due to its significant cost and impact on battery characteristics.
+participants: Cathode production ev1.2.1_P1, Anode production ev1.2.2_P1, Electrolyte production ev1.2.3_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3
+
+Subsubevent 1.2.1
+subsubevent: Cathode production
+event_id: ev1.2.1
+description: The process of creating cathode materials, which are crucial for determining battery characteristics like energy density and charging speed.
+participants: LFP ev1.2.1.1_P1, NMC ev1.2.1.2_P1
+Gate: or
+Relations: xxxx
+
+Subsubsubevent 1.2.1.1
+subsubsubevent: LFP
+event_id: ev1.2.1.1
+description: Lithium Iron Phosphate cathode production, focusing on minimizing supply chain vulnerabilities associated with lithium sourcing.
+participants: Lithium ev1.2.1.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.2.1.2
+subsubsubevent: NMC
+event_id: ev1.2.1.2
+description: Nickel Manganese Cobalt cathode production, which involves complex supply chain dependencies and higher vulnerability due to multiple critical materials.
+participants: Nickel ev1.2.1.2.1_P1, Manganese ev1.2.1.2.2_P1, Cobalt ev1.2.1.2.3_P1
+Gate: and
+Relations: ev1.2.1.2.1>ev1.2.1.2.2, ev1.2.1.2.2>ev1.2.1.2.3
+
+Subsubevent 1.2.2
+subsubevent: Anode production
+event_id: ev1.2.2
+description: The process of producing anode materials, typically using graphite, for battery cells.
+participants: Graphite ev1.2.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.2.3
+subsubevent: Electrolyte production
+event_id: ev1.2.3
+description: The process of producing electrolyte solutions, typically lithium salt solutions, for battery cells.
+participants: Lithium salts ev1.2.3.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: Downstream
+event_id: ev1.3
+description: Involves cell and pack manufacturing, as well as end-of-life recycling and reuse of battery components.
+participants: Cell manufacturing ev1.3.1_P1, Pack manufacturing ev1.3.2_P1, Recycling ev1.3.3_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3
+
+Subsubevent 1.3.1
+subsubevent: Cell manufacturing
+event_id: ev1.3.1
+description: The assembly of battery cells from processed materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subsubevent: Pack manufacturing
+event_id: ev1.3.2
+description: The assembly of battery packs from individual cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subsubevent: Recycling
+event_id: ev1.3.3
+description: The process of recycling and reusing end-of-life battery components to recover valuable materials.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

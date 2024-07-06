@@ -1,0 +1,199 @@
+Event 1
+event: EV battery supply chain
+event_id: ev1
+description: The global low-carbon initiatives and environmental crises have led to rapid growth in the power lithium-ion battery industry, which is critical for electric vehicles.
+participants: Resource Supply Chain ev1.1_P1, Market Growth ev1.2_P1, Supply Risks ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Resource Supply Chain
+event_id: ev1.1
+description: The supply of key mineral resources for power lithium-ion battery materials is highly concentrated in a few countries, leading to supply risks.
+participants: Lithium Supply ev1.1.1_P1, Cobalt Supply ev1.1.2_P1, Nickel Supply ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subevent: Lithium Supply
+event_id: ev1.1.1
+description: Lithium reserves are concentrated in Chile, Australia, Argentina, and China, making the supply fragile and prone to disruptions.
+participants: Chile Lithium ev1.1.1.1_P1, Australia Lithium ev1.1.1.2_P1, Argentina Lithium ev1.1.1.3_P1, China Lithium ev1.1.1.4_P1
+Gate: and
+Relations: ev1.1.1.1>ev1.1.1.2, ev1.1.1.2>ev1.1.1.3, ev1.1.1.3>ev1.1.1.4
+
+Subsubevent 1.1.2
+subevent: Cobalt Supply
+event_id: ev1.1.2
+description: The world's cobalt reserves are highly concentrated in Congo, Australia, Indonesia, and Cuba, leading to supply risks.
+participants: Congo Cobalt ev1.1.2.1_P1, Australia Cobalt ev1.1.2.2_P1, Indonesia Cobalt ev1.1.2.3_P1, Cuba Cobalt ev1.1.2.4_P1
+Gate: and
+Relations: ev1.1.2.1>ev1.1.2.2, ev1.1.2.2>ev1.1.2.3, ev1.1.2.3>ev1.1.2.4
+
+Subsubevent 1.1.3
+subevent: Nickel Supply
+event_id: ev1.1.3
+description: Nickel reserves are less concentrated but still significant in countries like Indonesia, Australia, Brazil, Russia, and New Caledonia.
+participants: Indonesia Nickel ev1.1.3.1_P1, Australia Nickel ev1.1.3.2_P1, Brazil Nickel ev1.1.3.3_P1, Russia Nickel ev1.1.3.4_P1, New Caledonia Nickel ev1.1.3.5_P1
+Gate: and
+Relations: ev1.1.3.1>ev1.1.3.2, ev1.1.3.2>ev1.1.3.3, ev1.1.3.3>ev1.1.3.4, ev1.1.3.4>ev1.1.3.5
+
+Subevent 1.2
+subevent: Market Growth
+event_id: ev1.2
+description: The explosive growth in the demand for power lithium-ion batteries is driven by the rapid increase in electric vehicle sales and the overall market expansion.
+participants: Global Demand ev1.2.1_P1, Sales Growth ev1.2.2_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2
+
+Subsubevent 1.2.1
+subevent: Global Demand
+event_id: ev1.2.1
+description: The demand for power lithium-ion batteries grew from 47.5 GWh in 2016 to 192.9 GWh in 2020, reflecting a significant market expansion.
+participants: Demand 2016 ev1.2.1.1_P1, Demand 2020 ev1.2.1.2_P1
+Gate: and
+Relations: ev1.2.1.1>ev1.2.1.2
+
+Subsubevent 1.2.2
+subevent: Sales Growth
+event_id: ev1.2.2
+description: The forecasted compound annual growth rate of nearly 20% over the next decade will drive the need for power lithium-ion batteries to reach 2100 GWh by 2030.
+participants: Sales Forecast ev1.2.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: Supply Risks
+event_id: ev1.3
+description: The increasing concentration of production processes and resource supply in a few regions poses significant risks to the supply chain.
+participants: Concentration Risk ev1.3.1_P1, Supply-Demand Imbalance ev1.3.2_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2
+
+Subsubevent 1.3.1
+subevent: Concentration Risk
+event_id: ev1.3.1
+description: The production of power lithium-ion batteries is concentrated in a few countries, increasing the severity of supply risks.
+participants: Production Concentration 2016 ev1.3.1.1_P1, Production Concentration 2020 ev1.3.1.2_P1
+Gate: and
+Relations: ev1.3.1.1>ev1.3.1.2
+
+Subsubevent 1.3.2
+subevent: Supply-Demand Imbalance
+event_id: ev1.3.2
+description: The imbalance between supply and demand, along with the high concentration of key processes, poses a significant risk to the power lithium-ion battery industry.
+participants: Imbalance Analysis ev1.3.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubevent 1.3.2.1
+subsubevent: Imbalance Analysis
+event_id: ev1.3.2.1
+description: An analysis of supply and demand bottlenecks shows that the rapid increase in electric vehicle production will continue to strain the supply of key battery materials.
+participants: Lithium Demand ev1.3.2.1.1_P1, Cobalt Demand ev1.3.2.1.2_P1, Nickel Demand ev1.3.2.1.3_P1
+Gate: and
+Relations: ev1.3.2.1.1>ev1.3.2.1.2, ev1.3.2.1.2>ev1.3.2.1.3
+
+Subsubsubsubevent 1.3.2.1.1
+subsubsubevent: Lithium Demand
+event_id: ev1.3.2.1.1
+description: The proportion of lithium used in batteries increased from 39% in 2016 to 71% in 2020 and is expected to exceed 90% as electric vehicle production grows.
+participants: Lithium Use 2016 ev1.3.2.1.1.1_P1, Lithium Use 2020 ev1.3.2.1.1.2_P1, Lithium Use Future ev1.3.2.1.1.3_P1
+Gate: and
+Relations: ev1.3.2.1.1.1>ev1.3.2.1.1.2, ev1.3.2.1.1.2>ev1.3.2.1.1.3
+
+Subsubsubsubevent 1.3.2.1.2
+subsubsubevent: Cobalt Demand
+event_id: ev1.3.2.1.2
+description: The demand for cobalt in battery production is expected to rise, mirroring the increase in electric vehicle production and battery manufacturing needs.
+participants: Cobalt Use Analysis ev1.3.2.1.2.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubsubsubevent 1.3.2.1.3
+subsubsubevent: Nickel Demand
+event_id: ev1.3.2.1.3
+description: The growing demand for nickel, driven by its essential role in battery technology, adds pressure to the already strained supply chain.
+participants: Nickel Use Analysis ev1.3.2.1.3.1_P1
+Gate: and
+Relations: xxxx
+
+Event 2
+event: Material Flow and Supply-Demand Risk Evaluation
+event_id: ev2
+description: Comprehensive evaluation of the power lithium-ion battery supply and demand risks by analyzing the global material flow.
+participants: Qualitative Analysis ev2.1_P1, Quantitative Analysis ev2.2_P1
+Gate: and
+Relations: ev2.1>ev2.2
+
+Subevent 2.1
+subevent: Qualitative Analysis
+event_id: ev2.1
+description: Evaluates the supply and demand risks using qualitative research methods to understand the material flow and identify potential disruptions.
+participants: Risk Factors Identification ev2.1.1_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 2.1.1
+subsubevent: Risk Factors Identification
+event_id: ev2.1.1
+description: Identifies the key risk factors in the supply chain, focusing on the concentration of resources and geopolitical implications.
+participants: Resource Concentration ev2.1.1.1_P1, Geopolitical Risks ev2.1.1.2_P1
+Gate: and
+Relations: ev2.1.1.1>ev2.1.1.2
+
+Subsubsubevent 2.1.1.1
+subsubevent: Resource Concentration
+event_id: ev2.1.1.1
+description: Analysis of the concentration of critical raw materials like lithium, cobalt, and nickel in specific countries.
+participants: Lithium Concentration ev2.1.1.1.1_P1, Cobalt Concentration ev2.1.1.1.2_P1, Nickel Concentration ev2.1.1.1.3_P1
+Gate: and
+Relations: ev2.1.1.1.1>ev2.1.1.1.2, ev2.1.1.1.2>ev2.1.1.1.3
+
+Subsubsubevent 2.1.1.2
+subsubevent: Geopolitical Risks
+event_id: ev2.1.1.2
+description: Evaluation of geopolitical risks affecting the supply of raw materials for power lithium-ion batteries.
+participants: Political Stability ev2.1.1.2.1_P1, Trade Policies ev2.1.1.2.2_P1
+Gate: and
+Relations: ev2.1.1.2.1>ev2.1.1.2.2
+
+Subevent 2.2
+subevent: Quantitative Analysis
+event_id: ev2.2
+description: Uses quantitative research methods to evaluate the material flow and supply-demand risks, providing a detailed numerical analysis.
+participants: Data Collection ev2.2.1_P1, Model Development ev2.2.2_P1
+Gate: and
+Relations: ev2.2.1>ev2.2.2
+
+Subsubevent 2.2.1
+subsubevent: Data Collection
+event_id: ev2.2.1
+description: Collects data on the global flow of power lithium-ion batteries, focusing on production, demand, and material usage.
+participants: Production Data ev2.2.1.1_P1, Demand Data ev2.2.1.2_P1, Material Usage Data ev2.2.1.3_P1
+Gate: and
+Relations: ev2.2.1.1>ev2.2.1.2, ev2.2.1.2>ev2.2.1.3
+
+Subsubevent 2.2.2
+subsubevent: Model Development
+event_id: ev2.2.2
+description: Develops a simplified and balanced supply and demand system model, analyzing the intersection of supply and demand curves.
+participants: Model Framework ev2.2.2.1_P1, Data Integration ev2.2.2.2_P1
+Gate: and
+Relations: ev2.2.2.1>ev2.2.2.2
+
+Subsubsubevent 2.2.2.1
+subsubevent: Model Framework
+event_id: ev2.2.2.1
+description: Establishes the theoretical framework for the supply and demand model based on material balance principles.
+participants: Supply Curve ev2.2.2.1.1_P1, Demand Curve ev2.2.2.1.2_P1
+Gate: and
+Relations: ev2.2.2.1.1>ev2.2.2.1.2
+
+Subsubsubevent 2.2.2.2
+subsubevent: Data Integration
+event_id: ev2.2.2.2
+description: Integrates the collected data into the model to analyze supply and demand dynamics and identify stock accumulation points.
+participants: Data Analysis ev2.2.2.2.1_P1
+Gate: and
+Relations: xxxx

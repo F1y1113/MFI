@@ -1,0 +1,191 @@
+Event 1
+event: Intermediate products and manufacturing applications of lithium
+event_id: ev1
+description: After conversion to intermediate products, lithium is used in various manufacturing and end-use applications, including air conditioning, industrial cooling, thermoplastics, pharmaceuticals, aluminum production, glass and ceramics manufacturing, steel casting, and lithium-ion batteries.
+participants: air conditioning and industrial cooling ev1.1_P1, thermoplastics ev1.2_P1, pharmaceuticals ev1.3_P1, aluminum production ev1.4_P1, glass and ceramics manufacturing ev1.5_P1, steel casting ev1.6_P1, lithium-ion batteries ev1.7_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5, ev1.5>ev1.6, ev1.6>ev1.7
+
+Subevent 1.1
+subevent: Air conditioning and industrial cooling
+event_id: ev1.1
+description: Lithium is used in air conditioning and industrial process cooling applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Thermoplastics
+event_id: ev1.2
+description: Lithium is used in the production of thermoplastics.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Pharmaceuticals
+event_id: ev1.3
+description: Lithium is used in pharmaceuticals, specifically for bipolar disorder and depression treatment.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.4
+subevent: Aluminum production
+event_id: ev1.4
+description: Lithium is used as an alloy in aluminum production to add strength and corrosion resistance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.5
+subevent: Glass and ceramics manufacturing
+event_id: ev1.5
+description: Lithium carbonate is used in the manufacture of glass and ceramics to allow for lower processing temperatures and thus lower energy input.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.6
+subevent: Steel casting
+event_id: ev1.6
+description: Lithium is used in steel casting applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.7
+subevent: Lithium-ion batteries
+event_id: ev1.7
+description: Lithium is used in the manufacturing of lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Dominance of lithium-ion batteries in various markets
+event_id: ev2
+description: Lithium-ion batteries dominate the portable electronics, energy storage, and EV markets due to their higher energy densities, which provide more power and higher mileage ranges for EVs. There are five general types of lithium-ion battery chemistries currently in use.
+participants: portable electronics market ev2.1_P1, energy storage market ev2.2_P1, EV market ev2.3_P1, lithium-ion battery chemistries ev2.4_P1
+Gate: and
+Relations: ev2.1>ev2.2, ev2.2>ev2.3, ev2.3>ev2.4
+
+Subevent 2.1
+subevent: Portable electronics market
+event_id: ev2.1
+description: Lithium-ion batteries dominate the portable electronics market due to their high energy densities.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.2
+subevent: Energy storage market
+event_id: ev2.2
+description: Lithium-ion batteries dominate the energy storage market due to their efficiency and reliability.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.3
+subevent: EV market
+event_id: ev2.3
+description: Lithium-ion batteries dominate the EV market, providing higher energy density and mileage range.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2.4
+subevent: Lithium-ion battery chemistries
+event_id: ev2.4
+description: There are five general types of lithium-ion battery chemistries: lithium cobalt oxide (LCO), lithium manganese oxide (LMO), lithium iron phosphate (LFP), lithium nickel manganese cobalt (NMC), and lithium nickel cobalt aluminum (NCA).
+participants: LCO ev2.4.1_P1, LMO ev2.4.2_P1, LFP ev2.4.3_P1, NMC ev2.4.4_P1, NCA ev2.4.5_P1
+Gate: and
+Relations: ev2.4.1>ev2.4.2, ev2.4.2>ev2.4.3, ev2.4.3>ev2.4.4, ev2.4.4>ev2.4.5
+
+Subsubevent 2.4.1
+subsubevent: Lithium cobalt oxide (LCO)
+event_id: ev2.4.1
+description: LCO is one of the common types of lithium-ion battery chemistries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.2
+subsubevent: Lithium manganese oxide (LMO)
+event_id: ev2.4.2
+description: LMO is another common type of lithium-ion battery chemistry.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.3
+subsubevent: Lithium iron phosphate (LFP)
+event_id: ev2.4.3
+description: LFP is a type of lithium-ion battery chemistry known for safety and efficiency.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.4
+subsubevent: Lithium nickel manganese cobalt (NMC)
+event_id: ev2.4.4
+description: NMC is a popular lithium-ion battery chemistry due to its high energy density.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 2.4.5
+subsubevent: Lithium nickel cobalt aluminum (NCA)
+event_id: ev2.4.5
+description: NCA is a high-energy-density lithium-ion battery chemistry used in various applications.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 3
+event: Efforts to shore up domestic supply chains
+event_id: ev3
+description: The Biden administration announced plans to use the Defense Production Act to ramp up the mining and processing of key minerals used in batteries for renewable energy and electric vehicles, providing funding for feasibility studies.
+participants: Defense Production Act ev3.1_P1, funding for feasibility studies ev3.2_P1, domestic supply chain challenges ev3.3_P1
+Gate: and
+Relations: ev3.1>ev3.2, ev3.2>ev3.3
+
+Subevent 3.1
+subevent: Defense Production Act
+event_id: ev3.1
+description: The Biden administration announced the use of the Defense Production Act to support the mining and processing of key minerals for batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.2
+subevent: Funding for feasibility studies
+event_id: ev3.2
+description: Companies could receive funding for feasibility studies to extract lithium, nickel, cobalt, graphite, and manganese.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3.3
+subevent: Domestic supply chain challenges
+event_id: ev3.3
+description: Despite funding for feasibility studies, challenges remain in capital expenses for building mining operations and the processing of lithium compounds, which is primarily done in China.
+participants: capital expense challenges ev3.3.1_P1, processing challenges ev3.3.2_P1
+Gate: and
+Relations: ev3.3.1>ev3.3.2
+
+Subsubevent 3.3.1
+subsubevent: Capital expense challenges
+event_id: ev3.3.1
+description: Companies face challenges in securing capital expenses for building mining operations.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 3.3.2
+subsubevent: Processing challenges
+event_id: ev3.3.2
+description: Significant risks lie in the processing of lithium carbonate and hydroxide, with 60% of this processing occurring in China.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx

@@ -1,0 +1,28 @@
+Event 1: EVs will be an important part of a low-carbon economy
+Participants: EVs, low-carbon economy
+Gate: and
+Description: The increasing importance of electric vehicles in a low-carbon economy.
+Relations: ev1>ev2
+
+Subevent 1.1: Future EV adoption depends on overcoming multiple barriers...
+Event ID: ev2
+Participants: charging infrastructure, electricity generation, raw materials availability
+Gate: or
+Description: The factors that influence the future adoption of EVs, including charging infrastructure, electricity generation, and raw materials availability.
+Relations: ev2>ev3
+
+Subevent 1.2: Various EV projections have been made, along with associated requirements for battery raw materials (demand)
+Event ID: ev3
+Participants: EV growth scenarios from 2020 to 2040, battery raw materials demand requirements
+Gate: xor
+Description: The demand requirements for battery raw materials associated with different EV growth scenarios from 2020 to 2040.
+Relations: ev2>ev3
+
+Subevent 1.3: There have been separate assessments of the availability of raw materials (supply) and their interaction over time are lacking to support decision-making
+Event ID: ev4
+Participants: separate assessments of supply and demand interactions over time
+Gate: or
+Description: The need for integrated assessments of supply and demand interactions over time to support decision-making in the EV industry.
+Relations: ev3>ev4
+
+```

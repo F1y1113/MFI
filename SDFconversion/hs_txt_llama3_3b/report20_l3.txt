@@ -1,0 +1,55 @@
+Event 1
+event: Greenbush Lithium Mine Construction
+event_id: ev1
+description: Core Lithium decided to invest in and construct the Greenbush lithium mine.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.1
+subevent: Final Investment Decision
+event_id: ev1.1
+description: Core Lithium made a final investment decision on Greenbush lithium mine construction.
+participants: Grants open-pit mine ev1.1.1_P0.5, Mt Finniss project resources ev1.1.2_P0.3, DSO and DMS factory ev1.1.3_P0.2
+Gate: or
+Relations: ev1.1>ev1.2, ev1.1>ev1.3
+
+Subevent 1.2
+subevent: Construction Begins
+event_id: ev1.2
+description: Core Lithium started constructing the Greenbush lithium mine.
+participants: xxxx
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.3
+subevent: First DSO Production
+event_id: ev1.3
+description: The Greenbush lithium mine started producing first batch of DSO.
+participants: xxxx
+Gate: and
+Relations: ev1.2>ev1.3, ev1.3>ev1.4
+
+Subevent 1.4
+subevent: DMS Factory Establishment
+event_id: ev1.4
+description: The Greenbush lithium mine established a DMS factory.
+participants: xxxx
+Gate: and
+Relations: ev1.3>ev1.4, ev1.4>ev1.5
+
+Event 2
+event: Mt Finniss Project Resources
+event_id: ev2
+description: The Mt Finniss project has resources of Greenbush lithium mine.
+participants: xxxx
+Gate: or
+Relations: ev1>ev2
+
+Event 3
+event: DSO and DMS Factory
+event_id: ev3
+description: The Greenbush lithium mine produced first batch of DSO and established a DMS factory.
+participants: xxxx
+Gate: and
+Relations: ev1.3>ev3, ev3>ev1.4

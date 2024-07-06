@@ -1,0 +1,63 @@
+Event 1
+event: Structure of Electric Vehicle Battery Supply Chain
+event_id: ev1
+description: Understanding the supply chain can help businesses and governments understand how trade flows and resources will be affected by increased demand for EVs and thus, their inputs.
+participants: China ev1.1_P0.5, United States ev1.2_P0.5, Japan ev1.3_P0.4, South Korea ev1.4_P0.3
+Gate: or
+Relations: ev1>ev2
+
+Event 2
+event: Competition in Lithium-Ion Battery Cells
+event_id: ev2
+description: China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future, with competition from Japan and South Korea.
+participants: China ev2.1_P0.5, United States ev2.2_P0.5, Japan ev2.3_P0.4, South Korea ev2.4_P0.3
+Gate: or
+Relations: ev2>ev3
+
+Event 3
+event: Trade Flows in Lithium-Ion Battery Cells
+event_id: ev3
+description: Due to the higher cost of transporting battery packs, international trade in EV battery packs is likely to remain low compared to trade in battery cells.
+participants: xxxx
+Gate: xxxx
+Relations: ev2>ev3
+
+Event 4
+event: Vehicle Manufacturers' Decisions
+event_id: ev4
+description: Vehicle manufacturers' decisions about where to produce EVs (and in what quantities) are likely to be the primary determinants in lithium-ion battery module and pack production locations.
+participants: xxxx
+Gate: xxxx
+Relations: ev4>ev5
+
+Event 5
+event: Value-Added for Lithium-Ion Batteries
+event_id: ev5
+description: Much of the estimated U.S. value comes from pack assembly.
+participants: United States ev5.1_P0.5, Japan ev5.2_P0.4
+Gate: and
+Relations: ev5>ev6
+
+Event 6
+event: China's Role in Lithium-Ion Battery Supply Chain
+event_id: ev6
+description: China is the largest supplier of lithium-ion battery cells.
+participants: China ev6.1_P0.7, United States ev6.2_P0.3, Japan ev6.3_P0.2
+Gate: or
+Relations: ev6>ev7
+
+Event 7
+event: International Trade in Lithium-Ion Battery Cells
+event_id: ev7
+description: China and the United States are likely to be the largest suppliers of lithium-ion battery cells.
+participants: China ev7.1_P0.5, United States ev7.2_P0.5, Japan ev7.3_P0.4, South Korea ev7.4_P0.3
+Gate: or
+Relations: ev7>ev8
+
+Event 8
+event: Lithium-Ion Battery Supply Chain in the Future
+event_id: ev8
+description: The structure of the electric vehicle battery supply chain is likely to be shaped by competition and trade flows.
+participants: xxxx
+Gate: xxxx
+Relations: ev1>ev8

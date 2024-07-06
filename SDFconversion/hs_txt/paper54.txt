@@ -1,0 +1,79 @@
+Event 1
+event: ev battery supply chain
+event_id: ev1
+description: The supply chain for electric vehicle batteries involves various stages from raw material extraction to battery manufacturing and recycling, with significant global involvement.
+participants: mining and material refining ev1.1_P1, LIBs manufacturing ev1.2_P1, global supply chain integration ev1.3_P1, domestic manufacturing trend ev1.4_P1, Indonesia's role in nickel supply ev1.5_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3, ev1.3>ev1.4, ev1.4>ev1.5
+
+Subevent 1.1
+subevent: mining and material refining
+event_id: ev1.1
+description: Key raw materials such as lithium, nickel, manganese, cobalt, graphite, copper, and aluminum are sourced from mineral-rich countries like China, Australia, South Africa, Canada, and Indonesia.
+participants: lithium mining ev1.1.1_P1, nickel mining ev1.1.2_P1, manganese mining ev1.1.3_P1, cobalt mining ev1.1.4_P1, graphite mining ev1.1.5_P1, copper mining ev1.1.6_P1, aluminum mining ev1.1.7_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: LIBs manufacturing
+event_id: ev1.2
+description: China, Japan, and Korea dominate the LIB market, with major players including Panasonic Sanyo, AESC, LG Chem, and Samsung.
+participants: Panasonic Sanyo ev1.2.1_P1, AESC ev1.2.2_P1, LG Chem ev1.2.3_P1, Samsung ev1.2.4_P1, Tianjin Lishen ev1.2.5_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: global supply chain integration
+event_id: ev1.3
+description: Globalization has integrated trade and manufacturing from various countries, creating a global supply chain for LIBs and other ESS components.
+participants: trade integration ev1.3.1_P1, manufacturing integration ev1.3.2_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.4
+subevent: domestic manufacturing trend
+event_id: ev1.4
+description: The trend of domestic manufacturing is rising due to trade imbalance, high unemployment rates, trade tensions, and supply chain vulnerability.
+participants: trade imbalance ev1.4.1_P1, unemployment rate ev1.4.2_P1, trade tensions ev1.4.3_P1, supply chain vulnerability ev1.4.4_P1
+Gate: and
+Relations: xxxx
+
+Subevent 1.5
+subevent: Indonesia's role in nickel supply
+event_id: ev1.5
+description: Indonesia has a significant influence on the global nickel industry, with involvement in the LIBs supply chain through nickel mining and refining.
+participants: nickel ore export ev1.5.1_P1, matte nickel products ev1.5.2_P1, HPAL smelters ev1.5.3_P1, battery component supply ev1.5.4_P1
+Gate: and
+Relations: ev1.5.1>ev1.5.2, ev1.5.2>ev1.5.3, ev1.5.3>ev1.5.4
+
+Subsubevent 1.5.1
+subevent: nickel ore export
+event_id: ev1.5.1
+description: Indonesia exports raw nickel ore and matte nickel products as part of the LIBs supply chain.
+participants: raw nickel ore ev1.5.1.1_P1, matte nickel products ev1.5.1.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.5.2
+subevent: matte nickel products
+event_id: ev1.5.2
+description: Post-2017, Indonesia's involvement in the LIBs supply chain is through the export of matte nickel products and raw nickel ore refined by HPAL smelters.
+participants: post-2017 export ev1.5.2.1_P1, HPAL smelters ev1.5.2.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.5.3
+subevent: HPAL smelters
+event_id: ev1.5.3
+description: High-Pressure Acid Leaching (HPAL) smelters process laterite ore into semi-finished materials needed for making LIBs.
+participants: grade 1 nickel laterite ev1.5.3.1_P1, six active HPAL smelters ev1.5.3.2_P1
+Gate: and
+Relations: xxxx
+
+Subsubevent 1.5.4
+subevent: battery component supply
+event_id: ev1.5.4
+description: Indonesian nickel products are used in the LIBs supply chain, connected to at least 5 of the 10 largest LIB companies.
+participants: largest LIB companies ev1.5.4.1_P1, supply contracts ev1.5.4.2_P1
+Gate: and
+Relations: xxxx

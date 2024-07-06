@@ -1,0 +1,31 @@
+Event 1
+event: lithium-ion recycling
+event_id: ev1
+description: Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.
+participants: pyrometallurgical ev1.1_P1, hydrometallurgical ev1.2_P1, bioleaching ev1.3_P1
+Gate: or
+Relations: ev1.1>ev1.3, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: pyrometallurgy
+event_id: ev1.1
+description: The battery is melted in a hot furnace to recover some of the cathode metal.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.2
+subevent: hydrometallurgy
+event_id: ev1.2
+description: In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.
+participants: xxxx
+Gate: and
+Relations: xxxx
+
+Subevent 1.3
+subevent: bioleaching
+event_id: ev1.3
+description: The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: xxxx
+Gate: and
+Relations: xxxx

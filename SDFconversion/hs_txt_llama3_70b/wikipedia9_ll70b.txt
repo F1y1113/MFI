@@ -1,0 +1,56 @@
+Event 1
+event: Transition Minerals and Battery Supply Chains
+event_id: ev1
+description: Many challenges with battery supply chains are tied to extracting and processing of five minerals used in many of today’s leading electric vehicle (EV) batteries.
+participants: Low Domestic Supply of EV Battery Minerals and Recycled Materials for Battery Manufacturing ev1.1_P1
+Gate: and
+Relations: ev1>ev1.1
+
+Subevent 1.1
+subevent: Low Domestic Supply of EV Battery Minerals and Recycled Materials for Battery Manufacturing
+event_id: ev1.1
+description: Transition mineral reserves are highly concentrated outside of the United States; 50% of global lithium and cobalt reserves are in Chile and the Democratic Republic of Congo (DRC) respectively.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Midstream Supply Chain Activities, like Mineral Refining and Battery Cell Manufacturing
+event_id: ev1.2
+description: These five battery minerals, a handful of other critical minerals, and a few rare earth elements and other non-critical minerals make up the “transition minerals” that we need for a zero-emission vehicle (ZEV) economy.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Key Challenges in Electric Vehicle Battery Materials Supply Chains
+event_id: ev1.3
+description: Although it has a straightforward process and a reasonably mature technology, the main drawbacks are its high cost and high environmental pollution.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 2
+subevent: Challenges in Electric Vehicle Battery Materials Supply Chains
+event_id: ev2
+description: Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 3
+subevent: Electric Vehicle Battery Materials Supply Chains
+event_id: ev3
+description: The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Event 2
+event: Overview of Electric Vehicle Battery Materials Supply Chains
+event_id: ev2
+description: An overview of electric vehicle battery materials, supply chains, key challenges in electric vehicle battery materials supply chains.
+participants: xxxx
+Gate: and
+Relations: xxxx
+

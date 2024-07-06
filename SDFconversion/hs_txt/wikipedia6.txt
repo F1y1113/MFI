@@ -1,0 +1,119 @@
+Event 1
+event: Sodium-ion Battery Development
+event_id: ev1
+description: Sodium-ion batteries (NIBs) emerged as a promising alternative to lithium-ion batteries (LIBs) due to their cost-effectiveness, natural abundance, and safer materials. These batteries use sodium ions as charge carriers and have gained significant academic and commercial interest in the 2010s and early 2020s.
+participants: Construction Principles ev1.1_P1, Material Advantages ev1.2_P1, Comparison with Other Batteries ev1.3_P1
+Gate: and
+Relations: ev1.1>ev1.2, ev1.2>ev1.3
+
+Subevent 1.1
+subevent: Construction Principles
+event_id: ev1.1
+description: Sodium-ion batteries work on principles similar to lithium-ion batteries but replace lithium with sodium as the intercalating ion. The chemical properties of sodium are similar to lithium due to their position in the same group in the periodic table, but SIBs can differ significantly in some cases, such as with aqueous batteries.
+participants: Sodium Ion Role ev1.1.1_P1, Chemical Properties ev1.1.2_P1, Differences from LIBs ev1.1.3_P1
+Gate: and
+Relations: ev1.1.1>ev1.1.2, ev1.1.2>ev1.1.3
+
+Subsubevent 1.1.1
+subevent: Sodium Ion Role
+event_id: ev1.1.1
+description: Sodium ions (Na+) are used as the charge carriers in sodium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.2
+subevent: Chemical Properties
+event_id: ev1.1.2
+description: Sodium belongs to the same group in the periodic table as lithium, giving it similar chemical properties.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.1.3
+subevent: Differences from LIBs
+event_id: ev1.1.3
+description: SIBs can be quite different from LIBs in cases such as aqueous batteries, despite having a similar working principle and cell construction in other aspects.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.2
+subevent: Material Advantages
+event_id: ev1.2
+description: Sodium-ion batteries have advantages over lithium-ion batteries due to the natural abundance of sodium and the use of more abundant iron-based materials, avoiding the need for cobalt, copper, and nickel.
+participants: Abundance of Sodium ev1.2.1_P1, Iron-Based Materials ev1.2.2_P1, Ionic Radius Differences ev1.2.3_P1, Slower Intercalation Kinetics ev1.2.4_P1
+Gate: and
+Relations: ev1.2.1>ev1.2.2, ev1.2.2>ev1.2.3, ev1.2.3>ev1.2.4
+
+Subsubevent 1.2.1
+subevent: Abundance of Sodium
+event_id: ev1.2.1
+description: Sodium is naturally abundant, particularly in saltwater, making it a cost-effective alternative to lithium.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.2
+subevent: Iron-Based Materials
+event_id: ev1.2.2
+description: Many types of sodium-ion batteries use iron-based materials like NaFeO2, which are more abundant and do not require cobalt, copper, or nickel.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.3
+subevent: Ionic Radius Differences
+event_id: ev1.2.3
+description: The ionic radius of Na+ is larger than Fe2+ and Fe3+, preventing their mixing in the cathode material during battery cycling, unlike the similar ionic radii of Li+ and Fe.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.2.4
+subevent: Slower Intercalation Kinetics
+event_id: ev1.2.4
+description: A downside of the larger ionic radius of Na+ is slower intercalation kinetics of sodium-ion electrode materials, affecting battery performance.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subevent 1.3
+subevent: Comparison with Other Batteries
+event_id: ev1.3
+description: Sodium-ion batteries are compared to lithium-ion and rechargeable lead-acid batteries, showing advantages such as lower cost and better safety characteristics but a lower energy density.
+participants: Cost Comparison ev1.3.1_P1, Safety Characteristics ev1.3.2_P1, Power Delivery Characteristics ev1.3.3_P1, Energy Density Comparison ev1.3.4_P1
+Gate: and
+Relations: ev1.3.1>ev1.3.2, ev1.3.2>ev1.3.3, ev1.3.3>ev1.3.4
+
+Subsubevent 1.3.1
+subevent: Cost Comparison
+event_id: ev1.3.1
+description: Sodium-ion batteries generally have a lower cost compared to lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.2
+subevent: Safety Characteristics
+event_id: ev1.3.2
+description: Sodium-ion batteries exhibit better safety characteristics compared to lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.3
+subevent: Power Delivery Characteristics
+event_id: ev1.3.3
+description: Sodium-ion batteries have similar power delivery characteristics to lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
+
+Subsubevent 1.3.4
+subevent: Energy Density Comparison
+event_id: ev1.3.4
+description: Sodium-ion batteries have a lower energy density compared to lithium-ion batteries.
+participants: xxxx
+Gate: xxxx
+Relations: xxxx
