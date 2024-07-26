@@ -1,0 +1,53 @@
+Wednesday, June 22, 2022 – The pace at which prices grow in the UK increased to 9.1% in May from 9% in April, according to the Office for National Statistics (ONS). 
+
+The greatest causes of inflation are the cost of fuel and energy. Workers and unions are fighting for pay increases to deal with rising prices. 
+
+However, to avoid an “inflationary spiral” akin to the 1970s, where businesses raise wages and subsequently pass the cost on to customers through higher prices, the government has cautioned against employers awarding significant pay raises.
+
+The Bank of England warned that inflation may hit 11 percent this year as it is currently at its highest level since March 1982, when it also stood at 9.1 percent.
+
+According to experts, raising interest rates is one way to slow the rate at which prices rise. The goal is to raise borrowing costs to encourage people to borrow less, spend less, and save more.
+
+Source: BBC 
+Tuesday, April 26, 2022 - Russia will cut natural gas supplies to Poland and Bulgaria after the two nations refused to pay in rubles, dramatically escalating existing tensions with the West. PGNiG, Poland's state-run gas company said in a statement on Tuesday that Gazprom informed it on April 26 "of its decision to fully suspend deliveries under the Yamal contract at the beginning of the contract day on April 27."
+
+PGNiG said it would suspend gas supplies along the Yamal pipeline starting Wednesday morning, and the news sent US natural gas futures up about 3% on Tuesday.
+Source: CNN
+Thursday, May 12, 2022 - The War between Russia and Ukraine has raised many security concerns worldwide, especially in countries that border the two countries. Finland Shares about 800 miles of border with Russia. It has never been a North Atlantic Treaty Organization member to avoid rows with Russia.
+
+However, things are beginning to change with the Prime minister and President of Finland releasing a joint statement to join NATO. The formal announcement is expected to be made in a few days after thorough consultation by the parliament and respected political figures.
+
+Sweden has also hinted at making similar decisions as soon as possible.
+
+There have been different reactions from Russia and NATO members, with Russia threatening measures against the two countries if they violate their longstanding neutrality. On the other hand, NATO has a positive outlook on the announcement.
+
+Source: BBC
+Drastically increasing fleet and consumer use of electric vehicles (EVs) and developing energy storage solutions for renewable energy generation and resilience are key strategies the Biden administration touts to slash national transportation emissions and curtail climate change. While achievable goals, they are contingent on reliable and sustainable supplies of large quantities of high-capacity lithium-ion (Li-ion) batteries.
+
+The U.S. Department of Energy's (DOE's) new Battery Policies and Incentives database, developed and managed by the National Renewable Energy Laboratory (NREL), is helping to address the batteries need. The database is intended to help advance the adoption of zero-emission vehicles by providing information and data that inform the production of EV batteries and development of a secure domestic battery supply chain. The database allows users to search for policies and financial incentives by jurisdiction, battery chemistry, federal agency, status, and type, as well as other topics, to customize the information to each specific need.
+
+The Battery Policies and Incentives database currently covers activities before and after the use of batteries, such as materials production, manufacturing, and transport. It is aimed at federal, state, and local policymakers, as well as businesses and individuals looking to build key businesses in the U.S. Li-ion battery supply chain. The database excludes end-use applications, such as the EVs and electrical energy storage systems themselves.
+
+"NREL's deep expertise in maintaining comprehensive, national data sets was key in the development of the database," said NREL Software Developer Matt Rahill. "We leveraged that knowledge to enhance some of the most important aspects of the tool, including a public database so users in one state can understand what other states are doing, learn from one another, and share information related to current battery laws and incentives."
+
+Batteries are critical to decarbonizing the economy, expanding the nation's grid storage, improving resilience of homes and businesses, and increasing electrification of the transportation sector. Demand for EVs and stationary storage is projected to multiply the Li-ion battery market by the end of the decade, and production capacity in the United States is already responding with an increase in new battery production plants and capabilities.
+
+In response to an executive order from the White House, DOE recommended establishing a fully domestic, secure, end-to-end battery supply chain to meet U.S. battery demand. DOE's Federal Consortium for Advanced Batteries (FCAB), a federal interagency working group pursuing DOE's recommendation, initially identified the need to have ready access to relevant federal, state, and local laws, regulations, policies, and incentives.
+
+NREL and consultant ICF are working together to provide that access by building and enhancing the database, with NREL leading the technology development and ICF contributing research and data. DOE's Vehicle Technologies Office and NAATBatt International, an industry partner, are providing input from a user perspective on what information would be most helpful to battery supply chain stakeholders.
+
+"The Battery Policies and Incentives database serves to help stakeholders at each level of the supply chain be aware of existing regulations for all aspects of the battery life cycle and supply chain including production, distribution, use, and recycling," said NREL's Ted Sears, an advanced vehicle and fuels regulations senior project leader. "Notably, it allows stakeholders in the private and public sectors to identify what is still needed, and it will ultimately create more opportunity for private sector investment in all parts of the battery life cycle."
+
+FCAB's National Blueprint for Lithium Batteries presents a holistic approach to accelerate the development of domestic research and an industrial base for Li-ion batteries. The Blueprint's supply chain recommendation includes improved battery materials processing and advanced battery manufacturing capabilities, reduced reliance on outside markets for critical materials and technologies, enhanced domestic processing capacity of minerals for battery materials and advanced batteries, and increased domestic manufacturing and recycling capability.
+
+A key element of the supply chain will include sustainable sourcing and processing of critical minerals, such as lithium, cobalt, nickel, and graphite, which are necessary for Li-ion battery production. In the future, the United States aims to fully source all aspects of the supply chain domestically, with reliance on recycling as a vital tactic to develop a full end-to-end circular economy for batteries.
+
+The recently enacted Bipartisan Infrastructure Law includes funding to explore domestic capabilities for midstream and downstream components of the battery supply chain including anode/cathode power production, separator production, electrolyte production, electrode and cell manufacturing, advanced battery component manufacturing, second-life applications for used EV batteries, and new processes for recycling and reclaiming materials to add back into the supply chain. This also includes deployment of used EV batteries for applications outside of the automotive industry.
+
+"By using the database to host all policies and incentives in one place, it allows users to easily find the information they are looking for. The database will help propel work relevant to the battery supply chain, stationary energy storage, federal fleet electrification, as well as work with automobile manufacturers on production of EVs," Sears said. "The breadth of information provided by the database in all aspects of battery supply is really helping to build a responsible, sustainable circular economy within the United States for these batteries."
+
+The Battery Policies and Incentives Search tool structure is based on an established Federal and State Laws and Incentives database that is focused on alternative fuels and advanced vehicles, which NREL and ICF also developed in collaboration. This database is available on the Alternative Fuels Data Center (AFDC).
+
+"Even though we were able to apply existing methodologies, the process of tracking down information on battery life cycle policies and incentives was like the Wild West because not many pieces of previous legislation have focused on critical supply chain for batteries," said Carrie Giles, director of transportation at ICF. Because the Battery Policies and Incentives Search tool was established before the Bipartisan Infrastructure Law was passed, it has been used as a resource for members of the growing battery industry (e.g., battery producers, recyclers, innovators, and labs) as well as state legislators to guide EV and battery policy.
+
+The information captured by the new batteries database will grow as new topic areas emerge, and data entries will evolve as program details and websites become available to keep this tool, as Giles said, the "most relevant guide to battery-related policies and incentives." The development team welcomes input on areas users would like to see the tool cover.

@@ -1,0 +1,140 @@
+Sunday, March 19, 2023 — The President of Russia, Vladimir Putin, paid a surprise visit to captured Ukrainian port city of Mariupol. The visit comes shortly after the International Criminal Court issued an arrest warrant for him on war crime charges. Footage released by Russian state media shows the president on his first trip to Russian-occupied territories in Ukraine since the beginning of the Invasion.
+
+The city of Mariupol fell in May last year in what is described as the bloodiest battle in the war. It was tagged as the first major victory of Russia in the war with Ukraine after it failed to seize the capital, Kyiv.
+
+He left Mariupol for Rostov, where he met with the chief of the general staff, Valery Gerasimov, a commander of Russia’s war effort in Ukraine.
+
+Source: The Guardian
+Friday, February 24, 2023 — China has urged the G20 nations to conduct a fair, objective, and in-depth analysis of the possible causes of the global debt issues and to tackle the problem comprehensively and effectively. Minister for finance in China, Liu Kun, joined a video meeting of the bloc’s finance ministers and central bank chiefs in Bengaluru and India.
+
+According to the statement released by the Chinese finance ministry, Liu said that to resolve debt issues, international financial institutions and commercial creditors should go along with the principle of joint actions.
+
+Officials from the IMF, the World Bank, and G7 nations will convene on Saturday for the first face-to-face discussions of the new IMF Global Sovereign Debt Roundtable.
+
+Officials from Zambia and Ghana await assurance from China regarding debt-restructuring support.
+
+Source: Reuters 
+Monday, March 20, 2023 — The President of China, Xi Jinping, met with Russian President Vladimir Putin in Kremlin on Monday. This is the first visit of the Chinese leader to Russia since the beginning of Russia’s invasion of Ukraine last year.
+
+In the early hours of their meeting, both countries talked about the war in Ukraine, and it is expected to be the key point of discussion throughout Xi’s visit. Russian state news agency confirmed that the meeting between the two presidents lasted up to 4 and a half hours, with a more formal meeting expected to follow on Tuesday.
+
+Antony Blinken, a top United States diplomat, said President Xi’s trip to Russia days after the ICC issued an arrest warrant for President Putin suggests that China does not feel any responsibility to hold Kremlin responsible for the war crime committed in Ukraine.
+
+Source: CNN 
+In the automotive industry, the metals, plastics, and parts required to manufacture finished vehicles flow through a longstanding and finely tuned supply chain. Suppliers of raw materials, makers of parts, and shippers of the finished product have been links in the chain for a long time — and they’ve served the market well.
+
+As electric vehicles inch toward becoming the norm rather than the exception, this same supply chain will serve them, too…except when it comes to their batteries.
+
+The lithium-ion batteries that power electric vehicles are made up of different raw materials than traditional lead-acid car batteries. Is this unique supply chain ready for the demand ahead?
+
+Today’s EV Battery Production Supply Chain
+The majority of lithium production capacity currently resides in Australia, China and South America. However, both the United States and the European Union are working to build out supply chains to meet the increased need through domestic rather than foreign companies and sourcing domestically rather than abroad.
+
+The goal is not to have a fully domestic battery supply chain; few companies in the world are capable of this because of the location of raw material deposits. However, working toward a more domestically based EV battery supply chain will increase its resilience. The U.S. is also accelerating its efforts to secure the resources that aren’t available domestically.
+
+Although the EV lithium-ion battery supply chain will vary slightly based on the supplier and receiver, this is how it typically functions today.
+
+What Are the Parts of a Lithium-Ion Battery?
+To understand the EV battery supply chain, it’s important to first understand the parts of a lithium-ion battery.
+
+Inside a lithium-ion battery are lithium-ion cells, wires to connect them, a battery management system, and typically a plastic or metal casing. The number of cells in a lithium-ion battery depends on the energy requirements of the item it powers: The battery for a smartphone may only contain one large cell, whereas an EV battery is comprised of many lithium-ion cells.
+
+In an EV battery, cells are grouped into modules, and multiple modules then make up the battery pack — what consumers consider “the battery.”
+
+What Are the Parts of a Lithium-Ion Cell?
+Lithium-ion cells themselves require four main components, each of which requires its own virgin materials:
+
+The anode: The negative electrode, which is most often made of graphite.
+The cathode: The positive electrode, which can be made of lithium cobalt oxide, lithium iron phosphate, and lithium manganese oxide.
+The electrolyte: An electrolyte, which transports positive lithium-ions between the anode and cathode; the most common electrolyte is lithium salt.
+The separator: A thin sheet of material between the cathode and anode that controls the flow of ions to prevent an electrical short from damaging the battery. Separators for lithium-ion batteries are typical made from polyolefin, a synthetic resin created from polyethylene and/or polypropylene.
+Leg 1: Shipping Lithium Extraction Materials
+Although lithium ore is a raw material used to produce EV batteries, the lithium extraction process requires virgin materials to be successful.
+
+These include:
+
+Caustic Soda
+Sodium Cyanide
+Nitric Acid
+Cobalt
+Graphite
+Shipping these materials to lithium mines is the first step in the EV battery supply chain.
+
+How to Ship Raw Materials for Lithium Mining
+Raw materials for lithium mining and extraction can ship by truck or rail. When industrial chemicals ship by rail, the rail car used will vary by product type.
+
+Caustic inputs and nitric acid — tank cars
+Sodium cyanide, cobalt and graphite — tank cars, hoppers, box cars or containers on flat cars
+After lithium ore is mined, it is mixed with other materials like soda ash and lime and put through a chemical process to make lithium carbonate or lithium hydroxide. Manufacturers typically process these products onsite, but they can also ship by trucks or trains to be processed and refined if needed.
+
+What is the Best Way to Ship Raw Materials for Lithium Mining?
+Trucks are a good option for smaller and shorter shipments. Trains are ideal for shipping raw materials for lithium mining because they can haul large volumes and are typically more cost effective, especially when shipping long distances.
+
+Leg 2: Shipping Lithium Carbonate to Lithium Hydroxide Producers
+After lithium chloride is processed into lithium carbonate it travels to one of two places: to a facility in the United States or to China to be processed into lithium hydroxide.
+
+How to Ship Lithium Carbonate
+Lithium carbonate can be bagged into “super sacks” and travels domestically by truck or by rail in boxcars or domestic intermodal containers. When traveling overseas, lithium carbonate is loaded into intermodal containers which can ship on trucks or trains for the inland portion, then transferred to an ocean carrier for overseas shipping.
+
+What Is the Best Way to Ship Lithium Carbonate?
+Ocean carriers handle the overseas portion of the trip. The best way to ship lithium carbonate to a port depends on trip length. If the distance between the lithium processing plant is only a short distance from a port, trucks are usually the best option. If the distance is longer, trains are typically more cost effective and environmentally responsible.
+
+Leg 3: Shipping Materials to Make Battery Cell Components
+The next leg of the EV battery supply chain involves shipping materials to Asia where the components of lithium-ion cells (cathodes, anodes, electrolytes and separators) are made:
+
+Lithium carbonate and lithium hydroxide travel to cathode producers.
+Metals ship to cathode, anode and electrolyte producers.
+Polyolefin ships to separator producers.
+Once components are manufactured, they ship to cell producers that are also in Asia.
+
+How to Ship Materials to Make Battery Cell Components
+When shipping overseas, cell component materials travel in international intermodal containers. When shipping by land, lithium carbonate and lithium hydroxide typically ship by truck but can also be shipped by rail.
+
+Leg 4: Shipping Battery Cells to Module and Battery Pack Producers
+After lithium-ion battery cells are produced in Asia, they are imported back to the United States to be used by battery module and pack producers.
+
+How to Ship Lithium-ion Battery Cells
+When lithium-ion cells ship from Asia back to the States they travel in intermodal containers aboard cargo ships. Upon arrival in the U.S., they are transferred to trucks or a train between the port and the inland battery manufacturer.
+
+What Is the Best Way to Ship Lithium-ion Battery Cells?
+Ocean carriers are responsible for carrying lithium-ion battery cells from Asia to the United States. From there, the best way to ship battery cells from the port to inland battery manufacturers depends on trip length. Trucks are ideal for short distances and trains are ideal for longer distances.
+
+Leg 5: Shipping Lithium-Ion Batteries to OEMs
+Once cells arrive at the battery production site they are grouped into modules, which are then assembled into battery packs. The result is a finished EV lithium-ion battery ready to be shipped to the EV manufacturer.
+
+How to Ship Finished Lithium-ion Batteries
+Battery manufacturers are often just a short distance away from original equipment manufacturers (OEMs), so they typically ship by truck.
+
+Leg 6: Shipping Electric Vehicles to End Markets
+When lithium-ion batteries arrive at the OEM, they are installed in electric vehicles, which are then sent to dealerships or other end markets to be sold to consumers.
+
+How to Ship Electric Vehicles
+Finished electric vehicles can ship by trucks and trains. When finished vehicles are shipped by rail, they’re loaded into rail cars at auto ramps. After they’ve traveled by train to an auto ramp nearest their destination, finished vehicles are unloaded from the rail car and onto a car hauler for delivery to a dealership.
+
+What Is the Best Way to Ship Electric Vehicles?
+Typically, electric vehicles ship by rail for the majority of the trip in an autorack because these rail cars can haul more cars per load than a truck. They are usually a more cost-effective shipping option, too. Trucks, however, are ideal for final delivery to dealerships.
+
+Leg 7: Battery Recycling
+When electric vehicle batteries reach the end of their useful life, they can make one final move: recycling centers. Lithium-ion cells can be broken down to their parts and the resulting cobalt, lithium, manganese, nickel and graphite can be reused in new EV batteries. Scrapped metals from the casing, modules and cells can also be recycled.
+
+How to Ship Recycled Lithium-Ion Battery Materials
+Today, materials from recycled EV batteries often travel by truck. However, metals, minerals, and other raw materials can also ship by rail.
+
+How to Ship Recycled EV Batteries by Rail
+The way components of a recycled lithium-ion battery ship by rail will depend on the type of material. Industrial chemicals can ship in tank cars, covered hoppers, or containers, depending on the type, and scrap metal can ship in gondola cars.
+
+What Equipment Is Needed to Ship EV Lithium-Ion Batteries and Materials?
+The type of rail cars needed to ship EV batteries and materials depends on what’s being shipped. Examples are as follows:
+
+Raw minerals in liquid form, like caustic inputs and nitric acid — tank cars
+Solid raw minerals like soda ash, sodium cyanide, graphite and cobalt — hoppers, box cars or containers on flat cars
+Overseas shipments like lithium carbonate and lithium hydroxide — intermodal containers
+Finished electric vehicles — autoracks
+Recycled industrial minerals and chemicals like cobalt, lithium, manganese, nickel and graphite — tank cars, hoppers, box cars or containers on flat cars
+Recycled metals and scrap metal — gondolas
+Some of the materials used to make lithium-ion batteries, as well as the finished products, are considered hazardous. Railroads follow rigorous design standards for rail cars carrying hazmat and have worked with the U.S. Federal Railroad Administration to create software that determines the safest, most secure rail routes for hazmat. As a result, 99.9% of all hazardous material shipments by rail reach their destination without incident.
+
+Preparing for the EV Surge
+As the market for electric vehicles grows, it will place greater demand on the lithium-ion battery supply chain. To keep up — and to keep up profitably — suppliers and producers will need to ensure the transportation mode they choose can accommodate larger volumes without shipping costs digging into profitability.
+
+Shippers of these materials also have the opportunity to choose a transportation mode that can reduce the carbon footprint of their shipments. Rail shipments reduce GHG emissions by 75% compared to trucks, so leveraging rail where it makes sense in the EV supply chain is the most environmentally responsible choice to ship freight by land.

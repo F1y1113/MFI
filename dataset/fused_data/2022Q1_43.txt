@@ -1,0 +1,88 @@
+Beginning on January 5, North Korea began a new round of missile tests over the Sea of Japan. These new tests seem targeted toward circumventing American and Japanese missile defense technologies deployed in the region, according to statements made by North Korean state media and analyses by Western observers. Some suspect this new round of tests is meant to preempt a new push for diplomatic engagement with the U.S., which has leveraged severe sanctions against the country due to its missile programs.
+Source: BBC
+US President Joe Biden has warned there is a "distinct possibility" Russia might invade Ukraine next month, the White House says.
+Russia meanwhile says it sees "little ground for optimism" in resolving the crisis after the US rejected Russia's main demands.
+The build-up of tens of thousands of Russian troops on Ukraine's borders in recent weeks has stoked fears of an invasion.
+Russia denies it is planning an attack.
+The US president made the comments in a telephone conversation with Ukrainian President Volodymyr Zelensky on Thursday.
+"President Biden said that there is a distinct possibility that the Russians could invade Ukraine in February," White House National Security Council spokesperson Emily Horne said.
+"He has said this publicly and we have been warning about this for months."
+During their talk, President Biden "reaffirmed the readiness of the United States along with its allies and partners to respond decisively if Russia further invades Ukraine", a White House statement said.
+Mr Zelensky said they "discussed recent diplomatic efforts on de-escalation and agreed on joint actions for the future".
+Axios, citing unnamed sources, suggested the two disagreed on how imminent the threat was. Some military experts suggest Russia may be waiting for the ground in Ukraine to freeze so they can move in heavy equipment.
+Another important phone call will take place on Friday, when French President Emmanuel Macron speaks directly with Russia's Vladimir Putin.
+If Russia were to invade Ukraine, it would not be the first time. Russia annexed Ukraine's southern Crimea peninsula in 2014. It is also backing rebels who seized large swathes of the eastern Donbas region soon afterwards, and some 14,000 people have died in fighting there.
+Also on Thursday, the US threatened to halt the opening of a key pipeline that would send Russian gas to Western Europe, if Russia invades Ukraine.
+Nord Stream 2 would run from Russia to Germany, and on Thursday officials in Berlin said the project could face sanctions if Russia attacks.
+Western allies say they will target Russia's economy if it invades, and the latest comments signal a hardening of their stance.
+The 1,225km (760-mile) pipeline took five years to build and cost $11bn (£8bn). The energy project, which would run under the Baltic Sea, is designed to double Russia's gas exports to Germany.
+But as yet it has not started operating, as regulators said in November it does not comply with German law and suspended its approval.
+Russia denies any plans to invade but last month made wide-ranging security demands from the West, including that Ukraine never be allowed to join the Nato military alliance.
+The US rejected this key demand, while offering what it called a "serious diplomatic path forward" to Moscow.
+Kremlin spokesman Dmitry Peskov said on Thursday that the US response left "little ground for optimism", but added that "there always are prospects for continuing a dialogue, it's in the interests of both us and the Americans".
+The proposals will not be made public, but US Secretary of State Antony Blinken said the document made their "core principles" clear, including Ukraine's sovereignty and its right to choose to be part of security alliances such as Nato.
+Russia's foreign minister Sergei Lavrov said the formal response does not address Russia's "main concern" about the alliance's expansion.
+Kim Jong Un says North Korea's latest missile test demonstrates the might of its nuclear forces and should deter any US military moves.
+
+Key points:
+North Korea's leader says the test will deter "US imperialists"
+Analysts say the Hwasong-17 missile is the largest liquid-fuelled missile ever launched from a road-mobile launcher
+The launch is another challenge for the US as it deals with Russia's invasion of Ukraine
+Thursday's launch was the nuclear-armed nation's first full test of an intercontinental ballistic missile (ICBM) since 2017.
+
+Flight data indicated the missile flew higher and longer than any of North Korea's previous tests, before crashing into the sea west of Japan.
+
+The Hwasong-17 ICBM is the largest liquid-fuelled missile ever launched by any country from a road-mobile launcher, analysts said.
+
+They suggested the missile could reach targets 15,000 kilometres away when fired on normal trajectory with a warhead weighing less than a tonne, which would place the entire US mainland within striking distance.
+
+North Korean leader Kim Jong Un and two men in military uniforms look out a window and into the sky.
+Kim Jong Un watches the launch of an intercontinental ballistic missile.(Korean Central News Agency via Reuters)
+Mr Kim ordered the test because of the "daily-escalating military tension in and around the Korean peninsula" and the "inevitability of the long-standing confrontation with the US imperialists accompanied by the danger of a nuclear war", state news agency KCNA reported.
+
+"The strategic forces of the DPRK are fully ready to thoroughly curb and contain any dangerous military attempts of the US imperialists," Mr Kim said while personally overseeing the launch, according to KCNA. 
+
+Photos released by state media showed a massive missile, painted black with a white nose cone, rising on a column of flame from a launch vehicle.
+
+KCNA called the successful test a "striking demonstration of great military muscle," while Mr Kim said it was a "miraculous" and "priceless" victory for the Korean people.
+
+
+North Korea conducts its largest-ever missile test.
+North Korea first unveiled the Hwasong-17 at a pre-dawn military parade in October 2020, with analysts noting it appeared "considerably larger" than its predecessor, the Hwasong-15, which was test-fired in November 2017.
+
+North Korea's return to major weapons tests capable of potentially striking the United States poses a direct challenge to President Joe Biden as he responds to Russia's invasion of Ukraine.
+
+It also raises the prospect of a new crisis following the election of a new, conservative South Korean administration, which has pledged a stronger military strategy to counter Pyongyang.
+
+South Korea's President-elect Yoon Suk-yeol said North Korea had nothing to gain from provocation.
+
+His military responded to Thursday's launch with live-fire drills of its own missiles launched from land, a fighter jet and a ship, underscoring a revival of tensions as diplomacy remains frozen.
+
+The launch also drew condemnation from leaders in the United States and Japan.
+
+US Secretary of Defence Lloyd J Austin held separate telephone conversations with his counterparts in South Korea and Japan, where they discussed response measures to North Korean missile activities and vowed to strengthen defence cooperation, according to the Pentagon.
+
+The US State Department has announced sanctions on two Russian companies, a Russian and a North Korean individual, and North Korea's Second Academy of Natural Science Foreign Affairs Bureau, for transferring sensitive items to North Korea's missile program.
+
+Source: ABC
+Batteries play two key roles in the clean energy revolution: They power electric vehicles, and they can store clean energy so it can be dispatched whenever it’s needed. The U.S. Department of Energy (DOE) is working quickly and strategically to advance batteries’ capabilities, because they are poised to transform both the energy landscape and the transportation sector.
+
+The 2017 launch of the Battery500 Consortium set the country on the fast track to vehicle electrification. Battery500 is a group of national labs and universities—including two Nobel Prize winners who won for inventing lithium-ion batteries—dedicated to making more powerful, less costly EV batteries. A Battery500 goal, and the reason behind the consortium’s name, is to increase lithium battery cell energy to 500 Watt hours per kilogram (Wh/kg) from today’s level of 220 Wh/kg. Increasing cell energy will lower EV battery cost to DOE’s goal of $60/per kilowatt-hour. A more energy-dense battery will require fewer materials to get that amount of energy, so it’s lighter, too.
+Advances and Funding
+Battery500 has made great strides so far. The consortium has developed new cell design, manufacturing, and testing tools; fabricated high-energy, rechargeable lithium-metal cells with a specific energy over 350 Wh/kg; and enabled 350 Wh/kg battery cells to be fully charged and discharged 600 times—closing in on the goal of 1,000.
+
+Now Battery500 will have an additional $75 million from DOE to work with as it increases collaboration with industry to develop materials and technologies scalable for manufacturing. Led by Pacific Northwest National Laboratory, the consortium comprises three other national labs and nine university research partners. General Motors is also providing funding to build battery prototype cells for evaluation.
+
+Beyond the consortium, DOE awarded $134 million to 25 national lab projects that aim to reduce battery cost and size but also fully charge batteries in less than 15 minutes. And since widespread production and adoption of EV batteries means tens of millions of vehicles across the nation will soon need charging, some of these projects are working to mitigate any impacts the increase in charging might have on the electric grid. Others are working to streamline vehicle-to-vehicle communications and controls.
+
+Supply Chain and Infrastructure
+DOE wants to ensure a strong domestic supply chain to create jobs and enable EV battery production in the United States. The public-private partnership Li-Bridge helps bridge gaps in the domestic lithium battery supply chain and works with national labs toward the 2030 goals in the National Blueprint for Lithium Batteries.
+
+As those gaps are bridged, the new Joint Office of Energy and Transportation puts two federal agencies (DOE and the Department of Transportation (DOT)) at the forefront of implementing EV infrastructure nationwide—500,000 charging stations by 2030—to reduce emissions and mitigate the effects of climate change. The Joint Office will facilitate:
+
+Technical assistance to deploy, operate, and maintain electric vehicle supply equipment (EVSE) and hydrogen fueling infrastructure, and enable vehicle-to-grid integration
+Data sharing to inform the build-out of EVSE and hydrogen fueling infrastructure
+Studies to support grants for community resilience and EV integration
+New training and certification programs for the workforce that will install, maintain, and repair EVSE
+Infrastructure that allows two-way electricity distribution, so power flows from vehicles to the grid and from the grid to vehicles, and incorporates right-of-way corridors.
+DOE will also work with the DOT, the U.S. Environmental Protection Agency, and the U.S. Department of Housing and Urban Development to develop a joint strategy to decarbonize transportation and make it affordable and accessible to all Americans.

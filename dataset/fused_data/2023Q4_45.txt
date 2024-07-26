@@ -1,0 +1,52 @@
+Sunday, October 8, 2023 – Israel has officially declared war on Hamas, which sets the stage for a major military operation in Gaza. Tanks and personnel carriers were sighted on the move along the Israel-Gaza border on Sunday, following a surprise attack from an Islamist militant group, Hamas, which has killed over 700 Israelis. 
+
+Hamas has confirmed that they are holding more than 100 Israeli hostages, including high-ranking officers, as they continue to fire rockets into Israel throughout Sunday. Another armed group in Palestine, known as the Islamist Jihad, said that they were holding at least 30 hostages in Gaza.
+
+The Prime Minister of Israel, Benjamin Netanyahu promised that his country would retaliate, and said that they were ready for a long and difficult war. More than 400 Palestinians have been killed in Gaza, due to Israel’s response with airstrike.
+
+Source: CNN
+Saturday, October 21, 2023 – After almost a week of negotiations between the United States, Israel, Egypt and the United Nations, the Rafah crossing point between Egypt and Gaza has been opened. The opening will allow 20 Egyptian trucks containing medical supplies to cross into the territory.
+
+According to the agreement, only 20 trucks will be permitted to enter on Saturday, and a UN official said trucks from the UN will not be expected to cross until Monday.
+
+The government of Israel said that they want proof that the aid deliveries are not seized or diverted by Hamas before they can authorize any further deliveries. An official of the United Nations said that the verification procedures are still under discussion. The director general of the World Health Organization confirmed that the medical supplies that are being sent to Gaza include trauma and chronic disease medicine.
+
+Source: The Guardian 
+Wednesday, November 8, 2023 – The executive body of the European Union said on Wednesday that detailed negotiations about Ukraine joining the European Union should begin next year, giving a major boost to the country’s ambition. In a report, the Commission said that accession talks should finally start, close to 18 months since the bloc accepted Ukraine as a candidate state.
+
+Ursula von der Leyen, the President of the European Commission while speaking on Wednesday said that “today is a historic day, because the Commission recommends that the Council opens accession negotiation with Ukraine and with Moldova.
+
+The President of Ukraine, Volodymyr Zelensky, welcomed the Commission’s announcement and said that with the announcement, the history of Ukraine and the whole of Europe has taken the right step. While the decision to begin negotiations with Ukraine is a pivotal step, talks will not begin until certain conditions have been met.
+
+Source: CNN
+LONDON/DETROIT, Dec 8 (Reuters) - The rise of inexpensive Chinese electric vehicles has upped the pressure on legacy automakers who have turned to suppliers, from battery materials makers to chipmakers, to squeeze out costs and develop affordable EVs quicker than previously planned.
+"Automakers are really now only turning to affordable vehicles, knowing they've got to or they will lose out to Chinese manufacturers," said Andy Palmer, chairman of UK startup Brill Power, which has developed hardware and software to boost EV battery management system performance.
+Palmer, formerly Aston Martin's CEO, said Brill Power's products could boost EV range by 60% and enable smaller batteries. The battery is an EV's most costly component.
+Fears of slowing demand because EVs are expensive has increased urgency to reduce costs.
+That urgency can be seen everywhere. Renault (RENA.PA), opens new tab said last month it plans 40% cost reductions for its EVs to reach price parity with fossil-fuel models.
+Stellantis (STLAM.MI), opens new tab is building a European plant with China's CATL (300750.SZ), opens new tab to make cheaper LFP batteries and recently unveiled the Citroen electric e-C3 SUV, which starts at 23,300 euros ($24,540).
+Volkswagen (VOWG_p.DE), opens new tab and Tesla (TSLA.O), opens new tab are developing 25,000-euro EVs.
+Vincent Pluvinage, CEO of Palo Alto, California-based OneD Battery Sciences, said that on his recent visits with European automaker customers, every meeting started with the same refrain: "'Reducing costs is now more important than anything else.'"
+OneD adds silicon nanowires to graphite EV battery anode material to boost range and cut charging time, saving $281 - nearly 50% - versus using graphite alone for a 100 kilowatt hour (kWh) EV battery.
+This can reduce EV battery weight by 20% for the same range, Pluvinage said. General Motors (GM.N), opens new tab is a OneD investor and customer.
+OneD has developed a manufacturing process on relatively inexpensive machinery used in the solar panel industry, as Pluvinage said automakers dislike complex, costly new processes. OneD's first test plant will open early next year.
+Hodenhagen, Germany-based Veekim has developed an EV motor with magnets using a form of ferrite, or iron powder, instead of rare earths, which five automakers and suppliers are testing for affordable EV projects.
+Legacy automakers want to cut rare earths use because China dominates mining and processing. Veekim CEO Peter Siegle said using cheaper ferrite and low-cost processes - including 3D-printed copper wiring - can cut an EV motor's price by 20%. Motors can cost more than 500 euros.
+'ALL ABOUT THE COST'
+It is not just startups seeking EV cost reductions.
+Chip maker NXP (NXPI.O), opens new tab is working with automakers to reduce the amount of electronic control units - or mini-computers - in EVs, which can number between 200 and 300, said Allan McAuslin, director of vehicle control and electrification.
+Siemens (SIEGn.DE), opens new tab has developed software simulation called digital twins to halve expensive EV development time.
+European automakers are reacting to the arrival of lower-cost EVs from China, whose makers are planning even cheaper models.
+BYD's (002594.SZ), opens new tab Dolphin hatchback, for instance, starts in the UK at 26,000 pounds ($33,000), nearly 30% below the starting price for the VW ID.3 hatchback.
+But U.S. automakers, somewhat protected from Chinese EV imports by subsidies in the Inflation Reduction Act, also seek more affordable EVs.
+GM said it has saved billions partly by developing a more inexpensive battery pack with LFP batteries for its revamped Bolt EV, which will launch in 2025, two years earlier than planned.
+Ford (F.N), opens new tab said it will cut costs partly through a 50% increase in "in-sourcing" of parts like batteries and inverters.
+Premium automakers want lower costs for EVs, too.
+Michigan-based Our Next Energy (ONE) is developing an "Ares" battery pack with cheaper LFP technology that should give automakers the same electric driving range for half the price and a "Gemini" pack for customers including BMW (BMWG.DE), opens new tab that offers extended range and should cost $75/kWh compared with an average today of $130/kWh, CEO Mujeeb Ijaz said.
+Suppliers said automakers particularly like less expensive parts that also reduce production costs.
+San Carlos, California-based CelLink has developed a laminate sheet to replace wire harnesses - labor-intensive to make and install - that can be installed by robots.
+CelLink raised $250 million from investors last year and in May announced a $362 million U.S. government loan for its Texas factory.
+Since opening that plant, said CEO Kevin Coakley, "We've gotten some form of a purchase order from basically every major automaker that's come through there."
+Israeli startup Addionics has developed porous, three-dimensional copper and aluminium electrode battery materials that look like sheer silk scarves when held up to the light and use far less material - including 60% less copper.
+Those electrodes provide faster charging and boost EV range by 30%, CEO Moshiel Biton said. But automakers are more interested in projected savings of up to $7.50 per kWh.
+"What we hear from carmakers today is, 'We don't need longer range, we want lower costs,'" Biton said.
