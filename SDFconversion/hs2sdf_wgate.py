@@ -95,10 +95,7 @@ def main(paperID, input_hs, output_dir):
                 single_relation['wd_label'] = "before"
                 single_relation['wd_description'] = "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing"
                 single_relation['relationSubject'] = event_dict[event][3][re].split('>')[0]
-                #print(event_dict[event][3][re].split('>'))
                 single_relation['relationObject'] = event_dict[event][3][re].split('>')[1]
-        
-        # schema_dict['relations'].append(single_relation)
 
     with open(output_dir + paperID + '.json', 'w') as fp:
         json.dump(schema_dict, fp)
