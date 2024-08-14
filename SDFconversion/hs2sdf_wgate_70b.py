@@ -70,8 +70,7 @@ def extract(paperID, input_hs, output_dir):
     schema_dict['events'] = []
     schema_dict['relations'] = []
     schema_dict['entities'] = []
-    schema_dict['privateData'] = {"inputDigest": []}
-    schema_dict['provenanceData'] = []
+  
 
     # Process events
     for event in event_dict:
@@ -94,8 +93,6 @@ def extract(paperID, input_hs, output_dir):
         single_event['wd_label'] = event_dict[event][0]
         single_event['wd_description'] = event_dict[event][1]
         single_event['description'] = event_dict[event][1]
-        single_event['privateData'] = {"originalDocumentId": ""}
-        
         schema_dict['events'].append(single_event)
         
     # Process relations
@@ -110,8 +107,6 @@ def extract(paperID, input_hs, output_dir):
                 single_relation['relationSubject'] = event_dict[event][3][re].split('>')[0]
                 print(event_dict[event][3][re].split('>'))
                 single_relation['relationObject'] = event_dict[event][3][re].split('>')[1]
-                single_relation['privateData'] = {"originalDocumentId": ""}
-        
                 schema_dict['relations'].append(single_relation)
 
     # Write the schema dictionary to a JSON file
@@ -128,8 +123,8 @@ def main(paperID, input_hs, output_dir):
 def _parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ID", default=None, type=str)
-    parser.add_argument("--input_dir", default='/home/aikes/SDFconversion/hs_txt_llama3_70b', type=str)
-    parser.add_argument("--output_dir", default='/home/aikes/SDFconversion/sdf_output_llama3_70b/', type=str) 
+    parser.add_argument("--input_dir", default='Schema_Learning/ZeroShot_output/Llama3-70B_HS', type=str)
+    parser.add_argument("--output_dir", default='Schema_Learning/ZeroShot_output/Llama3-70B_SDF', type=str) 
     
     args = parser.parse_args()
     return args

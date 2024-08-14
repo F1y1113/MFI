@@ -104,8 +104,8 @@ def main(paperID, input_hs, output_dir):
 def _parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ID", default=None, type=str, required=True)
-    parser.add_argument("--input_dir", default='/home/aikes/SDFconversion/hs_txt', type=str)
-    parser.add_argument("--output_dir", default='/home/aikes/SDFconversion/sdf_output/', type=str) 
+    parser.add_argument("--input_dir", default='Schema_Learning/ZeroShot_output/GPT4o_HS', type=str)
+    parser.add_argument("--output_dir", default='Schema_Learning/ZeroShot_output/GPT4o_SDF', type=str) 
     
     args = parser.parse_args()
     return args
