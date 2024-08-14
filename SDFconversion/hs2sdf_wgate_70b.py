@@ -11,10 +11,6 @@ def extract(paperID, input_hs, output_dir):
     with open(os.path.join(input_hs, paperID + '.txt'), 'r') as tex:
         text_con = tex.readlines()
         
-    # Clean the text lines
-    #for i in range(len(text_con)):
-        #text_con[i] = text_con[i].replace('*', '').replace('#', '').replace('`', '')
-        
     for i in range(len(text_con)):
         original_line = text_con[i]
         cleaned_line = original_line.replace('*', '').replace('#', '').replace('`', '')
@@ -67,7 +63,7 @@ def extract(paperID, input_hs, output_dir):
 
     # Create the schema dictionary
     schema_dict = {}
-    schema_dict['@context'] = ["https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld", {"cmu": "https://www.cmu.edu/"}]
+    schema_dict['@context'] = []
     schema_dict['sdfVersion'] = "2.2"
     schema_dict['@id'] = paperID
     schema_dict['version'] = "v0"

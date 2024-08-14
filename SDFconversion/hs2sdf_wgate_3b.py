@@ -52,7 +52,7 @@ def main(paperID, input_hs, output_dir):
 
 
     schema_dict = {}
-    schema_dict['@context'] = ["https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld", {"cmu": "https://www.cmu.edu/"}]
+    schema_dict['@context'] = []
     schema_dict['sdfVersion'] = "2.2"
     schema_dict['@id'] = paperID
     schema_dict['version'] = "v0"

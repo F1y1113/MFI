@@ -52,15 +52,13 @@ def main(paperID, input_hs, output_dir):
 
 
     schema_dict = {}
-    schema_dict['@context'] = ["https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld", {"cmu": "https://www.cmu.edu/"}]
+    schema_dict['@context'] = []
     schema_dict['sdfVersion'] = "2.2"
     schema_dict['@id'] = paperID
     schema_dict['version'] = "v0"
     schema_dict['events'] = []
     schema_dict['relations'] = []
     schema_dict['entities'] = []
-    schema_dict['privateData'] = {"inputDigest": []}
-    schema_dict['provenanceData'] = []
 
     #schema_dict['events']
 
@@ -83,7 +81,6 @@ def main(paperID, input_hs, output_dir):
         single_event['wd_label'] = event_dict[event][0]
         single_event['wd_description'] = event_dict[event][1]
         single_event['description'] = event_dict[event][1]
-        single_event['privateData'] = {"originalDocumentId": ""}
         
         schema_dict['events'].append(single_event)
         
@@ -100,7 +97,6 @@ def main(paperID, input_hs, output_dir):
                 single_relation['relationSubject'] = event_dict[event][3][re].split('>')[0]
                 #print(event_dict[event][3][re].split('>'))
                 single_relation['relationObject'] = event_dict[event][3][re].split('>')[1]
-                single_relation['privateData'] = {"originalDocumentId": ""}
         
         # schema_dict['relations'].append(single_relation)
 
@@ -111,8 +107,8 @@ def main(paperID, input_hs, output_dir):
 def _parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ID", default=None, type=str, required=True)
-    parser.add_argument("--input_dir", default='/home/aikes/SDFconversion/hs_txt_llama3_70b', type=str)
-    parser.add_argument("--output_dir", default='/home/aikes/SDFconversion/sdf_output_llama3_70b/', type=str) 
+    parser.add_argument("--input_dir", default='Schema_Learning/ZeroShot_output/GPT4o_HS', type=str)
+    parser.add_argument("--output_dir", default='Schema_Learning/ZeroShot_output/Llama3-70B_SDF', type=str) 
     
     args = parser.parse_args()
     return args
