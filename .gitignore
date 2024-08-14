@@ -1,4 +1,4 @@
 dataset/*.json
 dataset/*.png
 dataset/news_dataset/*.txt
-dataset/schema_learning_dataset/raw_paragraph/.txt
+dataset/schema_learning_dataset/raw_paragraph/*.txt
