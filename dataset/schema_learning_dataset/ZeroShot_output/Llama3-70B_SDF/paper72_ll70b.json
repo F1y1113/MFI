@@ -1,0 +1,297 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper72_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "China's industrial policy program",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China's industrial policy program",
+            "wd_description": "China prioritized EVs as part of its \"Made in China 2025\" industrial policy program.",
+            "description": "China prioritized EVs as part of its \"Made in China 2025\" industrial policy program.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "US perception of the pre-IRA equilibrium",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US perception of the pre-IRA equilibrium",
+            "wd_description": "The US perceived China as dominating the EV market.",
+            "description": "The US perceived China as dominating the EV market.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "US perception of the post-IRA equilibrium",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US perception of the post-IRA equilibrium",
+            "wd_description": "The US perceived itself as playing catch-up in the EV market.",
+            "description": "The US perceived itself as playing catch-up in the EV market.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "IRA policy objectives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "IRA policy objectives",
+            "wd_description": "The IRA aimed to increase US competitiveness in the EV market.",
+            "description": "The IRA aimed to increase US competitiveness in the EV market.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper72/Event/3Pcnb6O4Mk/Jobs-at-risk-due-to-ICE-to-EV-transition",
+            "name": "Jobs at risk due to ICE to EV transition",
+            "ta1explanation": "",
+            "description": "The transition from ICE vehicles to EVs puts hundreds of thousands of jobs at risk, particularly in swing states like Michigan and Ohio.",
+            "wd_node": "paper72",
+            "wd_label": "paper72",
+            "participants": []
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Discriminatory policies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Discriminatory policies",
+            "wd_description": "China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms.",
+            "description": "China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev2.1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev2.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev2.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev2.4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev3.1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev3.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev3.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev3.4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

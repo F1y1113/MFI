@@ -1,7 +1,0 @@
-Event 1
-event: Informality of the Recycling Network
-event_id: ev1
-description: EV manufacturers with blockchain set the value of this level to 'xxxx' if this level is empty!!!
-participants: xxxx
-Gate: or
-Relations: ev1>xxxx

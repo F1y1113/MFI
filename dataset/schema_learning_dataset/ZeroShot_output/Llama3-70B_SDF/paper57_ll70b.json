@@ -1,0 +1,310 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper57_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Aluminum production for LIB production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 0.33
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Aluminum production for LIB production",
+            "wd_description": "The batteries in electric vehicles can account for one-third of their productionite refining.",
+            "description": "The batteries in electric vehicles can account for one-third of their productionite refining.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "BMS production for LIB production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.41
+                },
+                {
+                    "child": "ev2.1.1",
+                    "importance": 0.59
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 0.41
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "BMS production for LIB production",
+            "wd_description": "The BMS controls the interactions between the LIB and the required load to ensure the safe and reliable operation of the LIB.",
+            "description": "The BMS controls the interactions between the LIB and the required load to ensure the safe and reliable operation of the LIB.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "LIB production for EV battery supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LIB production for EV battery supply chain",
+            "wd_description": "The LCA carried out in this study examined transitioning to higher-nickel NMC battery chemistries using different scenarios and multiple supply chains that span several different global regions.",
+            "description": "The LCA carried out in this study examined transitioning to higher-nickel NMC battery chemistries using different scenarios and multiple supply chains that span several different global regions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "China's aluminum production for LIB production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's aluminum production for LIB production",
+            "wd_description": "The batteries in electric vehicles can account for one-third of their productionite refining.",
+            "description": "The batteries in electric vehicles can account for one-third of their productionite refining.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "United States' BMS production for LIB production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "United States' BMS production for LIB production",
+            "wd_description": "The BMS controls the interactions between the LIB and the required load to ensure the safe and reliable operation of the LIB.",
+            "description": "The BMS controls the interactions between the LIB and the required load to ensure the safe and reliable operation of the LIB.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.1",
+            "name": "LIB production for EV battery supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LIB production for EV battery supply chain",
+            "wd_description": "The LCA carried out in this study examined transitioning to higher-nickel NMC battery chemistries using different scenarios and multiple supply chains that span several different global regions.",
+            "description": "The LCA carried out in this study examined transitioning to higher-nickel NMC battery chemistries using different scenarios and multiple supply chains that span several different global regions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7",
+            "name": "Role of Battery Management System (BMS) in LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper57/Event/3XeJorx2Ne/BMS-production-variability",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Role of Battery Management System (BMS) in LIBs",
+            "wd_description": "The BMS controls the interactions between the LIB and the required load to ensure safe and reliable operation. The study models BMS production in different regions.",
+            "description": "The BMS controls the interactions between the LIB and the required load to ensure safe and reliable operation. The study models BMS production in different regions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7.1",
+            "name": "BMS",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BMS",
+            "wd_description": "The BMS controls interactions between the LIB and the required load.",
+            "description": "The BMS controls interactions between the LIB and the required load.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Safe operation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Safe operation",
+            "wd_description": "The BMS ensures the safe operation of the LIB by preventing overcharging and complete discharge.",
+            "description": "The BMS ensures the safe operation of the LIB by preventing overcharging and complete discharge.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7.3",
+            "name": "Reliable operation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reliable operation",
+            "wd_description": "The BMS ensures the reliable operation of the LIB by monitoring battery operations.",
+            "description": "The BMS ensures the reliable operation of the LIB by monitoring battery operations.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7.4",
+            "name": "Regional variability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regional variability",
+            "wd_description": "The study models BMS production in different regions, similar to cell production scenarios.",
+            "description": "The study models BMS production in different regions, similar to cell production scenarios.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper57/Event/3XeJorx2Ne/BMS-production-variability",
+            "name": "BMS production variability",
+            "ta1explanation": "",
+            "description": "The production of BMS varies regionally, with different energy sources affecting the overall environmental impact.",
+            "wd_node": "paper57",
+            "wd_label": "paper57",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

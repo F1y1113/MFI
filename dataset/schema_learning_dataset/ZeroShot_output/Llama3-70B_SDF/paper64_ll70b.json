@@ -1,0 +1,242 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper64_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Nickel Resource Development for EV Batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Nickel Resource Development for EV Batteries",
+            "wd_description": "The global demand for nickel resources will continue to grow with the development of new energy vehicles, coupled with uncertainty of supply, natural disasters and other supply factors.",
+            "description": "The global demand for nickel resources will continue to grow with the development of new energy vehicles, coupled with uncertainty of supply, natural disasters and other supply factors.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Zeng et al.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Zeng et al.",
+            "wd_description": "Understanding the trade structure characteristics, the role of a country in the industrial chain and the layout of a country's industrial chain is an important prerequisite for a country to guarantee its industrial safety, international competitiveness and sustainable development.",
+            "description": "Understanding the trade structure characteristics, the role of a country in the industrial chain and the layout of a country's industrial chain is an important prerequisite for a country to guarantee its industrial safety, international competitiveness and sustainable development.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "2018b",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "2018b",
+            "wd_description": "The whole nickel industrial chain is a multilayer trade system.",
+            "description": "The whole nickel industrial chain is a multilayer trade system.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Nickel industrial chain trade structure and safety",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.5",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nickel industrial chain trade structure and safety",
+            "wd_description": "Understanding the trade structure characteristics, the role of a country in the industrial chain, and the layout of a country's industrial chain is crucial for guaranteeing industrial safety, international competitiveness, and sustainable development.",
+            "description": "Understanding the trade structure characteristics, the role of a country in the industrial chain, and the layout of a country's industrial chain is crucial for guaranteeing industrial safety, international competitiveness, and sustainable development.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Trade structure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trade structure",
+            "wd_description": "The nickel industrial chain is a multilayer trade system, and understanding its trade structure characteristics is important.",
+            "description": "The nickel industrial chain is a multilayer trade system, and understanding its trade structure characteristics is important.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Role of country",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Role of country",
+            "wd_description": "The role of a country in the nickel industrial chain is crucial for its industrial safety and development.",
+            "description": "The role of a country in the nickel industrial chain is crucial for its industrial safety and development.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Industrial safety",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Industrial safety",
+            "wd_description": "Understanding the trade structure helps guarantee a country's industrial safety.",
+            "description": "Understanding the trade structure helps guarantee a country's industrial safety.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.4",
+            "name": "International competitiveness",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International competitiveness",
+            "wd_description": "The trade structure and role in the nickel industrial chain contribute to a country's international competitiveness.",
+            "description": "The trade structure and role in the nickel industrial chain contribute to a country's international competitiveness.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.5",
+            "name": "Sustainable development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable development",
+            "wd_description": "The layout of a country's industrial chain is important for sustainable development.",
+            "description": "The layout of a country's industrial chain is important for sustainable development.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Implications for supply risk propagation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Implications for supply risk propagation",
+            "wd_description": "The results of the study provide a basis for future research on supply risk propagation in the global nickel industry chain multilayer trade network.",
+            "description": "The results of the study provide a basis for future research on supply risk propagation in the global nickel industry chain multilayer trade network.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Supply risk propagation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply risk propagation",
+            "wd_description": "The study's results can help understand how supply risks propagate in the global nickel industry chain.",
+            "description": "The study's results can help understand how supply risks propagate in the global nickel industry chain.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Future research basis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Future research basis",
+            "wd_description": "The findings provide a basis for future research on supply risk propagation in the nickel industry chain.",
+            "description": "The findings provide a basis for future research on supply risk propagation in the nickel industry chain.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

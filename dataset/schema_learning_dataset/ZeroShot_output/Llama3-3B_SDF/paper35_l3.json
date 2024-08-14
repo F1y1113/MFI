@@ -1,0 +1,93 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper35_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Post-consumer EV batteries and scrap processing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Post-consumer EV batteries and scrap processing",
+            "wd_description": "Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.",
+            "description": "Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Most Co production from Cu production by-product",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Most Co production from Cu production by-product",
+            "wd_description": "Most Co is produced as a by-product of Cu production.",
+            "description": "Most Co is produced as a by-product of Cu production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Improved battery performance and longevity at the design/production stage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Improved battery performance and longevity at the design/production stage",
+            "wd_description": "Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.",
+            "description": "Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Coordination of battery performance and longevity at the design/production stage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Coordination of battery performance and longevity at the design/production stage",
+            "wd_description": "Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.",
+            "description": "Future focus needs to be on post-consumer EV batteries, though this should be in coordination with improved battery performance and longevity at the design/production stage.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

@@ -1,0 +1,211 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper17_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgy",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgy",
+            "wd_description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Geographical distribution of manufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper17/Event/3hwb3klsXN/Economic-feasibility-of-recycling"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Geographical distribution of manufacturing",
+            "wd_description": "Analyzing the geographical distribution of lithium-ion battery manufacturing, with a focus on China, Japan, and Korea.",
+            "description": "Analyzing the geographical distribution of lithium-ion battery manufacturing, with a focus on China, Japan, and Korea.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "ufacturing capabilities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ufacturing capabilities",
+            "wd_description": "Evaluating the manufacturing capabilities of China, Japan, and Korea, which dominate the lithium-ion battery market.",
+            "description": "Evaluating the manufacturing capabilities of China, Japan, and Korea, which dominate the lithium-ion battery market.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "de flows",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "de flows",
+            "wd_description": "Analyzing the trade flows of lithium-ion batteries within Asia and to the United States.",
+            "description": "Analyzing the trade flows of lithium-ion batteries within Asia and to the United States.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper17/Event/3hwb3klsXN/Economic-feasibility-of-recycling",
+            "name": "Economic feasibility of recycling",
+            "ta1explanation": "",
+            "description": "The current economic challenges of recycling lithium from used LIBs, which limits its potential as a significant short-term supply source",
+            "wd_node": "paper17",
+            "wd_label": "paper17",
+            "participants": []
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Electrolyte supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.5.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Electrolyte supply",
+            "wd_description": "Examining the supply of electrolytes for lithium-ion batteries, which has not faced significant resource constraints to date.",
+            "description": "Examining the supply of electrolytes for lithium-ion batteries, which has not faced significant resource constraints to date.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.5.1",
+            "name": "ctrolyte production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ctrolyte production",
+            "wd_description": "Analyzing the production of electrolytes for lithium-ion batteries, focusing on the most commonly used electrolytes and their production capacities.",
+            "description": "Analyzing the production of electrolytes for lithium-ion batteries, focusing on the most commonly used electrolytes and their production capacities.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.5.2",
+            "name": "ket analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ket analysis",
+            "wd_description": "Evaluating the market for lithium-ion battery electrolytes, including overcapacity issues and geographical distribution of production.",
+            "description": "Evaluating the market for lithium-ion battery electrolytes, including overcapacity issues and geographical distribution of production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

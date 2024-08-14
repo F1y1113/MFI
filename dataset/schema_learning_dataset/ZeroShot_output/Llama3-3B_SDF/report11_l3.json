@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report11_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Increasing but unpredictable battery growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Increasing but unpredictable battery growth",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Unpredictable growth in battery capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unpredictable growth in battery capacity",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Increasing demand for batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Increasing demand for batteries",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "The vast majority (approximately 89%) of battery growth is unpredictable",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "The vast majority (approximately 89%) of battery growth is unpredictable",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Unpredictable factors affecting battery growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unpredictable factors affecting battery growth",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Increasing but unpredictable demand for batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Increasing but unpredictable demand for batteries",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Unpredictable growth in battery capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unpredictable growth in battery capacity",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Increasing demand for batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Increasing demand for batteries",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

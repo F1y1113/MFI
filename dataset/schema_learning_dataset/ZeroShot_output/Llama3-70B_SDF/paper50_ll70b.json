@@ -1,0 +1,193 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper50_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Developing a Complete Downstream Supply Chain for Lithium-Ion Battery Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Developing a Complete Downstream Supply Chain for Lithium-Ion Battery Production",
+            "wd_description": "In the process of electrification of the vehicle industry, an more sizeable investment into lithium-ion battery production in order to develop a complete downstream supply chain, including the synthesis of the remaining high-quality battery materials.",
+            "description": "In the process of electrification of the vehicle industry, an more sizeable investment into lithium-ion battery production in order to develop a complete downstream supply chain, including the synthesis of the remaining high-quality battery materials.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Increasing Employment Rate in the Industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Increasing Employment Rate in the Industry",
+            "wd_description": "The development of the EV industry can increase the employment rate in the internal combustion powertrain industry.",
+            "description": "The development of the EV industry can increase the employment rate in the internal combustion powertrain industry.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Attracting FDI to Raise Necessary Funds for Indonesia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Attracting FDI to Raise Necessary Funds for Indonesia",
+            "wd_description": "Thanks to FDI, it is possible to inflow resources and technologies that are not available in the country. This is very important for Indonesia, which has limited resources.",
+            "description": "Thanks to FDI, it is possible to inflow resources and technologies that are not available in the country. This is very important for Indonesia, which has limited resources.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Building Competitive Advantage in the EV Battery Market",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Building Competitive Advantage in the EV Battery Market",
+            "wd_description": "Indonesia cannot allow China to dominate in both relations. In the process of electrification of the vehicle industry, an more sizeable investment into lithium-ion battery production in order to develop a complete downstream supply chain, including the synthesis of the remaining high-quality battery materials.",
+            "description": "Indonesia cannot allow China to dominate in both relations. In the process of electrification of the vehicle industry, an more sizeable investment into lithium-ion battery production in order to develop a complete downstream supply chain, including the synthesis of the remaining high-quality battery materials.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev5",
+            "name": "Maintaining Technology Leadership in the EV Industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Maintaining Technology Leadership in the EV Industry",
+            "wd_description": "By attracting FDI and building competitive advantage in the EV battery market, Indonesia can maintain technology leadership in the EV industry.",
+            "description": "By attracting FDI and building competitive advantage in the EV battery market, Indonesia can maintain technology leadership in the EV industry.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Resource Exploitation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource Exploitation",
+            "wd_description": "Exploitation of Indonesia's rich mineral resources for EV battery production.",
+            "description": "Exploitation of Indonesia's rich mineral resources for EV battery production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "Nikel Ore Export Ban",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "kel Ore Export Ban",
+            "wd_description": "Ban on the export of unprocessed nickel ore to improve value-added opportunities and support local industry.",
+            "description": "Ban on the export of unprocessed nickel ore to improve value-added opportunities and support local industry.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "Class 2 Nickel Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ss 2 Nickel Production",
+            "wd_description": "Increase in Class 2 nickel production for stainless steel and battery-grade nickel.",
+            "description": "Increase in Class 2 nickel production for stainless steel and battery-grade nickel.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

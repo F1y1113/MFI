@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper30_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion battery production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lithium-ion battery production",
+            "wd_description": "The coronavirus pandemic has turbocharged the lithium-ion-battery-to-electric-vehicle market.",
+            "description": "The coronavirus pandemic has turbocharged the lithium-ion-battery-to-electric-vehicle market.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Supply chain asset ownership",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper30/Event/MLRXpETne/Importance-of-asset-ownership"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain asset ownership",
+            "wd_description": "Understanding the importance of asset ownership along the supply chain is crucial for automakers' success in the next decade.",
+            "description": "Understanding the importance of asset ownership along the supply chain is crucial for automakers' success in the next decade.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Investment in assets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investment in assets",
+            "wd_description": "Automakers need to actively invest in and own assets throughout the supply chain to secure their future position.",
+            "description": "Automakers need to actively invest in and own assets throughout the supply chain to secure their future position.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Intellectual property control",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Intellectual property control",
+            "wd_description": "Controlling intellectual property along the supply chain will provide a competitive edge to automakers.",
+            "description": "Controlling intellectual property along the supply chain will provide a competitive edge to automakers.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper30/Event/MLRXpETne/Importance-of-asset-ownership",
+            "name": "Importance of asset ownership",
+            "ta1explanation": "",
+            "description": "Future success depends on investing in and owning assets and controlling intellectual property along the supply chain",
+            "wd_node": "paper30",
+            "wd_label": "paper30",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "xxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

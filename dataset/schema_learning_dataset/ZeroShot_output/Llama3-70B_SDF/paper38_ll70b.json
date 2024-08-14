@@ -1,0 +1,307 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper38_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Future EV adoption and demand for battery raw materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Future EV adoption and demand for battery raw materials",
+            "wd_description": "Depends on overcoming multiple barriers, including charging infrastructure, sufficient electricity generation, and the availability of battery raw materials at acceptable costs.",
+            "description": "Depends on overcoming multiple barriers, including charging infrastructure, sufficient electricity generation, and the availability of battery raw materials at acceptable costs.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Charging Infrastructure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Charging Infrastructure",
+            "wd_description": "Needs to be established for widespread EV adoption.",
+            "description": "Needs to be established for widespread EV adoption.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Sufficient Electricity Generation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sufficient Electricity Generation",
+            "wd_description": "Required to support increased demand for electricity from EV charging.",
+            "description": "Required to support increased demand for electricity from EV charging.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Availability of Battery Raw Materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Availability of Battery Raw Materials",
+            "wd_description": "Needed at acceptable costs to support EV battery production.",
+            "description": "Needed at acceptable costs to support EV battery production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "EV deployment and associated increased demand for raw materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.3
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "EV deployment and associated increased demand for raw materials",
+            "wd_description": "Will have a greater impact on prices for cobalt than nickel and, in turn, for nickel than copper.",
+            "description": "Will have a greater impact on prices for cobalt than nickel and, in turn, for nickel than copper.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "EV Deployment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Deployment",
+            "wd_description": "Will lead to increased demand for raw materials.",
+            "description": "Will lead to increased demand for raw materials.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Increased Demand for Raw Materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev2.2.3",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Increased Demand for Raw Materials",
+            "wd_description": "Will drive up prices for cobalt, nickel, and copper.",
+            "description": "Will drive up prices for cobalt, nickel, and copper.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Recycling of EV batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Recycling of EV batteries",
+            "wd_description": "Will be important for sustainable production and reducing waste.",
+            "description": "Will be important for sustainable production and reducing waste.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Recycling Technology",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling Technology",
+            "wd_description": "Needs to be developed and implemented.",
+            "description": "Needs to be developed and implemented.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Public Acceptance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Public Acceptance",
+            "wd_description": "Needed for widespread adoption of EV battery recycling.",
+            "description": "Needed for widespread adoption of EV battery recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "cobalt supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "cobalt supply",
+            "wd_description": "Cobalt is a key material in EV batteries, and its supply is influenced by its co-production with other metals.",
+            "description": "Cobalt is a key material in EV batteries, and its supply is influenced by its co-production with other metals.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.2",
+            "relationObject": "ev2.2.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

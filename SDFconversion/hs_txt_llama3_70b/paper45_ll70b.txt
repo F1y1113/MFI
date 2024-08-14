@@ -1,7 +1,0 @@
-Event 1
-event: Lithium-Ion Recycling Network Informality
-event_id: ev1
-description: The informality of the recycling network, EV manufacturers with blockchain.
-participants: xxxx
-Gate: or
-Relations: xxxx

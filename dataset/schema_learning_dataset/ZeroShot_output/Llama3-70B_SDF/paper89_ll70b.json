@@ -1,0 +1,330 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper89_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.33
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.5",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgy",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Black Mass treatment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper89/Event/3NhEYoLH90/Black-Mass-treatment-methods",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Black Mass treatment",
+            "wd_description": "Black Mass is treated using hydrometallurgical methods to recover lithium, nickel, and cobalt.",
+            "description": "Black Mass is treated using hydrometallurgical methods to recover lithium, nickel, and cobalt.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "Direct physical regeneration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Direct physical regeneration",
+            "wd_description": "Direct physical regeneration of Black Mass is an emerging method still in its infancy.",
+            "description": "Direct physical regeneration of Black Mass is an emerging method still in its infancy.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "Pyrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pyrometallurgy",
+            "wd_description": "Pyrometallurgical recycling is energy-intensive, generating GHG and toxic fumes, and is less financially viable due to lithium loss in slag.",
+            "description": "Pyrometallurgical recycling is energy-intensive, generating GHG and toxic fumes, and is less financially viable due to lithium loss in slag.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1.3",
+            "name": "Hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hydrometallurgy",
+            "wd_description": "Hydrometallurgical recycling generates fewer GHG emissions and produces usable products within the battery value chain.",
+            "description": "Hydrometallurgical recycling generates fewer GHG emissions and produces usable products within the battery value chain.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper89/Event/3NhEYoLH90/Black-Mass-treatment-methods",
+            "name": "Black Mass treatment methods",
+            "ta1explanation": "",
+            "description": "Black Mass can be treated using direct physical regeneration, pyrometallurgy, or hydrometallurgy, with hydrometallurgy being the preferred method due to lower GHG emissions.",
+            "wd_node": "paper89",
+            "wd_label": "paper89",
+            "participants": []
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Crystallization",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper89/Event/3RYQe2ifyV/Solvent-extraction-and-crystallization-details",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Crystallization",
+            "wd_description": "Crystallization processes are used to remove impurities and produce battery-grade lithium carbonate or lithium hydroxide monohydrate.",
+            "description": "Crystallization processes are used to remove impurities and produce battery-grade lithium carbonate or lithium hydroxide monohydrate.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.3.1",
+            "name": "Sodium sulfate crystallization",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sodium sulfate crystallization",
+            "wd_description": "Sodium sulfate crystallization is necessary to remove sodium from lithium solutions to meet product specifications.",
+            "description": "Sodium sulfate crystallization is necessary to remove sodium from lithium solutions to meet product specifications.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.3.2",
+            "name": "Lithium precipitation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium precipitation",
+            "wd_description": "Lithium is precipitated to produce battery-grade lithium carbonate or lithium hydroxide monohydrate.",
+            "description": "Lithium is precipitated to produce battery-grade lithium carbonate or lithium hydroxide monohydrate.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper89/Event/3RYQe2ifyV/Solvent-extraction-and-crystallization-details",
+            "name": "Solvent extraction and crystallization details",
+            "ta1explanation": "Solvent extraction uses organic solvents in mixer-settlers to extract metals, followed by crystallization to produce battery-grade metal sulfate hydrates.",
+            "description": "Solvent extraction uses organic solvents in mixer-settlers to extract metals, followed by crystallization to produce battery-grade metal sulfate hydrates.",
+            "wd_node": "paper89",
+            "wd_label": "paper89",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.1.1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.1.4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.1.5",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

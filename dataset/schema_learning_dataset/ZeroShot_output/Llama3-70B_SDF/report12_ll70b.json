@@ -1,0 +1,293 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report12_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV Battery Supply Chain Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain Challenges",
+            "wd_description": "Growing demand for EV batteries puts pressure on supply chains, with environmental and social impacts.",
+            "description": "Growing demand for EV batteries puts pressure on supply chains, with environmental and social impacts.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Increasing Demand for EV Batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Increasing Demand for EV Batteries",
+            "wd_description": "Growing demand for EVs drives demand for batteries.",
+            "description": "Growing demand for EVs drives demand for batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Pressure on Supply Chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pressure on Supply Chains",
+            "wd_description": "Growing demand for EV batteries puts pressure on supply chains.",
+            "description": "Growing demand for EV batteries puts pressure on supply chains.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Environmental and Social Impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Environmental and Social Impacts",
+            "wd_description": "Growing demand for EV batteries has environmental and social impacts.",
+            "description": "Growing demand for EV batteries has environmental and social impacts.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "EV Sales",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Sales",
+            "wd_description": "Growing demand for EVs drives demand for batteries.",
+            "description": "Growing demand for EVs drives demand for batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Battery Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery Production",
+            "wd_description": "Growing demand for batteries drives production.",
+            "description": "Growing demand for batteries drives production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Supply Chain Management",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Chain Management",
+            "wd_description": "Managing supply chains is crucial to meet growing demand.",
+            "description": "Managing supply chains is crucial to meet growing demand.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Mitigating vehicle demand",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mitigating vehicle demand",
+            "wd_description": "Reducing car dependency through improved land use, transit, and mobility options.",
+            "description": "Reducing car dependency through improved land use, transit, and mobility options.",
+            "privateData": {
+                "originalDocumentId": ""
+            },
+            "children_gate": "and",
+            "children": [
+                {
+                    "child": "report12/Event/3jJnE2xDCk/Improved-land-use",
+                    "importance": 1
+                },
+                {
+                    "child": "report12/Event/2aObIgaNX0/Increased-transit-and-mobility-options",
+                    "importance": 1
+                }
+            ]
+        },
+        {
+            "@id": "report12/Event/3jJnE2xDCk/Improved-land-use",
+            "name": "Improved land use",
+            "ta1explanation": "",
+            "description": "This event captures strategies for mitigating vehicle demand by improving land use.",
+            "wd_node": "report12",
+            "wd_label": "report12",
+            "participants": []
+        },
+        {
+            "@id": "report12/Event/2aObIgaNX0/Increased-transit-and-mobility-options",
+            "name": "Increased transit and mobility options",
+            "ta1explanation": "",
+            "description": "This event reflects efforts to reduce car dependency by increasing transit and mobility options.",
+            "wd_node": "report12",
+            "wd_label": "report12",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2",
+            "relationObject": "ev4.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

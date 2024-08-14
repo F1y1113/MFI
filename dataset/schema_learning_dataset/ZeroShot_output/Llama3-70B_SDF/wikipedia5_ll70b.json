@@ -1,0 +1,117 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia5_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium Iron Phosphate Battery (level is empty!!!)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium Iron Phosphate Battery (level is empty!!!)",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "xxxx",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "xxxx",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "xxxx",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "xxxx",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Long cycle life",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cycle life",
+            "wd_description": "LFP batteries support more than 3,000 cycles under most conditions and over 10,000 cycles under optimal conditions.",
+            "description": "LFP batteries support more than 3,000 cycles under most conditions and over 10,000 cycles under optimal conditions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.1.1",
+            "name": "Cycle life data",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cycle life data",
+            "wd_description": "Data shows that LFP batteries support a longer cycle life compared to other lithium-ion chemistries.",
+            "description": "Data shows that LFP batteries support a longer cycle life compared to other lithium-ion chemistries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Tesla production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Tesla production",
+            "wd_description": "Tesla is a major producer of LFP batteries, contributing significantly to the market share.",
+            "description": "Tesla is a major producer of LFP batteries, contributing significantly to the market share.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2.1",
+            "name": "Tesla EV production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tesla EV production",
+            "wd_description": "Tesla's production of LFP batteries contributes significantly to its EV lineup, enhancing safety and reducing costs.",
+            "description": "Tesla's production of LFP batteries contributes significantly to its EV lineup, enhancing safety and reducing costs.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

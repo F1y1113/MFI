@@ -1,0 +1,342 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper80_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Automakers announce investments for EV manufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.6",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev1.7",
+                    "importance": 0.1
+                },
+                {
+                    "child": "ev1.8",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Automakers announce investments for EV manufacturing",
+            "wd_description": "The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.",
+            "description": "The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Department of Energy estimates U.S. EV market growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Department of Energy estimates U.S. EV market growth",
+            "wd_description": "The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.",
+            "description": "The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "EV market growth is driven by government incentives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV market growth is driven by government incentives",
+            "wd_description": "The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.",
+            "description": "The Department of Energy estimates the U.S. was home to eight major automakers announcing significant investments for electric vehicle (EV) manufacturing.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Ford announces $5 billion investment in EV production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ford announces $5 billion investment in EV production",
+            "wd_description": "Ford Motor Company announced a significant investment of $5 billion to support its electric vehicle (EV) manufacturing.",
+            "description": "Ford Motor Company announced a significant investment of $5 billion to support its electric vehicle (EV) manufacturing.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "General Motors announces $3 billion investment in EV production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "General Motors announces $3 billion investment in EV production",
+            "wd_description": "General Motors announced a significant investment of $3 billion to support its electric vehicle (EV) manufacturing.",
+            "description": "General Motors announced a significant investment of $3 billion to support its electric vehicle (EV) manufacturing.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Toyota announces $2 billion investment in EV production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Toyota announces $2 billion investment in EV production",
+            "wd_description": "Toyota Motor Corporation announced a significant investment of $2 billion to support its electric vehicle (EV) manufacturing.",
+            "description": "Toyota Motor Corporation announced a significant investment of $2 billion to support its electric vehicle (EV) manufacturing.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Hyundai investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hyundai investment",
+            "wd_description": "Hyundai announced a new facility to support 8,100 jobs in Georgia for building batteries and assembling EVs.",
+            "description": "Hyundai announced a new facility to support 8,100 jobs in Georgia for building batteries and assembling EVs.",
+            "privateData": {
+                "originalDocumentId": ""
+            },
+            "children_gate": "and",
+            "children": [
+                {
+                    "child": "paper80R/Event/899hedEMy/Hyundai-investment-in-Georgia",
+                    "importance": 1
+                }
+            ]
+        },
+        {
+            "@id": "paper80R/Event/899hedEMy/Hyundai-investment-in-Georgia",
+            "name": "Hyundai investment in Georgia",
+            "ta1explanation": "",
+            "description": "Hyundai announced a new facility in Georgia to build batteries and assemble EVs, creating 8,100 jobs.",
+            "wd_node": "paper80",
+            "wd_label": "paper80",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.5",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.6",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5",
+            "relationObject": "ev1.7",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.8",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

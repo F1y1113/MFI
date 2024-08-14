@@ -1,0 +1,150 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper94_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.34
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Three main methods are used in lithium-ion recycling.",
+            "description": "Three main methods are used in lithium-ion recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "children": [
+                {
+                    "child": "xxxxx",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgical",
+            "participants": [],
+            "children": [
+                {
+                    "child": "xxxxx",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "hydrometallurgical",
+            "wd_description": "Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes.",
+            "description": "Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "children": [
+                {
+                    "child": "xxxxx",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Durability challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Durability challenges",
+            "wd_description": "Durability issues arise from the high energy content and the complexity of balancing various energies in LIBs.",
+            "description": "Durability issues arise from the high energy content and the complexity of balancing various energies in LIBs.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.1.1",
+            "name": "Energy balance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy balance",
+            "wd_description": "Balancing chemical, thermal, mechanical, and electrical energies in LIBs is crucial for durability.",
+            "description": "Balancing chemical, thermal, mechanical, and electrical energies in LIBs is crucial for durability.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.1.2",
+            "name": "Force-phase fields",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Force-phase fields",
+            "wd_description": "The coupling of force-phase fields from various energies poses challenges in achieving durability.",
+            "description": "The coupling of force-phase fields from various energies poses challenges in achieving durability.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

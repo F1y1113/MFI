@@ -1,7 +1,0 @@
-Event 1
-event: RLB supply chain dominated by LIB
-event_id: ev1
-description: The RLB supply chain is dominated by LIB.
-participants: LIB ev1.1_P1
-Gate: xxxx
-Relations: ev1>ev1.1

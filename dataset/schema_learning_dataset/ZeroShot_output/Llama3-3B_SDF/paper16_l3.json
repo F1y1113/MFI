@@ -1,0 +1,243 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper16_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Graphite mining and processing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.6",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Graphite mining and processing",
+            "wd_description": "Exploration, mining, processing, manufacturing, use and recycling of graphite for battery production.",
+            "description": "Exploration, mining, processing, manufacturing, use and recycling of graphite for battery production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Exploration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Exploration",
+            "wd_description": "Searching for graphite deposits and assessing their potential.",
+            "description": "Searching for graphite deposits and assessing their potential.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mining",
+            "wd_description": "Extracting graphite from the earth.",
+            "description": "Extracting graphite from the earth.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Processing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Processing",
+            "wd_description": "Refining and purifying graphite for use in battery production.",
+            "description": "Refining and purifying graphite for use in battery production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Manufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Manufacturing",
+            "wd_description": "Creating products that use graphite, such as batteries.",
+            "description": "Creating products that use graphite, such as batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Use",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.5.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Use",
+            "wd_description": "Using graphite-containing products in various applications.",
+            "description": "Using graphite-containing products in various applications.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.6",
+            "name": "Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.6.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "Collecting and processing graphite-containing waste for reuse.",
+            "description": "Collecting and processing graphite-containing waste for reuse.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Policy Recommendations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy Recommendations",
+            "wd_description": "Recommendations for policies to support the development of the graphite industry in Africa.",
+            "description": "Recommendations for policies to support the development of the graphite industry in Africa.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "ulatory Frameworks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ulatory Frameworks",
+            "wd_description": "Developing robust regulatory frameworks to support sustainable graphite mining.",
+            "description": "Developing robust regulatory frameworks to support sustainable graphite mining.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "entive Programs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "entive Programs",
+            "wd_description": "Implementing incentive programs to encourage investment and development in the graphite sector.",
+            "description": "Implementing incentive programs to encourage investment and development in the graphite sector.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

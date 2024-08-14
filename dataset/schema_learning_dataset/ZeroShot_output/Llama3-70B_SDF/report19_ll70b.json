@@ -1,0 +1,103 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report19_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "本周主要生产国印尼镍矿审批速度面临回调压力",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "本周主要生产国印尼镍矿审批速度面临回调压力",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "xxx",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "xxx",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Federal Reserve Rate Decisions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "report19R/Event/1hOGhT5S5k/Macroeconomic-Impact",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Federal Reserve Rate Decisions",
+            "wd_description": "The Federal Reserve has maintained interest rates and signaled a potential rate cut in 2024, influencing market expectations and the value of the dollar, which in turn affects nickel prices.",
+            "description": "The Federal Reserve has maintained interest rates and signaled a potential rate cut in 2024, influencing market expectations and the value of the dollar, which in turn affects nickel prices.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Interest Rate Decisions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Interest Rate Decisions",
+            "wd_description": "The Federal Reserve announced that interest rates will remain unchanged and projected a 75 basis points cut in 2024.",
+            "description": "The Federal Reserve announced that interest rates will remain unchanged and projected a 75 basis points cut in 2024.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Market Expectations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Market Expectations",
+            "wd_description": "Market expectations for a rate cut have increased, leading to a depreciation of the dollar and supporting a rise in nickel prices.",
+            "description": "Market expectations for a rate cut have increased, leading to a depreciation of the dollar and supporting a rise in nickel prices.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "report19R/Event/1hOGhT5S5k/Macroeconomic-Impact",
+            "name": "Macroeconomic Impact",
+            "ta1explanation": "",
+            "description": "This event captures the broader impact of Federal Reserve decisions, such as interest rate changes, on the overall economy and specifically on the nickel market.",
+            "wd_node": "report19",
+            "wd_label": "report19",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

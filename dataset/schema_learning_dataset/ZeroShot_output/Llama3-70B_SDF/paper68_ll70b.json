@@ -1,0 +1,540 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper68_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Improved means for energy storage, key element to support increasing demand for technologies using renewable energy sources.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Improved means for energy storage, key element to support increasing demand for technologies using renewable energy sources.",
+            "wd_description": "Sovacool et al. (2020) literature focuses on improved means for energy storage.",
+            "description": "Sovacool et al. (2020) literature focuses on improved means for energy storage.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Efforts required to understand real and tangible costs of using critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Efforts required to understand real and tangible costs of using critical raw materials.",
+            "wd_description": "Accessibility to resources a key challenge in the low-carbon transition.",
+            "description": "Accessibility to resources a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Significant part of literature on low-carbon transition focuses on energy storage.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on energy storage.",
+            "wd_description": "Energy storage a key challenge in the low-carbon transition.",
+            "description": "Energy storage a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev5",
+            "name": "Significant part of literature on low-carbon transition focuses on critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev6",
+            "name": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7",
+            "name": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev8",
+            "name": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev9",
+            "name": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev9.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev10",
+            "name": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev11",
+            "name": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev11.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev12",
+            "name": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev12.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev13",
+            "name": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev13.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev13.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev14",
+            "name": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev14.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev14.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev15",
+            "name": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev15.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev15.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Significant part of literature on low-carbon transition focuses on energy storage and critical raw materials.",
+            "wd_description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "description": "Understanding the costs of using critical raw materials a key challenge in the low-carbon transition.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper68/Event/3XiFEbQ5U8/Recycling-and-substitution-strategies",
+            "name": "Recycling and substitution strategies",
+            "ta1explanation": "",
+            "description": "Strategies such as recycling and substitution are needed to mitigate the impacts of using critical raw materials.",
+            "wd_node": "paper68",
+            "wd_label": "paper68",
+            "participants": []
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Improved energy storage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Improved energy storage",
+            "wd_description": "Energy storage is crucial for the low-carbon transition, supporting technologies that use renewable energy sources.",
+            "description": "Energy storage is crucial for the low-carbon transition, supporting technologies that use renewable energy sources.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4",
+            "relationObject": "ev5",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5",
+            "relationObject": "ev6",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6",
+            "relationObject": "ev7",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7",
+            "relationObject": "ev8",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8",
+            "relationObject": "ev9",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9",
+            "relationObject": "ev10",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10",
+            "relationObject": "ev11",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11",
+            "relationObject": "ev12",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12",
+            "relationObject": "ev13",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13",
+            "relationObject": "ev14",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14",
+            "relationObject": "ev15",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

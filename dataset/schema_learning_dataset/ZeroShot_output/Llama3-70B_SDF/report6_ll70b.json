@@ -1,0 +1,218 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report6_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Automotive industry transformation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Automotive industry transformation",
+            "wd_description": "The automotive industry is undergoing one of the most dramatic transformations in its history, with manufacturers recognising their role in developing reliable supply chains, as well as logistics companies taking steps to optimise performance.",
+            "description": "The automotive industry is undergoing one of the most dramatic transformations in its history, with manufacturers recognising their role in developing reliable supply chains, as well as logistics companies taking steps to optimise performance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Manufacturers recognising role in developing reliable supply chains",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Manufacturers recognising role in developing reliable supply chains",
+            "wd_description": "With manufacturers recognising their role in developing reliable supply chains, it seems that an evolved EV battery supply chain may soon become a reality.",
+            "description": "With manufacturers recognising their role in developing reliable supply chains, it seems that an evolved EV battery supply chain may soon become a reality.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Logistics companies taking steps to optimise performance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Logistics companies taking steps to optimise performance",
+            "wd_description": "As well as logistics companies taking steps to optimise performance, it seems that an evolved EV battery supply chain may soon become a reality.",
+            "description": "As well as logistics companies taking steps to optimise performance, it seems that an evolved EV battery supply chain may soon become a reality.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Cost considerations have been considered when assessing potential solutions for this difficult problem",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cost considerations have been considered when assessing potential solutions for this difficult problem",
+            "wd_description": "Cost considerations have been considered when assessing potential solutions for this difficult problem.",
+            "description": "Cost considerations have been considered when assessing potential solutions for this difficult problem.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Investing in a global EV battery supply chain has the potential to completely transform how cars are produced and distributed on a worldwide scale",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investing in a global EV battery supply chain has the potential to completely transform how cars are produced and distributed on a worldwide scale",
+            "wd_description": "Ultimately, investing in a global EV battery supply chain has the potential to completely transform how cars are produced and distributed on a worldwide scale – providing better access to clean energy sources for both consumers and businesses alike.",
+            "description": "Ultimately, investing in a global EV battery supply chain has the potential to completely transform how cars are produced and distributed on a worldwide scale – providing better access to clean energy sources for both consumers and businesses alike.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.7.2.1",
+            "name": "ufacturing standards",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.7.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.7.2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ufacturing standards",
+            "wd_description": "Standards governing the manufacturing processes of EV batteries.",
+            "description": "Standards governing the manufacturing processes of EV batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.7.2.1.1",
+            "name": "lity control standards",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lity control standards",
+            "wd_description": "Standards governing quality control in the manufacturing of EV batteries.",
+            "description": "Standards governing quality control in the manufacturing of EV batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.7.2.1.2",
+            "name": "ety standards",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ety standards",
+            "wd_description": "Safety standards for manufacturing processes to ensure worker and product safety.",
+            "description": "Safety standards for manufacturing processes to ensure worker and product safety.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.7.4.1",
+            "name": "nsportation standards",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.7.4.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.7.4.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "nsportation standards",
+            "wd_description": "Standards affecting the transportation of EV batteries.",
+            "description": "Standards affecting the transportation of EV batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.7.4.1.1",
+            "name": "kaging standards",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "kaging standards",
+            "wd_description": "Standards for packaging EV batteries to ensure safe and secure transportation.",
+            "description": "Standards for packaging EV batteries to ensure safe and secure transportation.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.7.4.1.2",
+            "name": "dling standards",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "dling standards",
+            "wd_description": "Standards for handling EV batteries during transportation to prevent damage and ensure safety.",
+            "description": "Standards for handling EV batteries during transportation to prevent damage and ensure safety.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

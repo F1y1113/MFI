@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report14_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Cobalt and Lithium Supply Chain Events",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt and Lithium Supply Chain Events",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Domestic Lithium Supply Increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Domestic Lithium Supply Increase",
+            "wd_description": "In 2024, domestic lithium supply increased by 22.49% compared to the same period last year.",
+            "description": "In 2024, domestic lithium supply increased by 22.49% compared to the same period last year.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "New Energy Vehicle Demand Recovery",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "New Energy Vehicle Demand Recovery",
+            "wd_description": "The demand for new energy vehicles has recovered, leading to an increase in the demand for lithium ions.",
+            "description": "The demand for new energy vehicles has recovered, leading to an increase in the demand for lithium ions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Cobalt Price Decrease",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt Price Decrease",
+            "wd_description": "The price of cobalt decreased in 2024 compared to the same period last year.",
+            "description": "The price of cobalt decreased in 2024 compared to the same period last year.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "China Customs Publishes Data",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China Customs Publishes Data",
+            "wd_description": "China's customs bureau published data showing a decrease in cobalt prices in 2024.",
+            "description": "China's customs bureau published data showing a decrease in cobalt prices in 2024.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

@@ -1,0 +1,183 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia2_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Supply chain risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Supply chain risks",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "sustainability challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sustainability challenges",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "political instability and corruption in countries with mineral deposits",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "political instability and corruption in countries with mineral deposits",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "human rights or environmental justice concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "human rights or environmental justice concerns",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "supply chain companies consolidation into a few large corporations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "supply chain companies consolidation into a few large corporations",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.5",
+            "name": "rapidly changing technologies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "rapidly changing technologies",
+            "wd_description": "xxxx",
+            "description": "xxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev8",
+            "name": "Environmental Benefits of EV Adoption",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Environmental Benefits of EV Adoption",
+            "wd_description": "The adoption of electric vehicles offers significant environmental benefits by reducing the dependency on petroleum products and lowering greenhouse gas emissions.",
+            "description": "The adoption of electric vehicles offers significant environmental benefits by reducing the dependency on petroleum products and lowering greenhouse gas emissions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev8.1",
+            "name": "Reduction in Petroleum Use",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Reduction in Petroleum Use",
+            "wd_description": "The widespread use of electric vehicles reduces the consumption of petroleum products, primarily used in conventional vehicles.",
+            "description": "The widespread use of electric vehicles reduces the consumption of petroleum products, primarily used in conventional vehicles.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev8.2",
+            "name": "Lower Greenhouse Gas Emissions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lower Greenhouse Gas Emissions",
+            "wd_description": "The shift to electric vehicles contributes to lower greenhouse gas emissions compared to conventional vehicles powered by fossil fuels.",
+            "description": "The shift to electric vehicles contributes to lower greenhouse gas emissions compared to conventional vehicles powered by fossil fuels.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

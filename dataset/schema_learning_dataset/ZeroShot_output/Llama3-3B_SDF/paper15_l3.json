@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper15_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion battery supply chain sustainability transparency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lithium-ion battery supply chain sustainability transparency",
+            "wd_description": "Limited transparency on the sustainability of the lithium-ion battery supply chain.",
+            "description": "Limited transparency on the sustainability of the lithium-ion battery supply chain.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "xxxxx",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "xxxxx",
+            "wd_description": "xxxxxxxxx",
+            "description": "xxxxxxxxx",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

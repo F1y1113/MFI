@@ -1,0 +1,181 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper90_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.1.5",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgical",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "New cathode materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/XJuocJ1uN/Development-of-new-cathode-materials",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "New cathode materials",
+            "wd_description": "New cathode materials, such as LG's NMC 811 and Ultium Cells' cathodes, aim to reduce the reliance on cobalt and other critical minerals in lithium-ion batteries.",
+            "description": "New cathode materials, such as LG's NMC 811 and Ultium Cells' cathodes, aim to reduce the reliance on cobalt and other critical minerals in lithium-ion batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "NMC 811",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC 811",
+            "wd_description": "LG's NMC 811 cathode material contains eight parts nickel and one part each of cobalt and magnesium, reducing the reliance on cobalt.",
+            "description": "LG's NMC 811 cathode material contains eight parts nickel and one part each of cobalt and magnesium, reducing the reliance on cobalt.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Ultium Cells",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ultium Cells",
+            "wd_description": "Ultium Cells' cathodes, used in GM's EVs, further reduce the need for cobalt and magnesium with a composition of seventeen parts nickel to one part each of cobalt, magnesium, and aluminum.",
+            "description": "Ultium Cells' cathodes, used in GM's EVs, further reduce the need for cobalt and magnesium with a composition of seventeen parts nickel to one part each of cobalt, magnesium, and aluminum.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "Cobalt-free batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt-free batteries",
+            "wd_description": "Cobalt-free batteries, such as LFP (lithium-iron-phosphate) batteries, offer a less mineral-intensive alternative, though with reduced energy density.",
+            "description": "Cobalt-free batteries, such as LFP (lithium-iron-phosphate) batteries, offer a less mineral-intensive alternative, though with reduced energy density.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper90R/Event/XJuocJ1uN/Development-of-new-cathode-materials",
+            "name": "Development of new cathode materials",
+            "ta1explanation": "",
+            "description": "New cathode materials, such as NMC 811 and Ultium Cells, reduce the need for cobalt and magnesium. Cobalt-free batteries like LFP offer less mineral-intensive alternatives.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

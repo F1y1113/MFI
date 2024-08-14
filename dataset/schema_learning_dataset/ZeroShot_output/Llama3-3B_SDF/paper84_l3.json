@@ -1,0 +1,144 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper84_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "For geothermal or oilfield brines to succeed as a source of lithium supply, a proven process for DLE will be required.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "For geothermal or oilfield brines to succeed as a source of lithium supply, a proven process for DLE will be required.",
+            "wd_description": "A number of companies testing various DLE approaches. While their ideas differ, the concept remains the same: letting the brine flow through a lithium-bonding material using adsorption, ion-exchange, membrane-separation, or solvent-extraction processes, followed by a polishing solution to obtain lithium carbonate or lithium hydroxide.",
+            "description": "A number of companies testing various DLE approaches. While their ideas differ, the concept remains the same: letting the brine flow through a lithium-bonding material using adsorption, ion-exchange, membrane-separation, or solvent-extraction processes, followed by a polishing solution to obtain lithium carbonate or lithium hydroxide.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "companies testing various DLE approaches",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "companies testing various DLE approaches",
+            "wd_description": "A number of companies testing various DLE approaches.",
+            "description": "A number of companies testing various DLE approaches.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "DLE approaches",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "DLE approaches",
+            "wd_description": "Various DLE approaches are being tested by companies.",
+            "description": "Various DLE approaches are being tested by companies.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "brine flow through lithium-bonding material",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "brine flow through lithium-bonding material",
+            "wd_description": "Letting the brine flow through a lithium-bonding material using adsorption, ion-exchange, membrane-separation, or solvent-extraction processes.",
+            "description": "Letting the brine flow through a lithium-bonding material using adsorption, ion-exchange, membrane-separation, or solvent-extraction processes.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.4",
+            "name": "polishing solution to obtain lithium carbonate or lithium hydroxide",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "polishing solution to obtain lithium carbonate or lithium hydroxide",
+            "wd_description": "Followed by a polishing solution to obtain lithium carbonate or lithium hydroxide.",
+            "description": "Followed by a polishing solution to obtain lithium carbonate or lithium hydroxide.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Ion-exchange",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ion-exchange",
+            "wd_description": "Ion-exchange is another DLE process where lithium ions are exchanged with other ions in a material to capture lithium.",
+            "description": "Ion-exchange is another DLE process where lithium ions are exchanged with other ions in a material to capture lithium.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

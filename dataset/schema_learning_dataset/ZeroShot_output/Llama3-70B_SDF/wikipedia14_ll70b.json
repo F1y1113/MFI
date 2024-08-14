@@ -1,0 +1,150 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia14_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Global low-carbon contracts, along with energy and environmental crises",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Global low-carbon contracts, along with energy and environmental crises",
+            "wd_description": "",
+            "description": "",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Supply-Demand Imbalance",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ply-Demand Imbalance",
+            "wd_description": "The imbalance between supply and demand, along with the high concentration of key processes, poses a significant risk to the power lithium-ion battery industry.",
+            "description": "The imbalance between supply and demand, along with the high concentration of key processes, poses a significant risk to the power lithium-ion battery industry.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.2.1",
+            "name": "Imbalance Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "alance Analysis",
+            "wd_description": "An analysis of supply and demand bottlenecks shows that the rapid increase in electric vehicle production will continue to strain the supply of key battery materials.",
+            "description": "An analysis of supply and demand bottlenecks shows that the rapid increase in electric vehicle production will continue to strain the supply of key battery materials.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "Risk Factors Identification",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Risk Factors Identification",
+            "wd_description": "Identifies the key risk factors in the supply chain, focusing on the concentration of resources and geopolitical implications.",
+            "description": "Identifies the key risk factors in the supply chain, focusing on the concentration of resources and geopolitical implications.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1.1.1",
+            "name": "Resource Concentration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "wikipedia14/Event/2bkgBJIWy8/Lithium-Concentration",
+                    "importance": 1
+                },
+                {
+                    "child": "wikipedia14/Event/2AwgArYqg0/Cobalt-Concentration",
+                    "importance": 1
+                },
+                {
+                    "child": "wikipedia14/Event/3gfNJW2ypk/Nickel-Concentration",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ource Concentration",
+            "wd_description": "Analysis of the concentration of critical raw materials like lithium, cobalt, and nickel in specific countries.",
+            "description": "Analysis of the concentration of critical raw materials like lithium, cobalt, and nickel in specific countries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1.1.2",
+            "name": "Geopolitical Risks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "political Risks",
+            "wd_description": "Evaluation of geopolitical risks affecting the supply of raw materials for power lithium-ion batteries.",
+            "description": "Evaluation of geopolitical risks affecting the supply of raw materials for power lithium-ion batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

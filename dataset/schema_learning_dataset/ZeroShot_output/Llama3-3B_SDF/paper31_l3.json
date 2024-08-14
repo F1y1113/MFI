@@ -1,0 +1,221 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper31_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Battery Production Network Evolution",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.4
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Battery Production Network Evolution",
+            "wd_description": "The increasing role of electricity as an energy carrier in decarbonising supply chains, and how this tension is mediated by existing geographies of production, drives the configuration of the LiB production network.",
+            "description": "The increasing role of electricity as an energy carrier in decarbonising supply chains, and how this tension is mediated by existing geographies of production, drives the configuration of the LiB production network.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Battery Recycling Methods",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.3
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Battery Recycling Methods",
+            "wd_description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Battery Recycling Methods (Pyrometallurgical)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.5",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Recycling Methods (Pyrometallurgical)",
+            "wd_description": "Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Supply chain analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "paper31/Event/1T8hE6PpR0/Upstream-and-downstream-analysis"
+                },
+                {
+                    "child": "paper31/Event/RBqeKkxdy/Geopolitical-factors"
+                },
+                {
+                    "child": "paper31/Event/2RfvwgEW2k/Technological-development",
+                    "importance": 1
+                },
+                {
+                    "child": "paper31/Event/1NmYEdWPwV/Sustainability-and-ethical-considerations",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain analysis",
+            "wd_description": "Analysis of the battery supply chain focuses on material transformation and trade, addressing supply and demand dynamics, trade structures, and supply risk.",
+            "description": "Analysis of the battery supply chain focuses on material transformation and trade, addressing supply and demand dynamics, trade structures, and supply risk.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Material flow analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Material flow analysis",
+            "wd_description": "Dynamic material flow analyses track the transformation and movement of materials within the battery supply chain.",
+            "description": "Dynamic material flow analyses track the transformation and movement of materials within the battery supply chain.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Trade structure analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trade structure analysis",
+            "wd_description": "Examines trade structures and their impact on the battery supply chain, including the flow of materials across borders.",
+            "description": "Examines trade structures and their impact on the battery supply chain, including the flow of materials across borders.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Supply risk analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply risk analysis",
+            "wd_description": "Evaluates risks associated with the supply of critical raw materials for battery production, including geopolitical and environmental factors.",
+            "description": "Evaluates risks associated with the supply of critical raw materials for battery production, including geopolitical and environmental factors.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper31/Event/1T8hE6PpR0/Upstream-and-downstream-analysis",
+            "name": "Upstream and downstream analysis",
+            "ta1explanation": "",
+            "description": "Upstream analysis focuses on raw material extraction and processing, while downstream analysis deals with the final stages of production and recycling.",
+            "wd_node": "paper31",
+            "wd_label": "paper31",
+            "participants": []
+        },
+        {
+            "@id": "paper31/Event/RBqeKkxdy/Geopolitical-factors",
+            "name": "Geopolitical factors",
+            "ta1explanation": "",
+            "description": "This involves understanding the impact of geopolitical tensions and policies on supply chain security and resource availability.",
+            "wd_node": "paper30R",
+            "wd_label": "paper30R",
+            "participants": []
+        },
+        {
+            "@id": "paper31/Event/2RfvwgEW2k/Technological-development",
+            "name": "Technological development",
+            "ta1explanation": "",
+            "description": "Research and development in battery technology, including innovations beyond lithium-based batteries.",
+            "wd_node": "paper30R",
+            "wd_label": "paper30R",
+            "participants": []
+        },
+        {
+            "@id": "paper31/Event/1NmYEdWPwV/Sustainability-and-ethical-considerations",
+            "name": "Sustainability and ethical considerations",
+            "ta1explanation": "",
+            "description": "Focus on ethical sourcing of materials and sustainability in battery production.",
+            "wd_node": "paper30R",
+            "wd_label": "paper30R",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

@@ -1,0 +1,719 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper35_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Improved spent EV battery collection, transport, processing, and recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Improved spent EV battery collection, transport, processing, and recycling",
+            "wd_description": "Efficient recycling of up to 98% for lead-acid batteries could offer key insights.",
+            "description": "Efficient recycling of up to 98% for lead-acid batteries could offer key insights.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Post-consumer EV battery recycling and resource recovery",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Post-consumer EV battery recycling and resource recovery",
+            "wd_description": "Future focus needs to be on post-consumer EV batteries.",
+            "description": "Future focus needs to be on post-consumer EV batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Cu production by-product, Most Co production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cu production by-product, Most Co production",
+            "wd_description": "Most Co is produced as a by-product of Cu production.",
+            "description": "Most Co is produced as a by-product of Cu production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Direct recycling method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Direct recycling method in lithium-ion recycling",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev5",
+            "name": "Pyrometallurgical method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 0.3
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pyrometallurgical method in lithium-ion recycling",
+            "wd_description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev6",
+            "name": "Hydrometallurgical method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Hydrometallurgical method in lithium-ion recycling",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7",
+            "name": "Bioleaching method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Bioleaching method in lithium-ion recycling",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev8",
+            "name": "Three main methods in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev8.3",
+                    "importance": 0.3
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Three main methods in lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev9",
+            "name": "Lithium-ion recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev10",
+            "name": "Most Co production as Cu by-product",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Most Co production as Cu by-product",
+            "wd_description": "Most Co is produced as a by-product of Cu production.",
+            "description": "Most Co is produced as a by-product of Cu production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev11",
+            "name": "Efficient recycling for lead-acid batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev11.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Efficient recycling for lead-acid batteries",
+            "wd_description": "Efficient recycling of up to 98% for lead-acid batteries could offer key insights.",
+            "description": "Efficient recycling of up to 98% for lead-acid batteries could offer key insights.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev12",
+            "name": "Improved spent EV battery collection, transport, processing, and recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev12.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Improved spent EV battery collection, transport, processing, and recycling",
+            "wd_description": "Efficient recycling of up to 98% for lead-acid batteries could offer key insights.",
+            "description": "Efficient recycling of up to 98% for lead-acid batteries could offer key insights.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev13",
+            "name": "Post-consumer EV battery recycling and resource recovery",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Post-consumer EV battery recycling and resource recovery",
+            "wd_description": "Future focus needs to be on post-consumer EV batteries.",
+            "description": "Future focus needs to be on post-consumer EV batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev14",
+            "name": "Cu production by-product, Most Co production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev14.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev14.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cu production by-product, Most Co production",
+            "wd_description": "Most Co is produced as a by-product of Cu production.",
+            "description": "Most Co is produced as a by-product of Cu production.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev15",
+            "name": "Direct recycling method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev15.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev15.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Direct recycling method in lithium-ion recycling",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev16",
+            "name": "Pyrometallurgical method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev16.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev16.2",
+                    "importance": 0.3
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pyrometallurgical method in lithium-ion recycling",
+            "wd_description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev17",
+            "name": "Hydrometallurgical method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev17.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev17.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Hydrometallurgical method in lithium-ion recycling",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev18",
+            "name": "Bioleaching method in lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev18.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev18.2",
+                    "importance": 0.1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Bioleaching method in lithium-ion recycling",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "scrap metal recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "scrap metal recycling",
+            "wd_description": "Recycling of cobalt-containing scrap metals from various industries to recover cobalt for reuse in the supply chain.",
+            "description": "Recycling of cobalt-containing scrap metals from various industries to recover cobalt for reuse in the supply chain.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.2.1",
+            "name": "scrap collection",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "scrap collection",
+            "wd_description": "Collecting cobalt-containing scrap from industrial processes and consumer products.",
+            "description": "Collecting cobalt-containing scrap from industrial processes and consumer products.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.2.2",
+            "name": "metal recovery",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "metal recovery",
+            "wd_description": "Processes to extract cobalt from scrap metals, including melting and refining techniques.",
+            "description": "Processes to extract cobalt from scrap metals, including melting and refining techniques.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "pyrometallurgy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "pyrometallurgy",
+            "wd_description": "Pyrometallurgy uses high temperatures to smelt and refine cobalt, separating it from impurities.",
+            "description": "Pyrometallurgy uses high temperatures to smelt and refine cobalt, separating it from impurities.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2.1",
+            "name": "smelting furnaces",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "smelting furnaces",
+            "wd_description": "Smelting furnaces are used to melt cobalt ores, enabling the separation of cobalt from other materials based on melting points.",
+            "description": "Smelting furnaces are used to melt cobalt ores, enabling the separation of cobalt from other materials based on melting points.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2.2",
+            "name": "refining agents",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "refining agents",
+            "wd_description": "Refining agents are added during pyrometallurgy to remove impurities and produce high-purity cobalt.",
+            "description": "Refining agents are added during pyrometallurgy to remove impurities and produce high-purity cobalt.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev4",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4",
+            "relationObject": "ev5",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5",
+            "relationObject": "ev6",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6",
+            "relationObject": "ev7",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7",
+            "relationObject": "ev8",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8",
+            "relationObject": "ev9",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9",
+            "relationObject": "ev10",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10",
+            "relationObject": "ev11",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11",
+            "relationObject": "ev12",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12",
+            "relationObject": "ev13",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13",
+            "relationObject": "ev14",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13",
+            "relationObject": "ev15",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14",
+            "relationObject": "ev15",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15",
+            "relationObject": "ev16",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16",
+            "relationObject": "ev17",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev17",
+            "relationObject": "ev18",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev18",
+            "relationObject": "ev19",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

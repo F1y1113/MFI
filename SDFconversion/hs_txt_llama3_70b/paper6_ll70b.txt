@@ -1,7 +1,0 @@
-Event 1
-event: passenger transportation
-event_id: ev1
-description: Electric vehicles (EVs) are a growing part of the passenger transportation
-participants: xxxx
-Gate: or
-Relations: ev1>ev1.1

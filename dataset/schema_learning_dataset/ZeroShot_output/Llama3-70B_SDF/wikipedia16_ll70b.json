@@ -1,0 +1,184 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia16_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Green economy as a new boom of lithium extractivism",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Green economy as a new boom of lithium extractivism",
+            "wd_description": "As mentioned above, lithium demand for the manufacture of rechargeable batteries doubled in less than ten years (USGS, 2012, 2016, 2020), a process directly related to carbon mitigation policies (c.f. Gobel, 2013; Fornillo, 2019; Observatorio Plurinacional de Salares Andinos, 2021).",
+            "description": "As mentioned above, lithium demand for the manufacture of rechargeable batteries doubled in less than ten years (USGS, 2012, 2016, 2020), a process directly related to carbon mitigation policies (c.f. Gobel, 2013; Fornillo, 2019; Observatorio Plurinacional de Salares Andinos, 2021).",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "new colonial inequality",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "new colonial inequality",
+            "wd_description": "As “a low-carbon future points to a more intensive demand for minerals, which would definitely have an effect on developing countries, rich in these resources” (La Porta, 2019, p. 28).",
+            "description": "As “a low-carbon future points to a more intensive demand for minerals, which would definitely have an effect on developing countries, rich in these resources” (La Porta, 2019, p. 28).",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "boom of lithium extractivism",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "boom of lithium extractivism",
+            "wd_description": "This boom has triggered new eco-colonial rhetoric such as “Green Mining,” “Climate Smart Mining,” even “Mining for a low carbon future” (CEPAL, 2019).",
+            "description": "This boom has triggered new eco-colonial rhetoric such as “Green Mining,” “Climate Smart Mining,” even “Mining for a low carbon future” (CEPAL, 2019).",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Commodification of Andean Salt Flats",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "wikipedia16/Event/2GrJeheWtF/Eco-Colonial-Rhetoric"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Commodification of Andean Salt Flats",
+            "wd_description": "The extraction of lithium in the Andean salt flats, known as the \"lithium triangle,\" has led to the commodification of nature and the establishment of new extractivist territorialities.",
+            "description": "The extraction of lithium in the Andean salt flats, known as the \"lithium triangle,\" has led to the commodification of nature and the establishment of new extractivist territorialities.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Extractivist Territorialities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Extractivist Territorialities",
+            "wd_description": "Lithium extraction creates new territorialities that commodify nature and overlook local knowledge and Andean cosmovisions.",
+            "description": "Lithium extraction creates new territorialities that commodify nature and overlook local knowledge and Andean cosmovisions.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Commodification of Nature",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Commodification of Nature",
+            "wd_description": "The process of commodifying nature involves business and government discourses that generate acceptance and legitimation of new commodities.",
+            "description": "The process of commodifying nature involves business and government discourses that generate acceptance and legitimation of new commodities.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "wikipedia16/Event/2GrJeheWtF/Eco-Colonial-Rhetoric",
+            "name": "Eco Colonial Rhetoric",
+            "ta1explanation": "",
+            "description": "Language promoting lithium extractivism under the guise of green initiatives.",
+            "wd_node": "wikipedia16",
+            "wd_label": "wikipedia16",
+            "participants": []
+        },
+        {
+            "@id": "ev7",
+            "name": "Decolonial Interpretation of Lithium Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Decolonial Interpretation of Lithium Mining",
+            "wd_description": "A decolonial approach to lithium mining in the Andean salt flats emphasizes the need for water justice and challenges the green capitalist rationality.",
+            "description": "A decolonial approach to lithium mining in the Andean salt flats emphasizes the need for water justice and challenges the green capitalist rationality.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7.1",
+            "name": "Decolonial Approach",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Decolonial Approach",
+            "wd_description": "A decolonial interpretation of lithium mining highlights the importance of indigenous knowledge and perspectives in addressing extractivism.",
+            "description": "A decolonial interpretation of lithium mining highlights the importance of indigenous knowledge and perspectives in addressing extractivism.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Water Justice",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Water Justice",
+            "wd_description": "The need for water justice emphasizes equitable access and sustainable management of water resources, particularly in regions affected by lithium mining.",
+            "description": "The need for water justice emphasizes equitable access and sustainable management of water resources, particularly in regions affected by lithium mining.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [
+        {
+            "@id": "cmu:Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

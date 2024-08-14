@@ -1,0 +1,109 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper37_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.33
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgical",
+            "wd_description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Alternative permanent magnet motors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper37/Event/3mj8BuIZxe/REE-Substitution-Mechanisms"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ernative permanent magnet motors",
+            "wd_description": "Permanent magnet motors that do not rely heavily on REEs or cobalt are being developed to meet future demand.",
+            "description": "Permanent magnet motors that do not rely heavily on REEs or cobalt are being developed to meet future demand.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "paper37/Event/3mj8BuIZxe/REE-Substitution-Mechanisms",
+            "name": "REE Substitution Mechanisms",
+            "ta1explanation": "",
+            "description": "Research and development focused on substituting REEs in various applications to mitigate supply constraints.",
+            "wd_node": "paper36",
+            "wd_label": "paper36",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

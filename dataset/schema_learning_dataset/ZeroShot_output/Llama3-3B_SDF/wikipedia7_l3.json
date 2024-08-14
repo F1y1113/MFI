@@ -1,0 +1,360 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia7_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) application in lithium-ion batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.05
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) application in lithium-ion batteries",
+            "wd_description": "Li-NCA are used as active material in the positive electrode of lithium ion batteries.",
+            "description": "Li-NCA are used as active material in the positive electrode of lithium ion batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Li-NCA application in lithium-ion batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 0.05
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Li-NCA application in lithium-ion batteries",
+            "wd_description": "NCAs are used as active material in the positive electrode of lithium ion batteries.",
+            "description": "NCAs are used as active material in the positive electrode of lithium ion batteries.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) drawbacks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) drawbacks",
+            "wd_description": "Li-NCA have a high cost and high environmental pollution.",
+            "description": "Li-NCA have a high cost and high environmental pollution.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) advantages",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) advantages",
+            "wd_description": "Li-NCA have a straightforward process and mature technology.",
+            "description": "Li-NCA have a straightforward process and mature technology.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev4",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) combinations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) combinations",
+            "wd_description": "Li-NCA have a combination of both pyrometallurgy and hydrometallurgy.",
+            "description": "Li-NCA have a combination of both pyrometallurgy and hydrometallurgy.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev5",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) drawbacks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) drawbacks",
+            "wd_description": "Li-NCA have a lengthy production time and complicated process.",
+            "description": "Li-NCA have a lengthy production time and complicated process.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev6",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) advantages",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) advantages",
+            "wd_description": "Li-NCA have a power-efficient method.",
+            "description": "Li-NCA have a power-efficient method.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev7",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) challenges",
+            "wd_description": "Li-NCA have a lengthy time to grow bacteria.",
+            "description": "Li-NCA have a lengthy time to grow bacteria.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev8",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) susceptibility",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) susceptibility",
+            "wd_description": "Li-NCA have a possibility of contamination.",
+            "description": "Li-NCA have a possibility of contamination.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev9",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) applications",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev9.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) applications",
+            "wd_description": "Li-NCA have a variety of applications.",
+            "description": "Li-NCA have a variety of applications.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev10",
+            "name": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) properties",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev10.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev10.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev10.5",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Cobalt Aluminium Oxides (Li-NCA, LNCA, or NCA) properties",
+            "wd_description": "Li-NCA have a property of having extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Li-NCA have a property of having extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Applications and Voltage Range",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "wikipedia7/Event/20SZVFz13k/Voltage-Range",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Applications and Voltage Range",
+            "wd_description": "NCA batteries are used in electric cars and electric appliances. They operate within a voltage range of 3.6 V to 4.0 V, with a nominal voltage of 3.6 V or 3.7 V.",
+            "description": "NCA batteries are used in electric cars and electric appliances. They operate within a voltage range of 3.6 V to 4.0 V, with a nominal voltage of 3.6 V or 3.7 V.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "ctric Cars",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ctric Cars",
+            "wd_description": "NCA batteries are widely used in electric cars due to their high energy density and voltage range.",
+            "description": "NCA batteries are widely used in electric cars due to their high energy density and voltage range.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "ctric Appliances",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ctric Appliances",
+            "wd_description": "NCA batteries are also used in various electric appliances, providing efficient power storage and delivery.",
+            "description": "NCA batteries are also used in various electric appliances, providing efficient power storage and delivery.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "wikipedia7/Event/20SZVFz13k/Voltage-Range",
+            "name": "Voltage Range",
+            "ta1explanation": "",
+            "description": "NCA batteries have a voltage range between 3.6 V and 4.0 V, with a nominal voltage of 3.6 V or 3.7 V.",
+            "wd_node": "wikipedia7",
+            "wd_label": "wikipedia7",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

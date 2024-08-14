@@ -1,0 +1,123 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper95_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "High-quality materials and cleanliness necessary for desired cell performance",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "High-quality materials and cleanliness necessary for desired cell performance",
+            "wd_description": "In order to obtain the desired cell performance, high-quality materials named battery grade, and cleanliness in all steps of the value chain is necessary.",
+            "description": "In order to obtain the desired cell performance, high-quality materials named battery grade, and cleanliness in all steps of the value chain is necessary.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2",
+            "name": "Risk of unavailability of battery product supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Risk of unavailability of battery product supply",
+            "wd_description": "The risk for unavailability of battery product supply is ranked as high for cobalt, nickel and the separator.",
+            "description": "The risk for unavailability of battery product supply is ranked as high for cobalt, nickel and the separator.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Cobalt refineries highly dependent on cobalt supply from D.R. of Congo",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt refineries highly dependent on cobalt supply from D.R. of Congo",
+            "wd_description": "The geographical spread of cobalt refineries is wider than for the mine production. These refineries do on the other hand highly depend on the cobalt supply from D.R. of Congo.",
+            "description": "The geographical spread of cobalt refineries is wider than for the mine production. These refineries do on the other hand highly depend on the cobalt supply from D.R. of Congo.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3",
+            "name": "High-quality materials necessary for desired cell performance",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "High-quality materials necessary for desired cell performance",
+            "wd_description": "According to the paragraphs, high-quality materials named battery grade are necessary in order to obtain the desired cell performance.",
+            "description": "According to the paragraphs, high-quality materials named battery grade are necessary in order to obtain the desired cell performance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Battery grade materials necessary for desired cell performance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery grade materials necessary for desired cell performance",
+            "wd_description": "High-quality materials named battery grade are necessary in order to obtain the desired cell performance.",
+            "description": "High-quality materials named battery grade are necessary in order to obtain the desired cell performance.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}

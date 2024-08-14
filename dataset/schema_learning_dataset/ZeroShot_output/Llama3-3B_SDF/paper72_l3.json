@@ -1,0 +1,108 @@
+{
+    "@context": [
+        "https://kairos-sdf.s3.amazonaws.com/context/kairos-v2.2.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper72_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "China's industrial policy for EVs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China's industrial policy for EVs",
+            "wd_description": "Beijing prioritized the sector as part of its highly controversial \"Made in China 2025\" industrial policy program announced in 2015.",
+            "description": "Beijing prioritized the sector as part of its highly controversial \"Made in China 2025\" industrial policy program announced in 2015.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Made in China 2025",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Made in China 2025",
+            "wd_description": "Beijing prioritized the sector as part of its industrial policy program.",
+            "description": "Beijing prioritized the sector as part of its industrial policy program.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.2",
+            "name": "supply-side policies for batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "supply-side policies for batteries",
+            "wd_description": "China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms.",
+            "description": "China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        },
+        {
+            "@id": "ev1.3",
+            "name": "high import tariffs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "high import tariffs",
+            "wd_description": "China imposed high import tariffs to protect its domestic industry.",
+            "description": "China imposed high import tariffs to protect its domestic industry.",
+            "privateData": {
+                "originalDocumentId": ""
+            }
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "privateData": {
+        "inputDigest": []
+    },
+    "provenanceData": []
+}
