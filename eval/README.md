@@ -37,7 +37,7 @@ $$
     - Directory containing the JSON files of the ground truth schemas.
 2. Run the script
 ```
-python evaluate_schema.py <dir_eval> <dir_gt> <output_file>
+python eval_all.py <dir_eval> <dir_gt> <output_file>
 ```
 
 - ```<dir_eval>```: Directory path containing the generated schemas (default: ```sdf_output/```).
