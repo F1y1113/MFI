@@ -1,0 +1,346 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper20_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Demand for raw materials needed for battery production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Demand for raw materials needed for battery production",
+            "wd_description": "Current trends in transport electrification and mobile technologies have created an increasing demand for raw materials needed for battery production.",
+            "description": "Current trends in transport electrification and mobile technologies have created an increasing demand for raw materials needed for battery production."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Transport electrification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Transport electrification",
+            "wd_description": "Trends in transport electrification create an increase in demand for raw materials.",
+            "description": "Trends in transport electrification create an increase in demand for raw materials."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Mobile technologies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mobile technologies",
+            "wd_description": "Trends in mobile technologies create an increase in demand for raw materials.",
+            "description": "Trends in mobile technologies create an increase in demand for raw materials."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Battery production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery production",
+            "wd_description": "The increasing demand for raw materials is met with battery production.",
+            "description": "The increasing demand for raw materials is met with battery production."
+        },
+        {
+            "@id": "ev2",
+            "name": "Current trends in mobile technologies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Current trends in mobile technologies",
+            "wd_description": "Mobile technologies have created an increase in demand for raw materials needed for battery production.",
+            "description": "Mobile technologies have created an increase in demand for raw materials needed for battery production."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Electrification of transportation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Electrification of transportation",
+            "wd_description": "The electrification of transportation creates an increase in demand for raw materials.",
+            "description": "The electrification of transportation creates an increase in demand for raw materials."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Mobile devices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mobile devices",
+            "wd_description": "The use of mobile devices creates an increase in demand for raw materials.",
+            "description": "The use of mobile devices creates an increase in demand for raw materials."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Battery production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery production",
+            "wd_description": "The increasing demand for raw materials is met with battery production.",
+            "description": "The increasing demand for raw materials is met with battery production."
+        },
+        {
+            "@id": "ev3",
+            "name": "Current trends in transport electrification",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Current trends in transport electrification",
+            "wd_description": "Transport electrification has created an increase in demand for raw materials needed for battery production.",
+            "description": "Transport electrification has created an increase in demand for raw materials needed for battery production."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Electrification of transportation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Electrification of transportation",
+            "wd_description": "The electrification of transportation creates an increase in demand for raw materials.",
+            "description": "The electrification of transportation creates an increase in demand for raw materials."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Mobile devices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mobile devices",
+            "wd_description": "The use of mobile devices creates an increase in demand for raw materials.",
+            "description": "The use of mobile devices creates an increase in demand for raw materials."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Battery production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery production",
+            "wd_description": "The increasing demand for raw materials is met with battery production.",
+            "description": "The increasing demand for raw materials is met with battery production."
+        },
+        {
+            "@id": "ev1.6.3",
+            "name": "ESG Systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ESG Systems",
+            "wd_description": "Environmental, Social, and Governance (ESG) systems are increasingly important in the mining sector, driving the development of effective traceability systems.",
+            "description": "Environmental, Social, and Governance (ESG) systems are increasingly important in the mining sector, driving the development of effective traceability systems."
+        },
+        {
+            "@id": "ev1.6.3.1",
+            "name": "ESG Initiatives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ESG Initiatives",
+            "wd_description": "Initiatives focusing on Environmental, Social, and Governance aspects within the mining industry.",
+            "description": "Initiatives focusing on Environmental, Social, and Governance aspects within the mining industry."
+        },
+        {
+            "@id": "ev1.6.3.2",
+            "name": "Governance Frameworks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Governance Frameworks",
+            "wd_description": "Frameworks developed to govern and guide ESG initiatives.",
+            "description": "Frameworks developed to govern and guide ESG initiatives."
+        },
+        {
+            "@id": "ev1.6",
+            "name": "Mining Industry Traceability Systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mining Industry Traceability Systems",
+            "wd_description": "Many mining companies are developing intercompany systems to trace raw materials as the demand for battery materials grows.",
+            "description": "Many mining companies are developing intercompany systems to trace raw materials as the demand for battery materials grows."
+        },
+        {
+            "@id": "ev1.6.1",
+            "name": "Intercompany Systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Intercompany Systems",
+            "wd_description": "Mining companies are developing intercompany systems to track raw materials within their processes, responding to the growing demand for battery materials.",
+            "description": "Mining companies are developing intercompany systems to track raw materials within their processes, responding to the growing demand for battery materials."
+        },
+        {
+            "@id": "ev1.6.2",
+            "name": "Development Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper20/Event/3B35MJ4r18/Environmental-Social-and-Governance-Systems"
+                },
+                {
+                    "child": "paper20/Event/Y4DY7c9UH/Chain-of-custody-models"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Development Projects",
+            "wd_description": "Various development projects are underway to enhance traceability systems within the mining industry.",
+            "description": "Various development projects are underway to enhance traceability systems within the mining industry."
+        },
+        {
+            "@id": "ev1.6.3",
+            "name": "ESG Systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ESG Systems",
+            "wd_description": "Environmental, Social, and Governance (ESG) systems are increasingly important in the mining sector, driving the development of effective traceability systems.",
+            "description": "Environmental, Social, and Governance (ESG) systems are increasingly important in the mining sector, driving the development of effective traceability systems."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

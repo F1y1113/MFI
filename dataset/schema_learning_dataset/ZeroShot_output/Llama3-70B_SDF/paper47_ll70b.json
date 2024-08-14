@@ -1,0 +1,134 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper47_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgy",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals."
+        },
+        {
+            "@id": "ev16",
+            "name": "Financial flows and SSCF",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev16.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev16.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/1dNeC1Mlsw/Financial-flows-and-SSCF"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Financial flows and SSCF",
+            "wd_description": "The management of financial flows through SSCF to achieve a more sustainable supply chain.",
+            "description": "The management of financial flows through SSCF to achieve a more sustainable supply chain."
+        },
+        {
+            "@id": "ev16.1",
+            "name": "Financial flows",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Financial flows",
+            "wd_description": "The critical role of managing financial flows along the supply chain.",
+            "description": "The critical role of managing financial flows along the supply chain."
+        },
+        {
+            "@id": "ev16.2",
+            "name": "SSCF management",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SSCF management",
+            "wd_description": "The role of SSCF in managing financial flows to achieve sustainability.",
+            "description": "The role of SSCF in managing financial flows to achieve sustainability."
+        },
+        {
+            "@id": "paper47/Event/1dNeC1Mlsw/Financial-flows-and-SSCF",
+            "name": "Mitigation of default risk",
+            "ta1explanation": "",
+            "description": "SSCF financial evaluation can mitigate the default risk of adopters facing government shutdowns due to unsustainable practices.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

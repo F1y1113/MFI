@@ -1,0 +1,303 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q3_2R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Severe weather and heatwave in Italy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe weather and heatwave in Italy",
+            "wd_description": "The north-eastern Italian region of Veneto experienced severe weather, including giant hailstones, while the country remained gripped by its third heatwave of the summer, with extreme temperatures causing widespread health and labor issues.",
+            "description": "The north-eastern Italian region of Veneto experienced severe weather, including giant hailstones, while the country remained gripped by its third heatwave of the summer, with extreme temperatures causing widespread health and labor issues."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Veneto severe weather",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Veneto severe weather",
+            "wd_description": "Severe weather, including giant hailstones, hit the Veneto region, injuring more than 110 people and prompting a regional emergency declaration.",
+            "description": "Severe weather, including giant hailstones, hit the Veneto region, injuring more than 110 people and prompting a regional emergency declaration."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Italian heatwave",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Italian heatwave",
+            "wd_description": "Italy experienced its third heatwave of the summer, with temperatures in Sicily and Sardinia expected to reach around 48°C.",
+            "description": "Italy experienced its third heatwave of the summer, with temperatures in Sicily and Sardinia expected to reach around 48°C."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Health and labor impacts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Health and labor impacts",
+            "wd_description": "The extreme heat led to a rise in emergency room visits for heat-related illnesses, with public protection measures in place and labor disruptions due to the high temperatures.",
+            "description": "The extreme heat led to a rise in emergency room visits for heat-related illnesses, with public protection measures in place and labor disruptions due to the high temperatures."
+        },
+        {
+            "@id": "ev2",
+            "name": "Russia Ends Grain Deal with Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russia Ends Grain Deal with Ukraine",
+            "wd_description": "Russia has confirmed that it will not renew the grain deal with Ukraine, accusing the West of not fulfilling its obligations under the agreement.",
+            "description": "Russia has confirmed that it will not renew the grain deal with Ukraine, accusing the West of not fulfilling its obligations under the agreement."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Russia's Conditions for Return",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russia's Conditions for Return",
+            "wd_description": "Russia has stated that it would return to the grain deal if its conditions, particularly regarding the export of Russian food, are met.",
+            "description": "Russia has stated that it would return to the grain deal if its conditions, particularly regarding the export of Russian food, are met."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Western Accusations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Western Accusations",
+            "wd_description": "U.S. Secretary of State Antony Blinken accused Russia of using the grain deal as a weapon, and Ukraine's Foreign Minister Dmytro Kuleba criticized Russia for undermining the grain initiative.",
+            "description": "U.S. Secretary of State Antony Blinken accused Russia of using the grain deal as a weapon, and Ukraine's Foreign Minister Dmytro Kuleba criticized Russia for undermining the grain initiative."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Impacts on Grain Prices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impacts on Grain Prices",
+            "wd_description": "The end of the grain deal is expected to increase grain prices worldwide, according to Ukraine's Foreign Minister Dmytro Kuleba.",
+            "description": "The end of the grain deal is expected to increase grain prices worldwide, according to Ukraine's Foreign Minister Dmytro Kuleba."
+        },
+        {
+            "@id": "ev3",
+            "name": "Record-breaking global temperatures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Record-breaking global temperatures",
+            "wd_description": "Global temperatures reached unprecedented levels, with the hottest days on record being observed in early July 2023, during the return of the El Niño phenomenon.",
+            "description": "Global temperatures reached unprecedented levels, with the hottest days on record being observed in early July 2023, during the return of the El Niño phenomenon."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "El Niño phenomenon",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "El Niño phenomenon",
+            "wd_description": "The El Niño phenomenon, associated with warmer global temperatures, was confirmed to have returned, contributing to the record-breaking heat.",
+            "description": "The El Niño phenomenon, associated with warmer global temperatures, was confirmed to have returned, contributing to the record-breaking heat."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "July 2023 temperature records",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "July 2023 temperature records",
+            "wd_description": "July 4, 2023, recorded the highest-ever daily global temperature of 17.18°C, breaking the previous day's record of 17.01°C.",
+            "description": "July 4, 2023, recorded the highest-ever daily global temperature of 17.18°C, breaking the previous day's record of 17.01°C."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Regional temperature extremes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regional temperature extremes",
+            "wd_description": "Various regions experienced extreme temperatures, with averages of 35°C in parts of China, 50°C in North Africa, and 8.7°C in Antarctica.",
+            "description": "Various regions experienced extreme temperatures, with averages of 35°C in parts of China, 50°C in North Africa, and 8.7°C in Antarctica."
+        },
+        {
+            "@id": "ev4",
+            "name": "U.S. Scrutiny on EV Batteries and Car Parts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Scrutiny on EV Batteries and Car Parts",
+            "wd_description": "Washington's efforts to eliminate U.S. links to forced labor in Chinese supply chains have expanded to include electric-vehicle batteries and other car parts.",
+            "description": "Washington's efforts to eliminate U.S. links to forced labor in Chinese supply chains have expanded to include electric-vehicle batteries and other car parts."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Uyghur Forced Labor Prevention Act (UFLPA) Enforcement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Uyghur Forced Labor Prevention Act (UFLPA) Enforcement",
+            "wd_description": "Enforcement of UFLPA has expanded from focusing on solar panels, tomatoes, and cotton apparel to now include batteries, tires, aluminum, and steel.",
+            "description": "Enforcement of UFLPA has expanded from focusing on solar panels, tomatoes, and cotton apparel to now include batteries, tires, aluminum, and steel."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Initial Focus Areas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Initial Focus Areas",
+            "wd_description": "UFLPA initially focused on solar panels, tomatoes, and cotton apparel to curb forced labor in Xinjiang, China.",
+            "description": "UFLPA initially focused on solar panels, tomatoes, and cotton apparel to curb forced labor in Xinjiang, China."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Expanded Focus Areas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Expanded Focus Areas",
+            "wd_description": "The focus has expanded to include lithium-ion batteries, tires, aluminum, and steel, reflecting increased scrutiny on automotive imports.",
+            "description": "The focus has expanded to include lithium-ion batteries, tires, aluminum, and steel, reflecting increased scrutiny on automotive imports."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Impact on Automotive Supply Chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact on Automotive Supply Chains",
+            "wd_description": "Increased inspections and detentions of automotive components at U.S. borders could disrupt automakers who need to ensure their supply chains are free of forced labor.",
+            "description": "Increased inspections and detentions of automotive components at U.S. borders could disrupt automakers who need to ensure their supply chains are free of forced labor."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Detentions and Disruptions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Detentions and Disruptions",
+            "wd_description": "U.S. Customs and Border Protection (CBP) has detained shipments of automotive and aerospace parts, signaling potential disruptions for automakers.",
+            "description": "U.S. Customs and Border Protection (CBP) has detained shipments of automotive and aerospace parts, signaling potential disruptions for automakers."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Industry Reactions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Industry Reactions",
+            "wd_description": "Automakers are on alert and are increasing their due diligence to ensure their supply chains are free of forced labor.",
+            "description": "Automakers are on alert and are increasing their due diligence to ensure their supply chains are free of forced labor."
+        },
+        {
+            "@id": "ev5",
+            "name": "UFLPA's Broader Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "xor",
+            "wd_node": "",
+            "wd_label": "UFLPA's Broader Impact",
+            "wd_description": "The Uyghur Forced Labor Prevention Act (UFLPA) has significantly impacted industries critical to the Biden administration’s climate goals.",
+            "description": "The Uyghur Forced Labor Prevention Act (UFLPA) has significantly impacted industries critical to the Biden administration’s climate goals."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Impact on Solar Energy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Solar Energy",
+            "wd_description": "Enforcement of UFLPA has led to the detention of solar panels, stalling the development of solar energy projects in the U.S.",
+            "description": "Enforcement of UFLPA has led to the detention of solar panels, stalling the development of solar energy projects in the U.S."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Potential Impact on EV Industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Potential Impact on EV Industry",
+            "wd_description": "Similar enforcement actions on automotive components could disrupt the supply chains for electric vehicles, which are critical for reducing fossil fuel dependency and combating climate change.",
+            "description": "Similar enforcement actions on automotive components could disrupt the supply chains for electric vehicles, which are critical for reducing fossil fuel dependency and combating climate change."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

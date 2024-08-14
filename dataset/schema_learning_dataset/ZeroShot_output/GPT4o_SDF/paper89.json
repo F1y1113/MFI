@@ -1,0 +1,495 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper89",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Recycling of lithium-ion batteries (LIBs)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recycling of lithium-ion batteries (LIBs)",
+            "wd_description": "The recycling of lithium-ion batteries involves multiple routes, primarily focusing on pyrometallurgical and hydrometallurgical processes. The paper emphasizes the hydrometallurgical route due to its lower greenhouse gas emissions and financial viability.",
+            "description": "The recycling of lithium-ion batteries involves multiple routes, primarily focusing on pyrometallurgical and hydrometallurgical processes. The paper emphasizes the hydrometallurgical route due to its lower greenhouse gas emissions and financial viability."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "LIB pretreatment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "LIB pretreatment",
+            "wd_description": "Pretreatment of LIBs is the first step in the recycling process, involving physical methods to separate battery components and produce intermediate products like Black Mass.",
+            "description": "Pretreatment of LIBs is the first step in the recycling process, involving physical methods to separate battery components and produce intermediate products like Black Mass."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Physical separation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Physical separation",
+            "wd_description": "Physical methods are used to separate the components of a lithium-ion battery during pretreatment.",
+            "description": "Physical methods are used to separate the components of a lithium-ion battery during pretreatment."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Black Mass production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Black Mass production",
+            "wd_description": "The pretreatment process produces intermediate products like Black Mass, which are essential for further hydrometallurgical processing.",
+            "description": "The pretreatment process produces intermediate products like Black Mass, which are essential for further hydrometallurgical processing."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Hydrometallurgy process",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Hydrometallurgy process",
+            "wd_description": "The hydrometallurgical process converts recovered Black Mass into battery-grade products that can be recycled back into the battery manufacturing value chain.",
+            "description": "The hydrometallurgical process converts recovered Black Mass into battery-grade products that can be recycled back into the battery manufacturing value chain."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Black Mass treatment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Black Mass treatment",
+            "wd_description": "Black Mass is treated using hydrometallurgical methods to recover lithium, nickel, and cobalt.",
+            "description": "Black Mass is treated using hydrometallurgical methods to recover lithium, nickel, and cobalt."
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "Direct physical regeneration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Direct physical regeneration",
+            "wd_description": "Direct physical regeneration of Black Mass is an emerging method still in its infancy.",
+            "description": "Direct physical regeneration of Black Mass is an emerging method still in its infancy."
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "Pyrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pyrometallurgy",
+            "wd_description": "Pyrometallurgical recycling is energy-intensive, generating GHG and toxic fumes, and is less financially viable due to lithium loss in slag.",
+            "description": "Pyrometallurgical recycling is energy-intensive, generating GHG and toxic fumes, and is less financially viable due to lithium loss in slag."
+        },
+        {
+            "@id": "ev1.2.1.3",
+            "name": "Hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hydrometallurgy",
+            "wd_description": "Hydrometallurgical recycling generates fewer GHG emissions and produces usable products within the battery value chain.",
+            "description": "Hydrometallurgical recycling generates fewer GHG emissions and produces usable products within the battery value chain."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Solvent extraction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Solvent extraction",
+            "wd_description": "Solvent extraction is used to produce battery-grade nickel, cobalt, and manganese sulfates from Black Mass.",
+            "description": "Solvent extraction is used to produce battery-grade nickel, cobalt, and manganese sulfates from Black Mass."
+        },
+        {
+            "@id": "ev1.2.2.1",
+            "name": "Mixer-settlers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mixer-settlers",
+            "wd_description": "Metals are extracted using an organic solvent in a series of mixer-settlers and subsequently stripped from the solvent.",
+            "description": "Metals are extracted using an organic solvent in a series of mixer-settlers and subsequently stripped from the solvent."
+        },
+        {
+            "@id": "ev1.2.2.2",
+            "name": "Evaporation and crystallization",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Evaporation and crystallization",
+            "wd_description": "Extracted metal solutions are concentrated and crystallized to produce battery-grade sulfates.",
+            "description": "Extracted metal solutions are concentrated and crystallized to produce battery-grade sulfates."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Crystallization",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Crystallization",
+            "wd_description": "Crystallization processes are used to remove impurities and produce battery-grade lithium carbonate or lithium hydroxide monohydrate.",
+            "description": "Crystallization processes are used to remove impurities and produce battery-grade lithium carbonate or lithium hydroxide monohydrate."
+        },
+        {
+            "@id": "ev1.2.3.1",
+            "name": "Sodium sulfate crystallization",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sodium sulfate crystallization",
+            "wd_description": "Sodium sulfate crystallization is necessary to remove sodium from lithium solutions to meet product specifications.",
+            "description": "Sodium sulfate crystallization is necessary to remove sodium from lithium solutions to meet product specifications."
+        },
+        {
+            "@id": "ev1.2.3.2",
+            "name": "Lithium precipitation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium precipitation",
+            "wd_description": "Lithium is precipitated to produce battery-grade lithium carbonate or lithium hydroxide monohydrate.",
+            "description": "Lithium is precipitated to produce battery-grade lithium carbonate or lithium hydroxide monohydrate."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Project implementation paths",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Project implementation paths",
+            "wd_description": "Implementing hydrometallurgical processes at a commercial scale requires combining and integrating various subprocesses. While individual steps are commercially proven, integrated plants are still in pilot phases.",
+            "description": "Implementing hydrometallurgical processes at a commercial scale requires combining and integrating various subprocesses. While individual steps are commercially proven, integrated plants are still in pilot phases."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Pilot plants",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pilot plants",
+            "wd_description": "Several companies have implemented pilot plants for integrated hydrometallurgical recycling processes.",
+            "description": "Several companies have implemented pilot plants for integrated hydrometallurgical recycling processes."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Commercial plant start-ups",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Commercial plant start-ups",
+            "wd_description": "Commercial plant start-ups for integrated hydrometallurgical processes are anticipated in the near future.",
+            "description": "Commercial plant start-ups for integrated hydrometallurgical processes are anticipated in the near future."
+        },
+        {
+            "@id": "ev2",
+            "name": "Sustainability and viability of hydrometallurgy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainability and viability of hydrometallurgy",
+            "wd_description": "Hydrometallurgical recycling processes for lithium-ion batteries are promising due to lower greenhouse gas emissions and financial viability. Implementing these processes requires rigorous technical studies and proper design for commercial production.",
+            "description": "Hydrometallurgical recycling processes for lithium-ion batteries are promising due to lower greenhouse gas emissions and financial viability. Implementing these processes requires rigorous technical studies and proper design for commercial production."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "GHG emission reduction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "GHG emission reduction",
+            "wd_description": "Hydrometallurgical processes generate far fewer greenhouse gas emissions compared to pyrometallurgical methods.",
+            "description": "Hydrometallurgical processes generate far fewer greenhouse gas emissions compared to pyrometallurgical methods."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Financial viability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Financial viability",
+            "wd_description": "Hydrometallurgical recycling is more financially viable, especially in the USA, due to lower operational and capital expenses.",
+            "description": "Hydrometallurgical recycling is more financially viable, especially in the USA, due to lower operational and capital expenses."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Technical studies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Technical studies",
+            "wd_description": "Rigorous technical studies are required to ensure hydrometallurgical processes are appropriately designed for commercial production.",
+            "description": "Rigorous technical studies are required to ensure hydrometallurgical processes are appropriately designed for commercial production."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2.1",
+            "relationObject": "ev1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2.1",
+            "relationObject": "ev1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2.1",
+            "relationObject": "ev1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3.1",
+            "relationObject": "ev1.2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3.1",
+            "relationObject": "ev1.2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3.1",
+            "relationObject": "ev1.2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

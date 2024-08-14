@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper92_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-Ion Battery Supply Chain Management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Battery Supply Chain Management",
+            "wd_description": "The most critical phases of the life cycle of lithium-ion batteries are managed in a few countries.",
+            "description": "The most critical phases of the life cycle of lithium-ion batteries are managed in a few countries."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "DRC Cobalt and Lithium Supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "DRC Cobalt and Lithium Supply",
+            "wd_description": "The DRC is the main provider of cobalt and lithium.",
+            "description": "The DRC is the main provider of cobalt and lithium."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Chile Lithium Supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chile Lithium Supply",
+            "wd_description": "Chile is the main provider of lithium.",
+            "description": "Chile is the main provider of lithium."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "China Synthetic and Natural Graphite, Refined Cobalt, and Lithium-Ion Cells and Batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China Synthetic and Natural Graphite, Refined Cobalt, and Lithium-Ion Cells and Batteries",
+            "wd_description": "China is the main provider of synthetic and natural graphite, refined cobalt, as well as lithium-ion cells and batteries.",
+            "description": "China is the main provider of synthetic and natural graphite, refined cobalt, as well as lithium-ion cells and batteries."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "South Korea Battery Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "South Korea Battery Recycling",
+            "wd_description": "South Korea is leading in battery recycling, but some OEMs are putting in place their own recycling.",
+            "description": "South Korea is leading in battery recycling, but some OEMs are putting in place their own recycling."
+        },
+        {
+            "@id": "ev2",
+            "name": "European Commission Designation of Critical Raw Materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "European Commission Designation of Critical Raw Materials",
+            "wd_description": "The European Commission designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production, urging for a sustainable supply chain, improved cell performance and durability, and recycling technology innovation.",
+            "description": "The European Commission designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production, urging for a sustainable supply chain, improved cell performance and durability, and recycling technology innovation."
+        },
+        {
+            "@id": "paper92/Event/28TEBSQOu0/European-Commission-Designation",
+            "name": "European Commission Designation",
+            "ta1explanation": "",
+            "description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production.",
+            "wd_node": "wd:Q2",
+            "wd_label": "Earth",
+            "wd_description": "third planet from the Sun in the Solar System",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "paper92/Event/2FJjcejlts/Importance-of-Sustainable-Supply-Chain",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and"
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Critical raw materials designation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Critical raw materials designation",
+            "wd_description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production.",
+            "description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production."
+        },
+        {
+            "@id": "paper92/Event/2FJjcejlts/Importance-of-Sustainable-Supply-Chain",
+            "name": "Importance of Sustainable Supply Chain",
+            "ta1explanation": "",
+            "description": "The European Commission urges for a sustainable supply chain in the battery production process.",
+            "wd_node": "wd:Q2",
+            "wd_label": "Earth",
+            "wd_description": "third planet from the Sun in the Solar System",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,1264 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper47R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EOL EVB disposal and circular economy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/15ccr8HQWJ/Economic-benefits"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EOL EVB disposal and circular economy",
+            "wd_description": "Proper End-of-Life (EOL) Electric Vehicle Battery (EVB) disposal according to circular economy principles, focusing on echelon utilization before recycling, reverse logistics, and sustainable management.",
+            "description": "Proper End-of-Life (EOL) Electric Vehicle Battery (EVB) disposal according to circular economy principles, focusing on echelon utilization before recycling, reverse logistics, and sustainable management."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Echelon utilization",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Echelon utilization",
+            "wd_description": "The process of using batteries in secondary applications before recycling raw materials.",
+            "description": "The process of using batteries in secondary applications before recycling raw materials."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The process of recovering valuable resources from scrap batteries.",
+            "description": "The process of recovering valuable resources from scrap batteries."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Reverse logistics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reverse logistics",
+            "wd_description": "The logistics involved in returning products for proper disposal and recycling.",
+            "description": "The logistics involved in returning products for proper disposal and recycling."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Sustainable management",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable management",
+            "wd_description": "The approach to managing EOL EVB disposal sustainably.",
+            "description": "The approach to managing EOL EVB disposal sustainably."
+        },
+        {
+            "@id": "ev2",
+            "name": "Financial and regulatory challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Financial and regulatory challenges",
+            "wd_description": "Challenges in the EOL EVB disposal industry, including financial problems and imperfect regulatory frameworks.",
+            "description": "Challenges in the EOL EVB disposal industry, including financial problems and imperfect regulatory frameworks."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Financial problems",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Financial problems",
+            "wd_description": "Financial obstacles hindering the progress of the EOL EVB disposal industry.",
+            "description": "Financial obstacles hindering the progress of the EOL EVB disposal industry."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Regulatory frameworks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regulatory frameworks",
+            "wd_description": "The lack of effective regulatory frameworks in the EOL EVB disposal industry.",
+            "description": "The lack of effective regulatory frameworks in the EOL EVB disposal industry."
+        },
+        {
+            "@id": "ev3",
+            "name": "Sustainable supply chain finance (SSCF)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/3xBmuKLpFs/Sustainable-supply-chain-finance"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable supply chain finance (SSCF)",
+            "wd_description": "The role of SSCF in alleviating pressure on the EOL EVB disposal industry and promoting sustainable supply chain management.",
+            "description": "The role of SSCF in alleviating pressure on the EOL EVB disposal industry and promoting sustainable supply chain management."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "SSCF principles",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SSCF principles",
+            "wd_description": "Principles of SSCF, focusing on economic, social, and environmental benefits.",
+            "description": "Principles of SSCF, focusing on economic, social, and environmental benefits."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Sustainable supply chain management",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable supply chain management",
+            "wd_description": "The integration of SSCF into supply chain management to achieve sustainability.",
+            "description": "The integration of SSCF into supply chain management to achieve sustainability."
+        },
+        {
+            "@id": "ev4",
+            "name": "Research on SSCF and EOL EVB",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/KztvT9kzU/Research-on-SSCF-and-EOL-EVB"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Research on SSCF and EOL EVB",
+            "wd_description": "The need for more theoretical and empirical research on SSCF and its application in the EOL EVB supply chain.",
+            "description": "The need for more theoretical and empirical research on SSCF and its application in the EOL EVB supply chain."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Theoretical research",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Theoretical research",
+            "wd_description": "The limited theoretical research on SSCF.",
+            "description": "The limited theoretical research on SSCF."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Empirical research",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Empirical research",
+            "wd_description": "The limited empirical research on SSCF.",
+            "description": "The limited empirical research on SSCF."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "SSCF application",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SSCF application",
+            "wd_description": "The rare adoption of SSCF in the EOL EVB supply chain.",
+            "description": "The rare adoption of SSCF in the EOL EVB supply chain."
+        },
+        {
+            "@id": "ev5",
+            "name": "Integration of SSCF and EOL EVB research",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev5.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/27J53mBbHs/Integration-of-SSCF-and-EOL-EVB-research"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Integration of SSCF and EOL EVB research",
+            "wd_description": "The integration of research findings on SSCF and EOL EVB to inform policy making and managerial practice.",
+            "description": "The integration of research findings on SSCF and EOL EVB to inform policy making and managerial practice."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Research findings",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Research findings",
+            "wd_description": "The integration of research findings on SSCF and EOL EVB.",
+            "description": "The integration of research findings on SSCF and EOL EVB."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Policy making",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Policy making",
+            "wd_description": "The application of integrated research findings in policy making.",
+            "description": "The application of integrated research findings in policy making."
+        },
+        {
+            "@id": "ev5.3",
+            "name": "Managerial practice",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Managerial practice",
+            "wd_description": "The application of integrated research findings in managerial practice.",
+            "description": "The application of integrated research findings in managerial practice."
+        },
+        {
+            "@id": "ev6",
+            "name": "EOL EVB disposal management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EOL EVB disposal management",
+            "wd_description": "Challenges and developments in the management of EOL EVB disposal.",
+            "description": "Challenges and developments in the management of EOL EVB disposal."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Management challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Management challenges",
+            "wd_description": "The challenges faced in the management of EOL EVB disposal, including financial and regulatory issues.",
+            "description": "The challenges faced in the management of EOL EVB disposal, including financial and regulatory issues."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Technological advancements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Technological advancements",
+            "wd_description": "Technological advancements in the EOL EVB disposal process.",
+            "description": "Technological advancements in the EOL EVB disposal process."
+        },
+        {
+            "@id": "ev6.3",
+            "name": "Regulatory improvements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regulatory improvements",
+            "wd_description": "Regulatory improvements in the EOL EVB disposal industry.",
+            "description": "Regulatory improvements in the EOL EVB disposal industry."
+        },
+        {
+            "@id": "ev7",
+            "name": "Electrode material scarcity and costs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/25K4G9cz5N/Electrode-material-scarcity-and-costs"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Electrode material scarcity and costs",
+            "wd_description": "The scarcity of electrode materials (cobalt, lithium, nickel) and their impact on the costs and adoption of EVs and energy storage systems.",
+            "description": "The scarcity of electrode materials (cobalt, lithium, nickel) and their impact on the costs and adoption of EVs and energy storage systems."
+        },
+        {
+            "@id": "ev7.1",
+            "name": "Material scarcity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Material scarcity",
+            "wd_description": "The scarcity of electrode materials such as cobalt, lithium, and nickel.",
+            "description": "The scarcity of electrode materials such as cobalt, lithium, and nickel."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Cost impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cost impact",
+            "wd_description": "The impact of material scarcity on the costs of EVs and energy storage systems.",
+            "description": "The impact of material scarcity on the costs of EVs and energy storage systems."
+        },
+        {
+            "@id": "ev7.3",
+            "name": "EV adoption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV adoption",
+            "wd_description": "The impact of high costs on the adoption of electric vehicles.",
+            "description": "The impact of high costs on the adoption of electric vehicles."
+        },
+        {
+            "@id": "ev7.4",
+            "name": "Energy storage systems",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy storage systems",
+            "wd_description": "The impact of high costs on the establishment of large-scale energy storage systems.",
+            "description": "The impact of high costs on the establishment of large-scale energy storage systems."
+        },
+        {
+            "@id": "ev8",
+            "name": "Non-automobile stationary energy storage systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/3kone9X7b8/Non-automobile-stationary-energy-storage-systems"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Non-automobile stationary energy storage systems",
+            "wd_description": "The application of EOL EVB to non-automobile stationary energy storage systems (e.g., home storage from PV panels).",
+            "description": "The application of EOL EVB to non-automobile stationary energy storage systems (e.g., home storage from PV panels)."
+        },
+        {
+            "@id": "ev8.1",
+            "name": "Stationary energy storage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stationary energy storage",
+            "wd_description": "The use of EOL EVB in stationary energy storage systems.",
+            "description": "The use of EOL EVB in stationary energy storage systems."
+        },
+        {
+            "@id": "ev8.2",
+            "name": "PV panel storage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "PV panel storage",
+            "wd_description": "The use of EOL EVB in home storage from photovoltaic (PV) panels.",
+            "description": "The use of EOL EVB in home storage from photovoltaic (PV) panels."
+        },
+        {
+            "@id": "ev8.3",
+            "name": "EOL EVB application",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EOL EVB application",
+            "wd_description": "The application of EOL EVB in stationary energy storage systems.",
+            "description": "The application of EOL EVB in stationary energy storage systems."
+        },
+        {
+            "@id": "ev9",
+            "name": "EVB recycling process delay",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev9.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EVB recycling process delay",
+            "wd_description": "The delay in the EVB recycling process due to proper EOL disposal.",
+            "description": "The delay in the EVB recycling process due to proper EOL disposal."
+        },
+        {
+            "@id": "ev9.1",
+            "name": "Recycling delay",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling delay",
+            "wd_description": "The potential delay of 10-20 years in the EVB recycling process due to proper EOL disposal.",
+            "description": "The potential delay of 10-20 years in the EVB recycling process due to proper EOL disposal."
+        },
+        {
+            "@id": "ev9.2",
+            "name": "Proper EOL disposal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Proper EOL disposal",
+            "wd_description": "The impact of proper EOL disposal on delaying the EVB recycling process.",
+            "description": "The impact of proper EOL disposal on delaying the EVB recycling process."
+        },
+        {
+            "@id": "ev10",
+            "name": "Sustainable supply chain management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/USG60fKjE/Sustainable-supply-chain-management"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable supply chain management",
+            "wd_description": "The importance of emphasizing sustainable supply chain management in the EOL EVB disposal industry.",
+            "description": "The importance of emphasizing sustainable supply chain management in the EOL EVB disposal industry."
+        },
+        {
+            "@id": "ev10.1",
+            "name": "Sustainable practices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable practices",
+            "wd_description": "The emphasis on sustainable practices in the EOL EVB disposal industry.",
+            "description": "The emphasis on sustainable practices in the EOL EVB disposal industry."
+        },
+        {
+            "@id": "ev10.2",
+            "name": "Supply chain management",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply chain management",
+            "wd_description": "The emphasis on supply chain management in the EOL EVB disposal industry.",
+            "description": "The emphasis on supply chain management in the EOL EVB disposal industry."
+        },
+        {
+            "@id": "ev11",
+            "name": "Supply chain finance (SCF) and liquidity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev11.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev11.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/DBqEXKbIA/Supply-chain-finance-and-liquidity"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain finance (SCF) and liquidity",
+            "wd_description": "The role of SCF in addressing liquidity shortages and financing costs for firms, especially SMEs.",
+            "description": "The role of SCF in addressing liquidity shortages and financing costs for firms, especially SMEs."
+        },
+        {
+            "@id": "ev11.1",
+            "name": "Liquidity shortage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Liquidity shortage",
+            "wd_description": "The liquidity shortage faced by firms due to the 2008 financial crisis.",
+            "description": "The liquidity shortage faced by firms due to the 2008 financial crisis."
+        },
+        {
+            "@id": "ev11.2",
+            "name": "Financing costs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Financing costs",
+            "wd_description": "The increased financing costs faced by firms due to liquidity shortages.",
+            "description": "The increased financing costs faced by firms due to liquidity shortages."
+        },
+        {
+            "@id": "ev11.3",
+            "name": "SMEs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SMEs",
+            "wd_description": "The impact of liquidity shortages and increased financing costs on small and medium-sized enterprises.",
+            "description": "The impact of liquidity shortages and increased financing costs on small and medium-sized enterprises."
+        },
+        {
+            "@id": "ev12",
+            "name": "Sustainable development and competitive advantage",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev12.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev12.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable development and competitive advantage",
+            "wd_description": "The concept of sustainable development as a source of competitive advantage and its impact on supply chain operations.",
+            "description": "The concept of sustainable development as a source of competitive advantage and its impact on supply chain operations."
+        },
+        {
+            "@id": "ev12.1",
+            "name": "Sustainable development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable development",
+            "wd_description": "The definition and importance of sustainable development.",
+            "description": "The definition and importance of sustainable development."
+        },
+        {
+            "@id": "ev12.2",
+            "name": "Competitive advantage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Competitive advantage",
+            "wd_description": "Sustainable development as a key source of competitive advantage.",
+            "description": "Sustainable development as a key source of competitive advantage."
+        },
+        {
+            "@id": "ev12.3",
+            "name": "Supply chain operations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply chain operations",
+            "wd_description": "The impact of sustainable development on supply chain operations.",
+            "description": "The impact of sustainable development on supply chain operations."
+        },
+        {
+            "@id": "ev13",
+            "name": "Increasing adoption of SCF",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev13.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev13.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev13.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev13.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Increasing adoption of SCF",
+            "wd_description": "The increasing adoption of SCF and its contribution to economic, environmental, and social sustainability.",
+            "description": "The increasing adoption of SCF and its contribution to economic, environmental, and social sustainability."
+        },
+        {
+            "@id": "ev13.1",
+            "name": "SCF adoption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SCF adoption",
+            "wd_description": "The increasing adoption of SCF in supply chain management.",
+            "description": "The increasing adoption of SCF in supply chain management."
+        },
+        {
+            "@id": "ev13.2",
+            "name": "Economic sustainability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Economic sustainability",
+            "wd_description": "The contribution of SCF to economic sustainability.",
+            "description": "The contribution of SCF to economic sustainability."
+        },
+        {
+            "@id": "ev13.3",
+            "name": "Environmental sustainability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental sustainability",
+            "wd_description": "The contribution of SCF to environmental sustainability.",
+            "description": "The contribution of SCF to environmental sustainability."
+        },
+        {
+            "@id": "ev13.4",
+            "name": "Social sustainability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Social sustainability",
+            "wd_description": "The contribution of SCF to social sustainability.",
+            "description": "The contribution of SCF to social sustainability."
+        },
+        {
+            "@id": "ev14",
+            "name": "Promotion of EVs and battery supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev14.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev14.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/EAqtCy0aW/Promotion-of-EVs-and-battery-supply"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Promotion of EVs and battery supply",
+            "wd_description": "The promotion of electric vehicles and the need for a rapid supply of batteries.",
+            "description": "The promotion of electric vehicles and the need for a rapid supply of batteries."
+        },
+        {
+            "@id": "ev14.1",
+            "name": "EV promotion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV promotion",
+            "wd_description": "The vigorous promotion of electric vehicles worldwide.",
+            "description": "The vigorous promotion of electric vehicles worldwide."
+        },
+        {
+            "@id": "ev14.2",
+            "name": "Battery supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery supply",
+            "wd_description": "The rapid supply of batteries needed to support the expanding EV market.",
+            "description": "The rapid supply of batteries needed to support the expanding EV market."
+        },
+        {
+            "@id": "ev15",
+            "name": "Multi-stakeholder-centric network",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev15.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev15.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/1PUx0xM290/Multi-stakeholder-centric-network"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Multi-stakeholder-centric network",
+            "wd_description": "The need for a more sustainable multi-stakeholder-centric network in the EV supply chain.",
+            "description": "The need for a more sustainable multi-stakeholder-centric network in the EV supply chain."
+        },
+        {
+            "@id": "ev15.1",
+            "name": "Stakeholders",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stakeholders",
+            "wd_description": "The various stakeholders in the EV supply chain, including manufacturers, retailers, and consumers.",
+            "description": "The various stakeholders in the EV supply chain, including manufacturers, retailers, and consumers."
+        },
+        {
+            "@id": "ev15.2",
+            "name": "Sustainable network",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable network",
+            "wd_description": "The need for a sustainable multi-stakeholder-centric network in the EV supply chain.",
+            "description": "The need for a sustainable multi-stakeholder-centric network in the EV supply chain."
+        },
+        {
+            "@id": "ev16",
+            "name": "Financial flows and SSCF",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev16.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev16.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper47/Event/1dNeC1Mlsw/Financial-flows-and-SSCF"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Financial flows and SSCF",
+            "wd_description": "The management of financial flows through SSCF to achieve a more sustainable supply chain.",
+            "description": "The management of financial flows through SSCF to achieve a more sustainable supply chain."
+        },
+        {
+            "@id": "ev16.1",
+            "name": "Financial flows",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Financial flows",
+            "wd_description": "The critical role of managing financial flows along the supply chain.",
+            "description": "The critical role of managing financial flows along the supply chain."
+        },
+        {
+            "@id": "ev16.2",
+            "name": "SSCF management",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SSCF management",
+            "wd_description": "The role of SSCF in managing financial flows to achieve sustainability.",
+            "description": "The role of SSCF in managing financial flows to achieve sustainability."
+        },
+        {
+            "@id": "paper47/Event/15ccr8HQWJ/Economic-benefits",
+            "name": "Economic benefits",
+            "ta1explanation": "",
+            "description": "The driving force behind the supply chain of EOL EVB is economic benefits, emphasizing the need for a supply chain that benefits all participants.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/3xBmuKLpFs/Sustainable-supply-chain-finance",
+            "name": "Win win situation of economy society and environment",
+            "ta1explanation": "",
+            "description": "SSCF highlights the balance and mutual benefits among economic, social, and environmental aspects.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/KztvT9kzU/Research-on-SSCF-and-EOL-EVB",
+            "name": "Neglected social and environmental dimensions",
+            "ta1explanation": "",
+            "description": "Research often overlooks social and environmental dimensions while overemphasizing immediate economic benefits.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/27J53mBbHs/Integration-of-SSCF-and-EOL-EVB-research",
+            "name": "Interdisciplinary perspective",
+            "ta1explanation": "",
+            "description": "Better understanding from an interdisciplinary perspective can improve sustainable EOL EVB management.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/25K4G9cz5N/Electrode-material-scarcity-and-costs",
+            "name": "High costs as obstacle",
+            "ta1explanation": "",
+            "description": "High costs of electrode materials such as cobalt, lithium, and nickel are becoming an obstacle to EV adoption and large-scale energy storage system establishment.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/3kone9X7b8/Non-automobile-stationary-energy-storage-systems",
+            "name": "Recycling to avoid contamination",
+            "ta1explanation": "",
+            "description": "Proper handling and recycling of different types of batteries help avoid heavy metal contamination and prevent fires or explosions.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/USG60fKjE/Sustainable-supply-chain-management",
+            "name": "Emphasis on EOL EVB disposal",
+            "ta1explanation": "",
+            "description": "Sustainable supply chain management must emphasize the EOL EVB disposal industry due to financial and regulatory challenges.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/DBqEXKbIA/Supply-chain-finance-and-liquidity",
+            "name": "Economic sustainability",
+            "ta1explanation": "",
+            "description": "SCF helps realize economic sustainability by addressing cash flow problems and gradually involving environmental and social issues.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/EAqtCy0aW/Promotion-of-EVs-and-battery-supply",
+            "name": "Climate change and energy crisis attention",
+            "ta1explanation": "",
+            "description": "Considerable attention to climate change and the energy crisis in the automotive industry is leading to the vigorous promotion of EVs.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/1PUx0xM290/Multi-stakeholder-centric-network",
+            "name": "Sustainable multi stakeholder centric network",
+            "ta1explanation": "",
+            "description": "The EV supply chain, covering EOL EVB disposal, requires a more sustainable multi-stakeholder-centric network rather than a firm-centric business model.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        },
+        {
+            "@id": "paper47/Event/1dNeC1Mlsw/Financial-flows-and-SSCF",
+            "name": "Mitigation of default risk",
+            "ta1explanation": "",
+            "description": "SSCF financial evaluation can mitigate the default risk of adopters facing government shutdowns due to unsustainable practices.",
+            "wd_node": "paper47",
+            "wd_label": "paper47",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1",
+            "relationObject": "ev5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1",
+            "relationObject": "ev6.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.1",
+            "relationObject": "ev7.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.1",
+            "relationObject": "ev8.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.1",
+            "relationObject": "ev8.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.1",
+            "relationObject": "ev8.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.1",
+            "relationObject": "ev8.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.1",
+            "relationObject": "ev9.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.1",
+            "relationObject": "ev9.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.1",
+            "relationObject": "ev9.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.1",
+            "relationObject": "ev10.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.1",
+            "relationObject": "ev10.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.1",
+            "relationObject": "ev10.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.1",
+            "relationObject": "ev11.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.1",
+            "relationObject": "ev11.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.1",
+            "relationObject": "ev11.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.1",
+            "relationObject": "ev11.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.1",
+            "relationObject": "ev12.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.1",
+            "relationObject": "ev12.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.1",
+            "relationObject": "ev12.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.1",
+            "relationObject": "ev12.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1",
+            "relationObject": "ev13.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1",
+            "relationObject": "ev13.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1",
+            "relationObject": "ev13.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1",
+            "relationObject": "ev13.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1",
+            "relationObject": "ev13.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14.1",
+            "relationObject": "ev14.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14.1",
+            "relationObject": "ev14.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14.1",
+            "relationObject": "ev14.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15.1",
+            "relationObject": "ev15.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15.1",
+            "relationObject": "ev15.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15.1",
+            "relationObject": "ev15.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16.1",
+            "relationObject": "ev16.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16.1",
+            "relationObject": "ev16.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16.1",
+            "relationObject": "ev16.2"
+        }
+    ],
+    "entities": []
+}

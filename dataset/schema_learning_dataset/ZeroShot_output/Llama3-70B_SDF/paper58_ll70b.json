@@ -1,0 +1,193 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper58_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Improving the rechargeable battery raw materials supply chain and securing sustainable sources for Europe",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Improving the rechargeable battery raw materials supply chain and securing sustainable sources for Europe",
+            "wd_description": "Finland has the ideal ecosystem to tackle the challenge of improving the rechargeable battery raw materials supply chain and securing sustainable sources for Europe.",
+            "description": "Finland has the ideal ecosystem to tackle the challenge of improving the rechargeable battery raw materials supply chain and securing sustainable sources for Europe."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Available mineral resources (battery mineral deposits and operating mines)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Available mineral resources (battery mineral deposits and operating mines)",
+            "wd_description": "Finland has available mineral resources, including battery mineral deposits and operating mines.",
+            "description": "Finland has available mineral resources, including battery mineral deposits and operating mines."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Metallurgical industry (processing plants, smelters, refineries)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Metallurgical industry (processing plants, smelters, refineries)",
+            "wd_description": "Finland has a metallurgical industry, including processing plants, smelters, and refineries.",
+            "description": "Finland has a metallurgical industry, including processing plants, smelters, and refineries."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Technical expertise (know-how, automation, low-price clean energy)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Technical expertise (know-how, automation, low-price clean energy)",
+            "wd_description": "Finland has technical expertise in areas such as know-how, automation, and low-price clean energy.",
+            "description": "Finland has technical expertise in areas such as know-how, automation, and low-price clean energy."
+        },
+        {
+            "@id": "ev2",
+            "name": "Finland's ecosystem for improving battery raw materials supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper58/Event/vleJlBI9s/Metallurgy-and-refining",
+                    "importance": 1
+                },
+                {
+                    "child": "paper58/Event/2SyiPMj8MF/Automation-and-technical-expertise",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Finland's ecosystem for improving battery raw materials supply chain",
+            "wd_description": "Finland, with its available mineral resources, industry, and technical expertise, has an ideal ecosystem to tackle the challenge of improving the rechargeable battery raw materials supply chain and securing sustainable sources for Europe.",
+            "description": "Finland, with its available mineral resources, industry, and technical expertise, has an ideal ecosystem to tackle the challenge of improving the rechargeable battery raw materials supply chain and securing sustainable sources for Europe."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Mineral resources",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mineral resources",
+            "wd_description": "Finland has available mineral resources, including battery mineral deposits and operating mines.",
+            "description": "Finland has available mineral resources, including battery mineral deposits and operating mines."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Industry",
+            "wd_description": "Finland has a strong metallurgical industry, including processing plants, smelters, and refineries.",
+            "description": "Finland has a strong metallurgical industry, including processing plants, smelters, and refineries."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Technical expertise",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Technical expertise",
+            "wd_description": "Finland has technical expertise in areas such as know-how, automation, and low-price clean energy.",
+            "description": "Finland has technical expertise in areas such as know-how, automation, and low-price clean energy."
+        },
+        {
+            "@id": "paper58/Event/vleJlBI9s/Metallurgy-and-refining",
+            "name": "Metallurgy and refining",
+            "ta1explanation": "",
+            "description": "Finland's industry includes metallurgy and refining, essential components of the battery raw materials supply chain",
+            "wd_node": "paper58",
+            "wd_label": "paper58",
+            "participants": []
+        },
+        {
+            "@id": "paper58/Event/2SyiPMj8MF/Automation-and-technical-expertise",
+            "name": "Automation and technical expertise",
+            "ta1explanation": "",
+            "description": "Finland's technical expertise, including automation and know-how, supports its role in improving the battery raw materials supply chain.",
+            "wd_node": "paper58",
+            "wd_label": "paper58",
+            "participants": []
+        },
+        {
+            "@id": "ev4",
+            "name": "Finland's ideal ecosystem for battery raw materials supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper58/Event/3dlq2OTGHF/Low-price-clean-energy",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Finland's ideal ecosystem for battery raw materials supply chain",
+            "wd_description": "Finland's available mineral resources, metallurgical industry, and technical expertise create an ideal ecosystem to improve the battery raw materials supply chain and secure a sustainable, conflict-free source for Europe.",
+            "description": "Finland's available mineral resources, metallurgical industry, and technical expertise create an ideal ecosystem to improve the battery raw materials supply chain and secure a sustainable, conflict-free source for Europe."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Mineral resources",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mineral resources",
+            "wd_description": "Finland has available mineral resources, including battery mineral deposits and operating mines.",
+            "description": "Finland has available mineral resources, including battery mineral deposits and operating mines."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Metallurgical industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Metallurgical industry",
+            "wd_description": "Finland has a strong metallurgical industry, including processing plants, smelters, and refineries.",
+            "description": "Finland has a strong metallurgical industry, including processing plants, smelters, and refineries."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Technical expertise",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Technical expertise",
+            "wd_description": "Finland has technical expertise in areas such as know-how, automation, and low-price clean energy.",
+            "description": "Finland has technical expertise in areas such as know-how, automation, and low-price clean energy."
+        },
+        {
+            "@id": "paper58/Event/3dlq2OTGHF/Low-price-clean-energy",
+            "name": "Low price clean energy",
+            "ta1explanation": "",
+            "description": "Finland's access to low-price clean energy supports its ideal ecosystem for the battery raw materials supply chain",
+            "wd_node": "paper58",
+            "wd_label": "paper58",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

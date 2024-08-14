@@ -1,0 +1,273 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper100",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "key strategic issues in operations and supply chain management for the automobile battery industry",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "key strategic issues in operations and supply chain management for the automobile battery industry",
+            "wd_description": "This research identifies strategic issues in operations and SCM for the automobile battery industry, focusing on demand assessment, supply fulfillment, and creating a network to bridge demand and supply.",
+            "description": "This research identifies strategic issues in operations and SCM for the automobile battery industry, focusing on demand assessment, supply fulfillment, and creating a network to bridge demand and supply."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "demand assessment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "demand assessment",
+            "wd_description": "Demand assessment includes forecasting sales and estimating warranty replacements to ensure accurate projections in the automotive battery industry.",
+            "description": "Demand assessment includes forecasting sales and estimating warranty replacements to ensure accurate projections in the automotive battery industry."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "supply fulfillment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "supply fulfillment",
+            "wd_description": "Supply fulfillment involves production planning to meet the assessed demand, taking into account various product mixes and production complexities.",
+            "description": "Supply fulfillment involves production planning to meet the assessed demand, taking into account various product mixes and production complexities."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "network creation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "network creation",
+            "wd_description": "Creating an agile network involves strategic inventory planning to ensure timely and location-specific dispatches of automotive batteries.",
+            "description": "Creating an agile network involves strategic inventory planning to ensure timely and location-specific dispatches of automotive batteries."
+        },
+        {
+            "@id": "ev2",
+            "name": "supply chain management in the Indian automotive battery industry",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "supply chain management in the Indian automotive battery industry",
+            "wd_description": "SCM in the Indian automotive battery industry focuses on integrating suppliers, manufacturers, warehouses, and customers to minimize system-wide costs and maximize profit and market share.",
+            "description": "SCM in the Indian automotive battery industry focuses on integrating suppliers, manufacturers, warehouses, and customers to minimize system-wide costs and maximize profit and market share."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "supplier integration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "supplier integration",
+            "wd_description": "Integrating suppliers involves coordinating with raw material providers to ensure a steady supply for battery production.",
+            "description": "Integrating suppliers involves coordinating with raw material providers to ensure a steady supply for battery production."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "manufacturer integration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "manufacturer integration",
+            "wd_description": "Integrating manufacturers focuses on aligning production processes and schedules to meet the supply chain demands.",
+            "description": "Integrating manufacturers focuses on aligning production processes and schedules to meet the supply chain demands."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "warehouse integration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "warehouse integration",
+            "wd_description": "Integrating warehouses involves managing storage and distribution centers to facilitate efficient battery logistics.",
+            "description": "Integrating warehouses involves managing storage and distribution centers to facilitate efficient battery logistics."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "customer integration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "customer integration",
+            "wd_description": "Integrating customers ensures that the end-product is distributed to the right place at the right time, fulfilling customer demands.",
+            "description": "Integrating customers ensures that the end-product is distributed to the right place at the right time, fulfilling customer demands."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

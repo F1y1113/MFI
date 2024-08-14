@@ -1,0 +1,246 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_13R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "UK Approves First Coal Mining Operation in 30 Years",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UK Approves First Coal Mining Operation in 30 Years",
+            "wd_description": "The UK government approved its first coal mining operation in 30 years, a move criticized for potentially jeopardizing the country's climate change targets, as the mine is intended for steel production rather than electricity generation.",
+            "description": "The UK government approved its first coal mining operation in 30 years, a move criticized for potentially jeopardizing the country's climate change targets, as the mine is intended for steel production rather than electricity generation."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Approval of Coal Mine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Approval of Coal Mine",
+            "wd_description": "The UK government approved a new coal mining operation, the first in 30 years, with the coal intended for steel manufacturing and backed by 40 conservative MPs.",
+            "description": "The UK government approved a new coal mining operation, the first in 30 years, with the coal intended for steel manufacturing and backed by 40 conservative MPs."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Climate Change Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Climate Change Concerns",
+            "wd_description": "Critics, including environmental experts, warned that the new coal mine could significantly hinder the UK's efforts to meet its climate change goals, particularly reducing greenhouse gas emissions.",
+            "description": "Critics, including environmental experts, warned that the new coal mine could significantly hinder the UK's efforts to meet its climate change goals, particularly reducing greenhouse gas emissions."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Impact on Greenhouse Gas Emissions Targets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Greenhouse Gas Emissions Targets",
+            "wd_description": "The UK Climate Change Committee (UKCCC) highlighted the risk that the coal mine poses to the UK's target of reducing greenhouse gas emissions by 78% by 2035, warning of the need for costly emissions capture and disposal if coal use continues.",
+            "description": "The UK Climate Change Committee (UKCCC) highlighted the risk that the coal mine poses to the UK's target of reducing greenhouse gas emissions by 78% by 2035, warning of the need for costly emissions capture and disposal if coal use continues."
+        },
+        {
+            "@id": "ev2",
+            "name": "Study Reveals Impact of Heat on Fetal Health in Gambia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Study Reveals Impact of Heat on Fetal Health in Gambia",
+            "wd_description": "A study found that rising temperatures in the Gambia led to increased fetal heart rates and decreased blood flow to the placenta among women working in fields, highlighting the risks of heat stress for pregnant women and their unborn children.",
+            "description": "A study found that rising temperatures in the Gambia led to increased fetal heart rates and decreased blood flow to the placenta among women working in fields, highlighting the risks of heat stress for pregnant women and their unborn children."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Study Findings on Fetal Health",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Study Findings on Fetal Health",
+            "wd_description": "The study observed that as temperatures rose, fetuses of women working in fields in the Gambia exhibited increased heart rates and decreased blood flow to the placenta, raising concerns about heat stress during pregnancy.",
+            "description": "The study observed that as temperatures rose, fetuses of women working in fields in the Gambia exhibited increased heart rates and decreased blood flow to the placenta, raising concerns about heat stress during pregnancy."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Global Heat Exposure Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global Heat Exposure Concerns",
+            "wd_description": "The study's findings emphasize the risks posed by extreme heat exposure, which is expected to affect hundreds of millions of people, including pregnant women, even if global temperatures stay below the 1.5°C limit.",
+            "description": "The study's findings emphasize the risks posed by extreme heat exposure, which is expected to affect hundreds of millions of people, including pregnant women, even if global temperatures stay below the 1.5°C limit."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Potential Explanations for Heat Stress Effects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Potential Explanations for Heat Stress Effects",
+            "wd_description": "Researchers suggested that heat stress in pregnant women may result from dehydration due to sweating and the diversion of blood and oxygen from the placenta to the skin to cool the body.",
+            "description": "Researchers suggested that heat stress in pregnant women may result from dehydration due to sweating and the diversion of blood and oxygen from the placenta to the skin to cool the body."
+        },
+        {
+            "@id": "ev3",
+            "name": "Shooting at Kurdish Cultural Centre in Paris",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Shooting at Kurdish Cultural Centre in Paris",
+            "wd_description": "A gunman opened fire at a Kurdish Cultural Centre in central Paris, killing three people and wounding others, in what is suspected to be a far-right motivated attack.",
+            "description": "A gunman opened fire at a Kurdish Cultural Centre in central Paris, killing three people and wounding others, in what is suspected to be a far-right motivated attack."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Shooting Incident",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shooting Incident",
+            "wd_description": "A gunman targeted the Kurdish Cultural Centre in central Paris, killing three people and injuring others, with the attack appearing to be directed at the Kurdish community.",
+            "description": "A gunman targeted the Kurdish Cultural Centre in central Paris, killing three people and injuring others, with the attack appearing to be directed at the Kurdish community."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Kurdish Democratic Council's Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Kurdish Democratic Council's Response",
+            "wd_description": "The Kurdish Democratic Council condemned the attack and announced that a vigil would be held to pay tribute to those killed.",
+            "description": "The Kurdish Democratic Council condemned the attack and announced that a vigil would be held to pay tribute to those killed."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Paris Mayor's Statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Paris Mayor's Statement",
+            "wd_description": "Paris Mayor Anne Hidalgo suggested that the attack was carried out by a far-right activist, expressing solidarity with the Kurdish community in Paris.",
+            "description": "Paris Mayor Anne Hidalgo suggested that the attack was carried out by a far-right activist, expressing solidarity with the Kurdish community in Paris."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Murder Investigation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Murder Investigation",
+            "wd_description": "Prosecutors in Paris have launched a murder investigation into the shooting, seeking to determine the motives and background of the attacker.",
+            "description": "Prosecutors in Paris have launched a murder investigation into the shooting, seeking to determine the motives and background of the attacker."
+        },
+        {
+            "@id": "ev4",
+            "name": "White House Allocation of $2.8 Billion for EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "White House Allocation of $2.8 Billion for EV Battery Supply Chain",
+            "wd_description": "The White House announced $2.8 billion in grants to build a domestic EV battery supply chain as part of the Bipartisan Infrastructure Law, targeting projects in 12 states.",
+            "description": "The White House announced $2.8 billion in grants to build a domestic EV battery supply chain as part of the Bipartisan Infrastructure Law, targeting projects in 12 states."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Funding Distribution",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Funding Distribution",
+            "wd_description": "The funding is allocated to 20 battery manufacturing and raw-materials processing companies for projects across 12 states, including several red states.",
+            "description": "The funding is allocated to 20 battery manufacturing and raw-materials processing companies for projects across 12 states, including several red states."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Goals for Lithium Graphite and Nickel Supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Goals for Lithium Graphite and Nickel Supply",
+            "wd_description": "The funding aims to develop enough lithium supply for 2 million EVs annually, graphite supply for 1.2 million EVs annually, and nickel supply for 400,000 EVs annually.",
+            "description": "The funding aims to develop enough lithium supply for 2 million EVs annually, graphite supply for 1.2 million EVs annually, and nickel supply for 400,000 EVs annually."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Expansion of Manufacturing Infrastructure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expansion of Manufacturing Infrastructure",
+            "wd_description": "Grants will fund expanded refinement and manufacturing infrastructure, including the first commercial-scale lithium electrolyte salt production facility, silicon oxide production facilities, and a lithium iron phosphate cathode facility in the U.S.",
+            "description": "Grants will fund expanded refinement and manufacturing infrastructure, including the first commercial-scale lithium electrolyte salt production facility, silicon oxide production facilities, and a lithium iron phosphate cathode facility in the U.S."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Additional Bipartisan Infrastructure Law Initiatives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Additional Bipartisan Infrastructure Law Initiatives",
+            "wd_description": "The law also includes $7.5 billion for a national EV charging network and additional funds from the Energy Department and the Defense Production Act to bolster battery materials.",
+            "description": "The law also includes $7.5 billion for a national EV charging network and additional funds from the Energy Department and the Defense Production Act to bolster battery materials."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

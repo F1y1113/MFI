@@ -1,0 +1,533 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q4_20R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling.",
+            "description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Raw material extraction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Raw material extraction",
+            "wd_description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries.",
+            "description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "t: Lithium mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Lithium mining",
+            "wd_description": "The process of extracting lithium from the earth which is used as a key component in EV batteries.",
+            "description": "The process of extracting lithium from the earth which is used as a key component in EV batteries."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "t: Cobalt mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cobalt mining",
+            "wd_description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries.",
+            "description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "t: Nickel mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nickel mining",
+            "wd_description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries.",
+            "description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production",
+            "wd_description": "The manufacturing process of EV batteries including cell production and assembly.",
+            "description": "The manufacturing process of EV batteries including cell production and assembly."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "t: Cell production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cell production",
+            "wd_description": "The process of producing individual battery cells from raw materials.",
+            "description": "The process of producing individual battery cells from raw materials."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "t: Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Assembly",
+            "wd_description": "The assembly of battery cells into battery packs which are then installed into EVs.",
+            "description": "The assembly of battery cells into battery packs which are then installed into EVs."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact.",
+            "description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "t: Pyrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Pyrometallurgical recycling",
+            "wd_description": "A recycling method that uses high temperatures to recover metals from spent batteries.",
+            "description": "A recycling method that uses high temperatures to recover metals from spent batteries."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "t: Hydrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hydrometallurgical recycling",
+            "wd_description": "A recycling method that uses aqueous solutions to extract metals from batteries.",
+            "description": "A recycling method that uses aqueous solutions to extract metals from batteries."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "t: Direct recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Direct recycling",
+            "wd_description": "A method that recycles battery components directly without breaking them down into their elemental forms.",
+            "description": "A method that recycles battery components directly without breaking them down into their elemental forms."
+        },
+        {
+            "@id": "ev2",
+            "name": "World Bank loan to South Africa for energy sector reform",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "World Bank loan to South Africa for energy sector reform",
+            "wd_description": "The World Bank has approved a $1 billion loan to help South Africa reform its energy sector and overcome regular power cuts that have affected economic growth.",
+            "description": "The World Bank has approved a $1 billion loan to help South Africa reform its energy sector and overcome regular power cuts that have affected economic growth."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Loan approval",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Loan approval",
+            "wd_description": "The World Bank confirmed a $1 billion loan to South Africa for energy sector reform.",
+            "description": "The World Bank confirmed a $1 billion loan to South Africa for energy sector reform."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Energy sector reform",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy sector reform",
+            "wd_description": "South Africa's government has launched reforms to benefit the economy, vulnerable households, and the environment, advancing the energy transition.",
+            "description": "South Africa's government has launched reforms to benefit the economy, vulnerable households, and the environment, advancing the energy transition."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Reduction in pollution",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reduction in pollution",
+            "wd_description": "The World Bank's loan aims to reduce water and air pollution by decreasing reliance on coal for power generation.",
+            "description": "The World Bank's loan aims to reduce water and air pollution by decreasing reliance on coal for power generation."
+        },
+        {
+            "@id": "ev3",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling.",
+            "description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Raw material extraction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Raw material extraction",
+            "wd_description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries.",
+            "description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Lithium mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Lithium mining",
+            "wd_description": "The process of extracting lithium from the earth which is used as a key component in EV batteries.",
+            "description": "The process of extracting lithium from the earth which is used as a key component in EV batteries."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: Cobalt mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cobalt mining",
+            "wd_description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries.",
+            "description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: Nickel mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nickel mining",
+            "wd_description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries.",
+            "description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production",
+            "wd_description": "The manufacturing process of EV batteries including cell production and assembly.",
+            "description": "The manufacturing process of EV batteries including cell production and assembly."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: Cell production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cell production",
+            "wd_description": "The process of producing individual battery cells from raw materials.",
+            "description": "The process of producing individual battery cells from raw materials."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Assembly",
+            "wd_description": "The assembly of battery cells into battery packs which are then installed into EVs.",
+            "description": "The assembly of battery cells into battery packs which are then installed into EVs."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact.",
+            "description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Pyrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Pyrometallurgical recycling",
+            "wd_description": "A recycling method that uses high temperatures to recover metals from spent batteries.",
+            "description": "A recycling method that uses high temperatures to recover metals from spent batteries."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Hydrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hydrometallurgical recycling",
+            "wd_description": "A recycling method that uses aqueous solutions to extract metals from batteries.",
+            "description": "A recycling method that uses aqueous solutions to extract metals from batteries."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: Direct recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Direct recycling",
+            "wd_description": "A method that recycles battery components directly without breaking them down into their elemental forms.",
+            "description": "A method that recycles battery components directly without breaking them down into their elemental forms."
+        },
+        {
+            "@id": "ev4",
+            "name": "US EV Battery Boom",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US EV Battery Boom",
+            "wd_description": "The US is experiencing a battery boom with significant investments from public and private sectors to boost EV manufacturing, but faces challenges in workforce development.",
+            "description": "The US is experiencing a battery boom with significant investments from public and private sectors to boost EV manufacturing, but faces challenges in workforce development."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Major Investments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Major Investments",
+            "wd_description": "Companies announced over $73 billion in planned projects in 2022, and the Biden administration plans to invest more than $135 billion in building the country's EV future.",
+            "description": "Companies announced over $73 billion in planned projects in 2022, and the Biden administration plans to invest more than $135 billion in building the country's EV future."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Public Sector Investments",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Public Sector Investments",
+            "wd_description": "The Biden administration's investments are primarily focused on manufacturing, production, and processing of EV batteries.",
+            "description": "The Biden administration's investments are primarily focused on manufacturing, production, and processing of EV batteries."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Private Sector Investments",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Private Sector Investments",
+            "wd_description": "Companies have announced more than $73 billion in planned EV battery projects in 2022.",
+            "description": "Companies have announced more than $73 billion in planned EV battery projects in 2022."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Workforce Development Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Workforce Development Challenges",
+            "wd_description": "Despite significant investments, there is a disparity in funding for workforce development, which may lead to a talent shortage and supply chain disruptions.",
+            "description": "Despite significant investments, there is a disparity in funding for workforce development, which may lead to a talent shortage and supply chain disruptions."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Funding Disparity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Funding Disparity",
+            "wd_description": "The investment for workforce development is $5 million, compared to over $135 billion for infrastructure and production.",
+            "description": "The investment for workforce development is $5 million, compared to over $135 billion for infrastructure and production."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Rapid Job Growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Rapid Job Growth",
+            "wd_description": "The number of jobs in battery electric vehicles grew by 27% from 2021 to 2022, with expectations of further growth.",
+            "description": "The number of jobs in battery electric vehicles grew by 27% from 2021 to 2022, with expectations of further growth."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "State-Level Actions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "State-Level Actions",
+            "wd_description": "States like Ohio, Illinois, Indiana, Georgia, and Michigan have launched EV workforce strategies to address the talent gap and support career awareness and training.",
+            "description": "States like Ohio, Illinois, Indiana, Georgia, and Michigan have launched EV workforce strategies to address the talent gap and support career awareness and training."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Ohio EV Workforce Strategy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Ohio EV Workforce Strategy",
+            "wd_description": "Ohio launched its EV Workforce Strategy to increase career awareness, widen the talent pool, and establish partnerships.",
+            "description": "Ohio launched its EV Workforce Strategy to increase career awareness, widen the talent pool, and establish partnerships."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: DOE Battery Workforce Initiative",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: DOE Battery Workforce Initiative",
+            "wd_description": "The DOE's initiative will support up to five pilot training programs and develop training materials for the battery workforce.",
+            "description": "The DOE's initiative will support up to five pilot training programs and develop training materials for the battery workforce."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

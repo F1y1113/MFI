@@ -1,0 +1,366 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper32_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Main Drivers for Future Lithium-Ion Battery Market",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Main Drivers for Future Lithium-Ion Battery Market",
+            "wd_description": "The demand for batteries from the automotive industry sector is the main driver for the future lithium-ion battery market.",
+            "description": "The demand for batteries from the automotive industry sector is the main driver for the future lithium-ion battery market."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Demand from Automotive Industry Sector",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Demand from Automotive Industry Sector",
+            "wd_description": "The demand for batteries from the automotive industry sector is increasing.",
+            "description": "The demand for batteries from the automotive industry sector is increasing."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Cell Manufacturing Market",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cell Manufacturing Market",
+            "wd_description": "The cell manufacturing market is dominated by a few large players from Asia, with China getting more important.",
+            "description": "The cell manufacturing market is dominated by a few large players from Asia, with China getting more important."
+        },
+        {
+            "@id": "ev2",
+            "name": "Demand for Batteries from Automotive Industry Sector",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Demand for Batteries from Automotive Industry Sector",
+            "wd_description": "The demand for batteries from the automotive industry sector is increasing.",
+            "description": "The demand for batteries from the automotive industry sector is increasing."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Demand from Automotive Industry Sector",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Demand from Automotive Industry Sector",
+            "wd_description": "The demand for batteries from the automotive industry sector is increasing.",
+            "description": "The demand for batteries from the automotive industry sector is increasing."
+        },
+        {
+            "@id": "ev3",
+            "name": "Lithium-Ion Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Pyrometallurgical",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.1.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.1.5",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pyrometallurgical",
+            "wd_description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys.",
+            "description": "Employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Hydrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hydrometallurgical",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bioleaching",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Raw material supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " material supply",
+            "wd_description": "Securing a stable supply of raw materials through recycling is essential to mitigate price and geopolitical risks.",
+            "description": "Securing a stable supply of raw materials through recycling is essential to mitigate price and geopolitical risks.",
+            "children_gate": "and",
+            "children": [
+                {
+                    "child": "paper32/Event/UIZaPniRc/Nickel",
+                    "importance": 1
+                },
+                {
+                    "child": "paper32/Event/2a2hZXZXQF/Cobalt",
+                    "importance": 1
+                },
+                {
+                    "child": "paper32/Event/2F3T8Yu9EF/Lithium",
+                    "importance": 1
+                }
+            ]
+        },
+        {
+            "@id": "paper32/Event/UIZaPniRc/Nickel",
+            "name": "Nickel",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper32",
+            "wd_label": "paper32",
+            "participants": []
+        },
+        {
+            "@id": "paper32/Event/2a2hZXZXQF/Cobalt",
+            "name": "Cobalt",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper32",
+            "wd_label": "paper32",
+            "participants": []
+        },
+        {
+            "@id": "paper32/Event/2F3T8Yu9EF/Lithium",
+            "name": "Lithium",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper32",
+            "wd_label": "paper32",
+            "participants": []
+        },
+        {
+            "@id": "ev1.3",
+            "name": "recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "recycling",
+            "wd_description": "Recycling of EV batteries, or \"urban mining,\" is becoming increasingly important for cost efficiency and raw material supply security, despite existing challenges.",
+            "description": "Recycling of EV batteries, or \"urban mining,\" is becoming increasingly important for cost efficiency and raw material supply security, despite existing challenges."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Cost efficiency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t efficiency",
+            "wd_description": "Cost efficiency in recycling is crucial for the economic viability of EV battery supply chains.",
+            "description": "Cost efficiency in recycling is crucial for the economic viability of EV battery supply chains."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Raw material supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " material supply",
+            "wd_description": "Securing a stable supply of raw materials through recycling is essential to mitigate price and geopolitical risks.",
+            "description": "Securing a stable supply of raw materials through recycling is essential to mitigate price and geopolitical risks.",
+            "children_gate": "and",
+            "children": [
+                {
+                    "child": "paper32/Event/UIZaPniRc/Nickel",
+                    "importance": 1
+                },
+                {
+                    "child": "paper32/Event/2a2hZXZXQF/Cobalt",
+                    "importance": 1
+                },
+                {
+                    "child": "paper32/Event/2F3T8Yu9EF/Lithium",
+                    "importance": 1
+                }
+            ]
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Recycling challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ycling challenges",
+            "wd_description": "Challenges in recycling include technological, economic, and regulatory hurdles that need to be addressed for effective implementation.",
+            "description": "Challenges in recycling include technological, economic, and regulatory hurdles that need to be addressed for effective implementation."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.5"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

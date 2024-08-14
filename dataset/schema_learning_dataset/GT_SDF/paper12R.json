@@ -1,0 +1,438 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper12R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Three-period EV battery closed-loop supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Three-period EV battery closed-loop supply chain",
+            "wd_description": "This event explores a three-period electric vehicle (EV) battery recycle and reuse closed-loop supply chain (CLSC) involving a battery manufacturer and a remanufacturer. It focuses on optimizing total profits through optimal pricing strategies and analyzing relationships between various parameters.",
+            "description": "This event explores a three-period electric vehicle (EV) battery recycle and reuse closed-loop supply chain (CLSC) involving a battery manufacturer and a remanufacturer. It focuses on optimizing total profits through optimal pricing strategies and analyzing relationships between various parameters."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Three-period model",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Three-period model",
+            "wd_description": "Proposing a three-period EV battery closed-loop supply chain model that describes the return, reuse, and recycle remanufacturing process.",
+            "description": "Proposing a three-period EV battery closed-loop supply chain model that describes the return, reuse, and recycle remanufacturing process."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Period 1",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "iod 1",
+            "wd_description": "In period 1, all batteries are made from raw materials and are used in EVs until their capacity falls to 70% ~ 80%.",
+            "description": "In period 1, all batteries are made from raw materials and are used in EVs until their capacity falls to 70% ~ 80%."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Period 2",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "iod 2",
+            "wd_description": "In period 2, used batteries are returned and sorted into high-quality and low-quality batteries, with some selected for reuse.",
+            "description": "In period 2, used batteries are returned and sorted into high-quality and low-quality batteries, with some selected for reuse."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "Period 3",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "iod 3",
+            "wd_description": "In period 3, after reusing, used batteries are recycled, completing the closed-loop supply chain.",
+            "description": "In period 3, after reusing, used batteries are recycled, completing the closed-loop supply chain."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Optimal pricing strategy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Optimal pricing strategy",
+            "wd_description": "Developing the optimal pricing strategy between the manufacturer and remanufacturer to optimize total profits across different periods.",
+            "description": "Developing the optimal pricing strategy between the manufacturer and remanufacturer to optimize total profits across different periods."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Nash equilibrium",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "h equilibrium",
+            "wd_description": "Deriving the Nash equilibrium between manufacturers and remanufacturers in period 2 and period 3.",
+            "description": "Deriving the Nash equilibrium between manufacturers and remanufacturers in period 2 and period 3."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Optimal quantities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "imal quantities",
+            "wd_description": "Determining the optimal (re)manufacturing quantities to maximize profits.",
+            "description": "Determining the optimal (re)manufacturing quantities to maximize profits."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Acquisition prices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "uisition prices",
+            "wd_description": "Setting the optimal acquisition prices for used batteries to balance supply and demand.",
+            "description": "Setting the optimal acquisition prices for used batteries to balance supply and demand."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Parameter relationships",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper12/Event/Mc5FrskUf/Influence-of-Purchase-Price-of-Returned-Batteries",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Parameter relationships",
+            "wd_description": "Analyzing the relationships between return yield, sorting rate, recycling rate, and other parameters to optimize total profit in different periods.",
+            "description": "Analyzing the relationships between return yield, sorting rate, recycling rate, and other parameters to optimize total profit in different periods."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Return yield",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "urn yield",
+            "wd_description": "Examining the impact of the return yield of used batteries on the closed-loop supply chain.",
+            "description": "Examining the impact of the return yield of used batteries on the closed-loop supply chain."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Sorting rate",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ting rate",
+            "wd_description": "Analyzing the sorting rate of used batteries and its linear relationship with optimal profit.",
+            "description": "Analyzing the sorting rate of used batteries and its linear relationship with optimal profit."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Recycling rate",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ycling rate",
+            "wd_description": "Investigating the recycling rate of used batteries and its effect on the supply chain’s profitability.",
+            "description": "Investigating the recycling rate of used batteries and its effect on the supply chain’s profitability."
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "Manufacturing costs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ufacturing costs",
+            "wd_description": "Evaluating the manufacturing costs and their influence on the total optimal profit in both periods 2 and 3.",
+            "description": "Evaluating the manufacturing costs and their influence on the total optimal profit in both periods 2 and 3."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Summary of findings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.5",
+                    "importance": 1
+                },
+                {
+                    "child": "paper12/Event/3jJ6kgsjoF/Profit-Comparison-Between-Manufacturer-and-Remanufacturer",
+                    "importance": 1
+                },
+                {
+                    "child": "paper12/Event/3FDUgpK7R8/Further-investigation-on-economic-and-environmental-benefits",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Summary of findings",
+            "wd_description": "Summarizing the key findings and their implications for EV battery manufacturers and remanufacturers.",
+            "description": "Summarizing the key findings and their implications for EV battery manufacturers and remanufacturers."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Linear relationship of sorting rate",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ear relationship of sorting rate",
+            "wd_description": "Finding that the sorting rate has a linear relationship with optimal profit, simplifying supply chain analysis.",
+            "description": "Finding that the sorting rate has a linear relationship with optimal profit, simplifying supply chain analysis."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Impact of return batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "act of return batteries",
+            "wd_description": "Discovering that more return batteries lead to less profit, explaining why recycling is not widely accepted by manufacturers.",
+            "description": "Discovering that more return batteries lead to less profit, explaining why recycling is not widely accepted by manufacturers."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "Reusable batteries profit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sable batteries profit",
+            "wd_description": "Concluding that more reusable batteries increase profit in period 2, encouraging careful battery use by customers.",
+            "description": "Concluding that more reusable batteries increase profit in period 2, encouraging careful battery use by customers."
+        },
+        {
+            "@id": "ev1.4.4",
+            "name": "Recycling rate efficiency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ycling rate efficiency",
+            "wd_description": "Finding that a higher recycling rate and lower recycling processing cost lead to higher profit, emphasizing the need for efficiency and technological innovation in recycling operations.",
+            "description": "Finding that a higher recycling rate and lower recycling processing cost lead to higher profit, emphasizing the need for efficiency and technological innovation in recycling operations."
+        },
+        {
+            "@id": "ev1.4.5",
+            "name": "Government incentives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ernment incentives",
+            "wd_description": "Suggesting that government incentives are necessary to increase the economic benefits of recycling and sustain the recycling business.",
+            "description": "Suggesting that government incentives are necessary to increase the economic benefits of recycling and sustain the recycling business."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Special characteristics of EV battery CLSC",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.5.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.5.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper12/Event/3ae0dgaUFk/Need-for-Government-Support",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Special characteristics of EV battery CLSC",
+            "wd_description": "Highlighting the unique characteristics of the EV battery closed-loop supply chain model and its implications for manufacturers and remanufacturers.",
+            "description": "Highlighting the unique characteristics of the EV battery closed-loop supply chain model and its implications for manufacturers and remanufacturers."
+        },
+        {
+            "@id": "ev1.5.1",
+            "name": "Unique characteristics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "que characteristics",
+            "wd_description": "Identifying the unique characteristics of the EV battery closed-loop supply chain, such as the ability to reuse batteries before recycling.",
+            "description": "Identifying the unique characteristics of the EV battery closed-loop supply chain, such as the ability to reuse batteries before recycling."
+        },
+        {
+            "@id": "ev1.5.2",
+            "name": "Implications for manufacturers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lications for manufacturers",
+            "wd_description": "Discussing the implications of the closed-loop supply chain model for EV battery manufacturers, including strategies for optimizing profit.",
+            "description": "Discussing the implications of the closed-loop supply chain model for EV battery manufacturers, including strategies for optimizing profit."
+        },
+        {
+            "@id": "ev1.5.3",
+            "name": "Implications for remanufacturers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lications for remanufacturers",
+            "wd_description": "Discussing the implications of the closed-loop supply chain model for EV battery remanufacturers, including strategies for maximizing reuse and recycling efficiency.",
+            "description": "Discussing the implications of the closed-loop supply chain model for EV battery remanufacturers, including strategies for maximizing reuse and recycling efficiency."
+        },
+        {
+            "@id": "paper12/Event/Mc5FrskUf/Influence-of-Purchase-Price-of-Returned-Batteries",
+            "name": "Influence of Purchase Price of Returned Batteries",
+            "ta1explanation": "",
+            "description": "Among the variables that affect the (re-)manufacturing decision, the purchase price for returned batteries plays a critical role. The price of low-quality returns has more influence than high-quality returns.",
+            "wd_node": "paper12",
+            "wd_label": "paper12",
+            "participants": []
+        },
+        {
+            "@id": "paper12/Event/3jJ6kgsjoF/Profit-Comparison-Between-Manufacturer-and-Remanufacturer",
+            "name": "Profit Comparison Between Manufacturer and Remanufacturer",
+            "ta1explanation": "",
+            "description": "The manufacturer's profit is normally higher than the remanufacturer's, suggesting the need to design incentives to promote the remanufacturing sector.",
+            "wd_node": "paper12",
+            "wd_label": "paper12",
+            "participants": []
+        },
+        {
+            "@id": "paper12/Event/3ae0dgaUFk/Need-for-Government-Support",
+            "name": "Need for Government Support",
+            "ta1explanation": "",
+            "description": "To sustain the recycling business, government support is vitally important.",
+            "wd_node": "paper12",
+            "wd_label": "paper12",
+            "participants": []
+        },
+        {
+            "@id": "paper12/Event/3FDUgpK7R8/Further-investigation-on-economic-and-environmental-benefits",
+            "name": "Further investigation on economic and environmental benefits",
+            "ta1explanation": "",
+            "description": "Although maximizing the utilization of batteries over their life-cycle would benefit the environment, the economic benefit needs further investigation.",
+            "wd_node": "paper12",
+            "wd_label": "paper12",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.4",
+            "relationObject": "ev1.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.2",
+            "relationObject": "ev1.5.3"
+        }
+    ],
+    "entities": []
+}

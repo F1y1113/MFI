@@ -1,0 +1,156 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper42_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-ion battery recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.333
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.333
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.333
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-ion battery recycling",
+            "wd_description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "xxxxx",
+                    "importance": 0.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "pyrometallurgy",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "xxxxx",
+                    "importance": 0.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "hydrometallurgy",
+            "wd_description": "Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes.",
+            "description": "Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "children": [
+                {
+                    "child": "xxxxx",
+                    "importance": 0.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "energy options",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper42/Event/1IVnZHHfrk/Refining-Locations-and-Their-Impact-on-GWP"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "energy options",
+            "wd_description": "The energy options used in refining, such as wind or solar, influence the life cycle impacts, with wind generation showing lower impacts than solar.",
+            "description": "The energy options used in refining, such as wind or solar, influence the life cycle impacts, with wind generation showing lower impacts than solar."
+        },
+        {
+            "@id": "paper42/Event/1IVnZHHfrk/Refining-Locations-and-Their-Impact-on-GWP",
+            "name": "Refining Locations and Their Impact on GWP",
+            "ta1explanation": "",
+            "description": "Refining locations (inside or outside China) and their effect on global warming potential (GWP).",
+            "wd_node": "paper42",
+            "wd_label": "paper42",
+            "participants": []
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "refinery locations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper42/Event/1IVnZHHfrk/Refining-Locations-and-Their-Impact-on-GWP"
+                },
+                {
+                    "child": "paper42/Event/1cYMAHsswF/Energy-Options-for-Refining"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "refinery locations",
+            "wd_description": "The location of refineries can affect the environmental impacts, with refining outside of China showing a reduction in global warming potential.",
+            "description": "The location of refineries can affect the environmental impacts, with refining outside of China showing a reduction in global warming potential."
+        },
+        {
+            "@id": "paper42/Event/1cYMAHsswF/Energy-Options-for-Refining",
+            "name": "Energy Options for Refining",
+            "ta1explanation": "",
+            "description": "The use of wind and solar energy options in refining processes and their environmental impacts.",
+            "wd_node": "paper42",
+            "wd_label": "paper42",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

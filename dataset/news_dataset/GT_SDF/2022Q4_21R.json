@@ -1,0 +1,233 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_21R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Ukraine Faces Russian Attacks as NATO and Poland Investigate Missile Crash",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine Faces Russian Attacks as NATO and Poland Investigate Missile Crash",
+            "wd_description": "Ukraine faced renewed Russian attacks in the east as NATO and Poland concluded that a missile crash in Poland, which killed two people, was likely caused by a stray Ukrainian air defense missile.",
+            "description": "Ukraine faced renewed Russian attacks in the east as NATO and Poland concluded that a missile crash in Poland, which killed two people, was likely caused by a stray Ukrainian air defense missile."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Russian Attacks in Eastern Ukraine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian Attacks in Eastern Ukraine",
+            "wd_description": "Ukraine confirmed fierce attacks in the east by Russian forces, which were reinforced with troops withdrawn from Kherson, following intense strikes on civilian infrastructure.",
+            "description": "Ukraine confirmed fierce attacks in the east by Russian forces, which were reinforced with troops withdrawn from Kherson, following intense strikes on civilian infrastructure."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Missile Crash in Poland",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile Crash in Poland",
+            "wd_description": "A missile crash at a grain facility in Poland, near the Ukrainian border, killed two people, marking the first deadly extension of the war into NATO territory.",
+            "description": "A missile crash at a grain facility in Poland, near the Ukrainian border, killed two people, marking the first deadly extension of the war into NATO territory."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "NATO and Poland's Conclusion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NATO and Poland's Conclusion",
+            "wd_description": "NATO and Poland concluded that the missile was likely a stray S-300 rocket fired by Ukraine's air defenses, with no evidence suggesting it was launched by Russia.",
+            "description": "NATO and Poland concluded that the missile was likely a stray S-300 rocket fired by Ukraine's air defenses, with no evidence suggesting it was launched by Russia."
+        },
+        {
+            "@id": "ev2",
+            "name": "Ukrainian President Zelensky's Visit to the United States",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukrainian President Zelensky's Visit to the United States",
+            "wd_description": "Ukrainian President Volodymyr Zelensky visited the United States, urging Congress to see aid to Ukraine as an investment in democracy and securing additional military support, including a Patriot air defense system.",
+            "description": "Ukrainian President Volodymyr Zelensky visited the United States, urging Congress to see aid to Ukraine as an investment in democracy and securing additional military support, including a Patriot air defense system."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Zelensky's Address to Congress",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Zelensky's Address to Congress",
+            "wd_description": "During his visit to the United States, President Zelensky addressed Congress, emphasizing that aid to Ukraine is not charity but an investment in democracy and seeking continued support.",
+            "description": "During his visit to the United States, President Zelensky addressed Congress, emphasizing that aid to Ukraine is not charity but an investment in democracy and seeking continued support."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "New US Military Aid Package",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "New US Military Aid Package",
+            "wd_description": "The United States announced an additional $1.85 billion in military aid to Ukraine, including a Patriot air defense system to bolster Ukraine's defense against Russian missiles.",
+            "description": "The United States announced an additional $1.85 billion in military aid to Ukraine, including a Patriot air defense system to bolster Ukraine's defense against Russian missiles."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Concerns from US Republicans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Concerns from US Republicans",
+            "wd_description": "With Republicans set to take control of the House of Representatives, concerns have been raised about the cost of continued US assistance to Ukraine, which has totaled about $50 billion.",
+            "description": "With Republicans set to take control of the House of Representatives, concerns have been raised about the cost of continued US assistance to Ukraine, which has totaled about $50 billion."
+        },
+        {
+            "@id": "ev3",
+            "name": "North Korean Missile Launch Over Japan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korean Missile Launch Over Japan",
+            "wd_description": "North Korea fired at least one ballistic missile over Japan, marking a potential escalation and the 23rd missile launch by North Korea this year.",
+            "description": "North Korea fired at least one ballistic missile over Japan, marking a potential escalation and the 23rd missile launch by North Korea this year."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Missile Launch",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile Launch",
+            "wd_description": "North Korea launched a ballistic missile over Japan, with the missile reportedly passing over the northern Japanese island of Hokkaido.",
+            "description": "North Korea launched a ballistic missile over Japan, with the missile reportedly passing over the northern Japanese island of Hokkaido."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Japanese Government Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Japanese Government Response",
+            "wd_description": "The Japanese government issued a warning to civilians to avoid suspicious objects and to report them to authorities, following the missile's trajectory over Japan.",
+            "description": "The Japanese government issued a warning to civilians to avoid suspicious objects and to report them to authorities, following the missile's trajectory over Japan."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Regional Reactions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regional Reactions",
+            "wd_description": "The missile launch, confirmed by South Korea's Joint Chiefs of Staff, marked a rare event of a missile being fired over Japan, raising regional tensions.",
+            "description": "The missile launch, confirmed by South Korea's Joint Chiefs of Staff, marked a rare event of a missile being fired over Japan, raising regional tensions."
+        },
+        {
+            "@id": "ev4",
+            "name": "Panasonic's Efforts in EV Battery Production and Sustainability",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Panasonic's Efforts in EV Battery Production and Sustainability",
+            "wd_description": "Panasonic is investing in EV battery manufacturing facilities and partnering with Redwood Materials to create a local, circular supply chain to support sustainability and reduce costs and CO2 emissions.",
+            "description": "Panasonic is investing in EV battery manufacturing facilities and partnering with Redwood Materials to create a local, circular supply chain to support sustainability and reduce costs and CO2 emissions."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Investment in Kansas Facility",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investment in Kansas Facility",
+            "wd_description": "Panasonic announced a $4 billion investment in a potential EV battery manufacturing facility in Kansas to expand its production capacity.",
+            "description": "Panasonic announced a $4 billion investment in a potential EV battery manufacturing facility in Kansas to expand its production capacity."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Partnership with Redwood Materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Partnership with Redwood Materials",
+            "wd_description": "Panasonic is partnering with Redwood Materials to establish a closed-loop battery recycling and remanufacturing process, starting with recycling production scrap and progressing to full EV packs.",
+            "description": "Panasonic is partnering with Redwood Materials to establish a closed-loop battery recycling and remanufacturing process, starting with recycling production scrap and progressing to full EV packs."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Panasonic GREEN IMPACT Initiative",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Panasonic GREEN IMPACT Initiative",
+            "wd_description": "The initiative aims to reduce CO2 emissions across manufacturing, operations, and end-consumers, aligning with Panasonic's 2050 environmental vision.",
+            "description": "The initiative aims to reduce CO2 emissions across manufacturing, operations, and end-consumers, aligning with Panasonic's 2050 environmental vision."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Call2Recycle Program",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Call2Recycle Program",
+            "wd_description": "Established in 1994, the program collects lithium-ion batteries from North American consumers and has recycled over 115 million pounds of batteries.",
+            "description": "Established in 1994, the program collects lithium-ion batteries from North American consumers and has recycled over 115 million pounds of batteries."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

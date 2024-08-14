@@ -1,0 +1,324 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_45R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "China signs legal order for activities in disputed waters",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China signs legal order for activities in disputed waters",
+            "wd_description": "President Xi of China signed a legal order allowing activities in disputed territorial waters, termed as \"military activities other than war\" by State Media.",
+            "description": "President Xi of China signed a legal order allowing activities in disputed territorial waters, termed as \"military activities other than war\" by State Media."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "China's claim to Taiwan Strait",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's claim to Taiwan Strait",
+            "wd_description": "Chinese officials claimed sovereignty over the Taiwan Strait, accusing countries that see it as international waters of making false claims and threatening China's sovereignty.",
+            "description": "Chinese officials claimed sovereignty over the Taiwan Strait, accusing countries that see it as international waters of making false claims and threatening China's sovereignty."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "International navigation in Taiwan Strait",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International navigation in Taiwan Strait",
+            "wd_description": "Foreign nations have conducted freedom of navigation exercises in the Strait, sailing warships through the area and infuriating Beijing.",
+            "description": "Foreign nations have conducted freedom of navigation exercises in the Strait, sailing warships through the area and infuriating Beijing."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "US response to China's claim",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US response to China's claim",
+            "wd_description": "US State Department spokesperson Ned Price stated that the Strait is an international waterway with freedoms guaranteed by international law, and the US will continue to sail in accordance with international law.",
+            "description": "US State Department spokesperson Ned Price stated that the Strait is an international waterway with freedoms guaranteed by international law, and the US will continue to sail in accordance with international law."
+        },
+        {
+            "@id": "ev2",
+            "name": "UK inflation rate increases to 9.1%",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UK inflation rate increases to 9.1%",
+            "wd_description": "The pace of price growth in the UK increased to 9.1% in May from 9% in April, driven primarily by the cost of fuel and energy, according to the Office for National Statistics (ONS).",
+            "description": "The pace of price growth in the UK increased to 9.1% in May from 9% in April, driven primarily by the cost of fuel and energy, according to the Office for National Statistics (ONS)."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Causes of inflation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Causes of inflation",
+            "wd_description": "The main causes of inflation are the rising costs of fuel and energy.",
+            "description": "The main causes of inflation are the rising costs of fuel and energy."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Workers and unions' response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Workers and unions' response",
+            "wd_description": "Workers and unions are fighting for pay increases to cope with rising prices.",
+            "description": "Workers and unions are fighting for pay increases to cope with rising prices."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Government caution",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government caution",
+            "wd_description": "The government cautions against significant pay raises by employers to avoid an \"inflationary spiral\" similar to the 1970s.",
+            "description": "The government cautions against significant pay raises by employers to avoid an \"inflationary spiral\" similar to the 1970s."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Bank of England's warning",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bank of England's warning",
+            "wd_description": "The Bank of England warned that inflation might hit 11 percent this year, the highest level since March 1982.",
+            "description": "The Bank of England warned that inflation might hit 11 percent this year, the highest level since March 1982."
+        },
+        {
+            "@id": "ev2.5",
+            "name": "Experts' recommendation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Experts' recommendation",
+            "wd_description": "Experts suggest raising interest rates as a way to slow the rate of price growth by encouraging people to borrow less, spend less, and save more.",
+            "description": "Experts suggest raising interest rates as a way to slow the rate of price growth by encouraging people to borrow less, spend less, and save more."
+        },
+        {
+            "@id": "ev3",
+            "name": "US commitment to Taiwan's defense",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US commitment to Taiwan's defense",
+            "wd_description": "During his tour of Asia, President Biden stated that the US is prepared to defend Taiwan if China attacks, attracting remarks from the Chinese leadership.",
+            "description": "During his tour of Asia, President Biden stated that the US is prepared to defend Taiwan if China attacks, attracting remarks from the Chinese leadership."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Biden's statement on Taiwan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's statement on Taiwan",
+            "wd_description": "President Biden compared Taiwan's situation to the tensions between Russia and Ukraine and affirmed the US's commitment to defending Taiwan.",
+            "description": "President Biden compared Taiwan's situation to the tensions between Russia and Ukraine and affirmed the US's commitment to defending Taiwan."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Chinese response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese response",
+            "wd_description": "The Chinese Foreign Minister reiterated that Taiwan is inseparable from China and urged the US to abide by the One-China Principle, stating that the situation in Ukraine is not comparable to Taiwan.",
+            "description": "The Chinese Foreign Minister reiterated that Taiwan is inseparable from China and urged the US to abide by the One-China Principle, stating that the situation in Ukraine is not comparable to Taiwan."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "US-Taiwan relations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US-Taiwan relations",
+            "wd_description": "While the US acknowledges the One-China Principle, the Taiwan Relations Act mandates that the US must provide Taiwan with the means to defend itself.",
+            "description": "While the US acknowledges the One-China Principle, the Taiwan Relations Act mandates that the US must provide Taiwan with the means to defend itself."
+        },
+        {
+            "@id": "ev4",
+            "name": "Automakers investing in battery production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Automakers investing in battery production",
+            "wd_description": "Automakers are committing billions of dollars to increase battery production, with new plants being built by Ford, General Motors, Hyundai, Stellantis, and Samsung.",
+            "description": "Automakers are committing billions of dollars to increase battery production, with new plants being built by Ford, General Motors, Hyundai, Stellantis, and Samsung."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Ford and General Motors",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ford and General Motors",
+            "wd_description": "Ford is building a plant in Kentucky, and General Motors is working with LG to develop a battery factory in Michigan.",
+            "description": "Ford is building a plant in Kentucky, and General Motors is working with LG to develop a battery factory in Michigan."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Hyundai's investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hyundai's investment",
+            "wd_description": "Hyundai announced a $5.5 billion investment in a battery and electric vehicle plant in Georgia.",
+            "description": "Hyundai announced a $5.5 billion investment in a battery and electric vehicle plant in Georgia."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Stellantis and Samsung's plan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stellantis and Samsung's plan",
+            "wd_description": "Stellantis and Samsung unveiled a plan to build a $2.5 billion facility in Indiana.",
+            "description": "Stellantis and Samsung unveiled a plan to build a $2.5 billion facility in Indiana."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Current reliance on China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Current reliance on China",
+            "wd_description": "A majority of battery cells are currently made in China, with international supply chain disruptions caused by COVID lockdowns and the war in Ukraine.",
+            "description": "A majority of battery cells are currently made in China, with international supply chain disruptions caused by COVID lockdowns and the war in Ukraine."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Increasing control over supply chains",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Increasing control over supply chains",
+            "wd_description": "Car companies want more control over their parts supply as EV demand grows, with the federal government also investing in supply chains.",
+            "description": "Car companies want more control over their parts supply as EV demand grows, with the federal government also investing in supply chains."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Federal investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Federal investment",
+            "wd_description": "President Joe Biden is investing over $3 billion in the battery supply chain, with companies positioning to secure federal grants.",
+            "description": "President Joe Biden is investing over $3 billion in the battery supply chain, with companies positioning to secure federal grants."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Transition to EVs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Transition to EVs",
+            "wd_description": "Automakers need significant upfront investment in new machinery and factories to transition from gasoline-powered vehicles to EVs.",
+            "description": "Automakers need significant upfront investment in new machinery and factories to transition from gasoline-powered vehicles to EVs."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Challenges in building supply chains",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Challenges in building supply chains",
+            "wd_description": "Building factories is easier than securing access to raw materials like lithium, nickel, and cobalt, which are crucial for building the supply chain.",
+            "description": "Building factories is easier than securing access to raw materials like lithium, nickel, and cobalt, which are crucial for building the supply chain."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "Timeframe for building mines",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Timeframe for building mines",
+            "wd_description": "While it might take three to four years to build a factory, getting permits to build new lithium or nickel mines in the U.S. could take closer to 10 years.",
+            "description": "While it might take three to four years to build a factory, getting permits to build new lithium or nickel mines in the U.S. could take closer to 10 years."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

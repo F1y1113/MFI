@@ -1,0 +1,320 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q2_6R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Russian air strikes on Ukrainian cities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russian air strikes on Ukrainian cities",
+            "wd_description": "At least 25 people were confirmed dead after Russia launched a series of air strikes on cities across Ukraine, including Kyiv.",
+            "description": "At least 25 people were confirmed dead after Russia launched a series of air strikes on cities across Ukraine, including Kyiv."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Casualties in Uman",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Casualties in Uman",
+            "wd_description": "The attack on blocks of flats in Uman killed 23 people, including four children.",
+            "description": "The attack on blocks of flats in Uman killed 23 people, including four children."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Casualties in Dnipro",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Casualties in Dnipro",
+            "wd_description": "Another woman and her 3-year-old daughter were killed in the city of Dnipro.",
+            "description": "Another woman and her 3-year-old daughter were killed in the city of Dnipro."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Rescue efforts and aftermath",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rescue efforts and aftermath",
+            "wd_description": "Rescuers and residents were seen working at the sites of the explosions, retrieving belongings, and fixing broken windows several hours after the attack.",
+            "description": "Rescuers and residents were seen working at the sites of the explosions, retrieving belongings, and fixing broken windows several hours after the attack."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Russian defense ministry statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian defense ministry statement",
+            "wd_description": "The Russian defense ministry claimed the strikes targeted Ukrainian army reserve units.",
+            "description": "The Russian defense ministry claimed the strikes targeted Ukrainian army reserve units."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Zelensky's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Zelensky's response",
+            "wd_description": "Ukrainian President Volodymyr Zelensky stated that the attack is evidence that further international actions are needed against Russia.",
+            "description": "Ukrainian President Volodymyr Zelensky stated that the attack is evidence that further international actions are needed against Russia."
+        },
+        {
+            "@id": "ev2",
+            "name": "Zelensky to attend G7 summit in Japan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Zelensky to attend G7 summit in Japan",
+            "wd_description": "Ukrainian President Volodymyr Zelensky will travel to Japan for the G7 summit, marking his first trip to Asia since the invasion of Ukraine. This move demonstrates confidence and Western solidarity.",
+            "description": "Ukrainian President Volodymyr Zelensky will travel to Japan for the G7 summit, marking his first trip to Asia since the invasion of Ukraine. This move demonstrates confidence and Western solidarity."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Importance of the trip",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Importance of the trip",
+            "wd_description": "The trip is seen as crucial for maintaining important alliances with other nations and defending Ukraine's interests.",
+            "description": "The trip is seen as crucial for maintaining important alliances with other nations and defending Ukraine's interests."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "G7 summit agenda",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "G7 summit agenda",
+            "wd_description": "The war in Ukraine is at the top of the agenda for the three-day G7 summit, where leaders from the world's wealthiest democracies are expected to support Ukraine.",
+            "description": "The war in Ukraine is at the top of the agenda for the three-day G7 summit, where leaders from the world's wealthiest democracies are expected to support Ukraine."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Statement by Oleksii Danilov",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Statement by Oleksii Danilov",
+            "wd_description": "Oleksii Danilov, Secretary of the National Security and Defense Council of Ukraine, emphasized the importance of Zelensky's physical presence at the summit to defend Ukraine's interests and provide clear proposals and arguments.",
+            "description": "Oleksii Danilov, Secretary of the National Security and Defense Council of Ukraine, emphasized the importance of Zelensky's physical presence at the summit to defend Ukraine's interests and provide clear proposals and arguments."
+        },
+        {
+            "@id": "ev3",
+            "name": "South Africa issues blanket diplomatic immunity for August summit",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South Africa issues blanket diplomatic immunity for August summit",
+            "wd_description": "South Africa issued blanket diplomatic immunity to all leaders attending an August summit, potentially allowing Russian President Vladimir Putin to visit without fear of arrest on an ICC warrant.",
+            "description": "South Africa issued blanket diplomatic immunity to all leaders attending an August summit, potentially allowing Russian President Vladimir Putin to visit without fear of arrest on an ICC warrant."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "BRICS summit details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BRICS summit details",
+            "wd_description": "South Africa will host a summit of BRICS groups (Brazil, China, India, Russia, and South Africa) in August, with a planning meeting of foreign ministers expected to take place on Thursday.",
+            "description": "South Africa will host a summit of BRICS groups (Brazil, China, India, Russia, and South Africa) in August, with a planning meeting of foreign ministers expected to take place on Thursday."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Department of Foreign Affairs' statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Department of Foreign Affairs' statement",
+            "wd_description": "The Department of Foreign Affairs backed the immunity, stating it is a standard conferment for all international conferences and summits held in South Africa and is not for specific individuals.",
+            "description": "The Department of Foreign Affairs backed the immunity, stating it is a standard conferment for all international conferences and summits held in South Africa and is not for specific individuals."
+        },
+        {
+            "@id": "ev4",
+            "name": "Biden Administration's EV Plan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Biden Administration's EV Plan",
+            "wd_description": "The Biden administration aims to electrify up to two-thirds of the nation's new cars within a decade, relying on securing critical minerals for EV batteries.",
+            "description": "The Biden administration aims to electrify up to two-thirds of the nation's new cars within a decade, relying on securing critical minerals for EV batteries."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "EPA Proposed Tailpipe Rules",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EPA Proposed Tailpipe Rules",
+            "wd_description": "The EPA's proposed rules aim to limit emissions from cars, SUVs, and trucks on U.S. roads by 2032, assuming lithium prices will stabilize by the mid-2020s.",
+            "description": "The EPA's proposed rules aim to limit emissions from cars, SUVs, and trucks on U.S. roads by 2032, assuming lithium prices will stabilize by the mid-2020s."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Price Forecasts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Price Forecasts",
+            "wd_description": "The EPA expects lithium prices to stabilize at historic levels, based on proprietary forecasts, analysis, and news stories.",
+            "description": "The EPA expects lithium prices to stabilize at historic levels, based on proprietary forecasts, analysis, and news stories."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Emission Limits",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Emission Limits",
+            "wd_description": "The proposed rules aim to significantly limit emissions from vehicles, encouraging a shift to electric vehicles.",
+            "description": "The proposed rules aim to significantly limit emissions from vehicles, encouraging a shift to electric vehicles."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Critical Mineral Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Critical Mineral Supply Chain",
+            "wd_description": "The U.S. aims to shift the supply chain for critical minerals like lithium, cobalt, and nickel to domestic and allied sources.",
+            "description": "The U.S. aims to shift the supply chain for critical minerals like lithium, cobalt, and nickel to domestic and allied sources."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Volatility in Mineral Markets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Volatility in Mineral Markets",
+            "wd_description": "The market for critical minerals is volatile, with uncertain pricing and supply availability.",
+            "description": "The market for critical minerals is volatile, with uncertain pricing and supply availability."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Supply Chain Uncertainty",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Supply Chain Uncertainty",
+            "wd_description": "Uncertainty around the pace of permitting new mines and establishing supply chains for refining and processing minerals.",
+            "description": "Uncertainty around the pace of permitting new mines and establishing supply chains for refining and processing minerals."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Inflation Reduction Act Incentives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Inflation Reduction Act Incentives",
+            "wd_description": "The Inflation Reduction Act includes incentives to support domestic production of EV batteries and critical minerals.",
+            "description": "The Inflation Reduction Act includes incentives to support domestic production of EV batteries and critical minerals."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Tax Credits",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Tax Credits",
+            "wd_description": "EVs can receive tax credits if a significant portion of battery minerals and components are sourced domestically or from U.S. trade allies.",
+            "description": "EVs can receive tax credits if a significant portion of battery minerals and components are sourced domestically or from U.S. trade allies."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Domestic Production Goals",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Domestic Production Goals",
+            "wd_description": "The Act aims to encourage the establishment of battery manufacturing facilities and mining projects in the U.S.",
+            "description": "The Act aims to encourage the establishment of battery manufacturing facilities and mining projects in the U.S."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

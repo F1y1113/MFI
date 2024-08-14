@@ -1,0 +1,143 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper79_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Life Cycle Inventories Creation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Life Cycle Inventories Creation",
+            "wd_description": "The life cycle inventories are created for three battery types and their respective supply chains.",
+            "description": "The life cycle inventories are created for three battery types and their respective supply chains."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "BatPac 5.0 model",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BatPac 5.0 model",
+            "wd_description": "Uses a specific method for creating life cycle inventories.",
+            "description": "Uses a specific method for creating life cycle inventories."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "GREET 2021 model",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "GREET 2021 model",
+            "wd_description": "Uses another method for creating life cycle inventories.",
+            "description": "Uses another method for creating life cycle inventories."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Engels et al.",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Engels et al.",
+            "wd_description": "Uses a third method for creating life cycle inventories.",
+            "description": "Uses a third method for creating life cycle inventories."
+        },
+        {
+            "@id": "ev5",
+            "name": "Influence of location on sustainability dimensions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev5.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Influence of location on sustainability dimensions",
+            "wd_description": "The investigated scenarios show that location can significantly influence the results of all three sustainability dimensions, varying depending on the locations and processes considered.",
+            "description": "The investigated scenarios show that location can significantly influence the results of all three sustainability dimensions, varying depending on the locations and processes considered."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Environmental impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental impact",
+            "wd_description": "The environmental impact of battery production varies significantly based on the location of the production facilities.",
+            "description": "The environmental impact of battery production varies significantly based on the location of the production facilities."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Social impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Social impact",
+            "wd_description": "The social impact of battery production also varies depending on the location, with different countries having different social implications.",
+            "description": "The social impact of battery production also varies depending on the location, with different countries having different social implications."
+        },
+        {
+            "@id": "ev5.3",
+            "name": "Economic impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Economic impact",
+            "wd_description": "The economic impact of battery production is influenced by the location, affecting costs and investment returns.",
+            "description": "The economic impact of battery production is influenced by the location, affecting costs and investment returns."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

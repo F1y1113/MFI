@@ -1,0 +1,335 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q3_30R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Military Coup in Gabon",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Military Coup in Gabon",
+            "wd_description": "Military officers in Gabon have announced the takeover from President Ali Bongo, ending the family's half-century rule over the country. The announcement has led to celebrations and reports of gunfire on the capital's streets.",
+            "description": "Military officers in Gabon have announced the takeover from President Ali Bongo, ending the family's half-century rule over the country. The announcement has led to celebrations and reports of gunfire on the capital's streets."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Announcement on National Television",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Announcement on National Television",
+            "wd_description": "Men in uniform announced the military takeover on national television, stating that they have placed President Ali Bongo under house arrest.",
+            "description": "Men in uniform announced the military takeover on national television, stating that they have placed President Ali Bongo under house arrest."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "House Arrest of President Ali Bongo",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "House Arrest of President Ali Bongo",
+            "wd_description": "President Ali Bongo has been placed under house arrest by the military officers who staged the coup.",
+            "description": "President Ali Bongo has been placed under house arrest by the military officers who staged the coup."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Designation of Transition President",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Designation of Transition President",
+            "wd_description": "General Brice Oligui Nguema has been designated as the president of the transition by the Committee for the Transition and Restoration of Institutions (CTRI).",
+            "description": "General Brice Oligui Nguema has been designated as the president of the transition by the Committee for the Transition and Restoration of Institutions (CTRI)."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Investigations and Arrests",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investigations and Arrests",
+            "wd_description": "Investigations will be launched against President Bongo’s son, who was arrested alongside six other individuals for high treason.",
+            "description": "Investigations will be launched against President Bongo’s son, who was arrested alongside six other individuals for high treason."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Shutdown of Institutions and Borders",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shutdown of Institutions and Borders",
+            "wd_description": "The junta confirmed that the election result would be voided, all borders would be shut, and all institutions in the country would be shut down.",
+            "description": "The junta confirmed that the election result would be voided, all borders would be shut, and all institutions in the country would be shut down."
+        },
+        {
+            "@id": "ev2",
+            "name": "Dismissal of Ukrainian Ambassador to London",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Dismissal of Ukrainian Ambassador to London",
+            "wd_description": "Ukrainian President Volodymyr Zelenskiy has dismissed Vadym Prystaiko, Ukraine's ambassador to London, following tensions related to comments about Western military aid.",
+            "description": "Ukrainian President Volodymyr Zelenskiy has dismissed Vadym Prystaiko, Ukraine's ambassador to London, following tensions related to comments about Western military aid."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Dismissal Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Dismissal Announcement",
+            "wd_description": "President Zelenskiy announced the dismissal of Vadym Prystaiko without providing an official reason, and he was also removed as Ukraine’s representative to the International Maritime Organization.",
+            "description": "President Zelenskiy announced the dismissal of Vadym Prystaiko without providing an official reason, and he was also removed as Ukraine’s representative to the International Maritime Organization."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Tensions Between Prystaiko and Zelenskiy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tensions Between Prystaiko and Zelenskiy",
+            "wd_description": "Tensions arose when Prystaiko questioned some of President Zelenskiy’s behavior in a Sky News interview, leading to his dismissal.",
+            "description": "Tensions arose when Prystaiko questioned some of President Zelenskiy’s behavior in a Sky News interview, leading to his dismissal."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Context of Western Military Aid",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Context of Western Military Aid",
+            "wd_description": "Prystaiko’s dismissal came shortly after President Zelenskiy was asked to show more gratitude for the military help provided by the West, amidst ongoing criticism that enough is not being said about Ukrainian troops dying on the battlefield.",
+            "description": "Prystaiko’s dismissal came shortly after President Zelenskiy was asked to show more gratitude for the military help provided by the West, amidst ongoing criticism that enough is not being said about Ukrainian troops dying on the battlefield."
+        },
+        {
+            "@id": "ev3",
+            "name": "Arrest of Alleged Russian Informant in Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Arrest of Alleged Russian Informant in Ukraine",
+            "wd_description": "The Ukrainian Security Service (SBU) confirmed the arrest of an alleged Russian informant connected to a plot to assassinate President Volodymyr Zelensky.",
+            "description": "The Ukrainian Security Service (SBU) confirmed the arrest of an alleged Russian informant connected to a plot to assassinate President Volodymyr Zelensky."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Details of the Suspect",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Details of the Suspect",
+            "wd_description": "The suspect, a woman from the Mykolaiv region, was gathering information concerning President Zelensky’s planned visit to Mykolaiv. Her name has not been revealed.",
+            "description": "The suspect, a woman from the Mykolaiv region, was gathering information concerning President Zelensky’s planned visit to Mykolaiv. Her name has not been revealed."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Plot Details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Plot Details",
+            "wd_description": "The suspect was allegedly gathering information to plan a Russian strike to assassinate President Zelensky during his visit to Mykolaiv at the end of July.",
+            "description": "The suspect was allegedly gathering information to plan a Russian strike to assassinate President Zelensky during his visit to Mykolaiv at the end of July."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Foiling the Plot",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Foiling the Plot",
+            "wd_description": "The SBU managed to get information about the suspect's activities and adopted security measures to foil the assassination plot. The suspect was caught while attempting to pass information to the invaders.",
+            "description": "The SBU managed to get information about the suspect's activities and adopted security measures to foil the assassination plot. The suspect was caught while attempting to pass information to the invaders."
+        },
+        {
+            "@id": "ev4",
+            "name": "Panasonic's EV Battery Expansion Plans",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Panasonic's EV Battery Expansion Plans",
+            "wd_description": "Panasonic aims to significantly boost its annual capacity of batteries for electric vehicles (EVs) to 200 gigawatt hours (GWh) by 2031, which will require building four additional factories.",
+            "description": "Panasonic aims to significantly boost its annual capacity of batteries for electric vehicles (EVs) to 200 gigawatt hours (GWh) by 2031, which will require building four additional factories."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Current Capacity and Expansion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Current Capacity and Expansion",
+            "wd_description": "Panasonic Energy currently has a plant in Nevada and is building a second plant in Kansas, aiming to increase its capacity to 80 GWh.",
+            "description": "Panasonic Energy currently has a plant in Nevada and is building a second plant in Kansas, aiming to increase its capacity to 80 GWh."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Future Factories",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Future Factories",
+            "wd_description": "Panasonic will need to build around four more factories to reach its target of 200 GWh annual capacity by 2031.",
+            "description": "Panasonic will need to build around four more factories to reach its target of 200 GWh annual capacity by 2031."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Joint Ventures and Partnerships",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Joint Ventures and Partnerships",
+            "wd_description": "Panasonic is open to potential joint ventures for EV battery production, including a possible partnership with Mazda, and emphasizes the changing nature of investment in such projects.",
+            "description": "Panasonic is open to potential joint ventures for EV battery production, including a possible partnership with Mazda, and emphasizes the changing nature of investment in such projects."
+        },
+        {
+            "@id": "ev5",
+            "name": "Focus on North American Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Focus on North American Production",
+            "wd_description": "Panasonic is focusing on North America to build up capacity for the production of 4680 batteries, the newest cells championed by Tesla.",
+            "description": "Panasonic is focusing on North America to build up capacity for the production of 4680 batteries, the newest cells championed by Tesla."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "New Factories in North America",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "New Factories in North America",
+            "wd_description": "Panasonic plans to build at least two new factories for 4680 battery production in North America by 2030, with Oklahoma as a possible site.",
+            "description": "Panasonic plans to build at least two new factories for 4680 battery production in North America by 2030, with Oklahoma as a possible site."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Supply Chain Considerations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Chain Considerations",
+            "wd_description": "The new plants will need to be supported by about a dozen factories of materials suppliers, following the principle of \"local production for local consumption.\"",
+            "description": "The new plants will need to be supported by about a dozen factories of materials suppliers, following the principle of \"local production for local consumption.\""
+        },
+        {
+            "@id": "ev5.3",
+            "name": "Joint Procurement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Joint Procurement",
+            "wd_description": "Joint procurement with major customers could be considered, taking into account tax breaks under the U.S. Inflation Reduction Act (IRA) and the need to limit the carbon footprint.",
+            "description": "Joint procurement with major customers could be considered, taking into account tax breaks under the U.S. Inflation Reduction Act (IRA) and the need to limit the carbon footprint."
+        },
+        {
+            "@id": "ev6",
+            "name": "Partnership with Mazda",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Partnership with Mazda",
+            "wd_description": "Panasonic and Mazda are working on setting up a partnership to supply Mazda with cylindrical lithium-ion batteries made in Japan and North America.",
+            "description": "Panasonic and Mazda are working on setting up a partnership to supply Mazda with cylindrical lithium-ion batteries made in Japan and North America."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Partnership Talks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Partnership Talks",
+            "wd_description": "Panasonic and Mazda are holding talks to set up a supply partnership, with an agreement expected to be signed by the end of the year.",
+            "description": "Panasonic and Mazda are holding talks to set up a supply partnership, with an agreement expected to be signed by the end of the year."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Future Supply Plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Future Supply Plans",
+            "wd_description": "The partnership aims to supply batteries to Mazda after 2025, supporting the automaker’s EV production.",
+            "description": "The partnership aims to supply batteries to Mazda after 2025, supporting the automaker’s EV production."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

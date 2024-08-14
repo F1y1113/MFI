@@ -1,0 +1,101 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper84_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "For geothermal or oilfield brines to succeed as a source of lithium supply, a proven process for DLE will be required.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "For geothermal or oilfield brines to succeed as a source of lithium supply, a proven process for DLE will be required.",
+            "wd_description": "A proven process for DLE will be required for geothermal or oilfield brines to succeed as a source of lithium supply.",
+            "description": "A proven process for DLE will be required for geothermal or oilfield brines to succeed as a source of lithium supply."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "geothermal brine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "geothermal brine",
+            "wd_description": "A source of lithium supply using geothermal brines.",
+            "description": "A source of lithium supply using geothermal brines."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "oilfield brine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "oilfield brine",
+            "wd_description": "A source of lithium supply using oilfield brines.",
+            "description": "A source of lithium supply using oilfield brines."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "proven process for DLE",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "proven process for DLE",
+            "wd_description": "A process that will be required to make geothermal or oilfield brines a source of lithium supply.",
+            "description": "A process that will be required to make geothermal or oilfield brines a source of lithium supply."
+        },
+        {
+            "@id": "paper84R/Event/ptwCmgT6e/Lithium-extraction-using-DLE-process",
+            "name": "Lithium extraction using DLE process",
+            "ta1explanation": "",
+            "description": "Direct Lithium Extraction (DLE) is a process where brine flows through a lithium-bonding material using various methods such as adsorption, ion-exchange, membrane-separation, or solvent-extraction.",
+            "wd_node": "paper84",
+            "wd_label": "paper84",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,225 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper4_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Structure of the Electric Vehicle Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Structure of the Electric Vehicle Battery Supply Chain",
+            "wd_description": "Understanding the supply chain can help businesses and governments understand how trade flows and resources will be affected by increased demand for EVs and thus, their inputs.",
+            "description": "Understanding the supply chain can help businesses and governments understand how trade flows and resources will be affected by increased demand for EVs and thus, their inputs."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "China as a supplier of lithium-ion battery cells",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China as a supplier of lithium-ion battery cells",
+            "wd_description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future.",
+            "description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "United States as a supplier of lithium-ion battery cells",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "United States as a supplier of lithium-ion battery cells",
+            "wd_description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future.",
+            "description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Japan as a supplier of lithium-ion battery cells",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Japan as a supplier of lithium-ion battery cells",
+            "wd_description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future.",
+            "description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "South Korea as a supplier of lithium-ion battery cells",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South Korea as a supplier of lithium-ion battery cells",
+            "wd_description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future.",
+            "description": "China and the United States appear to be the largest suppliers of lithium-ion battery cells in the future."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Resource Allocation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource Allocation",
+            "wd_description": "The rising demand for lithium-ion batteries will drive significant shifts in resource allocation, impacting material sourcing and production strategies.",
+            "description": "The rising demand for lithium-ion batteries will drive significant shifts in resource allocation, impacting material sourcing and production strategies."
+        },
+        {
+            "@id": "ev7.2.1",
+            "name": "Material Sourcing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Material Sourcing",
+            "wd_description": "Increased demand for lithium, cobalt, and other materials essential for lithium-ion battery production will influence global sourcing strategies.",
+            "description": "Increased demand for lithium, cobalt, and other materials essential for lithium-ion battery production will influence global sourcing strategies."
+        },
+        {
+            "@id": "ev7.2.2",
+            "name": "Production Strategies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.2.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production Strategies",
+            "wd_description": "Manufacturers will adapt their production strategies to meet the growing demand for lithium-ion batteries, focusing on efficiency and scalability.",
+            "description": "Manufacturers will adapt their production strategies to meet the growing demand for lithium-ion batteries, focusing on efficiency and scalability."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1",
+            "relationObject": "ev1.4."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

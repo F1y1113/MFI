@@ -1,0 +1,337 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_27R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Malaysia's chicken export ban to Singapore, June 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Malaysia's chicken export ban to Singapore, June 2022",
+            "wd_description": "Malaysia imposed an embargo on the export of live chickens to Singapore to address local shortages, leading to concerns in Singapore about the impact on poultry supply and prices, as chicken is a staple of the national diet.",
+            "description": "Malaysia imposed an embargo on the export of live chickens to Singapore to address local shortages, leading to concerns in Singapore about the impact on poultry supply and prices, as chicken is a staple of the national diet."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Malaysian export ban",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Malaysian export ban",
+            "wd_description": "The Malaysian Prime Minister announced a ban on the export of live chickens to combat local shortages and control rising prices.",
+            "description": "The Malaysian Prime Minister announced a ban on the export of live chickens to combat local shortages and control rising prices."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Impact on Singapore's poultry supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Singapore's poultry supply",
+            "wd_description": "The ban significantly affects Singapore, which relies on Malaysia for a third of its poultry imports, with concerns about price surges and the adequacy of frozen chicken as a substitute.",
+            "description": "The ban significantly affects Singapore, which relies on Malaysia for a third of its poultry imports, with concerns about price surges and the adequacy of frozen chicken as a substitute."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Global food shortage context",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global food shortage context",
+            "wd_description": "The chicken shortage in Singapore adds to the global food shortages experienced in recent months, exacerbating supply chain challenges and rising prices.",
+            "description": "The chicken shortage in Singapore adds to the global food shortages experienced in recent months, exacerbating supply chain challenges and rising prices."
+        },
+        {
+            "@id": "ev2",
+            "name": "Finland and Sweden consider joining NATO",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Finland and Sweden consider joining NATO",
+            "wd_description": "The war between Russia and Ukraine has prompted security concerns, leading Finland and Sweden to consider joining NATO, despite potential repercussions from Russia.",
+            "description": "The war between Russia and Ukraine has prompted security concerns, leading Finland and Sweden to consider joining NATO, despite potential repercussions from Russia."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Finland's NATO membership consideration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Finland's NATO membership consideration",
+            "wd_description": "Finland, which shares about 800 miles of border with Russia, is considering joining NATO. The Prime Minister and President have released a joint statement supporting this move, with a formal announcement expected soon.",
+            "description": "Finland, which shares about 800 miles of border with Russia, is considering joining NATO. The Prime Minister and President have released a joint statement supporting this move, with a formal announcement expected soon."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Sweden's NATO membership consideration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sweden's NATO membership consideration",
+            "wd_description": "Sweden has also indicated it may make a similar decision to join NATO as soon as possible.",
+            "description": "Sweden has also indicated it may make a similar decision to join NATO as soon as possible."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Reactions from Russia and NATO",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reactions from Russia and NATO",
+            "wd_description": "Russia has threatened measures against Finland and Sweden if they violate their longstanding neutrality, while NATO has responded positively to the potential announcements.",
+            "description": "Russia has threatened measures against Finland and Sweden if they violate their longstanding neutrality, while NATO has responded positively to the potential announcements."
+        },
+        {
+            "@id": "ev3",
+            "name": "Critical stage of US-China ties",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Critical stage of US-China ties",
+            "wd_description": "Chinese Defense Minister Wei Fenghe stated that US-China ties were at a critical stage and called on the US to improve the bilateral relationship while rejecting US accusations and threats.",
+            "description": "Chinese Defense Minister Wei Fenghe stated that US-China ties were at a critical stage and called on the US to improve the bilateral relationship while rejecting US accusations and threats."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Wei Fenghe's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Wei Fenghe's statement",
+            "wd_description": "Wei Fenghe said it was up to the US to improve the bilateral relationship and firmly rejected US smearing, accusations, and threats.",
+            "description": "Wei Fenghe said it was up to the US to improve the bilateral relationship and firmly rejected US smearing, accusations, and threats."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Lloyd Austin's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lloyd Austin's response",
+            "wd_description": "Defense Secretary Lloyd Austin noted the increasing number of unsafe encounters between Chinese and other countries' planes and vessels, reaffirming US support for its allies, including Taiwan.",
+            "description": "Defense Secretary Lloyd Austin noted the increasing number of unsafe encounters between Chinese and other countries' planes and vessels, reaffirming US support for its allies, including Taiwan."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Russia-Ukraine discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russia-Ukraine discussion",
+            "wd_description": "At the meeting, Wei stated that China supported peace talks in Ukraine and opposed maximum pressure tactics, clarifying that China had not provided material support to Russia.",
+            "description": "At the meeting, Wei stated that China supported peace talks in Ukraine and opposed maximum pressure tactics, clarifying that China had not provided material support to Russia."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Expert analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expert analysis",
+            "wd_description": "Meia Nouwens, a senior fellow at the International Institute for Strategic Studies, noted that Wei's speech was consistent with Beijing's stance on the Russia-Ukraine issue.",
+            "description": "Meia Nouwens, a senior fellow at the International Institute for Strategic Studies, noted that Wei's speech was consistent with Beijing's stance on the Russia-Ukraine issue."
+        },
+        {
+            "@id": "ev4",
+            "name": "South Korean consortium invests in Indonesian EV supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.10",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.11",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South Korean consortium invests in Indonesian EV supply chain",
+            "wd_description": "A South Korean consortium will invest $9bn in Indonesia to build a mines-to-manufacturing electric vehicle supply chain, aiming to reduce reliance on Chinese suppliers and mitigate commodity price rises.",
+            "description": "A South Korean consortium will invest $9bn in Indonesia to build a mines-to-manufacturing electric vehicle supply chain, aiming to reduce reliance on Chinese suppliers and mitigate commodity price rises."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Agreement details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Agreement details",
+            "wd_description": "The consortium, led by LG Energy Solution, has signed an agreement with local mining company PT Aneka Tamban (Antam) and Indonesia Battery Corporation to handle the entire battery production process.",
+            "description": "The consortium, led by LG Energy Solution, has signed an agreement with local mining company PT Aneka Tamban (Antam) and Indonesia Battery Corporation to handle the entire battery production process."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Indonesia's nickel production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Indonesia's nickel production",
+            "wd_description": "Indonesia is the world's largest producer of nickel, with about 21mn tonnes of reserves according to US Geological Survey data.",
+            "description": "Indonesia is the world's largest producer of nickel, with about 21mn tonnes of reserves according to US Geological Survey data."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Korean battery makers' investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Korean battery makers' investment",
+            "wd_description": "South Korean battery makers have increased investment in EV battery chemicals and materials to reduce dependence on China, the world's biggest processor of necessary minerals.",
+            "description": "South Korean battery makers have increased investment in EV battery chemicals and materials to reduce dependence on China, the world's biggest processor of necessary minerals."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Impact of Ukraine war",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact of Ukraine war",
+            "wd_description": "The war in Ukraine has increased pressure to improve supply chain security, with Russia accounting for 11% of the world's nickel production and significant commodity price rises since the invasion.",
+            "description": "The war in Ukraine has increased pressure to improve supply chain security, with Russia accounting for 11% of the world's nickel production and significant commodity price rises since the invasion."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Nickel price increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nickel price increase",
+            "wd_description": "The London Metal Exchange's three-month nickel price has risen about 60% this year to $33,175 a tonne as of April 14, raising concern about battery makers' cost burden.",
+            "description": "The London Metal Exchange's three-month nickel price has risen about 60% this year to $33,175 a tonne as of April 14, raising concern about battery makers' cost burden."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Auto industry's reliance on China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Auto industry's reliance on China",
+            "wd_description": "The auto industry's transition from fossil fuel-powered vehicles is complicated by its reliance on Chinese refineries and factories, where about 80% of battery materials are processed.",
+            "description": "The auto industry's transition from fossil fuel-powered vehicles is complicated by its reliance on Chinese refineries and factories, where about 80% of battery materials are processed."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Analyst's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Analyst's statement",
+            "wd_description": "Yoon Hyuk-jin, an analyst at SK Securities, emphasized the importance of stable raw material supply for battery producers amid the Ukraine crisis, highlighting the need for upstream investments.",
+            "description": "Yoon Hyuk-jin, an analyst at SK Securities, emphasized the importance of stable raw material supply for battery producers amid the Ukraine crisis, highlighting the need for upstream investments."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Consortium members",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Consortium members",
+            "wd_description": "The consortium includes LG Chem, Posco, LX International, and Zhejiang Huayou Cobalt.",
+            "description": "The consortium includes LG Chem, Posco, LX International, and Zhejiang Huayou Cobalt."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "LGES statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LGES statement",
+            "wd_description": "LGES expects the project to improve battery business capability and profitability by securing competitive raw materials in a stable manner.",
+            "description": "LGES expects the project to improve battery business capability and profitability by securing competitive raw materials in a stable manner."
+        },
+        {
+            "@id": "ev4.10",
+            "name": "LGES and Hyundai joint venture",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LGES and Hyundai joint venture",
+            "wd_description": "LGES is also building a $1.1bn battery cell plant in Karawang Regency, Indonesia, as part of a joint venture with Hyundai Motor group.",
+            "description": "LGES is also building a $1.1bn battery cell plant in Karawang Regency, Indonesia, as part of a joint venture with Hyundai Motor group."
+        },
+        {
+            "@id": "ev4.11",
+            "name": "CATL's similar project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "CATL's similar project",
+            "wd_description": "The consortium's investment was announced days after CATL signed a $6bn deal with Indonesian companies including Antam to produce a similar project.",
+            "description": "The consortium's investment was announced days after CATL signed a $6bn deal with Indonesian companies including Antam to produce a similar project."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

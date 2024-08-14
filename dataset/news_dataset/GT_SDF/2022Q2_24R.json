@@ -1,0 +1,272 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_24R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Tropical Storm Megi Hits the Philippines During Unusual Time",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Tropical Storm Megi Hits the Philippines During Unusual Time",
+            "wd_description": "Tropical Storm Megi, the first of the season, hit the Philippines during the country's \"dry\" season, causing severe flooding, high winds, and landslides, leading to at least 25 deaths. The storm's occurrence is unusual and may be linked to climate change.",
+            "description": "Tropical Storm Megi, the first of the season, hit the Philippines during the country's \"dry\" season, causing severe flooding, high winds, and landslides, leading to at least 25 deaths. The storm's occurrence is unusual and may be linked to climate change."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Formation of Tropical Storm Megi",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Formation of Tropical Storm Megi",
+            "wd_description": "Tropical Storm Megi formed over the Western Pacific Ocean during a low-pressure front and began impacting the Philippines with severe weather.",
+            "description": "Tropical Storm Megi formed over the Western Pacific Ocean during a low-pressure front and began impacting the Philippines with severe weather."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Impact of the Storm",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact of the Storm",
+            "wd_description": "The storm caused dangerous flooding, high winds, and catastrophic landslides, particularly in rural and mountainous areas of the Philippines, resulting in at least 25 deaths.",
+            "description": "The storm caused dangerous flooding, high winds, and catastrophic landslides, particularly in rural and mountainous areas of the Philippines, resulting in at least 25 deaths."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Unusual Timing and Climate Change",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unusual Timing and Climate Change",
+            "wd_description": "Tropical Storm Megi's occurrence during the Philippines' \"dry\" season is unusual and may be linked to the ongoing effects of global climate change.",
+            "description": "Tropical Storm Megi's occurrence during the Philippines' \"dry\" season is unusual and may be linked to the ongoing effects of global climate change."
+        },
+        {
+            "@id": "ev2",
+            "name": "Andrey Melnichenko transfers ownership",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Andrey Melnichenko transfers ownership",
+            "wd_description": "Russian businessman Andrey Melnichenko transferred ownership of two of the world's largest coal and fertilizer companies to his wife the day before he was sanctioned by the European Union.",
+            "description": "Russian businessman Andrey Melnichenko transferred ownership of two of the world's largest coal and fertilizer companies to his wife the day before he was sanctioned by the European Union."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Ownership transfer details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ownership transfer details",
+            "wd_description": "Legal filings show Melnichenko owned the companies through a chain of trusts and corporations from Moscow to Zug, Cyprus, and Bermuda. He made his wife the beneficiary upon his retirement.",
+            "description": "Legal filings show Melnichenko owned the companies through a chain of trusts and corporations from Moscow to Zug, Cyprus, and Bermuda. He made his wife the beneficiary upon his retirement."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Sanction concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanction concerns",
+            "wd_description": "Following Russia's invasion of Ukraine, Melnichenko was concerned about being sanctioned by the EU, leading to the transfer of ownership to his wife.",
+            "description": "Following Russia's invasion of Ukraine, Melnichenko was concerned about being sanctioned by the EU, leading to the transfer of ownership to his wife."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Melnichenko's wealth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Melnichenko's wealth",
+            "wd_description": "Melnichenko, with an estimated fortune of $18 billion, was ranked as Russia's eighth richest man by Forbes last year.",
+            "description": "Melnichenko, with an estimated fortune of $18 billion, was ranked as Russia's eighth richest man by Forbes last year."
+        },
+        {
+            "@id": "ev3",
+            "name": "North Korea pandemic response",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korea pandemic response",
+            "wd_description": "North Korea has shut its borders to visitors and humanitarian aid since the start of the pandemic, and recent news indicates a lockdown in Pyongyang due to an outbreak of the Omicron variant.",
+            "description": "North Korea has shut its borders to visitors and humanitarian aid since the start of the pandemic, and recent news indicates a lockdown in Pyongyang due to an outbreak of the Omicron variant."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Lockdown and panic buying",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lockdown and panic buying",
+            "wd_description": "Areas of Pyongyang were locked down for two days following news of the outbreak, leading to panic buying among citizens.",
+            "description": "Areas of Pyongyang were locked down for two days following news of the outbreak, leading to panic buying among citizens."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Crisis meeting and health response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Crisis meeting and health response",
+            "wd_description": "Kim Jong-Un called a crisis meeting to address the outbreak. Health officials and front-line workers were deployed, and tests confirmed the Omicron variant.",
+            "description": "Kim Jong-Un called a crisis meeting to address the outbreak. Health officials and front-line workers were deployed, and tests confirmed the Omicron variant."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Measures to control the outbreak",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Measures to control the outbreak",
+            "wd_description": "Kim Jong-Un emphasized eliminating the outbreak quickly, leading to tighter border control, restricted citizen movement, and isolated production activities.",
+            "description": "Kim Jong-Un emphasized eliminating the outbreak quickly, leading to tighter border control, restricted citizen movement, and isolated production activities."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Continued isolation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Continued isolation",
+            "wd_description": "Despite the outbreak, North Korea shows no signs of opening up to the world.",
+            "description": "Despite the outbreak, North Korea shows no signs of opening up to the world."
+        },
+        {
+            "@id": "ev4",
+            "name": "Supply chain challenges for Tesla and solar/storage developers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain challenges for Tesla and solar/storage developers",
+            "wd_description": "Tesla and solar/storage developers are facing supply chain challenges, including labor and equipment shortages, transportation backlogs, and soaring lithium prices, resulting in delayed and canceled projects.",
+            "description": "Tesla and solar/storage developers are facing supply chain challenges, including labor and equipment shortages, transportation backlogs, and soaring lithium prices, resulting in delayed and canceled projects."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Impact on Tesla",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Tesla",
+            "wd_description": "Tesla is diversifying battery chemistries, with nearly half of its Q1 vehicles using lithium iron phosphate batteries. Energy storage deployments reached 846 MWh, a 90% year-over-year increase, but supply chain challenges have limited growth.",
+            "description": "Tesla is diversifying battery chemistries, with nearly half of its Q1 vehicles using lithium iron phosphate batteries. Energy storage deployments reached 846 MWh, a 90% year-over-year increase, but supply chain challenges have limited growth."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Impact on solar deployments",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on solar deployments",
+            "wd_description": "Solar deployments in the U.S. didn't meet 2021 expectations due to supply chain challenges, resulting in delayed gigawatts' worth of projects.",
+            "description": "Solar deployments in the U.S. didn't meet 2021 expectations due to supply chain challenges, resulting in delayed gigawatts' worth of projects."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Lithium as a limiting factor",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium as a limiting factor",
+            "wd_description": "Elon Musk highlighted lithium mining and refining as key limiting factors for accelerating sustainable energy, noting that while lithium is abundant, its refinement requires extensive industrial equipment.",
+            "description": "Elon Musk highlighted lithium mining and refining as key limiting factors for accelerating sustainable energy, noting that while lithium is abundant, its refinement requires extensive industrial equipment."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Encouragement for entrepreneurs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Encouragement for entrepreneurs",
+            "wd_description": "Musk encouraged entrepreneurs to enter the lithium space, suggesting significant profit potential in lithium refining.",
+            "description": "Musk encouraged entrepreneurs to enter the lithium space, suggesting significant profit potential in lithium refining."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Temporary lithium price issue",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Temporary lithium price issue",
+            "wd_description": "Morten Lund from Stoel Rives compared the current lithium price issue to past silicon shortages in the solar industry, predicting a temporary issue that will resolve as more facilities are built.",
+            "description": "Morten Lund from Stoel Rives compared the current lithium price issue to past silicon shortages in the solar industry, predicting a temporary issue that will resolve as more facilities are built."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Future lithium investments",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Future lithium investments",
+            "wd_description": "Lund anticipated a \"gold rush\" for lithium investments, leading to lower prices and spurring further development of batteries and EVs.",
+            "description": "Lund anticipated a \"gold rush\" for lithium investments, leading to lower prices and spurring further development of batteries and EVs."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

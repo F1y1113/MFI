@@ -1,0 +1,301 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_51R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "UN nuclear disarmament meeting fails due to Russia's refusal",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UN nuclear disarmament meeting fails due to Russia's refusal",
+            "wd_description": "A UN meeting on nuclear disarmament failed after Russia refused to accept the final draft of the treaty on the Non-Proliferation of Nuclear Weapons, aimed at reducing nuclear risks and stopping the expansion of nuclear arsenals.",
+            "description": "A UN meeting on nuclear disarmament failed after Russia refused to accept the final draft of the treaty on the Non-Proliferation of Nuclear Weapons, aimed at reducing nuclear risks and stopping the expansion of nuclear arsenals."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "meeting failure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "meeting failure",
+            "wd_description": "The UN meeting on nuclear disarmament failed after Russia refused to accept the final draft of the treaty on the Non-Proliferation of Nuclear Weapons.",
+            "description": "The UN meeting on nuclear disarmament failed after Russia refused to accept the final draft of the treaty on the Non-Proliferation of Nuclear Weapons."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "treaty review",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "treaty review",
+            "wd_description": "The treaty on the Non-Proliferation of Nuclear Weapons is reviewed every five years as part of efforts to reduce nuclear risks and stop the expansion of nuclear arsenals.",
+            "description": "The treaty on the Non-Proliferation of Nuclear Weapons is reviewed every five years as part of efforts to reduce nuclear risks and stop the expansion of nuclear arsenals."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Russia's attempts to amend treaty",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russia's attempts to amend treaty",
+            "wd_description": "UN Ambassador Gustavo Zlauvinen stated that Russia attempted to amend the treaty, which would have caused chaos at this late stage in the negotiations.",
+            "description": "UN Ambassador Gustavo Zlauvinen stated that Russia attempted to amend the treaty, which would have caused chaos at this late stage in the negotiations."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "reactions to the failure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "reactions to the failure",
+            "wd_description": "Beatrice Fihn, the group's Executive Director, criticized the failure, stating that it is a total abdication of responsibility and noting that nuclear-armed states have spent over $82 billion on maintaining their arsenals without making progress on disarmament.",
+            "description": "Beatrice Fihn, the group's Executive Director, criticized the failure, stating that it is a total abdication of responsibility and noting that nuclear-armed states have spent over $82 billion on maintaining their arsenals without making progress on disarmament."
+        },
+        {
+            "@id": "ev2",
+            "name": "Bank of England expected to raise borrowing costs due to rising inflation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Bank of England expected to raise borrowing costs due to rising inflation",
+            "wd_description": "According to a Reuters poll, the Bank of England is expected to raise borrowing costs by 50 basis points to 1.75% on Thursday due to rising inflation.",
+            "description": "According to a Reuters poll, the Bank of England is expected to raise borrowing costs by 50 basis points to 1.75% on Thursday due to rising inflation."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "expected rate hike",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "expected rate hike",
+            "wd_description": "The Bank of England is expected to raise borrowing costs by 50 basis points to 1.75% on Thursday.",
+            "description": "The Bank of England is expected to raise borrowing costs by 50 basis points to 1.75% on Thursday."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "historical context",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "historical context",
+            "wd_description": "Since gaining independence in 1997, the Bank of England has never raised bank rates by a half point.",
+            "description": "Since gaining independence in 1997, the Bank of England has never raised bank rates by a half point."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "central bank actions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "central bank actions",
+            "wd_description": "In December, Britain’s central bank was the first among its major peers to raise interest rates, setting a precedent for others to follow. Recently, the US Federal Reserve raised rates by 75 basis points, and the Bank of Canada hiked by 100 basis points.",
+            "description": "In December, Britain’s central bank was the first among its major peers to raise interest rates, setting a precedent for others to follow. Recently, the US Federal Reserve raised rates by 75 basis points, and the Bank of Canada hiked by 100 basis points."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "expert opinion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "expert opinion",
+            "wd_description": "Fabrice Montagne at Barclays expects the MPC to quicken the pace of tightening to 50 basis points to demonstrate resolution in the face of rising inflationary risks.",
+            "description": "Fabrice Montagne at Barclays expects the MPC to quicken the pace of tightening to 50 basis points to demonstrate resolution in the face of rising inflationary risks."
+        },
+        {
+            "@id": "ev3",
+            "name": "President of Sri Lanka flees to the Maldives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "President of Sri Lanka flees to the Maldives",
+            "wd_description": "Sri Lankan President Gotabaya Rajapaksa fled to the Maldives on a military jet hours before his resignation amid anti-government protests.",
+            "description": "Sri Lankan President Gotabaya Rajapaksa fled to the Maldives on a military jet hours before his resignation amid anti-government protests."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Rajapaksa's departure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rajapaksa's departure",
+            "wd_description": "President Gotabaya Rajapaksa fled to the Maldives on a military jet due to anti-government protests taking over his presidential palace and office.",
+            "description": "President Gotabaya Rajapaksa fled to the Maldives on a military jet due to anti-government protests taking over his presidential palace and office."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "state of emergency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "state of emergency",
+            "wd_description": "Prime Minister Ranil Wickremesinghe declared a state of emergency after Rajapaksa's departure.",
+            "description": "Prime Minister Ranil Wickremesinghe declared a state of emergency after Rajapaksa's departure."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Prime Minister's role",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Prime Minister's role",
+            "wd_description": "Ranil Wickremesinghe was appointed the acting President by Rajapaksa.",
+            "description": "Ranil Wickremesinghe was appointed the acting President by Rajapaksa."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Sri Lanka air force statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sri Lanka air force statement",
+            "wd_description": "The Sri Lankan air force confirmed Rajapaksa's departure, stating they provided a plane to fly him, his wife, and two security officials to the Maldives.",
+            "description": "The Sri Lankan air force confirmed Rajapaksa's departure, stating they provided a plane to fly him, his wife, and two security officials to the Maldives."
+        },
+        {
+            "@id": "ev4",
+            "name": "CATL and FlexGen Partnership for Energy Storage",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "CATL and FlexGen Partnership for Energy Storage",
+            "wd_description": "On September 21, CATL announced a partnership with FlexGen to supply 10GWh of advanced energy storage products over three years.",
+            "description": "On September 21, CATL announced a partnership with FlexGen to supply 10GWh of advanced energy storage products over three years."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Supply Agreement Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Agreement Announcement",
+            "wd_description": "CATL and FlexGen signed a partnership agreement for CATL to supply 10GWh of energy storage products over three years.",
+            "description": "CATL and FlexGen signed a partnership agreement for CATL to supply 10GWh of energy storage products over three years."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Product Details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Product Details",
+            "wd_description": "CATL will supply FlexGen with containerized liquid-cooled energy storage products, EnerC, which feature IP55 protection and C5 anti-corrosion ratings, suitable for extreme weather and designed for 20 years of reliable operation.",
+            "description": "CATL will supply FlexGen with containerized liquid-cooled energy storage products, EnerC, which feature IP55 protection and C5 anti-corrosion ratings, suitable for extreme weather and designed for 20 years of reliable operation."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "FlexGen's Role",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "FlexGen's Role",
+            "wd_description": "FlexGen will integrate CATL's energy storage systems with its HybridOS™ energy management platform to provide advanced and reliable energy solutions for utilities, competitive power markets, and municipal projects across North America.",
+            "description": "FlexGen will integrate CATL's energy storage systems with its HybridOS™ energy management platform to provide advanced and reliable energy solutions for utilities, competitive power markets, and municipal projects across North America."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Market Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Market Impact",
+            "wd_description": "This partnership expands CATL's service network in North America and accelerates the development of energy storage projects, contributing to the energy transition and enhancing grid resilience.",
+            "description": "This partnership expands CATL's service network in North America and accelerates the development of energy storage projects, contributing to the energy transition and enhancing grid resilience."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Previous Collaboration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Previous Collaboration",
+            "wd_description": "CATL and FlexGen have collaborated on energy storage projects totaling over 2.5GWh, with FlexGen recently designated as an authorized service provider for CATL's battery storage systems.",
+            "description": "CATL and FlexGen have collaborated on energy storage projects totaling over 2.5GWh, with FlexGen recently designated as an authorized service provider for CATL's battery storage systems."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Industry Prospects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Industry Prospects",
+            "wd_description": "The energy storage industry holds vast potential for promoting energy transition and improving grid resilience, with CATL playing a leading role in global energy storage innovation.",
+            "description": "The energy storage industry holds vast potential for promoting energy transition and improving grid resilience, with CATL playing a leading role in global energy storage innovation."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

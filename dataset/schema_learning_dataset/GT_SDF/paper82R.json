@@ -1,0 +1,625 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper82R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Commercialization and development of LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/gNJ27jEKN/Commercialization-of-LIBs-by-Sony-in-1991",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Commercialization and development of LIBs",
+            "wd_description": "Lithium-ion batteries (LIBs) were first commercialized by Sony in 1991. A typical battery pack contains modules and cells of various designs, but all LIB cells share basic components. Initial LIB cells used lithium cobalt oxide (LCO) chemistry, which has since been replaced by lithium nickel manganese cobalt oxide (NMC) and lithium nickel cobalt aluminum oxide (NCA) chemistries.",
+            "description": "Lithium-ion batteries (LIBs) were first commercialized by Sony in 1991. A typical battery pack contains modules and cells of various designs, but all LIB cells share basic components. Initial LIB cells used lithium cobalt oxide (LCO) chemistry, which has since been replaced by lithium nickel manganese cobalt oxide (NMC) and lithium nickel cobalt aluminum oxide (NCA) chemistries."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Commercialization by Sony",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Commercialization by Sony",
+            "wd_description": "Sony first commercialized lithium-ion batteries in 1991.",
+            "description": "Sony first commercialized lithium-ion batteries in 1991."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Basic components of LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.5",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.6",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/2PEYLznCpN/Basic-components-of-LIBs",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Basic components of LIBs",
+            "wd_description": "A typical LIB cell consists of a cathode, anode, electrolyte, separator, binder, and current collectors.",
+            "description": "A typical LIB cell consists of a cathode, anode, electrolyte, separator, binder, and current collectors."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Cathode",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cathode",
+            "wd_description": "The cathode is one of the key components of a LIB cell, responsible for the battery's energy storage capacity.",
+            "description": "The cathode is one of the key components of a LIB cell, responsible for the battery's energy storage capacity."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Anode",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Anode",
+            "wd_description": "The anode is another critical component, working in conjunction with the cathode to store and release energy.",
+            "description": "The anode is another critical component, working in conjunction with the cathode to store and release energy."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Electrolyte",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Electrolyte",
+            "wd_description": "The electrolyte facilitates the movement of lithium ions between the cathode and anode.",
+            "description": "The electrolyte facilitates the movement of lithium ions between the cathode and anode."
+        },
+        {
+            "@id": "ev1.2.4",
+            "name": "Separator",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Separator",
+            "wd_description": "The separator prevents physical contact between the cathode and anode while allowing ion flow.",
+            "description": "The separator prevents physical contact between the cathode and anode while allowing ion flow."
+        },
+        {
+            "@id": "ev1.2.5",
+            "name": "Binder",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Binder",
+            "wd_description": "The binder holds the active material particles together in the electrodes.",
+            "description": "The binder holds the active material particles together in the electrodes."
+        },
+        {
+            "@id": "ev1.2.6",
+            "name": "Current collectors",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Current collectors",
+            "wd_description": "Current collectors conduct electricity from the electrodes to the external circuit.",
+            "description": "Current collectors conduct electricity from the electrodes to the external circuit."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Evolution of cathode chemistries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/1Oz75P7wW4/Evolution-from-LCO-to-NMC-and-NCA-cathodes",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/PukeUo97k/Shift-towards-high-Ni-low-Co-NMC-cathodes",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/2xlYm4ZJKe/Future-dominance-of-LFP-cathodes",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Evolution of cathode chemistries",
+            "wd_description": "Initial LIB cells used lithium cobalt oxide (LCO) cathodes, which have been replaced by lithium nickel manganese cobalt oxide (NMC) and lithium nickel cobalt aluminum oxide (NCA) cathodes due to better performance and lower cost.",
+            "description": "Initial LIB cells used lithium cobalt oxide (LCO) cathodes, which have been replaced by lithium nickel manganese cobalt oxide (NMC) and lithium nickel cobalt aluminum oxide (NCA) cathodes due to better performance and lower cost."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "LCO cathode",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LCO cathode",
+            "wd_description": "The initial LIB cell was based on a lithium cobalt oxide (LCO) cathode, which had low energy density, inferior safety, short lifespan, and high cost.",
+            "description": "The initial LIB cell was based on a lithium cobalt oxide (LCO) cathode, which had low energy density, inferior safety, short lifespan, and high cost."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "NMC cathode",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC cathode",
+            "wd_description": "Lithium nickel manganese cobalt oxide (NMC) cathodes offer high energy density, extended lifespan, and lower cost compared to LCO.",
+            "description": "Lithium nickel manganese cobalt oxide (NMC) cathodes offer high energy density, extended lifespan, and lower cost compared to LCO."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "NCA cathode",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NCA cathode",
+            "wd_description": "Lithium nickel cobalt aluminum oxide (NCA) cathodes provide high energy density and are used in various electric vehicles.",
+            "description": "Lithium nickel cobalt aluminum oxide (NCA) cathodes provide high energy density and are used in various electric vehicles."
+        },
+        {
+            "@id": "ev2",
+            "name": "Resource challenges and supply chain risks for LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/2ztKtFK6N0/Geopolitical-and-centralized-reserves",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource challenges and supply chain risks for LIBs",
+            "wd_description": "The unprecedented growth of LIBs globally will pressure reserves of key materials like lithium, cobalt, nickel, and manganese, leading to potential resource challenges and supply chain risks.",
+            "description": "The unprecedented growth of LIBs globally will pressure reserves of key materials like lithium, cobalt, nickel, and manganese, leading to potential resource challenges and supply chain risks."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Growth of LIBs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Growth of LIBs",
+            "wd_description": "The global growth of LIBs, driven by the demand for electric vehicles and energy storage, is unprecedented.",
+            "description": "The global growth of LIBs, driven by the demand for electric vehicles and energy storage, is unprecedented."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Resource challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource challenges",
+            "wd_description": "The increased demand for LIBs will put pressure on the reserves of lithium, cobalt, nickel, and manganese, leading to potential resource challenges.",
+            "description": "The increased demand for LIBs will put pressure on the reserves of lithium, cobalt, nickel, and manganese, leading to potential resource challenges."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "Lithium reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium reserves",
+            "wd_description": "Lithium does not occur naturally and is primarily recovered from salt solutions like brines.",
+            "description": "Lithium does not occur naturally and is primarily recovered from salt solutions like brines."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "Cobalt reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt reserves",
+            "wd_description": "Cobalt is mined primarily as a by-product of nickel and copper, with significant reserves in the Democratic Republic of Congo.",
+            "description": "Cobalt is mined primarily as a by-product of nickel and copper, with significant reserves in the Democratic Republic of Congo."
+        },
+        {
+            "@id": "ev2.2.3",
+            "name": "Nickel reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nickel reserves",
+            "wd_description": "Nickel reserves are highly concentrated in Indonesia, the Philippines, Russia, and New Caledonia.",
+            "description": "Nickel reserves are highly concentrated in Indonesia, the Philippines, Russia, and New Caledonia."
+        },
+        {
+            "@id": "ev2.2.4",
+            "name": "Manganese reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Manganese reserves",
+            "wd_description": "Manganese reserves are essential for LIB production, with demand expected to increase significantly.",
+            "description": "Manganese reserves are essential for LIB production, with demand expected to increase significantly."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Supply chain risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain risks",
+            "wd_description": "The concentration of raw material reserves in specific countries and geopolitical factors pose significant supply chain risks for LIB production.",
+            "description": "The concentration of raw material reserves in specific countries and geopolitical factors pose significant supply chain risks for LIB production."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "Geopolitical factors",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Geopolitical factors",
+            "wd_description": "Geopolitical factors such as wars, pandemics, and sanctions can impact the supply chain for LIB raw materials.",
+            "description": "Geopolitical factors such as wars, pandemics, and sanctions can impact the supply chain for LIB raw materials."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "Concentrated reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Concentrated reserves",
+            "wd_description": "The concentration of raw material reserves in specific countries increases supply chain risks for LIB production.",
+            "description": "The concentration of raw material reserves in specific countries increases supply chain risks for LIB production."
+        },
+        {
+            "@id": "ev3",
+            "name": "Recycling and circular economy of LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper82R/Event/1WoMUAkIuN/Importance-of-battery-recycling",
+                    "importance": 1
+                },
+                {
+                    "child": "paper82R/Event/181zQSI49R/Closed-loop-recycling-and-circular-economy",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recycling and circular economy of LIBs",
+            "wd_description": "Recycling of LIBs can address raw material shortages and provide a safe treatment for spent batteries, supporting a circular economy for electric vehicle batteries.",
+            "description": "Recycling of LIBs can address raw material shortages and provide a safe treatment for spent batteries, supporting a circular economy for electric vehicle batteries."
+        },
+        {
+            "@id": "paper82R/Event/gNJ27jEKN/Commercialization-of-LIBs-by-Sony-in-1991",
+            "name": "Commercialization of LIBs by Sony in 1991",
+            "ta1explanation": "",
+            "description": "Lithium-ion batteries (LIBs) were first commercialized by Sony in 1991.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/2PEYLznCpN/Basic-components-of-LIBs",
+            "name": "Basic components of LIBs",
+            "ta1explanation": "",
+            "description": "A typical LIB cell comprises a cathode, anode, electrolyte, separator, binder, and current collectors.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/1Oz75P7wW4/Evolution-from-LCO-to-NMC-and-NCA-cathodes",
+            "name": "Evolution from LCO to NMC and NCA cathodes",
+            "ta1explanation": "",
+            "description": "The initial LCO cathode was replaced by NMC and NCA cathodes, which offer higher energy density, extended life span, and lower cost.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/PukeUo97k/Shift-towards-high-Ni-low-Co-NMC-cathodes",
+            "name": "Shift towards high Ni low Co NMC cathodes",
+            "ta1explanation": "",
+            "description": "The market trend for NMC cathodes is moving from low Ni to high Ni/low Co, with NMC 811 becoming more prevalent.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/2xlYm4ZJKe/Future-dominance-of-LFP-cathodes",
+            "name": "Future dominance of LFP cathodes",
+            "ta1explanation": "",
+            "description": "LFP cathodes are expected to dominate the future LIB market, especially in China, due to their safety and specific energy advantages.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/2ztKtFK6N0/Geopolitical-and-centralized-reserves",
+            "name": "Geopolitical and centralized reserves",
+            "ta1explanation": "",
+            "description": "The reserves of critical materials like Li, Co, Ni, and graphite are geographically centralized, raising geopolitical risks.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/1WoMUAkIuN/Importance-of-battery-recycling",
+            "name": "Importance of battery recycling",
+            "ta1explanation": "",
+            "description": "Battery recycling can address raw material shortages and environmental issues associated with LIB disposal.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        },
+        {
+            "@id": "paper82R/Event/181zQSI49R/Closed-loop-recycling-and-circular-economy",
+            "name": "Closed loop recycling and circular economy",
+            "ta1explanation": "",
+            "description": "Closed-loop recycling can reduce stress on finite raw materials and contribute to the circular economy of EV LIBs.",
+            "wd_node": "paper82",
+            "wd_label": "paper82",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.3",
+            "relationObject": "ev2.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.3",
+            "relationObject": "ev2.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.3",
+            "relationObject": "ev2.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.3",
+            "relationObject": "ev2.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.3",
+            "relationObject": "ev2.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        }
+    ],
+    "entities": []
+}

@@ -1,0 +1,389 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper26",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain vulnerability assessment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain vulnerability assessment",
+            "wd_description": "Assessing the vulnerability of the electric vehicle battery supply chain, focusing on the critical minerals lithium, cobalt, nickel, and manganese.",
+            "description": "Assessing the vulnerability of the electric vehicle battery supply chain, focusing on the critical minerals lithium, cobalt, nickel, and manganese."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Supply chain mapping",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain mapping",
+            "wd_description": "Mapping the global supply chains for lithium, cobalt, nickel, and manganese, with a focus on NMC and LFP cathode chemistries.",
+            "description": "Mapping the global supply chains for lithium, cobalt, nickel, and manganese, with a focus on NMC and LFP cathode chemistries."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "NMC cathode supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "NMC cathode supply chain",
+            "wd_description": "Mapping the supply chain for nickel manganese cobalt (NMC) cathodes, highlighting the concentration of supply stages in China.",
+            "description": "Mapping the supply chain for nickel manganese cobalt (NMC) cathodes, highlighting the concentration of supply stages in China."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "LFP cathode supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "LFP cathode supply chain",
+            "wd_description": "Mapping the supply chain for lithium iron phosphate (LFP) cathodes, with a focus on the role of China in the supply chain.",
+            "description": "Mapping the supply chain for lithium iron phosphate (LFP) cathodes, with a focus on the role of China in the supply chain."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Vulnerability index calculation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Vulnerability index calculation",
+            "wd_description": "Calculating a vulnerability index for NMC and LFP cathode chemistries, taking into account the global distribution of supply chain stages.",
+            "description": "Calculating a vulnerability index for NMC and LFP cathode chemistries, taking into account the global distribution of supply chain stages."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "NMC vulnerability index",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "NMC vulnerability index",
+            "wd_description": "Calculating the vulnerability index for NMC cathodes, focusing on the dependence on China and other countries for critical minerals.",
+            "description": "Calculating the vulnerability index for NMC cathodes, focusing on the dependence on China and other countries for critical minerals."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "LFP vulnerability index",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "LFP vulnerability index",
+            "wd_description": "Calculating the vulnerability index for LFP cathodes, with a high dependency on China for lithium processing.",
+            "description": "Calculating the vulnerability index for LFP cathodes, with a high dependency on China for lithium processing."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Network flow optimization",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Network flow optimization",
+            "wd_description": "Using network flow optimization to account for uncertainties in the supply chain and improve the accuracy of vulnerability assessments.",
+            "description": "Using network flow optimization to account for uncertainties in the supply chain and improve the accuracy of vulnerability assessments."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Policy impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy impacts",
+            "wd_description": "Evaluating the impact of policy measures on the vulnerability of the battery supply chain and providing recommendations for reducing risks.",
+            "description": "Evaluating the impact of policy measures on the vulnerability of the battery supply chain and providing recommendations for reducing risks."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Domestic production incentives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Domestic production incentives",
+            "wd_description": "Analyzing the effects of policies that incentivize domestic production of battery materials to reduce supply chain vulnerabilities.",
+            "description": "Analyzing the effects of policies that incentivize domestic production of battery materials to reduce supply chain vulnerabilities."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "International cooperation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "International cooperation",
+            "wd_description": "Promoting international cooperation and sourcing from allied countries to mitigate supply chain risks and ensure stable supplies of critical minerals.",
+            "description": "Promoting international cooperation and sourcing from allied countries to mitigate supply chain risks and ensure stable supplies of critical minerals."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Regulatory frameworks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Regulatory frameworks",
+            "wd_description": "Developing regulatory frameworks to monitor and manage supply chain vulnerabilities, focusing on economic, sustainability, and national security risks.",
+            "description": "Developing regulatory frameworks to monitor and manage supply chain vulnerabilities, focusing on economic, sustainability, and national security risks."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.3",
+            "relationObject": "ev1.1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.3",
+            "relationObject": "ev1.1.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2.1",
+            "relationObject": "ev1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3.1",
+            "relationObject": "ev1.2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1.2",
+            "relationObject": "ev1.3.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2.1",
+            "relationObject": "ev1.3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3.2",
+            "relationObject": "ev1.3.3."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

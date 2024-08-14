@@ -1,0 +1,360 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q3_26R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "China Relaxes Internal Migration Rules",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China Relaxes Internal Migration Rules",
+            "wd_description": "The Chinese government has announced plans to relax internal migration rules, allowing people to settle in small cities to boost their economy and promote growth.",
+            "description": "The Chinese government has announced plans to relax internal migration rules, allowing people to settle in small cities to boost their economy and promote growth."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Announcement by Ministry of Public Security",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Announcement by Ministry of Public Security",
+            "wd_description": "The Ministry of Public Security announced the decision to relax internal migration rules to encourage settlement in small cities.",
+            "description": "The Ministry of Public Security announced the decision to relax internal migration rules to encourage settlement in small cities."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Changes to Hukou Restrictions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Changes to Hukou Restrictions",
+            "wd_description": "Local governments are directed to cancel hukou restrictions in cities with fewer than 3 million people and relax restrictions in cities with 3-5 million people.",
+            "description": "Local governments are directed to cancel hukou restrictions in cities with fewer than 3 million people and relax restrictions in cities with 3-5 million people."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Implementation Timeline",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Implementation Timeline",
+            "wd_description": "The new measures are to be implemented by the end of the month, as confirmed by the deputy director of the Ministry of Public Security, He Wenlin.",
+            "description": "The new measures are to be implemented by the end of the month, as confirmed by the deputy director of the Ministry of Public Security, He Wenlin."
+        },
+        {
+            "@id": "ev2",
+            "name": "Dismissal of Ukrainian Ambassador to London",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Dismissal of Ukrainian Ambassador to London",
+            "wd_description": "Ukrainian President Volodymyr Zelenskiy has dismissed Vadym Prystaiko, Ukraine's ambassador to London, following tensions related to comments about Western military aid.",
+            "description": "Ukrainian President Volodymyr Zelenskiy has dismissed Vadym Prystaiko, Ukraine's ambassador to London, following tensions related to comments about Western military aid."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Dismissal Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Dismissal Announcement",
+            "wd_description": "President Zelenskiy announced the dismissal of Vadym Prystaiko without providing an official reason, and he was also removed as Ukraine’s representative to the International Maritime Organization.",
+            "description": "President Zelenskiy announced the dismissal of Vadym Prystaiko without providing an official reason, and he was also removed as Ukraine’s representative to the International Maritime Organization."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Tensions Between Prystaiko and Zelenskiy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tensions Between Prystaiko and Zelenskiy",
+            "wd_description": "Tensions arose when Prystaiko questioned some of President Zelenskiy’s behavior in a Sky News interview, leading to his dismissal.",
+            "description": "Tensions arose when Prystaiko questioned some of President Zelenskiy’s behavior in a Sky News interview, leading to his dismissal."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Context of Western Military Aid",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Context of Western Military Aid",
+            "wd_description": "Prystaiko’s dismissal came shortly after President Zelenskiy was asked to show more gratitude for the military help provided by the West, amidst ongoing criticism that enough is not being said about Ukrainian troops dying on the battlefield.",
+            "description": "Prystaiko’s dismissal came shortly after President Zelenskiy was asked to show more gratitude for the military help provided by the West, amidst ongoing criticism that enough is not being said about Ukrainian troops dying on the battlefield."
+        },
+        {
+            "@id": "ev3",
+            "name": "Deadly Blast in Kostyantynivka, Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Deadly Blast in Kostyantynivka, Ukraine",
+            "wd_description": "A blast in a busy market street in Kostyantynivka, Ukraine, has killed at least 17 people and injured 33 others. President Volodymyr Zelensky condemned the attack, blaming Moscow.",
+            "description": "A blast in a busy market street in Kostyantynivka, Ukraine, has killed at least 17 people and injured 33 others. President Volodymyr Zelensky condemned the attack, blaming Moscow."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Details of the Blast",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Details of the Blast",
+            "wd_description": "The blast occurred on a busy market street in Kostyantynivka in the middle of the day, hitting a market, pharmacy, and shops.",
+            "description": "The blast occurred on a busy market street in Kostyantynivka in the middle of the day, hitting a market, pharmacy, and shops."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "President Zelensky's Condemnation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "President Zelensky's Condemnation",
+            "wd_description": "President Volodymyr Zelensky condemned the attack, calling it a deliberate attack on the peaceful city of Kostyantynivka and blaming Moscow.",
+            "description": "President Volodymyr Zelensky condemned the attack, calling it a deliberate attack on the peaceful city of Kostyantynivka and blaming Moscow."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Casualties and Injuries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Casualties and Injuries",
+            "wd_description": "At least 17 people were killed and 33 others were injured in the blast, with the death toll expected to rise.",
+            "description": "At least 17 people were killed and 33 others were injured in the blast, with the death toll expected to rise."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Investigation Launched",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investigation Launched",
+            "wd_description": "The Prosecutor-General of Ukraine has launched an investigation into the incident, pursuing criminal proceedings for violation of the laws and customs of war.",
+            "description": "The Prosecutor-General of Ukraine has launched an investigation into the incident, pursuing criminal proceedings for violation of the laws and customs of war."
+        },
+        {
+            "@id": "ev4",
+            "name": "Investment in Quebec Cathode Manufacturing Facility",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Investment in Quebec Cathode Manufacturing Facility",
+            "wd_description": "SK On, EcoProBM, and Ford announce an investment of C$1.2 billion to build a cathode manufacturing facility in Bécancour, Quebec, aimed at supplying materials for Ford’s future electric vehicles.",
+            "description": "SK On, EcoProBM, and Ford announce an investment of C$1.2 billion to build a cathode manufacturing facility in Bécancour, Quebec, aimed at supplying materials for Ford’s future electric vehicles."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Facility Construction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Facility Construction",
+            "wd_description": "Construction has begun on the 280,000 square-meter site, which will include a six-floor building and aims to start production in the first half of 2026.",
+            "description": "Construction has begun on the 280,000 square-meter site, which will include a six-floor building and aims to start production in the first half of 2026."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Production Capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Production Capacity",
+            "wd_description": "Once operational, the facility will have the capacity to produce up to 45,000 tonnes of cathode active materials (CAM) per year.",
+            "description": "Once operational, the facility will have the capacity to produce up to 45,000 tonnes of cathode active materials (CAM) per year."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Local Job Creation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Local Job Creation",
+            "wd_description": "The new facility will create approximately 345 new jobs in Quebec, including positions for engineers, sales and service professionals, and co-op students.",
+            "description": "The new facility will create approximately 345 new jobs in Quebec, including positions for engineers, sales and service professionals, and co-op students."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Research and Development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Research and Development",
+            "wd_description": "EcoPro CAM Canada LP will conduct R&D activities to enhance battery safety and performance while minimizing the environmental footprint of its manufacturing process.",
+            "description": "EcoPro CAM Canada LP will conduct R&D activities to enhance battery safety and performance while minimizing the environmental footprint of its manufacturing process."
+        },
+        {
+            "@id": "ev5",
+            "name": "Strategic Importance of North America",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategic Importance of North America",
+            "wd_description": "The investment aligns with SK On’s growth strategy in North America, aiming to secure a stable supply of key battery materials and lead the region’s transition to electric vehicles.",
+            "description": "The investment aligns with SK On’s growth strategy in North America, aiming to secure a stable supply of key battery materials and lead the region’s transition to electric vehicles."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "North American Battery Supply Chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "North American Battery Supply Chain",
+            "wd_description": "The cathode JV will help secure a stable supply of battery raw materials in North America, supporting the growing demand for EVs.",
+            "description": "The cathode JV will help secure a stable supply of battery raw materials in North America, supporting the growing demand for EVs."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "SK On’s Expansion Plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "SK On’s Expansion Plans",
+            "wd_description": "SK On is actively developing its battery supply chain in North America, with plans to increase its annual production capacity in the region to over 180 GWh after 2025.",
+            "description": "SK On is actively developing its battery supply chain in North America, with plans to increase its annual production capacity in the region to over 180 GWh after 2025."
+        },
+        {
+            "@id": "ev6",
+            "name": "EcoProBM’s Global Expansion",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EcoProBM’s Global Expansion",
+            "wd_description": "The investment in Quebec marks EcoProBM’s entry into the North American market, following its expansion in Hungary.",
+            "description": "The investment in Quebec marks EcoProBM’s entry into the North American market, following its expansion in Hungary."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Cathode Material Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cathode Material Production",
+            "wd_description": "EcoProBM aims to mass-produce and supply 45,000 tonnes of cathode materials annually, supporting the production of up to 225,000 electric vehicles.",
+            "description": "EcoProBM aims to mass-produce and supply 45,000 tonnes of cathode materials annually, supporting the production of up to 225,000 electric vehicles."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Contribution to Local Economy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Contribution to Local Economy",
+            "wd_description": "EcoProBM’s presence in Quebec will contribute to the local economy by creating jobs and supporting regional development.",
+            "description": "EcoProBM’s presence in Quebec will contribute to the local economy by creating jobs and supporting regional development."
+        },
+        {
+            "@id": "ev7",
+            "name": "Collaboration with Canadian Government",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Collaboration with Canadian Government",
+            "wd_description": "Support from the federal and provincial governments was crucial in securing the joint investment for Canada and Quebec.",
+            "description": "Support from the federal and provincial governments was crucial in securing the joint investment for Canada and Quebec."
+        },
+        {
+            "@id": "ev7.1",
+            "name": "Federal Support",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Federal Support",
+            "wd_description": "The Canadian federal government provided vital support to attract the investment, positioning Quebec as a key hub in the EV supply chain.",
+            "description": "The Canadian federal government provided vital support to attract the investment, positioning Quebec as a key hub in the EV supply chain."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Provincial Support",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Provincial Support",
+            "wd_description": "The Quebec provincial government played a significant role in facilitating the investment, highlighting the region’s leadership in the green economy.",
+            "description": "The Quebec provincial government played a significant role in facilitating the investment, highlighting the region’s leadership in the green economy."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

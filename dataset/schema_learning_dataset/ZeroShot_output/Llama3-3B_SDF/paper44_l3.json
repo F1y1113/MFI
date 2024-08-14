@@ -1,0 +1,92 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper44_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Battery Recycling Infrastructure Establishment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery Recycling Infrastructure Establishment",
+            "wd_description": "Establishing infrastructure for recycling EV batteries, including Better Place's reverse supply chain network.",
+            "description": "Establishing infrastructure for recycling EV batteries, including Better Place's reverse supply chain network."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Negotiation with Chinese Car Manufacturer",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Negotiation with Chinese Car Manufacturer",
+            "wd_description": "Better Place negotiating with a Chinese car manufacturer to establish a compatible battery infrastructure in China.",
+            "description": "Better Place negotiating with a Chinese car manufacturer to establish a compatible battery infrastructure in China."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Reverse Supply Chain Network Implementation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reverse Supply Chain Network Implementation",
+            "wd_description": "Implementing a reverse supply chain network for recycling EV batteries.",
+            "description": "Implementing a reverse supply chain network for recycling EV batteries."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Future research avenues",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Future research avenues",
+            "wd_description": "The study suggests potential areas for future research in the development of the electric vehicle supply chain and infrastructure.",
+            "description": "The study suggests potential areas for future research in the development of the electric vehicle supply chain and infrastructure."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Competitor analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "petitor analysis",
+            "wd_description": "Future studies should track the growth and technological advancements of Tesla’s competitors to assess market dynamics.",
+            "description": "Future studies should track the growth and technological advancements of Tesla’s competitors to assess market dynamics."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Technological innovations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hnological innovations",
+            "wd_description": "Research should focus on innovations in battery technology and infrastructure to support the growing electric vehicle market.",
+            "description": "Research should focus on innovations in battery technology and infrastructure to support the growing electric vehicle market."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

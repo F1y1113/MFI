@@ -1,0 +1,272 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_6R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Annexation of Ukrainian Regions by Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Annexation of Ukrainian Regions by Russia",
+            "wd_description": "Russia formally annexed four Ukrainian regions, sparking international condemnation and prompting Ukraine to pursue an accelerated bid to join NATO.",
+            "description": "Russia formally annexed four Ukrainian regions, sparking international condemnation and prompting Ukraine to pursue an accelerated bid to join NATO."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Annexation Ceremony",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Annexation Ceremony",
+            "wd_description": "Russian President Vladimir Putin signed \"accession treaties\" with Moscow-installed leaders from four occupied Ukrainian regions at a ceremony in the Kremlin.",
+            "description": "Russian President Vladimir Putin signed \"accession treaties\" with Moscow-installed leaders from four occupied Ukrainian regions at a ceremony in the Kremlin."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Ukraine's NATO Bid",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukraine's NATO Bid",
+            "wd_description": "In response to the annexation, Ukraine launched a fast-track bid to join NATO, with President Volodymyr Zelenskiy describing Ukraine as a \"de-facto\" member of the security bloc.",
+            "description": "In response to the annexation, Ukraine launched a fast-track bid to join NATO, with President Volodymyr Zelenskiy describing Ukraine as a \"de-facto\" member of the security bloc."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "International Reactions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Reactions",
+            "wd_description": "NATO Secretary-General Jens Stoltenberg condemned Russia's annexation as the \"most serious escalation since the start of the war,\" while noting that NATO membership decisions lie with the bloc's 30 members.",
+            "description": "NATO Secretary-General Jens Stoltenberg condemned Russia's annexation as the \"most serious escalation since the start of the war,\" while noting that NATO membership decisions lie with the bloc's 30 members."
+        },
+        {
+            "@id": "ev2",
+            "name": "Study Reveals Impact of Heat on Fetal Health in Gambia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Study Reveals Impact of Heat on Fetal Health in Gambia",
+            "wd_description": "A study found that rising temperatures in the Gambia led to increased fetal heart rates and decreased blood flow to the placenta among women working in fields, highlighting the risks of heat stress for pregnant women and their unborn children.",
+            "description": "A study found that rising temperatures in the Gambia led to increased fetal heart rates and decreased blood flow to the placenta among women working in fields, highlighting the risks of heat stress for pregnant women and their unborn children."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Study Findings on Fetal Health",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Study Findings on Fetal Health",
+            "wd_description": "The study observed that as temperatures rose, fetuses of women working in fields in the Gambia exhibited increased heart rates and decreased blood flow to the placenta, raising concerns about heat stress during pregnancy.",
+            "description": "The study observed that as temperatures rose, fetuses of women working in fields in the Gambia exhibited increased heart rates and decreased blood flow to the placenta, raising concerns about heat stress during pregnancy."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Global Heat Exposure Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global Heat Exposure Concerns",
+            "wd_description": "The study's findings emphasize the risks posed by extreme heat exposure, which is expected to affect hundreds of millions of people, including pregnant women, even if global temperatures stay below the 1.5°C limit.",
+            "description": "The study's findings emphasize the risks posed by extreme heat exposure, which is expected to affect hundreds of millions of people, including pregnant women, even if global temperatures stay below the 1.5°C limit."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Potential Explanations for Heat Stress Effects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Potential Explanations for Heat Stress Effects",
+            "wd_description": "Researchers suggested that heat stress in pregnant women may result from dehydration due to sweating and the diversion of blood and oxygen from the placenta to the skin to cool the body.",
+            "description": "Researchers suggested that heat stress in pregnant women may result from dehydration due to sweating and the diversion of blood and oxygen from the placenta to the skin to cool the body."
+        },
+        {
+            "@id": "ev3",
+            "name": "Shooting at Kurdish Cultural Centre in Paris",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Shooting at Kurdish Cultural Centre in Paris",
+            "wd_description": "A gunman opened fire at a Kurdish Cultural Centre in central Paris, killing three people and wounding others, in what is suspected to be a far-right motivated attack.",
+            "description": "A gunman opened fire at a Kurdish Cultural Centre in central Paris, killing three people and wounding others, in what is suspected to be a far-right motivated attack."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Shooting Incident",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shooting Incident",
+            "wd_description": "A gunman targeted the Kurdish Cultural Centre in central Paris, killing three people and injuring others, with the attack appearing to be directed at the Kurdish community.",
+            "description": "A gunman targeted the Kurdish Cultural Centre in central Paris, killing three people and injuring others, with the attack appearing to be directed at the Kurdish community."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Kurdish Democratic Council's Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Kurdish Democratic Council's Response",
+            "wd_description": "The Kurdish Democratic Council condemned the attack and announced that a vigil would be held to pay tribute to those killed.",
+            "description": "The Kurdish Democratic Council condemned the attack and announced that a vigil would be held to pay tribute to those killed."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Paris Mayor's Statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Paris Mayor's Statement",
+            "wd_description": "Paris Mayor Anne Hidalgo suggested that the attack was carried out by a far-right activist, expressing solidarity with the Kurdish community in Paris.",
+            "description": "Paris Mayor Anne Hidalgo suggested that the attack was carried out by a far-right activist, expressing solidarity with the Kurdish community in Paris."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Murder Investigation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Murder Investigation",
+            "wd_description": "Prosecutors in Paris have launched a murder investigation into the shooting, seeking to determine the motives and background of the attacker.",
+            "description": "Prosecutors in Paris have launched a murder investigation into the shooting, seeking to determine the motives and background of the attacker."
+        },
+        {
+            "@id": "ev4",
+            "name": "BNEF Global Lithium-Ion Battery Supply Chain Ranking Report",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "BNEF Global Lithium-Ion Battery Supply Chain Ranking Report",
+            "wd_description": "China continues to dominate BloombergNEF's (BNEF) global lithium-ion battery supply chain ranking, while Canada rises to the second spot, and the US drops to third, with other countries implementing policies to support battery demand and raw material supply.",
+            "description": "China continues to dominate BloombergNEF's (BNEF) global lithium-ion battery supply chain ranking, while Canada rises to the second spot, and the US drops to third, with other countries implementing policies to support battery demand and raw material supply."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "China’s Dominance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China’s Dominance",
+            "wd_description": "China remains the top-ranked country for the third consecutive year in BNEF’s lithium-ion battery supply chain ranking, hosting 75% of all battery cell manufacturing capacity and leading in anode and electrolyte production.",
+            "description": "China remains the top-ranked country for the third consecutive year in BNEF’s lithium-ion battery supply chain ranking, hosting 75% of all battery cell manufacturing capacity and leading in anode and electrolyte production."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Canada’s Rise",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Canada’s Rise",
+            "wd_description": "Canada rose to the second spot in the ranking, reflecting its large raw material resources, mining activity, and strong performance in ESG and infrastructure, innovation, and industry.",
+            "description": "Canada rose to the second spot in the ranking, reflecting its large raw material resources, mining activity, and strong performance in ESG and infrastructure, innovation, and industry."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "US Position",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US Position",
+            "wd_description": "The US dropped to third place despite strong battery demand and the benefits of the Inflation Reduction Act, which is expected to change the supply landscape and increase production capacity.",
+            "description": "The US dropped to third place despite strong battery demand and the benefits of the Inflation Reduction Act, which is expected to change the supply landscape and increase production capacity."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "European Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "European Trends",
+            "wd_description": "Most European countries declined in their rankings, with Finland and Czechia being exceptions. Finland placed highest in Europe due to its growing battery metals supply chain and clean grid.",
+            "description": "Most European countries declined in their rankings, with Finland and Czechia being exceptions. Finland placed highest in Europe due to its growing battery metals supply chain and clean grid."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "South American Declines",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "South American Declines",
+            "wd_description": "South American countries, notably Brazil and Bolivia, saw declines in their rankings due to poor ESG performance and lack of domestic battery manufacturing capabilities.",
+            "description": "South American countries, notably Brazil and Bolivia, saw declines in their rankings due to poor ESG performance and lack of domestic battery manufacturing capabilities."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Resource-Rich Countries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Resource-Rich Countries",
+            "wd_description": "Resource-rich countries like Indonesia, Chile, South Africa, and the Democratic Republic of Congo are seeking to attract downstream investment to build domestic lithium-ion battery supply chains.",
+            "description": "Resource-rich countries like Indonesia, Chile, South Africa, and the Democratic Republic of Congo are seeking to attract downstream investment to build domestic lithium-ion battery supply chains."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

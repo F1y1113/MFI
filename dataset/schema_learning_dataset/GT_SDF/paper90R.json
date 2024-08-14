@@ -1,0 +1,605 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper90R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Critical minerals in lithium-ion batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Critical minerals in lithium-ion batteries",
+            "wd_description": "Critical minerals like cobalt and manganese play essential roles in lithium-ion batteries, influencing their performance, safety, and sustainability. However, their extraction and supply chains pose significant political, environmental, and social challenges.",
+            "description": "Critical minerals like cobalt and manganese play essential roles in lithium-ion batteries, influencing their performance, safety, and sustainability. However, their extraction and supply chains pose significant political, environmental, and social challenges."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Cobalt",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/1L9VoSq66C/Role-of-cobalt-in-lithium-ion-batteries",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt",
+            "wd_description": "Cobalt improves battery safety and energy density but comes with political, environmental, social, and governance risks due to its concentrated production in the DRC and control by Chinese investors.",
+            "description": "Cobalt improves battery safety and energy density but comes with political, environmental, social, and governance risks due to its concentrated production in the DRC and control by Chinese investors."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Thermal stability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Thermal stability",
+            "wd_description": "Cobalt enhances the thermal stability of lithium-ion batteries, contributing to their safety.",
+            "description": "Cobalt enhances the thermal stability of lithium-ion batteries, contributing to their safety."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Energy density",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy density",
+            "wd_description": "Cobalt increases the energy density of lithium-ion batteries, extending their lifespan and capacity.",
+            "description": "Cobalt increases the energy density of lithium-ion batteries, extending their lifespan and capacity."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "Political risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/FLrbopkUR/Political-and-ESG-risks-of-cobalt",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Political risks",
+            "wd_description": "The concentration of cobalt production in the DRC and control by Chinese investors introduce significant political risks.",
+            "description": "The concentration of cobalt production in the DRC and control by Chinese investors introduce significant political risks."
+        },
+        {
+            "@id": "ev1.1.3.1",
+            "name": "DRC cobalt production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "DRC cobalt production",
+            "wd_description": "Two-thirds of global cobalt production occurs in the DRC, a country with poor resource governance and unsafe artisanal mining practices.",
+            "description": "Two-thirds of global cobalt production occurs in the DRC, a country with poor resource governance and unsafe artisanal mining practices."
+        },
+        {
+            "@id": "ev1.1.3.2",
+            "name": "Chinese control",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese control",
+            "wd_description": "Chinese investors control 70 percent of the DRC's mining sector and refine 80 percent of global cobalt supply, adding to the political risk.",
+            "description": "Chinese investors control 70 percent of the DRC's mining sector and refine 80 percent of global cobalt supply, adding to the political risk."
+        },
+        {
+            "@id": "ev1.1.4",
+            "name": "ESG risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/FLrbopkUR/Political-and-ESG-risks-of-cobalt",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ESG risks",
+            "wd_description": "Cobalt mining in the DRC is associated with environmental, social, and governance (ESG) reputational risks, including unsafe conditions and child labor.",
+            "description": "Cobalt mining in the DRC is associated with environmental, social, and governance (ESG) reputational risks, including unsafe conditions and child labor."
+        },
+        {
+            "@id": "ev1.1.4.1",
+            "name": "Unsafe conditions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unsafe conditions",
+            "wd_description": "Artisanal mining in the DRC often involves unsafe working conditions.",
+            "description": "Artisanal mining in the DRC often involves unsafe working conditions."
+        },
+        {
+            "@id": "ev1.1.4.2",
+            "name": "Child labor",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Child labor",
+            "wd_description": "The use of child labor in artisanal mining in the DRC poses significant social and governance risks.",
+            "description": "The use of child labor in artisanal mining in the DRC poses significant social and governance risks."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Manganese",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/1qSNxRo9e4/Manganese-in-lithium-ion-batteries-and-its-primary-use",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Manganese",
+            "wd_description": "Manganese is another critical mineral for lithium-ion batteries, primarily used in steelmaking. China controls 93 percent of global refining, leading to supply chain vulnerabilities.",
+            "description": "Manganese is another critical mineral for lithium-ion batteries, primarily used in steelmaking. China controls 93 percent of global refining, leading to supply chain vulnerabilities."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Steelmaking",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Steelmaking",
+            "wd_description": "Manganese is primarily used in steelmaking, accounting for roughly 90 percent of its total demand.",
+            "description": "Manganese is primarily used in steelmaking, accounting for roughly 90 percent of its total demand."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Supply chain disruptions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply chain disruptions",
+            "wd_description": "Power shortages in China disrupted the manganese supply chain, causing supply issues for European users.",
+            "description": "Power shortages in China disrupted the manganese supply chain, causing supply issues for European users."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Supply chain optimization",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/yfReyrScL/Optimization-of-supply-chains-to-reduce-critical-mineral-intensity",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply chain optimization",
+            "wd_description": "Optimizing existing technologies in line with supply chain realities can reduce the critical mineral intensity of lithium-ion batteries, focusing on reducing cobalt and graphite use.",
+            "description": "Optimizing existing technologies in line with supply chain realities can reduce the critical mineral intensity of lithium-ion batteries, focusing on reducing cobalt and graphite use."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Cobalt reduction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt reduction",
+            "wd_description": "Reducing the cobalt content in lithium-ion batteries can mitigate some of the supply chain challenges and risks.",
+            "description": "Reducing the cobalt content in lithium-ion batteries can mitigate some of the supply chain challenges and risks."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Graphite reduction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Graphite reduction",
+            "wd_description": "Reducing the use of graphite in lithium-ion batteries can also help in addressing supply chain challenges.",
+            "description": "Reducing the use of graphite in lithium-ion batteries can also help in addressing supply chain challenges."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "New cathode materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/XJuocJ1uN/Development-of-new-cathode-materials",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "New cathode materials",
+            "wd_description": "New cathode materials, such as LG's NMC 811 and Ultium Cells' cathodes, aim to reduce the reliance on cobalt and other critical minerals in lithium-ion batteries.",
+            "description": "New cathode materials, such as LG's NMC 811 and Ultium Cells' cathodes, aim to reduce the reliance on cobalt and other critical minerals in lithium-ion batteries."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "NMC 811",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC 811",
+            "wd_description": "LG's NMC 811 cathode material contains eight parts nickel and one part each of cobalt and magnesium, reducing the reliance on cobalt.",
+            "description": "LG's NMC 811 cathode material contains eight parts nickel and one part each of cobalt and magnesium, reducing the reliance on cobalt."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Ultium Cells",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ultium Cells",
+            "wd_description": "Ultium Cells' cathodes, used in GM's EVs, further reduce the need for cobalt and magnesium with a composition of seventeen parts nickel to one part each of cobalt, magnesium, and aluminum.",
+            "description": "Ultium Cells' cathodes, used in GM's EVs, further reduce the need for cobalt and magnesium with a composition of seventeen parts nickel to one part each of cobalt, magnesium, and aluminum."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "Cobalt-free batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt-free batteries",
+            "wd_description": "Cobalt-free batteries, such as LFP (lithium-iron-phosphate) batteries, offer a less mineral-intensive alternative, though with reduced energy density.",
+            "description": "Cobalt-free batteries, such as LFP (lithium-iron-phosphate) batteries, offer a less mineral-intensive alternative, though with reduced energy density."
+        },
+        {
+            "@id": "ev2",
+            "name": "Expansion of battery material inputs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper90R/Event/1xDUdzs7uw/Expansion-of-battery-material-inputs-for-sustainability",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Expansion of battery material inputs",
+            "wd_description": "Expanding battery material inputs to include less environmentally intensive materials like salt, sulfur, silicon, or calcium can improve the sustainability of clean energy value chains.",
+            "description": "Expanding battery material inputs to include less environmentally intensive materials like salt, sulfur, silicon, or calcium can improve the sustainability of clean energy value chains."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Alternative battery metals",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Alternative battery metals",
+            "wd_description": "Materials such as salt, sulfur, silicon, and calcium can be integrated into the battery supply chain, reducing environmental impact and improving sustainability.",
+            "description": "Materials such as salt, sulfur, silicon, and calcium can be integrated into the battery supply chain, reducing environmental impact and improving sustainability."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Sustainable mining practices and sourcing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable mining practices",
+            "wd_description": "Integrating best-in-class mining practices from countries like the United States, Canada, and Australia can enhance the sustainability credentials of battery mineral supply chains.",
+            "description": "Integrating best-in-class mining practices from countries like the United States, Canada, and Australia can enhance the sustainability credentials of battery mineral supply chains."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "US mining industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US mining industry",
+            "wd_description": "The US mining industry can provide sustainably mined minerals for battery production.",
+            "description": "The US mining industry can provide sustainably mined minerals for battery production."
+        },
+        {
+            "@id": "paper90R/Event/1L9VoSq66C/Role-of-cobalt-in-lithium-ion-batteries",
+            "name": "Role of cobalt in lithium ion batteries",
+            "ta1explanation": "",
+            "description": "Cobalt improves battery safety by increasing thermal stability and energy density, enhancing the lifespan and capacity of lithium-ion batteries.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        },
+        {
+            "@id": "paper90R/Event/FLrbopkUR/Political-and-ESG-risks-of-cobalt",
+            "name": "Political and ESG risks of cobalt",
+            "ta1explanation": "",
+            "description": "Cobalt production is concentrated in the DRC, which faces political risks, poor resource governance, unsafe mining conditions, and child labor. Additionally, Chinese control over DRC's mining sector and global cobalt refining presents geopolitical risks.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        },
+        {
+            "@id": "paper90R/Event/1qSNxRo9e4/Manganese-in-lithium-ion-batteries-and-its-primary-use",
+            "name": "Manganese in lithium ion batteries and its primary use",
+            "ta1explanation": "",
+            "description": "Manganese is another critical mineral, primarily used in steelmaking. China controls 93% of global manganese refining, leading to supply chain disruptions, as seen during power shortages in 2021.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        },
+        {
+            "@id": "paper90R/Event/yfReyrScL/Optimization-of-supply-chains-to-reduce-critical-mineral-intensity",
+            "name": "Optimization of supply chains to reduce critical mineral intensity",
+            "ta1explanation": "",
+            "description": "Reducing the intensity of problematic minerals like cobalt and graphite is essential for optimizing supply chains.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        },
+        {
+            "@id": "paper90R/Event/XJuocJ1uN/Development-of-new-cathode-materials",
+            "name": "Development of new cathode materials",
+            "ta1explanation": "",
+            "description": "New cathode materials, such as NMC 811 and Ultium Cells, reduce the need for cobalt and magnesium. Cobalt-free batteries like LFP offer less mineral-intensive alternatives.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        },
+        {
+            "@id": "paper90R/Event/1xDUdzs7uw/Expansion-of-battery-material-inputs-for-sustainability",
+            "name": "Expansion of battery material inputs for sustainability",
+            "ta1explanation": "",
+            "description": "Expanding battery material inputs to include alternatives like salt, sulfur, silicon, or calcium can reduce environmental impact and integrate easily into existing mining activities.",
+            "wd_node": "paper90",
+            "wd_label": "paper90",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3.1",
+            "relationObject": "ev1.1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3.1",
+            "relationObject": "ev1.1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3.1",
+            "relationObject": "ev1.1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.4.1",
+            "relationObject": "ev1.1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.4.1",
+            "relationObject": "ev1.1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.4.1",
+            "relationObject": "ev1.1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        }
+    ],
+    "entities": []
+}

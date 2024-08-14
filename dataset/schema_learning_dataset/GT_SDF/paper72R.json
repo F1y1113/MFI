@@ -1,0 +1,351 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper72R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Policy objectives of the IRA tax credits",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper72/Event/1opErEOgl4/Political-economic-forces-for-sustainable-policy",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy objectives of the IRA tax credits",
+            "wd_description": "The Inflation Reduction Act (IRA) includes consumer tax credits and aims to achieve broader objectives, addressing the pre-IRA economic and policy equilibrium and making the green energy transition sustainable against political reversals.",
+            "description": "The Inflation Reduction Act (IRA) includes consumer tax credits and aims to achieve broader objectives, addressing the pre-IRA economic and policy equilibrium and making the green energy transition sustainable against political reversals."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Consumer tax credits",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Consumer tax credits",
+            "wd_description": "The IRA includes provisions for consumer tax credits to incentivize the adoption of green energy.",
+            "description": "The IRA includes provisions for consumer tax credits to incentivize the adoption of green energy."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Addressing pre-IRA equilibrium",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Addressing pre-IRA equilibrium",
+            "wd_description": "The US government perceived the pre-IRA economic and policy equilibrium as dominated by China, requiring a strategic shift to counteract this dominance.",
+            "description": "The US government perceived the pre-IRA economic and policy equilibrium as dominated by China, requiring a strategic shift to counteract this dominance."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Sustainable policy transition",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable policy transition",
+            "wd_description": "The IRA aims to make the green energy transition sustainable and prevent political reversals similar to the US withdrawal from the Paris Agreement in 2017.",
+            "description": "The IRA aims to make the green energy transition sustainable and prevent political reversals similar to the US withdrawal from the Paris Agreement in 2017."
+        },
+        {
+            "@id": "ev2",
+            "name": "Impact on the US ICE automobile industry and at-risk jobs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper72/Event/3Pcnb6O4Mk/Jobs-at-risk-due-to-ICE-to-EV-transition",
+                    "importance": 1
+                },
+                {
+                    "child": "paper72/Event/myhH7dP2Z/Impact-on-politically-important-swing-states",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact on the US ICE automobile industry and at-risk jobs",
+            "wd_description": "The transition from ICE vehicles to EVs poses a risk to hundreds of thousands of jobs in the US, particularly in politically important swing states like Michigan and Ohio, affecting communities that have suffered significant economic losses since 2001.",
+            "description": "The transition from ICE vehicles to EVs poses a risk to hundreds of thousands of jobs in the US, particularly in politically important swing states like Michigan and Ohio, affecting communities that have suffered significant economic losses since 2001."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "ICE to EV transition",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ICE to EV transition",
+            "wd_description": "The transition from internal combustion engine (ICE) vehicles to electric vehicles (EVs) involves different corporate players and inputs.",
+            "description": "The transition from internal combustion engine (ICE) vehicles to electric vehicles (EVs) involves different corporate players and inputs."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "At-risk jobs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "At-risk jobs",
+            "wd_description": "The transition puts hundreds of thousands of jobs at risk, particularly in the ICE automobile industry.",
+            "description": "The transition puts hundreds of thousands of jobs at risk, particularly in the ICE automobile industry."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Impact on swing states",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on swing states",
+            "wd_description": "Many of the at-risk jobs are in politically important swing states like Michigan and Ohio, affecting communities that have experienced large economic losses since 2001.",
+            "description": "Many of the at-risk jobs are in politically important swing states like Michigan and Ohio, affecting communities that have experienced large economic losses since 2001."
+        },
+        {
+            "@id": "ev3",
+            "name": "US perception of China's dominance in the pre-IRA equilibrium",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper72/Event/2Ozk34dOn0/Supply-side-policies-of-China-for-batteries",
+                    "importance": 1
+                },
+                {
+                    "child": "paper72/Event/kR5067Io2/High-import-tariffs-and-local-protection",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US perception of China's dominance in the pre-IRA equilibrium",
+            "wd_description": "The US perceived the pre-IRA equilibrium as dominated by China, which subsidized EVs and prioritized the sector as part of its \"Made in China 2025\" industrial policy, discriminating in favor of indigenous firms and imposing high import tariffs.",
+            "description": "The US perceived the pre-IRA equilibrium as dominated by China, which subsidized EVs and prioritized the sector as part of its \"Made in China 2025\" industrial policy, discriminating in favor of indigenous firms and imposing high import tariffs."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "China's EV subsidies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's EV subsidies",
+            "wd_description": "China subsidized EVs as part of its strategy to dominate the sector.",
+            "description": "China subsidized EVs as part of its strategy to dominate the sector."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Made in China 2025",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Made in China 2025",
+            "wd_description": "The \"Made in China 2025\" industrial policy prioritized the EV sector and aimed to boost domestic production.",
+            "description": "The \"Made in China 2025\" industrial policy prioritized the EV sector and aimed to boost domestic production."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Discriminatory policies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Discriminatory policies",
+            "wd_description": "China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms.",
+            "description": "China's supply-side policies for batteries were alleged to discriminate in favor of indigenous firms."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "High import tariffs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "High import tariffs",
+            "wd_description": "China's high import tariffs protected local firms from foreign competition.",
+            "description": "China's high import tariffs protected local firms from foreign competition."
+        },
+        {
+            "@id": "paper72/Event/1opErEOgl4/Political-economic-forces-for-sustainable-policy",
+            "name": "Political economic forces for sustainable policy",
+            "ta1explanation": "",
+            "description": "The IRA aims to create a sustainable policy transition for green energy that is resistant to political reversals, similar to the withdrawal from the Paris Agreement in 2017.",
+            "wd_node": "paper72",
+            "wd_label": "paper72",
+            "participants": []
+        },
+        {
+            "@id": "paper72/Event/3Pcnb6O4Mk/Jobs-at-risk-due-to-ICE-to-EV-transition",
+            "name": "Jobs at risk due to ICE to EV transition",
+            "ta1explanation": "",
+            "description": "The transition from ICE vehicles to EVs puts hundreds of thousands of jobs at risk, particularly in swing states like Michigan and Ohio.",
+            "wd_node": "paper72",
+            "wd_label": "paper72",
+            "participants": []
+        },
+        {
+            "@id": "paper72/Event/myhH7dP2Z/Impact-on-politically-important-swing-states",
+            "name": "Impact on politically important swing states",
+            "ta1explanation": "",
+            "description": "Many of the at-risk jobs are located in swing states, influencing political discussions and policy decisions.",
+            "wd_node": "paper72",
+            "wd_label": "paper72",
+            "participants": []
+        },
+        {
+            "@id": "paper72/Event/2Ozk34dOn0/Supply-side-policies-of-China-for-batteries",
+            "name": "Supply side policies of China for batteries",
+            "ta1explanation": "",
+            "description": "China's policies are alleged to favor indigenous firms and include high import tariffs, providing local protection and an advantage in the EV market.",
+            "wd_node": "paper72",
+            "wd_label": "paper72",
+            "participants": []
+        },
+        {
+            "@id": "paper72/Event/kR5067Io2/High-import-tariffs-and-local-protection",
+            "name": "High import tariffs and local protection",
+            "ta1explanation": "",
+            "description": "China imposes high import tariffs that protect local producers from foreign competition.",
+            "wd_node": "paper72",
+            "wd_label": "paper72",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3",
+            "relationObject": "ev3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3",
+            "relationObject": "ev3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3",
+            "relationObject": "ev3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3",
+            "relationObject": "ev3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3",
+            "relationObject": "ev3.4"
+        }
+    ],
+    "entities": []
+}

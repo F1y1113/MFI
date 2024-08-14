@@ -1,0 +1,401 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_26R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Shenzhen enforces lockdowns due to Covid cases",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Shenzhen enforces lockdowns due to Covid cases",
+            "wd_description": "Shenzhen, China, shut down the world's largest electronics market and suspended public transport in response to a small number of Covid cases, enforcing neighborhood-wide lockdowns.",
+            "description": "Shenzhen, China, shut down the world's largest electronics market and suspended public transport in response to a small number of Covid cases, enforcing neighborhood-wide lockdowns."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "lockdown of Huaqianbei market",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lockdown of Huaqianbei market",
+            "wd_description": "Huaqianbei, a busy shopping area with thousands of stalls selling electronic components, was placed under a mandatory four-day lockdown.",
+            "description": "Huaqianbei, a busy shopping area with thousands of stalls selling electronic components, was placed under a mandatory four-day lockdown."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "zero-Covid measures",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "zero-Covid measures",
+            "wd_description": "China continues to enforce stringent zero-Covid measures, with Shenzhen implementing strict lockdowns in response to Covid cases.",
+            "description": "China continues to enforce stringent zero-Covid measures, with Shenzhen implementing strict lockdowns in response to Covid cases."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "suspension of businesses",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "suspension of businesses",
+            "wd_description": "Except for supermarkets, pharmacies, and hospitals, all businesses in the affected area were shut down through Thursday, with restaurant dining suspended and only takeaways allowed.",
+            "description": "Except for supermarkets, pharmacies, and hospitals, all businesses in the affected area were shut down through Thursday, with restaurant dining suspended and only takeaways allowed."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "identification of high-risk areas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "identification of high-risk areas",
+            "wd_description": "Dozens of neighborhoods across Shenzhen were identified as high-risk areas and placed under strict lockdown orders.",
+            "description": "Dozens of neighborhoods across Shenzhen were identified as high-risk areas and placed under strict lockdown orders."
+        },
+        {
+            "@id": "ev2",
+            "name": "Nancy Pelosi's visit to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nancy Pelosi's visit to Taiwan",
+            "wd_description": "US House Speaker Nancy Pelosi visited Taiwan, marking the most senior US politician visit in 25 years, prompting strong reactions from China.",
+            "description": "US House Speaker Nancy Pelosi visited Taiwan, marking the most senior US politician visit in 25 years, prompting strong reactions from China."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Pelosi's visit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pelosi's visit",
+            "wd_description": "Nancy Pelosi, the most senior US politician to visit Taiwan in 25 years, met with leaders in Taipei's capital.",
+            "description": "Nancy Pelosi, the most senior US politician to visit Taiwan in 25 years, met with leaders in Taipei's capital."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Chinese government's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese government's response",
+            "wd_description": "The Chinese government accused the United States of violating China’s sovereignty under the guise of democracy, with Foreign Minister Wang Yi issuing a warning.",
+            "description": "The Chinese government accused the United States of violating China’s sovereignty under the guise of democracy, with Foreign Minister Wang Yi issuing a warning."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Pelosi's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pelosi's statement",
+            "wd_description": "Nancy Pelosi stated that China cannot prevent world leaders from traveling to Taiwan to respect its democracy, highlight its successes, and reaffirm commitment to collaboration.",
+            "description": "Nancy Pelosi stated that China cannot prevent world leaders from traveling to Taiwan to respect its democracy, highlight its successes, and reaffirm commitment to collaboration."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Biden's disapproval",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's disapproval",
+            "wd_description": "President Joe Biden, Pelosi's party colleague, did not approve of her visit, stating that the American military felt it was \"not a good idea right now\" due to high tensions with China.",
+            "description": "President Joe Biden, Pelosi's party colleague, did not approve of her visit, stating that the American military felt it was \"not a good idea right now\" due to high tensions with China."
+        },
+        {
+            "@id": "ev3",
+            "name": "Severe Flooding in Sydney",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe Flooding in Sydney",
+            "wd_description": "Thousands of people in low-lying areas around Sydney were forced to evacuate due to the third severe flooding storm since March, with significant rainfall and river breaches.",
+            "description": "Thousands of people in low-lying areas around Sydney were forced to evacuate due to the third severe flooding storm since March, with significant rainfall and river breaches."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Flooding Storm",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Flooding Storm",
+            "wd_description": "The storm caused the Hawkesbury-Nepean River to breach flood levels and the Warragamba Dam to spill earlier than expected.",
+            "description": "The storm caused the Hawkesbury-Nepean River to breach flood levels and the Warragamba Dam to spill earlier than expected."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Emergency Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Emergency Response",
+            "wd_description": "The State Emergency Service responded to over 1,400 help requests and conducted 29 water rescues within 24 hours due to the flooding.",
+            "description": "The State Emergency Service responded to over 1,400 help requests and conducted 29 water rescues within 24 hours due to the flooding."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Continued Storm Activity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Continued Storm Activity",
+            "wd_description": "The storm is expected to persist until Tuesday, bringing more heavy rain, damaging winds, and shoreline erosion.",
+            "description": "The storm is expected to persist until Tuesday, bringing more heavy rain, damaging winds, and shoreline erosion."
+        },
+        {
+            "@id": "ev4",
+            "name": "EV battery supply chain transformation under the Inflation Reduction Act of 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain transformation under the Inflation Reduction Act of 2022",
+            "wd_description": "The Inflation Reduction Act of 2022 aims to spur EV adoption by providing tax credits, but its success depends on overcoming the current reliance on battery materials and components from China.",
+            "description": "The Inflation Reduction Act of 2022 aims to spur EV adoption by providing tax credits, but its success depends on overcoming the current reliance on battery materials and components from China."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "tax credit requirements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "tax credit requirements",
+            "wd_description": "To qualify for the tax credit, EV batteries and key minerals must be sourced from the US or free-trade partners, with increasing percentages over time.",
+            "description": "To qualify for the tax credit, EV batteries and key minerals must be sourced from the US or free-trade partners, with increasing percentages over time."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: critical minerals sourcing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: critical minerals sourcing",
+            "wd_description": "Starting in 2023, 40% of critical minerals in EV batteries must be sourced from the US or free-trade partners, increasing to 80% by 2026.",
+            "description": "Starting in 2023, 40% of critical minerals in EV batteries must be sourced from the US or free-trade partners, increasing to 80% by 2026."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: battery manufacturing location",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: battery manufacturing location",
+            "wd_description": "Starting in 2023, 50% of battery components must be manufactured or assembled in North America, reaching 100% by 2029.",
+            "description": "Starting in 2023, 50% of battery components must be manufactured or assembled in North America, reaching 100% by 2029."
+        },
+        {
+            "@id": "ev4.1.3",
+            "name": "t: exclusion of foreign entities of concern",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: exclusion of foreign entities of concern",
+            "wd_description": "From 2024, any mining, processing, or manufacturing by a foreign entity of concern will disqualify a vehicle from tax credits, with this requirement extending to critical minerals in 2025.",
+            "description": "From 2024, any mining, processing, or manufacturing by a foreign entity of concern will disqualify a vehicle from tax credits, with this requirement extending to critical minerals in 2025."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "challenges in sourcing materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "challenges in sourcing materials",
+            "wd_description": "The reliance on China for lithium-ion battery cells and critical minerals poses a significant challenge to meeting the tax credit requirements.",
+            "description": "The reliance on China for lithium-ion battery cells and critical minerals poses a significant challenge to meeting the tax credit requirements."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: China's dominance in battery materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: China's dominance in battery materials",
+            "wd_description": "China currently produces 80% of lithium-ion battery cells and dominates the supply chain for critical minerals, making it difficult for the US to source these materials domestically.",
+            "description": "China currently produces 80% of lithium-ion battery cells and dominates the supply chain for critical minerals, making it difficult for the US to source these materials domestically."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: difficulty in sourcing specific minerals",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: difficulty in sourcing specific minerals",
+            "wd_description": "Sourcing minerals like graphite, lithium, and nickel is challenging due to processing locations and lack of free-trade agreements with key suppliers.",
+            "description": "Sourcing minerals like graphite, lithium, and nickel is challenging due to processing locations and lack of free-trade agreements with key suppliers."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "t: time required to establish new mines",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: time required to establish new mines",
+            "wd_description": "Building new mining operations can take upwards of seven years, making it difficult to quickly increase domestic supply of critical minerals.",
+            "description": "Building new mining operations can take upwards of seven years, making it difficult to quickly increase domestic supply of critical minerals."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "impact on EV sales",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "impact on EV sales",
+            "wd_description": "The tax credits could have a limited impact on EV sales in the near term due to the challenges in meeting the new requirements.",
+            "description": "The tax credits could have a limited impact on EV sales in the near term due to the challenges in meeting the new requirements."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: uncertainty of US companies' response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: uncertainty of US companies' response",
+            "wd_description": "It is uncertain how quickly US companies will be able to scale up production and sourcing to meet the new requirements.",
+            "description": "It is uncertain how quickly US companies will be able to scale up production and sourcing to meet the new requirements."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: limited short-term impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: limited short-term impact",
+            "wd_description": "The tax credits might not significantly boost EV sales in the near term if qualifying batteries and minerals are in short supply.",
+            "description": "The tax credits might not significantly boost EV sales in the near term if qualifying batteries and minerals are in short supply."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "support programs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "support programs",
+            "wd_description": "Other supporting programs in the Inflation Reduction Act, like production tax credits and loans for building new factories, are crucial to transforming the supply chain.",
+            "description": "Other supporting programs in the Inflation Reduction Act, like production tax credits and loans for building new factories, are crucial to transforming the supply chain."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: production tax credits",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: production tax credits",
+            "wd_description": "Production tax credits in the Inflation Reduction Act support domestic battery manufacturing.",
+            "description": "Production tax credits in the Inflation Reduction Act support domestic battery manufacturing."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: loans for new factories",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: loans for new factories",
+            "wd_description": "Loans for building new factories are essential to establishing a robust domestic battery supply chain.",
+            "description": "Loans for building new factories are essential to establishing a robust domestic battery supply chain."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

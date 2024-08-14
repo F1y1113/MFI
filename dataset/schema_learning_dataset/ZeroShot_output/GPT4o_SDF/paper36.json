@@ -1,0 +1,301 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper36",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The supply chain for EV batteries involves multiple elements, including material availability, market demand, and geopolitical factors. This complex network faces various risks and challenges that impact the overall supply and stability of EV batteries.",
+            "description": "The supply chain for EV batteries involves multiple elements, including material availability, market demand, and geopolitical factors. This complex network faces various risks and challenges that impact the overall supply and stability of EV batteries."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "market dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "market dynamics",
+            "wd_description": "Market dynamics in the EV battery supply chain are influenced by supply-demand imbalances, price volatility, and evolving regulations. These factors can disrupt the supply chain and affect the availability of materials needed for EV batteries.",
+            "description": "Market dynamics in the EV battery supply chain are influenced by supply-demand imbalances, price volatility, and evolving regulations. These factors can disrupt the supply chain and affect the availability of materials needed for EV batteries."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "supply-demand imbalance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "supply-demand imbalance",
+            "wd_description": "Imbalances between supply and demand in the EV battery market can cause short-term disruptions and long-term volatility, impacting material availability and prices.",
+            "description": "Imbalances between supply and demand in the EV battery market can cause short-term disruptions and long-term volatility, impacting material availability and prices."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "price volatility",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "price volatility",
+            "wd_description": "Price volatility in the market can lead to economic uncertainty and impact investment decisions in the EV battery supply chain.",
+            "description": "Price volatility in the market can lead to economic uncertainty and impact investment decisions in the EV battery supply chain."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "evolving regulations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "evolving regulations",
+            "wd_description": "Changes in regulations in response to market dynamics can alter the economic landscape and affect the supply chain for EV batteries.",
+            "description": "Changes in regulations in response to market dynamics can alter the economic landscape and affect the supply chain for EV batteries."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "material demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "material demand",
+            "wd_description": "The demand for materials like cobalt (Co) is driven by their use in lithium-ion batteries (LIBs) for EVs. As the market for EVs grows, so does the demand for these critical materials.",
+            "description": "The demand for materials like cobalt (Co) is driven by their use in lithium-ion batteries (LIBs) for EVs. As the market for EVs grows, so does the demand for these critical materials."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Co demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Co demand",
+            "wd_description": "The demand for cobalt is significant due to its use in LIBs, with EVs and consumer electronics being the largest consumers of this material.",
+            "description": "The demand for cobalt is significant due to its use in LIBs, with EVs and consumer electronics being the largest consumers of this material."
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "LIB usage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LIB usage",
+            "wd_description": "Cobalt is a critical component in lithium-ion batteries, which are essential for the functioning of EVs and other electronic devices.",
+            "description": "Cobalt is a critical component in lithium-ion batteries, which are essential for the functioning of EVs and other electronic devices."
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "consumer electronics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "consumer electronics",
+            "wd_description": "Consumer electronics also drive demand for cobalt due to their reliance on lithium-ion batteries for power.",
+            "description": "Consumer electronics also drive demand for cobalt due to their reliance on lithium-ion batteries for power."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "EV market growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV market growth",
+            "wd_description": "The growing market for EVs is expected to increase significantly as costs for EVs become comparable to internal combustion engine vehicles.",
+            "description": "The growing market for EVs is expected to increase significantly as costs for EVs become comparable to internal combustion engine vehicles."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "geopolitical factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "geopolitical factors",
+            "wd_description": "Geopolitical factors, such as mining concentration in specific regions and political instability, heavily influence the supply of materials for EV batteries.",
+            "description": "Geopolitical factors, such as mining concentration in specific regions and political instability, heavily influence the supply of materials for EV batteries."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "mining concentration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "mining concentration",
+            "wd_description": "A significant portion of cobalt mining is concentrated in the Democratic Republic of the Congo (DRC), leading to supply chain risks due to regional instability.",
+            "description": "A significant portion of cobalt mining is concentrated in the Democratic Republic of the Congo (DRC), leading to supply chain risks due to regional instability."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "political instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "political instability",
+            "wd_description": "Political and social issues in regions like the DRC can lead to supply constraints and price increases for critical materials like cobalt.",
+            "description": "Political and social issues in regions like the DRC can lead to supply constraints and price increases for critical materials like cobalt."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

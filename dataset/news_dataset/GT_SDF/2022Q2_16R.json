@@ -1,0 +1,324 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_16R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Andrey Melnichenko transfers ownership",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Andrey Melnichenko transfers ownership",
+            "wd_description": "Russian businessman Andrey Melnichenko transferred ownership of two of the world's largest coal and fertilizer companies to his wife the day before he was sanctioned by the European Union.",
+            "description": "Russian businessman Andrey Melnichenko transferred ownership of two of the world's largest coal and fertilizer companies to his wife the day before he was sanctioned by the European Union."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Ownership transfer details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ownership transfer details",
+            "wd_description": "Legal filings show Melnichenko owned the companies through a chain of trusts and corporations from Moscow to Zug, Cyprus, and Bermuda. He made his wife the beneficiary upon his retirement.",
+            "description": "Legal filings show Melnichenko owned the companies through a chain of trusts and corporations from Moscow to Zug, Cyprus, and Bermuda. He made his wife the beneficiary upon his retirement."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Sanction concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanction concerns",
+            "wd_description": "Following Russia's invasion of Ukraine, Melnichenko was concerned about being sanctioned by the EU, leading to the transfer of ownership to his wife.",
+            "description": "Following Russia's invasion of Ukraine, Melnichenko was concerned about being sanctioned by the EU, leading to the transfer of ownership to his wife."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Melnichenko's wealth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Melnichenko's wealth",
+            "wd_description": "Melnichenko, with an estimated fortune of $18 billion, was ranked as Russia's eighth richest man by Forbes last year.",
+            "description": "Melnichenko, with an estimated fortune of $18 billion, was ranked as Russia's eighth richest man by Forbes last year."
+        },
+        {
+            "@id": "ev2",
+            "name": "Ukrainian refugees escape Azovstal plant",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukrainian refugees escape Azovstal plant",
+            "wd_description": "Ukrainian refugees stuck within the Azovstal steel and iron plant in Mariupol recount horror stories after escaping the tunnels and underground areas amidst Russian advancements.",
+            "description": "Ukrainian refugees stuck within the Azovstal steel and iron plant in Mariupol recount horror stories after escaping the tunnels and underground areas amidst Russian advancements."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Forced hiding",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Forced hiding",
+            "wd_description": "Over 100 evacuees had to take cover with Ukrainian forces when Russians advanced, forcing locals into hiding within the plant.",
+            "description": "Over 100 evacuees had to take cover with Ukrainian forces when Russians advanced, forcing locals into hiding within the plant."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Conditions in the bunker",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Conditions in the bunker",
+            "wd_description": "The makeshift bunker was running out of food and water, and its stability was in question as bombs rained down.",
+            "description": "The makeshift bunker was running out of food and water, and its stability was in question as bombs rained down."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Evacuation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Evacuation",
+            "wd_description": "Babies, children, and dogs were among those trapped, with evacuees finally rescued and welcomed back onto Ukrainian-held soil in Zaporizhzhia.",
+            "description": "Babies, children, and dogs were among those trapped, with evacuees finally rescued and welcomed back onto Ukrainian-held soil in Zaporizhzhia."
+        },
+        {
+            "@id": "ev3",
+            "name": "Severe Weather and Tornadoes Hit Texas and Iowa",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe Weather and Tornadoes Hit Texas and Iowa",
+            "wd_description": "Texas experienced severe weather, including thunderstorms, wind, and widespread showers, resulting in multiple tornadoes near Austin. The storms caused significant damage, injuries, and power outages, while Iowa also issued tornado warnings.",
+            "description": "Texas experienced severe weather, including thunderstorms, wind, and widespread showers, resulting in multiple tornadoes near Austin. The storms caused significant damage, injuries, and power outages, while Iowa also issued tornado warnings."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Severe Weather in Texas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Severe Weather in Texas",
+            "wd_description": "Texas continued to experience severe storms, including thunderstorms, wind, and widespread showers, following a week of adverse weather conditions.",
+            "description": "Texas continued to experience severe storms, including thunderstorms, wind, and widespread showers, following a week of adverse weather conditions."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Tornado Formation and Damage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tornado Formation and Damage",
+            "wd_description": "Multiple tornadoes formed near Austin, Texas, causing widespread damage, including destroyed houses, uprooted trees, and power outages, with 23 people injured.",
+            "description": "Multiple tornadoes formed near Austin, Texas, causing widespread damage, including destroyed houses, uprooted trees, and power outages, with 23 people injured."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Tornado Warnings in Iowa",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tornado Warnings in Iowa",
+            "wd_description": "The state of Iowa, located 900 miles away from Texas, issued tornado warnings as the severe weather system continued to affect the region.",
+            "description": "The state of Iowa, located 900 miles away from Texas, issued tornado warnings as the severe weather system continued to affect the region."
+        },
+        {
+            "@id": "ev4",
+            "name": "Stellantis plans to source lithium from California's Salton Sea Basin",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.10",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.11",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Stellantis plans to source lithium from California's Salton Sea Basin",
+            "wd_description": "Stellantis plans to source a substantial amount of lithium for its EV batteries from the Salton Sea Basin in California through a deal with Controlled Thermal Resources.",
+            "description": "Stellantis plans to source a substantial amount of lithium for its EV batteries from the Salton Sea Basin in California through a deal with Controlled Thermal Resources."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Deal details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Deal details",
+            "wd_description": "Stellantis announced a deal with Controlled Thermal Resources to supply battery grade lithium hydroxide for EV production in North America.",
+            "description": "Stellantis announced a deal with Controlled Thermal Resources to supply battery grade lithium hydroxide for EV production in North America."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Salton Sea Basin's potential",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Salton Sea Basin's potential",
+            "wd_description": "The Salton Sea Basin, once a tourist destination, is now known for its potential to supply significant quantities of lithium for EV batteries.",
+            "description": "The Salton Sea Basin, once a tourist destination, is now known for its potential to supply significant quantities of lithium for EV batteries."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Controlled Thermal's Hell’s Kitchen Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Controlled Thermal's Hell’s Kitchen Project",
+            "wd_description": "Controlled Thermal's Hell’s Kitchen Project in California’s Imperial County aims to recover lithium through an environmentally sustainable process paired with geothermal electricity production.",
+            "description": "Controlled Thermal's Hell’s Kitchen Project in California’s Imperial County aims to recover lithium through an environmentally sustainable process paired with geothermal electricity production."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Timeline for production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Timeline for production",
+            "wd_description": "Power generation at Hell’s Kitchen Project is expected to begin in 2023, with lithium production starting in 2024.",
+            "description": "Power generation at Hell’s Kitchen Project is expected to begin in 2023, with lithium production starting in 2024."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Presidential mention",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Presidential mention",
+            "wd_description": "President Joe Biden mentioned the Stellantis deal, highlighting its contribution to the U.S. becoming a leading producer of sustainably sourced, low carbon lithium.",
+            "description": "President Joe Biden mentioned the Stellantis deal, highlighting its contribution to the U.S. becoming a leading producer of sustainably sourced, low carbon lithium."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Focus on sustainability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Focus on sustainability",
+            "wd_description": "Automakers are increasingly focusing on finding sustainable methods for securing lithium and other battery materials, as seen in deals by Ford and Redwood Materials.",
+            "description": "Automakers are increasingly focusing on finding sustainable methods for securing lithium and other battery materials, as seen in deals by Ford and Redwood Materials."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Statements from Stellantis and Controlled Thermal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Statements from Stellantis and Controlled Thermal",
+            "wd_description": "Stellantis and Controlled Thermal executives emphasized the importance of clean lithium in decarbonizing the battery supply chain and producing cleaner cars.",
+            "description": "Stellantis and Controlled Thermal executives emphasized the importance of clean lithium in decarbonizing the battery supply chain and producing cleaner cars."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Stellantis's global supply needs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stellantis's global supply needs",
+            "wd_description": "The deal covers a significant portion of Stellantis's North American needs, but the automaker still needs more sourcing to meet global capacity needs.",
+            "description": "The deal covers a significant portion of Stellantis's North American needs, but the automaker still needs more sourcing to meet global capacity needs."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "Stellantis Dare Forward 2030 business plan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stellantis Dare Forward 2030 business plan",
+            "wd_description": "Stellantis's Dare Forward 2030 business plan aims for annual global sales of 5 million battery electric vehicles by 2030 and significant percentages of EV sales in Europe and North America.",
+            "description": "Stellantis's Dare Forward 2030 business plan aims for annual global sales of 5 million battery electric vehicles by 2030 and significant percentages of EV sales in Europe and North America."
+        },
+        {
+            "@id": "ev4.10",
+            "name": "EV battery plants",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV battery plants",
+            "wd_description": "Stellantis plans to build EV battery plants in Windsor, Ontario, and Kokomo, Indiana, to supply its North American vehicle production.",
+            "description": "Stellantis plans to build EV battery plants in Windsor, Ontario, and Kokomo, Indiana, to supply its North American vehicle production."
+        },
+        {
+            "@id": "ev4.11",
+            "name": "NextStar Energy Inc.",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NextStar Energy Inc.",
+            "wd_description": "Stellantis and LG Energy Solution announced NextStar Energy Inc. as the name of their battery joint venture company, with Danies Lee as CEO.",
+            "description": "Stellantis and LG Energy Solution announced NextStar Energy Inc. as the name of their battery joint venture company, with Danies Lee as CEO."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

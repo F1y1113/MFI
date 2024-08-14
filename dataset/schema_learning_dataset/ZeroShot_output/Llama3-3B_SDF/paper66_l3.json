@@ -1,0 +1,168 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper66_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "ZincPower battery supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ZincPower battery supply chain",
+            "wd_description": "The supply chain structure for ZincPower, a zinc-nickel battery.",
+            "description": "The supply chain structure for ZincPower, a zinc-nickel battery."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "zinc-nickel battery production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "zinc-nickel battery production",
+            "wd_description": "Production of ZincPower batteries using zinc-nickel materials.",
+            "description": "Production of ZincPower batteries using zinc-nickel materials."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "raw material procurement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.1.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "raw material procurement",
+            "wd_description": "Procurement of zinc-nickel materials for ZincPower battery production.",
+            "description": "Procurement of zinc-nickel materials for ZincPower battery production."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "manufacturing process",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "manufacturing process",
+            "wd_description": "Manufacturing of ZincPower batteries using the zinc-nickel materials.",
+            "description": "Manufacturing of ZincPower batteries using the zinc-nickel materials."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "quality control",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "quality control",
+            "wd_description": "Quality control measures to ensure the production of high-quality ZincPower batteries.",
+            "description": "Quality control measures to ensure the production of high-quality ZincPower batteries."
+        },
+        {
+            "@id": "ev2",
+            "name": "Evolutionary games in supply chain management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper66/Event/3J20BFetLN/Chaos-in-supply-chain",
+                    "importance": 1
+                },
+                {
+                    "child": "paper66/Event/f3S0tpMwT/Bounded-rationality",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Evolutionary games in supply chain management",
+            "wd_description": "Evolutionary games in nonlinear dynamic systems in supply chain management can lead to complex dynamics, including chaos. The existing literature elaborates on these complex behaviors in detail.",
+            "description": "Evolutionary games in nonlinear dynamic systems in supply chain management can lead to complex dynamics, including chaos. The existing literature elaborates on these complex behaviors in detail."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Evolutionary games",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Evolutionary games",
+            "wd_description": "Evolutionary games are used to model various interactions in supply chain management.",
+            "description": "Evolutionary games are used to model various interactions in supply chain management."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Nonlinear dynamic systems",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nonlinear dynamic systems",
+            "wd_description": "Supply chain management is modeled using nonlinear dynamic systems.",
+            "description": "Supply chain management is modeled using nonlinear dynamic systems."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Complex dynamics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Complex dynamics",
+            "wd_description": "The complex dynamics in supply chains can lead to chaos, as detailed in existing literature.",
+            "description": "The complex dynamics in supply chains can lead to chaos, as detailed in existing literature."
+        },
+        {
+            "@id": "paper66/Event/3J20BFetLN/Chaos-in-supply-chain",
+            "name": "Chaos in supply chain",
+            "ta1explanation": "",
+            "description": "Complex dynamics such as chaos found in the supply chain management.",
+            "wd_node": "paper66",
+            "wd_label": "paper66",
+            "participants": []
+        },
+        {
+            "@id": "paper66/Event/f3S0tpMwT/Bounded-rationality",
+            "name": "Bounded rationality",
+            "ta1explanation": "",
+            "description": "Concept used to describe decision-making processes that are rational within limits.",
+            "wd_node": "paper66",
+            "wd_label": "paper66",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

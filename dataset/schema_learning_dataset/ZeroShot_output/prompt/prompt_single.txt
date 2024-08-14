@@ -1,29 +1,27 @@
 According to the provided paragraphs:
-###
-{}_Paragraphs_provided
-###
-extract a detailed hierarchical structure related to the EV battery supply chain. The hierarchical structure should include the following levels:
 
-- **Event**: Anything that takes place or happens related to the EV batteries supply chain.
+### {}_Paragraphs_provided ###
+
+extract a detailed hierarchical structure related to the EV battery supply chain. 
+The hierarchical structure should include the following levels:
+- **Event**: Anything that happens related to the EV battery supply chain.
 - **Event ID**: A unique identifier for each event.
-- **Description**: A detailed 2-3 sentence explanation of the event, set the value of this level to 'xxxx' if this level is empty!!!
-- **Participants**: All subevents related to this event and their probabilities, the probability needs to be set between 0 and 1, and only one decimal place should be retained. Set the value of this level to 'xxxx' if this level is empty!!!
+- **Description**: A detailed 2-3 sentence explanation of the event.
+- **Participants**: All sub-events related to this event and their importance, the importance needs to be set as 0 ~ 1, the higher the more important.
 - **Gate**: The relationship between an event and its sub-events:
   - Use **'and'** if no sub-events can be missing.
   - Use **'or'** if some sub-events can be missing.
   - Use **'xor'** if sub-events cannot exist simultaneously.
-  set the value of this level to 'xxxx' if this level is empty!!!
-- **Relations**: The event-event relations (e.g., ev1.1>ev1.2, which means ev1.2 is caused by (happen after) ev1.1), set the value of this level to 'xxxx' if this level is empty!!!
+- **Relations**: The event-event relations (e.g., ev1.1>ev1.2, which means ev1.2 happens after ev1.1).
 - If any level is empty, set its value to 'xxxx'.
 
 Strictly use the exact following format for each event:
-
 ```
 Event N
 event: [Event Name]
 event_id: evN
 description: [Detailed Description]
-participants: [Subevent 1] evN.1_P[Probability], [Subevent 2] evN.2_P[Probability], ...
+participants: [Subevent 1] evN.1_P[Importance], [Subevent 2] evN.2_P[Importance], ...
 Gate: [Gate]
 Relations: [Event Relations]
 
@@ -31,7 +29,7 @@ Subevent N.1
 subevent: [Subevent Name]
 event_id: evN.1
 description: [Detailed Description]
-participants: [Subsubevent 1] evN.1.1_P[Probability], ...
+participants: [Subsubevent 1] evN.1.1_P[Importance], ...
 Gate: [Gate]
 Relations: [Event Relations]
 
@@ -39,23 +37,20 @@ Subsubevent N.1.1
 subsubevent: [Subsubevent Name]
 event_id: evN.1.1
 description: [Detailed Description]
-participants: [Subsubsubevent 1] evN.1.1.1_P[Probability], ...
+participants: [Subsubsubevent 1] evN.1.1.1_P[Importance], ...
 Gate: [Gate]
 Relations: [Event Relations]
-
-...
 ```
 
-Use the provided example for guidance:
-
+Use the provided example for guidance: 
 ### Example:
-
 **Input Paragraph**:
 ```
-Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling [67,68,69]. The battery is melted in a hot furnace to recover some of the cathode metal in pyrometallurgy. Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys. Although it has a straightforward process and a reasonably mature technology, the main drawbacks are its high cost and high environmental pollution. Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes to precipitate a particular metal. In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance [70]. Although it is a highly effective and power-efficient method, its drawbacks include a lengthy production time and a complicated process. Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells. The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
+Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling. The battery is melted in a hot furnace to recover some of the cathode metal in pyrometallurgy. Pyrometallurgy employs extreme heat to transform metal oxides into cobalt, copper, iron, and nickel alloys. Although it has a straightforward process and a reasonably mature technology, the main drawbacks are its high cost and high environmental pollution. Hydrometallurgy is a metal recovery method involving aqueous solutions to perform leaching processes to precipitate a particular metal. In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance. Although it is a highly effective and power-efficient method, its drawbacks include a lengthy production time and a complicated process. Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells. The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.
 ```
 
 **Extracted Hierarchical Structure**:
+
 ```
 Event 1
 event: lithium-ion recycling
@@ -90,8 +85,5 @@ Gate: xxxx
 Relations: xxxx
 ```
 
-Let’s think about this extracted structure step by step:
-Starting with the first sentence in the paragraph ‘Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling [67,68,69].’ From this sentence, we can learn that ‘pyrometallurgical’, ‘hydrometallurgical’, ‘bioleaching, and direct recycling’ are three methods of ‘lithium-ion recycling’, so select ‘lithium-ion recycling’ as event, and the three methods as subevent and participants of ‘lithium-ion recycling’.
-
-only include the hierarchical structure in your answer!
-And Set the value of the level to 'xxxx' if that level is empty!!!
+Think about this extracted structure step by step:
+Starting with the first sentence in the paragraph 'Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.' From this sentence, we learn that 'pyrometallurgical', 'hydrometallurgical', 'bioleaching, and direct recycling' are three methods of 'lithium-ion recycling', so select 'lithium-ion recycling' as the event, and the three methods as subevents and participants of 'lithium-ion recycling'.

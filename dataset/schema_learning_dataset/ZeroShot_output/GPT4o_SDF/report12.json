@@ -1,0 +1,509 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report12",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The EV battery supply chain is facing challenges due to the exponential growth in EV markets, which pressures the supply chains and relies on critical mineral extraction and refining processes.",
+            "description": "The EV battery supply chain is facing challenges due to the exponential growth in EV markets, which pressures the supply chains and relies on critical mineral extraction and refining processes."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Demand for batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Demand for batteries",
+            "wd_description": "The surge in demand for batteries is increasing pressure on the EV battery supply chain.",
+            "description": "The surge in demand for batteries is increasing pressure on the EV battery supply chain."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "tical mineral extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "tical mineral extraction",
+            "wd_description": "The extraction of critical minerals is essential for battery production, impacting the supply chain.",
+            "description": "The extraction of critical minerals is essential for battery production, impacting the supply chain."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "ining processes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ining processes",
+            "wd_description": "Refining processes are crucial for preparing extracted minerals for battery production.",
+            "description": "Refining processes are crucial for preparing extracted minerals for battery production."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Environmental and social impacts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental and social impacts",
+            "wd_description": "The extraction and refining of critical minerals have significant environmental and social impacts.",
+            "description": "The extraction and refining of critical minerals have significant environmental and social impacts."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Geopolitical vulnerabilities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Geopolitical vulnerabilities",
+            "wd_description": "The global spread of extraction and refining operations exposes the supply chain to geopolitical risks.",
+            "description": "The global spread of extraction and refining operations exposes the supply chain to geopolitical risks."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Policy and technology solutions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy and technology solutions",
+            "wd_description": "Early-stage policy and technology solutions aim to improve mining practices and develop circular economies for critical minerals.",
+            "description": "Early-stage policy and technology solutions aim to improve mining practices and develop circular economies for critical minerals."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "ing practices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ing practices",
+            "wd_description": "Policies focus on improving mining practices to reduce environmental and social impacts.",
+            "description": "Policies focus on improving mining practices to reduce environmental and social impacts."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "cular economies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "cular economies",
+            "wd_description": "Developing circular economies for critical minerals to enhance sustainability in the supply chain.",
+            "description": "Developing circular economies for critical minerals to enhance sustainability in the supply chain."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Policymaking",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policymaking",
+            "wd_description": "EV supply chains are a significant focus of policymaking efforts to build resilience through diversification and promote battery tracing, reusing, and recycling.",
+            "description": "EV supply chains are a significant focus of policymaking efforts to build resilience through diversification and promote battery tracing, reusing, and recycling."
+        },
+        {
+            "@id": "ev1.5.1",
+            "name": "estic policies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "estic policies",
+            "wd_description": "U.S. policies aim to strengthen supply chains and promote domestic manufacturing of EV batteries.",
+            "description": "U.S. policies aim to strengthen supply chains and promote domestic manufacturing of EV batteries."
+        },
+        {
+            "@id": "ev1.5.1.1",
+            "name": "tructure Investment and Jobs Act",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "tructure Investment and Jobs Act",
+            "wd_description": "This act allocated funding for critical minerals mining, processing, and research activities.",
+            "description": "This act allocated funding for critical minerals mining, processing, and research activities."
+        },
+        {
+            "@id": "ev1.5.1.2",
+            "name": "e Production Act",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "e Production Act",
+            "wd_description": "The act was invoked to encourage domestic battery investment and reduce dependence on imports.",
+            "description": "The act was invoked to encourage domestic battery investment and reduce dependence on imports."
+        },
+        {
+            "@id": "ev1.5.1.3",
+            "name": "ion Reduction Act",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ion Reduction Act",
+            "wd_description": "Expanded and redefined EV purchase credits to require a percentage of minerals in U.S.-made EV batteries to be sourced domestically or from free trade agreement countries.",
+            "description": "Expanded and redefined EV purchase credits to require a percentage of minerals in U.S.-made EV batteries to be sourced domestically or from free trade agreement countries."
+        },
+        {
+            "@id": "ev1.5.2",
+            "name": "ernational policies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ernational policies",
+            "wd_description": "Policies aimed at global collaboration and diversification to build resilient EV battery supply chains.",
+            "description": "Policies aimed at global collaboration and diversification to build resilient EV battery supply chains."
+        },
+        {
+            "@id": "ev2",
+            "name": "Reducing critical mineral demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Reducing critical mineral demand",
+            "wd_description": "Strategies to reduce the demand for critical minerals in EV batteries, including new battery technologies and recycling.",
+            "description": "Strategies to reduce the demand for critical minerals in EV batteries, including new battery technologies and recycling."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Low-mineral battery technologies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Low-mineral battery technologies",
+            "wd_description": "Developing new battery technologies that require fewer critical minerals.",
+            "description": "Developing new battery technologies that require fewer critical minerals."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Battery recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery recycling",
+            "wd_description": "Progress in recycling and recovering critical minerals from used batteries.",
+            "description": "Progress in recycling and recovering critical minerals from used batteries."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Mitigating vehicle demand",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mitigating vehicle demand",
+            "wd_description": "Reducing car dependency through improved land use, transit, and mobility options.",
+            "description": "Reducing car dependency through improved land use, transit, and mobility options."
+        },
+        {
+            "@id": "ev3",
+            "name": "Expanding the supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Expanding the supply chain",
+            "wd_description": "The expansion of the EV battery supply chain, involving the development of new refining facilities and mines.",
+            "description": "The expansion of the EV battery supply chain, involving the development of new refining facilities and mines."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Lead time for facilities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lead time for facilities",
+            "wd_description": "The time required to develop new refining facilities for EV battery production.",
+            "description": "The time required to develop new refining facilities for EV battery production."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Lead time for mines",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lead time for mines",
+            "wd_description": "The time required to establish new mines, including delays due to community and environmental challenges.",
+            "description": "The time required to establish new mines, including delays due to community and environmental challenges."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Community and environmental considerations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Community and environmental considerations",
+            "wd_description": "Addressing community and environmental harms in initial mining proposals to reduce delays.",
+            "description": "Addressing community and environmental harms in initial mining proposals to reduce delays."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1",
+            "relationObject": "ev1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1",
+            "relationObject": "ev1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1",
+            "relationObject": "ev1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1",
+            "relationObject": "ev1.5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1.2",
+            "relationObject": "ev1.5.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1.2",
+            "relationObject": "ev1.5.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1.2",
+            "relationObject": "ev1.5.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1.2",
+            "relationObject": "ev1.5.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1.2",
+            "relationObject": "ev1.5.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

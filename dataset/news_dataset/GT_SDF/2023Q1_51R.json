@@ -1,0 +1,262 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q1_51R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "ICC Issues Arrest Warrant for Vladimir Putin and Maria Lvova-Belova",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ICC Issues Arrest Warrant for Vladimir Putin and Maria Lvova-Belova",
+            "wd_description": "The International Criminal Court (ICC) issued arrest warrants for Russian President Vladimir Putin and Russian official Maria Lvova-Belova, accusing them of involvement in the deportation of Ukrainian children to Russia.",
+            "description": "The International Criminal Court (ICC) issued arrest warrants for Russian President Vladimir Putin and Russian official Maria Lvova-Belova, accusing them of involvement in the deportation of Ukrainian children to Russia."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "ICC Arrest Warrants",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ICC Arrest Warrants",
+            "wd_description": "The International Criminal Court issued arrest warrants for Vladimir Putin and Maria Lvova-Belova, alleging their involvement in a scheme to deport Ukrainian children to Russia.",
+            "description": "The International Criminal Court issued arrest warrants for Vladimir Putin and Maria Lvova-Belova, alleging their involvement in a scheme to deport Ukrainian children to Russia."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Allegations of Child Deportation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Allegations of Child Deportation",
+            "wd_description": "The ICC stated that it has sufficient evidence to believe that Putin and Lvova-Belova were involved in the deportation of Ukrainian children and that Putin failed to exercise control over subordinates who committed these acts.",
+            "description": "The ICC stated that it has sufficient evidence to believe that Putin and Lvova-Belova were involved in the deportation of Ukrainian children and that Putin failed to exercise control over subordinates who committed these acts."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Ukraine's Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukraine's Response",
+            "wd_description": "Ukrainian President Volodymyr Zelensky expressed appreciation for the ICC's decision and noted that Ukrainian investigations suggest direct Kremlin involvement in the forced deportation of children.",
+            "description": "Ukrainian President Volodymyr Zelensky expressed appreciation for the ICC's decision and noted that Ukrainian investigations suggest direct Kremlin involvement in the forced deportation of children."
+        },
+        {
+            "@id": "ev2",
+            "name": "China Urges G20 to Address Global Debt Issues",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China Urges G20 to Address Global Debt Issues",
+            "wd_description": "China called on G20 nations to conduct a fair and comprehensive analysis of global debt issues, emphasizing the need for joint actions by international financial institutions and commercial creditors.",
+            "description": "China called on G20 nations to conduct a fair and comprehensive analysis of global debt issues, emphasizing the need for joint actions by international financial institutions and commercial creditors."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "China's Call for Action",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's Call for Action",
+            "wd_description": "China urged G20 nations to tackle global debt issues comprehensively and effectively, stressing the importance of joint actions by international financial institutions and commercial creditors.",
+            "description": "China urged G20 nations to tackle global debt issues comprehensively and effectively, stressing the importance of joint actions by international financial institutions and commercial creditors."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "G20 Finance Ministers Meeting",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "G20 Finance Ministers Meeting",
+            "wd_description": "China's Finance Minister Liu Kun participated in a video meeting with G20 finance ministers and central bank chiefs in Bengaluru, India, calling for a fair analysis of global debt issues.",
+            "description": "China's Finance Minister Liu Kun participated in a video meeting with G20 finance ministers and central bank chiefs in Bengaluru, India, calling for a fair analysis of global debt issues."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Upcoming IMF Debt Roundtable",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Upcoming IMF Debt Roundtable",
+            "wd_description": "Officials from the IMF, World Bank, and G7 nations will meet for the first face-to-face discussions at the new IMF Global Sovereign Debt Roundtable, with Zambia and Ghana awaiting China's support on debt restructuring.",
+            "description": "Officials from the IMF, World Bank, and G7 nations will meet for the first face-to-face discussions at the new IMF Global Sovereign Debt Roundtable, with Zambia and Ghana awaiting China's support on debt restructuring."
+        },
+        {
+            "@id": "ev3",
+            "name": "Honduras Ends Diplomatic Ties with Taiwan, Recognizes One China Policy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Honduras Ends Diplomatic Ties with Taiwan, Recognizes One China Policy",
+            "wd_description": "Honduras formally ended its diplomatic ties with Taiwan, recognizing the One China policy and establishing relations with the People's Republic of China, following China's strategy of isolating Taiwan diplomatically.",
+            "description": "Honduras formally ended its diplomatic ties with Taiwan, recognizing the One China policy and establishing relations with the People's Republic of China, following China's strategy of isolating Taiwan diplomatically."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Honduras' Decision to End Ties with Taiwan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Honduras' Decision to End Ties with Taiwan",
+            "wd_description": "The Ministry of Foreign Affairs in Honduras announced the formal end of diplomatic ties with Taiwan, recognizing the People's Republic of China as the sole government of China.",
+            "description": "The Ministry of Foreign Affairs in Honduras announced the formal end of diplomatic ties with Taiwan, recognizing the People's Republic of China as the sole government of China."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "China's One China Policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's One China Policy",
+            "wd_description": "By recognizing the One China policy, Honduras aligns with China's stance that Taiwan is part of China, leading to the termination of diplomatic relations with Taiwan.",
+            "description": "By recognizing the One China policy, Honduras aligns with China's stance that Taiwan is part of China, leading to the termination of diplomatic relations with Taiwan."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Impact on Taiwan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Taiwan",
+            "wd_description": "China's continued efforts to isolate Taiwan diplomatically, including securing Honduras' recognition, add to the mounting pressure on Taiwan under the leadership of Xi Jinping.",
+            "description": "China's continued efforts to isolate Taiwan diplomatically, including securing Honduras' recognition, add to the mounting pressure on Taiwan under the leadership of Xi Jinping."
+        },
+        {
+            "@id": "ev4",
+            "name": "CATL and HGP Agreement for 450MWh Energy Storage Project",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "CATL and HGP Agreement for 450MWh Energy Storage Project",
+            "wd_description": "CATL and HGP have signed a supply agreement for a 450MWh battery storage project and established a long-term partnership to promote up to 5GWh of utility-scale and distributed energy storage projects in Texas.",
+            "description": "CATL and HGP have signed a supply agreement for a 450MWh battery storage project and established a long-term partnership to promote up to 5GWh of utility-scale and distributed energy storage projects in Texas."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Project Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Project Announcement",
+            "wd_description": "CATL and HGP have signed a supply agreement for a 450MWh battery storage project to be deployed in Texas, expected to start commercial operation in 2024.",
+            "description": "CATL and HGP have signed a supply agreement for a 450MWh battery storage project to be deployed in Texas, expected to start commercial operation in 2024."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Product Details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Product Details",
+            "wd_description": "CATL will supply HGP with the outdoor prefabricated cabin system EnerC, which features high safety, long life, high integration, IP55 protection, and C5 anti-corrosion ratings, suitable for extreme weather conditions.",
+            "description": "CATL will supply HGP with the outdoor prefabricated cabin system EnerC, which features high safety, long life, high integration, IP55 protection, and C5 anti-corrosion ratings, suitable for extreme weather conditions."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Strategic Importance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Strategic Importance",
+            "wd_description": "The collaboration leverages CATL's advanced battery technology and HGP's expertise in energy infrastructure and storage resource development to meet the growing demand for renewable energy in Texas and North America.",
+            "description": "The collaboration leverages CATL's advanced battery technology and HGP's expertise in energy infrastructure and storage resource development to meet the growing demand for renewable energy in Texas and North America."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Market Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Market Impact",
+            "wd_description": "This partnership highlights the commitment of both companies to sustainable development and provides convenient solutions to meet the increasing demand for clean energy in Texas and North America.",
+            "description": "This partnership highlights the commitment of both companies to sustainable development and provides convenient solutions to meet the increasing demand for clean energy in Texas and North America."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Long-Term Partnership",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Long-Term Partnership",
+            "wd_description": "CATL and HGP have established a long-term partnership to promote up to 5GWh of utility-scale and distributed energy storage projects.",
+            "description": "CATL and HGP have established a long-term partnership to promote up to 5GWh of utility-scale and distributed energy storage projects."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: HGP's Expertise",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: HGP's Expertise",
+            "wd_description": "HGP, based in Dallas, Texas, is a leading developer of energy infrastructure and storage resources with decades of experience deploying grid investment-grade storage assets.",
+            "description": "HGP, based in Dallas, Texas, is a leading developer of energy infrastructure and storage resources with decades of experience deploying grid investment-grade storage assets."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

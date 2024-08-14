@@ -1,0 +1,239 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper53_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Decarbonizing Electricity Production via Solar, Wind, and Lithium Supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Decarbonizing Electricity Production via Solar, Wind, and Lithium Supply",
+            "wd_description": "As electricity production decarbonizes via the deployment of solar, wind environment. The industry goal in the 2010s was to meet Chinese demand, not to have low CO2 intensity lithium supply.",
+            "description": "As electricity production decarbonizes via the deployment of solar, wind environment. The industry goal in the 2010s was to meet Chinese demand, not to have low CO2 intensity lithium supply."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Australian spodumene-Chinese conversion LiOH•H2O supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Australian spodumene-Chinese conversion LiOH•H2O supply chain",
+            "wd_description": "This \"lithium rush\" has moved the world's lithium production center of gravity to China, where the hard rock resources predominantly come from Australia.",
+            "description": "This \"lithium rush\" has moved the world's lithium production center of gravity to China, where the hard rock resources predominantly come from Australia."
+        },
+        {
+            "@id": "ev2",
+            "name": "Developing an LCA Model for Lithium Products",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Developing an LCA Model for Lithium Products",
+            "wd_description": "We developed an LCA model and data structure tailored specially for the lithium industry in collaboration with Robert Pell at Minviro.",
+            "description": "We developed an LCA model and data structure tailored specially for the lithium industry in collaboration with Robert Pell at Minviro."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Alex and David's knowledge of lithium extraction processes and markets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Alex and David's knowledge of lithium extraction processes and markets",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev3",
+            "name": "Deploying Solar, Wind, and Lithium Supply for Decarbonizing Electricity Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Deploying Solar, Wind, and Lithium Supply for Decarbonizing Electricity Production",
+            "wd_description": "xxx",
+            "description": "xxx"
+        },
+        {
+            "@id": "ev3.1",
+            "name": "xxxx",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "xxxx",
+            "wd_description": "xxx",
+            "description": "xxx"
+        },
+        {
+            "@id": "ev4",
+            "name": "Meeting Chinese Demand for Decarbonizing Electricity Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Meeting Chinese Demand for Decarbonizing Electricity Production",
+            "wd_description": "The industry goal in the 2010s was to meet Chinese demand, not to have low CO2 intensity lithium supply.",
+            "description": "The industry goal in the 2010s was to meet Chinese demand, not to have low CO2 intensity lithium supply."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Australian spodumene-Chinese conversion LiOH•H2O supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Australian spodumene-Chinese conversion LiOH•H2O supply chain",
+            "wd_description": "This \"lithium rush\" has moved the world's lithium production center of gravity to China, where the hard rock resources predominantly come from Australia.",
+            "description": "This \"lithium rush\" has moved the world's lithium production center of gravity to China, where the hard rock resources predominantly come from Australia."
+        },
+        {
+            "@id": "ev5",
+            "name": "Using Bacteria for Retrieving Precious Metals in Lithium-Ion Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Using Bacteria for Retrieving Precious Metals in Lithium-Ion Recycling",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "bacteria",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bacteria",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.3",
+            "name": "lithium supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "lithium supply chain",
+            "wd_description": "The supply chain for lithium, a key material in EV batteries, involves various processes and has significant environmental impacts.",
+            "description": "The supply chain for lithium, a key material in EV batteries, involves various processes and has significant environmental impacts."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "hium extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium extraction",
+            "wd_description": "Lithium extraction involves both brine and hard rock mining, with each method having different environmental impacts.",
+            "description": "Lithium extraction involves both brine and hard rock mining, with each method having different environmental impacts."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "hium processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium processing",
+            "wd_description": "The processing of lithium into battery-grade materials involves various chemical and mechanical processes.",
+            "description": "The processing of lithium into battery-grade materials involves various chemical and mechanical processes."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "hium hydroxide production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium hydroxide production",
+            "wd_description": "Lithium hydroxide is produced through different methods compared to lithium carbonate, and it is crucial for high-nickel cathode materials.",
+            "description": "Lithium hydroxide is produced through different methods compared to lithium carbonate, and it is crucial for high-nickel cathode materials."
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "act assessment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "act assessment",
+            "wd_description": "Life cycle assessments (LCA) are used to evaluate the environmental impacts of different lithium extraction and processing methods.",
+            "description": "Life cycle assessments (LCA) are used to evaluate the environmental impacts of different lithium extraction and processing methods."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev2.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4",
+            "relationObject": "ev4.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5",
+            "relationObject": "ev5."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

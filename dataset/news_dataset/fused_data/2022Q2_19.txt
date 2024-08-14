@@ -1,0 +1,43 @@
+Monday, April 11, 2022 - Texas continues to experience incredibly bad weather severe storms continue from last week, including thunderstorms, wind, and widespread showers. Along with this adverse weather, several tornadoes were formed in the wake of the storms as they passed with a series of twisters formed just north of Austin, Texas. Some of the funnel clouds were incredibly wide and were accompanied by hail the size of baseballs or oranges, pelting down on several rural areas, including Bell county. According to witnesses and residents alike, the tornadoes wreaked an insurmountable amount of damage, destroying houses, uprooting trees, and eliminating power supplies throughout the area, injuring 23 people. The state of Iowa, 900 miles away, has also issued tornado warnings.
+Source: New York Post
+Thursday, June 9, 2022 - US-based scientist Dr. Mike McPhaden met with colleagues in Australia and gave a public session on the current state of the Pacific and what it means for months ahead in Sydney this week.
+
+Scientists and meteorologists are fixated on a particular part of the tropical Pacific Ocean known as Nino 3.4, where the surface temperatures are used to determine the occurrence of either El Nino or La Nina. 
+
+El Niños are associated with above-average temperatures in the tropical Pacific. They tend to bring hotter and drier weather to Australia's east coast. La Ninas are connected to below-average temperatures in that ocean region. They are associated with greater rainfall and lower temperatures. 
+
+According to McPhaden, triple La Ninas are very rare, with the last one occurring more than 20 years ago. If the coming storm is a triple La Nina, it has the potential to continue into 2023. He also said that global heating plays a role in the current weather events. However, scientists are still trying to understand how the climate could affect the events and activities of the storm.
+
+Source: The Guardian
+Monday, June 6, 2022 - Nupur Sharma, National spokesperson, and Naveen Kumar Jindal, Delhi media head of India's ruling Party, have been suspended after their comments against the Islamic Prophet Muhammed were met with protests in the middle east.
+
+Prominent Gulf countries have described the comments as “insulting,” as many of them summon the respective Indian ambassador to their Nations. Concerns about the dangerous levels of Islamophobic discourse and Islamophobic actions against Indian Muslims were also raised
+
+There was no initial reaction from the ruling Party immediately after the statements were rebuked. However, as boycott and sanctions against India grew momentum, the government tried to dismiss the comments as “fringe elements” within the Party, and do not, in any manner, reflect the views of the government of India.”
+
+Both spokesmen have been fired by the BJP, which stated that “strong action will be taken against individuals who make insulting statements.” 
+
+Ardent supporters of the Ruling Party have spoken out against the decision to expel the spokespeople as a cowardly act by the BJP.
+
+Source: The Guardian 
+6月23日，宁德时代发布第三代CTP——麒麟电池，系统集成度创全球新高，体积利用率突破72%，能量密度可达255Wh/kg，轻松实现整车1000公里续航。
+
+1.2 CTP 3.0麒麟电池性能 CTP 3.0 Qilin Battery Performance.png
+
+宁德时代从电化学本质出发，持续拓展系统结构的创新边界。2019年，宁德时代在全球首创了无模组电池包CTP，率先使电池体积利用率突破50%大关。如今，伴随核心工艺、核心算法、核心材料的全方位提升，宁德时代以麒麟之名重新定义电池结构设计。
+
+突破功能边界 麒麟电池整合使用需求，将横纵梁、水冷板与隔热垫合三为一，集成为多功能弹性夹层。在夹层内搭建微米桥连接装置，灵活配合电芯呼吸进行自由伸缩，提升电芯全生命周期可靠性。而电芯与多功能弹性夹层组成的一体化能量单元，在垂直于行车方向上构建更稳固的受力结构，提高了电池包抗振动、冲击能力。
+
+
+重塑空间结构 宁德时代以精准计算与AI模拟仿真探索麒麟电池全生命周期应用场景的设计边界。独创底部空间共享方案，将结构防护、高压连接、热失控排气等功能模块进行智能分布，释放了6%的能量空间。同时，能满足底部球击等国标电池安全测试要求。
+
+
+颠覆传统水冷 全球首创的电芯大面冷却技术，基于电芯的变化，将水冷功能置于电芯之间，使换热面积扩大四倍。电芯控温时间缩短至原来的一半，支持5分钟快速热启动及10分钟快充。并且，在极端情况时，电芯可急速降温，有效阻隔电芯间的异常热量传导。麒麟电池可实现全化学体系的热稳定、热安全，从而适配更高能量密度的材料升级。
+
+7. 5分钟热启动 十分钟快充 5min Hot Start 10min Fast Charging.png
+
+宁德时代将系统工程思维贯彻从材料、电芯到系统结构的研发全链条。通过三大技术革新，麒麟电池可将三元电池系统能量密度提升至255Wh/kg，磷酸铁锂电池系统能量密度提升至160Wh/kg。在相同的化学体系、同等电池包尺寸下，麒麟电池包的电量，相比4680系统可以提升13%，实现了续航、快充、安全、寿命、效率、以及低温性能的全面提升。
+
+9. CTP 3.0 麒麟电池性能 vs. 4680 Qilin Battery vs. 4680.png
+
+麒麟电池将于2023年量产上市。从微观世界的模拟计算，到电池结构内部的化繁为简，宁德时代始终聚焦技术本源，自主创新，不断自我超越，助推电动汽车实现对燃油车的全面超越。

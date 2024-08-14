@@ -1,0 +1,307 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q4_5R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev10",
+            "name": "Israeli strike on ambulance in Gaza",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev10.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Israeli strike on ambulance in Gaza",
+            "wd_description": "An Israeli strike on an ambulance outside Gaza City's largest hospital killed at least 15 people, with Israel claiming the ambulance was used by Hamas operatives.",
+            "description": "An Israeli strike on an ambulance outside Gaza City's largest hospital killed at least 15 people, with Israel claiming the ambulance was used by Hamas operatives."
+        },
+        {
+            "@id": "ev10.1",
+            "name": "Ambulance strike",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ambulance strike",
+            "wd_description": "The Palestinian Red Crescent confirmed that an Israeli strike on an ambulance outside Al-Shifa Hospital killed at least 15 people.",
+            "description": "The Palestinian Red Crescent confirmed that an Israeli strike on an ambulance outside Al-Shifa Hospital killed at least 15 people."
+        },
+        {
+            "@id": "ev10.2",
+            "name": "Convoy attack",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Convoy attack",
+            "wd_description": "The Hamas government reported that the convoy of ambulances transporting the wounded was struck twice, once 1km away and again outside the hospital gate.",
+            "description": "The Hamas government reported that the convoy of ambulances transporting the wounded was struck twice, once 1km away and again outside the hospital gate."
+        },
+        {
+            "@id": "ev10.3",
+            "name": "Wounded evacuation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Wounded evacuation",
+            "wd_description": "Only 17 Palestinians wounded were evacuated to an Egyptian hospital, instead of the originally planned 28, according to the Ministry of Health in Egypt.",
+            "description": "Only 17 Palestinians wounded were evacuated to an Egyptian hospital, instead of the originally planned 28, according to the Ministry of Health in Egypt."
+        },
+        {
+            "@id": "ev2",
+            "name": "Diplomatic tensions between India and Canada",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Diplomatic tensions between India and Canada",
+            "wd_description": "India has directed Canada to withdraw close to 40 diplomatic staff and confirmed those who stayed past October 10 would lose their diplomatic immunity.",
+            "description": "India has directed Canada to withdraw close to 40 diplomatic staff and confirmed those who stayed past October 10 would lose their diplomatic immunity."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Diplomatic staff withdrawal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Diplomatic staff withdrawal",
+            "wd_description": "India has instructed Canada to withdraw nearly 40 diplomatic staff from the country, with a deadline of October 10 for maintaining diplomatic immunity.",
+            "description": "India has instructed Canada to withdraw nearly 40 diplomatic staff from the country, with a deadline of October 10 for maintaining diplomatic immunity."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Allegations of involvement in killing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Allegations of involvement in killing",
+            "wd_description": "Canada accused India of involvement in the killing of Sikh separatist leader Hardeep Singh Nijjar on Canadian soil, an allegation denied by India.",
+            "description": "Canada accused India of involvement in the killing of Sikh separatist leader Hardeep Singh Nijjar on Canadian soil, an allegation denied by India."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Trudeau's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trudeau's response",
+            "wd_description": "Canadian Prime Minister Justin Trudeau stated that he does not plan to escalate the rift with India and emphasized ongoing responsible and constructive engagement.",
+            "description": "Canadian Prime Minister Justin Trudeau stated that he does not plan to escalate the rift with India and emphasized ongoing responsible and constructive engagement."
+        },
+        {
+            "@id": "ev3",
+            "name": "Devastating wildfires in Canada in 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Devastating wildfires in Canada in 2023",
+            "wd_description": "The 2023 wildfires in Canada, exacerbated by the climate crisis, consumed a record 45.7 million acres of boreal forests, with far-reaching effects that extended beyond Canada’s borders.",
+            "description": "The 2023 wildfires in Canada, exacerbated by the climate crisis, consumed a record 45.7 million acres of boreal forests, with far-reaching effects that extended beyond Canada’s borders."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Climate crisis impact on wildfires",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Climate crisis impact on wildfires",
+            "wd_description": "The climate crisis has intensified and increased the size of wildfires in Canada through altered precipitation patterns and elevated temperatures.",
+            "description": "The climate crisis has intensified and increased the size of wildfires in Canada through altered precipitation patterns and elevated temperatures."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Destruction of boreal forests",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Destruction of boreal forests",
+            "wd_description": "The wildfires consumed 45.7 million acres of boreal forests, threatening vital carbon storage and species habitats, with uncertainty surrounding the recovery of fir and spruce trees.",
+            "description": "The wildfires consumed 45.7 million acres of boreal forests, threatening vital carbon storage and species habitats, with uncertainty surrounding the recovery of fir and spruce trees."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Smoke impact beyond Canada",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Smoke impact beyond Canada",
+            "wd_description": "The wildfire smoke spread beyond Canada, creating dystopian conditions in New York City and hazy skies in Florida, demonstrating the far-reaching impact of the fires.",
+            "description": "The wildfire smoke spread beyond Canada, creating dystopian conditions in New York City and hazy skies in Florida, demonstrating the far-reaching impact of the fires."
+        },
+        {
+            "@id": "ev4",
+            "name": "Labor Requirements in EV Manufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Labor Requirements in EV Manufacturing",
+            "wd_description": "The labor requirements in electric vehicle (EV) manufacturing are being scrutinized, with studies suggesting that EVs may not require significantly less labor than traditional gasoline cars.",
+            "description": "The labor requirements in electric vehicle (EV) manufacturing are being scrutinized, with studies suggesting that EVs may not require significantly less labor than traditional gasoline cars."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Labor Comparison Studies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Labor Comparison Studies",
+            "wd_description": "Several studies and experts argue that the labor savings in EV manufacturing compared to gasoline cars have been overstated.",
+            "description": "Several studies and experts argue that the labor savings in EV manufacturing compared to gasoline cars have been overstated."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Carnegie Mellon Study",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Carnegie Mellon Study",
+            "wd_description": "The study from Carnegie Mellon University suggests that making the powertrain of electric vehicles requires more total labor than making engines and transmissions for gasoline cars.",
+            "description": "The study from Carnegie Mellon University suggests that making the powertrain of electric vehicles requires more total labor than making engines and transmissions for gasoline cars."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Boston Consulting Group Study",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Boston Consulting Group Study",
+            "wd_description": "The Boston Consulting Group found that manufacturing a complete electric vehicle requires only slightly less labor than making a gasoline-powered car.",
+            "description": "The Boston Consulting Group found that manufacturing a complete electric vehicle requires only slightly less labor than making a gasoline-powered car."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Battery Manufacturing Labor",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Manufacturing Labor",
+            "wd_description": "The production of battery packs, particularly battery cells, requires a significant amount of labor, contributing to the labor requirements in EV manufacturing.",
+            "description": "The production of battery packs, particularly battery cells, requires a significant amount of labor, contributing to the labor requirements in EV manufacturing."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Battery Cell Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery Cell Production",
+            "wd_description": "Making battery cells takes up a substantial portion of the labor hours involved in EV manufacturing.",
+            "description": "Making battery cells takes up a substantial portion of the labor hours involved in EV manufacturing."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Automation and Labor",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Automation and Labor",
+            "wd_description": "Although battery manufacturing is highly automated, there is still a considerable amount of work for people in managing equipment, quality checks, and other tasks.",
+            "description": "Although battery manufacturing is highly automated, there is still a considerable amount of work for people in managing equipment, quality checks, and other tasks."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Other EV Manufacturing Labor",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Other EV Manufacturing Labor",
+            "wd_description": "Manufacturing the rest of the electric vehicle, including high voltage wiring systems, chargers, and lightweight materials, also requires significant labor.",
+            "description": "Manufacturing the rest of the electric vehicle, including high voltage wiring systems, chargers, and lightweight materials, also requires significant labor."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Final Assembly Labor",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Final Assembly Labor",
+            "wd_description": "The final assembly stage of building an EV, where components are brought together to make a final vehicle, actually takes somewhat more work than a gasoline-powered car.",
+            "description": "The final assembly stage of building an EV, where components are brought together to make a final vehicle, actually takes somewhat more work than a gasoline-powered car."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Specialized Materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Specialized Materials",
+            "wd_description": "Workers need to handle materials like aluminum and composites, which can be more difficult to work with than traditional steel.",
+            "description": "Workers need to handle materials like aluminum and composites, which can be more difficult to work with than traditional steel."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

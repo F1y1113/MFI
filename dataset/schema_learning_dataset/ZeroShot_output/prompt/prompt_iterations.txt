@@ -1,30 +1,37 @@
-According to the provided new paragraphs:
-###
-{}_Paragraphs_provided
-###
-I currently have a hierarchical structure. Can you extract hierarchical information from the new paragraphs and continue building the hierarchical structure for me? The current hierarchical structure is:
+**Prompt:**
+Your task is to extract the hierarchical structure from newly provided paragraphs and continue building / extending old hierarchical structure based on newly extracted hierarchical structure. The final output of your task should be a new hierarchical structure with both information/knowledge from old hierarchical structure and newly provided paragraphs.
+
+Old hierarchical structure is:
 ###
 {}.format(Current hierarchical structure)
 ###
 
-Please continue building this hierarchical structure as further and detailed as possible.
+The provided new paragraphs:
+###
+{}_Paragraphs_provided
+###
 
 ### Hierarchical Structure Guidelines:
 
-- **Event**: Anything that takes place or happens related to the EV batteries supply chain. Multiple 'events' can exist.
+- **Event**: Anything that happens related to the EV battery supply chain.
 - **Event ID**: A unique identifier for each event.
-- **Description**: A detailed 2-3 sentence explanation about the event.
-- **Participants**: All subevents related to this event and their probabilities, the probability needs to be set between 0 and 1, and only one decimal place should be retained. 
-Set the value of this level to 'xxxx' if this level is empty!!!
+- **Description**: A detailed 2-3 sentence explanation of the event.
+- **Participants**: All sub-events related to this event and their importance, the importance needs to be set as 0 ~ 1, the higher the more important.
 - **Gate**: The relationship between an event and its sub-events:
-  - Use 'and' if no sub-events can be missing.
-  - Use 'or' if some sub-events can be missing.
-  - Use 'xor' if sub-events cannot exist simultaneously.
-  set the value of this level to 'xxxx' if this level is empty!!!
-- **Relations**: Specify event-event relations (e.g., ev1.1>ev1.2, which means ev1.2 is caused by (happen after) ev1.1). If there is no relation between participants of an 'event', set 'relations' as 'xxxx'.
+  - Use **'and'** if no sub-events can be missing.
+  - Use **'or'** if some sub-events can be missing.
+  - Use **'xor'** if sub-events cannot exist simultaneously.
+- **Relations**: The event-event relations (e.g., ev1.1>ev1.2, which means ev1.2 happens after ev1.1).
 - If any level is empty, set its value to 'xxxx'.
 
-Use the provided example for guidance:
+### Steps to Build the Hierarchical Structure:
+
+1. **Identify Events**: Extract events from the new paragraphs.
+2. **Assign Event IDs**: Ensure each event has a unique identifier.
+3. **Describe Events**: Provide a detailed 2-3 sentence description for each event.
+4. **List Participants**: Identify and list all subevents with their importances.
+5. **Determine Gates**: Specify the relationship between events and their subevents (and/or/xor).
+6. **Define Relations**: Specify any event-event relations, setting to 'xxxx' if none.
 
 ### Example:
 
@@ -70,54 +77,6 @@ Relations: xxxx
 Let’s think about this extracted structure step by step:
 Starting with the first sentence in the paragraph ‘Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling [67,68,69].’ From this sentence, we can learn that ‘pyrometallurgical’, ‘hydrometallurgical’, ‘bioleaching, and direct recycling’ are three methods of ‘lithium-ion recycling’, so select ‘lithium-ion recycling’ as event, and the three methods as subevent and participants of ‘lithium-ion recycling’.
 
-### Combining Similar Events:
+Please extract the hierarchical information from newly provided paragraphs and continue building / extending current hierarchical structure based on newly extracted hierarchical information.
 
-If you encounter similar events, combine and improve them. For example:
-
-**Current Structure**:
-```
-Event 5
-event: Market and Price Dynamics
-event_id: ev5
-description: Market and price dynamics are influenced by the rapid increase in EV sales, geopolitical events, and supply chain disruptions.
-participants: EV Sales Increase ev5.1_P1, Geopolitical Events ev5.2_P1, Supply Chain Disruptions ev5.3_P1
-Gate: and
-Relations: ev5.1>ev5.2, ev5.2>ev5.3
-
-Event 35
-event: Global Trade Dynamics
-event_id: ev35
-description: The dynamics of global trade affect the EV battery supply chain, including trade agreements and tariffs.
-participants: Trade Agreements ev35.1_P1, Tariffs ev35.2_P1
-Gate: and
-Relations: ev35.1>ev35.2
-```
-
-**Combined Structure**:
-```
-Event 5
-event: Market and Trade Dynamics
-event_id: ev5
-description: Market and trade dynamics are influenced by EV sales, geopolitical events, supply chain disruptions, trade agreements, and tariffs.
-participants: EV Sales Increase ev5.1_P1, Geopolitical Events ev5.2_P1, Supply Chain Disruptions ev5.3_P1, Trade Agreements ev5.4_P1, Tariffs ev5.5_P1
-Gate: and
-Relations: ev5.1>ev5.2, ev5.2>ev5.3, ev5.4>ev5.5
-
-Subevent 5.4
-subevent: Trade Agreements
-event_id: ev5.4
-description: Trade agreements between countries can facilitate or hinder the flow of raw materials and finished products in the EV battery supply chain.
-participants: xxxx
-Gate: xxxx
-Relations: xxxx
-
-Subevent 5.5
-subevent: Tariffs
-event_id: ev5.5
-description: Tariffs imposed on imports and exports can impact the cost and availability of materials and components in the supply chain.
-participants: xxxx
-Gate: xxxx
-Relations: xxxx
-```
-
-Please extract the hierarchical information and continue building the hierarchical structure accordingly.
+And you need to output the whole hierarchical structure you have now!!!

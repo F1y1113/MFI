@@ -1,0 +1,330 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_33R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Meeting between Chinese and Australian Foreign Ministers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Meeting between Chinese and Australian Foreign Ministers",
+            "wd_description": "Chinese Foreign Minister Wang Yi urged Australian Foreign Minister Penny Wong to view China as a partner rather than an opponent, aiming to improve bilateral relations.",
+            "description": "Chinese Foreign Minister Wang Yi urged Australian Foreign Minister Penny Wong to view China as a partner rather than an opponent, aiming to improve bilateral relations."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Wang Yi's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Wang Yi's statement",
+            "wd_description": "Chinese Foreign Minister Wang Yi urged Australia to accumulate \"positive energy\" and improve ties by viewing China as a partner rather than an opponent.",
+            "description": "Chinese Foreign Minister Wang Yi urged Australia to accumulate \"positive energy\" and improve ties by viewing China as a partner rather than an opponent."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Penny Wong's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Penny Wong's response",
+            "wd_description": "Australian Foreign Minister Penny Wong acknowledged the meeting as a first step toward stabilizing relations but noted that trade blockages would take time to be removed.",
+            "description": "Australian Foreign Minister Penny Wong acknowledged the meeting as a first step toward stabilizing relations but noted that trade blockages would take time to be removed."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "meeting discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "meeting discussion",
+            "wd_description": "During the meeting, Wang Yi emphasized that China was engaging in \"equal exchange and cooperation\" based on the needs of sovereign island nations.",
+            "description": "During the meeting, Wang Yi emphasized that China was engaging in \"equal exchange and cooperation\" based on the needs of sovereign island nations."
+        },
+        {
+            "@id": "ev2",
+            "name": "Nancy Pelosi's visit to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nancy Pelosi's visit to Taiwan",
+            "wd_description": "US House Speaker Nancy Pelosi visited Taiwan, marking the most senior US politician visit in 25 years, prompting strong reactions from China.",
+            "description": "US House Speaker Nancy Pelosi visited Taiwan, marking the most senior US politician visit in 25 years, prompting strong reactions from China."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Pelosi's visit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pelosi's visit",
+            "wd_description": "Nancy Pelosi, the most senior US politician to visit Taiwan in 25 years, met with leaders in Taipei's capital.",
+            "description": "Nancy Pelosi, the most senior US politician to visit Taiwan in 25 years, met with leaders in Taipei's capital."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Chinese government's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese government's response",
+            "wd_description": "The Chinese government accused the United States of violating China’s sovereignty under the guise of democracy, with Foreign Minister Wang Yi issuing a warning.",
+            "description": "The Chinese government accused the United States of violating China’s sovereignty under the guise of democracy, with Foreign Minister Wang Yi issuing a warning."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Pelosi's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pelosi's statement",
+            "wd_description": "Nancy Pelosi stated that China cannot prevent world leaders from traveling to Taiwan to respect its democracy, highlight its successes, and reaffirm commitment to collaboration.",
+            "description": "Nancy Pelosi stated that China cannot prevent world leaders from traveling to Taiwan to respect its democracy, highlight its successes, and reaffirm commitment to collaboration."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Biden's disapproval",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's disapproval",
+            "wd_description": "President Joe Biden, Pelosi's party colleague, did not approve of her visit, stating that the American military felt it was \"not a good idea right now\" due to high tensions with China.",
+            "description": "President Joe Biden, Pelosi's party colleague, did not approve of her visit, stating that the American military felt it was \"not a good idea right now\" due to high tensions with China."
+        },
+        {
+            "@id": "ev3",
+            "name": "China announces countermeasures against the US following Pelosi's visit to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China announces countermeasures against the US following Pelosi's visit to Taiwan",
+            "wd_description": "The Chinese Foreign Ministry announced countermeasures against Washington, including the suspension of climate talks and military communications, following Speaker Pelosi’s visit to Taiwan.",
+            "description": "The Chinese Foreign Ministry announced countermeasures against Washington, including the suspension of climate talks and military communications, following Speaker Pelosi’s visit to Taiwan."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "suspension of climate talks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "suspension of climate talks",
+            "wd_description": "China announced the suspension of climate talks with the US as part of its countermeasures following Pelosi’s visit to Taiwan.",
+            "description": "China announced the suspension of climate talks with the US as part of its countermeasures following Pelosi’s visit to Taiwan."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "cancellation of military communications",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "cancellation of military communications",
+            "wd_description": "China canceled future phone calls and messages between Chinese and US defense leaders and annual naval meetings under the China-US military maritime consultation mechanism.",
+            "description": "China canceled future phone calls and messages between Chinese and US defense leaders and annual naval meetings under the China-US military maritime consultation mechanism."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Chinese Foreign Ministry statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese Foreign Ministry statement",
+            "wd_description": "The Chinese Foreign Ministry stated that Pelosi's visit seriously interfered with China’s internal affairs and threatened peace and stability across the Taiwan Strait.",
+            "description": "The Chinese Foreign Ministry stated that Pelosi's visit seriously interfered with China’s internal affairs and threatened peace and stability across the Taiwan Strait."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "sanctions on Pelosi",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sanctions on Pelosi",
+            "wd_description": "Beijing sanctioned Pelosi and her immediate family members over her visit to Taiwan and stepped up military drills and warplane incursions around the island.",
+            "description": "Beijing sanctioned Pelosi and her immediate family members over her visit to Taiwan and stepped up military drills and warplane incursions around the island."
+        },
+        {
+            "@id": "ev4",
+            "name": "CATL Announces New Battery Factory in Hungary",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "CATL Announces New Battery Factory in Hungary",
+            "wd_description": "On August 12, 2022, CATL announced the construction of a new battery factory in Debrecen, Hungary, with a planned capacity of 100GWh and an investment of 7.34 billion euros. This is CATL's second factory in Europe, following the German plant.",
+            "description": "On August 12, 2022, CATL announced the construction of a new battery factory in Debrecen, Hungary, with a planned capacity of 100GWh and an investment of 7.34 billion euros. This is CATL's second factory in Europe, following the German plant."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Project Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Project Announcement",
+            "wd_description": "The new battery factory will be built in Debrecen's southern industrial park, covering 221 hectares, to produce battery cells and modules for European automakers.",
+            "description": "The new battery factory will be built in Debrecen's southern industrial park, covering 221 hectares, to produce battery cells and modules for European automakers."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Strategic Location",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Strategic Location",
+            "wd_description": "Debrecen is centrally located in Europe, close to major automakers like Mercedes-Benz, BMW, Stellantis, and Volkswagen, facilitating CATL's response to European market demands.",
+            "description": "Debrecen is centrally located in Europe, close to major automakers like Mercedes-Benz, BMW, Stellantis, and Volkswagen, facilitating CATL's response to European market demands."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Sustainability Initiatives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainability Initiatives",
+            "wd_description": "CATL commits to reducing the carbon footprint of battery manufacturing by using renewable energy and exploring solar projects with local partners, as well as potential collaborations to establish battery material factories for a sustainable value chain.",
+            "description": "CATL commits to reducing the carbon footprint of battery manufacturing by using renewable energy and exploring solar projects with local partners, as well as potential collaborations to establish battery material factories for a sustainable value chain."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Renewable Energy Usage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Renewable Energy Usage",
+            "wd_description": "The factory will use a significant amount of renewable energy to minimize its carbon footprint.",
+            "description": "The factory will use a significant amount of renewable energy to minimize its carbon footprint."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Solar Project Development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Solar Project Development",
+            "wd_description": "CATL will explore the development of solar projects with local partners in Hungary.",
+            "description": "CATL will explore the development of solar projects with local partners in Hungary."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Battery Material Factory Exploration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery Material Factory Exploration",
+            "wd_description": "CATL is considering establishing battery material factories with local partners to promote a sustainable battery value chain.",
+            "description": "CATL is considering establishing battery material factories with local partners to promote a sustainable battery value chain."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Local and Industry Reactions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Local and Industry Reactions",
+            "wd_description": "The factory has been praised by European customers and local officials, emphasizing its importance for regional economic growth and the EV industry's development.",
+            "description": "The factory has been praised by European customers and local officials, emphasizing its importance for regional economic growth and the EV industry's development."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Hungarian Government Support",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hungarian Government Support",
+            "wd_description": "Hungarian officials, including Foreign Minister Péter Szijjártó, highlighted the investment's significance for Hungary's economic growth and its position as a leading battery manufacturing center.",
+            "description": "Hungarian officials, including Foreign Minister Péter Szijjártó, highlighted the investment's significance for Hungary's economic growth and its position as a leading battery manufacturing center."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Industry Praise",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Industry Praise",
+            "wd_description": "Industry leaders like Markus Schäfer from Mercedes-Benz praised the factory for its role in expanding EV production and meeting carbon-neutral standards.",
+            "description": "Industry leaders like Markus Schäfer from Mercedes-Benz praised the factory for its role in expanding EV production and meeting carbon-neutral standards."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

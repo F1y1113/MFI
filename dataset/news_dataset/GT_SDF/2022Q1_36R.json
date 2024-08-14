@@ -1,0 +1,730 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_36R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Russian Attack on Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russian Attack on Ukraine",
+            "wd_description": "Russian forces have begun an attack on Ukraine, with reports of troops crossing the border, explosions in multiple cities, and warnings from Russian President Vladimir Putin.",
+            "description": "Russian forces have begun an attack on Ukraine, with reports of troops crossing the border, explosions in multiple cities, and warnings from Russian President Vladimir Putin."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Initial Attack",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Initial Attack",
+            "wd_description": "The offensive that Russia called a “special military operation” began with blasts heard around 5 a.m. Thursday, targeting various Ukrainian cities including the capital Kyiv.",
+            "description": "The offensive that Russia called a “special military operation” began with blasts heard around 5 a.m. Thursday, targeting various Ukrainian cities including the capital Kyiv."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "t: Invasion Strategy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Invasion Strategy",
+            "wd_description": "Russian troops crossed the border to the north and south of Ukraine, with explosions reported in multiple cities.",
+            "description": "Russian troops crossed the border to the north and south of Ukraine, with explosions reported in multiple cities."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "t: Statements from Putin",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Statements from Putin",
+            "wd_description": "Putin announced a military operation in the Donbas region and threatened any country that attempts to intervene on Ukraine's behalf.",
+            "description": "Putin announced a military operation in the Donbas region and threatened any country that attempts to intervene on Ukraine's behalf."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Ukrainian Response",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukrainian Response",
+            "wd_description": "Ukrainian President Volodymyr Zelensky enacted martial law, and Ukrainian forces have taken on the first blow of the enemy and are resisting.",
+            "description": "Ukrainian President Volodymyr Zelensky enacted martial law, and Ukrainian forces have taken on the first blow of the enemy and are resisting."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "t: Zelensky's Statements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Zelensky's Statements",
+            "wd_description": "Zelensky appealed for peace but vowed that Ukraine would defend itself against the Russian attack.",
+            "description": "Zelensky appealed for peace but vowed that Ukraine would defend itself against the Russian attack."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "t: Martial Law Declaration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Martial Law Declaration",
+            "wd_description": "Zelensky moved to enact martial law as air raid sirens rang out across Kyiv.",
+            "description": "Zelensky moved to enact martial law as air raid sirens rang out across Kyiv."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "International Reactions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "International Reactions",
+            "wd_description": "Immediate condemnation from the United States and its allies, with threats of “full scale” sanctions against Russia.",
+            "description": "Immediate condemnation from the United States and its allies, with threats of “full scale” sanctions against Russia."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "t: US Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: US Response",
+            "wd_description": "US President Joe Biden issued a statement condemning Russia's attack and promising a united and decisive response.",
+            "description": "US President Joe Biden issued a statement condemning Russia's attack and promising a united and decisive response."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "t: EU Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: EU Response",
+            "wd_description": "EU leaders promised to weaken Russia’s economic base and capacity to modernize through sanctions.",
+            "description": "EU leaders promised to weaken Russia’s economic base and capacity to modernize through sanctions."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "t: UN Involvement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: UN Involvement",
+            "wd_description": "The UN Security Council met to call for a peaceful resolution to the crisis, with US Ambassador Linda Thomas-Greenfield saying Putin had “delivered a message of war.”",
+            "description": "The UN Security Council met to call for a peaceful resolution to the crisis, with US Ambassador Linda Thomas-Greenfield saying Putin had “delivered a message of war.”"
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Ground Situation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ground Situation",
+            "wd_description": "Ukraine's borders are under attack from Russian forces, with explosions heard in multiple cities and residents fleeing Kyiv.",
+            "description": "Ukraine's borders are under attack from Russian forces, with explosions heard in multiple cities and residents fleeing Kyiv."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "t: Border Attacks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Border Attacks",
+            "wd_description": "Russian troops attacked border units, patrol borders, and checkpoints with artillery, heavy equipment, and small arms.",
+            "description": "Russian troops attacked border units, patrol borders, and checkpoints with artillery, heavy equipment, and small arms."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "t: Civilian Impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Civilian Impact",
+            "wd_description": "Civilians are seen leaving Kyiv and seeking shelter in subway stations, with concerns over the safety of residents amidst the attacks.",
+            "description": "Civilians are seen leaving Kyiv and seeking shelter in subway stations, with concerns over the safety of residents amidst the attacks."
+        },
+        {
+            "@id": "ev2",
+            "name": "UK Sanctions on Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UK Sanctions on Russia",
+            "wd_description": "The UK has announced 65 new sanctions targeting strategic industries, banks, and business elites aiding Russia’s invasion of Ukraine, bringing the total sanctioned individuals and businesses to over 1,000 since the invasion.",
+            "description": "The UK has announced 65 new sanctions targeting strategic industries, banks, and business elites aiding Russia’s invasion of Ukraine, bringing the total sanctioned individuals and businesses to over 1,000 since the invasion."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "New Sanctions Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "New Sanctions Announcement",
+            "wd_description": "Foreign Secretary Liz Truss announced 65 new sanctions against a range of key strategic industries and individuals supporting Russia's invasion of Ukraine.",
+            "description": "Foreign Secretary Liz Truss announced 65 new sanctions against a range of key strategic industries and individuals supporting Russia's invasion of Ukraine."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Key Targets of Sanctions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Key Targets of Sanctions",
+            "wd_description": "The sanctions target industries and individuals supporting the invasion, including Russian Railways, Kronshtadt, Wagner Group, Alfa Bank, Alrosa, and several high-profile individuals.",
+            "description": "The sanctions target industries and individuals supporting the invasion, including Russian Railways, Kronshtadt, Wagner Group, Alfa Bank, Alrosa, and several high-profile individuals."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "t: Industries Targeted",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Industries Targeted",
+            "wd_description": "Sanctions target key industries supporting the invasion, such as Russian Railways, Kronshtadt, and the Wagner Group.",
+            "description": "Sanctions target key industries supporting the invasion, such as Russian Railways, Kronshtadt, and the Wagner Group."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "t: Individuals Targeted",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Individuals Targeted",
+            "wd_description": "Sanctions target individuals including Eugene Shvidler, Oleg Tinkov, Herman Gref, and Polina Kovaleva, among others.",
+            "description": "Sanctions target individuals including Eugene Shvidler, Oleg Tinkov, Herman Gref, and Polina Kovaleva, among others."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Impact and Measures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.3.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact and Measures",
+            "wd_description": "The sanctions include asset freezes, travel bans, and transport sanctions, aiming to degrade the Russian economy and prevent sanctioned individuals from conducting business in the UK.",
+            "description": "The sanctions include asset freezes, travel bans, and transport sanctions, aiming to degrade the Russian economy and prevent sanctioned individuals from conducting business in the UK."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "t: Asset Freeze",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Asset Freeze",
+            "wd_description": "The asset freeze prevents any UK citizen or business from dealing with funds or economic resources owned, held, or controlled by the designated person.",
+            "description": "The asset freeze prevents any UK citizen or business from dealing with funds or economic resources owned, held, or controlled by the designated person."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "t: Travel Ban",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Travel Ban",
+            "wd_description": "The travel ban prevents designated individuals from entering or remaining in the UK.",
+            "description": "The travel ban prevents designated individuals from entering or remaining in the UK."
+        },
+        {
+            "@id": "ev2.3.3",
+            "name": "t: Transport Sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Transport Sanctions",
+            "wd_description": "Transport sanctions make it a criminal offense for any Russian aircraft to fly or land in the UK, and ban Russian ships from UK ports.",
+            "description": "Transport sanctions make it a criminal offense for any Russian aircraft to fly or land in the UK, and ban Russian ships from UK ports."
+        },
+        {
+            "@id": "ev3",
+            "name": "Potential Russian Invasion of Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Potential Russian Invasion of Ukraine",
+            "wd_description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation.",
+            "description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "US warnings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "US warnings",
+            "wd_description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February.",
+            "description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Biden's statements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden's statements",
+            "wd_description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky.",
+            "description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: White House statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: White House statement",
+            "wd_description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine.",
+            "description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: National Security Council spokesperson",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: National Security Council spokesperson",
+            "wd_description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion.",
+            "description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Russian troop build-up",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian troop build-up",
+            "wd_description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion.",
+            "description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "diplomatic efforts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "diplomatic efforts",
+            "wd_description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders.",
+            "description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Biden-Zelensky call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden-Zelensky call",
+            "wd_description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis.",
+            "description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Macron-Putin call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Macron-Putin call",
+            "wd_description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis.",
+            "description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: US-Russia negotiations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: US-Russia negotiations",
+            "wd_description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO.",
+            "description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "energy implications",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "energy implications",
+            "wd_description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany.",
+            "description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany."
+        },
+        {
+            "@id": "ev3.4.1",
+            "name": "t: Nord Stream 2 project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nord Stream 2 project",
+            "wd_description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine.",
+            "description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev3.4.2",
+            "name": "t: potential sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential sanctions",
+            "wd_description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs.",
+            "description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs."
+        },
+        {
+            "@id": "ev4",
+            "name": "China EV Battery Industry Overview",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China EV Battery Industry Overview",
+            "wd_description": "A comprehensive overview of China's EV battery industry as reported by DIGITIMES Asia, highlighting the market growth, key players, government policies, and technological advancements in the context of global EV market leadership.",
+            "description": "A comprehensive overview of China's EV battery industry as reported by DIGITIMES Asia, highlighting the market growth, key players, government policies, and technological advancements in the context of global EV market leadership."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Market Growth and Dominance",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Market Growth and Dominance",
+            "wd_description": "China has the world's largest EV market, with 3.3 million EV sales in 2021, a 168% growth from 2020, and accounts for more than 50% of global EV battery usage.",
+            "description": "China has the world's largest EV market, with 3.3 million EV sales in 2021, a 168% growth from 2020, and accounts for more than 50% of global EV battery usage."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Sales Growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Sales Growth",
+            "wd_description": "China saw the sale of 3.3 million EVs in 2021, reflecting a 168% growth from 2020, highlighting the rapid expansion of the EV market.",
+            "description": "China saw the sale of 3.3 million EVs in 2021, reflecting a 168% growth from 2020, highlighting the rapid expansion of the EV market."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Global Battery Usage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Global Battery Usage",
+            "wd_description": "China accounted for more than 50% of the global EV battery usage in 2021, with 296.8 GWh of global usage reported by SNE Research.",
+            "description": "China accounted for more than 50% of the global EV battery usage in 2021, with 296.8 GWh of global usage reported by SNE Research."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Key Battery Manufacturers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Key Battery Manufacturers",
+            "wd_description": "Six out of the top 10 battery makers are based in China or owned by Chinese companies, including the world-leading CATL.",
+            "description": "Six out of the top 10 battery makers are based in China or owned by Chinese companies, including the world-leading CATL."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: CATL",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: CATL",
+            "wd_description": "CATL is the world-leading EV battery maker, significantly contributing to China's dominance in the global battery market.",
+            "description": "CATL is the world-leading EV battery maker, significantly contributing to China's dominance in the global battery market."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Other Chinese Battery Makers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Other Chinese Battery Makers",
+            "wd_description": "Other top Chinese battery makers include companies that are expanding their production capacity to meet the growing demand.",
+            "description": "Other top Chinese battery makers include companies that are expanding their production capacity to meet the growing demand."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Government Policies and Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Government Policies and Impact",
+            "wd_description": "Government subsidies and policies significantly influence the EV and battery manufacturing industry in China, driving expansion and securing raw materials.",
+            "description": "Government subsidies and policies significantly influence the EV and battery manufacturing industry in China, driving expansion and securing raw materials."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Subsidies and Policies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Subsidies and Policies",
+            "wd_description": "Government subsidies and policies have been crucial in shaping the EV and battery manufacturing industry in China.",
+            "description": "Government subsidies and policies have been crucial in shaping the EV and battery manufacturing industry in China."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Securing Raw Materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Securing Raw Materials",
+            "wd_description": "Material suppliers like Huayou Cobalt and Beijing Easpring Material Technology have nickel mining projects in Indonesia to secure the necessary raw materials.",
+            "description": "Material suppliers like Huayou Cobalt and Beijing Easpring Material Technology have nickel mining projects in Indonesia to secure the necessary raw materials."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Technological Advancements and Safety Features",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Technological Advancements and Safety Features",
+            "wd_description": "Chinese battery companies are focusing on safety features in their products, with advancements in heat-resisting technologies to prevent fire accidents.",
+            "description": "Chinese battery companies are focusing on safety features in their products, with advancements in heat-resisting technologies to prevent fire accidents."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Safety Features",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Safety Features",
+            "wd_description": "Companies like GAC Aion and BYD have showcased battery technologies with enhanced heat-resisting ability to address safety concerns.",
+            "description": "Companies like GAC Aion and BYD have showcased battery technologies with enhanced heat-resisting ability to address safety concerns."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Technological Advancements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Technological Advancements",
+            "wd_description": "Technological advancements in battery design are being implemented to enhance safety and performance in EV batteries.",
+            "description": "Technological advancements in battery design are being implemented to enhance safety and performance in EV batteries."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Battery Recycling Ecosystem",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.5.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.5.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Recycling Ecosystem",
+            "wd_description": "China is developing its EV battery recycling ecosystem to ensure a stable supply of raw materials and reduce dependence on other nations.",
+            "description": "China is developing its EV battery recycling ecosystem to ensure a stable supply of raw materials and reduce dependence on other nations."
+        },
+        {
+            "@id": "ev4.5.1",
+            "name": "t: Prominent Recyclers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Prominent Recyclers",
+            "wd_description": "Prominent recyclers like GEM and Brunp Recycling are leading the development of the EV battery recycling ecosystem in China.",
+            "description": "Prominent recyclers like GEM and Brunp Recycling are leading the development of the EV battery recycling ecosystem in China."
+        },
+        {
+            "@id": "ev4.5.2",
+            "name": "t: Government Policies on Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Government Policies on Recycling",
+            "wd_description": "Government policies are expected to guide the development of the battery recycling business in China.",
+            "description": "Government policies are expected to guide the development of the battery recycling business in China."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

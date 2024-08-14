@@ -1,0 +1,176 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper91_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Electric Vehicle (EV) Battery Supply Chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Electric Vehicle (EV) Battery Supply Chain",
+            "wd_description": "The EV battery supply chain, including extraction, refining, manufacturing, and recycling of raw materials such as lithium and cobalt.",
+            "description": "The EV battery supply chain, including extraction, refining, manufacturing, and recycling of raw materials such as lithium and cobalt."
+        },
+        {
+            "@id": "ev2",
+            "name": "Lithium Demand Increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium Demand Increase",
+            "wd_description": "The demand for lithium increases significantly due to the growing adoption of electric vehicles (EVs) and the need for EV batteries with higher energy densities.",
+            "description": "The demand for lithium increases significantly due to the growing adoption of electric vehicles (EVs) and the need for EV batteries with higher energy densities."
+        },
+        {
+            "@id": "ev3",
+            "name": "Cobalt Demand Increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt Demand Increase",
+            "wd_description": "The demand for cobalt increases moderately due to the growing adoption of electric vehicles (EVs) and the need for EV batteries with higher energy densities.",
+            "description": "The demand for cobalt increases moderately due to the growing adoption of electric vehicles (EVs) and the need for EV batteries with higher energy densities."
+        },
+        {
+            "@id": "ev4",
+            "name": "Mining and Refining Companies' Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mining and Refining Companies' Response",
+            "wd_description": "Mining and refining companies respond to the increased demand for lithium and cobalt by increasing production and investing in new technologies.",
+            "description": "Mining and refining companies respond to the increased demand for lithium and cobalt by increasing production and investing in new technologies."
+        },
+        {
+            "@id": "ev5",
+            "name": "Recycling Technologies Development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling Technologies Development",
+            "wd_description": "New recycling technologies are developed to extract valuable materials from spent batteries, reducing the environmental impact of the supply chain.",
+            "description": "New recycling technologies are developed to extract valuable materials from spent batteries, reducing the environmental impact of the supply chain."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Mass production of gas-powered vehicles",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mass production of gas-powered vehicles",
+            "wd_description": "The introduction of the mass-produced gas-powered Model T by Henry Ford in 1908 marked the decline of electric vehicles.",
+            "description": "The introduction of the mass-produced gas-powered Model T by Henry Ford in 1908 marked the decline of electric vehicles."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Henry Ford",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Henry Ford",
+            "wd_description": "Henry Ford introduced the mass-produced gas-powered Model T in 1908.",
+            "description": "Henry Ford introduced the mass-produced gas-powered Model T in 1908."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Model T",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Model T",
+            "wd_description": "The Model T symbolized the end of the early age of electric cars and the rise of gas-powered vehicles.",
+            "description": "The Model T symbolized the end of the early age of electric cars and the rise of gas-powered vehicles."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Strategic responses",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.4.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper91R/Event/11px6wYIK8/Strategic-Responses-to-Raw-Material-Supply-Challenges",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategic responses",
+            "wd_description": "Different industry players need to develop robust strategies to address the complexities and dynamics of the rapidly changing battery raw materials market.",
+            "description": "Different industry players need to develop robust strategies to address the complexities and dynamics of the rapidly changing battery raw materials market."
+        },
+        {
+            "@id": "ev2.4.1",
+            "name": "Automotive OEMs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Automotive OEMs",
+            "wd_description": "Automotive OEMs need to understand the market dynamics and develop strategies to secure raw material supplies.",
+            "description": "Automotive OEMs need to understand the market dynamics and develop strategies to secure raw material supplies."
+        },
+        {
+            "@id": "ev2.4.2",
+            "name": "Battery manufacturers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery manufacturers",
+            "wd_description": "Battery manufacturers must adapt to the changing market conditions and ensure a stable supply of raw materials.",
+            "description": "Battery manufacturers must adapt to the changing market conditions and ensure a stable supply of raw materials."
+        },
+        {
+            "@id": "ev2.4.3",
+            "name": "Mining companies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mining companies",
+            "wd_description": "Mining and refining companies play a critical role in the supply of lithium and cobalt for battery production.",
+            "description": "Mining and refining companies play a critical role in the supply of lithium and cobalt for battery production."
+        },
+        {
+            "@id": "ev2.4.4",
+            "name": "Financial investors",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Financial investors",
+            "wd_description": "Financial investors need to understand the complexities of the battery raw materials market to make informed investment decisions.",
+            "description": "Financial investors need to understand the complexities of the battery raw materials market to make informed investment decisions."
+        },
+        {
+            "@id": "paper91R/Event/11px6wYIK8/Strategic-Responses-to-Raw-Material-Supply-Challenges",
+            "name": "Strategic Responses to Raw Material Supply Challenges",
+            "ta1explanation": "",
+            "description": "The strategic response to raw material supply challenges will differ across industry players, including automotive OEMs, battery manufacturers, mining companies, and financial investors. Understanding market dynamics is crucial for developing robust strategies.",
+            "wd_node": "paper91",
+            "wd_label": "paper91",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

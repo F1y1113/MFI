@@ -1,0 +1,298 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_28R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "US troop redeployment to Somalia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US troop redeployment to Somalia",
+            "wd_description": "President Biden has approved the redeployment of fewer than 500 US troops to Somalia to restore military presence and counter al-Shabaab forces, reversing former President Trump's withdrawal.",
+            "description": "President Biden has approved the redeployment of fewer than 500 US troops to Somalia to restore military presence and counter al-Shabaab forces, reversing former President Trump's withdrawal."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Trump’s withdrawal policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trump’s withdrawal policy",
+            "wd_description": "Former President Trump ordered the withdrawal of US troops from Somalia in early 2020 as part of efforts to reduce US involvement in international politics.",
+            "description": "Former President Trump ordered the withdrawal of US troops from Somalia in early 2020 as part of efforts to reduce US involvement in international politics."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Biden’s redeployment decision",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden’s redeployment decision",
+            "wd_description": "President Biden approved the redeployment of fewer than 500 troops to Somalia in consultation with the Somali government to counter the threat posed by al-Shabaab.",
+            "description": "President Biden approved the redeployment of fewer than 500 troops to Somalia in consultation with the Somali government to counter the threat posed by al-Shabaab."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Impact of troop withdrawal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact of troop withdrawal",
+            "wd_description": "The withdrawal of US troops was described as “abrupt and sudden” by a Pentagon official, strengthening the morale of al-Shabaab forces.",
+            "description": "The withdrawal of US troops was described as “abrupt and sudden” by a Pentagon official, strengthening the morale of al-Shabaab forces."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "US counter-terrorism strategy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US counter-terrorism strategy",
+            "wd_description": "While no targeted strikes on specific leaders of al-Shabaab have been confirmed, emphasis is on other non-military components of the US counter-terrorism strategy in Somalia.",
+            "description": "While no targeted strikes on specific leaders of al-Shabaab have been confirmed, emphasis is on other non-military components of the US counter-terrorism strategy in Somalia."
+        },
+        {
+            "@id": "ev2",
+            "name": "Russia becomes most sanctioned country",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russia becomes most sanctioned country",
+            "wd_description": "Russia has become the world's most sanctioned country with over 10,500 restrictions imposed on individuals and businesses, with 7,500 implemented in the last four months.",
+            "description": "Russia has become the world's most sanctioned country with over 10,500 restrictions imposed on individuals and businesses, with 7,500 implemented in the last four months."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Impact of sanctions on Russia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact of sanctions on Russia",
+            "wd_description": "The sanctions have affected Russia's newly manufactured cars, which lack imported security technologies, and have led to reduced traffic and choice of products in malls.",
+            "description": "The sanctions have affected Russia's newly manufactured cars, which lack imported security technologies, and have led to reduced traffic and choice of products in malls."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "China's stance on sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's stance on sanctions",
+            "wd_description": "China, Russia's prominent ally, has stated it will not supply Russia with sanctioned technology due to fear of secondary sanctions.",
+            "description": "China, Russia's prominent ally, has stated it will not supply Russia with sanctioned technology due to fear of secondary sanctions."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Historical context of sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Historical context of sanctions",
+            "wd_description": "Sanctions against Russia have ramped up since 2014, but Russia is making huge gains from oil revenues, which can fund its military and prevent a spike in local unemployment.",
+            "description": "Sanctions against Russia have ramped up since 2014, but Russia is making huge gains from oil revenues, which can fund its military and prevent a spike in local unemployment."
+        },
+        {
+            "@id": "ev3",
+            "name": "US commitment to Taiwan's defense",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US commitment to Taiwan's defense",
+            "wd_description": "During his tour of Asia, President Biden stated that the US is prepared to defend Taiwan if China attacks, attracting remarks from the Chinese leadership.",
+            "description": "During his tour of Asia, President Biden stated that the US is prepared to defend Taiwan if China attacks, attracting remarks from the Chinese leadership."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Biden's statement on Taiwan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's statement on Taiwan",
+            "wd_description": "President Biden compared Taiwan's situation to the tensions between Russia and Ukraine and affirmed the US's commitment to defending Taiwan.",
+            "description": "President Biden compared Taiwan's situation to the tensions between Russia and Ukraine and affirmed the US's commitment to defending Taiwan."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Chinese response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese response",
+            "wd_description": "The Chinese Foreign Minister reiterated that Taiwan is inseparable from China and urged the US to abide by the One-China Principle, stating that the situation in Ukraine is not comparable to Taiwan.",
+            "description": "The Chinese Foreign Minister reiterated that Taiwan is inseparable from China and urged the US to abide by the One-China Principle, stating that the situation in Ukraine is not comparable to Taiwan."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "US-Taiwan relations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US-Taiwan relations",
+            "wd_description": "While the US acknowledges the One-China Principle, the Taiwan Relations Act mandates that the US must provide Taiwan with the means to defend itself.",
+            "description": "While the US acknowledges the One-China Principle, the Taiwan Relations Act mandates that the US must provide Taiwan with the means to defend itself."
+        },
+        {
+            "@id": "ev4",
+            "name": "Importance of tin in battery production and supply challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Importance of tin in battery production and supply challenges",
+            "wd_description": "As the world transitions to electrification and clean energy, establishing stable and sustainable sources for tin production is essential, with countries like Australia well-positioned to fulfill this need.",
+            "description": "As the world transitions to electrification and clean energy, establishing stable and sustainable sources for tin production is essential, with countries like Australia well-positioned to fulfill this need."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Role of tin in various industries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Role of tin in various industries",
+            "wd_description": "Tin, once used primarily for corrosion resistance and in the food and beverage sector, is now primarily used in soldering for electrical connections and as a component in lithium-ion batteries.",
+            "description": "Tin, once used primarily for corrosion resistance and in the food and beverage sector, is now primarily used in soldering for electrical connections and as a component in lithium-ion batteries."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Tin's properties and benefits for batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tin's properties and benefits for batteries",
+            "wd_description": "Tin resists corrosion and is highly resistant to strong acids and alkalis, making it ideal for battery anodes to prevent dendrite formation and increase battery lifespan and performance.",
+            "description": "Tin resists corrosion and is highly resistant to strong acids and alkalis, making it ideal for battery anodes to prevent dendrite formation and increase battery lifespan and performance."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Tin demand and supply deficit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tin demand and supply deficit",
+            "wd_description": "Tin demand is projected to surge, reaching up to 60,000 metric tons per year by 2030, but the world faces a worsening tin deficit with prices nearly doubling in 2021.",
+            "description": "Tin demand is projected to surge, reaching up to 60,000 metric tons per year by 2030, but the world faces a worsening tin deficit with prices nearly doubling in 2021."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Major tin producers and supply challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Major tin producers and supply challenges",
+            "wd_description": "China, the top global tin provider, cut its tin exports by 40%, and Indonesia, the second-largest producer, delayed new export permits. Other producers include the DRC, Malaysia, and Myanmar.",
+            "description": "China, the top global tin provider, cut its tin exports by 40%, and Indonesia, the second-largest producer, delayed new export permits. Other producers include the DRC, Malaysia, and Myanmar."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Responsible sourcing initiatives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Responsible sourcing initiatives",
+            "wd_description": "The International Tin Association has introduced initiatives to discourage sourcing from conflict-affected and high-risk areas (CAHRAs).",
+            "description": "The International Tin Association has introduced initiatives to discourage sourcing from conflict-affected and high-risk areas (CAHRAs)."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Opportunities for Australian tin production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Opportunities for Australian tin production",
+            "wd_description": "Australia, the sixth-largest global producer of tin, has significant potential to improve supply and increase sustainability, with extensive infrastructure and the world's largest tin mine, Renison Bell.",
+            "description": "Australia, the sixth-largest global producer of tin, has significant potential to improve supply and increase sustainability, with extensive infrastructure and the world's largest tin mine, Renison Bell."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Renison Bell mine and other projects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Renison Bell mine and other projects",
+            "wd_description": "The Renison Bell mine, owned by Metals X, accounts for 85% of Australia's known economic tin resources. Tasmania hosts rich tin deposits, including the Great Pyramid project by TinOne Resources.",
+            "description": "The Renison Bell mine, owned by Metals X, accounts for 85% of Australia's known economic tin resources. Tasmania hosts rich tin deposits, including the Great Pyramid project by TinOne Resources."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Australia's lithium reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Australia's lithium reserves",
+            "wd_description": "Australia has the second-largest lithium reserves in the world, making it a major player in supporting the entire battery supply chain, with significant projects like the Greenbushes lithium mine.",
+            "description": "Australia has the second-largest lithium reserves in the world, making it a major player in supporting the entire battery supply chain, with significant projects like the Greenbushes lithium mine."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

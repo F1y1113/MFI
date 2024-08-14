@@ -1,0 +1,346 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_40R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Ukrainian Prime Minister thanks Germany for solidarity and calls for more weapons",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukrainian Prime Minister thanks Germany for solidarity and calls for more weapons",
+            "wd_description": "Ukrainian Prime Minister Denys Shmyhal thanked Germany for its solidarity in the face of the Russian invasion and called for more weapons during his visit to Berlin, signaling an easing of tensions between Berlin and Kyiv.",
+            "description": "Ukrainian Prime Minister Denys Shmyhal thanked Germany for its solidarity in the face of the Russian invasion and called for more weapons during his visit to Berlin, signaling an easing of tensions between Berlin and Kyiv."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Shmyhal's visit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shmyhal's visit",
+            "wd_description": "Prime Minister Denys Shmyhal visited Berlin and was welcomed by German Chancellor Olaf Scholz with military honors.",
+            "description": "Prime Minister Denys Shmyhal visited Berlin and was welcomed by German Chancellor Olaf Scholz with military honors."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "meeting with German officials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "meeting with German officials",
+            "wd_description": "Shmyhal met with German officials, including Chancellor Scholz and President Steinmeier, to discuss the military situation, strengthening sanctions, and the need to provide weapons for Ukraine.",
+            "description": "Shmyhal met with German officials, including Chancellor Scholz and President Steinmeier, to discuss the military situation, strengthening sanctions, and the need to provide weapons for Ukraine."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Shmyhal's tweet",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shmyhal's tweet",
+            "wd_description": "Shmyhal tweeted about the discussions held during the meeting, focusing on the military situation, sanctions, and the need for weapons.",
+            "description": "Shmyhal tweeted about the discussions held during the meeting, focusing on the military situation, sanctions, and the need for weapons."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Shmyhal's statement to German media",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shmyhal's statement to German media",
+            "wd_description": "Before his trip, Shmyhal acknowledged Germany's progress in supporting Ukraine with weapons but emphasized the need for more, including modern combat tanks like the Leopard 2.",
+            "description": "Before his trip, Shmyhal acknowledged Germany's progress in supporting Ukraine with weapons but emphasized the need for more, including modern combat tanks like the Leopard 2."
+        },
+        {
+            "@id": "ev2",
+            "name": "Accusation and trial of British mercenaries by DPR",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Accusation and trial of British mercenaries by DPR",
+            "wd_description": "The Russian-backed Donetsk People’s Republic (DPR) accused two more British citizens, Dylan Healy and Andrew Hill, of being mercenaries, initiating an inquiry against them.",
+            "description": "The Russian-backed Donetsk People’s Republic (DPR) accused two more British citizens, Dylan Healy and Andrew Hill, of being mercenaries, initiating an inquiry against them."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "British mercenaries accusation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "British mercenaries accusation",
+            "wd_description": "Dylan Healy and Andrew Hill were accused by the DPR of being mercenaries, similar to three previously convicted mercenaries.",
+            "description": "Dylan Healy and Andrew Hill were accused by the DPR of being mercenaries, similar to three previously convicted mercenaries."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "UK Foreign Office response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "UK Foreign Office response",
+            "wd_description": "The UK Foreign Office criticized the political exploitation of inmates and highlighted the issue with Russian authorities, supporting Ukraine's efforts to free them.",
+            "description": "The UK Foreign Office criticized the political exploitation of inmates and highlighted the issue with Russian authorities, supporting Ukraine's efforts to free them."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "European Court of Human Rights intervention",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "European Court of Human Rights intervention",
+            "wd_description": "The European Court of Human Rights granted interim measures to prevent the execution of the previously convicted mercenaries.",
+            "description": "The European Court of Human Rights granted interim measures to prevent the execution of the previously convicted mercenaries."
+        },
+        {
+            "@id": "ev3",
+            "name": "School shooting in Izhevsk, Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "School shooting in Izhevsk, Russia",
+            "wd_description": "A gunman opened fire at a school in Izhevsk, central Russia, killing at least 15 people and injuring 24, including 11 children. The gunman, a former student of the school, killed himself at the scene.",
+            "description": "A gunman opened fire at a school in Izhevsk, central Russia, killing at least 15 people and injuring 24, including 11 children. The gunman, a former student of the school, killed himself at the scene."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "casualties",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "casualties",
+            "wd_description": "Eleven children and four adults, including two security guards and two teachers, were killed in the shooting, and 24 others were injured, with only two of them not being children.",
+            "description": "Eleven children and four adults, including two security guards and two teachers, were killed in the shooting, and 24 others were injured, with only two of them not being children."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "panic inside the school",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "panic inside the school",
+            "wd_description": "Video footage showed panic inside the building, with children and adults running along the corridors and blood seen on the floor of a classroom, with children crouching underneath desks.",
+            "description": "Video footage showed panic inside the building, with children and adults running along the corridors and blood seen on the floor of a classroom, with children crouching underneath desks."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "details of the incident",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "details of the incident",
+            "wd_description": "The gunman, a former student of the school, opened fire at the school with about 1,000 pupils in the city of Izhevsk and then killed himself at the scene.",
+            "description": "The gunman, a former student of the school, opened fire at the school with about 1,000 pupils in the city of Izhevsk and then killed himself at the scene."
+        },
+        {
+            "@id": "ev4",
+            "name": "Strategies to develop a sustainable EV battery supply chain in the U.S.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategies to develop a sustainable EV battery supply chain in the U.S.",
+            "wd_description": "A comprehensive national strategy involving short-term, medium-term, and long-term measures to develop a sustainable EV battery supply chain in the U.S. and reduce reliance on China.",
+            "description": "A comprehensive national strategy involving short-term, medium-term, and long-term measures to develop a sustainable EV battery supply chain in the U.S. and reduce reliance on China."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "short-term measures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "short-term measures",
+            "wd_description": "Immediate actions to increase EV production in the U.S., including assembling EVs domestically, securing temporary waivers for imports, and expanding charging infrastructure.",
+            "description": "Immediate actions to increase EV production in the U.S., including assembling EVs domestically, securing temporary waivers for imports, and expanding charging infrastructure."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: domestic assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: domestic assembly",
+            "wd_description": "Six of the ten best-selling EV models in 2022 are already assembled in the U.S., and more companies are planning to open assembly lines.",
+            "description": "Six of the ten best-selling EV models in 2022 are already assembled in the U.S., and more companies are planning to open assembly lines."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: temporary waiver for imports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: temporary waiver for imports",
+            "wd_description": "A temporary waiver for Korean-made EVs and batteries could facilitate the transition and encourage Korean battery makers to move their supply chain to the U.S.",
+            "description": "A temporary waiver for Korean-made EVs and batteries could facilitate the transition and encourage Korean battery makers to move their supply chain to the U.S."
+        },
+        {
+            "@id": "ev4.1.3",
+            "name": "t: charging infrastructure expansion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: charging infrastructure expansion",
+            "wd_description": "The 2021 Infrastructure Act provided $5 billion to expand charging infrastructure, which is critical for bolstering EV demand.",
+            "description": "The 2021 Infrastructure Act provided $5 billion to expand charging infrastructure, which is critical for bolstering EV demand."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "medium-term measures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "medium-term measures",
+            "wd_description": "Diversifying lithium and cobalt supplies through international trade and diplomacy, and promoting the production of alternative battery chemistries.",
+            "description": "Diversifying lithium and cobalt supplies through international trade and diplomacy, and promoting the production of alternative battery chemistries."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: securing lithium supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: securing lithium supply",
+            "wd_description": "Investing in regions like the Lithium Triangle of South America and partnering with Australia, which leads in lithium production and has rich cobalt deposits.",
+            "description": "Investing in regions like the Lithium Triangle of South America and partnering with Australia, which leads in lithium production and has rich cobalt deposits."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: securing cobalt supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: securing cobalt supply",
+            "wd_description": "Partnering with Australian mining companies and avoiding reliance on cobalt from the Democratic Republic of the Congo.",
+            "description": "Partnering with Australian mining companies and avoiding reliance on cobalt from the Democratic Republic of the Congo."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "t: promoting alternative batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: promoting alternative batteries",
+            "wd_description": "Supporting the production of lithium-iron-phosphate (LFP) batteries, which are cheaper and use more abundant minerals, as patents expire and production scales up.",
+            "description": "Supporting the production of lithium-iron-phosphate (LFP) batteries, which are cheaper and use more abundant minerals, as patents expire and production scales up."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "long-term measures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "long-term measures",
+            "wd_description": "Replacing overseas critical materials with domestic mining operations and investing in the research and development of new battery technologies.",
+            "description": "Replacing overseas critical materials with domestic mining operations and investing in the research and development of new battery technologies."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: domestic mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: domestic mining",
+            "wd_description": "Developing domestic mining operations for lithium and cobalt, despite the lengthy permitting process, to reduce reliance on foreign sources.",
+            "description": "Developing domestic mining operations for lithium and cobalt, despite the lengthy permitting process, to reduce reliance on foreign sources."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: R&D investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: R&D investment",
+            "wd_description": "Investing in research and development of new battery technologies to build a sustainable and competitive EV battery industry in the U.S.",
+            "description": "Investing in research and development of new battery technologies to build a sustainable and competitive EV battery industry in the U.S."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

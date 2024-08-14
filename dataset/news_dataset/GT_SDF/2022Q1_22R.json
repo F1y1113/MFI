@@ -1,0 +1,656 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_22R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Sudan Protests and Military Coup Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sudan Protests and Military Coup Impact",
+            "wd_description": "The military coup in Sudan and subsequent protests have led to widespread violence, economic disruption, and a struggle for power between the military and pro-democracy protesters.",
+            "description": "The military coup in Sudan and subsequent protests have led to widespread violence, economic disruption, and a struggle for power between the military and pro-democracy protesters."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Military Coup",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Military Coup",
+            "wd_description": "The military seized power in Sudan, disrupting a power-sharing agreement with a civilian coalition and leading to widespread unrest and protests.",
+            "description": "The military seized power in Sudan, disrupting a power-sharing agreement with a civilian coalition and leading to widespread unrest and protests."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "t: Seizure of Power",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Seizure of Power",
+            "wd_description": "The military seized control in Sudan in October, ending the power-sharing agreement with the civilian coalition.",
+            "description": "The military seized control in Sudan in October, ending the power-sharing agreement with the civilian coalition."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "t: Power-Sharing Agreement Disruption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Power-Sharing Agreement Disruption",
+            "wd_description": "The military coup disrupted a power-sharing agreement that had been in place for over two years, leading to political instability.",
+            "description": "The military coup disrupted a power-sharing agreement that had been in place for over two years, leading to political instability."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Protests and Violence",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Protests and Violence",
+            "wd_description": "Protests erupted across Sudan in response to the military coup, leading to violent clashes between protesters and security forces, resulting in numerous deaths and injuries.",
+            "description": "Protests erupted across Sudan in response to the military coup, leading to violent clashes between protesters and security forces, resulting in numerous deaths and injuries."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "t: Protests Against Coup",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Protests Against Coup",
+            "wd_description": "Protests broke out across Sudan as civilians opposed the military coup and demanded a return to civilian rule.",
+            "description": "Protests broke out across Sudan as civilians opposed the military coup and demanded a return to civilian rule."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "t: Security Force Violence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Security Force Violence",
+            "wd_description": "Security forces responded to the protests with violence, opening fire on demonstrators and leading to multiple fatalities.",
+            "description": "Security forces responded to the protests with violence, opening fire on demonstrators and leading to multiple fatalities."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "t: Casualties and Injuries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Casualties and Injuries",
+            "wd_description": "The violent crackdown by security forces resulted in the deaths of more than 70 protesters and thousands of injuries.",
+            "description": "The violent crackdown by security forces resulted in the deaths of more than 70 protesters and thousands of injuries."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Economic and Political Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic and Political Impact",
+            "wd_description": "The military coup and subsequent unrest have had significant economic and political repercussions, including the resignation of Prime Minister Abdalla Hamdok and the reinstatement of Bashir loyalists.",
+            "description": "The military coup and subsequent unrest have had significant economic and political repercussions, including the resignation of Prime Minister Abdalla Hamdok and the reinstatement of Bashir loyalists."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "t: Economic Crisis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Economic Crisis",
+            "wd_description": "The economic gains made during the power-sharing transition have been forfeited, exacerbating the economic crisis in Sudan.",
+            "description": "The economic gains made during the power-sharing transition have been forfeited, exacerbating the economic crisis in Sudan."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "t: Political Instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Political Instability",
+            "wd_description": "The coup has led to significant political instability, with ongoing power struggles between the military and pro-democracy protesters.",
+            "description": "The coup has led to significant political instability, with ongoing power struggles between the military and pro-democracy protesters."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "t: Resignation of PM",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Resignation of PM",
+            "wd_description": "Prime Minister Abdalla Hamdok resigned after realizing he could not work without political backing, further deepening the political crisis.",
+            "description": "Prime Minister Abdalla Hamdok resigned after realizing he could not work without political backing, further deepening the political crisis."
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "t: Reinstatement of Loyalists",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Reinstatement of Loyalists",
+            "wd_description": "The military ruler Gen Abdel Fattah al-Burhan appointed a caretaker administration that includes Bashir loyalists to steer the country to elections.",
+            "description": "The military ruler Gen Abdel Fattah al-Burhan appointed a caretaker administration that includes Bashir loyalists to steer the country to elections."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "International Response",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "The international community, including the UN and the Friends of Sudan group, has been involved in diplomatic efforts to resolve the crisis, but with limited success and varying levels of faith from Sudanese protesters.",
+            "description": "The international community, including the UN and the Friends of Sudan group, has been involved in diplomatic efforts to resolve the crisis, but with limited success and varying levels of faith from Sudanese protesters."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "t: Diplomatic Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Diplomatic Efforts",
+            "wd_description": "The UN and the Friends of Sudan, which includes the US, UK, European states, and junta allies Saudi Arabia and the UAE, have been engaged in efforts to find a solution to the crisis.",
+            "description": "The UN and the Friends of Sudan, which includes the US, UK, European states, and junta allies Saudi Arabia and the UAE, have been engaged in efforts to find a solution to the crisis."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "t: Protests' View on International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Protests' View on International Response",
+            "wd_description": "Many Sudanese protesters have little faith in the international efforts, feeling that the military should have no role in the government.",
+            "description": "Many Sudanese protesters have little faith in the international efforts, feeling that the military should have no role in the government."
+        },
+        {
+            "@id": "ev2",
+            "name": "Landslide in Petrópolis, Brazil",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Landslide in Petrópolis, Brazil",
+            "wd_description": "A landslide triggered by heavy rains in Petrópolis, Brazil, resulted in 110 fatalities, with many still missing, and caused widespread destruction.",
+            "description": "A landslide triggered by heavy rains in Petrópolis, Brazil, resulted in 110 fatalities, with many still missing, and caused widespread destruction."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Landslide",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Landslide",
+            "wd_description": "A wave of landslides caused by torrential rains led to massive casualties and destruction in the city of Petrópolis, with over 110 fatalities and 134 people still missing.",
+            "description": "A wave of landslides caused by torrential rains led to massive casualties and destruction in the city of Petrópolis, with over 110 fatalities and 134 people still missing."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Search and Rescue Operations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Search and Rescue Operations",
+            "wd_description": "Search and rescue teams worked through sludge and debris, rescuing 24 people while 439 others lost their homes; the search for more survivors continues.",
+            "description": "Search and rescue teams worked through sludge and debris, rescuing 24 people while 439 others lost their homes; the search for more survivors continues."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Government Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government Response",
+            "wd_description": "Brazil's President Jair Bolsonaro, who was abroad during the landslides, directed ministers to provide urgent aid and planned a visit to Petrópolis.",
+            "description": "Brazil's President Jair Bolsonaro, who was abroad during the landslides, directed ministers to provide urgent aid and planned a visit to Petrópolis."
+        },
+        {
+            "@id": "ev3",
+            "name": "Potential Russian Invasion of Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Potential Russian Invasion of Ukraine",
+            "wd_description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation.",
+            "description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "US warnings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "US warnings",
+            "wd_description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February.",
+            "description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Biden's statements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden's statements",
+            "wd_description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky.",
+            "description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: White House statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: White House statement",
+            "wd_description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine.",
+            "description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: National Security Council spokesperson",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: National Security Council spokesperson",
+            "wd_description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion.",
+            "description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Russian troop build-up",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian troop build-up",
+            "wd_description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion.",
+            "description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "diplomatic efforts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "diplomatic efforts",
+            "wd_description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders.",
+            "description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Biden-Zelensky call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden-Zelensky call",
+            "wd_description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis.",
+            "description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Macron-Putin call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Macron-Putin call",
+            "wd_description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis.",
+            "description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: US-Russia negotiations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: US-Russia negotiations",
+            "wd_description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO.",
+            "description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "energy implications",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "energy implications",
+            "wd_description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany.",
+            "description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany."
+        },
+        {
+            "@id": "ev3.4.1",
+            "name": "t: Nord Stream 2 project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nord Stream 2 project",
+            "wd_description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine.",
+            "description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev3.4.2",
+            "name": "t: potential sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential sanctions",
+            "wd_description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs.",
+            "description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs."
+        },
+        {
+            "@id": "ev4",
+            "name": "EV Battery Supply Chain Challenges and Developments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain Challenges and Developments",
+            "wd_description": "As automakers invest heavily in electric vehicles, they face significant challenges in scaling up the production of essential minerals like lithium, cobalt, and nickel, amidst a supply chain dominated by China and geopolitical tensions.",
+            "description": "As automakers invest heavily in electric vehicles, they face significant challenges in scaling up the production of essential minerals like lithium, cobalt, and nickel, amidst a supply chain dominated by China and geopolitical tensions."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Mineral Supply Chain Issues",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mineral Supply Chain Issues",
+            "wd_description": "The rapid increase in demand for minerals required for EV batteries, such as lithium, cobalt, and nickel, necessitates massive scaling up of production and rethinking of supply chains.",
+            "description": "The rapid increase in demand for minerals required for EV batteries, such as lithium, cobalt, and nickel, necessitates massive scaling up of production and rethinking of supply chains."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Demand Increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Demand Increase",
+            "wd_description": "Demand for minerals like lithium, cobalt, and nickel is expected to increase tenfold within a few years due to the rising production of electric vehicles.",
+            "description": "Demand for minerals like lithium, cobalt, and nickel is expected to increase tenfold within a few years due to the rising production of electric vehicles."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Supply Chain Dominance by China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Supply Chain Dominance by China",
+            "wd_description": "China controls about three-quarters of the market for minerals essential for EV batteries, dominating the processing of these minerals despite not having the richest deposits.",
+            "description": "China controls about three-quarters of the market for minerals essential for EV batteries, dominating the processing of these minerals despite not having the richest deposits."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Geopolitical and Economic Impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Geopolitical and Economic Impacts",
+            "wd_description": "The geopolitical landscape, including the Russia-Ukraine war, has exacerbated supply chain issues, affecting the availability and price of key minerals like nickel.",
+            "description": "The geopolitical landscape, including the Russia-Ukraine war, has exacerbated supply chain issues, affecting the availability and price of key minerals like nickel."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Impact of Russia-Ukraine War",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Impact of Russia-Ukraine War",
+            "wd_description": "The war in Ukraine has led to soaring prices for minerals like nickel, highlighting the vulnerabilities in the global supply chain.",
+            "description": "The war in Ukraine has led to soaring prices for minerals like nickel, highlighting the vulnerabilities in the global supply chain."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: U.S. Efforts to Reduce Reliance on China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: U.S. Efforts to Reduce Reliance on China",
+            "wd_description": "The Biden administration and other governments are working to build domestic supply chains for battery minerals, with Congress earmarking $3 billion for U.S.-based mining and processing.",
+            "description": "The Biden administration and other governments are working to build domestic supply chains for battery minerals, with Congress earmarking $3 billion for U.S.-based mining and processing."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Automaker Strategies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Automaker Strategies",
+            "wd_description": "Automakers are rethinking their supply chains by purchasing minerals directly from mines, investing in mining projects, and developing alternative battery chemistries to ensure a stable supply of materials.",
+            "description": "Automakers are rethinking their supply chains by purchasing minerals directly from mines, investing in mining projects, and developing alternative battery chemistries to ensure a stable supply of materials."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Direct Mineral Sourcing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Direct Mineral Sourcing",
+            "wd_description": "Automakers like General Motors, Volkswagen, and BMW are purchasing minerals directly from mines to secure the resources needed for EV production.",
+            "description": "Automakers like General Motors, Volkswagen, and BMW are purchasing minerals directly from mines to secure the resources needed for EV production."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Investment in Mining Projects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Investment in Mining Projects",
+            "wd_description": "Some automakers are investing in mining projects to ensure they have a reliable supply of essential minerals for their EV batteries.",
+            "description": "Some automakers are investing in mining projects to ensure they have a reliable supply of essential minerals for their EV batteries."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Alternative Battery Chemistries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Alternative Battery Chemistries",
+            "wd_description": "Automakers are exploring alternative battery chemistries that do not require nickel or cobalt, such as lithium iron phosphate (LFP) batteries, to mitigate supply chain risks.",
+            "description": "Automakers are exploring alternative battery chemistries that do not require nickel or cobalt, such as lithium iron phosphate (LFP) batteries, to mitigate supply chain risks."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Mining Industry Impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mining Industry Impacts",
+            "wd_description": "The push for securing minerals for EV batteries is influencing the mining industry to improve its practices and adhere to higher ethical standards due to the direct involvement of automakers.",
+            "description": "The push for securing minerals for EV batteries is influencing the mining industry to improve its practices and adhere to higher ethical standards due to the direct involvement of automakers."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Ethical Concerns and Improvements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Ethical Concerns and Improvements",
+            "wd_description": "The mining industry is under pressure to improve practices, including reducing child labor and pollution, due to the demand from automakers for ethically sourced minerals.",
+            "description": "The mining industry is under pressure to improve practices, including reducing child labor and pollution, due to the demand from automakers for ethically sourced minerals."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Pressure from Automakers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Pressure from Automakers",
+            "wd_description": "Automakers' direct involvement in sourcing minerals has led to increased pressure on mines to adhere to higher ethical and environmental standards.",
+            "description": "Automakers' direct involvement in sourcing minerals has led to increased pressure on mines to adhere to higher ethical and environmental standards."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

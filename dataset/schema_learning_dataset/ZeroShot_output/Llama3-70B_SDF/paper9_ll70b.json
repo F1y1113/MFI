@@ -1,0 +1,124 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper9_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Major Li producers and suppliers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Major Li producers and suppliers",
+            "wd_description": "Globally, Li is mostly as well as cycle life, which will bring down the cost of batteries. There is also a need to find a stable electrolyte (non-flammable) with high voltage tolerance to prevent thermal runaway, for safe operation.",
+            "description": "Globally, Li is mostly as well as cycle life, which will bring down the cost of batteries. There is also a need to find a stable electrolyte (non-flammable) with high voltage tolerance to prevent thermal runaway, for safe operation."
+        },
+        {
+            "@id": "ev2",
+            "name": "India needs to develop expertise at large-scale battery pack assembly with BMS, under the ‘Skill India’ initiatives.",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "India needs to develop expertise at large-scale battery pack assembly with BMS, under the ‘Skill India’ initiatives.",
+            "wd_description": "This will enable players to set-up a long-term, sustainable LIB production ecosystem and facilitate employment generation.",
+            "description": "This will enable players to set-up a long-term, sustainable LIB production ecosystem and facilitate employment generation."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Regional Specifics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Regional Specifics",
+            "wd_description": "Specifics of lithium production and reserves in different regions, including Australia, China, and India.",
+            "description": "Specifics of lithium production and reserves in different regions, including Australia, China, and India."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Australia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper9/Event/1MDGv0I4pk/Talison-Lithium"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Australia",
+            "wd_description": "The largest producer of lithium, mainly from hard rock, with significant operations by Talison Lithium.",
+            "description": "The largest producer of lithium, mainly from hard rock, with significant operations by Talison Lithium."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "China",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper9/Event/2XcqeK0u3e/Tibet-lake-zabuye"
+                },
+                {
+                    "child": "paper9/Event/2mKCCfKEbF/Tibet-Shigate-Zhabuye-Lithium-high-tech-co"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China",
+            "wd_description": "Significant lithium processing capabilities, with companies like Sichuan Tianqi Lithium playing a major role.",
+            "description": "Significant lithium processing capabilities, with companies like Sichuan Tianqi Lithium playing a major role."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "India",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "India",
+            "wd_description": "Small known lithium reserves with potential for future development. Key areas include Bihar, Chhattisgarh, and Karnataka.",
+            "description": "Small known lithium reserves with potential for future development. Key areas include Bihar, Chhattisgarh, and Karnataka."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

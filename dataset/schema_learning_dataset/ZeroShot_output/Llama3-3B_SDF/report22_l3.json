@@ -1,0 +1,118 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report22_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "lithium-ion recycling",
+            "wd_description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Methods for recycling lithium-ion batteries including pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgy",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgy",
+            "wd_description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "African Lithium Mines",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "African Lithium Mines",
+            "wd_description": "African lithium projects are expanding rapidly, with significant developments in countries such as Zimbabwe, Mali, Ghana, and the DRC.",
+            "description": "African lithium projects are expanding rapidly, with significant developments in countries such as Zimbabwe, Mali, Ghana, and the DRC."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Bikita Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bikita Project",
+            "wd_description": "The Bikita project in Zimbabwe is one of the major lithium production sites in Africa, contributing significantly to the region's output.",
+            "description": "The Bikita project in Zimbabwe is one of the major lithium production sites in Africa, contributing significantly to the region's output."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Arcadia Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Arcadia Project",
+            "wd_description": "The Arcadia project continues to develop, with production ramping up to meet growing demand.",
+            "description": "The Arcadia project continues to develop, with production ramping up to meet growing demand."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "New Projects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "New Projects",
+            "wd_description": "New projects, such as the Zulu and Goulamina projects, are expected to come online soon, further boosting Africa's lithium production capacity.",
+            "description": "New projects, such as the Zulu and Goulamina projects, are expected to come online soon, further boosting Africa's lithium production capacity."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

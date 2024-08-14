@@ -1,0 +1,275 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q1_33R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Western Allies Reject Ukraine's Request for Fighter Jets",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Western Allies Reject Ukraine's Request for Fighter Jets",
+            "wd_description": "After agreeing to send tanks to Ukraine, the US and UK declined Ukraine's request for Western fighter jets, including F-16s, deeming the request impractical and signaling a limit to military support.",
+            "description": "After agreeing to send tanks to Ukraine, the US and UK declined Ukraine's request for Western fighter jets, including F-16s, deeming the request impractical and signaling a limit to military support."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Rejection of Fighter Jets Request",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rejection of Fighter Jets Request",
+            "wd_description": "The US and UK rejected Ukraine's request for F-16 fighter jets and other Western aircraft, citing practical concerns and signaling a limit to their military support.",
+            "description": "The US and UK rejected Ukraine's request for F-16 fighter jets and other Western aircraft, citing practical concerns and signaling a limit to their military support."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "US and UK Responses",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US and UK Responses",
+            "wd_description": "US President Joe Biden and a spokesperson from Downing Street both confirmed that sending fighter jets to Ukraine was not feasible, with Biden stating \"no\" to the request for F-16s.",
+            "description": "US President Joe Biden and a spokesperson from Downing Street both confirmed that sending fighter jets to Ukraine was not feasible, with Biden stating \"no\" to the request for F-16s."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Ukraine's Request for Fighter Jets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukraine's Request for Fighter Jets",
+            "wd_description": "Following the agreement by the US and Germany to send tanks, Ukraine requested 200 fighter jets, including F-16s, to enhance its defense capabilities against Russia.",
+            "description": "Following the agreement by the US and Germany to send tanks, Ukraine requested 200 fighter jets, including F-16s, to enhance its defense capabilities against Russia."
+        },
+        {
+            "@id": "ev2",
+            "name": "Continued Rescue Efforts and Rising Death Toll After Turkiye-Syria Earthquakes",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Continued Rescue Efforts and Rising Death Toll After Turkiye-Syria Earthquakes",
+            "wd_description": "Ten days after multiple earthquakes hit the border of Turkiye and Syria, rescue operations continue, with the death toll reaching 42,000. Poor construction standards are blamed for the high fatalities, and relief efforts are underway.",
+            "description": "Ten days after multiple earthquakes hit the border of Turkiye and Syria, rescue operations continue, with the death toll reaching 42,000. Poor construction standards are blamed for the high fatalities, and relief efforts are underway."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Ongoing Rescue Operations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ongoing Rescue Operations",
+            "wd_description": "Emergency services continue to rescue survivors from the rubble 10 days after multiple earthquakes struck the Turkiye-Syria border, highlighting the ongoing nature of the disaster.",
+            "description": "Emergency services continue to rescue survivors from the rubble 10 days after multiple earthquakes struck the Turkiye-Syria border, highlighting the ongoing nature of the disaster."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Rising Death Toll and Blame on Construction Standards",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rising Death Toll and Blame on Construction Standards",
+            "wd_description": "The death toll from the earthquakes has risen to 42,000, with poor construction standards being blamed for the massive fatalities. Over 100 developers and builders have been arrested in Turkey, but officials who authorized the construction have escaped accountability.",
+            "description": "The death toll from the earthquakes has risen to 42,000, with poor construction standards being blamed for the massive fatalities. Over 100 developers and builders have been arrested in Turkey, but officials who authorized the construction have escaped accountability."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "UN Appeals and International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "UN Appeals and International Response",
+            "wd_description": "The UN has launched relief fund appeals for Turkiye ($1 billion) and Syria ($400 million) as more than 1 million people have been displaced, with NATO commenting on the disaster as one of the most devastating on NATO soil.",
+            "description": "The UN has launched relief fund appeals for Turkiye ($1 billion) and Syria ($400 million) as more than 1 million people have been displaced, with NATO commenting on the disaster as one of the most devastating on NATO soil."
+        },
+        {
+            "@id": "ev3",
+            "name": "Deadly cold weather in Asia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Deadly cold weather in Asia",
+            "wd_description": "Extreme cold weather was recorded in several Asian countries, including Japan, China, and the Korean peninsula, leading to fatalities and significant disruptions.",
+            "description": "Extreme cold weather was recorded in several Asian countries, including Japan, China, and the Korean peninsula, leading to fatalities and significant disruptions."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Japan cold weather",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Japan cold weather",
+            "wd_description": "Deadly cold weather in Japan resulted in fatalities and caused the cancellation of hundreds of domestic flights due to heavy snow and high winds.",
+            "description": "Deadly cold weather in Japan resulted in fatalities and caused the cancellation of hundreds of domestic flights due to heavy snow and high winds."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Korean peninsula cold weather",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Korean peninsula cold weather",
+            "wd_description": "The Korean peninsula experienced cold storms with temperatures dropping as low as -22°F (-30°C), particularly affecting the Pyongyang province.",
+            "description": "The Korean peninsula experienced cold storms with temperatures dropping as low as -22°F (-30°C), particularly affecting the Pyongyang province."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "China cold weather",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China cold weather",
+            "wd_description": "China's northernmost city, Mohe, recorded its lowest temperature ever at -63.4°F (-53°C), with significant temperature reductions predicted in several areas.",
+            "description": "China's northernmost city, Mohe, recorded its lowest temperature ever at -63.4°F (-53°C), with significant temperature reductions predicted in several areas."
+        },
+        {
+            "@id": "ev4",
+            "name": "Expansion of Chinese companies in the U.S. EV supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Expansion of Chinese companies in the U.S. EV supply chain",
+            "wd_description": "Chinese manufacturers and tech companies are increasingly participating in the U.S. EV supply chain to meet growing demand. This expansion has sparked a mix of support and concern among U.S. stakeholders.",
+            "description": "Chinese manufacturers and tech companies are increasingly participating in the U.S. EV supply chain to meet growing demand. This expansion has sparked a mix of support and concern among U.S. stakeholders."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Ford-CATL battery plant",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ford-CATL battery plant",
+            "wd_description": "Ford announced a $3.5 billion plant in Michigan to build batteries using technology from China's CATL. The plant aims to take advantage of EV tax credits by being 100% owned by Ford.",
+            "description": "Ford announced a $3.5 billion plant in Michigan to build batteries using technology from China's CATL. The plant aims to take advantage of EV tax credits by being 100% owned by Ford."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Foxconn-Lordstown Motors joint venture",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Foxconn-Lordstown Motors joint venture",
+            "wd_description": "Foxconn, known for manufacturing iPhones in China, has formed a joint venture with Lordstown Motors to build electric pickups in Ohio.",
+            "description": "Foxconn, known for manufacturing iPhones in China, has formed a joint venture with Lordstown Motors to build electric pickups in Ohio."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "BYD's potential battery plant",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BYD's potential battery plant",
+            "wd_description": "Chinese EV maker BYD is considering building a battery plant in the U.S., indicating further expansion of Chinese companies in the U.S. EV market.",
+            "description": "Chinese EV maker BYD is considering building a battery plant in the U.S., indicating further expansion of Chinese companies in the U.S. EV market."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Political responses",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Political responses",
+            "wd_description": "The expansion of Chinese companies in the U.S. EV market has elicited mixed political responses, with some U.S. officials expressing concerns over Chinese influence while others support the investments.",
+            "description": "The expansion of Chinese companies in the U.S. EV market has elicited mixed political responses, with some U.S. officials expressing concerns over Chinese influence while others support the investments."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Governor responses",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Governor responses",
+            "wd_description": "Virginia Gov. Glenn Youngkin opposed Ford's venture with CATL, calling it a \"Trojan horse\" for the Communist Party of China, while Michigan Gov. Gretchen Whitmer supported the investment as beneficial for local communities.",
+            "description": "Virginia Gov. Glenn Youngkin opposed Ford's venture with CATL, calling it a \"Trojan horse\" for the Communist Party of China, while Michigan Gov. Gretchen Whitmer supported the investment as beneficial for local communities."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Congressional scrutiny",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Congressional scrutiny",
+            "wd_description": "Congressional scrutiny of Chinese involvement in U.S. EV facilities is expected to increase, driven by both sincere concerns and political motivations.",
+            "description": "Congressional scrutiny of Chinese involvement in U.S. EV facilities is expected to increase, driven by both sincere concerns and political motivations."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "EV tax credit requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV tax credit requirements",
+            "wd_description": "For EVs to qualify for tax credits under the Inflation Reduction Act, they need to be assembled with U.S.-made components, a challenging standard for many vehicles.",
+            "description": "For EVs to qualify for tax credits under the Inflation Reduction Act, they need to be assembled with U.S.-made components, a challenging standard for many vehicles."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

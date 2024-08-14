@@ -1,0 +1,25 @@
+The Biden administration on Monday announced the availability of more than $3.1 billion in funding for battery and component manufacturing, recycling and second-life incentives through the U.S. Department of Energy.
+
+The investments will support development of new, retrofitted, and expanded battery production facilities, along with battery recycling and other “manufacturing demonstrations,” DOE said. The Battery Materials Processing and Battery Manufacturing funding opportunity has an application deadline of July 1, while Electric Drive Vehicle Battery Recycling and Second Life applications are due July 19.
+
+The investment in battery production and recycling will give a boost to the domestic supply chain and make the U.S. less dependent on foreign nations, said Secretary of Energy Jennifer Granholm.
+
+The Department of Energy (DOE) announced plans to provide nearly $3 billion to a pair of programs designed to spur domestic production of advanced batteries for electric vehicles and energy storage. 
+One program will spend about $2.8 billion to support new, retrofitted and expanded domestic operations for the production of battery materials and cell components and battery recycling. Another $60 million will go to research and development of second-life sources for EV batteries, according to the two notices of intent. 
+The funds are part of the more than $7 billion Congress dedicated to improving the domestic battery supply chain in the bipartisan Infrastructure Investment and Jobs Act.
+
+While the Biden administration has invested heavily in promoting EVs and the transition to renewable energy production, there are concerns that the U.S. has not done enough to build a battery supply chain to support that transition. A June DOE report identified “a real threat that U.S. companies will not be able to benefit from domestic and global market growth” for batteries, adding that “the U.S. risks long-term dependence on foreign sources of batteries and critical materials.”
+
+BloombergNEF’s 2021 global lithium-ion battery supply chain ranking found that China held 80% of the world’s battery cell manufacturing capacity, with the potential to more than double it by 2026. The U.S. was in second place. 
+
+That DOE report laid out a blueprint to establish a “secure battery materials and technology supply chain” in the U.S. by 2030, which would lower the cost of EV battery pack manufacturing by 50% in that time. That blueprint included commitments to securing better access to raw and refined materials, supporting a materials-processing base, fostering manufacturing and increasing end-of-life reuse and recycling. 
+
+“As electric cars and trucks continue to grow in popularity within the United States and around the world, we must seize the chance to make advanced batteries — the heart of this growing industry — right here at home,” said U.S. Secretary of Energy Jennifer Granholm in a statement Friday. “With funding from Bipartisan Infrastructure Law, we’re making it possible to establish a thriving battery supply chain in the United States.” 
+
+A bulk of the grant funding detailed Friday – which will be formally announced in the coming months – will focus on supporting new battery manufacturing and material processing facilities in the U.S., with an eye on both energy storage and EV uses. Although a handful of companies – including Tesla and KORE Power – have built gigafactories in the U.S. to reduce supply chain disruptions and ensure that domestic companies have ample access to advanced batteries, experts say more needs to be done to avoid losing ground to Asian battery giants. 
+
+“He who innovates and controls the battery technology will take the lion’s share of the economic value of an automobile,” Krish Vengat, vice president of supply chain consulting for supply chain and procurement firm GEP, said in an email. “Battery production is also a very complex global supply chain, and relies on sourcing conflict minerals. So, the sooner we expand our domestic capabilities the better we will be from a value – the cost of batteries – and economic risk perspective.”
+
+The funding will also include support of projects to either recycle EV batteries into the battery supply chain – broadening access to raw materials – or use them in other applications. Several projects have sought to apply used EV batteries for energy storage and a 2019 report from McKinsey found that by 2030, there could be more than 200 GWh a year in second-life batteries available. 
+
+Additional funding in the infrastructure bill will go to a new battery material processing grant program, which will also support new manufacturing facilities for battery processing, as well as $140 million for a rare earth demonstration facility and refinery that will help supply materials for lithium-ion batteries. 

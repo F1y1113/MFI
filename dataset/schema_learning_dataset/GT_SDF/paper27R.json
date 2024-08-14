@@ -1,0 +1,336 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper27R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "LIB supply chain competition and risk assessment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "LIB supply chain competition and risk assessment",
+            "wd_description": "The study quantifies the global competition intensities of 15 categories of LIB-related commodities, focusing on the competition for lithium hydroxides, LIBs, and lithium carbonates, and highlights the importance of considering the entire supply chain.",
+            "description": "The study quantifies the global competition intensities of 15 categories of LIB-related commodities, focusing on the competition for lithium hydroxides, LIBs, and lithium carbonates, and highlights the importance of considering the entire supply chain."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Competition index development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper27/Event/2Cy54vdfEs/Supply-Chain-Mapping"
+                },
+                {
+                    "child": "paper27/Event/1HpPD9yHNV/Criticality-Analysis"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Competition index development",
+            "wd_description": "A competition index was developed to quantify global competition intensities of 15 LIB-related commodities, focusing on lithium hydroxides, LIBs, and lithium carbonates.",
+            "description": "A competition index was developed to quantify global competition intensities of 15 LIB-related commodities, focusing on lithium hydroxides, LIBs, and lithium carbonates."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Data collection",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Data collection",
+            "wd_description": "Collecting data on global competition intensities for 15 categories of LIB-related commodities.",
+            "description": "Collecting data on global competition intensities for 15 categories of LIB-related commodities."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Treatment techniques",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Treatment techniques",
+            "wd_description": "Developing treatment techniques to process and analyze the collected data for competition index calculation.",
+            "description": "Developing treatment techniques to process and analyze the collected data for competition index calculation."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "Index calculation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Index calculation",
+            "wd_description": "Calculating the competition index to quantify global competition intensities for LIB-related commodities.",
+            "description": "Calculating the competition index to quantify global competition intensities for LIB-related commodities."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Import dependency assessment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Import dependency assessment",
+            "wd_description": "Evaluating import dependency as a risk indicator for supply disruptions, with a focus on the European Union and the USA.",
+            "description": "Evaluating import dependency as a risk indicator for supply disruptions, with a focus on the European Union and the USA."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "European Commission critical raw material list",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "European Commission critical raw material list",
+            "wd_description": "The European Commission evaluates critical raw materials for the EU economy, considering supply risk and economic importance.",
+            "description": "The European Commission evaluates critical raw materials for the EU economy, considering supply risk and economic importance."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "USA mineral supply risk assessment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "USA mineral supply risk assessment",
+            "wd_description": "Nassar et al. evaluated mineral supply risks for the USA manufacturing sector using disruption potential, trade exposure, and economic vulnerability.",
+            "description": "Nassar et al. evaluated mineral supply risks for the USA manufacturing sector using disruption potential, trade exposure, and economic vulnerability."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Import reliance studies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Import reliance studies",
+            "wd_description": "Gemechu et al. assessed supply risks for 14 resources based on import patterns, exploring the importance of considering the full supply chain.",
+            "description": "Gemechu et al. assessed supply risks for 14 resources based on import patterns, exploring the importance of considering the full supply chain."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Impact of production capacity changes",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper27/Event/3RQqxIcGjk/Supply-Chain-Mapping"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact of production capacity changes",
+            "wd_description": "Analyzing how adjustments in production capacity in different countries affect the global competition intensity and supply chain stability.",
+            "description": "Analyzing how adjustments in production capacity in different countries affect the global competition intensity and supply chain stability."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "USA production capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "USA production capacity",
+            "wd_description": "Increased production capacity in the USA affects the global supply network, altering competition intensities in 68 countries.",
+            "description": "Increased production capacity in the USA affects the global supply network, altering competition intensities in 68 countries."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Global supply network",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global supply network",
+            "wd_description": "Changes in the global supply network due to adjustments in production capacity, with variations in regional competition intensities.",
+            "description": "Changes in the global supply network due to adjustments in production capacity, with variations in regional competition intensities."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Regional competition indexes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regional competition indexes",
+            "wd_description": "Regional competition indexes for China, Japan, and the USA have increased, while those for Canada, France, and Belgium have decreased.",
+            "description": "Regional competition indexes for China, Japan, and the USA have increased, while those for Canada, France, and Belgium have decreased."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Implications for policy and strategy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper27/Event/1phfeIYQY4/Quantitative-Tools"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Implications for policy and strategy",
+            "wd_description": "Recommendations for governments and companies on managing competition risks and promoting international cooperation in the LIB supply chain.",
+            "description": "Recommendations for governments and companies on managing competition risks and promoting international cooperation in the LIB supply chain."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Quantitative tools",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Quantitative tools",
+            "wd_description": "The use of quantitative tools to deduce and monitor the potential impacts of changes in production capacity and competition risk.",
+            "description": "The use of quantitative tools to deduce and monitor the potential impacts of changes in production capacity and competition risk."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "International cooperation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International cooperation",
+            "wd_description": "Promoting close international cooperation, such as information sharing and joint production capacity, to minimize competition risks.",
+            "description": "Promoting close international cooperation, such as information sharing and joint production capacity, to minimize competition risks."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "Production capacity planning",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Production capacity planning",
+            "wd_description": "Strategic planning of production capacity investments to manage competition risks and ensure supply chain stability.",
+            "description": "Strategic planning of production capacity investments to manage competition risks and ensure supply chain stability."
+        },
+        {
+            "@id": "paper27/Event/1phfeIYQY4/Quantitative-Tools",
+            "name": "Quantitative Tools",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper27",
+            "wd_label": "paper27",
+            "participants": []
+        },
+        {
+            "@id": "paper27/Event/3RQqxIcGjk/Supply-Chain-Mapping",
+            "name": "Supply Chain Mapping",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper27",
+            "wd_label": "paper27",
+            "participants": []
+        },
+        {
+            "@id": "paper27/Event/2Cy54vdfEs/Supply-Chain-Mapping",
+            "name": "Supply Chain Mapping",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper27",
+            "wd_label": "paper27",
+            "participants": []
+        },
+        {
+            "@id": "paper27/Event/1HpPD9yHNV/Criticality-Analysis",
+            "name": "Criticality Analysis",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper27",
+            "wd_label": "paper27",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        }
+    ],
+    "entities": []
+}

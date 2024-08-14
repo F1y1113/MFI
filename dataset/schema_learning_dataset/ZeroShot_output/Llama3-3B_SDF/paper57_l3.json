@@ -1,0 +1,190 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper57_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Aluminum production from different countries/regions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.333
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.333
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.333
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.333
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Aluminum production from different countries/regions",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Aluminum produced from China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Aluminum produced from China",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Aluminum produced from Europe",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Aluminum produced from Europe",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Aluminum produced from Japan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Aluminum produced from Japan",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Aluminum produced from Korea",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Aluminum produced from Korea",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev2",
+            "name": "Battery Management System (BMS) production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.41
+                },
+                {
+                    "child": "ev2.1.1",
+                    "importance": 0.59
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 0.41
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Management System (BMS) production",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev2.1",
+            "name": "BMS production in the United States",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BMS production in the United States",
+            "wd_description": "xx",
+            "description": "xx"
+        },
+        {
+            "@id": "ev7",
+            "name": "Role of Battery Management System (BMS) in LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper57/Event/3XeJorx2Ne/BMS-production-variability",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Role of Battery Management System (BMS) in LIBs",
+            "wd_description": "The BMS controls the interactions between the LIB and the required load to ensure safe and reliable operation. The study models BMS production in different regions.",
+            "description": "The BMS controls the interactions between the LIB and the required load to ensure safe and reliable operation. The study models BMS production in different regions."
+        },
+        {
+            "@id": "ev7.1",
+            "name": "BMS",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BMS",
+            "wd_description": "The BMS controls interactions between the LIB and the required load.",
+            "description": "The BMS controls interactions between the LIB and the required load."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Safe operation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Safe operation",
+            "wd_description": "The BMS ensures the safe operation of the LIB by preventing overcharging and complete discharge.",
+            "description": "The BMS ensures the safe operation of the LIB by preventing overcharging and complete discharge."
+        },
+        {
+            "@id": "ev7.3",
+            "name": "Reliable operation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reliable operation",
+            "wd_description": "The BMS ensures the reliable operation of the LIB by monitoring battery operations.",
+            "description": "The BMS ensures the reliable operation of the LIB by monitoring battery operations."
+        },
+        {
+            "@id": "ev7.4",
+            "name": "Regional variability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Regional variability",
+            "wd_description": "The study models BMS production in different regions, similar to cell production scenarios.",
+            "description": "The study models BMS production in different regions, similar to cell production scenarios."
+        },
+        {
+            "@id": "paper57/Event/3XeJorx2Ne/BMS-production-variability",
+            "name": "BMS production variability",
+            "ta1explanation": "",
+            "description": "The production of BMS varies regionally, with different energy sources affecting the overall environmental impact.",
+            "wd_node": "paper57",
+            "wd_label": "paper57",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

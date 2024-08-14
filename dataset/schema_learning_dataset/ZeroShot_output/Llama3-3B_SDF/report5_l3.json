@@ -1,0 +1,268 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report5_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Upstream activities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Upstream activities",
+            "wd_description": "Mining for required raw materials, including critical materials such as cobalt, lithium, nickel, manganese, and graphite.",
+            "description": "Mining for required raw materials, including critical materials such as cobalt, lithium, nickel, manganese, and graphite."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "mining for cobalt",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "mining for cobalt",
+            "wd_description": "Extracting cobalt from ore.",
+            "description": "Extracting cobalt from ore."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "mining for lithium",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "mining for lithium",
+            "wd_description": "Extracting lithium from ore.",
+            "description": "Extracting lithium from ore."
+        },
+        {
+            "@id": "ev2",
+            "name": "Midstream activities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Midstream activities",
+            "wd_description": "Refining and smelting of raw mineral ores with heat or chemical treatment to achieve the high-purity materials required for batteries.",
+            "description": "Refining and smelting of raw mineral ores with heat or chemical treatment to achieve the high-purity materials required for batteries."
+        },
+        {
+            "@id": "ev3",
+            "name": "Downstream activities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Downstream activities",
+            "wd_description": "Processing the refined materials into usable forms for battery production.",
+            "description": "Processing the refined materials into usable forms for battery production."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Supply chain risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.5",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.6",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.7",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.8",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.9",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4.10",
+                    "importance": 1
+                },
+                {
+                    "child": "report5/Event/2cQLFPRf6V/Concentration-of-Mineral-Supply"
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Supply chain risks",
+            "wd_description": "The EV battery supply chain faces various risks, including sustainability challenges, political instability, corruption, human rights concerns, environmental justice issues, extreme weather events, geopolitical issues, international trade regulation, corporate consolidation, and rapidly changing technologies.",
+            "description": "The EV battery supply chain faces various risks, including sustainability challenges, political instability, corruption, human rights concerns, environmental justice issues, extreme weather events, geopolitical issues, international trade regulation, corporate consolidation, and rapidly changing technologies."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Sustainability challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "tainability challenges",
+            "wd_description": "Challenges in ensuring sustainable practices in the extraction and processing of raw materials for EV batteries.",
+            "description": "Challenges in ensuring sustainable practices in the extraction and processing of raw materials for EV batteries."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Political instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "itical instability",
+            "wd_description": "Political instability in countries with significant mineral deposits poses risks to the supply chain.",
+            "description": "Political instability in countries with significant mineral deposits poses risks to the supply chain."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "Corruption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ruption",
+            "wd_description": "Corruption in the mining and processing of raw materials can disrupt the supply chain.",
+            "description": "Corruption in the mining and processing of raw materials can disrupt the supply chain."
+        },
+        {
+            "@id": "ev1.4.4",
+            "name": "Human rights concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "an rights concerns",
+            "wd_description": "Concerns over human rights violations in the extraction of raw materials for EV batteries.",
+            "description": "Concerns over human rights violations in the extraction of raw materials for EV batteries."
+        },
+        {
+            "@id": "ev1.4.5",
+            "name": "Environmental justice issues",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ironmental justice issues",
+            "wd_description": "Environmental justice issues related to the extraction and processing of raw materials for EV batteries.",
+            "description": "Environmental justice issues related to the extraction and processing of raw materials for EV batteries."
+        },
+        {
+            "@id": "ev1.4.6",
+            "name": "Extreme weather events",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "reme weather events",
+            "wd_description": "Extreme weather events affecting the extraction and transportation of raw materials.",
+            "description": "Extreme weather events affecting the extraction and transportation of raw materials."
+        },
+        {
+            "@id": "ev1.4.7",
+            "name": "Geopolitical issues",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "political issues",
+            "wd_description": "Geopolitical issues impacting the availability and cost of raw materials for EV batteries.",
+            "description": "Geopolitical issues impacting the availability and cost of raw materials for EV batteries."
+        },
+        {
+            "@id": "ev1.4.8",
+            "name": "International trade regulation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ernational trade regulation",
+            "wd_description": "International trade regulations affecting the flow of raw materials for EV batteries.",
+            "description": "International trade regulations affecting the flow of raw materials for EV batteries."
+        },
+        {
+            "@id": "ev1.4.9",
+            "name": "Corporate consolidation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "porate consolidation",
+            "wd_description": "Consolidation of supply chain companies into a few large corporations, impacting competition and supply chain resilience.",
+            "description": "Consolidation of supply chain companies into a few large corporations, impacting competition and supply chain resilience."
+        },
+        {
+            "@id": "ev1.4.10",
+            "name": "Rapidly changing technologies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "idly changing technologies",
+            "wd_description": "The impact of rapidly changing technologies on the supply chain for EV batteries.",
+            "description": "The impact of rapidly changing technologies on the supply chain for EV batteries."
+        },
+        {
+            "@id": "report5/Event/2cQLFPRf6V/Concentration-of-Mineral-Supply",
+            "name": "Concentration of Mineral Supply",
+            "ta1explanation": "",
+            "description": "The supply of critical minerals is concentrated in a few countries, such as the Democratic Republic of the Congo for cobalt.",
+            "wd_node": "report5",
+            "wd_label": "report5",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

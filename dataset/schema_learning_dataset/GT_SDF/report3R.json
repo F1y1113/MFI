@@ -1,0 +1,305 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report3R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The battery supply chain is divided into three main segments: upstream, midstream, and downstream. The supply chains for critical minerals vary by geography, with significant control exercised by automotive manufacturers over their material supply chains.",
+            "description": "The battery supply chain is divided into three main segments: upstream, midstream, and downstream. The supply chains for critical minerals vary by geography, with significant control exercised by automotive manufacturers over their material supply chains."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Upstream",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Upstream",
+            "wd_description": "Involves the mining and extraction of raw materials for battery production.",
+            "description": "Involves the mining and extraction of raw materials for battery production."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mining",
+            "wd_description": "The process of extracting ores and minerals from the earth to supply raw materials for battery production.",
+            "description": "The process of extracting ores and minerals from the earth to supply raw materials for battery production."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Extraction",
+            "wd_description": "The process of isolating valuable minerals from extracted ores to prepare for further processing.",
+            "description": "The process of isolating valuable minerals from extracted ores to prepare for further processing."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Midstream",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Midstream",
+            "wd_description": "The processing of raw materials into battery-grade components, focusing mainly on cathode production due to its significant cost and impact on battery characteristics.",
+            "description": "The processing of raw materials into battery-grade components, focusing mainly on cathode production due to its significant cost and impact on battery characteristics."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Cathode production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cathode production",
+            "wd_description": "The process of creating cathode materials, which are crucial for determining battery characteristics like energy density and charging speed.",
+            "description": "The process of creating cathode materials, which are crucial for determining battery characteristics like energy density and charging speed."
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "LFP",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LFP",
+            "wd_description": "Lithium Iron Phosphate cathode production, focusing on minimizing supply chain vulnerabilities associated with lithium sourcing.",
+            "description": "Lithium Iron Phosphate cathode production, focusing on minimizing supply chain vulnerabilities associated with lithium sourcing."
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "NMC",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC",
+            "wd_description": "Nickel Manganese Cobalt cathode production, which involves complex supply chain dependencies and higher vulnerability due to multiple critical materials.",
+            "description": "Nickel Manganese Cobalt cathode production, which involves complex supply chain dependencies and higher vulnerability due to multiple critical materials."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Anode production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Anode production",
+            "wd_description": "The process of producing anode materials, typically using graphite, for battery cells.",
+            "description": "The process of producing anode materials, typically using graphite, for battery cells."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Electrolyte production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Electrolyte production",
+            "wd_description": "The process of producing electrolyte solutions, typically lithium salt solutions, for battery cells.",
+            "description": "The process of producing electrolyte solutions, typically lithium salt solutions, for battery cells."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Downstream",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Downstream",
+            "wd_description": "Involves cell and pack manufacturing, as well as end-of-life recycling and reuse of battery components.",
+            "description": "Involves cell and pack manufacturing, as well as end-of-life recycling and reuse of battery components."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Cell manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell manufacturing",
+            "wd_description": "The assembly of battery cells from processed materials.",
+            "description": "The assembly of battery cells from processed materials."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Pack manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pack manufacturing",
+            "wd_description": "The assembly of battery packs from individual cells.",
+            "description": "The assembly of battery packs from individual cells."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The process of recycling and reusing end-of-life battery components to recover valuable materials.",
+            "description": "The process of recycling and reusing end-of-life battery components to recover valuable materials."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "report3/Relation/1jvHH0jg3e/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        }
+    ],
+    "entities": []
+}

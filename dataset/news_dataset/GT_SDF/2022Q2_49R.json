@@ -1,0 +1,220 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_49R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Sweden and Finland's NATO membership bid",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sweden and Finland's NATO membership bid",
+            "wd_description": "Sweden and Finland's bid to join NATO requires unanimous agreement by all current members, but Turkey's President Erdogan opposes the move due to past sanctions and alleged support for the Kurdistan Workers' Party.",
+            "description": "Sweden and Finland's bid to join NATO requires unanimous agreement by all current members, but Turkey's President Erdogan opposes the move due to past sanctions and alleged support for the Kurdistan Workers' Party."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Turkey's opposition",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Turkey's opposition",
+            "wd_description": "President Recep Tayyip Erdogan opposed Sweden and Finland's bid to join NATO, citing sanctions placed on Turkey and their alleged support for the Kurdistan Workers' Party.",
+            "description": "President Recep Tayyip Erdogan opposed Sweden and Finland's bid to join NATO, citing sanctions placed on Turkey and their alleged support for the Kurdistan Workers' Party."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Statements from Sweden and Finland",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Statements from Sweden and Finland",
+            "wd_description": "The Finnish foreign minister stated that Finland would not negotiate with Turkey, while the Swedish Prime Minister emphasized NATO's role in strengthening Sweden in the new European reality.",
+            "description": "The Finnish foreign minister stated that Finland would not negotiate with Turkey, while the Swedish Prime Minister emphasized NATO's role in strengthening Sweden in the new European reality."
+        },
+        {
+            "@id": "ev2",
+            "name": "Ukraine secures release of 144 soldiers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine secures release of 144 soldiers",
+            "wd_description": "Ukraine secured the release of 144 soldiers, including 95 who defended the Azovstal steelworks in Mariupol, in the largest exchange of the crisis, while 144 Russian and separatist soldiers were returned to Russia.",
+            "description": "Ukraine secured the release of 144 soldiers, including 95 who defended the Azovstal steelworks in Mariupol, in the largest exchange of the crisis, while 144 Russian and separatist soldiers were returned to Russia."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Details of the prisoner swap",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Details of the prisoner swap",
+            "wd_description": "144 Ukrainian soldiers were exchanged for 144 Russian and separatist soldiers, verified by a pro-Russian separatist leader.",
+            "description": "144 Ukrainian soldiers were exchanged for 144 Russian and separatist soldiers, verified by a pro-Russian separatist leader."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Political reactions in Russia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Political reactions in Russia",
+            "wd_description": "Following the seizure of the Azov men, many Russian politicians advocated for their trial and death, with some members of the State Duma planning to introduce legislation to disrupt prisoner swaps involving fighters deemed \"terrorists.\"",
+            "description": "Following the seizure of the Azov men, many Russian politicians advocated for their trial and death, with some members of the State Duma planning to introduce legislation to disrupt prisoner swaps involving fighters deemed \"terrorists.\""
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Fate of Azovstal defenders",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Fate of Azovstal defenders",
+            "wd_description": "More than a thousand Azovstal defenders who surrendered were moved to Russian-held territory in May, causing major concern for Kyiv's leaders who sought a prisoner swap.",
+            "description": "More than a thousand Azovstal defenders who surrendered were moved to Russian-held territory in May, causing major concern for Kyiv's leaders who sought a prisoner swap."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Reactions to the exchange",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reactions to the exchange",
+            "wd_description": "Some Russian military bloggers and pro-war politicians reacted negatively to the exchange plan, but Moscow did not respond to the prisoner swap.",
+            "description": "Some Russian military bloggers and pro-war politicians reacted negatively to the exchange plan, but Moscow did not respond to the prisoner swap."
+        },
+        {
+            "@id": "ev3",
+            "name": "Malaysia's chicken export ban to Singapore, June 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Malaysia's chicken export ban to Singapore, June 2022",
+            "wd_description": "Malaysia imposed an embargo on the export of live chickens to Singapore to address local shortages, leading to concerns in Singapore about the impact on poultry supply and prices, as chicken is a staple of the national diet.",
+            "description": "Malaysia imposed an embargo on the export of live chickens to Singapore to address local shortages, leading to concerns in Singapore about the impact on poultry supply and prices, as chicken is a staple of the national diet."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Malaysian export ban",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Malaysian export ban",
+            "wd_description": "The Malaysian Prime Minister announced a ban on the export of live chickens to combat local shortages and control rising prices.",
+            "description": "The Malaysian Prime Minister announced a ban on the export of live chickens to combat local shortages and control rising prices."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Impact on Singapore's poultry supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Singapore's poultry supply",
+            "wd_description": "The ban significantly affects Singapore, which relies on Malaysia for a third of its poultry imports, with concerns about price surges and the adequacy of frozen chicken as a substitute.",
+            "description": "The ban significantly affects Singapore, which relies on Malaysia for a third of its poultry imports, with concerns about price surges and the adequacy of frozen chicken as a substitute."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Global food shortage context",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global food shortage context",
+            "wd_description": "The chicken shortage in Singapore adds to the global food shortages experienced in recent months, exacerbating supply chain challenges and rising prices.",
+            "description": "The chicken shortage in Singapore adds to the global food shortages experienced in recent months, exacerbating supply chain challenges and rising prices."
+        },
+        {
+            "@id": "ev4",
+            "name": "Russia cuts natural gas supplies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russia cuts natural gas supplies",
+            "wd_description": "Russia will cut natural gas supplies to Poland and Bulgaria after they refused to pay in rubles, escalating tensions with the West.",
+            "description": "Russia will cut natural gas supplies to Poland and Bulgaria after they refused to pay in rubles, escalating tensions with the West."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "PGNiG statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "PGNiG statement",
+            "wd_description": "PGNiG, Poland's state-run gas company, stated that Gazprom informed it on April 26 of the decision to fully suspend deliveries under the Yamal contract starting April 27.",
+            "description": "PGNiG, Poland's state-run gas company, stated that Gazprom informed it on April 26 of the decision to fully suspend deliveries under the Yamal contract starting April 27."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Suspension of gas supplies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Suspension of gas supplies",
+            "wd_description": "PGNiG announced it would suspend gas supplies along the Yamal pipeline starting Wednesday morning.",
+            "description": "PGNiG announced it would suspend gas supplies along the Yamal pipeline starting Wednesday morning."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Market reaction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Market reaction",
+            "wd_description": "The news of the suspension sent US natural gas futures up about 3% on Tuesday.",
+            "description": "The news of the suspension sent US natural gas futures up about 3% on Tuesday."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

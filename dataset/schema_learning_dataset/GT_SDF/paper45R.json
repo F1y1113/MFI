@@ -1,0 +1,335 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper45R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Competitive advantage of blockchain technology in EV battery recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Competitive advantage of blockchain technology in EV battery recycling",
+            "wd_description": "The competitiveness of EV manufacturers using blockchain technology compared to informal third-party EV battery recyclers, focusing on service user identification and security.",
+            "description": "The competitiveness of EV manufacturers using blockchain technology compared to informal third-party EV battery recyclers, focusing on service user identification and security."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Service user identification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Service user identification",
+            "wd_description": "EV manufacturers can accurately identify customers who need to recycle or reuse batteries using blockchain technology.",
+            "description": "EV manufacturers can accurately identify customers who need to recycle or reuse batteries using blockchain technology."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Security",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Security",
+            "wd_description": "EV manufacturers monitor battery safety performance through blockchain technology to ensure safety.",
+            "description": "EV manufacturers monitor battery safety performance through blockchain technology to ensure safety."
+        },
+        {
+            "@id": "ev2",
+            "name": "Cooperation between competitors in EV battery recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cooperation between competitors in EV battery recycling",
+            "wd_description": "The cooperation between informal third-party EV battery recyclers and EV manufacturers to achieve synergy and improve innovation performance.",
+            "description": "The cooperation between informal third-party EV battery recyclers and EV manufacturers to achieve synergy and improve innovation performance."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Informal recyclers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Informal recyclers",
+            "wd_description": "Informal third-party EV battery recyclers' high recycling rate and their role in the circular economy.",
+            "description": "Informal third-party EV battery recyclers' high recycling rate and their role in the circular economy."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "EV manufacturers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV manufacturers",
+            "wd_description": "EV manufacturers' environmental protection and technical advantages in battery recycling.",
+            "description": "EV manufacturers' environmental protection and technical advantages in battery recycling."
+        },
+        {
+            "@id": "ev3",
+            "name": "Application of blockchain technology in EV battery recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Application of blockchain technology in EV battery recycling",
+            "wd_description": "The decision-making process of EV manufacturers regarding the application of blockchain technology in the three stages of the EV battery recycling industry.",
+            "description": "The decision-making process of EV manufacturers regarding the application of blockchain technology in the three stages of the EV battery recycling industry."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Initial stage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Initial stage",
+            "wd_description": "In the early stage, EV manufacturers are unaware of the advantages of adopting blockchain and tend to refuse its application under low subsidy and penalty policies.",
+            "description": "In the early stage, EV manufacturers are unaware of the advantages of adopting blockchain and tend to refuse its application under low subsidy and penalty policies."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Intermediate stage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Intermediate stage",
+            "wd_description": "The decision-making process in the intermediate stage, influenced by revenue and cost considerations.",
+            "description": "The decision-making process in the intermediate stage, influenced by revenue and cost considerations."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Mature stage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mature stage",
+            "wd_description": "The decision-making process in the mature stage, where high revenue and subsidy lead to the adoption of blockchain technology.",
+            "description": "The decision-making process in the mature stage, where high revenue and subsidy lead to the adoption of blockchain technology."
+        },
+        {
+            "@id": "ev4",
+            "name": "Smart EV battery reverse supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Smart EV battery reverse supply chain",
+            "wd_description": "The construction of a smart EV battery reverse supply chain consisting of an EV manufacturer and a third-party EV battery recycler under government supervision.",
+            "description": "The construction of a smart EV battery reverse supply chain consisting of an EV manufacturer and a third-party EV battery recycler under government supervision."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Third-party recycler",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Third-party recycler",
+            "wd_description": "The role of the third-party EV battery recycler in the smart reverse supply chain, including cooperation strategies.",
+            "description": "The role of the third-party EV battery recycler in the smart reverse supply chain, including cooperation strategies."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Government supervision",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government supervision",
+            "wd_description": "The role of government supervision in the smart reverse supply chain, including subsidy and penalty policies.",
+            "description": "The role of government supervision in the smart reverse supply chain, including subsidy and penalty policies."
+        },
+        {
+            "@id": "ev5",
+            "name": "Behavioral decisions in EV battery recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev5.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Behavioral decisions in EV battery recycling",
+            "wd_description": "The relationship between the behavioral decisions of the EV manufacturer, third-party recycler, and government in the EV battery recycling industry.",
+            "description": "The relationship between the behavioral decisions of the EV manufacturer, third-party recycler, and government in the EV battery recycling industry."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "EV manufacturer decisions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV manufacturer decisions",
+            "wd_description": "The probability of the EV manufacturer choosing blockchain adoption influenced by government supervision.",
+            "description": "The probability of the EV manufacturer choosing blockchain adoption influenced by government supervision."
+        },
+        {
+            "@id": "ev5.3",
+            "name": "Government decisions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government decisions",
+            "wd_description": "The impact of high penalties and subsidies on the government's supervision strategy.",
+            "description": "The impact of high penalties and subsidies on the government's supervision strategy."
+        },
+        {
+            "@id": "ev6",
+            "name": "Economic and environmental performance of EOL EVB disposal",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic and environmental performance of EOL EVB disposal",
+            "wd_description": "The economic and environmental performance of EOL EVB disposal, including the role of subsidies and penalties.",
+            "description": "The economic and environmental performance of EOL EVB disposal, including the role of subsidies and penalties."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Economic performance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Economic performance",
+            "wd_description": "The impact of subsidies and penalties on the economic performance of EOL EVB disposal.",
+            "description": "The impact of subsidies and penalties on the economic performance of EOL EVB disposal."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Environmental performance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental performance",
+            "wd_description": "The impact of proper EOL EVB disposal on environmental performance.",
+            "description": "The impact of proper EOL EVB disposal on environmental performance."
+        },
+        {
+            "@id": "ev7",
+            "name": "Subsidy and penalty policy impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Subsidy and penalty policy impacts",
+            "wd_description": "The impact of subsidy and penalty policies on the adoption of blockchain technology in EV battery recycling.",
+            "description": "The impact of subsidy and penalty policies on the adoption of blockchain technology in EV battery recycling."
+        },
+        {
+            "@id": "ev7.1",
+            "name": "Subsidy policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Subsidy policy",
+            "wd_description": "The role of subsidy policy in influencing the adoption of blockchain technology.",
+            "description": "The role of subsidy policy in influencing the adoption of blockchain technology."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Penalty policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Penalty policy",
+            "wd_description": "The role of penalty policy in influencing the adoption of blockchain technology.",
+            "description": "The role of penalty policy in influencing the adoption of blockchain technology."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1",
+            "relationObject": "ev6.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.1",
+            "relationObject": "ev7.2"
+        }
+    ],
+    "entities": []
+}

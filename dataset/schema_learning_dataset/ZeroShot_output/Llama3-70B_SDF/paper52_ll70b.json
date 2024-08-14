@@ -1,0 +1,122 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper52_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Designing and developing sustainable circular supply chain networks for electric vehicle (EV) batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Designing and developing sustainable circular supply chain networks for electric vehicle (EV) batteries",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Artificial IoT",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Artificial IoT",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.2",
+            "name": "MILP model",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "MILP model",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.3",
+            "name": "validation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "validation",
+            "wd_description": "The proposed model is validated using expert knowledge and data from a large manufacturer of EV lithium-ion batteries, employing a simulation algorithm for data generation.",
+            "description": "The proposed model is validated using expert knowledge and data from a large manufacturer of EV lithium-ion batteries, employing a simulation algorithm for data generation."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "ion Technology case study",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ion Technology case study",
+            "wd_description": "Expert knowledge and data from Lition Technology are used to validate the proposed model, despite security and data availability constraints.",
+            "description": "Expert knowledge and data from Lition Technology are used to validate the proposed model, despite security and data availability constraints."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "ulation process",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ulation process",
+            "wd_description": "A simulation process generates data based on real-world approximations to validate the model.",
+            "description": "A simulation process generates data based on real-world approximations to validate the model."
+        },
+        {
+            "@id": "paper52/Event/2Nd5QSowHk/Minimizing-CO2-emissions",
+            "name": "Minimizing CO2 emissions",
+            "ta1explanation": "",
+            "description": "The bi-objective mixed-integer linear programming model aims to minimize total costs and CO2 emissions.",
+            "wd_node": "paper52",
+            "wd_label": "paper52",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,1602 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report10R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Battery Manufacturing Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Manufacturing Supply Chain",
+            "wd_description": "The battery manufacturing supply chain has three main parts: cell manufacturing, module manufacturing, and pack assembly. These stages can be conducted in the same place or at different locations, and the supply chain dynamics vary based on location and logistics.",
+            "description": "The battery manufacturing supply chain has three main parts: cell manufacturing, module manufacturing, and pack assembly. These stages can be conducted in the same place or at different locations, and the supply chain dynamics vary based on location and logistics."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Cell Manufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cell Manufacturing",
+            "wd_description": "Cell manufacturing involves producing the electrochemical cells, which consist of a cathode, an anode, and an electrolyte. This stage adds significant value to the battery.",
+            "description": "Cell manufacturing involves producing the electrochemical cells, which consist of a cathode, an anode, and an electrolyte. This stage adds significant value to the battery."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Cathode Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cathode Production",
+            "wd_description": "Cathode production involves creating the positive electrode for the battery cell, which is crucial for the battery's performance.",
+            "description": "Cathode production involves creating the positive electrode for the battery cell, which is crucial for the battery's performance."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Anode Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Anode Production",
+            "wd_description": "Anode production involves creating the negative electrode for the battery cell, facilitating the flow of lithium ions.",
+            "description": "Anode production involves creating the negative electrode for the battery cell, facilitating the flow of lithium ions."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "Electrolyte Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Electrolyte Production",
+            "wd_description": "Electrolyte production involves creating the medium that allows lithium ions to move between the cathode and anode, enabling battery discharge.",
+            "description": "Electrolyte production involves creating the medium that allows lithium ions to move between the cathode and anode, enabling battery discharge."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Module Manufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Module Manufacturing",
+            "wd_description": "Module manufacturing involves assembling multiple cells into a module, with the number of cells varying by manufacturer and cell type. This stage contributes to about 11 percent of the total cost of a finished lithium-ion battery pack.",
+            "description": "Module manufacturing involves assembling multiple cells into a module, with the number of cells varying by manufacturer and cell type. This stage contributes to about 11 percent of the total cost of a finished lithium-ion battery pack."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Cell Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell Assembly",
+            "wd_description": "Cell assembly involves arranging individual cells into a module, preparing them for integration into battery packs.",
+            "description": "Cell assembly involves arranging individual cells into a module, preparing them for integration into battery packs."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Module Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Module Assembly",
+            "wd_description": "Module assembly involves putting together the modules using the assembled cells, readying them for pack assembly.",
+            "description": "Module assembly involves putting together the modules using the assembled cells, readying them for pack assembly."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Pack Assembly",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pack Assembly",
+            "wd_description": "Pack assembly involves combining modules into a complete battery pack, which is often done near the vehicle assembly location due to transportation costs.",
+            "description": "Pack assembly involves combining modules into a complete battery pack, which is often done near the vehicle assembly location due to transportation costs."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Module Integration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Module Integration",
+            "wd_description": "Module integration involves fitting together modules into a structure that can be used in a battery pack.",
+            "description": "Module integration involves fitting together modules into a structure that can be used in a battery pack."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Final Pack Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Final Pack Assembly",
+            "wd_description": "Final pack assembly involves assembling the integrated modules into the final battery pack, ready for installation in electric vehicles.",
+            "description": "Final pack assembly involves assembling the integrated modules into the final battery pack, ready for installation in electric vehicles."
+        },
+        {
+            "@id": "ev2",
+            "name": "EV Battery Trade Dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Trade Dynamics",
+            "wd_description": "The trade dynamics of EV batteries, including lithium-ion batteries, have evolved significantly with changes in import and export patterns, HS classification updates, and value-added calculations.",
+            "description": "The trade dynamics of EV batteries, including lithium-ion batteries, have evolved significantly with changes in import and export patterns, HS classification updates, and value-added calculations."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Global EV Trade",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Global EV Trade",
+            "wd_description": "Starting in 2017, a specific HS subheading for electric vehicles allows for empirical analysis of global EV trade trends, highlighting significant growth in imports among the top global importers.",
+            "description": "Starting in 2017, a specific HS subheading for electric vehicles allows for empirical analysis of global EV trade trends, highlighting significant growth in imports among the top global importers."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "Import Analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Import Analysis",
+            "wd_description": "Analyzing trends in EV imports, with significant growth observed among the top global importers over recent years.",
+            "description": "Analyzing trends in EV imports, with significant growth observed among the top global importers over recent years."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "Export Analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Export Analysis",
+            "wd_description": "Examining trends in EV exports, highlighting which countries are leading in the export of electric vehicles.",
+            "description": "Examining trends in EV exports, highlighting which countries are leading in the export of electric vehicles."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Lithium-Ion Battery Trade",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Battery Trade",
+            "wd_description": "The trade of lithium-ion batteries involves significant imports and exports by countries like the U.S., Germany, and China, with classifications under HS subheading 8507.60 and additional U.S. HTS numbers for more precise tracking.",
+            "description": "The trade of lithium-ion batteries involves significant imports and exports by countries like the U.S., Germany, and China, with classifications under HS subheading 8507.60 and additional U.S. HTS numbers for more precise tracking."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "Import Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Import Trends",
+            "wd_description": "The U.S. and Germany have seen significant growth in lithium-ion battery imports, nearly equaling China's imports in recent years.",
+            "description": "The U.S. and Germany have seen significant growth in lithium-ion battery imports, nearly equaling China's imports in recent years."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "Export Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Export Trends",
+            "wd_description": "Examining lithium-ion battery export trends, with China continuing to hold a large share of the world's exports.",
+            "description": "Examining lithium-ion battery export trends, with China continuing to hold a large share of the world's exports."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "U.S. Lithium-Ion Battery Trade",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Lithium-Ion Battery Trade",
+            "wd_description": "The U.S. imports the majority of its assembled EV batteries from South Korea and battery parts from Japan, with exports primarily going to the Netherlands, Mexico, and the UK.",
+            "description": "The U.S. imports the majority of its assembled EV batteries from South Korea and battery parts from Japan, with exports primarily going to the Netherlands, Mexico, and the UK."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "Import Patterns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Import Patterns",
+            "wd_description": "The U.S. imports most of its assembled EV batteries from South Korea and battery parts from Japan.",
+            "description": "The U.S. imports most of its assembled EV batteries from South Korea and battery parts from Japan."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "Export Patterns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Export Patterns",
+            "wd_description": "The U.S. exports the majority of its lithium-ion batteries to the Netherlands, Mexico, and the United Kingdom.",
+            "description": "The U.S. exports the majority of its lithium-ion batteries to the Netherlands, Mexico, and the United Kingdom."
+        },
+        {
+            "@id": "ev2.3.3",
+            "name": "HTS Classification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "HTS Classification",
+            "wd_description": "The U.S. Harmonized Tariff System (HTS) provides specific statistical reporting numbers for EV batteries, allowing for precise trade analysis.",
+            "description": "The U.S. Harmonized Tariff System (HTS) provides specific statistical reporting numbers for EV batteries, allowing for precise trade analysis."
+        },
+        {
+            "@id": "ev3",
+            "name": "EV Battery Supply Chain Value-added",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain Value-added",
+            "wd_description": "Value-added in the EV battery supply chain is calculated by splitting value between the country where the battery is assembled and the country where the battery's cells were made, with adjustments for materials and purchased items.",
+            "description": "Value-added in the EV battery supply chain is calculated by splitting value between the country where the battery is assembled and the country where the battery's cells were made, with adjustments for materials and purchased items."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Cell Assembly Value-added",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell Assembly Value-added",
+            "wd_description": "The value-added of cell assembly is calculated by subtracting the cost of materials and purchased items from the total cell cost.",
+            "description": "The value-added of cell assembly is calculated by subtracting the cost of materials and purchased items from the total cell cost."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "k Assembly Value-added",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "k Assembly Value-added",
+            "wd_description": "The value-added of pack assembly is calculated by subtracting the cost of materials and purchased items from the final pack cost to the OEM, revealing a reduced share of value-added at the pack level compared to the cell level.",
+            "description": "The value-added of pack assembly is calculated by subtracting the cost of materials and purchased items from the final pack cost to the OEM, revealing a reduced share of value-added at the pack level compared to the cell level."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "U.S. Value-added Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Value-added Analysis",
+            "wd_description": "U.S. cell and battery assembly accounts for a significant share of the value-added in vehicles produced in the United States, with a focus on extracting value-added from the cost of materials used in cell and pack production.",
+            "description": "U.S. cell and battery assembly accounts for a significant share of the value-added in vehicles produced in the United States, with a focus on extracting value-added from the cost of materials used in cell and pack production."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "U.S. EV Sales",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "U.S. EV Sales",
+            "wd_description": "The U.S. EV sales and battery supply chain have expanded significantly, with declining battery costs contributing to increased value-added in domestic production.",
+            "description": "The U.S. EV sales and battery supply chain have expanded significantly, with declining battery costs contributing to increased value-added in domestic production."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "Value-added Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Value-added Trends",
+            "wd_description": "Future research aims to analyze value-added over time, revealing which countries are most competitive at different points in the EV battery supply chain.",
+            "description": "Future research aims to analyze value-added over time, revealing which countries are most competitive at different points in the EV battery supply chain."
+        },
+        {
+            "@id": "ev4",
+            "name": "Global Lithium-Ion Battery Trade",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Global Lithium-Ion Battery Trade",
+            "wd_description": "The global trade dynamics of lithium-ion batteries, focusing on import and export trends, classification issues, and trade statistics at the global and U.S. levels.",
+            "description": "The global trade dynamics of lithium-ion batteries, focusing on import and export trends, classification issues, and trade statistics at the global and U.S. levels."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Import Trends",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Import Trends",
+            "wd_description": "Significant growth in lithium-ion battery imports in countries like the U.S. and Germany, with nearly equal imports to China in recent years.",
+            "description": "Significant growth in lithium-ion battery imports in countries like the U.S. and Germany, with nearly equal imports to China in recent years."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "Top Importers Analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Top Importers Analysis",
+            "wd_description": "Analyzing the top global importers of lithium-ion batteries, including the U.S., Germany, Hong Kong, and Vietnam.",
+            "description": "Analyzing the top global importers of lithium-ion batteries, including the U.S., Germany, Hong Kong, and Vietnam."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "Import Unit Prices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Import Unit Prices",
+            "wd_description": "Examining the unit prices of lithium-ion battery imports across different countries to infer the composition of imports.",
+            "description": "Examining the unit prices of lithium-ion battery imports across different countries to infer the composition of imports."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Export Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Export Trends",
+            "wd_description": "China's continued dominance in lithium-ion battery exports, with significant shares in global trade.",
+            "description": "China's continued dominance in lithium-ion battery exports, with significant shares in global trade."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Classification Issues",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Classification Issues",
+            "wd_description": "Challenges in tracking lithium-ion battery trade due to broad HS classifications, with U.S. HTS providing more precise data for EV batteries.",
+            "description": "Challenges in tracking lithium-ion battery trade due to broad HS classifications, with U.S. HTS providing more precise data for EV batteries."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "U.S. HTS Classification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "U.S. HTS Classification",
+            "wd_description": "The U.S. HTS provides additional 10-digit statistical reporting numbers for EV batteries, enabling precise trade analysis.",
+            "description": "The U.S. HTS provides additional 10-digit statistical reporting numbers for EV batteries, enabling precise trade analysis."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "Global HS Classification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global HS Classification",
+            "wd_description": "Global HS classifications for lithium-ion batteries remain broad, making it difficult to differentiate between EV batteries and other uses.",
+            "description": "Global HS classifications for lithium-ion batteries remain broad, making it difficult to differentiate between EV batteries and other uses."
+        },
+        {
+            "@id": "ev5",
+            "name": "Electric Vehicle Trade Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Electric Vehicle Trade Analysis",
+            "wd_description": "Analysis of electric vehicle trade trends, with the introduction of specific HS subheadings for EVs starting in 2017, allowing for detailed empirical examination.",
+            "description": "Analysis of electric vehicle trade trends, with the introduction of specific HS subheadings for EVs starting in 2017, allowing for detailed empirical examination."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Import Growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Import Growth",
+            "wd_description": "Significant growth in EV imports among the top global importers, with total imports more than tripling over the last three years.",
+            "description": "Significant growth in EV imports among the top global importers, with total imports more than tripling over the last three years."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Export Analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Export Analysis",
+            "wd_description": "Detailed analysis of EV export trends, focusing on the leading exporting countries and their impact on global trade.",
+            "description": "Detailed analysis of EV export trends, focusing on the leading exporting countries and their impact on global trade."
+        },
+        {
+            "@id": "ev6",
+            "name": "U.S. Lithium-ion Battery Trade",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Lithium-ion Battery Trade",
+            "wd_description": "Analysis of U.S. lithium-ion battery trade from 2017 to 2019, focusing on import and export trends, trade partners, and classification details.",
+            "description": "Analysis of U.S. lithium-ion battery trade from 2017 to 2019, focusing on import and export trends, trade partners, and classification details."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Import Partners",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Import Partners",
+            "wd_description": "The majority of U.S. lithium-ion battery imports come from South Korea, with battery parts primarily imported from Japan.",
+            "description": "The majority of U.S. lithium-ion battery imports come from South Korea, with battery parts primarily imported from Japan."
+        },
+        {
+            "@id": "ev6.1.1",
+            "name": "South Korea Imports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "South Korea Imports",
+            "wd_description": "South Korea is the primary source of assembled EV battery imports to the U.S.",
+            "description": "South Korea is the primary source of assembled EV battery imports to the U.S."
+        },
+        {
+            "@id": "ev6.1.2",
+            "name": "Japan Imports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Japan Imports",
+            "wd_description": "Japan is the main supplier of battery parts imported into the U.S.",
+            "description": "Japan is the main supplier of battery parts imported into the U.S."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Export Partners",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Export Partners",
+            "wd_description": "The U.S. exports most of its lithium-ion batteries to the Netherlands, Mexico, and the United Kingdom.",
+            "description": "The U.S. exports most of its lithium-ion batteries to the Netherlands, Mexico, and the United Kingdom."
+        },
+        {
+            "@id": "ev6.2.1",
+            "name": "Netherlands Exports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Netherlands Exports",
+            "wd_description": "The Netherlands is a key destination for U.S. lithium-ion battery exports.",
+            "description": "The Netherlands is a key destination for U.S. lithium-ion battery exports."
+        },
+        {
+            "@id": "ev6.2.2",
+            "name": "Mexico Exports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mexico Exports",
+            "wd_description": "Mexico imports a significant portion of U.S. lithium-ion batteries.",
+            "description": "Mexico imports a significant portion of U.S. lithium-ion batteries."
+        },
+        {
+            "@id": "ev6.2.3",
+            "name": "United Kingdom Exports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "United Kingdom Exports",
+            "wd_description": "The United Kingdom is a major market for U.S. lithium-ion battery exports.",
+            "description": "The United Kingdom is a major market for U.S. lithium-ion battery exports."
+        },
+        {
+            "@id": "ev6.3",
+            "name": "HTS Classification",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "HTS Classification",
+            "wd_description": "The U.S. HTS separates lithium-ion batteries for EVs from other uses, providing precise data for trade analysis.",
+            "description": "The U.S. HTS separates lithium-ion batteries for EVs from other uses, providing precise data for trade analysis."
+        },
+        {
+            "@id": "ev6.3.1",
+            "name": "EV Battery Classification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Battery Classification",
+            "wd_description": "HTS 8507.60.0010 is used for importing EV battery packs into the U.S.",
+            "description": "HTS 8507.60.0010 is used for importing EV battery packs into the U.S."
+        },
+        {
+            "@id": "ev6.3.2",
+            "name": "Battery Parts Classification",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery Parts Classification",
+            "wd_description": "HTS 8507.90.8000 is used for importing battery cells and modules as parts.",
+            "description": "HTS 8507.90.8000 is used for importing battery cells and modules as parts."
+        },
+        {
+            "@id": "ev7",
+            "name": "Value-added in EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev7.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Value-added in EV Battery Supply Chain",
+            "wd_description": "Analysis of value-added in the EV battery supply chain, focusing on cell manufacturing, pack assembly, and the impact of updated methodologies.",
+            "description": "Analysis of value-added in the EV battery supply chain, focusing on cell manufacturing, pack assembly, and the impact of updated methodologies."
+        },
+        {
+            "@id": "ev7.1",
+            "name": "Cell Manufacturing Value-added",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell Manufacturing Value-added",
+            "wd_description": "Calculating the value-added in cell manufacturing by subtracting the cost of materials and purchased items from the cell cost.",
+            "description": "Calculating the value-added in cell manufacturing by subtracting the cost of materials and purchased items from the cell cost."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Pack Assembly Value-added",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pack Assembly Value-added",
+            "wd_description": "The value-added in pack assembly is calculated by subtracting the cost of materials and purchased items from the final pack cost to the OEM.",
+            "description": "The value-added in pack assembly is calculated by subtracting the cost of materials and purchased items from the final pack cost to the OEM."
+        },
+        {
+            "@id": "ev7.3",
+            "name": "Updated Methodologies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Updated Methodologies",
+            "wd_description": "Updated methodologies reduce the share of value-added at the pack level compared to the cell level, highlighting differences in value-added calculations.",
+            "description": "Updated methodologies reduce the share of value-added at the pack level compared to the cell level, highlighting differences in value-added calculations."
+        },
+        {
+            "@id": "ev8",
+            "name": "EV Battery Supply Chain Segments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev8.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain Segments",
+            "wd_description": "The EV battery supply chain is divided into three main segments: cell manufacturing, module manufacturing, and pack assembly.",
+            "description": "The EV battery supply chain is divided into three main segments: cell manufacturing, module manufacturing, and pack assembly."
+        },
+        {
+            "@id": "ev8.1",
+            "name": "Cell Manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell Manufacturing",
+            "wd_description": "The process of producing the smallest, but most important, component of lithium-ion batteries, the electrochemical cell.",
+            "description": "The process of producing the smallest, but most important, component of lithium-ion batteries, the electrochemical cell."
+        },
+        {
+            "@id": "ev8.2",
+            "name": "Module Manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Module Manufacturing",
+            "wd_description": "The process of assembling multiple cells into a module, with the number of cells per module varying by manufacturer and cell type.",
+            "description": "The process of assembling multiple cells into a module, with the number of cells per module varying by manufacturer and cell type."
+        },
+        {
+            "@id": "ev8.3",
+            "name": "Pack Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pack Assembly",
+            "wd_description": "The process of assembling modules into battery packs, often conducted near the vehicle assembly location due to transportation costs.",
+            "description": "The process of assembling modules into battery packs, often conducted near the vehicle assembly location due to transportation costs."
+        },
+        {
+            "@id": "ev9",
+            "name": "EV and Battery Trade Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev9.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev9.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV and Battery Trade Analysis",
+            "wd_description": "Detailed analysis of electric vehicle and lithium-ion battery trade, focusing on import and export trends, classification challenges, and trade statistics.",
+            "description": "Detailed analysis of electric vehicle and lithium-ion battery trade, focusing on import and export trends, classification challenges, and trade statistics."
+        },
+        {
+            "@id": "ev9.1",
+            "name": "EV Trade Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Trade Trends",
+            "wd_description": "Analysis of trends in global electric vehicle trade, highlighting the growth in imports and exports among leading countries.",
+            "description": "Analysis of trends in global electric vehicle trade, highlighting the growth in imports and exports among leading countries."
+        },
+        {
+            "@id": "ev9.2",
+            "name": "Battery Trade Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery Trade Trends",
+            "wd_description": "Examination of global lithium-ion battery trade trends, with a focus on import and export patterns in key markets like the U.S., China, and Germany.",
+            "description": "Examination of global lithium-ion battery trade trends, with a focus on import and export patterns in key markets like the U.S., China, and Germany."
+        },
+        {
+            "@id": "ev9.3",
+            "name": "Classification Challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Classification Challenges",
+            "wd_description": "Challenges in tracking lithium-ion battery trade due to broad HS classifications and the need for more precise statistical reporting.",
+            "description": "Challenges in tracking lithium-ion battery trade due to broad HS classifications and the need for more precise statistical reporting."
+        },
+        {
+            "@id": "ev10",
+            "name": "U.S. EV Battery Supply Chain Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev10.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. EV Battery Supply Chain Analysis",
+            "wd_description": "Comprehensive analysis of the U.S. EV battery supply chain, including trade dynamics, value-added calculations, and future research directions.",
+            "description": "Comprehensive analysis of the U.S. EV battery supply chain, including trade dynamics, value-added calculations, and future research directions."
+        },
+        {
+            "@id": "ev10.1",
+            "name": "Trade Dynamics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trade Dynamics",
+            "wd_description": "Analysis of U.S. EV battery trade dynamics, including import and export patterns and key trade partners.",
+            "description": "Analysis of U.S. EV battery trade dynamics, including import and export patterns and key trade partners."
+        },
+        {
+            "@id": "ev10.2",
+            "name": "Value-added Calculations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Value-added Calculations",
+            "wd_description": "Detailed calculations of value-added in the U.S. EV battery supply chain, focusing on cell and pack assembly.",
+            "description": "Detailed calculations of value-added in the U.S. EV battery supply chain, focusing on cell and pack assembly."
+        },
+        {
+            "@id": "ev10.3",
+            "name": "Future Research",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Future Research",
+            "wd_description": "Future research directions aim to analyze value-added over time and identify competitive advantages in the EV battery supply chain.",
+            "description": "Future research directions aim to analyze value-added over time and identify competitive advantages in the EV battery supply chain."
+        },
+        {
+            "@id": "ev11",
+            "name": "EV Battery Manufacturing Locations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev11.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev11.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Manufacturing Locations",
+            "wd_description": "The geographical distribution of EV battery manufacturing, including examples of plants producing cells, modules, and packs in different locations.",
+            "description": "The geographical distribution of EV battery manufacturing, including examples of plants producing cells, modules, and packs in different locations."
+        },
+        {
+            "@id": "ev11.1",
+            "name": "Envision AESC Sunderland Plant",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Envision AESC Sunderland Plant",
+            "wd_description": "The Envision AESC plant in Sunderland, England, produces battery cells and modules, and assembles packs for the Nissan Leaf.",
+            "description": "The Envision AESC plant in Sunderland, England, produces battery cells and modules, and assembles packs for the Nissan Leaf."
+        },
+        {
+            "@id": "ev11.2",
+            "name": "Tesla Gigafactory Nevada",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tesla Gigafactory Nevada",
+            "wd_description": "Tesla's Gigafactory in Nevada produces modules and packs using cells produced by Panasonic at the same location.",
+            "description": "Tesla's Gigafactory in Nevada produces modules and packs using cells produced by Panasonic at the same location."
+        },
+        {
+            "@id": "ev11.3",
+            "name": "Tesla Fremont Plant",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tesla Fremont Plant",
+            "wd_description": "Tesla's Fremont plant produces modules and packs using cells produced both internally and by Panasonic in Japan.",
+            "description": "Tesla's Fremont plant produces modules and packs using cells produced both internally and by Panasonic in Japan."
+        },
+        {
+            "@id": "ev12",
+            "name": "EV Battery Supply Chain Cost Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev12.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev12.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain Cost Analysis",
+            "wd_description": "Analysis of cost components in the EV battery supply chain, focusing on the costs associated with cell manufacturing, module production, and pack assembly.",
+            "description": "Analysis of cost components in the EV battery supply chain, focusing on the costs associated with cell manufacturing, module production, and pack assembly."
+        },
+        {
+            "@id": "ev12.1",
+            "name": "Cell Manufacturing Costs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell Manufacturing Costs",
+            "wd_description": "The costs associated with manufacturing electrochemical cells, including materials and production expenses.",
+            "description": "The costs associated with manufacturing electrochemical cells, including materials and production expenses."
+        },
+        {
+            "@id": "ev12.2",
+            "name": "Module Production Costs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Module Production Costs",
+            "wd_description": "The costs involved in assembling multiple cells into a module, which varies by manufacturer and cell type.",
+            "description": "The costs involved in assembling multiple cells into a module, which varies by manufacturer and cell type."
+        },
+        {
+            "@id": "ev12.3",
+            "name": "Pack Assembly Costs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pack Assembly Costs",
+            "wd_description": "The costs of assembling modules into battery packs, often conducted near vehicle assembly locations to reduce transportation costs.",
+            "description": "The costs of assembling modules into battery packs, often conducted near vehicle assembly locations to reduce transportation costs."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2",
+            "relationObject": "ev1.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.2",
+            "relationObject": "ev2.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.2",
+            "relationObject": "ev2.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.2",
+            "relationObject": "ev2.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.2",
+            "relationObject": "ev2.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2",
+            "relationObject": "ev4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1",
+            "relationObject": "ev5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1",
+            "relationObject": "ev5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1",
+            "relationObject": "ev5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2",
+            "relationObject": "ev6.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1.1",
+            "relationObject": "ev6.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1.1",
+            "relationObject": "ev6.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1.1",
+            "relationObject": "ev6.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2.2",
+            "relationObject": "ev6.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2.2",
+            "relationObject": "ev6.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2.2",
+            "relationObject": "ev6.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2.2",
+            "relationObject": "ev6.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.3.1",
+            "relationObject": "ev6.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.3.1",
+            "relationObject": "ev6.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.3.1",
+            "relationObject": "ev6.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.2",
+            "relationObject": "ev7.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.2",
+            "relationObject": "ev7.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.2",
+            "relationObject": "ev7.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.2",
+            "relationObject": "ev7.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.2",
+            "relationObject": "ev8.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.2",
+            "relationObject": "ev8.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.2",
+            "relationObject": "ev8.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.2",
+            "relationObject": "ev8.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.2",
+            "relationObject": "ev9.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.2",
+            "relationObject": "ev9.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.2",
+            "relationObject": "ev9.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.2",
+            "relationObject": "ev9.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.2",
+            "relationObject": "ev10.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.2",
+            "relationObject": "ev10.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.2",
+            "relationObject": "ev10.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.2",
+            "relationObject": "ev10.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.2",
+            "relationObject": "ev11.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.2",
+            "relationObject": "ev11.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.2",
+            "relationObject": "ev11.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.2",
+            "relationObject": "ev11.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.2",
+            "relationObject": "ev12.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.2",
+            "relationObject": "ev12.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.2",
+            "relationObject": "ev12.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.2",
+            "relationObject": "ev12.3"
+        },
+        {
+            "@id": "report10/Relation/3zOLwBKFjF/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        }
+    ],
+    "entities": []
+}

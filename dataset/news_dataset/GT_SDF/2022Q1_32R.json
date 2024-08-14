@@ -1,0 +1,623 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_32R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Hunga Tonga-Hunga Ha'apai volcanic eruption and tsunamis, January 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Hunga Tonga-Hunga Ha'apai volcanic eruption and tsunamis, January 2022",
+            "wd_description": "The Hunga Tonga-Hunga Ha'apai volcano in Tonga erupted, causing widespread ash fallout and tsunamis across the Pacific, leading to confirmed casualties and significant disruption to telecommunications in Tonga.",
+            "description": "The Hunga Tonga-Hunga Ha'apai volcano in Tonga erupted, causing widespread ash fallout and tsunamis across the Pacific, leading to confirmed casualties and significant disruption to telecommunications in Tonga."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Volcanic eruption in Tonga",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Volcanic eruption in Tonga",
+            "wd_description": "The Hunga Tonga-Hunga Ha'apai volcano erupted for twelve hours, blasting ash into the atmosphere and causing significant disruption to the region.",
+            "description": "The Hunga Tonga-Hunga Ha'apai volcano erupted for twelve hours, blasting ash into the atmosphere and causing significant disruption to the region."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Tsunami impact across the Pacific",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tsunami impact across the Pacific",
+            "wd_description": "The eruption triggered tsunamis that reached as far as Peru and the United States, causing damage across the Pacific region.",
+            "description": "The eruption triggered tsunamis that reached as far as Peru and the United States, causing damage across the Pacific region."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Telecommunications and casualty impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Telecommunications and casualty impact",
+            "wd_description": "The eruption damaged telecommunications cables in Tonga, leaving the full extent of the damage unknown, with confirmed casualties in Tonga and Peru.",
+            "description": "The eruption damaged telecommunications cables in Tonga, leaving the full extent of the damage unknown, with confirmed casualties in Tonga and Peru."
+        },
+        {
+            "@id": "ev2",
+            "name": "Forest Fires near Chernobyl Nuclear Reactor",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Forest Fires near Chernobyl Nuclear Reactor",
+            "wd_description": "Forest fires have erupted near the Chernobyl nuclear reactor, with Ukrainian authorities claiming that Russian control of the area is hampering efforts to control the flames.",
+            "description": "Forest fires have erupted near the Chernobyl nuclear reactor, with Ukrainian authorities claiming that Russian control of the area is hampering efforts to control the flames."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Fire Outbreak",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Fire Outbreak",
+            "wd_description": "At least seven fires have been spotted within Chernobyl’s exclusion zone, likely ignited by the armed aggression of the Russian Federation.",
+            "description": "At least seven fires have been spotted within Chernobyl’s exclusion zone, likely ignited by the armed aggression of the Russian Federation."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "t: Causes of Fires",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Causes of Fires",
+            "wd_description": "The fires may have been caused by shelling, arson, or other factors related to the armed aggression of the Russian Federation.",
+            "description": "The fires may have been caused by shelling, arson, or other factors related to the armed aggression of the Russian Federation."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "t: Satellite Imagery Confirmation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Satellite Imagery Confirmation",
+            "wd_description": "Satellite imagery taken by the European Space Agency confirmed the presence of at least seven fires within the exclusion zone.",
+            "description": "Satellite imagery taken by the European Space Agency confirmed the presence of at least seven fires within the exclusion zone."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Impact on Radiation Levels",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact on Radiation Levels",
+            "wd_description": "The fires within 10km of the Chernobyl plant are particularly dangerous, with concerns about the potential release of radioactive material.",
+            "description": "The fires within 10km of the Chernobyl plant are particularly dangerous, with concerns about the potential release of radioactive material."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "t: Historical Radiation Spikes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Historical Radiation Spikes",
+            "wd_description": "In 2020, a forest fire near the reactor caused radiation levels to spike to 16 times above normal.",
+            "description": "In 2020, a forest fire near the reactor caused radiation levels to spike to 16 times above normal."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "t: Current Monitoring Challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Current Monitoring Challenges",
+            "wd_description": "Ukrainian authorities claim that the ongoing war is hindering attempts to monitor radiation levels, making it difficult to respond to potential threats.",
+            "description": "Ukrainian authorities claim that the ongoing war is hindering attempts to monitor radiation levels, making it difficult to respond to potential threats."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Response and Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Response and Challenges",
+            "wd_description": "Ukrainian firefighters are unable to tackle the blazes due to Russian presence, and there are concerns about the safety and monitoring of the site.",
+            "description": "Ukrainian firefighters are unable to tackle the blazes due to Russian presence, and there are concerns about the safety and monitoring of the site."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "t: Firefighting Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Firefighting Efforts",
+            "wd_description": "Ukrainian firefighters are unable to control the fires due to the presence of Russian forces in the area.",
+            "description": "Ukrainian firefighters are unable to control the fires due to the presence of Russian forces in the area."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "t: Safety Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Safety Concerns",
+            "wd_description": "There are concerns that fierce fighting in the area could damage the reactor further and cause radioactive material to escape.",
+            "description": "There are concerns that fierce fighting in the area could damage the reactor further and cause radioactive material to escape."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Climate Change Factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev2.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Climate Change Factors",
+            "wd_description": "Climate scientists have pointed out that rising temperatures due to global heating are causing forests to dry out, making them more susceptible to fires.",
+            "description": "Climate scientists have pointed out that rising temperatures due to global heating are causing forests to dry out, making them more susceptible to fires."
+        },
+        {
+            "@id": "ev2.4.1",
+            "name": "t: Climate Change Impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Climate Change Impact",
+            "wd_description": "Warmer temperatures are causing bigger fire seasons around the world, which may mobilize radioactive particles from the Chernobyl region.",
+            "description": "Warmer temperatures are causing bigger fire seasons around the world, which may mobilize radioactive particles from the Chernobyl region."
+        },
+        {
+            "@id": "ev2.4.2",
+            "name": "t: Future Risks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Future Risks",
+            "wd_description": "The rapidly changing climate and the presence of large amounts of dead, fire-prone wood in the Chernobyl region pose a high risk of radioactive contamination from future fires.",
+            "description": "The rapidly changing climate and the presence of large amounts of dead, fire-prone wood in the Chernobyl region pose a high risk of radioactive contamination from future fires."
+        },
+        {
+            "@id": "ev3",
+            "name": "Military coup in Burkina Faso",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Military coup in Burkina Faso",
+            "wd_description": "The military coup in Burkina Faso deposed President Roch Kabore, prompted by demands for better security and increased instability in the region.",
+            "description": "The military coup in Burkina Faso deposed President Roch Kabore, prompted by demands for better security and increased instability in the region."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "President deposed",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "President deposed",
+            "wd_description": "Mutinous soldiers announced the deposition of President Roch Kabore amid demands for more support in fighting armed groups.",
+            "description": "Mutinous soldiers announced the deposition of President Roch Kabore amid demands for more support in fighting armed groups."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: soldier mutiny",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: soldier mutiny",
+            "wd_description": "Soldiers demanded more support for their fight against armed groups and subsequently deposed President Kabore.",
+            "description": "Soldiers demanded more support for their fight against armed groups and subsequently deposed President Kabore."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: popular support",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: popular support",
+            "wd_description": "The coup was greeted with significant support in Burkina Faso.",
+            "description": "The coup was greeted with significant support in Burkina Faso."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: military leadership",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: military leadership",
+            "wd_description": "Lieutenant-Colonel Paul-Henri Sandaogo Damiba emerged as the leader of the coup and was named the leader of the new Patriotic Movement for Safeguard and Restoration (MPSR).",
+            "description": "Lieutenant-Colonel Paul-Henri Sandaogo Damiba emerged as the leader of the coup and was named the leader of the new Patriotic Movement for Safeguard and Restoration (MPSR)."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "rise in violence",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "rise in violence",
+            "wd_description": "Burkina Faso has experienced a significant increase in violence from armed groups linked to al-Qaeda and ISIL.",
+            "description": "Burkina Faso has experienced a significant increase in violence from armed groups linked to al-Qaeda and ISIL."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: armed groups",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: armed groups",
+            "wd_description": "Armed groups linked to al-Qaeda and ISIL have been operating in Burkina Faso since 2015.",
+            "description": "Armed groups linked to al-Qaeda and ISIL have been operating in Burkina Faso since 2015."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: increased attacks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: increased attacks",
+            "wd_description": "The number of attacks has risen significantly, with over 1,150 incidents in 2021 compared to nearly 500 in 2020.",
+            "description": "The number of attacks has risen significantly, with over 1,150 incidents in 2021 compared to nearly 500 in 2020."
+        },
+        {
+            "@id": "ev3.2.3",
+            "name": "t: civilian displacement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: civilian displacement",
+            "wd_description": "More than 1.4 million people have been displaced by the conflict in Burkina Faso.",
+            "description": "More than 1.4 million people have been displaced by the conflict in Burkina Faso."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "international reactions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "international reactions",
+            "wd_description": "The coup has sparked widespread international condemnation and prompted discussions on how to respond to the instability.",
+            "description": "The coup has sparked widespread international condemnation and prompted discussions on how to respond to the instability."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: international condemnation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: international condemnation",
+            "wd_description": "The international community, including various countries and organizations, has condemned the coup.",
+            "description": "The international community, including various countries and organizations, has condemned the coup."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: ECOWAS response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: ECOWAS response",
+            "wd_description": "The Economic Community of West African States (ECOWAS) is holding a special session to discuss the coup and potential responses.",
+            "description": "The Economic Community of West African States (ECOWAS) is holding a special session to discuss the coup and potential responses."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: potential sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential sanctions",
+            "wd_description": "Western allies are considering imposing sanctions on Burkina Faso in response to the coup.",
+            "description": "Western allies are considering imposing sanctions on Burkina Faso in response to the coup."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "regional instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "regional instability",
+            "wd_description": "The coup is the fourth in a series of recent military takeovers in West and Central Africa, contributing to regional instability.",
+            "description": "The coup is the fourth in a series of recent military takeovers in West and Central Africa, contributing to regional instability."
+        },
+        {
+            "@id": "ev4",
+            "name": "Indonesia EV Battery Supply Chain Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Indonesia EV Battery Supply Chain Development",
+            "wd_description": "Indonesia aims to develop an integrated electric vehicle (EV) supply chain to become an EV battery producer and exporter. The goal is to make batteries with a capacity of 140 GWh by 2030, leveraging its nickel reserves and attracting foreign investments in battery production.",
+            "description": "Indonesia aims to develop an integrated electric vehicle (EV) supply chain to become an EV battery producer and exporter. The goal is to make batteries with a capacity of 140 GWh by 2030, leveraging its nickel reserves and attracting foreign investments in battery production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Upstream Supply Chain Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Upstream Supply Chain Development",
+            "wd_description": "Indonesia leverages its abundant nickel reserves and applies restrictive measures to attract foreign investments in nickel processing. The country imposed an export ban on unprocessed nickel ore to encourage local processing.",
+            "description": "Indonesia leverages its abundant nickel reserves and applies restrictive measures to attract foreign investments in nickel processing. The country imposed an export ban on unprocessed nickel ore to encourage local processing."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Nickel Processing Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.1.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "t: Nickel Processing Projects",
+            "wd_description": "Several nickel processing projects have started in Indonesia, mainly due to Chinese investments. These projects will be key to future global nickel supply for batteries.",
+            "description": "Several nickel processing projects have started in Indonesia, mainly due to Chinese investments. These projects will be key to future global nickel supply for batteries."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Export Ban on Unprocessed Nickel",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Export Ban on Unprocessed Nickel",
+            "wd_description": "The export ban on unprocessed nickel ore was imposed to encourage local processing and add value to the mined nickel ore.",
+            "description": "The export ban on unprocessed nickel ore was imposed to encourage local processing and add value to the mined nickel ore."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Midstream and Downstream Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Midstream and Downstream Development",
+            "wd_description": "Indonesia offers incentives for EV battery producers, EV manufacturers, and EV buyers to develop the domestic EV market and reduce greenhouse gas emissions. The government mandates the development of a domestic EV industry as a national priority.",
+            "description": "Indonesia offers incentives for EV battery producers, EV manufacturers, and EV buyers to develop the domestic EV market and reduce greenhouse gas emissions. The government mandates the development of a domestic EV industry as a national priority."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Incentives for EV Industry",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.2.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "t: Incentives for EV Industry",
+            "wd_description": "The government offers fiscal and non-fiscal incentives for companies in the EV industry, including tax exemptions, import duty exemptions, and reduced electricity tariffs at charging stations.",
+            "description": "The government offers fiscal and non-fiscal incentives for companies in the EV industry, including tax exemptions, import duty exemptions, and reduced electricity tariffs at charging stations."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Local Content Requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Local Content Requirements",
+            "wd_description": "The government requires EV manufacturers to use domestically manufactured goods, increasing to 80 percent by 2030, to promote local production.",
+            "description": "The government requires EV manufacturers to use domestically manufactured goods, increasing to 80 percent by 2030, to promote local production."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "t: EV Adoption Targets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: EV Adoption Targets",
+            "wd_description": "Indonesia has set a target of having 13 million electric motorcycles and 2.2 million electric cars on the roads by 2030 to reduce greenhouse gas emissions.",
+            "description": "Indonesia has set a target of having 13 million electric motorcycles and 2.2 million electric cars on the roads by 2030 to reduce greenhouse gas emissions."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Investment and Partnerships",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Investment and Partnerships",
+            "wd_description": "Indonesia's ability to reach its goal of producing 140 GWh by 2030 depends on attracting substantial foreign investment. South Korea's Hyundai and LGES are building the country's first EV battery plant, and China's CATL plans to invest $5 billion in Indonesia.",
+            "description": "Indonesia's ability to reach its goal of producing 140 GWh by 2030 depends on attracting substantial foreign investment. South Korea's Hyundai and LGES are building the country's first EV battery plant, and China's CATL plans to invest $5 billion in Indonesia."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Hyundai and LGES Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hyundai and LGES Investment",
+            "wd_description": "Hyundai and LGES are building Indonesia’s first EV battery plant with a planned annual production capacity of 10 GWh, scheduled to start production in 2024.",
+            "description": "Hyundai and LGES are building Indonesia’s first EV battery plant with a planned annual production capacity of 10 GWh, scheduled to start production in 2024."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: CATL Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: CATL Investment",
+            "wd_description": "China’s CATL plans to invest $5 billion in Indonesia, with its recycling arm Brunp already investing in a nickel processing project.",
+            "description": "China’s CATL plans to invest $5 billion in Indonesia, with its recycling arm Brunp already investing in a nickel processing project."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Tesla Investment Consideration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Tesla Investment Consideration",
+            "wd_description": "Tesla has shown interest in investing in Indonesia, but concerns over ESG issues and the challenging business environment have made the company reluctant.",
+            "description": "Tesla has shown interest in investing in Indonesia, but concerns over ESG issues and the challenging business environment have made the company reluctant."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

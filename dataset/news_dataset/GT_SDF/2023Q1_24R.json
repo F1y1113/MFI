@@ -1,0 +1,275 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q1_24R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Germany and UK Send Tanks to Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Germany and UK Send Tanks to Ukraine",
+            "wd_description": "Germany has sent the first shipment of Leopard 2 tanks to Ukraine, while the UK has delivered Challenger 2 tanks. The tanks are expected to play a decisive role on the frontlines of the war in Ukraine.",
+            "description": "Germany has sent the first shipment of Leopard 2 tanks to Ukraine, while the UK has delivered Challenger 2 tanks. The tanks are expected to play a decisive role on the frontlines of the war in Ukraine."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Delivery of Leopard 2 Tanks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Delivery of Leopard 2 Tanks",
+            "wd_description": "Germany confirmed the delivery of the first shipment of Leopard 2 tanks to Ukraine, with German Defense Minister Boris Pistorius expressing confidence in their impact on the battlefield.",
+            "description": "Germany confirmed the delivery of the first shipment of Leopard 2 tanks to Ukraine, with German Defense Minister Boris Pistorius expressing confidence in their impact on the battlefield."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "UK Challenger 2 Tanks Sent to Ukraine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "UK Challenger 2 Tanks Sent to Ukraine",
+            "wd_description": "The UK also sent its Challenger 2 tanks to Ukraine, marking a significant contribution to Ukraine's military capabilities in the ongoing conflict.",
+            "description": "The UK also sent its Challenger 2 tanks to Ukraine, marking a significant contribution to Ukraine's military capabilities in the ongoing conflict."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Training and Additional Equipment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Training and Additional Equipment",
+            "wd_description": "Ukrainian soldiers have been trained in Germany to operate the advanced A6 variant of the Leopard 2 tanks. Ukraine also received two specialist tank-recovery vehicles and 40 Marder infantry fighting vehicles from Germany.",
+            "description": "Ukrainian soldiers have been trained in Germany to operate the advanced A6 variant of the Leopard 2 tanks. Ukraine also received two specialist tank-recovery vehicles and 40 Marder infantry fighting vehicles from Germany."
+        },
+        {
+            "@id": "ev2",
+            "name": "Israeli Army Raid in Jericho",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Israeli Army Raid in Jericho",
+            "wd_description": "Multiple Palestinian militants were killed during an Israeli army raid near Jericho, targeting a Hamas terrorist cell responsible for a recent gun attack on a restaurant near a Jewish settlement.",
+            "description": "Multiple Palestinian militants were killed during an Israeli army raid near Jericho, targeting a Hamas terrorist cell responsible for a recent gun attack on a restaurant near a Jewish settlement."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Israeli Army Raid",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Israeli Army Raid",
+            "wd_description": "The Israeli Defense Force (IDF) conducted a raid in the Aqabat Jabr refugee camp near Jericho, aiming to arrest members of a Hamas terrorist cell involved in a gun attack.",
+            "description": "The Israeli Defense Force (IDF) conducted a raid in the Aqabat Jabr refugee camp near Jericho, aiming to arrest members of a Hamas terrorist cell involved in a gun attack."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Death Toll and Arrests",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Death Toll and Arrests",
+            "wd_description": "The raid resulted in the deaths of multiple Palestinian militants, with reports indicating five fatalities, and the arrest of eight individuals by the IDF.",
+            "description": "The raid resulted in the deaths of multiple Palestinian militants, with reports indicating five fatalities, and the arrest of eight individuals by the IDF."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Witness Reports",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Witness Reports",
+            "wd_description": "Witnesses reported hearing multiple gunshots during the raid, and the IDF confirmed that the targeted militants were involved in the recent attack on a restaurant.",
+            "description": "Witnesses reported hearing multiple gunshots during the raid, and the IDF confirmed that the targeted militants were involved in the recent attack on a restaurant."
+        },
+        {
+            "@id": "ev3",
+            "name": "Surge in COVID-19 Deaths in China Following Lifting of Zero-COVID Policy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Surge in COVID-19 Deaths in China Following Lifting of Zero-COVID Policy",
+            "wd_description": "China experienced a significant surge in COVID-19 deaths after President Xi lifted the Zero-COVID Policy, with most deaths occurring among elderly individuals with underlying conditions.",
+            "description": "China experienced a significant surge in COVID-19 deaths after President Xi lifted the Zero-COVID Policy, with most deaths occurring among elderly individuals with underlying conditions."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Surge in COVID-19 Deaths",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Surge in COVID-19 Deaths",
+            "wd_description": "A significant increase in COVID-19 deaths has been reported in China since December 2022, particularly among individuals over 65 with underlying conditions, following the lifting of the Zero-COVID Policy.",
+            "description": "A significant increase in COVID-19 deaths has been reported in China since December 2022, particularly among individuals over 65 with underlying conditions, following the lifting of the Zero-COVID Policy."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Lifting of Zero-COVID Policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lifting of Zero-COVID Policy",
+            "wd_description": "The surge in COVID-19 cases and deaths began shortly after President Xi Jinping lifted China's Zero-COVID Policy, allowing for increased movement ahead of the holidays.",
+            "description": "The surge in COVID-19 cases and deaths began shortly after President Xi Jinping lifted China's Zero-COVID Policy, allowing for increased movement ahead of the holidays."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "In response to the surge in COVID-19 cases and deaths in China, several countries issued mandatory testing for travelers coming from China.",
+            "description": "In response to the surge in COVID-19 cases and deaths in China, several countries issued mandatory testing for travelers coming from China."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Expert Warnings and Travel Advisories",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expert Warnings and Travel Advisories",
+            "wd_description": "Experts believe that the surge in deaths may have peaked in some areas but warned that increased travel could lead to a further rise in cases, advising people to limit visits to certain areas.",
+            "description": "Experts believe that the surge in deaths may have peaked in some areas but warned that increased travel could lead to a further rise in cases, advising people to limit visits to certain areas."
+        },
+        {
+            "@id": "ev4",
+            "name": "US Battery Supply Chain Investment Since 2021",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US Battery Supply Chain Investment Since 2021",
+            "wd_description": "Since President Joe Biden took office in January 2021, a total of US$92 billion has been invested in the US battery supply chain, including government and private sector investments in recycling, materials separation and processing, and component manufacturing.",
+            "description": "Since President Joe Biden took office in January 2021, a total of US$92 billion has been invested in the US battery supply chain, including government and private sector investments in recycling, materials separation and processing, and component manufacturing."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Investment Overview",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investment Overview",
+            "wd_description": "A total of US$92 billion has been invested in the US battery supply chain since January 2021, with 78 facilities announced, including recycling, materials separation and processing, and component manufacturing projects.",
+            "description": "A total of US$92 billion has been invested in the US battery supply chain since January 2021, with 78 facilities announced, including recycling, materials separation and processing, and component manufacturing projects."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Specific Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Specific Projects",
+            "wd_description": "Recent projects include Israel-based ICL’s US$400 million LFP cathode material plant in St. Louis, Missouri, and the Rhyolite Ridge lithium project in Esmerelda County, Nevada, supported by a US$700 million DOE loan.",
+            "description": "Recent projects include Israel-based ICL’s US$400 million LFP cathode material plant in St. Louis, Missouri, and the Rhyolite Ridge lithium project in Esmerelda County, Nevada, supported by a US$700 million DOE loan."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: ICL LFP Cathode Material Plant",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: ICL LFP Cathode Material Plant",
+            "wd_description": "ICL’s US$400 million LFP cathode material plant in St. Louis, Missouri, will be half-funded by a federal grant through the Bipartisan Infrastructure Law’s US$2.8 billion funding for battery projects.",
+            "description": "ICL’s US$400 million LFP cathode material plant in St. Louis, Missouri, will be half-funded by a federal grant through the Bipartisan Infrastructure Law’s US$2.8 billion funding for battery projects."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Rhyolite Ridge Lithium Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Rhyolite Ridge Lithium Project",
+            "wd_description": "The DOE’s Loan Programs Office announced a conditional commitment to provide a US$700 million loan for the Rhyolite Ridge lithium project in Esmerelda County, Nevada, which will process lithium carbonate for around 370,000 EVs per year.",
+            "description": "The DOE’s Loan Programs Office announced a conditional commitment to provide a US$700 million loan for the Rhyolite Ridge lithium project in Esmerelda County, Nevada, which will process lithium carbonate for around 370,000 EVs per year."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Legislative Impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Legislative Impact",
+            "wd_description": "The Inflation Reduction Act and Bipartisan Infrastructure Law have significantly improved the investment climate for the US battery supply chain, increasing the DOE Loan Programs Office's loan authority from US$60 billion to US$100 billion.",
+            "description": "The Inflation Reduction Act and Bipartisan Infrastructure Law have significantly improved the investment climate for the US battery supply chain, increasing the DOE Loan Programs Office's loan authority from US$60 billion to US$100 billion."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Industry Trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Industry Trends",
+            "wd_description": "The US’ planned lithium-ion gigafactory capacity is growing twice as fast as Europe’s, driven by the incentives and support provided by recent legislation, prompting Europe to consider its own support measures to retain investment.",
+            "description": "The US’ planned lithium-ion gigafactory capacity is growing twice as fast as Europe’s, driven by the incentives and support provided by recent legislation, prompting Europe to consider its own support measures to retain investment."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

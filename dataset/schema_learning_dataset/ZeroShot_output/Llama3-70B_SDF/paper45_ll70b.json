@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper45_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-Ion Recycling Network Informality",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Recycling Network Informality",
+            "wd_description": "The informality of the recycling network, EV manufacturers with blockchain.",
+            "description": "The informality of the recycling network, EV manufacturers with blockchain."
+        },
+        {
+            "@id": "ev4",
+            "name": "Smart EV battery reverse supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Smart EV battery reverse supply chain",
+            "wd_description": "The construction of a smart EV battery reverse supply chain consisting of an EV manufacturer and a third-party EV battery recycler under government supervision.",
+            "description": "The construction of a smart EV battery reverse supply chain consisting of an EV manufacturer and a third-party EV battery recycler under government supervision."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Third-party recycler",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Third-party recycler",
+            "wd_description": "The role of the third-party EV battery recycler in the smart reverse supply chain, including cooperation strategies.",
+            "description": "The role of the third-party EV battery recycler in the smart reverse supply chain, including cooperation strategies."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Government supervision",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government supervision",
+            "wd_description": "The role of government supervision in the smart reverse supply chain, including subsidy and penalty policies.",
+            "description": "The role of government supervision in the smart reverse supply chain, including subsidy and penalty policies."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

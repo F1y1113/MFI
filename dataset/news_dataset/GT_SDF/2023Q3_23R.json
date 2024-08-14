@@ -1,0 +1,262 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q3_23R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Italy Imposes Windfall Tax on Banks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Italy Imposes Windfall Tax on Banks",
+            "wd_description": "Italy has imposed a one-off windfall tax on local banks to address the extra profits they have made from rising interest rates, with proceeds to support mortgage holders and cut taxes.",
+            "description": "Italy has imposed a one-off windfall tax on local banks to address the extra profits they have made from rising interest rates, with proceeds to support mortgage holders and cut taxes."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Tax Approval",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tax Approval",
+            "wd_description": "The Italian government approved the windfall tax in a cabinet meeting, planning to use the proceeds to support mortgage holders and reduce taxes.",
+            "description": "The Italian government approved the windfall tax in a cabinet meeting, planning to use the proceeds to support mortgage holders and reduce taxes."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Rationale Behind the Tax",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rationale Behind the Tax",
+            "wd_description": "Deputy Prime Minister Matteo Salvini highlighted that banks' profits in the first half of 2023, driven by the European Central Bank’s rate hikes, justify the tax.",
+            "description": "Deputy Prime Minister Matteo Salvini highlighted that banks' profits in the first half of 2023, driven by the European Central Bank’s rate hikes, justify the tax."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Expected Revenue",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expected Revenue",
+            "wd_description": "The government plans to tax 40% of the extra income stream from rising interest rates, with an estimated revenue of up to €4.9 billion from Italy's 10 largest publicly listed banks.",
+            "description": "The government plans to tax 40% of the extra income stream from rising interest rates, with an estimated revenue of up to €4.9 billion from Italy's 10 largest publicly listed banks."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Analysts' Reaction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Analysts' Reaction",
+            "wd_description": "Equity analysts, including Jefferies, noted that the decision to tax the net interest margin was unexpected.",
+            "description": "Equity analysts, including Jefferies, noted that the decision to tax the net interest margin was unexpected."
+        },
+        {
+            "@id": "ev2",
+            "name": "Deadly Blast in Kostyantynivka, Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Deadly Blast in Kostyantynivka, Ukraine",
+            "wd_description": "A blast in a busy market street in Kostyantynivka, Ukraine, has killed at least 17 people and injured 33 others. President Volodymyr Zelensky condemned the attack, blaming Moscow.",
+            "description": "A blast in a busy market street in Kostyantynivka, Ukraine, has killed at least 17 people and injured 33 others. President Volodymyr Zelensky condemned the attack, blaming Moscow."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Details of the Blast",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Details of the Blast",
+            "wd_description": "The blast occurred on a busy market street in Kostyantynivka in the middle of the day, hitting a market, pharmacy, and shops.",
+            "description": "The blast occurred on a busy market street in Kostyantynivka in the middle of the day, hitting a market, pharmacy, and shops."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "President Zelensky's Condemnation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "President Zelensky's Condemnation",
+            "wd_description": "President Volodymyr Zelensky condemned the attack, calling it a deliberate attack on the peaceful city of Kostyantynivka and blaming Moscow.",
+            "description": "President Volodymyr Zelensky condemned the attack, calling it a deliberate attack on the peaceful city of Kostyantynivka and blaming Moscow."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Casualties and Injuries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Casualties and Injuries",
+            "wd_description": "At least 17 people were killed and 33 others were injured in the blast, with the death toll expected to rise.",
+            "description": "At least 17 people were killed and 33 others were injured in the blast, with the death toll expected to rise."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Investigation Launched",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investigation Launched",
+            "wd_description": "The Prosecutor-General of Ukraine has launched an investigation into the incident, pursuing criminal proceedings for violation of the laws and customs of war.",
+            "description": "The Prosecutor-General of Ukraine has launched an investigation into the incident, pursuing criminal proceedings for violation of the laws and customs of war."
+        },
+        {
+            "@id": "ev3",
+            "name": "Russia Ends Grain Deal with Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russia Ends Grain Deal with Ukraine",
+            "wd_description": "Russia has confirmed that it will not renew the grain deal with Ukraine, accusing the West of not fulfilling its obligations under the agreement.",
+            "description": "Russia has confirmed that it will not renew the grain deal with Ukraine, accusing the West of not fulfilling its obligations under the agreement."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Russia's Conditions for Return",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russia's Conditions for Return",
+            "wd_description": "Russia has stated that it would return to the grain deal if its conditions, particularly regarding the export of Russian food, are met.",
+            "description": "Russia has stated that it would return to the grain deal if its conditions, particularly regarding the export of Russian food, are met."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Western Accusations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Western Accusations",
+            "wd_description": "U.S. Secretary of State Antony Blinken accused Russia of using the grain deal as a weapon, and Ukraine's Foreign Minister Dmytro Kuleba criticized Russia for undermining the grain initiative.",
+            "description": "U.S. Secretary of State Antony Blinken accused Russia of using the grain deal as a weapon, and Ukraine's Foreign Minister Dmytro Kuleba criticized Russia for undermining the grain initiative."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Impacts on Grain Prices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impacts on Grain Prices",
+            "wd_description": "The end of the grain deal is expected to increase grain prices worldwide, according to Ukraine's Foreign Minister Dmytro Kuleba.",
+            "description": "The end of the grain deal is expected to increase grain prices worldwide, according to Ukraine's Foreign Minister Dmytro Kuleba."
+        },
+        {
+            "@id": "ev4",
+            "name": "Canada-Japan Cooperation on Battery Supply Chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Canada-Japan Cooperation on Battery Supply Chains",
+            "wd_description": "Canada and Japan have agreed to work more closely together to establish sustainable and reliable global battery supply chains.",
+            "description": "Canada and Japan have agreed to work more closely together to establish sustainable and reliable global battery supply chains."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Memorandum of Cooperation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Memorandum of Cooperation",
+            "wd_description": "Canada and Japan signed a memorandum of cooperation to strengthen their collaboration on global battery supply chains during a visit by Japanese Industry Minister Yasutoshi Nishimura.",
+            "description": "Canada and Japan signed a memorandum of cooperation to strengthen their collaboration on global battery supply chains during a visit by Japanese Industry Minister Yasutoshi Nishimura."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Canada's Green Technology Initiative",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Canada's Green Technology Initiative",
+            "wd_description": "Canada aims to attract firms involved in all levels of the electric vehicle (EV) supply chain through a multibillion-dollar green technology initiative.",
+            "description": "Canada aims to attract firms involved in all levels of the electric vehicle (EV) supply chain through a multibillion-dollar green technology initiative."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Mining Sector Development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Mining Sector Development",
+            "wd_description": "Canada is home to a large mining sector for minerals such as lithium, nickel, and cobalt, which are critical for battery production.",
+            "description": "Canada is home to a large mining sector for minerals such as lithium, nickel, and cobalt, which are critical for battery production."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: New Facility in Quebec",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: New Facility in Quebec",
+            "wd_description": "A unit of South Korea's Solus Advanced Materials announced it would build a copper foil facility in Quebec, producing technology for EV batteries.",
+            "description": "A unit of South Korea's Solus Advanced Materials announced it would build a copper foil facility in Quebec, producing technology for EV batteries."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

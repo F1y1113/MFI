@@ -1,0 +1,1453 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report21",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium Market and Supply Chain Dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Market and Supply Chain Dynamics",
+            "wd_description": "The lithium market is under pressure from increased supply and evolving demand dynamics, with significant implications for pricing and production strategies in 2024.",
+            "description": "The lithium market is under pressure from increased supply and evolving demand dynamics, with significant implications for pricing and production strategies in 2024."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Price Pressure",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Price Pressure",
+            "wd_description": "The market is expected to see price pressure leading to the gradual clearing of high-cost production capacities and a slowdown in the introduction of new capacities.",
+            "description": "The market is expected to see price pressure leading to the gradual clearing of high-cost production capacities and a slowdown in the introduction of new capacities."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "High-Cost Production Clearing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "High-Cost Production Clearing",
+            "wd_description": "High-cost lithium production capacities are expected to be gradually phased out as price pressures persist.",
+            "description": "High-cost lithium production capacities are expected to be gradually phased out as price pressures persist."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "New Capacity Introduction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "New Capacity Introduction",
+            "wd_description": "The introduction of new lithium production capacities is likely to slow down due to persistent price pressures.",
+            "description": "The introduction of new lithium production capacities is likely to slow down due to persistent price pressures."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Supply Pressure",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply Pressure",
+            "wd_description": "In 2024, increased supply pressure is expected due to the release of new production capacities from Australian mines, non-mineral sources, and South American salt lakes.",
+            "description": "In 2024, increased supply pressure is expected due to the release of new production capacities from Australian mines, non-mineral sources, and South American salt lakes."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Australian Mines",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Australian Mines",
+            "wd_description": "New production capacities from Australian mines are expected to add significant supply pressure to the lithium market.",
+            "description": "New production capacities from Australian mines are expected to add significant supply pressure to the lithium market."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Non-Mineral Sources",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Non-Mineral Sources",
+            "wd_description": "Non-mineral sources are expected to contribute additional supply to the lithium market, adding to the pressure.",
+            "description": "Non-mineral sources are expected to contribute additional supply to the lithium market, adding to the pressure."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "South American Salt Lakes",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.3.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South American Salt Lakes",
+            "wd_description": "South American salt lakes are expected to release new production capacities, further increasing supply pressure.",
+            "description": "South American salt lakes are expected to release new production capacities, further increasing supply pressure."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Pricing Adjustments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "xor",
+            "wd_node": "",
+            "wd_label": "Pricing Adjustments",
+            "wd_description": "The pricing mechanisms for lithium are gradually shifting, with some Australian mines moving from Q-1 to M+1 pricing models.",
+            "description": "The pricing mechanisms for lithium are gradually shifting, with some Australian mines moving from Q-1 to M+1 pricing models."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Q-1 Pricing Model",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Q-1 Pricing Model",
+            "wd_description": "The Q-1 pricing model, previously used by some Australian mines, is being phased out in favor of more responsive pricing mechanisms.",
+            "description": "The Q-1 pricing model, previously used by some Australian mines, is being phased out in favor of more responsive pricing mechanisms."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "M+1 Pricing Model",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "M+1 Pricing Model",
+            "wd_description": "The M+1 pricing model is being adopted by some Australian mines, providing a more current reflection of market conditions.",
+            "description": "The M+1 pricing model is being adopted by some Australian mines, providing a more current reflection of market conditions."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Key Events to Track",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Key Events to Track",
+            "wd_description": "Several key events in the lithium industry are worth tracking in 2024, including inventory reductions, resource clearances, and the impact of futures market listings on price expectations.",
+            "description": "Several key events in the lithium industry are worth tracking in 2024, including inventory reductions, resource clearances, and the impact of futures market listings on price expectations."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Inventory Reductions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Inventory Reductions",
+            "wd_description": "Inventory reductions are expected as high-cost production is phased out and market conditions adjust.",
+            "description": "Inventory reductions are expected as high-cost production is phased out and market conditions adjust."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Resource Clearances",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource Clearances",
+            "wd_description": "Resource clearances could signal a bottoming out of market prices, with a focus on rights and equity rebounds.",
+            "description": "Resource clearances could signal a bottoming out of market prices, with a focus on rights and equity rebounds."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "Futures Market Listings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.3.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Futures Market Listings",
+            "wd_description": "The listing of lithium futures on various markets is expected to accelerate price discovery and impact market expectations.",
+            "description": "The listing of lithium futures on various markets is expected to accelerate price discovery and impact market expectations."
+        },
+        {
+            "@id": "ev2",
+            "name": "Nickel and Cobalt Market Trends",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nickel and Cobalt Market Trends",
+            "wd_description": "The nickel and cobalt markets are experiencing downward price trends, with significant influences from supply dynamics and demand elasticity, particularly in the context of the EV industry.",
+            "description": "The nickel and cobalt markets are experiencing downward price trends, with significant influences from supply dynamics and demand elasticity, particularly in the context of the EV industry."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Supply Dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply Dynamics",
+            "wd_description": "The supply of nickel and cobalt is increasing, driven by continuous releases from nickel pig iron and primary materials for the EV industry, leading to an oversupply situation.",
+            "description": "The supply of nickel and cobalt is increasing, driven by continuous releases from nickel pig iron and primary materials for the EV industry, leading to an oversupply situation."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "Nickel Pig Iron",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nickel Pig Iron",
+            "wd_description": "Nickel pig iron production continues to increase, contributing to the overall supply of nickel in the market.",
+            "description": "Nickel pig iron production continues to increase, contributing to the overall supply of nickel in the market."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "Primary Materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Primary Materials",
+            "wd_description": "The production of primary materials for the EV industry is ramping up, further adding to the nickel and cobalt supply.",
+            "description": "The production of primary materials for the EV industry is ramping up, further adding to the nickel and cobalt supply."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Demand Elasticity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Demand Elasticity",
+            "wd_description": "The demand for nickel and cobalt, particularly for EV batteries, is expected to show elasticity, with potential rebounds as the market adjusts to inventory reductions and growth in EV sales.",
+            "description": "The demand for nickel and cobalt, particularly for EV batteries, is expected to show elasticity, with potential rebounds as the market adjusts to inventory reductions and growth in EV sales."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "EV Battery Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Demand",
+            "wd_description": "Demand for nickel and cobalt in EV batteries is expected to rebound after a period of inventory reductions.",
+            "description": "Demand for nickel and cobalt in EV batteries is expected to rebound after a period of inventory reductions."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "Stainless Steel Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Stainless Steel Demand",
+            "wd_description": "Demand for nickel in stainless steel production is expected to grow steadily, although the rate of growth may slow in 2024.",
+            "description": "Demand for nickel in stainless steel production is expected to grow steadily, although the rate of growth may slow in 2024."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Price Trends",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Price Trends",
+            "wd_description": "Nickel and cobalt prices are expected to remain under downward pressure, with nickel prices expected to fluctuate between $14,000 and $16,000 per ton in 2024.",
+            "description": "Nickel and cobalt prices are expected to remain under downward pressure, with nickel prices expected to fluctuate between $14,000 and $16,000 per ton in 2024."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "Nickel Prices",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nickel Prices",
+            "wd_description": "Nickel prices are expected to be influenced by the cost of nickel sulfate, with fluctuations between $14,000 and $16,000 per ton in 2024.",
+            "description": "Nickel prices are expected to be influenced by the cost of nickel sulfate, with fluctuations between $14,000 and $16,000 per ton in 2024."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "Cobalt Prices",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt Prices",
+            "wd_description": "Cobalt prices are expected to follow a similar downward trend as nickel, influenced by supply and demand dynamics.",
+            "description": "Cobalt prices are expected to follow a similar downward trend as nickel, influenced by supply and demand dynamics."
+        },
+        {
+            "@id": "ev3",
+            "name": "Rare Earth Market and Magnetic Materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Rare Earth Market and Magnetic Materials",
+            "wd_description": "The rare earth market, particularly for permanent magnets, is experiencing a bottoming out phase, with key focus areas on demand improvements and technological advancements.",
+            "description": "The rare earth market, particularly for permanent magnets, is experiencing a bottoming out phase, with key focus areas on demand improvements and technological advancements."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Market Fundamentals",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Market Fundamentals",
+            "wd_description": "The fundamentals of the rare earth market, including prices and equity positions in magnetic materials, are currently at a bottoming out phase.",
+            "description": "The fundamentals of the rare earth market, including prices and equity positions in magnetic materials, are currently at a bottoming out phase."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "Rare Earth Prices",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Rare Earth Prices",
+            "wd_description": "Prices for rare earth elements are currently low, reflecting a bottoming out phase in the market.",
+            "description": "Prices for rare earth elements are currently low, reflecting a bottoming out phase in the market."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "Magnetic Materials Equity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Magnetic Materials Equity",
+            "wd_description": "The equity positions in magnetic materials are also at a low, indicating a potential for future recovery.",
+            "description": "The equity positions in magnetic materials are also at a low, indicating a potential for future recovery."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Demand Improvements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Demand Improvements",
+            "wd_description": "Improvements in macroeconomic demand and marginal changes in new energy sectors are expected to positively influence rare earth prices.",
+            "description": "Improvements in macroeconomic demand and marginal changes in new energy sectors are expected to positively influence rare earth prices."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "Macroeconomic Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Macroeconomic Demand",
+            "wd_description": "Improvements in the broader macroeconomic environment are expected to drive up demand for rare earth elements.",
+            "description": "Improvements in the broader macroeconomic environment are expected to drive up demand for rare earth elements."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "New Energy Sectors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "New Energy Sectors",
+            "wd_description": "The growth of new energy sectors, including electric vehicles and renewable energy, is expected to boost demand for rare earth elements.",
+            "description": "The growth of new energy sectors, including electric vehicles and renewable energy, is expected to boost demand for rare earth elements."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Technological Advancements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Technological Advancements",
+            "wd_description": "Technological advancements, particularly in the field of robotics, are expected to drive demand and valuation improvements in the rare earth market.",
+            "description": "Technological advancements, particularly in the field of robotics, are expected to drive demand and valuation improvements in the rare earth market."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "Robotics Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Robotics Development",
+            "wd_description": "Developments in robotics, such as Tesla's humanoid robot, are expected to significantly increase demand for rare earth elements.",
+            "description": "Developments in robotics, such as Tesla's humanoid robot, are expected to significantly increase demand for rare earth elements."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "Valuation Improvements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Valuation Improvements",
+            "wd_description": "As demand from new technologies increases, the valuation of rare earth elements and related companies is expected to improve.",
+            "description": "As demand from new technologies increases, the valuation of rare earth elements and related companies is expected to improve."
+        },
+        {
+            "@id": "ev4",
+            "name": "Strategic Competition for Energy Metals",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategic Competition for Energy Metals",
+            "wd_description": "The strategic competition for energy metals, driven by geopolitical and economic factors, is shaping the global supply chain for key minerals such as lithium, nickel, and rare earth elements.",
+            "description": "The strategic competition for energy metals, driven by geopolitical and economic factors, is shaping the global supply chain for key minerals such as lithium, nickel, and rare earth elements."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Geopolitical Factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Geopolitical Factors",
+            "wd_description": "Geopolitical factors, including legislation like the IRA Act in the US, are significantly influencing the competition for energy metals.",
+            "description": "Geopolitical factors, including legislation like the IRA Act in the US, are significantly influencing the competition for energy metals."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "IRA Act",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "IRA Act",
+            "wd_description": "The IRA Act in the US aims to localize the supply chain for energy metals and restricts the use of minerals sourced from foreign entities.",
+            "description": "The IRA Act in the US aims to localize the supply chain for energy metals and restricts the use of minerals sourced from foreign entities."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "Regional Policies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Regional Policies",
+            "wd_description": "Various regional policies around the world are affecting the supply and demand dynamics for energy metals.",
+            "description": "Various regional policies around the world are affecting the supply and demand dynamics for energy metals."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Economic Factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic Factors",
+            "wd_description": "Economic factors, such as market demand for electric vehicles and energy storage, are driving competition for energy metals.",
+            "description": "Economic factors, such as market demand for electric vehicles and energy storage, are driving competition for energy metals."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "EV Market Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Market Demand",
+            "wd_description": "The growing market demand for electric vehicles is a major driver of competition for key energy metals.",
+            "description": "The growing market demand for electric vehicles is a major driver of competition for key energy metals."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "Energy Storage Market Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Energy Storage Market Demand",
+            "wd_description": "The increasing installation of energy storage systems is boosting demand for key energy metals, particularly lithium and nickel.",
+            "description": "The increasing installation of energy storage systems is boosting demand for key energy metals, particularly lithium and nickel."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Supply Chain Strategies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply Chain Strategies",
+            "wd_description": "Companies are developing strategies to secure stable supplies of energy metals, including sourcing from FTA countries and building overseas processing capacities.",
+            "description": "Companies are developing strategies to secure stable supplies of energy metals, including sourcing from FTA countries and building overseas processing capacities."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "FTA Sourcing Strategies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "FTA Sourcing Strategies",
+            "wd_description": "Sourcing strategies focused on FTA countries are being developed to ensure compliance with policies like the IRA Act and secure supply chain stability.",
+            "description": "Sourcing strategies focused on FTA countries are being developed to ensure compliance with policies like the IRA Act and secure supply chain stability."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "Overseas Processing Capacities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Overseas Processing Capacities",
+            "wd_description": "Building overseas processing capacities, particularly in FTA countries, is a key strategy to ensure compliance and stability in the supply chain for energy metals.",
+            "description": "Building overseas processing capacities, particularly in FTA countries, is a key strategy to ensure compliance and stability in the supply chain for energy metals."
+        },
+        {
+            "@id": "ev5",
+            "name": "Electric Vehicle and Battery Market Outlook",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Electric Vehicle and Battery Market Outlook",
+            "wd_description": "The outlook for the electric vehicle and battery markets is influenced by policy changes, market demand, and technological advancements, with significant implications for supply chains and pricing.",
+            "description": "The outlook for the electric vehicle and battery markets is influenced by policy changes, market demand, and technological advancements, with significant implications for supply chains and pricing."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Policy Changes",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy Changes",
+            "wd_description": "Changes in policies, such as carbon emission regulations and subsidies, are significantly influencing the electric vehicle and battery markets.",
+            "description": "Changes in policies, such as carbon emission regulations and subsidies, are significantly influencing the electric vehicle and battery markets."
+        },
+        {
+            "@id": "ev5.1.1",
+            "name": "Carbon Emission Regulations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Carbon Emission Regulations",
+            "wd_description": "Carbon emission regulations are a core driver of the electric vehicle market, particularly in regions like Europe.",
+            "description": "Carbon emission regulations are a core driver of the electric vehicle market, particularly in regions like Europe."
+        },
+        {
+            "@id": "ev5.1.2",
+            "name": "Subsidy Programs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Subsidy Programs",
+            "wd_description": "Subsidy programs, such as those under the IRA Act, are providing significant incentives for the adoption of electric vehicles and the localization of battery supply chains.",
+            "description": "Subsidy programs, such as those under the IRA Act, are providing significant incentives for the adoption of electric vehicles and the localization of battery supply chains."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Market Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Market Demand",
+            "wd_description": "The demand for electric vehicles and batteries is expected to grow significantly, driven by policy support, technological advancements, and market dynamics.",
+            "description": "The demand for electric vehicles and batteries is expected to grow significantly, driven by policy support, technological advancements, and market dynamics."
+        },
+        {
+            "@id": "ev5.2.1",
+            "name": "EV Sales Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Sales Growth",
+            "wd_description": "The sales of electric vehicles are expected to grow, with significant increases projected in the US and Europe.",
+            "description": "The sales of electric vehicles are expected to grow, with significant increases projected in the US and Europe."
+        },
+        {
+            "@id": "ev5.2.2",
+            "name": "Battery Demand Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.2.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Demand Growth",
+            "wd_description": "The demand for batteries, particularly for electric vehicles and energy storage, is expected to rise significantly.",
+            "description": "The demand for batteries, particularly for electric vehicles and energy storage, is expected to rise significantly."
+        },
+        {
+            "@id": "ev5.3",
+            "name": "Technological Advancements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Technological Advancements",
+            "wd_description": "Technological advancements in battery technology and electric vehicles are expected to drive market growth and enhance supply chain efficiencies.",
+            "description": "Technological advancements in battery technology and electric vehicles are expected to drive market growth and enhance supply chain efficiencies."
+        },
+        {
+            "@id": "ev5.3.1",
+            "name": "Battery Technology Advances",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.3.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Technology Advances",
+            "wd_description": "Advances in battery technology, including improvements in energy density and cost reductions, are expected to drive market growth.",
+            "description": "Advances in battery technology, including improvements in energy density and cost reductions, are expected to drive market growth."
+        },
+        {
+            "@id": "ev5.3.2",
+            "name": "EV Technology Advances",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.3.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Technology Advances",
+            "wd_description": "Advances in electric vehicle technology, including improvements in range and performance, are expected to enhance market adoption.",
+            "description": "Advances in electric vehicle technology, including improvements in range and performance, are expected to enhance market adoption."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.1",
+            "relationObject": "ev3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.1",
+            "relationObject": "ev3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.1",
+            "relationObject": "ev3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2",
+            "relationObject": "ev4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2.1",
+            "relationObject": "ev4.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2.1",
+            "relationObject": "ev4.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2.1",
+            "relationObject": "ev4.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.2",
+            "relationObject": "ev5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1.1",
+            "relationObject": "ev5.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1.1",
+            "relationObject": "ev5.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1.1",
+            "relationObject": "ev5.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.2.1",
+            "relationObject": "ev5.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.2.1",
+            "relationObject": "ev5.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.2.1",
+            "relationObject": "ev5.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.3.1",
+            "relationObject": "ev5.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.3.1",
+            "relationObject": "ev5.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.3.1",
+            "relationObject": "ev5.3.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

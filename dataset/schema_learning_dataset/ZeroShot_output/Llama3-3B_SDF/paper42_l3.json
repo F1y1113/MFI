@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper42_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-Ion Battery Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Battery Recycling",
+            "wd_description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgical",
+            "wd_description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "direct recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "direct recycling",
+            "wd_description": "",
+            "description": ""
+        },
+        {
+            "@id": "ev2.1",
+            "name": "NMC batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "NMC batteries",
+            "wd_description": "NMC batteries are widely used in EVs and ESS, with trends showing an increase in nickel content and a decrease in cobalt.",
+            "description": "NMC batteries are widely used in EVs and ESS, with trends showing an increase in nickel content and a decrease in cobalt."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "NMC111",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC111",
+            "wd_description": "NMC111 batteries have a balanced ratio of nickel, manganese, and cobalt, offering a stable performance but lower energy density compared to newer chemistries.",
+            "description": "NMC111 batteries have a balanced ratio of nickel, manganese, and cobalt, offering a stable performance but lower energy density compared to newer chemistries."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "NMC811",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC811",
+            "wd_description": "NMC811 batteries have a higher energy density due to a higher ratio of nickel compared to manganese and cobalt.",
+            "description": "NMC811 batteries have a higher energy density due to a higher ratio of nickel compared to manganese and cobalt."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

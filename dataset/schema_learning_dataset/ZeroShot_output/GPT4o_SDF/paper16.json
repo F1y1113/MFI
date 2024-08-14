@@ -1,0 +1,1317 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper16",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Graphite Supply Chain in Africa",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Graphite Supply Chain in Africa",
+            "wd_description": "Analysis of graphite resources, supply chain complexities, and potential for economic growth in Africa, focusing on exploration, mining, processing, manufacturing, and recycling.",
+            "description": "Analysis of graphite resources, supply chain complexities, and potential for economic growth in Africa, focusing on exploration, mining, processing, manufacturing, and recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Graphite Resources",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Graphite Resources",
+            "wd_description": "Overview of significant graphite resources in African countries and their contribution to the global supply.",
+            "description": "Overview of significant graphite resources in African countries and their contribution to the global supply."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "ambique",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ambique",
+            "wd_description": "Exploration and mining of graphite in Mozambique.",
+            "description": "Exploration and mining of graphite in Mozambique."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "agascar",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "agascar",
+            "wd_description": "Exploration and mining of graphite in Madagascar.",
+            "description": "Exploration and mining of graphite in Madagascar."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "zania",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "zania",
+            "wd_description": "Exploration and mining of graphite in Tanzania.",
+            "description": "Exploration and mining of graphite in Tanzania."
+        },
+        {
+            "@id": "ev1.1.4",
+            "name": "ibia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ibia",
+            "wd_description": "Exploration and mining of graphite in Namibia.",
+            "description": "Exploration and mining of graphite in Namibia."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Supply Chain Stages",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply Chain Stages",
+            "wd_description": "Different stages of the graphite supply chain from exploration to recycling.",
+            "description": "Different stages of the graphite supply chain from exploration to recycling."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "loration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "loration",
+            "wd_description": "Exploration activities to identify and assess graphite resources.",
+            "description": "Exploration activities to identify and assess graphite resources."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "ing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ing",
+            "wd_description": "Mining operations to extract graphite from identified deposits.",
+            "description": "Mining operations to extract graphite from identified deposits."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "cessing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "cessing",
+            "wd_description": "Processing of mined graphite to produce high-purity graphite products.",
+            "description": "Processing of mined graphite to produce high-purity graphite products."
+        },
+        {
+            "@id": "ev1.2.4",
+            "name": "ufacturing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ufacturing",
+            "wd_description": "Manufacturing of graphite products for various applications, including batteries.",
+            "description": "Manufacturing of graphite products for various applications, including batteries."
+        },
+        {
+            "@id": "ev1.2.5",
+            "name": "",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Utilization of graphite products in end-use applications such as batteries.",
+            "description": "Utilization of graphite products in end-use applications such as batteries."
+        },
+        {
+            "@id": "ev1.2.6",
+            "name": "ycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.6.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ycling",
+            "wd_description": "Recycling of used graphite products to recover materials.",
+            "description": "Recycling of used graphite products to recover materials."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Economic Potential",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic Potential",
+            "wd_description": "Potential economic benefits of developing graphite resources in Africa.",
+            "description": "Potential economic benefits of developing graphite resources in Africa."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": " Creation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": " Creation",
+            "wd_description": "Job opportunities created through the development of graphite resources.",
+            "description": "Job opportunities created through the development of graphite resources."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "enue Generation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "enue Generation",
+            "wd_description": "Revenue generated from the export and use of graphite resources.",
+            "description": "Revenue generated from the export and use of graphite resources."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Challenges and Opportunities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Challenges and Opportunities",
+            "wd_description": "Challenges faced in developing the graphite supply chain and opportunities for improvement.",
+            "description": "Challenges faced in developing the graphite supply chain and opportunities for improvement."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "ernance and Human Rights",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ernance and Human Rights",
+            "wd_description": "Importance of good governance and human rights considerations in graphite mining.",
+            "description": "Importance of good governance and human rights considerations in graphite mining."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "ironmental Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ironmental Impact",
+            "wd_description": "Environmental considerations and impacts of graphite mining and processing.",
+            "description": "Environmental considerations and impacts of graphite mining and processing."
+        },
+        {
+            "@id": "ev1.4.3",
+            "name": "ional Cooperation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ional Cooperation",
+            "wd_description": "Potential for regional cooperation in the production of spherical graphite and other value-added products.",
+            "description": "Potential for regional cooperation in the production of spherical graphite and other value-added products."
+        },
+        {
+            "@id": "ev1.4.3.1",
+            "name": "Ventures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ventures",
+            "wd_description": "Collaboration between African countries and international companies for graphite processing and production.",
+            "description": "Collaboration between African countries and international companies for graphite processing and production."
+        },
+        {
+            "@id": "ev1.4.3.2",
+            "name": "tructure Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "tructure Development",
+            "wd_description": "Development of infrastructure to support the graphite supply chain, including processing facilities and transportation networks.",
+            "description": "Development of infrastructure to support the graphite supply chain, including processing facilities and transportation networks."
+        },
+        {
+            "@id": "ev2",
+            "name": "Socio-Economic and Environmental Impacts of Graphite Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Socio-Economic and Environmental Impacts of Graphite Mining",
+            "wd_description": "Evaluation of the socio-economic benefits and environmental impacts associated with graphite mining in Africa.",
+            "description": "Evaluation of the socio-economic benefits and environmental impacts associated with graphite mining in Africa."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Socio-Economic Benefits",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Socio-Economic Benefits",
+            "wd_description": "Benefits derived from graphite mining, including economic growth and community development.",
+            "description": "Benefits derived from graphite mining, including economic growth and community development."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Environmental Concerns",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Environmental Concerns",
+            "wd_description": "Environmental issues related to graphite mining and strategies to mitigate adverse impacts.",
+            "description": "Environmental issues related to graphite mining and strategies to mitigate adverse impacts."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "nomic Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "nomic Growth",
+            "wd_description": "Contribution of graphite mining to the overall economic growth of African countries.",
+            "description": "Contribution of graphite mining to the overall economic growth of African countries."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "munity Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "munity Development",
+            "wd_description": "Development initiatives funded by the proceeds from graphite mining.",
+            "description": "Development initiatives funded by the proceeds from graphite mining."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "itat Destruction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "itat Destruction",
+            "wd_description": "Impact of graphite mining on local ecosystems and habitats.",
+            "description": "Impact of graphite mining on local ecosystems and habitats."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "lution Control",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "lution Control",
+            "wd_description": "Measures to control pollution resulting from graphite mining and processing activities.",
+            "description": "Measures to control pollution resulting from graphite mining and processing activities."
+        },
+        {
+            "@id": "ev2.1.2.1",
+            "name": "tructure Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "tructure Projects",
+            "wd_description": "Development of infrastructure funded by revenue from graphite mining, improving local communities.",
+            "description": "Development of infrastructure funded by revenue from graphite mining, improving local communities."
+        },
+        {
+            "@id": "ev2.1.2.2",
+            "name": "ion and Health Programs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ion and Health Programs",
+            "wd_description": "Implementation of educational and healthcare initiatives supported by graphite mining revenue.",
+            "description": "Implementation of educational and healthcare initiatives supported by graphite mining revenue."
+        },
+        {
+            "@id": "ev2.2.2.1",
+            "name": "ality Management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ality Management",
+            "wd_description": "Strategies to manage and reduce air pollution from graphite mining activities.",
+            "description": "Strategies to manage and reduce air pollution from graphite mining activities."
+        },
+        {
+            "@id": "ev2.2.2.2",
+            "name": "Pollution Control",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pollution Control",
+            "wd_description": "Measures to prevent and mitigate water pollution caused by graphite mining.",
+            "description": "Measures to prevent and mitigate water pollution caused by graphite mining."
+        },
+        {
+            "@id": "ev3",
+            "name": "Future Prospects and Strategic Recommendations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Future Prospects and Strategic Recommendations",
+            "wd_description": "Strategic recommendations and future prospects for maximizing the potential of Africa's graphite resources.",
+            "description": "Strategic recommendations and future prospects for maximizing the potential of Africa's graphite resources."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Investment Opportunities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Investment Opportunities",
+            "wd_description": "Identification of key investment opportunities in the African graphite sector.",
+            "description": "Identification of key investment opportunities in the African graphite sector."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Policy Recommendations",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy Recommendations",
+            "wd_description": "Recommendations for policies to support the development of the graphite industry in Africa.",
+            "description": "Recommendations for policies to support the development of the graphite industry in Africa."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Regional Collaboration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Regional Collaboration",
+            "wd_description": "Encouragement of regional collaboration to strengthen the graphite supply chain and add value locally.",
+            "description": "Encouragement of regional collaboration to strengthen the graphite supply chain and add value locally."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "eign Direct Investment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "eign Direct Investment",
+            "wd_description": "Attracting foreign direct investment to develop graphite resources and related industries.",
+            "description": "Attracting foreign direct investment to develop graphite resources and related industries."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "estic Investment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "estic Investment",
+            "wd_description": "Promoting domestic investment in the graphite mining and processing sectors.",
+            "description": "Promoting domestic investment in the graphite mining and processing sectors."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "ulatory Frameworks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ulatory Frameworks",
+            "wd_description": "Developing robust regulatory frameworks to support sustainable graphite mining.",
+            "description": "Developing robust regulatory frameworks to support sustainable graphite mining."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "entive Programs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "entive Programs",
+            "wd_description": "Implementing incentive programs to encourage investment and development in the graphite sector.",
+            "description": "Implementing incentive programs to encourage investment and development in the graphite sector."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "perative Agreements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "perative Agreements",
+            "wd_description": "Establishing cooperative agreements between African countries to enhance the graphite supply chain.",
+            "description": "Establishing cooperative agreements between African countries to enhance the graphite supply chain."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "red Infrastructure",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "red Infrastructure",
+            "wd_description": "Developing shared infrastructure to support the regional graphite industry.",
+            "description": "Developing shared infrastructure to support the regional graphite industry."
+        },
+        {
+            "@id": "ev3.3.2.1",
+            "name": "sing Facilities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "sing Facilities",
+            "wd_description": "Construction and operation of shared processing facilities for graphite.",
+            "description": "Construction and operation of shared processing facilities for graphite."
+        },
+        {
+            "@id": "ev3.3.2.2",
+            "name": "ortation Networks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ortation Networks",
+            "wd_description": "Development of transportation networks to facilitate the movement of graphite materials.",
+            "description": "Development of transportation networks to facilitate the movement of graphite materials."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.1",
+            "relationObject": "ev1.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3.1",
+            "relationObject": "ev1.1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.4.1",
+            "relationObject": "ev1.1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5",
+            "relationObject": "ev1.2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2.1",
+            "relationObject": "ev1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3.1",
+            "relationObject": "ev1.2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.4.1",
+            "relationObject": "ev1.2.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5.1",
+            "relationObject": "ev1.2.5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.6.1",
+            "relationObject": "ev1.2.6.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1.1",
+            "relationObject": "ev1.3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2.1",
+            "relationObject": "ev1.3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1.1",
+            "relationObject": "ev1.4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2.1",
+            "relationObject": "ev1.4.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.3.1",
+            "relationObject": "ev1.4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.3.1.1",
+            "relationObject": "ev1.4.3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.3.2.1",
+            "relationObject": "ev1.4.3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1.1",
+            "relationObject": "ev2.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.2.1",
+            "relationObject": "ev2.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1.1",
+            "relationObject": "ev2.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.2.1",
+            "relationObject": "ev2.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.2.1.1",
+            "relationObject": "ev2.1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.2.2.1",
+            "relationObject": "ev2.1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.2.1.1",
+            "relationObject": "ev2.2.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.2.2.1",
+            "relationObject": "ev2.2.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.1",
+            "relationObject": "ev3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1.1",
+            "relationObject": "ev3.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.2.1",
+            "relationObject": "ev3.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.1.1",
+            "relationObject": "ev3.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.2.1",
+            "relationObject": "ev3.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1.1",
+            "relationObject": "ev3.3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.2.1",
+            "relationObject": "ev3.3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.2.1.1",
+            "relationObject": "ev3.3.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.2.2.1",
+            "relationObject": "ev3.3.2.2."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

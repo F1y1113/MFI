@@ -1,0 +1,317 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_2R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Heatwaves in Western Europe Lead to Over 20,000 Deaths",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Heatwaves in Western Europe Lead to Over 20,000 Deaths",
+            "wd_description": "The summer heatwaves of 2022 in Western Europe resulted in over 20,000 excess deaths, as temperatures reached record highs in several regions, according to analysis.",
+            "description": "The summer heatwaves of 2022 in Western Europe resulted in over 20,000 excess deaths, as temperatures reached record highs in several regions, according to analysis."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Record Heatwaves in Western Europe",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Record Heatwaves in Western Europe",
+            "wd_description": "During the summer of 2022, Western Europe experienced unprecedented heatwaves, with temperatures reaching record highs, including 40°C in London and 44°C in parts of Spain.",
+            "description": "During the summer of 2022, Western Europe experienced unprecedented heatwaves, with temperatures reaching record highs, including 40°C in London and 44°C in parts of Spain."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Excess Mortality Analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Excess Mortality Analysis",
+            "wd_description": "An analysis estimated that over 20,000 excess deaths occurred during the summer heatwaves, with a higher mortality rate observed on heat-period days compared to non-heat-period days.",
+            "description": "An analysis estimated that over 20,000 excess deaths occurred during the summer heatwaves, with a higher mortality rate observed on heat-period days compared to non-heat-period days."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Expert Commentary on Future Heatwaves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expert Commentary on Future Heatwaves",
+            "wd_description": "Dr. Eunice Lo, a climate change and health research fellow, stated that heatwaves are becoming more frequent and intense due to global warming, predicting more extreme heatwaves in the future.",
+            "description": "Dr. Eunice Lo, a climate change and health research fellow, stated that heatwaves are becoming more frequent and intense due to global warming, predicting more extreme heatwaves in the future."
+        },
+        {
+            "@id": "ev2",
+            "name": "Russian Drone Attacks on Kyiv",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russian Drone Attacks on Kyiv",
+            "wd_description": "At least four people were killed, and several others injured, as Russia launched a barrage of Iranian-made \"kamikaze\" drone attacks on Kyiv, with Ukrainian forces responding by shooting down many of the drones.",
+            "description": "At least four people were killed, and several others injured, as Russia launched a barrage of Iranian-made \"kamikaze\" drone attacks on Kyiv, with Ukrainian forces responding by shooting down many of the drones."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Drone Attacks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Drone Attacks",
+            "wd_description": "Russia launched a series of Iranian-made \"kamikaze\" drones targeting Kyiv, resulting in the deaths of at least four people and setting off warning sirens across the city.",
+            "description": "Russia launched a series of Iranian-made \"kamikaze\" drones targeting Kyiv, resulting in the deaths of at least four people and setting off warning sirens across the city."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Ukrainian Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukrainian Response",
+            "wd_description": "The Ukrainian Air Force and security forces destroyed 37 drones and three cruise missiles, including 36 out of 42 drones launched by Russia on Monday.",
+            "description": "The Ukrainian Air Force and security forces destroyed 37 drones and three cruise missiles, including 36 out of 42 drones launched by Russia on Monday."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Casualties and Rescues",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Casualties and Rescues",
+            "wd_description": "Four people were killed, four injured, and 19 trapped individuals were rescued from the debris following the drone attacks in Kyiv.",
+            "description": "Four people were killed, four injured, and 19 trapped individuals were rescued from the debris following the drone attacks in Kyiv."
+        },
+        {
+            "@id": "ev3",
+            "name": "Shooting at Kurdish Cultural Centre in Paris",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Shooting at Kurdish Cultural Centre in Paris",
+            "wd_description": "A gunman opened fire at a Kurdish Cultural Centre in central Paris, killing three people and wounding others, in what is suspected to be a far-right motivated attack.",
+            "description": "A gunman opened fire at a Kurdish Cultural Centre in central Paris, killing three people and wounding others, in what is suspected to be a far-right motivated attack."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Shooting Incident",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Shooting Incident",
+            "wd_description": "A gunman targeted the Kurdish Cultural Centre in central Paris, killing three people and injuring others, with the attack appearing to be directed at the Kurdish community.",
+            "description": "A gunman targeted the Kurdish Cultural Centre in central Paris, killing three people and injuring others, with the attack appearing to be directed at the Kurdish community."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Kurdish Democratic Council's Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Kurdish Democratic Council's Response",
+            "wd_description": "The Kurdish Democratic Council condemned the attack and announced that a vigil would be held to pay tribute to those killed.",
+            "description": "The Kurdish Democratic Council condemned the attack and announced that a vigil would be held to pay tribute to those killed."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Paris Mayor's Statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Paris Mayor's Statement",
+            "wd_description": "Paris Mayor Anne Hidalgo suggested that the attack was carried out by a far-right activist, expressing solidarity with the Kurdish community in Paris.",
+            "description": "Paris Mayor Anne Hidalgo suggested that the attack was carried out by a far-right activist, expressing solidarity with the Kurdish community in Paris."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Murder Investigation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Murder Investigation",
+            "wd_description": "Prosecutors in Paris have launched a murder investigation into the shooting, seeking to determine the motives and background of the attacker.",
+            "description": "Prosecutors in Paris have launched a murder investigation into the shooting, seeking to determine the motives and background of the attacker."
+        },
+        {
+            "@id": "ev4",
+            "name": "Growth and Challenges in the EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Growth and Challenges in the EV Battery Supply Chain",
+            "wd_description": "The demand for batteries has skyrocketed in major automotive markets, leading to a period of uncertainty and challenges in the battery supply chain, with manufacturers building gigafactories and forming joint ventures.",
+            "description": "The demand for batteries has skyrocketed in major automotive markets, leading to a period of uncertainty and challenges in the battery supply chain, with manufacturers building gigafactories and forming joint ventures."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Demand and Investment Growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Demand and Investment Growth",
+            "wd_description": "The demand for lithium-ion batteries is expected to grow by 30% annually, reaching 4,500 GWh by 2030, with investments increasing to $410 billion annually.",
+            "description": "The demand for lithium-ion batteries is expected to grow by 30% annually, reaching 4,500 GWh by 2030, with investments increasing to $410 billion annually."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Challenges in Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Challenges in Battery Supply Chain",
+            "wd_description": "The rapid growth in demand for batteries presents challenges such as labor and material shortages, gigafactory construction delays, and competition for resources.",
+            "description": "The rapid growth in demand for batteries presents challenges such as labor and material shortages, gigafactory construction delays, and competition for resources."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "Labor and Material Shortages",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Labor and Material Shortages",
+            "wd_description": "Shortages of skilled labor and essential materials pose significant challenges to scaling battery production.",
+            "description": "Shortages of skilled labor and essential materials pose significant challenges to scaling battery production."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "Construction Delays",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Construction Delays",
+            "wd_description": "Delays in the construction of gigafactories impact production timelines and project economics, with significant cost implications.",
+            "description": "Delays in the construction of gigafactories impact production timelines and project economics, with significant cost implications."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "Competition for Resources",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Competition for Resources",
+            "wd_description": "The competition for scarce resources in the battery supply chain is intensifying, similar to the semiconductor chip shortage.",
+            "description": "The competition for scarce resources in the battery supply chain is intensifying, similar to the semiconductor chip shortage."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Strategies to Address Shortages",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategies to Address Shortages",
+            "wd_description": "Companies are adopting strategies to prevent or respond to EV battery shortages, including gigafactory industrialization, talent retention, and supply chain establishment.",
+            "description": "Companies are adopting strategies to prevent or respond to EV battery shortages, including gigafactory industrialization, talent retention, and supply chain establishment."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "Gigafactory Industrialization",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Gigafactory Industrialization",
+            "wd_description": "Developing and scaling gigafactories to produce lithium-ion batteries at scale involves optimizing factory design, construction schedules, and performance management structures.",
+            "description": "Developing and scaling gigafactories to produce lithium-ion batteries at scale involves optimizing factory design, construction schedules, and performance management structures."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "Talent Retention",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Talent Retention",
+            "wd_description": "Implementing strategies to find and retain skilled labor is crucial for the successful operation of gigafactories.",
+            "description": "Implementing strategies to find and retain skilled labor is crucial for the successful operation of gigafactories."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "Supply Chain Establishment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Chain Establishment",
+            "wd_description": "Establishing a robust and efficient supply chain for battery manufacturing equipment and raw materials is essential to avoid delays and cost overruns.",
+            "description": "Establishing a robust and efficient supply chain for battery manufacturing equipment and raw materials is essential to avoid delays and cost overruns."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

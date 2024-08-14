@@ -1,0 +1,258 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper49R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper49/Event/1d4VXNgEYJ/Global-integration-prospects",
+                    "importance": 1
+                },
+                {
+                    "child": "paper49/Event/1fv38w8cNk/Lithium-mining-in-Brazil",
+                    "importance": 1
+                },
+                {
+                    "child": "paper49/Event/1EjpDTQA94/Strategic-technology-development",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "Analysis of the global value chain for urban light electric vehicle batteries in South Korea and Japan, highlighting core competencies, cost reduction, and product differentiation.",
+            "description": "Analysis of the global value chain for urban light electric vehicle batteries in South Korea and Japan, highlighting core competencies, cost reduction, and product differentiation."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Battery production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery production",
+            "wd_description": "Companies in South Korea and Japan involved in the production and sales of batteries, with data collected from interviews and document analysis.",
+            "description": "Companies in South Korea and Japan involved in the production and sales of batteries, with data collected from interviews and document analysis."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Global integration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global integration",
+            "wd_description": "Prospects of integrating the value chain globally, with potential participants like Brazil for production components.",
+            "description": "Prospects of integrating the value chain globally, with potential participants like Brazil for production components."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Lithium supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium supply",
+            "wd_description": "Ensuring lithium supply as a priority, with Brazil and Argentina being potential key players due to their resources and regional agreements.",
+            "description": "Ensuring lithium supply as a priority, with Brazil and Argentina being potential key players due to their resources and regional agreements."
+        },
+        {
+            "@id": "ev2",
+            "name": "Battery power in electric vehicles",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper49/Event/24lvWL9Yn0/Battery-weight-and-cost-impact",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery power in electric vehicles",
+            "wd_description": "The role of battery power in electric vehicles, replacing traditional fuel tanks and providing energy efficiency and extended range.",
+            "description": "The role of battery power in electric vehicles, replacing traditional fuel tanks and providing energy efficiency and extended range."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Engine starting",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Engine starting",
+            "wd_description": "Utilization of battery power for starting the engine and other functions in internal combustion vehicles.",
+            "description": "Utilization of battery power for starting the engine and other functions in internal combustion vehicles."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Power supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Power supply",
+            "wd_description": "Battery power supplying energy to the electric engine, replacing the fuel tank.",
+            "description": "Battery power supplying energy to the electric engine, replacing the fuel tank."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Energy efficiency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy efficiency",
+            "wd_description": "Lithium-ion battery providing up to 150 km range, with high energy efficiency and 2000 recharge cycles.",
+            "description": "Lithium-ion battery providing up to 150 km range, with high energy efficiency and 2000 recharge cycles."
+        },
+        {
+            "@id": "ev3",
+            "name": "Lithium battery market dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper49/Event/3ycfZ5Qyik/Recyclability",
+                    "importance": 1
+                },
+                {
+                    "child": "paper49/Event/1npIeazWER/Growth-potential-of-rechargeable-batteries",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "xor",
+            "wd_node": "",
+            "wd_label": "Lithium battery market dynamics",
+            "wd_description": "Factors affecting the price and market dynamics of lithium batteries, including supply shortages, political issues, and technological advancements.",
+            "description": "Factors affecting the price and market dynamics of lithium batteries, including supply shortages, political issues, and technological advancements."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Price increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Price increase",
+            "wd_description": "Shortage in global supply of lithium and rare earth materials, and political problems in high production countries.",
+            "description": "Shortage in global supply of lithium and rare earth materials, and political problems in high production countries."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Price decrease",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Price decrease",
+            "wd_description": "Improvements in battery technology and large-scale production increasing supply.",
+            "description": "Improvements in battery technology and large-scale production increasing supply."
+        },
+        {
+            "@id": "paper49/Event/1d4VXNgEYJ/Global-integration-prospects",
+            "name": "Global integration prospects",
+            "ta1explanation": "",
+            "description": "The global value chain has prospects for integration, with components potentially being produced outside Asian countries, including Brazil.",
+            "wd_node": "paper49",
+            "wd_label": "paper49",
+            "participants": []
+        },
+        {
+            "@id": "paper49/Event/1fv38w8cNk/Lithium-mining-in-Brazil",
+            "name": "Lithium mining in Brazil",
+            "ta1explanation": "",
+            "description": "Lithium mining in Brazil could be a path for the country to become part of the battery global value chain, leveraging technology and experience from the Vale Company and lithium reserves in neighboring South American countries.",
+            "wd_node": "paper49",
+            "wd_label": "paper49",
+            "participants": []
+        },
+        {
+            "@id": "paper49/Event/1EjpDTQA94/Strategic-technology-development",
+            "name": "Strategic technology development",
+            "ta1explanation": "",
+            "description": "Public policy should focus on mapping components of the battery global value chain and identifying strategic areas for production in Brazil.",
+            "wd_node": "paper48R",
+            "wd_label": "paper48R",
+            "participants": []
+        },
+        {
+            "@id": "paper49/Event/24lvWL9Yn0/Battery-weight-and-cost-impact",
+            "name": "Battery weight and cost impact",
+            "ta1explanation": "",
+            "description": "Batteries account for about 40% of an electric vehicle's weight and 50% of its final price, impacting the vehicle's total cost of ownership and performance.",
+            "wd_node": "paper49",
+            "wd_label": "paper49",
+            "participants": []
+        },
+        {
+            "@id": "paper49/Event/3ycfZ5Qyik/Recyclability",
+            "name": "Recyclability",
+            "ta1explanation": "",
+            "description": "Lithium batteries are fully recyclable, which contributes to sustainability and economic value.",
+            "wd_node": "paper49",
+            "wd_label": "paper49",
+            "participants": []
+        },
+        {
+            "@id": "paper49/Event/1npIeazWER/Growth-potential-of-rechargeable-batteries",
+            "name": "Growth potential of rechargeable batteries",
+            "ta1explanation": "",
+            "description": "Rechargeable batteries have the largest growth potential for lithium compounds, despite lithium being a limited resource concentrated in a few countries.",
+            "wd_node": "paper49",
+            "wd_label": "paper49",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2"
+        }
+    ],
+    "entities": []
+}

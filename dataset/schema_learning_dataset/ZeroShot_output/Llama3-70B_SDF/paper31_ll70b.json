@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper31_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Automakers' investment decisions, their performance requirements and the contracts they conclude with material suppliers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "",
+            "wd_node": "",
+            "wd_label": "Automakers' investment decisions, their performance requirements and the contracts they conclude with material suppliers",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.1",
+            "name": "automakers' investment decisions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "automakers' investment decisions",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.2",
+            "name": "performance requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "performance requirements",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.3",
+            "name": "contracts with material suppliers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "contracts with material suppliers",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev2",
+            "name": "Increasing role of electricity as an energy carrier in decarbonising the transportation sector",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "id: ev2",
+            "wd_node": "",
+            "wd_label": "Increasing role of electricity as an energy carrier in decarbonising the transportation sector",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev2.1",
+            "name": "electric vehicles",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "electric vehicles",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev2.2",
+            "name": "public charging infrastructure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "public charging infrastructure",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Innovation strategies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Innovation strategies",
+            "wd_description": "Firms engage in innovative strategies to enhance battery production networks, including research and development in collaboration with academia, industry, and government.",
+            "description": "Firms engage in innovative strategies to enhance battery production networks, including research and development in collaboration with academia, industry, and government."
+        },
+        {
+            "@id": "paper31/Event/3l3V8HOudN/Regulation-and-legislation",
+            "name": "Regulation and legislation",
+            "ta1explanation": "",
+            "description": "This includes national and international regulations influencing battery production and supply chains.",
+            "wd_node": "paper30R",
+            "wd_label": "paper30R",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

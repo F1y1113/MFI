@@ -1,0 +1,329 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper55R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "ev battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.6",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.7",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.8",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.9",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/3YADoDPU4V/Upgrading-the-electrical-grid",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/tsxLVNVR/Cost-of-ownership-and-driving",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/13Y5CqEtKZ/Economic-feasibility-of-fuel-production",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/Ycu3cMblT/Supply-chain-disruptions-due-to-material-scarcity",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/xEfc2QbE6/Impact-of-recycling-on-supply-chain",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/uwA86ZYD6/Impact-of-renewable-energy-on-supply-chain",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/2VmDM4tpEk/Decarbonization-and-emission-mitigation",
+                    "importance": 1
+                },
+                {
+                    "child": "paper55/Event/1y7uhYvCuZ/Supply-chain-risk-management",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ev battery supply chain",
+            "wd_description": "The supply chain for electric vehicle batteries involves various stages from raw material extraction to battery recycling and reuse.",
+            "description": "The supply chain for electric vehicle batteries involves various stages from raw material extraction to battery recycling and reuse."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "economic viability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "economic viability",
+            "wd_description": "Discussion on the economic impacts of upgrading the electrical grid to support electric mobility.",
+            "description": "Discussion on the economic impacts of upgrading the electrical grid to support electric mobility."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "cost analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "cost analysis",
+            "wd_description": "Many studies analyze the economic feasibility of EVs by examining the cost of fuel and battery components.",
+            "description": "Many studies analyze the economic feasibility of EVs by examining the cost of fuel and battery components."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "hydrogen vehicles",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrogen vehicles",
+            "wd_description": "Analysis of the cost of owning and driving a fuel-cell electric vehicle powered by green hydrogen.",
+            "description": "Analysis of the cost of owning and driving a fuel-cell electric vehicle powered by green hydrogen."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "lithium-ion battery",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lithium-ion battery",
+            "wd_description": "Examination of lithium-ion batteries, focusing on chemical components and life cycle analysis.",
+            "description": "Examination of lithium-ion batteries, focusing on chemical components and life cycle analysis."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "rare-earth elements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "rare-earth elements",
+            "wd_description": "Analysis of the exploration and production of rare-earth elements, highlighting the need for further production and overcoming technical and economic challenges.",
+            "description": "Analysis of the exploration and production of rare-earth elements, highlighting the need for further production and overcoming technical and economic challenges."
+        },
+        {
+            "@id": "ev1.6",
+            "name": "supply chain risk",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "supply chain risk",
+            "wd_description": "Examination of supply chain risks, especially during the COVID-19 pandemic and its impact on production and sales.",
+            "description": "Examination of supply chain risks, especially during the COVID-19 pandemic and its impact on production and sales."
+        },
+        {
+            "@id": "ev1.7",
+            "name": "supply chain resilience",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "supply chain resilience",
+            "wd_description": "Analysis of supply chain resilience strategies, including reverse resilience and reducing material scarcity.",
+            "description": "Analysis of supply chain resilience strategies, including reverse resilience and reducing material scarcity."
+        },
+        {
+            "@id": "ev1.8",
+            "name": "synthetic gas supply chains",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "synthetic gas supply chains",
+            "wd_description": "Investigation of the greenhouse gas emissions of fuel cell electric vehicles fueled with hydrogen and synthetic natural gas.",
+            "description": "Investigation of the greenhouse gas emissions of fuel cell electric vehicles fueled with hydrogen and synthetic natural gas."
+        },
+        {
+            "@id": "ev1.9",
+            "name": "logistics sector",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "logistics sector",
+            "wd_description": "Analysis of the use of electric vehicles in the logistics sector, including challenges and benefits.",
+            "description": "Analysis of the use of electric vehicles in the logistics sector, including challenges and benefits."
+        },
+        {
+            "@id": "paper55/Event/3YADoDPU4V/Upgrading-the-electrical-grid",
+            "name": "Upgrading the electrical grid",
+            "ta1explanation": "",
+            "description": "Upgrading the electrical grid to support electric mobility can result in negative macroeconomic impacts and higher electricity bills for consumers.",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/tsxLVNVR/Cost-of-ownership-and-driving",
+            "name": "Cost of ownership and driving",
+            "ta1explanation": "",
+            "description": "Analyzing the total cost of owning and driving a fuel-cell electric vehicle powered by green hydrogen, including emissions, powertrain production, taxes, subsidies, and energy costs.",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/13Y5CqEtKZ/Economic-feasibility-of-fuel-production",
+            "name": "Economic feasibility of fuel production",
+            "ta1explanation": "",
+            "description": "Economic feasibility studies complement life cycle assessments by analyzing the cost of fuel production and battery components.",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/Ycu3cMblT/Supply-chain-disruptions-due-to-material-scarcity",
+            "name": "Supply chain disruptions due to material scarcity",
+            "ta1explanation": "",
+            "description": "Scarcity and disruption of critical materials like lithium, cobalt, and nickel may hinder large-scale production of lithium-ion batteries.",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/xEfc2QbE6/Impact-of-recycling-on-supply-chain",
+            "name": "Impact of recycling on supply chain",
+            "ta1explanation": "",
+            "description": "Increasing recycling rates and efficiency can reduce ore mining activities and their environmental impacts.",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/uwA86ZYD6/Impact-of-renewable-energy-on-supply-chain",
+            "name": "Impact of renewable energy on supply chain",
+            "ta1explanation": "",
+            "description": "Using renewable energy for battery production can increase human toxicity factor, land use, and water consumption.",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/2VmDM4tpEk/Decarbonization-and-emission-mitigation",
+            "name": "Decarbonization and emission mitigation",
+            "ta1explanation": "",
+            "description": "Efforts to decarbonize and mitigate emissions increase demand in the electricity and biofuel sectors",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        },
+        {
+            "@id": "paper55/Event/1y7uhYvCuZ/Supply-chain-risk-management",
+            "name": "Supply chain risk management",
+            "ta1explanation": "",
+            "description": "Managing supply chain risks, including disruptions from events like the COVID-19 pandemic, through integrated models and risk management concepts",
+            "wd_node": "paper55",
+            "wd_label": "paper55",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.8",
+            "relationObject": "ev1.9"
+        }
+    ],
+    "entities": []
+}

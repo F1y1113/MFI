@@ -1,0 +1,14 @@
+FlexGen, a battery storage startup based in Durham, has raised $100 million from investors, including the Dutch energy company Vitol.
+
+Why it matters: Better forms of battery storage are needed so that energy grids can use power from clean sources, like wind turbines and solar panels.
+
+What it does: The startup, which employs around 150 people, doesn't manufacture batteries, but helps integrate them into the traditional power grid and makes software to optimize their use.
+
+Its customers include North Carolina's Electric Cooperatives and Southern California Edison.
+What they're saying: "Solar and wind are terrific in that they're clean and green, but they happen to be intermittent," FlexGen CEO Kelcy Pegler told Axios. "The sun's not always shining and the wind’s not always blowing."
+
+"Batteries provide a really great solution to making sure that we can bridge the gaps and make tomorrow's power of solar and wind more available."
+What's next: FlexGen is planning to open a new innovation and research center in Durham this year, which will allow it to showcase emerging battery technologies to customers.
+
+Pegler said the company picked Durham because "it's such a great pool of intellect."
+Zoom out: FlexGen is the latest local tech company to bring in a large round of funding, joining the likes of Epic Games, JupiterOne and Teamworks. Funding in the Triangle has remained strong this year, despite a national pullback in venture capital investment.

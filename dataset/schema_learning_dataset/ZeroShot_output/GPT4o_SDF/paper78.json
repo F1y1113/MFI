@@ -1,0 +1,524 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper78",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Intermediate products and manufacturing applications of lithium",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.7",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Intermediate products and manufacturing applications of lithium",
+            "wd_description": "After conversion to intermediate products, lithium is used in various manufacturing and end-use applications, including air conditioning, industrial cooling, thermoplastics, pharmaceuticals, aluminum production, glass and ceramics manufacturing, steel casting, and lithium-ion batteries.",
+            "description": "After conversion to intermediate products, lithium is used in various manufacturing and end-use applications, including air conditioning, industrial cooling, thermoplastics, pharmaceuticals, aluminum production, glass and ceramics manufacturing, steel casting, and lithium-ion batteries."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Air conditioning and industrial cooling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Air conditioning and industrial cooling",
+            "wd_description": "Lithium is used in air conditioning and industrial process cooling applications.",
+            "description": "Lithium is used in air conditioning and industrial process cooling applications."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Thermoplastics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Thermoplastics",
+            "wd_description": "Lithium is used in the production of thermoplastics.",
+            "description": "Lithium is used in the production of thermoplastics."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Pharmaceuticals",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pharmaceuticals",
+            "wd_description": "Lithium is used in pharmaceuticals, specifically for bipolar disorder and depression treatment.",
+            "description": "Lithium is used in pharmaceuticals, specifically for bipolar disorder and depression treatment."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Aluminum production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Aluminum production",
+            "wd_description": "Lithium is used as an alloy in aluminum production to add strength and corrosion resistance.",
+            "description": "Lithium is used as an alloy in aluminum production to add strength and corrosion resistance."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Glass and ceramics manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Glass and ceramics manufacturing",
+            "wd_description": "Lithium carbonate is used in the manufacture of glass and ceramics to allow for lower processing temperatures and thus lower energy input.",
+            "description": "Lithium carbonate is used in the manufacture of glass and ceramics to allow for lower processing temperatures and thus lower energy input."
+        },
+        {
+            "@id": "ev1.6",
+            "name": "Steel casting",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Steel casting",
+            "wd_description": "Lithium is used in steel casting applications.",
+            "description": "Lithium is used in steel casting applications."
+        },
+        {
+            "@id": "ev1.7",
+            "name": "Lithium-ion batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium-ion batteries",
+            "wd_description": "Lithium is used in the manufacturing of lithium-ion batteries.",
+            "description": "Lithium is used in the manufacturing of lithium-ion batteries."
+        },
+        {
+            "@id": "ev2",
+            "name": "Dominance of lithium-ion batteries in various markets",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Dominance of lithium-ion batteries in various markets",
+            "wd_description": "Lithium-ion batteries dominate the portable electronics, energy storage, and EV markets due to their higher energy densities, which provide more power and higher mileage ranges for EVs. There are five general types of lithium-ion battery chemistries currently in use.",
+            "description": "Lithium-ion batteries dominate the portable electronics, energy storage, and EV markets due to their higher energy densities, which provide more power and higher mileage ranges for EVs. There are five general types of lithium-ion battery chemistries currently in use."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Portable electronics market",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Portable electronics market",
+            "wd_description": "Lithium-ion batteries dominate the portable electronics market due to their high energy densities.",
+            "description": "Lithium-ion batteries dominate the portable electronics market due to their high energy densities."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Energy storage market",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy storage market",
+            "wd_description": "Lithium-ion batteries dominate the energy storage market due to their efficiency and reliability.",
+            "description": "Lithium-ion batteries dominate the energy storage market due to their efficiency and reliability."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "EV market",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV market",
+            "wd_description": "Lithium-ion batteries dominate the EV market, providing higher energy density and mileage range.",
+            "description": "Lithium-ion batteries dominate the EV market, providing higher energy density and mileage range."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Lithium-ion battery chemistries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium-ion battery chemistries",
+            "wd_description": "There are five general types of lithium-ion battery chemistries: lithium cobalt oxide (LCO), lithium manganese oxide (LMO), lithium iron phosphate (LFP), lithium nickel manganese cobalt (NMC), and lithium nickel cobalt aluminum (NCA).",
+            "description": "There are five general types of lithium-ion battery chemistries: lithium cobalt oxide (LCO), lithium manganese oxide (LMO), lithium iron phosphate (LFP), lithium nickel manganese cobalt (NMC), and lithium nickel cobalt aluminum (NCA)."
+        },
+        {
+            "@id": "ev2.4.1",
+            "name": "Lithium cobalt oxide (LCO)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium cobalt oxide (LCO)",
+            "wd_description": "LCO is one of the common types of lithium-ion battery chemistries.",
+            "description": "LCO is one of the common types of lithium-ion battery chemistries."
+        },
+        {
+            "@id": "ev2.4.2",
+            "name": "Lithium manganese oxide (LMO)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium manganese oxide (LMO)",
+            "wd_description": "LMO is another common type of lithium-ion battery chemistry.",
+            "description": "LMO is another common type of lithium-ion battery chemistry."
+        },
+        {
+            "@id": "ev2.4.3",
+            "name": "Lithium iron phosphate (LFP)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium iron phosphate (LFP)",
+            "wd_description": "LFP is a type of lithium-ion battery chemistry known for safety and efficiency.",
+            "description": "LFP is a type of lithium-ion battery chemistry known for safety and efficiency."
+        },
+        {
+            "@id": "ev2.4.4",
+            "name": "Lithium nickel manganese cobalt (NMC)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium nickel manganese cobalt (NMC)",
+            "wd_description": "NMC is a popular lithium-ion battery chemistry due to its high energy density.",
+            "description": "NMC is a popular lithium-ion battery chemistry due to its high energy density."
+        },
+        {
+            "@id": "ev2.4.5",
+            "name": "Lithium nickel cobalt aluminum (NCA)",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium nickel cobalt aluminum (NCA)",
+            "wd_description": "NCA is a high-energy-density lithium-ion battery chemistry used in various applications.",
+            "description": "NCA is a high-energy-density lithium-ion battery chemistry used in various applications."
+        },
+        {
+            "@id": "ev3",
+            "name": "Efforts to shore up domestic supply chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Efforts to shore up domestic supply chains",
+            "wd_description": "The Biden administration announced plans to use the Defense Production Act to ramp up the mining and processing of key minerals used in batteries for renewable energy and electric vehicles, providing funding for feasibility studies.",
+            "description": "The Biden administration announced plans to use the Defense Production Act to ramp up the mining and processing of key minerals used in batteries for renewable energy and electric vehicles, providing funding for feasibility studies."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Defense Production Act",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Defense Production Act",
+            "wd_description": "The Biden administration announced the use of the Defense Production Act to support the mining and processing of key minerals for batteries.",
+            "description": "The Biden administration announced the use of the Defense Production Act to support the mining and processing of key minerals for batteries."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Funding for feasibility studies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Funding for feasibility studies",
+            "wd_description": "Companies could receive funding for feasibility studies to extract lithium, nickel, cobalt, graphite, and manganese.",
+            "description": "Companies could receive funding for feasibility studies to extract lithium, nickel, cobalt, graphite, and manganese."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Domestic supply chain challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Domestic supply chain challenges",
+            "wd_description": "Despite funding for feasibility studies, challenges remain in capital expenses for building mining operations and the processing of lithium compounds, which is primarily done in China.",
+            "description": "Despite funding for feasibility studies, challenges remain in capital expenses for building mining operations and the processing of lithium compounds, which is primarily done in China."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "Capital expense challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Capital expense challenges",
+            "wd_description": "Companies face challenges in securing capital expenses for building mining operations.",
+            "description": "Companies face challenges in securing capital expenses for building mining operations."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "Processing challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Processing challenges",
+            "wd_description": "Significant risks lie in the processing of lithium carbonate and hydroxide, with 60% of this processing occurring in China.",
+            "description": "Significant risks lie in the processing of lithium carbonate and hydroxide, with 60% of this processing occurring in China."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6",
+            "relationObject": "ev1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.4",
+            "relationObject": "ev2.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.4",
+            "relationObject": "ev2.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.4",
+            "relationObject": "ev2.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.4",
+            "relationObject": "ev2.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.4",
+            "relationObject": "ev2.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.4",
+            "relationObject": "ev2.4.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

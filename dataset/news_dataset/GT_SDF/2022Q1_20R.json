@@ -1,0 +1,462 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_20R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Flooding in Lismore, Australia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Flooding in Lismore, Australia",
+            "wd_description": "Ongoing rescue operations in Lismore, New South Wales, Australia, are underway as authorities prepare for rapid flooding along the New South Wales coast.",
+            "description": "Ongoing rescue operations in Lismore, New South Wales, Australia, are underway as authorities prepare for rapid flooding along the New South Wales coast."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Rescue Operations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rescue Operations",
+            "wd_description": "State Emergency Services are conducting rescue efforts in Lismore, with additional support from flood rescue professionals from South Australia and Victoria.",
+            "description": "State Emergency Services are conducting rescue efforts in Lismore, with additional support from flood rescue professionals from South Australia and Victoria."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Evacuation Preparations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Evacuation Preparations",
+            "wd_description": "Authorities have urged residents along the New South Wales coast to prepare for evacuation as rapid flooding is anticipated.",
+            "description": "Authorities have urged residents along the New South Wales coast to prepare for evacuation as rapid flooding is anticipated."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Community Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Community Response",
+            "wd_description": "Local residents, including John Vanderstok, have joined efforts to rescue those trapped in flooded homes using private boats, as the scale of the disaster overwhelms officials.",
+            "description": "Local residents, including John Vanderstok, have joined efforts to rescue those trapped in flooded homes using private boats, as the scale of the disaster overwhelms officials."
+        },
+        {
+            "@id": "ev2",
+            "name": "Severe flooding in Sumatra, Indonesia, January 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe flooding in Sumatra, Indonesia, January 2022",
+            "wd_description": "Torrential rains in Sumatra, Indonesia, caused severe flooding, displacing over 30,000 people and leading to the deaths of two children, with significant damage to crops and concerns about a potential COVID-19 spike.",
+            "description": "Torrential rains in Sumatra, Indonesia, caused severe flooding, displacing over 30,000 people and leading to the deaths of two children, with significant damage to crops and concerns about a potential COVID-19 spike."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Flooding in Aceh and surrounding provinces",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Flooding in Aceh and surrounding provinces",
+            "wd_description": "Heavy rain led to flooding in Aceh and surrounding provinces, submerging villages and towns, with Hatta's village underwater since the start of the year, and over 30,000 people displaced.",
+            "description": "Heavy rain led to flooding in Aceh and surrounding provinces, submerging villages and towns, with Hatta's village underwater since the start of the year, and over 30,000 people displaced."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Impact on local economy and health",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on local economy and health",
+            "wd_description": "The flooding destroyed rice crops and disrupted day laborers, devastating the local economy, while fears grow of a rise in respiratory illnesses and a potential COVID-19 spike due to crowded shelters.",
+            "description": "The flooding destroyed rice crops and disrupted day laborers, devastating the local economy, while fears grow of a rise in respiratory illnesses and a potential COVID-19 spike due to crowded shelters."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Response and mitigation efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Response and mitigation efforts",
+            "wd_description": "Local authorities declared a state of emergency, providing aid such as food and blankets, while planning for long-term solutions like the Keureuto Dam to prevent future flooding.",
+            "description": "Local authorities declared a state of emergency, providing aid such as food and blankets, while planning for long-term solutions like the Keureuto Dam to prevent future flooding."
+        },
+        {
+            "@id": "ev3",
+            "name": "Forest Fires near Chernobyl Nuclear Reactor",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Forest Fires near Chernobyl Nuclear Reactor",
+            "wd_description": "Forest fires have erupted near the Chernobyl nuclear reactor, with Ukrainian authorities claiming that Russian control of the area is hampering efforts to control the flames.",
+            "description": "Forest fires have erupted near the Chernobyl nuclear reactor, with Ukrainian authorities claiming that Russian control of the area is hampering efforts to control the flames."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Fire Outbreak",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Fire Outbreak",
+            "wd_description": "At least seven fires have been spotted within Chernobyl’s exclusion zone, likely ignited by the armed aggression of the Russian Federation.",
+            "description": "At least seven fires have been spotted within Chernobyl’s exclusion zone, likely ignited by the armed aggression of the Russian Federation."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Causes of Fires",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Causes of Fires",
+            "wd_description": "The fires may have been caused by shelling, arson, or other factors related to the armed aggression of the Russian Federation.",
+            "description": "The fires may have been caused by shelling, arson, or other factors related to the armed aggression of the Russian Federation."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: Satellite Imagery Confirmation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Satellite Imagery Confirmation",
+            "wd_description": "Satellite imagery taken by the European Space Agency confirmed the presence of at least seven fires within the exclusion zone.",
+            "description": "Satellite imagery taken by the European Space Agency confirmed the presence of at least seven fires within the exclusion zone."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Impact on Radiation Levels",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact on Radiation Levels",
+            "wd_description": "The fires within 10km of the Chernobyl plant are particularly dangerous, with concerns about the potential release of radioactive material.",
+            "description": "The fires within 10km of the Chernobyl plant are particularly dangerous, with concerns about the potential release of radioactive material."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: Historical Radiation Spikes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Historical Radiation Spikes",
+            "wd_description": "In 2020, a forest fire near the reactor caused radiation levels to spike to 16 times above normal.",
+            "description": "In 2020, a forest fire near the reactor caused radiation levels to spike to 16 times above normal."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: Current Monitoring Challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Current Monitoring Challenges",
+            "wd_description": "Ukrainian authorities claim that the ongoing war is hindering attempts to monitor radiation levels, making it difficult to respond to potential threats.",
+            "description": "Ukrainian authorities claim that the ongoing war is hindering attempts to monitor radiation levels, making it difficult to respond to potential threats."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Response and Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Response and Challenges",
+            "wd_description": "Ukrainian firefighters are unable to tackle the blazes due to Russian presence, and there are concerns about the safety and monitoring of the site.",
+            "description": "Ukrainian firefighters are unable to tackle the blazes due to Russian presence, and there are concerns about the safety and monitoring of the site."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Firefighting Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Firefighting Efforts",
+            "wd_description": "Ukrainian firefighters are unable to control the fires due to the presence of Russian forces in the area.",
+            "description": "Ukrainian firefighters are unable to control the fires due to the presence of Russian forces in the area."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Safety Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Safety Concerns",
+            "wd_description": "There are concerns that fierce fighting in the area could damage the reactor further and cause radioactive material to escape.",
+            "description": "There are concerns that fierce fighting in the area could damage the reactor further and cause radioactive material to escape."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Climate Change Factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.4.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev3.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Climate Change Factors",
+            "wd_description": "Climate scientists have pointed out that rising temperatures due to global heating are causing forests to dry out, making them more susceptible to fires.",
+            "description": "Climate scientists have pointed out that rising temperatures due to global heating are causing forests to dry out, making them more susceptible to fires."
+        },
+        {
+            "@id": "ev3.4.1",
+            "name": "t: Climate Change Impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Climate Change Impact",
+            "wd_description": "Warmer temperatures are causing bigger fire seasons around the world, which may mobilize radioactive particles from the Chernobyl region.",
+            "description": "Warmer temperatures are causing bigger fire seasons around the world, which may mobilize radioactive particles from the Chernobyl region."
+        },
+        {
+            "@id": "ev3.4.2",
+            "name": "t: Future Risks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Future Risks",
+            "wd_description": "The rapidly changing climate and the presence of large amounts of dead, fire-prone wood in the Chernobyl region pose a high risk of radioactive contamination from future fires.",
+            "description": "The rapidly changing climate and the presence of large amounts of dead, fire-prone wood in the Chernobyl region pose a high risk of radioactive contamination from future fires."
+        },
+        {
+            "@id": "ev4",
+            "name": "Taiwan's EV Battery Industry Overview",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Taiwan's EV Battery Industry Overview",
+            "wd_description": "A comprehensive overview of Taiwan's EV battery industry as reported by DIGITIMES Asia, highlighting the competitive landscape, industry transformation, and government initiatives in the context of global EV market growth.",
+            "description": "A comprehensive overview of Taiwan's EV battery industry as reported by DIGITIMES Asia, highlighting the competitive landscape, industry transformation, and government initiatives in the context of global EV market growth."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Taiwanese Firms in EV Battery Sector",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Taiwanese Firms in EV Battery Sector",
+            "wd_description": "Taiwanese firms are striving to establish themselves in the competitive EV battery market by forming alliances and supplying to EV-related developers overseas, despite the uncertainty of their roles.",
+            "description": "Taiwanese firms are striving to establish themselves in the competitive EV battery market by forming alliances and supplying to EV-related developers overseas, despite the uncertainty of their roles."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Material and Battery Developers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Material and Battery Developers",
+            "wd_description": "A dozen Taiwanese materials and battery developers are supplying to EV-related developers overseas, aiming to carve out niches in the competitive market.",
+            "description": "A dozen Taiwanese materials and battery developers are supplying to EV-related developers overseas, aiming to carve out niches in the competitive market."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Alliances with Foreign Partners",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Alliances with Foreign Partners",
+            "wd_description": "Taiwanese firms are forming alliances with the best possible foreign partners to strengthen their positions in the global EV battery market.",
+            "description": "Taiwanese firms are forming alliances with the best possible foreign partners to strengthen their positions in the global EV battery market."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Industrial Transformation in Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Industrial Transformation in Taiwan",
+            "wd_description": "Traditional IT and manufacturing firms in Taiwan have established battery-related units or EV alliances, prioritizing public transport tools and e-scooters in their funding programs as part of their industrial transformation efforts.",
+            "description": "Traditional IT and manufacturing firms in Taiwan have established battery-related units or EV alliances, prioritizing public transport tools and e-scooters in their funding programs as part of their industrial transformation efforts."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Battery-Related Units",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery-Related Units",
+            "wd_description": "Traditional IT and manufacturing firms in Taiwan have established battery-related units to support the transition to the EV industry.",
+            "description": "Traditional IT and manufacturing firms in Taiwan have established battery-related units to support the transition to the EV industry."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: EV Alliances",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: EV Alliances",
+            "wd_description": "Taiwanese firms have formed EV alliances to collaborate and compete in the evolving EV market.",
+            "description": "Taiwanese firms have formed EV alliances to collaborate and compete in the evolving EV market."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "t: Public Transport and E-Scooters Focus",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Public Transport and E-Scooters Focus",
+            "wd_description": "Funding programs in Taiwan prioritize public transport tools and e-scooters as part of the industrial transformation towards EVs.",
+            "description": "Funding programs in Taiwan prioritize public transport tools and e-scooters as part of the industrial transformation towards EVs."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Government Initiatives and Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Government Initiatives and Challenges",
+            "wd_description": "The Taiwanese government has taken smaller steps in the energy transition, such as funding e-scooter charging stations and solid-state battery development, while facing calls from business leaders to improve EV infrastructure and electricity grids.",
+            "description": "The Taiwanese government has taken smaller steps in the energy transition, such as funding e-scooter charging stations and solid-state battery development, while facing calls from business leaders to improve EV infrastructure and electricity grids."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Funding for E-Scooter Charging Stations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Funding for E-Scooter Charging Stations",
+            "wd_description": "The Taiwanese government is funding the installation of e-scooter charging stations as part of its smaller steps towards energy transition.",
+            "description": "The Taiwanese government is funding the installation of e-scooter charging stations as part of its smaller steps towards energy transition."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Development of Solid-State Batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Development of Solid-State Batteries",
+            "wd_description": "The government is supporting the development of solid-state batteries as part of its energy transition initiatives.",
+            "description": "The government is supporting the development of solid-state batteries as part of its energy transition initiatives."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Calls for Bolder Government Actions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Calls for Bolder Government Actions",
+            "wd_description": "Business leaders in Taiwan have urged the government to take bolder actions, such as improving EV charging infrastructure and the nation's electricity grids.",
+            "description": "Business leaders in Taiwan have urged the government to take bolder actions, such as improving EV charging infrastructure and the nation's electricity grids."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

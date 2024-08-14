@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_23R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "North Korea Launches Short-Range Ballistic Missiles",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korea Launches Short-Range Ballistic Missiles",
+            "wd_description": "North Korea fired four short-range ballistic missiles into the western sea as Seoul and Washington concluded a high-profile military exercise, raising tensions and drawing international condemnation.",
+            "description": "North Korea fired four short-range ballistic missiles into the western sea as Seoul and Washington concluded a high-profile military exercise, raising tensions and drawing international condemnation."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Missile Launches",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile Launches",
+            "wd_description": "North Korea launched four short-range ballistic missiles, adding to a series of missile tests this week, including a possible failed intercontinental ballistic missile.",
+            "description": "North Korea launched four short-range ballistic missiles, adding to a series of missile tests this week, including a possible failed intercontinental ballistic missile."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Vigilant Storm Military Exercise",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Vigilant Storm Military Exercise",
+            "wd_description": "The missile launches occurred as South Korea and the United States concluded their \"Vigilant Storm\" military exercise, which had been running for six days.",
+            "description": "The missile launches occurred as South Korea and the United States concluded their \"Vigilant Storm\" military exercise, which had been running for six days."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "International Reactions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Reactions",
+            "wd_description": "The missile tests drew condemnation from South Korea, Japan, and the United States and fueled speculation that North Korea might resume nuclear testing for the first time since 2017.",
+            "description": "The missile tests drew condemnation from South Korea, Japan, and the United States and fueled speculation that North Korea might resume nuclear testing for the first time since 2017."
+        },
+        {
+            "@id": "ev2",
+            "name": "Global Carbon Emissions from Fossil Fuels Reach Record High in 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Global Carbon Emissions from Fossil Fuels Reach Record High in 2022",
+            "wd_description": "A comprehensive analysis revealed that carbon emissions from fossil fuels will reach new record highs in 2022, increasing pressure on countries to take swift action at the UN Cop27 climate summit.",
+            "description": "A comprehensive analysis revealed that carbon emissions from fossil fuels will reach new record highs in 2022, increasing pressure on countries to take swift action at the UN Cop27 climate summit."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Record High Carbon Emissions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Record High Carbon Emissions",
+            "wd_description": "Carbon emissions from fossil fuels are projected to reach new record highs in 2022, with researchers warning that there is no sign of the necessary decline to mitigate climate change.",
+            "description": "Carbon emissions from fossil fuels are projected to reach new record highs in 2022, with researchers warning that there is no sign of the necessary decline to mitigate climate change."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Impact on Global Warming Targets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Global Warming Targets",
+            "wd_description": "Continued high levels of carbon emissions make it more likely that global warming will exceed 1.5 degrees Celsius within the next decade, putting pressure on countries to achieve net zero emissions by 2050.",
+            "description": "Continued high levels of carbon emissions make it more likely that global warming will exceed 1.5 degrees Celsius within the next decade, putting pressure on countries to achieve net zero emissions by 2050."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Analysis of Coal Emissions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Analysis of Coal Emissions",
+            "wd_description": "The analysis showed that coal emissions are returning to their all-time high, driven by increased emissions from India and the European Union, rather than China, as was the case in the past.",
+            "description": "The analysis showed that coal emissions are returning to their all-time high, driven by increased emissions from India and the European Union, rather than China, as was the case in the past."
+        },
+        {
+            "@id": "ev3",
+            "name": "Explosion on Kerch Strait Bridge",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Explosion on Kerch Strait Bridge",
+            "wd_description": "A massive explosion severely damaged the Kerch Strait Bridge, connecting Crimea with mainland Russia, disrupting a key supply route for Russian forces in Ukraine.",
+            "description": "A massive explosion severely damaged the Kerch Strait Bridge, connecting Crimea with mainland Russia, disrupting a key supply route for Russian forces in Ukraine."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Explosion on Bridge",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Explosion on Bridge",
+            "wd_description": "An explosion caused part of the roadway on the Kerch Strait Bridge to collapse and ignited a fire on a train of fuel tanks on the adjacent rail section.",
+            "description": "An explosion caused part of the roadway on the Kerch Strait Bridge to collapse and ignited a fire on a train of fuel tanks on the adjacent rail section."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Structural Damage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Structural Damage",
+            "wd_description": "The explosion caused significant damage to the Kerch Strait Bridge, with sections of the roadway collapsing and the rail portion being engulfed in flames.",
+            "description": "The explosion caused significant damage to the Kerch Strait Bridge, with sections of the roadway collapsing and the rail portion being engulfed in flames."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Russian Government Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian Government Response",
+            "wd_description": "President Putin ordered a government commission to investigate the explosion and damage to the Kerch Strait Bridge, a crucial supply line for Russian forces.",
+            "description": "President Putin ordered a government commission to investigate the explosion and damage to the Kerch Strait Bridge, a crucial supply line for Russian forces."
+        },
+        {
+            "@id": "ev4",
+            "name": "Canada's Battery-Supply Chain Prowess and Investments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Canada's Battery-Supply Chain Prowess and Investments",
+            "wd_description": "Canada has risen in BloombergNEF's global ranking of battery-producing countries, second only to China, due to significant investments in critical mineral mining, battery component manufacturing, and EV production.",
+            "description": "Canada has risen in BloombergNEF's global ranking of battery-producing countries, second only to China, due to significant investments in critical mineral mining, battery component manufacturing, and EV production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "BloombergNEF Ranking",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BloombergNEF Ranking",
+            "wd_description": "Canada's position in BloombergNEF's global ranking improved to second place, reflecting its strong presence in the battery supply chain industry.",
+            "description": "Canada's position in BloombergNEF's global ranking improved to second place, reflecting its strong presence in the battery supply chain industry."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Federal Investments",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Federal Investments",
+            "wd_description": "Over the past 10 months, Canada has announced more than $15 billion in investments in critical mineral mining, battery component manufacturing, and EV production.",
+            "description": "Over the past 10 months, Canada has announced more than $15 billion in investments in critical mineral mining, battery component manufacturing, and EV production."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "International Outreach",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Outreach",
+            "wd_description": "Federal Innovation Minister François-Philippe Champagne is visiting Asia, Japan, South Korea, and Germany to consolidate relationships and promote Canada's battery-supply chain capabilities.",
+            "description": "Federal Innovation Minister François-Philippe Champagne is visiting Asia, Japan, South Korea, and Germany to consolidate relationships and promote Canada's battery-supply chain capabilities."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Supply Chain Links",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Chain Links",
+            "wd_description": "The battery-supply chain includes raw material mining, refining, component manufacturing, and battery cell production, culminating in gigafactories producing battery packs.",
+            "description": "The battery-supply chain includes raw material mining, refining, component manufacturing, and battery cell production, culminating in gigafactories producing battery packs."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Environmental Stewardship",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental Stewardship",
+            "wd_description": "Canada receives high marks for keeping the supply chain green due to its renewable energy resources and environmental regulations on mining.",
+            "description": "Canada receives high marks for keeping the supply chain green due to its renewable energy resources and environmental regulations on mining."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Efforts to Limit China's Influence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Efforts to Limit China's Influence",
+            "wd_description": "Canada is taking steps to limit China's influence in the domestic supply chain, including ordering Chinese companies to sell their interests in Canadian firms and limiting foreign-owned state companies' involvement in the critical mineral sector.",
+            "description": "Canada is taking steps to limit China's influence in the domestic supply chain, including ordering Chinese companies to sell their interests in Canadian firms and limiting foreign-owned state companies' involvement in the critical mineral sector."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper96_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain",
+            "wd_description": "The four scenarios considered for EV battery supply chain configuration.",
+            "description": "The four scenarios considered for EV battery supply chain configuration."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Scenario A",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Scenario A",
+            "wd_description": "The Advanced Warehouse is located 20 km away from the plant.",
+            "description": "The Advanced Warehouse is located 20 km away from the plant."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Scenario B",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Scenario B",
+            "wd_description": "The Advanced Warehouse is located inside the production site.",
+            "description": "The Advanced Warehouse is located inside the production site."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Scenario C",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Scenario C",
+            "wd_description": "Batteries coming from the Advance Warehouse are downloaded from trucks and directly sent to the production line.",
+            "description": "Batteries coming from the Advance Warehouse are downloaded from trucks and directly sent to the production line."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Scenario D",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Scenario D",
+            "wd_description": "The supplier plant is located about 2,000 km away from the production plant.",
+            "description": "The supplier plant is located about 2,000 km away from the production plant."
+        },
+        {
+            "@id": "paper96R/Event/3jnYOutiAe/Space-Constraints-in-Scenario-B",
+            "name": "Space Constraints in Scenario B",
+            "ta1explanation": "",
+            "description": "Scenario B is cheaper because the Advanced Warehouse is inside the production site, requiring only a 1 km trip. However, it faces space constraints, needing redesign of the plant layout to host the new warehouse.",
+            "wd_node": "paper96",
+            "wd_label": "paper96",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.1.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

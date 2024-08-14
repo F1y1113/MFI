@@ -1,0 +1,187 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia4",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium Nickel Manganese Cobalt Oxides (NMC)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Nickel Manganese Cobalt Oxides (NMC)",
+            "wd_description": "Lithium nickel manganese cobalt oxides (NMC) are mixed metal oxides used as the positively charged cathode in lithium-ion batteries for mobile devices and electric vehicles. NMC is notable for its high energy density, operating voltage, and efforts to reduce cobalt content due to ethical and cost concerns.",
+            "description": "Lithium nickel manganese cobalt oxides (NMC) are mixed metal oxides used as the positively charged cathode in lithium-ion batteries for mobile devices and electric vehicles. NMC is notable for its high energy density, operating voltage, and efforts to reduce cobalt content due to ethical and cost concerns."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Structure and Formula",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Structure and Formula",
+            "wd_description": "NMC materials are mixed metal oxides of lithium, nickel, manganese, and cobalt with the general formula LiNixMnyCo1-x-yO2.",
+            "description": "NMC materials are mixed metal oxides of lithium, nickel, manganese, and cobalt with the general formula LiNixMnyCo1-x-yO2."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Optimization for EVs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Optimization for EVs",
+            "wd_description": "There is a focus on optimizing NMC for electric vehicle applications due to its high energy density and operating voltage. Efforts are being made to reduce the cobalt content in NMC because of ethical mining issues and high costs, while increasing nickel content to provide more capacity.",
+            "description": "There is a focus on optimizing NMC for electric vehicle applications due to its high energy density and operating voltage. Efforts are being made to reduce the cobalt content in NMC because of ethical mining issues and high costs, while increasing nickel content to provide more capacity."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Usage in Electric Vehicles",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Usage in Electric Vehicles",
+            "wd_description": "Many electric cars use NMC cathode batteries. Examples include the BMW ActiveE and BMW i8. Tesla, however, uses nickel cobalt aluminum oxide and lithium iron phosphate batteries for their vehicles. Tesla's home storage product, the Powerwall, uses NMC to increase the number of charge/discharge cycles over its lifetime.",
+            "description": "Many electric cars use NMC cathode batteries. Examples include the BMW ActiveE and BMW i8. Tesla, however, uses nickel cobalt aluminum oxide and lithium iron phosphate batteries for their vehicles. Tesla's home storage product, the Powerwall, uses NMC to increase the number of charge/discharge cycles over its lifetime."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": " ActiveE",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " ActiveE",
+            "wd_description": "The BMW ActiveE, launched in 2011, uses NMC cathode batteries.",
+            "description": "The BMW ActiveE, launched in 2011, uses NMC cathode batteries."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": " i8",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " i8",
+            "wd_description": "The BMW i8, starting from 2013, also uses NMC cathode batteries.",
+            "description": "The BMW i8, starting from 2013, also uses NMC cathode batteries."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "la Vehicles",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "la Vehicles",
+            "wd_description": "Tesla uses nickel cobalt aluminum oxide and lithium iron phosphate batteries for their vehicles, differing from the NMC cathode batteries used by other manufacturers.",
+            "description": "Tesla uses nickel cobalt aluminum oxide and lithium iron phosphate batteries for their vehicles, differing from the NMC cathode batteries used by other manufacturers."
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "la Powerwall",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "la Powerwall",
+            "wd_description": "The Tesla Powerwall, a home storage unit, uses NMC batteries to increase the number of charge/discharge cycles over its lifespan.",
+            "description": "The Tesla Powerwall, a home storage unit, uses NMC batteries to increase the number of charge/discharge cycles over its lifespan."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

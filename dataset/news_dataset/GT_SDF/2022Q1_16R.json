@@ -1,0 +1,417 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_16R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Flooding in Lismore, Australia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Flooding in Lismore, Australia",
+            "wd_description": "Ongoing rescue operations in Lismore, New South Wales, Australia, are underway as authorities prepare for rapid flooding along the New South Wales coast.",
+            "description": "Ongoing rescue operations in Lismore, New South Wales, Australia, are underway as authorities prepare for rapid flooding along the New South Wales coast."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Rescue Operations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rescue Operations",
+            "wd_description": "State Emergency Services are conducting rescue efforts in Lismore, with additional support from flood rescue professionals from South Australia and Victoria.",
+            "description": "State Emergency Services are conducting rescue efforts in Lismore, with additional support from flood rescue professionals from South Australia and Victoria."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Evacuation Preparations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Evacuation Preparations",
+            "wd_description": "Authorities have urged residents along the New South Wales coast to prepare for evacuation as rapid flooding is anticipated.",
+            "description": "Authorities have urged residents along the New South Wales coast to prepare for evacuation as rapid flooding is anticipated."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Community Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Community Response",
+            "wd_description": "Local residents, including John Vanderstok, have joined efforts to rescue those trapped in flooded homes using private boats, as the scale of the disaster overwhelms officials.",
+            "description": "Local residents, including John Vanderstok, have joined efforts to rescue those trapped in flooded homes using private boats, as the scale of the disaster overwhelms officials."
+        },
+        {
+            "@id": "ev2",
+            "name": "Cyclone Batsirai Impact in Madagascar",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cyclone Batsirai Impact in Madagascar",
+            "wd_description": "Cyclone Batsirai struck Madagascar, causing significant damage, displacing thousands, and killing at least ten people, while the country was still recovering from Cyclone Ana.",
+            "description": "Cyclone Batsirai struck Madagascar, causing significant damage, displacing thousands, and killing at least ten people, while the country was still recovering from Cyclone Ana."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Cyclone Batsirai",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cyclone Batsirai",
+            "wd_description": "Cyclone Batsirai hit Madagascar's eastern shoreline, causing widespread destruction and displacing 43,000 people.",
+            "description": "Cyclone Batsirai hit Madagascar's eastern shoreline, causing widespread destruction and displacing 43,000 people."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Displacement and Damage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Displacement and Damage",
+            "wd_description": "The cyclone killed at least ten people and displaced 43,000, with many towns and villages destroyed, and infrastructure severely impacted.",
+            "description": "The cyclone killed at least ten people and displaced 43,000, with many towns and villages destroyed, and infrastructure severely impacted."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Emergency Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Emergency Response",
+            "wd_description": "Emergency responders faced challenges accessing affected areas, while disaster relief agencies provided basic necessities to displaced individuals in temporary shelters.",
+            "description": "Emergency responders faced challenges accessing affected areas, while disaster relief agencies provided basic necessities to displaced individuals in temporary shelters."
+        },
+        {
+            "@id": "ev3",
+            "name": "Military coup in Burkina Faso",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Military coup in Burkina Faso",
+            "wd_description": "The military coup in Burkina Faso deposed President Roch Kabore, prompted by demands for better security and increased instability in the region.",
+            "description": "The military coup in Burkina Faso deposed President Roch Kabore, prompted by demands for better security and increased instability in the region."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "President deposed",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "President deposed",
+            "wd_description": "Mutinous soldiers announced the deposition of President Roch Kabore amid demands for more support in fighting armed groups.",
+            "description": "Mutinous soldiers announced the deposition of President Roch Kabore amid demands for more support in fighting armed groups."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: soldier mutiny",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: soldier mutiny",
+            "wd_description": "Soldiers demanded more support for their fight against armed groups and subsequently deposed President Kabore.",
+            "description": "Soldiers demanded more support for their fight against armed groups and subsequently deposed President Kabore."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: popular support",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: popular support",
+            "wd_description": "The coup was greeted with significant support in Burkina Faso.",
+            "description": "The coup was greeted with significant support in Burkina Faso."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: military leadership",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: military leadership",
+            "wd_description": "Lieutenant-Colonel Paul-Henri Sandaogo Damiba emerged as the leader of the coup and was named the leader of the new Patriotic Movement for Safeguard and Restoration (MPSR).",
+            "description": "Lieutenant-Colonel Paul-Henri Sandaogo Damiba emerged as the leader of the coup and was named the leader of the new Patriotic Movement for Safeguard and Restoration (MPSR)."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "rise in violence",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "rise in violence",
+            "wd_description": "Burkina Faso has experienced a significant increase in violence from armed groups linked to al-Qaeda and ISIL.",
+            "description": "Burkina Faso has experienced a significant increase in violence from armed groups linked to al-Qaeda and ISIL."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: armed groups",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: armed groups",
+            "wd_description": "Armed groups linked to al-Qaeda and ISIL have been operating in Burkina Faso since 2015.",
+            "description": "Armed groups linked to al-Qaeda and ISIL have been operating in Burkina Faso since 2015."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: increased attacks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: increased attacks",
+            "wd_description": "The number of attacks has risen significantly, with over 1,150 incidents in 2021 compared to nearly 500 in 2020.",
+            "description": "The number of attacks has risen significantly, with over 1,150 incidents in 2021 compared to nearly 500 in 2020."
+        },
+        {
+            "@id": "ev3.2.3",
+            "name": "t: civilian displacement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: civilian displacement",
+            "wd_description": "More than 1.4 million people have been displaced by the conflict in Burkina Faso.",
+            "description": "More than 1.4 million people have been displaced by the conflict in Burkina Faso."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "international reactions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "international reactions",
+            "wd_description": "The coup has sparked widespread international condemnation and prompted discussions on how to respond to the instability.",
+            "description": "The coup has sparked widespread international condemnation and prompted discussions on how to respond to the instability."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: international condemnation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: international condemnation",
+            "wd_description": "The international community, including various countries and organizations, has condemned the coup.",
+            "description": "The international community, including various countries and organizations, has condemned the coup."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: ECOWAS response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: ECOWAS response",
+            "wd_description": "The Economic Community of West African States (ECOWAS) is holding a special session to discuss the coup and potential responses.",
+            "description": "The Economic Community of West African States (ECOWAS) is holding a special session to discuss the coup and potential responses."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: potential sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential sanctions",
+            "wd_description": "Western allies are considering imposing sanctions on Burkina Faso in response to the coup.",
+            "description": "Western allies are considering imposing sanctions on Burkina Faso in response to the coup."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "regional instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "regional instability",
+            "wd_description": "The coup is the fourth in a series of recent military takeovers in West and Central Africa, contributing to regional instability.",
+            "description": "The coup is the fourth in a series of recent military takeovers in West and Central Africa, contributing to regional instability."
+        },
+        {
+            "@id": "ev4",
+            "name": "EV battery supply chain challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain challenges",
+            "wd_description": "Challenges in the EV battery supply chain include the sourcing of raw materials, the manufacturing capacity, and political factors affecting long-term planning.",
+            "description": "Challenges in the EV battery supply chain include the sourcing of raw materials, the manufacturing capacity, and political factors affecting long-term planning."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "sourcing raw materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "sourcing raw materials",
+            "wd_description": "The US sources about 90% of its lithium from Argentina and Chile, while China refines a significant portion of the world's lithium and cobalt.",
+            "description": "The US sources about 90% of its lithium from Argentina and Chile, while China refines a significant portion of the world's lithium and cobalt."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: lithium sourcing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: lithium sourcing",
+            "wd_description": "The US sources approximately 90% of its lithium from Argentina and Chile.",
+            "description": "The US sources approximately 90% of its lithium from Argentina and Chile."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: cobalt refining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: cobalt refining",
+            "wd_description": "China refines 60% of the world's lithium and 80% of the cobalt, which are critical for electric vehicles.",
+            "description": "China refines 60% of the world's lithium and 80% of the cobalt, which are critical for electric vehicles."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "manufacturing capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "manufacturing capacity",
+            "wd_description": "The US lacks the manufacturing capacity for electric vehicle batteries and struggles to create a long-term plan for it.",
+            "description": "The US lacks the manufacturing capacity for electric vehicle batteries and struggles to create a long-term plan for it."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "political factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "political factors",
+            "wd_description": "The US's long-term planning for electric batteries is hindered by shifting priorities based on political party control.",
+            "description": "The US's long-term planning for electric batteries is hindered by shifting priorities based on political party control."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: mining projects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: mining projects",
+            "wd_description": "The Biden administration has halted mining projects in Arizona and Minnesota that would boost domestic supply of electric vehicle materials.",
+            "description": "The Biden administration has halted mining projects in Arizona and Minnesota that would boost domestic supply of electric vehicle materials."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: administration policies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: administration policies",
+            "wd_description": "The Biden administration pushes for electric vehicles while also halting key mining projects.",
+            "description": "The Biden administration pushes for electric vehicles while also halting key mining projects."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

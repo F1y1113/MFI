@@ -1,0 +1,76 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper17_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "lithium-ion battery demand within level",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lithium-ion battery demand within level",
+            "wd_description": "Sustained growth in lithium-ion battery (LIB) demand within level is empty.",
+            "description": "Sustained growth in lithium-ion battery (LIB) demand within level is empty."
+        },
+        {
+            "@id": "ev2",
+            "name": "Methods for recycling lithium-ion batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Methods for recycling lithium-ion batteries",
+            "wd_description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "pyrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgy",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgy",
+            "wd_description": "Hydrometallurgy employs specialized solution reagents to leach the targeted metals out from the cathode substance.",
+            "description": "Hydrometallurgy employs specialized solution reagents to leach the targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

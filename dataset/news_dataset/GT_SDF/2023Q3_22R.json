@@ -1,0 +1,316 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q3_22R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Diplomatic Expulsions Between Canada and India",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Diplomatic Expulsions Between Canada and India",
+            "wd_description": "Canada and India have engaged in tit-for-tat diplomatic expulsions following allegations by Canadian Prime Minister Justin Trudeau that India was involved in a state-sponsored assassination on Canadian soil.",
+            "description": "Canada and India have engaged in tit-for-tat diplomatic expulsions following allegations by Canadian Prime Minister Justin Trudeau that India was involved in a state-sponsored assassination on Canadian soil."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Trudeau's Allegations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trudeau's Allegations",
+            "wd_description": "Canadian Prime Minister Justin Trudeau alleged that India was involved in the assassination of Sikh independence advocate Hardeep Singh Niijar in Surrey, British Columbia in June.",
+            "description": "Canadian Prime Minister Justin Trudeau alleged that India was involved in the assassination of Sikh independence advocate Hardeep Singh Niijar in Surrey, British Columbia in June."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Canada's Diplomatic Expulsion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Canada's Diplomatic Expulsion",
+            "wd_description": "Canada expelled Pavan Kumar Rai, the most senior member of India’s foreign intelligence agency operating in Canada.",
+            "description": "Canada expelled Pavan Kumar Rai, the most senior member of India’s foreign intelligence agency operating in Canada."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "India's Retaliation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "India's Retaliation",
+            "wd_description": "India retaliated by ordering a senior Canadian diplomat to leave the country within five days.",
+            "description": "India retaliated by ordering a senior Canadian diplomat to leave the country within five days."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "British Foreign Secretary James Cleverly expressed support for Canada’s investigation and expects India to cooperate.",
+            "description": "British Foreign Secretary James Cleverly expressed support for Canada’s investigation and expects India to cooperate."
+        },
+        {
+            "@id": "ev2",
+            "name": "Turkey Backs Sweden's NATO Bid",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Turkey Backs Sweden's NATO Bid",
+            "wd_description": "Turkey has agreed to support Sweden’s bid to join NATO, ending over a year of opposition and paving the way for Sweden’s accession to the military alliance.",
+            "description": "Turkey has agreed to support Sweden’s bid to join NATO, ending over a year of opposition and paving the way for Sweden’s accession to the military alliance."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Turkey's Agreement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Turkey's Agreement",
+            "wd_description": "Turkish President Recep Tayyip Erdogan has agreed to back Sweden's NATO bid and to move the accession protocol for Sweden to the Grand National Assembly as soon as possible.",
+            "description": "Turkish President Recep Tayyip Erdogan has agreed to back Sweden's NATO bid and to move the accession protocol for Sweden to the Grand National Assembly as soon as possible."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "NATO Chief's Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NATO Chief's Announcement",
+            "wd_description": "NATO Chief Jens Stoltenberg announced that Turkey had agreed to support Sweden's NATO membership.",
+            "description": "NATO Chief Jens Stoltenberg announced that Turkey had agreed to support Sweden's NATO membership."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Turkey's Condition on EU Membership",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Turkey's Condition on EU Membership",
+            "wd_description": "Erdogan stated that Sweden could only join NATO after Turkey is accepted into the European Union.",
+            "description": "Erdogan stated that Sweden could only join NATO after Turkey is accepted into the European Union."
+        },
+        {
+            "@id": "ev3",
+            "name": "Record-breaking rainfall and flooding in Hong Kong",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Record-breaking rainfall and flooding in Hong Kong",
+            "wd_description": "Hong Kong experienced record-breaking rainfall of 158.1 mm in a single hour, leading to widespread flooding and disruptions in train and road traffic.",
+            "description": "Hong Kong experienced record-breaking rainfall of 158.1 mm in a single hour, leading to widespread flooding and disruptions in train and road traffic."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Record rainfall",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Record rainfall",
+            "wd_description": "The most rainfall ever recorded in Hong Kong, 158.1 mm in a single hour, occurred on Thursday night, setting a new record since records began in 1884.",
+            "description": "The most rainfall ever recorded in Hong Kong, 158.1 mm in a single hour, occurred on Thursday night, setting a new record since records began in 1884."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Train and road disruptions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Train and road disruptions",
+            "wd_description": "Flooding caused by the record rainfall led to temporary halts in train services, particularly in the Wong Tai Sin neighborhood, and affected other stations as well.",
+            "description": "Flooding caused by the record rainfall led to temporary halts in train services, particularly in the Wong Tai Sin neighborhood, and affected other stations as well."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Flooding risk in northern Hong Kong",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Flooding risk in northern Hong Kong",
+            "wd_description": "Hong Kong officials prepared to release water from reservoirs, which could lead to additional flooding in northern parts of the city.",
+            "description": "Hong Kong officials prepared to release water from reservoirs, which could lead to additional flooding in northern parts of the city."
+        },
+        {
+            "@id": "ev4",
+            "name": "U.S. Scrutiny on EV Batteries and Car Parts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Scrutiny on EV Batteries and Car Parts",
+            "wd_description": "Washington's efforts to eliminate U.S. links to forced labor in Chinese supply chains have expanded to include electric-vehicle batteries and other car parts.",
+            "description": "Washington's efforts to eliminate U.S. links to forced labor in Chinese supply chains have expanded to include electric-vehicle batteries and other car parts."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Uyghur Forced Labor Prevention Act (UFLPA) Enforcement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Uyghur Forced Labor Prevention Act (UFLPA) Enforcement",
+            "wd_description": "Enforcement of UFLPA has expanded from focusing on solar panels, tomatoes, and cotton apparel to now include batteries, tires, aluminum, and steel.",
+            "description": "Enforcement of UFLPA has expanded from focusing on solar panels, tomatoes, and cotton apparel to now include batteries, tires, aluminum, and steel."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Initial Focus Areas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Initial Focus Areas",
+            "wd_description": "UFLPA initially focused on solar panels, tomatoes, and cotton apparel to curb forced labor in Xinjiang, China.",
+            "description": "UFLPA initially focused on solar panels, tomatoes, and cotton apparel to curb forced labor in Xinjiang, China."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Expanded Focus Areas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Expanded Focus Areas",
+            "wd_description": "The focus has expanded to include lithium-ion batteries, tires, aluminum, and steel, reflecting increased scrutiny on automotive imports.",
+            "description": "The focus has expanded to include lithium-ion batteries, tires, aluminum, and steel, reflecting increased scrutiny on automotive imports."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Impact on Automotive Supply Chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact on Automotive Supply Chains",
+            "wd_description": "Increased inspections and detentions of automotive components at U.S. borders could disrupt automakers who need to ensure their supply chains are free of forced labor.",
+            "description": "Increased inspections and detentions of automotive components at U.S. borders could disrupt automakers who need to ensure their supply chains are free of forced labor."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Detentions and Disruptions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Detentions and Disruptions",
+            "wd_description": "U.S. Customs and Border Protection (CBP) has detained shipments of automotive and aerospace parts, signaling potential disruptions for automakers.",
+            "description": "U.S. Customs and Border Protection (CBP) has detained shipments of automotive and aerospace parts, signaling potential disruptions for automakers."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Industry Reactions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Industry Reactions",
+            "wd_description": "Automakers are on alert and are increasing their due diligence to ensure their supply chains are free of forced labor.",
+            "description": "Automakers are on alert and are increasing their due diligence to ensure their supply chains are free of forced labor."
+        },
+        {
+            "@id": "ev5",
+            "name": "UFLPA's Broader Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "xor",
+            "wd_node": "",
+            "wd_label": "UFLPA's Broader Impact",
+            "wd_description": "The Uyghur Forced Labor Prevention Act (UFLPA) has significantly impacted industries critical to the Biden administration’s climate goals.",
+            "description": "The Uyghur Forced Labor Prevention Act (UFLPA) has significantly impacted industries critical to the Biden administration’s climate goals."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Impact on Solar Energy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Solar Energy",
+            "wd_description": "Enforcement of UFLPA has led to the detention of solar panels, stalling the development of solar energy projects in the U.S.",
+            "description": "Enforcement of UFLPA has led to the detention of solar panels, stalling the development of solar energy projects in the U.S."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Potential Impact on EV Industry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Potential Impact on EV Industry",
+            "wd_description": "Similar enforcement actions on automotive components could disrupt the supply chains for electric vehicles, which are critical for reducing fossil fuel dependency and combating climate change.",
+            "description": "Similar enforcement actions on automotive components could disrupt the supply chains for electric vehicles, which are critical for reducing fossil fuel dependency and combating climate change."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

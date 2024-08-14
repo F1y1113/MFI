@@ -1,0 +1,389 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report18",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Australian Lithium Mining Dynamics 2023-2024",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Australian Lithium Mining Dynamics 2023-2024",
+            "wd_description": "This event covers the recent developments in the Australian lithium mining sector, focusing on production cuts, cost analysis, and company strategies in response to market conditions.",
+            "description": "This event covers the recent developments in the Australian lithium mining sector, focusing on production cuts, cost analysis, and company strategies in response to market conditions."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Core Lithium Production Cuts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Core Lithium Production Cuts",
+            "wd_description": "Core Lithium announced production cuts at its Mt Finiss mine in December 2023, along with a suspension of future capital expenditures.",
+            "description": "Core Lithium announced production cuts at its Mt Finiss mine in December 2023, along with a suspension of future capital expenditures."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Lithium Carbonate Price Trends",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Carbonate Price Trends",
+            "wd_description": "Lithium carbonate prices have dropped to critical levels, prompting several Australian lithium mines to announce production cuts.",
+            "description": "Lithium carbonate prices have dropped to critical levels, prompting several Australian lithium mines to announce production cuts."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Historical Production Decisions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Historical Production Decisions",
+            "wd_description": "Analysis of production decisions made by Australian lithium mining companies during previous market cycles, focusing on their responses to cost pressures.",
+            "description": "Analysis of production decisions made by Australian lithium mining companies during previous market cycles, focusing on their responses to cost pressures."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Company Cash Flow and Strategy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Company Cash Flow and Strategy",
+            "wd_description": "Examination of the cash flow situations and strategic decisions of various lithium mining companies, particularly during periods of financial stress.",
+            "description": "Examination of the cash flow situations and strategic decisions of various lithium mining companies, particularly during periods of financial stress."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Mt Finiss Production Reduction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mt Finiss Production Reduction",
+            "wd_description": "Core Lithium's reduction of production at its Mt Finiss mine announced on December 22, 2023.",
+            "description": "Core Lithium's reduction of production at its Mt Finiss mine announced on December 22, 2023."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Capital Expenditure Suspension",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Capital Expenditure Suspension",
+            "wd_description": "Suspension of future capital expenditures at Core Lithium's Mt Finiss mine, effective January 5, 2024.",
+            "description": "Suspension of future capital expenditures at Core Lithium's Mt Finiss mine, effective January 5, 2024."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Price Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Price Analysis",
+            "wd_description": "Analysis of lithium carbonate price trends, which have recently reached a critical threshold of $90,000 per ton.",
+            "description": "Analysis of lithium carbonate price trends, which have recently reached a critical threshold of $90,000 per ton."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Production Cut Announcements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production Cut Announcements",
+            "wd_description": "Announcements from several Australian lithium mines regarding production cuts, including Greenbushes and Mt Finiss.",
+            "description": "Announcements from several Australian lithium mines regarding production cuts, including Greenbushes and Mt Finiss."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Previous Cycle Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Previous Cycle Analysis",
+            "wd_description": "Analysis of the production decisions made by Australian lithium mining companies during previous market cycles, including cost and operational data.",
+            "description": "Analysis of the production decisions made by Australian lithium mining companies during previous market cycles, including cost and operational data."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Company Responses",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Company Responses",
+            "wd_description": "Responses of companies such as Mt Cattlin, Pilbara, Mt Marion, and Altura during previous market downturns.",
+            "description": "Responses of companies such as Mt Cattlin, Pilbara, Mt Marion, and Altura during previous market downturns."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Cash Flow Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cash Flow Analysis",
+            "wd_description": "Analysis of the cash flow situations of various lithium mining companies, particularly during periods of financial stress.",
+            "description": "Analysis of the cash flow situations of various lithium mining companies, particularly during periods of financial stress."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "Strategic Decisions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategic Decisions",
+            "wd_description": "Strategic decisions made by lithium mining companies in response to cash flow challenges and market conditions.",
+            "description": "Strategic decisions made by lithium mining companies in response to cash flow challenges and market conditions."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1",
+            "relationObject": "ev1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.1",
+            "relationObject": "ev1.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2.1",
+            "relationObject": "ev1.2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1.1",
+            "relationObject": "ev1.3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2.1",
+            "relationObject": "ev1.3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1.1",
+            "relationObject": "ev1.4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2.1",
+            "relationObject": "ev1.4.2."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

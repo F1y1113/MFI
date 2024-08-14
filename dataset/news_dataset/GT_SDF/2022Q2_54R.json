@@ -1,0 +1,363 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_54R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EU sanctions against Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EU sanctions against Russia",
+            "wd_description": "The European Union is discussing further sanction packages to be levied against Russia due to its continued invasion of Ukraine. These sanctions aim to target oil and other economic areas to deter further military aggression.",
+            "description": "The European Union is discussing further sanction packages to be levied against Russia due to its continued invasion of Ukraine. These sanctions aim to target oil and other economic areas to deter further military aggression."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Sanctions discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanctions discussion",
+            "wd_description": "Several EU leaders are building sanctions regarding oil and other economic deterrents.",
+            "description": "Several EU leaders are building sanctions regarding oil and other economic deterrents."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Bucha aftermath",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bucha aftermath",
+            "wd_description": "The discovery of slain Ukrainian civilians in Bucha has intensified the call for further sanctions against Russia.",
+            "description": "The discovery of slain Ukrainian civilians in Bucha has intensified the call for further sanctions against Russia."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "EU leaders involvement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EU leaders involvement",
+            "wd_description": "Leaders of Ireland, Lithuania, and Denmark, among others, are involved in this next round of sanctions against Russia, hoping that the measures will lead to Russia's withdrawal from Ukraine.",
+            "description": "Leaders of Ireland, Lithuania, and Denmark, among others, are involved in this next round of sanctions against Russia, hoping that the measures will lead to Russia's withdrawal from Ukraine."
+        },
+        {
+            "@id": "ev2",
+            "name": "UK inflation rate increases to 9.1%",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UK inflation rate increases to 9.1%",
+            "wd_description": "The pace of price growth in the UK increased to 9.1% in May from 9% in April, driven primarily by the cost of fuel and energy, according to the Office for National Statistics (ONS).",
+            "description": "The pace of price growth in the UK increased to 9.1% in May from 9% in April, driven primarily by the cost of fuel and energy, according to the Office for National Statistics (ONS)."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Causes of inflation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Causes of inflation",
+            "wd_description": "The main causes of inflation are the rising costs of fuel and energy.",
+            "description": "The main causes of inflation are the rising costs of fuel and energy."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Workers and unions' response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Workers and unions' response",
+            "wd_description": "Workers and unions are fighting for pay increases to cope with rising prices.",
+            "description": "Workers and unions are fighting for pay increases to cope with rising prices."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Government caution",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government caution",
+            "wd_description": "The government cautions against significant pay raises by employers to avoid an \"inflationary spiral\" similar to the 1970s.",
+            "description": "The government cautions against significant pay raises by employers to avoid an \"inflationary spiral\" similar to the 1970s."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Bank of England's warning",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bank of England's warning",
+            "wd_description": "The Bank of England warned that inflation might hit 11 percent this year, the highest level since March 1982.",
+            "description": "The Bank of England warned that inflation might hit 11 percent this year, the highest level since March 1982."
+        },
+        {
+            "@id": "ev2.5",
+            "name": "Experts' recommendation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Experts' recommendation",
+            "wd_description": "Experts suggest raising interest rates as a way to slow the rate of price growth by encouraging people to borrow less, spend less, and save more.",
+            "description": "Experts suggest raising interest rates as a way to slow the rate of price growth by encouraging people to borrow less, spend less, and save more."
+        },
+        {
+            "@id": "ev3",
+            "name": "North Korea fires eight short-range ballistic missiles",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korea fires eight short-range ballistic missiles",
+            "wd_description": "North Korea launched eight short-range ballistic missiles into the waters off its east coast, an unprecedented move according to the South Korean Joint Chiefs of Staff.",
+            "description": "North Korea launched eight short-range ballistic missiles into the waters off its east coast, an unprecedented move according to the South Korean Joint Chiefs of Staff."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Missile launch details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile launch details",
+            "wd_description": "The missiles were launched from multiple sites between 9:08 a.m. and 9:43 a.m. Seoul local time, marking the third missile test since the new South Korean president took office.",
+            "description": "The missiles were launched from multiple sites between 9:08 a.m. and 9:43 a.m. Seoul local time, marking the third missile test since the new South Korean president took office."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Japanese response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Japanese response",
+            "wd_description": "Japanese Prime Minister Fumio Kishida protested the launch, citing it as a violation of UN resolutions.",
+            "description": "Japanese Prime Minister Fumio Kishida protested the launch, citing it as a violation of UN resolutions."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Missile specifications",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile specifications",
+            "wd_description": "Japan's Defense Ministry reported that six of the missiles reached a maximum altitude of 50 to 100 kilometers and traveled a distance of 300 to 400 kilometers.",
+            "description": "Japan's Defense Ministry reported that six of the missiles reached a maximum altitude of 50 to 100 kilometers and traveled a distance of 300 to 400 kilometers."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Defense response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Defense response",
+            "wd_description": "South Korean Joint Chiefs of Staff Chairman Won In-Choul and Commander of the ROK-US Combined Forces Command Paul LaCamera held a virtual meeting to reaffirm their defense capability to detect and intercept North Korean missiles.",
+            "description": "South Korean Joint Chiefs of Staff Chairman Won In-Choul and Commander of the ROK-US Combined Forces Command Paul LaCamera held a virtual meeting to reaffirm their defense capability to detect and intercept North Korean missiles."
+        },
+        {
+            "@id": "ev4",
+            "name": "Stellantis plans to source lithium from California's Salton Sea Basin",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.10",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.11",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Stellantis plans to source lithium from California's Salton Sea Basin",
+            "wd_description": "Stellantis plans to source a substantial amount of lithium for its EV batteries from the Salton Sea Basin in California through a deal with Controlled Thermal Resources.",
+            "description": "Stellantis plans to source a substantial amount of lithium for its EV batteries from the Salton Sea Basin in California through a deal with Controlled Thermal Resources."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Deal details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Deal details",
+            "wd_description": "Stellantis announced a deal with Controlled Thermal Resources to supply battery grade lithium hydroxide for EV production in North America.",
+            "description": "Stellantis announced a deal with Controlled Thermal Resources to supply battery grade lithium hydroxide for EV production in North America."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Salton Sea Basin's potential",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Salton Sea Basin's potential",
+            "wd_description": "The Salton Sea Basin, once a tourist destination, is now known for its potential to supply significant quantities of lithium for EV batteries.",
+            "description": "The Salton Sea Basin, once a tourist destination, is now known for its potential to supply significant quantities of lithium for EV batteries."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Controlled Thermal's Hell’s Kitchen Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Controlled Thermal's Hell’s Kitchen Project",
+            "wd_description": "Controlled Thermal's Hell’s Kitchen Project in California’s Imperial County aims to recover lithium through an environmentally sustainable process paired with geothermal electricity production.",
+            "description": "Controlled Thermal's Hell’s Kitchen Project in California’s Imperial County aims to recover lithium through an environmentally sustainable process paired with geothermal electricity production."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Timeline for production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Timeline for production",
+            "wd_description": "Power generation at Hell’s Kitchen Project is expected to begin in 2023, with lithium production starting in 2024.",
+            "description": "Power generation at Hell’s Kitchen Project is expected to begin in 2023, with lithium production starting in 2024."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Presidential mention",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Presidential mention",
+            "wd_description": "President Joe Biden mentioned the Stellantis deal, highlighting its contribution to the U.S. becoming a leading producer of sustainably sourced, low carbon lithium.",
+            "description": "President Joe Biden mentioned the Stellantis deal, highlighting its contribution to the U.S. becoming a leading producer of sustainably sourced, low carbon lithium."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Focus on sustainability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Focus on sustainability",
+            "wd_description": "Automakers are increasingly focusing on finding sustainable methods for securing lithium and other battery materials, as seen in deals by Ford and Redwood Materials.",
+            "description": "Automakers are increasingly focusing on finding sustainable methods for securing lithium and other battery materials, as seen in deals by Ford and Redwood Materials."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Statements from Stellantis and Controlled Thermal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Statements from Stellantis and Controlled Thermal",
+            "wd_description": "Stellantis and Controlled Thermal executives emphasized the importance of clean lithium in decarbonizing the battery supply chain and producing cleaner cars.",
+            "description": "Stellantis and Controlled Thermal executives emphasized the importance of clean lithium in decarbonizing the battery supply chain and producing cleaner cars."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Stellantis's global supply needs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stellantis's global supply needs",
+            "wd_description": "The deal covers a significant portion of Stellantis's North American needs, but the automaker still needs more sourcing to meet global capacity needs.",
+            "description": "The deal covers a significant portion of Stellantis's North American needs, but the automaker still needs more sourcing to meet global capacity needs."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "Stellantis Dare Forward 2030 business plan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stellantis Dare Forward 2030 business plan",
+            "wd_description": "Stellantis's Dare Forward 2030 business plan aims for annual global sales of 5 million battery electric vehicles by 2030 and significant percentages of EV sales in Europe and North America.",
+            "description": "Stellantis's Dare Forward 2030 business plan aims for annual global sales of 5 million battery electric vehicles by 2030 and significant percentages of EV sales in Europe and North America."
+        },
+        {
+            "@id": "ev4.10",
+            "name": "EV battery plants",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV battery plants",
+            "wd_description": "Stellantis plans to build EV battery plants in Windsor, Ontario, and Kokomo, Indiana, to supply its North American vehicle production.",
+            "description": "Stellantis plans to build EV battery plants in Windsor, Ontario, and Kokomo, Indiana, to supply its North American vehicle production."
+        },
+        {
+            "@id": "ev4.11",
+            "name": "NextStar Energy Inc.",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NextStar Energy Inc.",
+            "wd_description": "Stellantis and LG Energy Solution announced NextStar Energy Inc. as the name of their battery joint venture company, with Danies Lee as CEO.",
+            "description": "Stellantis and LG Energy Solution announced NextStar Energy Inc. as the name of their battery joint venture company, with Danies Lee as CEO."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

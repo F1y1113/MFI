@@ -1,0 +1,375 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_18R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Ukraine President fires head of SBU and prosecutor general",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine President fires head of SBU and prosecutor general",
+            "wd_description": "President Volodymyr Zelenskiy abruptly fired the head of Ukraine's domestic security agency, the SBU, and the state prosecutor general due to numerous cases of collaboration with Russia by officials in their agencies.",
+            "description": "President Volodymyr Zelenskiy abruptly fired the head of Ukraine's domestic security agency, the SBU, and the state prosecutor general due to numerous cases of collaboration with Russia by officials in their agencies."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "sacking of Ivan Bakanov",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sacking of Ivan Bakanov",
+            "wd_description": "SBU chief Ivan Bakanov, Zelenskiy's childhood friend, was abruptly fired.",
+            "description": "SBU chief Ivan Bakanov, Zelenskiy's childhood friend, was abruptly fired."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "sacking of Iryna Venediktova",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sacking of Iryna Venediktova",
+            "wd_description": "Prosecutor General Iryna Venediktova, who played a key role in prosecuting Russian war crimes, was also abruptly fired.",
+            "description": "Prosecutor General Iryna Venediktova, who played a key role in prosecuting Russian war crimes, was also abruptly fired."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "reasons for the sackings",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "reasons for the sackings",
+            "wd_description": "Over 60 officials from Bakanov's and Venediktova's agencies have started working against Ukraine in Russian-occupied territories, leading to 651 alleged treason cases and collaborations being opened.",
+            "description": "Over 60 officials from Bakanov's and Venediktova's agencies have started working against Ukraine in Russian-occupied territories, leading to 651 alleged treason cases and collaborations being opened."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Zelenskiy's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Zelenskiy's statement",
+            "wd_description": "President Zelenskiy stated that the crimes against national security by officials pose serious questions to their leaders and vowed to provide proper answers.",
+            "description": "President Zelenskiy stated that the crimes against national security by officials pose serious questions to their leaders and vowed to provide proper answers."
+        },
+        {
+            "@id": "ev2",
+            "name": "China warns the U.S. after Biden administration approves arms sales to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China warns the U.S. after Biden administration approves arms sales to Taiwan",
+            "wd_description": "China warned the U.S. of taking countermeasures after the Biden administration approved more than $1.1 billion in arms sales to Taiwan.",
+            "description": "China warned the U.S. of taking countermeasures after the Biden administration approved more than $1.1 billion in arms sales to Taiwan."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Chinese embassy statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese embassy statement",
+            "wd_description": "Liu Pengyu, spokesman for the Chinese embassy, stated that China firmly opposes the arms sales, which jeopardize China-US relations and peace across the Taiwan Strait, and called for Washington to revoke them.",
+            "description": "Liu Pengyu, spokesman for the Chinese embassy, stated that China firmly opposes the arms sales, which jeopardize China-US relations and peace across the Taiwan Strait, and called for Washington to revoke them."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "U.S. State Department response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "U.S. State Department response",
+            "wd_description": "The State Department said the sales align with the longstanding U.S. policy to provide defensive weapons to Taiwan, describing the provision as essential for Taiwan's security.",
+            "description": "The State Department said the sales align with the longstanding U.S. policy to provide defensive weapons to Taiwan, describing the provision as essential for Taiwan's security."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Taiwan's reaction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Taiwan's reaction",
+            "wd_description": "Taiwan thanked the U.S. for continuing to implement its security commitments and welcomed the latest arms sales.",
+            "description": "Taiwan thanked the U.S. for continuing to implement its security commitments and welcomed the latest arms sales."
+        },
+        {
+            "@id": "ev3",
+            "name": "China accuses the US of sending dangerous signals to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China accuses the US of sending dangerous signals to Taiwan",
+            "wd_description": "China accused the United States of sending \"very wrong, dangerous signals\" to Taiwan after US Secretary of State Antony Blinken told his Chinese counterpart that maintaining peace and stability over Taiwan was vitally important.",
+            "description": "China accused the United States of sending \"very wrong, dangerous signals\" to Taiwan after US Secretary of State Antony Blinken told his Chinese counterpart that maintaining peace and stability over Taiwan was vitally important."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Blinken's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Blinken's statement",
+            "wd_description": "US Secretary of State Antony Blinken told Chinese Foreign Minister Wang Yi that maintaining peace and stability over Taiwan was vitally important.",
+            "description": "US Secretary of State Antony Blinken told Chinese Foreign Minister Wang Yi that maintaining peace and stability over Taiwan was vitally important."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "China’s accusation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China’s accusation",
+            "wd_description": "China accused the United States of sending \"very wrong, dangerous signals\" to Taiwan following Blinken's statement.",
+            "description": "China accused the United States of sending \"very wrong, dangerous signals\" to Taiwan following Blinken's statement."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "details of the meeting",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "details of the meeting",
+            "wd_description": "US officials reported that the 90-minute talks between Blinken and Wang Yi focused on Taiwan and were direct and honest, taking place on the margins of the UN General Assembly in New York.",
+            "description": "US officials reported that the 90-minute talks between Blinken and Wang Yi focused on Taiwan and were direct and honest, taking place on the margins of the UN General Assembly in New York."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "China’s stance on Taiwan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China’s stance on Taiwan",
+            "wd_description": "The Chinese Foreign Ministry reiterated that the Taiwan issue is an internal Chinese matter and stated that the United States has no right to interfere in how it is resolved.",
+            "description": "The Chinese Foreign Ministry reiterated that the Taiwan issue is an internal Chinese matter and stated that the United States has no right to interfere in how it is resolved."
+        },
+        {
+            "@id": "ev4",
+            "name": "Investments and Developments in EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Investments and Developments in EV Battery Supply Chain",
+            "wd_description": "Electric vehicle makers are investing in supplier deals and production plans to address the increasing demand for EV batteries and the constraints in the supply and processing of essential minerals.",
+            "description": "Electric vehicle makers are investing in supplier deals and production plans to address the increasing demand for EV batteries and the constraints in the supply and processing of essential minerals."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Facility Investments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Facility Investments",
+            "wd_description": "Automakers are investing in their own battery production facilities in the U.S. to shorten supply chains and qualify for the Biden administration’s tax credits.",
+            "description": "Automakers are investing in their own battery production facilities in the U.S. to shorten supply chains and qualify for the Biden administration’s tax credits."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Toyota Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Toyota Investment",
+            "wd_description": "Toyota announced a $2.5 billion investment in its North Carolina battery production facility, which will supply batteries for hybrid EVs and battery electric vehicles beginning in 2025.",
+            "description": "Toyota announced a $2.5 billion investment in its North Carolina battery production facility, which will supply batteries for hybrid EVs and battery electric vehicles beginning in 2025."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Panasonic Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Panasonic Investment",
+            "wd_description": "Panasonic is investing nearly $10 billion to establish two battery production facilities in the U.S., with a $4 billion facility in Kansas and another site in Oklahoma.",
+            "description": "Panasonic is investing nearly $10 billion to establish two battery production facilities in the U.S., with a $4 billion facility in Kansas and another site in Oklahoma."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Expanded Sourcing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Expanded Sourcing",
+            "wd_description": "Ford and GM have announced new battery supplier agreements to expand their sourcing pools and meet production goals.",
+            "description": "Ford and GM have announced new battery supplier agreements to expand their sourcing pools and meet production goals."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Ford Supplier Agreements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Ford Supplier Agreements",
+            "wd_description": "Ford has deals with suppliers around the globe to bring in additional lithium, graphite, cobalt, and nickel stock.",
+            "description": "Ford has deals with suppliers around the globe to bring in additional lithium, graphite, cobalt, and nickel stock."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: GM Supplier Agreements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: GM Supplier Agreements",
+            "wd_description": "GM struck multiple deals, including a six-year agreement with LG Chem to explore building a cathode active material plant in North America by 2025.",
+            "description": "GM struck multiple deals, including a six-year agreement with LG Chem to explore building a cathode active material plant in North America by 2025."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Supplier Acquisitions and Joint Ventures",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supplier Acquisitions and Joint Ventures",
+            "wd_description": "Automakers are forming joint ventures and acquiring supplier companies to enhance their control over the battery supply chain.",
+            "description": "Automakers are forming joint ventures and acquiring supplier companies to enhance their control over the battery supply chain."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Nikola Acquisition",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nikola Acquisition",
+            "wd_description": "Nikola announced it would acquire energy storage technology company Romeo Power to bring battery pack production in-house.",
+            "description": "Nikola announced it would acquire energy storage technology company Romeo Power to bring battery pack production in-house."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Honda Joint Venture",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Honda Joint Venture",
+            "wd_description": "Honda formed a joint venture with South Korea-based LG Energy Solutions to produce lithium-ion batteries for the North American market, with a $4.4 billion investment in a JV battery plant in the U.S.",
+            "description": "Honda formed a joint venture with South Korea-based LG Energy Solutions to produce lithium-ion batteries for the North American market, with a $4.4 billion investment in a JV battery plant in the U.S."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Government Supply Agreements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Government Supply Agreements",
+            "wd_description": "Automakers are striking deals with governments to boost opportunities for suppliers and secure raw materials.",
+            "description": "Automakers are striking deals with governments to boost opportunities for suppliers and secure raw materials."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Volkswagen-Canada Agreement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Volkswagen-Canada Agreement",
+            "wd_description": "Volkswagen signed an agreement with the Canadian government to secure supplies of lithium, cobalt, and other raw materials.",
+            "description": "Volkswagen signed an agreement with the Canadian government to secure supplies of lithium, cobalt, and other raw materials."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Mercedes-Benz-Canada Agreement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Mercedes-Benz-Canada Agreement",
+            "wd_description": "Mercedes-Benz signed an agreement with the Canadian government to explore mining, refining, and cell manufacturing opportunities in Canada.",
+            "description": "Mercedes-Benz signed an agreement with the Canadian government to explore mining, refining, and cell manufacturing opportunities in Canada."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,107 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper73_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "China's emergence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's emergence",
+            "wd_description": "China has emerged as a prominent player over the past decade.",
+            "description": "China has emerged as a prominent player over the past decade."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "china's emergence in one decimal place",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "china's emergence in one decimal place",
+            "wd_description": "Only one decimal place should be retained.",
+            "description": "Only one decimal place should be retained."
+        },
+        {
+            "@id": "ev6",
+            "name": "Impact of China's integrated control on battery supply chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper73/Event/3aUPhtUIge/Integrated-control-and-competitor-reliance",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact of China's integrated control on battery supply chains",
+            "wd_description": "China's integrated control over lithium supply chains, from mine sites to intermediate chemical facilities, allows it to influence product flows through final cell fabrication. Competitors rely on Chinese supply chains, making it difficult to reverse dependency without significant investment.",
+            "description": "China's integrated control over lithium supply chains, from mine sites to intermediate chemical facilities, allows it to influence product flows through final cell fabrication. Competitors rely on Chinese supply chains, making it difficult to reverse dependency without significant investment."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Integrated control",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Integrated control",
+            "wd_description": "China's control spans investments at mine sites to intermediate chemical facilities, influencing global lithium supply chains.",
+            "description": "China's control spans investments at mine sites to intermediate chemical facilities, influencing global lithium supply chains."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Competitor reliance",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Competitor reliance",
+            "wd_description": "Competitors lack integrated capacity, forcing reliance on supply chains centered within China.",
+            "description": "Competitors lack integrated capacity, forcing reliance on supply chains centered within China."
+        },
+        {
+            "@id": "ev6.3",
+            "name": "Reversing dependency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reversing dependency",
+            "wd_description": "Reversing dependency on Chinese supply chains requires significant capital investment from other nations to develop alternative lithium reserves and localized refining.",
+            "description": "Reversing dependency on Chinese supply chains requires significant capital investment from other nations to develop alternative lithium reserves and localized refining."
+        },
+        {
+            "@id": "paper73/Event/3aUPhtUIge/Integrated-control-and-competitor-reliance",
+            "name": "Integrated control and competitor reliance",
+            "ta1explanation": "",
+            "description": "By 2025, only 4% of Chinese battery supply will rely on imported precursors, forcing competitors to continue relying on China-centered supply chains.",
+            "wd_node": "paper73",
+            "wd_label": "paper73",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

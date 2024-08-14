@@ -1,0 +1,232 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper84",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium extraction from geothermal or oilfield brines",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium extraction from geothermal or oilfield brines",
+            "wd_description": "For geothermal or oilfield brines to be a successful source of lithium, a proven direct lithium extraction (DLE) process is required. Various companies are testing different DLE approaches to extract lithium effectively.",
+            "description": "For geothermal or oilfield brines to be a successful source of lithium, a proven direct lithium extraction (DLE) process is required. Various companies are testing different DLE approaches to extract lithium effectively."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "DLE process",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "DLE process",
+            "wd_description": "Direct lithium extraction (DLE) involves letting brine flow through a lithium-bonding material using various processes to extract lithium.",
+            "description": "Direct lithium extraction (DLE) involves letting brine flow through a lithium-bonding material using various processes to extract lithium."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Adsorption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Adsorption",
+            "wd_description": "Adsorption is one of the processes used in DLE, where lithium ions are captured by a material that bonds with lithium.",
+            "description": "Adsorption is one of the processes used in DLE, where lithium ions are captured by a material that bonds with lithium."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Ion-exchange",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ion-exchange",
+            "wd_description": "Ion-exchange is another DLE process where lithium ions are exchanged with other ions in a material to capture lithium.",
+            "description": "Ion-exchange is another DLE process where lithium ions are exchanged with other ions in a material to capture lithium."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "Membrane-separation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Membrane-separation",
+            "wd_description": "Membrane-separation involves using membranes to separate lithium ions from the brine.",
+            "description": "Membrane-separation involves using membranes to separate lithium ions from the brine."
+        },
+        {
+            "@id": "ev1.1.4",
+            "name": "Solvent-extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Solvent-extraction",
+            "wd_description": "Solvent-extraction is a DLE process where solvents are used to extract lithium ions from the brine.",
+            "description": "Solvent-extraction is a DLE process where solvents are used to extract lithium ions from the brine."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Companies testing DLE approaches",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Companies testing DLE approaches",
+            "wd_description": "Various companies are exploring and testing different approaches to direct lithium extraction to make the process viable and efficient.",
+            "description": "Various companies are exploring and testing different approaches to direct lithium extraction to make the process viable and efficient."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Lithium carbonate or lithium hydroxide production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium carbonate or lithium hydroxide production",
+            "wd_description": "After extraction, a polishing solution is used to refine the lithium, producing lithium carbonate or lithium hydroxide.",
+            "description": "After extraction, a polishing solution is used to refine the lithium, producing lithium carbonate or lithium hydroxide."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Lithium carbonate",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium carbonate",
+            "wd_description": "Lithium carbonate is one of the end products of the DLE process, used in battery production.",
+            "description": "Lithium carbonate is one of the end products of the DLE process, used in battery production."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Lithium hydroxide",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium hydroxide",
+            "wd_description": "Lithium hydroxide is another end product of the DLE process, also used in battery production.",
+            "description": "Lithium hydroxide is another end product of the DLE process, also used in battery production."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

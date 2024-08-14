@@ -1,0 +1,301 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_17R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "South Korea to boost defense capabilities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South Korea to boost defense capabilities",
+            "wd_description": "South Korean Defense Minister Lee Jong-sup announced plans to boost defense capabilities by working with the US and Japan to counter North Korea’s nuclear and missile threat.",
+            "description": "South Korean Defense Minister Lee Jong-sup announced plans to boost defense capabilities by working with the US and Japan to counter North Korea’s nuclear and missile threat."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Urging North Korea to end programs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Urging North Korea to end programs",
+            "wd_description": "Lee urged North Korea to end its nuclear weapon and missile programs during an Asian security meeting in Singapore.",
+            "description": "Lee urged North Korea to end its nuclear weapon and missile programs during an Asian security meeting in Singapore."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Strengthening defense capabilities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Strengthening defense capabilities",
+            "wd_description": "Lee stated that South Korea will strengthen capabilities to better implement the US extended deterrence and enhance response capabilities to deter North Korea’s threats.",
+            "description": "Lee stated that South Korea will strengthen capabilities to better implement the US extended deterrence and enhance response capabilities to deter North Korea’s threats."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Security cooperation with US and Japan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Security cooperation with US and Japan",
+            "wd_description": "Lee expressed interest in strengthening security cooperation between South Korea, the US, and Japan to respond to North Korea’s nuclear and missile programs.",
+            "description": "Lee expressed interest in strengthening security cooperation between South Korea, the US, and Japan to respond to North Korea’s nuclear and missile programs."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Economic support for North Korea",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Economic support for North Korea",
+            "wd_description": "Lee mentioned that South Korea is ready to extend economic support if North Korea makes substantial progress in ending its nuclear program.",
+            "description": "Lee mentioned that South Korea is ready to extend economic support if North Korea makes substantial progress in ending its nuclear program."
+        },
+        {
+            "@id": "ev2",
+            "name": "Ukraine secures release of 144 soldiers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine secures release of 144 soldiers",
+            "wd_description": "Ukraine secured the release of 144 soldiers, including 95 who defended the Azovstal steelworks in Mariupol, in the largest exchange of the crisis, while 144 Russian and separatist soldiers were returned to Russia.",
+            "description": "Ukraine secured the release of 144 soldiers, including 95 who defended the Azovstal steelworks in Mariupol, in the largest exchange of the crisis, while 144 Russian and separatist soldiers were returned to Russia."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Details of the prisoner swap",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Details of the prisoner swap",
+            "wd_description": "144 Ukrainian soldiers were exchanged for 144 Russian and separatist soldiers, verified by a pro-Russian separatist leader.",
+            "description": "144 Ukrainian soldiers were exchanged for 144 Russian and separatist soldiers, verified by a pro-Russian separatist leader."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Political reactions in Russia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Political reactions in Russia",
+            "wd_description": "Following the seizure of the Azov men, many Russian politicians advocated for their trial and death, with some members of the State Duma planning to introduce legislation to disrupt prisoner swaps involving fighters deemed \"terrorists.\"",
+            "description": "Following the seizure of the Azov men, many Russian politicians advocated for their trial and death, with some members of the State Duma planning to introduce legislation to disrupt prisoner swaps involving fighters deemed \"terrorists.\""
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Fate of Azovstal defenders",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Fate of Azovstal defenders",
+            "wd_description": "More than a thousand Azovstal defenders who surrendered were moved to Russian-held territory in May, causing major concern for Kyiv's leaders who sought a prisoner swap.",
+            "description": "More than a thousand Azovstal defenders who surrendered were moved to Russian-held territory in May, causing major concern for Kyiv's leaders who sought a prisoner swap."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Reactions to the exchange",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reactions to the exchange",
+            "wd_description": "Some Russian military bloggers and pro-war politicians reacted negatively to the exchange plan, but Moscow did not respond to the prisoner swap.",
+            "description": "Some Russian military bloggers and pro-war politicians reacted negatively to the exchange plan, but Moscow did not respond to the prisoner swap."
+        },
+        {
+            "@id": "ev3",
+            "name": "EU sanctions against Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EU sanctions against Russia",
+            "wd_description": "The European Union is discussing further sanction packages to be levied against Russia due to its continued invasion of Ukraine. These sanctions aim to target oil and other economic areas to deter further military aggression.",
+            "description": "The European Union is discussing further sanction packages to be levied against Russia due to its continued invasion of Ukraine. These sanctions aim to target oil and other economic areas to deter further military aggression."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Sanctions discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanctions discussion",
+            "wd_description": "Several EU leaders are building sanctions regarding oil and other economic deterrents.",
+            "description": "Several EU leaders are building sanctions regarding oil and other economic deterrents."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Bucha aftermath",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bucha aftermath",
+            "wd_description": "The discovery of slain Ukrainian civilians in Bucha has intensified the call for further sanctions against Russia.",
+            "description": "The discovery of slain Ukrainian civilians in Bucha has intensified the call for further sanctions against Russia."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "EU leaders involvement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EU leaders involvement",
+            "wd_description": "Leaders of Ireland, Lithuania, and Denmark, among others, are involved in this next round of sanctions against Russia, hoping that the measures will lead to Russia's withdrawal from Ukraine.",
+            "description": "Leaders of Ireland, Lithuania, and Denmark, among others, are involved in this next round of sanctions against Russia, hoping that the measures will lead to Russia's withdrawal from Ukraine."
+        },
+        {
+            "@id": "ev4",
+            "name": "Indonesia Power Battery Industry Chain Project",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Indonesia Power Battery Industry Chain Project",
+            "wd_description": "Guangdong Bangpu subsidiary Pukin Times, Indonesian PT Aneka Tambang (ANTAM), and PT Industri Baterai Indonesia (IBI) have signed a tripartite agreement to establish a power battery industry chain project in Indonesia.",
+            "description": "Guangdong Bangpu subsidiary Pukin Times, Indonesian PT Aneka Tambang (ANTAM), and PT Industri Baterai Indonesia (IBI) have signed a tripartite agreement to establish a power battery industry chain project in Indonesia."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Project Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Project Investment",
+            "wd_description": "The total investment amount of the project is nearly $60 billion, focusing on nickel mining and processing, battery materials, battery manufacturing, and battery recycling.",
+            "description": "The total investment amount of the project is nearly $60 billion, focusing on nickel mining and processing, battery materials, battery manufacturing, and battery recycling."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Strategic Partnership",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Strategic Partnership",
+            "wd_description": "The establishment of the tripartite partnership is an important milestone for CATL's global expansion and will promote the development of Indonesia's electric vehicle industry.",
+            "description": "The establishment of the tripartite partnership is an important milestone for CATL's global expansion and will promote the development of Indonesia's electric vehicle industry."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Project Components",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Project Components",
+            "wd_description": "The project includes nickel mining and smelting, battery materials, battery manufacturing, and battery recycling, to be developed in industrial parks in North Maluku Province and other related areas in Indonesia.",
+            "description": "The project includes nickel mining and smelting, battery materials, battery manufacturing, and battery recycling, to be developed in industrial parks in North Maluku Province and other related areas in Indonesia."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Nickel Mining and Smelting",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nickel Mining and Smelting",
+            "wd_description": "The project involves the mining and smelting of nickel in the FHT industrial park and other related areas in North Maluku Province, Indonesia.",
+            "description": "The project involves the mining and smelting of nickel in the FHT industrial park and other related areas in North Maluku Province, Indonesia."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Battery Materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery Materials",
+            "wd_description": "The project focuses on the production of battery materials to support the power battery industry chain.",
+            "description": "The project focuses on the production of battery materials to support the power battery industry chain."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Battery Manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery Manufacturing",
+            "wd_description": "The project includes the manufacturing of batteries to be used in electric vehicles.",
+            "description": "The project includes the manufacturing of batteries to be used in electric vehicles."
+        },
+        {
+            "@id": "ev4.3.4",
+            "name": "t: Battery Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery Recycling",
+            "wd_description": "The project aims to develop a battery recycling industry to ensure sustainable use of battery materials.",
+            "description": "The project aims to develop a battery recycling industry to ensure sustainable use of battery materials."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

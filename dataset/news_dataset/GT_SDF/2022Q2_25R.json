@@ -1,0 +1,337 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_25R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Severe thunderstorms in Ontario and Quebec, May 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe thunderstorms in Ontario and Quebec, May 2022",
+            "wd_description": "Severe thunderstorms swept through Ontario and Central Quebec, causing widespread power outages, destruction of property, and leading to five deaths and several injuries.",
+            "description": "Severe thunderstorms swept through Ontario and Central Quebec, causing widespread power outages, destruction of property, and leading to five deaths and several injuries."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Thunderstorms in Ontario",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Thunderstorms in Ontario",
+            "wd_description": "Thunderstorms in Ontario, beginning in Sarnia and moving towards Ottawa, left more than 350,000 customers without power, caused widespread damage, and resulted in five deaths.",
+            "description": "Thunderstorms in Ontario, beginning in Sarnia and moving towards Ottawa, left more than 350,000 customers without power, caused widespread damage, and resulted in five deaths."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Thunderstorms in Quebec",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Thunderstorms in Quebec",
+            "wd_description": "Similar thunderstorms in Central Quebec left more than 500,000 homes without power, destroying homes, electricity lines, and trees.",
+            "description": "Similar thunderstorms in Central Quebec left more than 500,000 homes without power, destroying homes, electricity lines, and trees."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Response and recovery efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Response and recovery efforts",
+            "wd_description": "Crews were mobilized to restore power and services to the regions affected by the thunderstorms in Ontario and Quebec.",
+            "description": "Crews were mobilized to restore power and services to the regions affected by the thunderstorms in Ontario and Quebec."
+        },
+        {
+            "@id": "ev2",
+            "name": "US commitment to Taiwan's defense",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US commitment to Taiwan's defense",
+            "wd_description": "During his tour of Asia, President Biden stated that the US is prepared to defend Taiwan if China attacks, attracting remarks from the Chinese leadership.",
+            "description": "During his tour of Asia, President Biden stated that the US is prepared to defend Taiwan if China attacks, attracting remarks from the Chinese leadership."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Biden's statement on Taiwan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's statement on Taiwan",
+            "wd_description": "President Biden compared Taiwan's situation to the tensions between Russia and Ukraine and affirmed the US's commitment to defending Taiwan.",
+            "description": "President Biden compared Taiwan's situation to the tensions between Russia and Ukraine and affirmed the US's commitment to defending Taiwan."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Chinese response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese response",
+            "wd_description": "The Chinese Foreign Minister reiterated that Taiwan is inseparable from China and urged the US to abide by the One-China Principle, stating that the situation in Ukraine is not comparable to Taiwan.",
+            "description": "The Chinese Foreign Minister reiterated that Taiwan is inseparable from China and urged the US to abide by the One-China Principle, stating that the situation in Ukraine is not comparable to Taiwan."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "US-Taiwan relations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US-Taiwan relations",
+            "wd_description": "While the US acknowledges the One-China Principle, the Taiwan Relations Act mandates that the US must provide Taiwan with the means to defend itself.",
+            "description": "While the US acknowledges the One-China Principle, the Taiwan Relations Act mandates that the US must provide Taiwan with the means to defend itself."
+        },
+        {
+            "@id": "ev3",
+            "name": "Tropical Storm Megi Hits the Philippines During Unusual Time",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Tropical Storm Megi Hits the Philippines During Unusual Time",
+            "wd_description": "Tropical Storm Megi, the first of the season, hit the Philippines during the country's \"dry\" season, causing severe flooding, high winds, and landslides, leading to at least 25 deaths. The storm's occurrence is unusual and may be linked to climate change.",
+            "description": "Tropical Storm Megi, the first of the season, hit the Philippines during the country's \"dry\" season, causing severe flooding, high winds, and landslides, leading to at least 25 deaths. The storm's occurrence is unusual and may be linked to climate change."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Formation of Tropical Storm Megi",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Formation of Tropical Storm Megi",
+            "wd_description": "Tropical Storm Megi formed over the Western Pacific Ocean during a low-pressure front and began impacting the Philippines with severe weather.",
+            "description": "Tropical Storm Megi formed over the Western Pacific Ocean during a low-pressure front and began impacting the Philippines with severe weather."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Impact of the Storm",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact of the Storm",
+            "wd_description": "The storm caused dangerous flooding, high winds, and catastrophic landslides, particularly in rural and mountainous areas of the Philippines, resulting in at least 25 deaths.",
+            "description": "The storm caused dangerous flooding, high winds, and catastrophic landslides, particularly in rural and mountainous areas of the Philippines, resulting in at least 25 deaths."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Unusual Timing and Climate Change",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unusual Timing and Climate Change",
+            "wd_description": "Tropical Storm Megi's occurrence during the Philippines' \"dry\" season is unusual and may be linked to the ongoing effects of global climate change.",
+            "description": "Tropical Storm Megi's occurrence during the Philippines' \"dry\" season is unusual and may be linked to the ongoing effects of global climate change."
+        },
+        {
+            "@id": "ev4",
+            "name": "Chinese EV battery material manufacturers scaling up production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.10",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.11",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.12",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Chinese EV battery material manufacturers scaling up production",
+            "wd_description": "China's top EV battery material manufacturers will invest at least 71 billion yuan to scale up output, with plans to triple production capacity in some products.",
+            "description": "China's top EV battery material manufacturers will invest at least 71 billion yuan to scale up output, with plans to triple production capacity in some products."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Investment plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investment plans",
+            "wd_description": "The planned investments cover all key components of lithium-ion batteries, with some companies not disclosing timelines or production expansion volumes.",
+            "description": "The planned investments cover all key components of lithium-ion batteries, with some companies not disclosing timelines or production expansion volumes."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Market share growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Market share growth",
+            "wd_description": "Chinese suppliers have grown their market shares by driving down prices. Yunnan Energy New Material Group (Semcorp) aims to increase its global market share from 31% in 2021 to 50% in 2025.",
+            "description": "Chinese suppliers have grown their market shares by driving down prices. Yunnan Energy New Material Group (Semcorp) aims to increase its global market share from 31% in 2021 to 50% in 2025."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Semcorp's expansion plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Semcorp's expansion plans",
+            "wd_description": "Semcorp plans to build factories in Yunnan, Jiangsu, Hubei, Chongqing, Hungary, and potentially North America, with an expected annual production capacity of 16 billion sq. meters by 2025.",
+            "description": "Semcorp plans to build factories in Yunnan, Jiangsu, Hubei, Chongqing, Hungary, and potentially North America, with an expected annual production capacity of 16 billion sq. meters by 2025."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Customer base",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Customer base",
+            "wd_description": "Semcorp's customers include Chinese EV battery makers CATL and BYD, as well as Japan's Panasonic and South Korea's Samsung and LG groups.",
+            "description": "Semcorp's customers include Chinese EV battery makers CATL and BYD, as well as Japan's Panasonic and South Korea's Samsung and LG groups."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Revenue growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Revenue growth",
+            "wd_description": "Semcorp reported an 86% jump in revenue last year to a record 7.9 billion yuan, aiming to raise non-Chinese customers' share of sales volume to 40% by 2025.",
+            "description": "Semcorp reported an 86% jump in revenue last year to a record 7.9 billion yuan, aiming to raise non-Chinese customers' share of sales volume to 40% by 2025."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "BTR New Material Group's expansion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BTR New Material Group's expansion",
+            "wd_description": "BTR New Material Group plans to nearly triple annual capacity to over 400,000 tons in the medium to long term, up from 140,000-plus tons at the end of 2021.",
+            "description": "BTR New Material Group plans to nearly triple annual capacity to over 400,000 tons in the medium to long term, up from 140,000-plus tons at the end of 2021."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Jiangsu Guotai International Group's expansion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Jiangsu Guotai International Group's expansion",
+            "wd_description": "Jiangsu Guotai International Group is building new plants in Zhejiang, Fujian, and Poland.",
+            "description": "Jiangsu Guotai International Group is building new plants in Zhejiang, Fujian, and Poland."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Japanese competitors' market share decline",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Japanese competitors' market share decline",
+            "wd_description": "Japanese companies once held an advantage in battery materials but lost their lead to Chinese competitors, with Chinese suppliers now holding global market shares ranging from 62% to 81%.",
+            "description": "Japanese companies once held an advantage in battery materials but lost their lead to Chinese competitors, with Chinese suppliers now holding global market shares ranging from 62% to 81%."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "Price competition and production readiness",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Price competition and production readiness",
+            "wd_description": "Chinese suppliers succeed through price competition and readiness to take on large orders, keeping costs down by buying vast supplies of materials.",
+            "description": "Chinese suppliers succeed through price competition and readiness to take on large orders, keeping costs down by buying vast supplies of materials."
+        },
+        {
+            "@id": "ev4.10",
+            "name": "Government support",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government support",
+            "wd_description": "Chinese government support has helped the industry grow, with Semcorp receiving over 100 million yuan of profit from state subsidies each year between 2019 and 2021.",
+            "description": "Chinese government support has helped the industry grow, with Semcorp receiving over 100 million yuan of profit from state subsidies each year between 2019 and 2021."
+        },
+        {
+            "@id": "ev4.11",
+            "name": "Japanese competitors' strategies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Japanese competitors' strategies",
+            "wd_description": "Japanese companies plan to expand production in the U.S. and Europe, focusing on higher-margin applications to avoid direct competition with Chinese suppliers.",
+            "description": "Japanese companies plan to expand production in the U.S. and Europe, focusing on higher-margin applications to avoid direct competition with Chinese suppliers."
+        },
+        {
+            "@id": "ev4.12",
+            "name": "Concerns of supply glut",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Concerns of supply glut",
+            "wd_description": "China's rapid production expansion has fueled concerns of a supply glut, with predictions that production demand for some materials will far exceed global demand in 2025.",
+            "description": "China's rapid production expansion has fueled concerns of a supply glut, with predictions that production demand for some materials will far exceed global demand in 2025."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

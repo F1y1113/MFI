@@ -1,0 +1,636 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_17R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Severe flooding in Sumatra, Indonesia, January 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe flooding in Sumatra, Indonesia, January 2022",
+            "wd_description": "Torrential rains in Sumatra, Indonesia, caused severe flooding, displacing over 30,000 people and leading to the deaths of two children, with significant damage to crops and concerns about a potential COVID-19 spike.",
+            "description": "Torrential rains in Sumatra, Indonesia, caused severe flooding, displacing over 30,000 people and leading to the deaths of two children, with significant damage to crops and concerns about a potential COVID-19 spike."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Flooding in Aceh and surrounding provinces",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Flooding in Aceh and surrounding provinces",
+            "wd_description": "Heavy rain led to flooding in Aceh and surrounding provinces, submerging villages and towns, with Hatta's village underwater since the start of the year, and over 30,000 people displaced.",
+            "description": "Heavy rain led to flooding in Aceh and surrounding provinces, submerging villages and towns, with Hatta's village underwater since the start of the year, and over 30,000 people displaced."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Impact on local economy and health",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on local economy and health",
+            "wd_description": "The flooding destroyed rice crops and disrupted day laborers, devastating the local economy, while fears grow of a rise in respiratory illnesses and a potential COVID-19 spike due to crowded shelters.",
+            "description": "The flooding destroyed rice crops and disrupted day laborers, devastating the local economy, while fears grow of a rise in respiratory illnesses and a potential COVID-19 spike due to crowded shelters."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Response and mitigation efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Response and mitigation efforts",
+            "wd_description": "Local authorities declared a state of emergency, providing aid such as food and blankets, while planning for long-term solutions like the Keureuto Dam to prevent future flooding.",
+            "description": "Local authorities declared a state of emergency, providing aid such as food and blankets, while planning for long-term solutions like the Keureuto Dam to prevent future flooding."
+        },
+        {
+            "@id": "ev2",
+            "name": "Sudan Protests and Military Coup Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sudan Protests and Military Coup Impact",
+            "wd_description": "The military coup in Sudan and subsequent protests have led to widespread violence, economic disruption, and a struggle for power between the military and pro-democracy protesters.",
+            "description": "The military coup in Sudan and subsequent protests have led to widespread violence, economic disruption, and a struggle for power between the military and pro-democracy protesters."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Military Coup",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Military Coup",
+            "wd_description": "The military seized power in Sudan, disrupting a power-sharing agreement with a civilian coalition and leading to widespread unrest and protests.",
+            "description": "The military seized power in Sudan, disrupting a power-sharing agreement with a civilian coalition and leading to widespread unrest and protests."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "t: Seizure of Power",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Seizure of Power",
+            "wd_description": "The military seized control in Sudan in October, ending the power-sharing agreement with the civilian coalition.",
+            "description": "The military seized control in Sudan in October, ending the power-sharing agreement with the civilian coalition."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "t: Power-Sharing Agreement Disruption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Power-Sharing Agreement Disruption",
+            "wd_description": "The military coup disrupted a power-sharing agreement that had been in place for over two years, leading to political instability.",
+            "description": "The military coup disrupted a power-sharing agreement that had been in place for over two years, leading to political instability."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Protests and Violence",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Protests and Violence",
+            "wd_description": "Protests erupted across Sudan in response to the military coup, leading to violent clashes between protesters and security forces, resulting in numerous deaths and injuries.",
+            "description": "Protests erupted across Sudan in response to the military coup, leading to violent clashes between protesters and security forces, resulting in numerous deaths and injuries."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "t: Protests Against Coup",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Protests Against Coup",
+            "wd_description": "Protests broke out across Sudan as civilians opposed the military coup and demanded a return to civilian rule.",
+            "description": "Protests broke out across Sudan as civilians opposed the military coup and demanded a return to civilian rule."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "t: Security Force Violence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Security Force Violence",
+            "wd_description": "Security forces responded to the protests with violence, opening fire on demonstrators and leading to multiple fatalities.",
+            "description": "Security forces responded to the protests with violence, opening fire on demonstrators and leading to multiple fatalities."
+        },
+        {
+            "@id": "ev2.2.3",
+            "name": "t: Casualties and Injuries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Casualties and Injuries",
+            "wd_description": "The violent crackdown by security forces resulted in the deaths of more than 70 protesters and thousands of injuries.",
+            "description": "The violent crackdown by security forces resulted in the deaths of more than 70 protesters and thousands of injuries."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Economic and Political Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.3.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic and Political Impact",
+            "wd_description": "The military coup and subsequent unrest have had significant economic and political repercussions, including the resignation of Prime Minister Abdalla Hamdok and the reinstatement of Bashir loyalists.",
+            "description": "The military coup and subsequent unrest have had significant economic and political repercussions, including the resignation of Prime Minister Abdalla Hamdok and the reinstatement of Bashir loyalists."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "t: Economic Crisis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Economic Crisis",
+            "wd_description": "The economic gains made during the power-sharing transition have been forfeited, exacerbating the economic crisis in Sudan.",
+            "description": "The economic gains made during the power-sharing transition have been forfeited, exacerbating the economic crisis in Sudan."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "t: Political Instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Political Instability",
+            "wd_description": "The coup has led to significant political instability, with ongoing power struggles between the military and pro-democracy protesters.",
+            "description": "The coup has led to significant political instability, with ongoing power struggles between the military and pro-democracy protesters."
+        },
+        {
+            "@id": "ev2.3.3",
+            "name": "t: Resignation of PM",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Resignation of PM",
+            "wd_description": "Prime Minister Abdalla Hamdok resigned after realizing he could not work without political backing, further deepening the political crisis.",
+            "description": "Prime Minister Abdalla Hamdok resigned after realizing he could not work without political backing, further deepening the political crisis."
+        },
+        {
+            "@id": "ev2.3.4",
+            "name": "t: Reinstatement of Loyalists",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Reinstatement of Loyalists",
+            "wd_description": "The military ruler Gen Abdel Fattah al-Burhan appointed a caretaker administration that includes Bashir loyalists to steer the country to elections.",
+            "description": "The military ruler Gen Abdel Fattah al-Burhan appointed a caretaker administration that includes Bashir loyalists to steer the country to elections."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "International Response",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev2.4.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "The international community, including the UN and the Friends of Sudan group, has been involved in diplomatic efforts to resolve the crisis, but with limited success and varying levels of faith from Sudanese protesters.",
+            "description": "The international community, including the UN and the Friends of Sudan group, has been involved in diplomatic efforts to resolve the crisis, but with limited success and varying levels of faith from Sudanese protesters."
+        },
+        {
+            "@id": "ev2.4.1",
+            "name": "t: Diplomatic Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Diplomatic Efforts",
+            "wd_description": "The UN and the Friends of Sudan, which includes the US, UK, European states, and junta allies Saudi Arabia and the UAE, have been engaged in efforts to find a solution to the crisis.",
+            "description": "The UN and the Friends of Sudan, which includes the US, UK, European states, and junta allies Saudi Arabia and the UAE, have been engaged in efforts to find a solution to the crisis."
+        },
+        {
+            "@id": "ev2.4.2",
+            "name": "t: Protests' View on International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Protests' View on International Response",
+            "wd_description": "Many Sudanese protesters have little faith in the international efforts, feeling that the military should have no role in the government.",
+            "description": "Many Sudanese protesters have little faith in the international efforts, feeling that the military should have no role in the government."
+        },
+        {
+            "@id": "ev3",
+            "name": "North Korea's Missile Test and Its Implications",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korea's Missile Test and Its Implications",
+            "wd_description": "North Korea conducted its largest-ever missile test, launching the Hwasong-17 intercontinental ballistic missile (ICBM) which demonstrates its nuclear capabilities and poses a significant challenge to the US and its allies.",
+            "description": "North Korea conducted its largest-ever missile test, launching the Hwasong-17 intercontinental ballistic missile (ICBM) which demonstrates its nuclear capabilities and poses a significant challenge to the US and its allies."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Missile Test",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Missile Test",
+            "wd_description": "North Korea launched the Hwasong-17 ICBM, the largest liquid-fuelled missile ever launched from a road-mobile launcher, capable of reaching targets 15,000 kilometers away.",
+            "description": "North Korea launched the Hwasong-17 ICBM, the largest liquid-fuelled missile ever launched from a road-mobile launcher, capable of reaching targets 15,000 kilometers away."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Missile Launch Details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Missile Launch Details",
+            "wd_description": "The missile flew higher and longer than any previous North Korean tests before crashing into the sea west of Japan.",
+            "description": "The missile flew higher and longer than any previous North Korean tests before crashing into the sea west of Japan."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: Kim Jong Un's Statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Kim Jong Un's Statement",
+            "wd_description": "Kim Jong Un stated that the test was a demonstration of North Korea's nuclear capabilities to deter US military actions and due to escalating military tensions.",
+            "description": "Kim Jong Un stated that the test was a demonstration of North Korea's nuclear capabilities to deter US military actions and due to escalating military tensions."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: Missile Specifications",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Missile Specifications",
+            "wd_description": "Analysts noted that the Hwasong-17 is the largest liquid-fuelled missile launched from a road-mobile launcher and could reach the entire US mainland with a warhead weighing less than a tonne.",
+            "description": "Analysts noted that the Hwasong-17 is the largest liquid-fuelled missile launched from a road-mobile launcher and could reach the entire US mainland with a warhead weighing less than a tonne."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Implications for the US and Allies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Implications for the US and Allies",
+            "wd_description": "The missile test poses a direct challenge to the US amidst the Russia-Ukraine conflict and raises the prospect of a new crisis with the election of a conservative administration in South Korea.",
+            "description": "The missile test poses a direct challenge to the US amidst the Russia-Ukraine conflict and raises the prospect of a new crisis with the election of a conservative administration in South Korea."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: US Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: US Response",
+            "wd_description": "The US condemned the missile test, with US Secretary of Defence discussing response measures with counterparts in South Korea and Japan, and announced sanctions on entities supporting North Korea's missile program.",
+            "description": "The US condemned the missile test, with US Secretary of Defence discussing response measures with counterparts in South Korea and Japan, and announced sanctions on entities supporting North Korea's missile program."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: South Korea's Reaction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: South Korea's Reaction",
+            "wd_description": "South Korea's President-elect Yoon Suk-yeol condemned the test and responded with live-fire drills of its own missiles, indicating a revival of tensions.",
+            "description": "South Korea's President-elect Yoon Suk-yeol condemned the test and responded with live-fire drills of its own missiles, indicating a revival of tensions."
+        },
+        {
+            "@id": "ev3.2.3",
+            "name": "t: Potential Crisis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Potential Crisis",
+            "wd_description": "The missile test raises the prospect of a new crisis with the election of a conservative administration in South Korea, which has pledged a stronger military strategy against Pyongyang.",
+            "description": "The missile test raises the prospect of a new crisis with the election of a conservative administration in South Korea, which has pledged a stronger military strategy against Pyongyang."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "International Reactions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "International Reactions",
+            "wd_description": "The missile test drew condemnation from international leaders, including the US and Japan, and prompted discussions on strengthening defense cooperation among allies.",
+            "description": "The missile test drew condemnation from international leaders, including the US and Japan, and prompted discussions on strengthening defense cooperation among allies."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Condemnation from Leaders",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Condemnation from Leaders",
+            "wd_description": "Leaders from the US and Japan condemned North Korea's missile test.",
+            "description": "Leaders from the US and Japan condemned North Korea's missile test."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Defense Cooperation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Defense Cooperation",
+            "wd_description": "US Secretary of Defence held discussions with South Korea and Japan to strengthen defense cooperation in response to North Korean missile activities.",
+            "description": "US Secretary of Defence held discussions with South Korea and Japan to strengthen defense cooperation in response to North Korean missile activities."
+        },
+        {
+            "@id": "ev4",
+            "name": "Indonesia EV Battery Supply Chain Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Indonesia EV Battery Supply Chain Development",
+            "wd_description": "Indonesia aims to develop an integrated electric vehicle (EV) supply chain to become an EV battery producer and exporter. The goal is to make batteries with a capacity of 140 GWh by 2030, leveraging its nickel reserves and attracting foreign investments in battery production.",
+            "description": "Indonesia aims to develop an integrated electric vehicle (EV) supply chain to become an EV battery producer and exporter. The goal is to make batteries with a capacity of 140 GWh by 2030, leveraging its nickel reserves and attracting foreign investments in battery production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Upstream Supply Chain Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Upstream Supply Chain Development",
+            "wd_description": "Indonesia leverages its abundant nickel reserves and applies restrictive measures to attract foreign investments in nickel processing. The country imposed an export ban on unprocessed nickel ore to encourage local processing.",
+            "description": "Indonesia leverages its abundant nickel reserves and applies restrictive measures to attract foreign investments in nickel processing. The country imposed an export ban on unprocessed nickel ore to encourage local processing."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Nickel Processing Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.1.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "t: Nickel Processing Projects",
+            "wd_description": "Several nickel processing projects have started in Indonesia, mainly due to Chinese investments. These projects will be key to future global nickel supply for batteries.",
+            "description": "Several nickel processing projects have started in Indonesia, mainly due to Chinese investments. These projects will be key to future global nickel supply for batteries."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Export Ban on Unprocessed Nickel",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Export Ban on Unprocessed Nickel",
+            "wd_description": "The export ban on unprocessed nickel ore was imposed to encourage local processing and add value to the mined nickel ore.",
+            "description": "The export ban on unprocessed nickel ore was imposed to encourage local processing and add value to the mined nickel ore."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Midstream and Downstream Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Midstream and Downstream Development",
+            "wd_description": "Indonesia offers incentives for EV battery producers, EV manufacturers, and EV buyers to develop the domestic EV market and reduce greenhouse gas emissions. The government mandates the development of a domestic EV industry as a national priority.",
+            "description": "Indonesia offers incentives for EV battery producers, EV manufacturers, and EV buyers to develop the domestic EV market and reduce greenhouse gas emissions. The government mandates the development of a domestic EV industry as a national priority."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Incentives for EV Industry",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.2.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "t: Incentives for EV Industry",
+            "wd_description": "The government offers fiscal and non-fiscal incentives for companies in the EV industry, including tax exemptions, import duty exemptions, and reduced electricity tariffs at charging stations.",
+            "description": "The government offers fiscal and non-fiscal incentives for companies in the EV industry, including tax exemptions, import duty exemptions, and reduced electricity tariffs at charging stations."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Local Content Requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Local Content Requirements",
+            "wd_description": "The government requires EV manufacturers to use domestically manufactured goods, increasing to 80 percent by 2030, to promote local production.",
+            "description": "The government requires EV manufacturers to use domestically manufactured goods, increasing to 80 percent by 2030, to promote local production."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "t: EV Adoption Targets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: EV Adoption Targets",
+            "wd_description": "Indonesia has set a target of having 13 million electric motorcycles and 2.2 million electric cars on the roads by 2030 to reduce greenhouse gas emissions.",
+            "description": "Indonesia has set a target of having 13 million electric motorcycles and 2.2 million electric cars on the roads by 2030 to reduce greenhouse gas emissions."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Investment and Partnerships",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Investment and Partnerships",
+            "wd_description": "Indonesia's ability to reach its goal of producing 140 GWh by 2030 depends on attracting substantial foreign investment. South Korea's Hyundai and LGES are building the country's first EV battery plant, and China's CATL plans to invest $5 billion in Indonesia.",
+            "description": "Indonesia's ability to reach its goal of producing 140 GWh by 2030 depends on attracting substantial foreign investment. South Korea's Hyundai and LGES are building the country's first EV battery plant, and China's CATL plans to invest $5 billion in Indonesia."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Hyundai and LGES Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hyundai and LGES Investment",
+            "wd_description": "Hyundai and LGES are building Indonesia’s first EV battery plant with a planned annual production capacity of 10 GWh, scheduled to start production in 2024.",
+            "description": "Hyundai and LGES are building Indonesia’s first EV battery plant with a planned annual production capacity of 10 GWh, scheduled to start production in 2024."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: CATL Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: CATL Investment",
+            "wd_description": "China’s CATL plans to invest $5 billion in Indonesia, with its recycling arm Brunp already investing in a nickel processing project.",
+            "description": "China’s CATL plans to invest $5 billion in Indonesia, with its recycling arm Brunp already investing in a nickel processing project."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Tesla Investment Consideration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Tesla Investment Consideration",
+            "wd_description": "Tesla has shown interest in investing in Indonesia, but concerns over ESG issues and the challenging business environment have made the company reluctant.",
+            "description": "Tesla has shown interest in investing in Indonesia, but concerns over ESG issues and the challenging business environment have made the company reluctant."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

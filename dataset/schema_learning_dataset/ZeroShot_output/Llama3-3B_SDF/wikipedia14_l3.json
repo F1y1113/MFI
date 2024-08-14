@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikipedia14_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Global low-carbon contracts, along with energy and environmental crises",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global low-carbon contracts, along with energy and environmental crises",
+            "wd_description": "A detailed 2-3 sentence explanation of the event, set the value of this level to 'xxxx' if this level is empty!!!",
+            "description": "A detailed 2-3 sentence explanation of the event, set the value of this level to 'xxxx' if this level is empty!!!"
+        },
+        {
+            "@id": "xxxx",
+            "name": "xxxx",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "xxxx",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

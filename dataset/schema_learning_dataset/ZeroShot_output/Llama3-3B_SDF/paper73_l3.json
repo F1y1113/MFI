@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper73_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "China's emergence as a prominent player",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's emergence as a prominent player",
+            "wd_description": "Over the past decade, China has emerged as a prominent player in [no specific field mentioned]",
+            "description": "Over the past decade, China has emerged as a prominent player in [no specific field mentioned]"
+        },
+        {
+            "@id": "xxxx",
+            "name": "none",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "none",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

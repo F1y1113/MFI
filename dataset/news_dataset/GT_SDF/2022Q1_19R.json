@@ -1,0 +1,585 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_19R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Severe flooding in Sumatra, Indonesia, January 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe flooding in Sumatra, Indonesia, January 2022",
+            "wd_description": "Torrential rains in Sumatra, Indonesia, caused severe flooding, displacing over 30,000 people and leading to the deaths of two children, with significant damage to crops and concerns about a potential COVID-19 spike.",
+            "description": "Torrential rains in Sumatra, Indonesia, caused severe flooding, displacing over 30,000 people and leading to the deaths of two children, with significant damage to crops and concerns about a potential COVID-19 spike."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Flooding in Aceh and surrounding provinces",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Flooding in Aceh and surrounding provinces",
+            "wd_description": "Heavy rain led to flooding in Aceh and surrounding provinces, submerging villages and towns, with Hatta's village underwater since the start of the year, and over 30,000 people displaced.",
+            "description": "Heavy rain led to flooding in Aceh and surrounding provinces, submerging villages and towns, with Hatta's village underwater since the start of the year, and over 30,000 people displaced."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Impact on local economy and health",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on local economy and health",
+            "wd_description": "The flooding destroyed rice crops and disrupted day laborers, devastating the local economy, while fears grow of a rise in respiratory illnesses and a potential COVID-19 spike due to crowded shelters.",
+            "description": "The flooding destroyed rice crops and disrupted day laborers, devastating the local economy, while fears grow of a rise in respiratory illnesses and a potential COVID-19 spike due to crowded shelters."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Response and mitigation efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Response and mitigation efforts",
+            "wd_description": "Local authorities declared a state of emergency, providing aid such as food and blankets, while planning for long-term solutions like the Keureuto Dam to prevent future flooding.",
+            "description": "Local authorities declared a state of emergency, providing aid such as food and blankets, while planning for long-term solutions like the Keureuto Dam to prevent future flooding."
+        },
+        {
+            "@id": "ev2",
+            "name": "Potential Russian Invasion of Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Potential Russian Invasion of Ukraine",
+            "wd_description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation.",
+            "description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "US warnings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "US warnings",
+            "wd_description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February.",
+            "description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "t: Biden's statements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden's statements",
+            "wd_description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky.",
+            "description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "t: White House statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: White House statement",
+            "wd_description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine.",
+            "description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev2.1.3",
+            "name": "t: National Security Council spokesperson",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: National Security Council spokesperson",
+            "wd_description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion.",
+            "description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Russian troop build-up",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian troop build-up",
+            "wd_description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion.",
+            "description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "diplomatic efforts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "diplomatic efforts",
+            "wd_description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders.",
+            "description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders."
+        },
+        {
+            "@id": "ev2.3.1",
+            "name": "t: Biden-Zelensky call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden-Zelensky call",
+            "wd_description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis.",
+            "description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis."
+        },
+        {
+            "@id": "ev2.3.2",
+            "name": "t: Macron-Putin call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Macron-Putin call",
+            "wd_description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis.",
+            "description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis."
+        },
+        {
+            "@id": "ev2.3.3",
+            "name": "t: US-Russia negotiations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: US-Russia negotiations",
+            "wd_description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO.",
+            "description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "energy implications",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "energy implications",
+            "wd_description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany.",
+            "description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany."
+        },
+        {
+            "@id": "ev2.4.1",
+            "name": "t: Nord Stream 2 project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nord Stream 2 project",
+            "wd_description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine.",
+            "description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev2.4.2",
+            "name": "t: potential sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential sanctions",
+            "wd_description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs.",
+            "description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs."
+        },
+        {
+            "@id": "ev3",
+            "name": "Sudan Protests and Military Coup Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sudan Protests and Military Coup Impact",
+            "wd_description": "The military coup in Sudan and subsequent protests have led to widespread violence, economic disruption, and a struggle for power between the military and pro-democracy protesters.",
+            "description": "The military coup in Sudan and subsequent protests have led to widespread violence, economic disruption, and a struggle for power between the military and pro-democracy protesters."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Military Coup",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Military Coup",
+            "wd_description": "The military seized power in Sudan, disrupting a power-sharing agreement with a civilian coalition and leading to widespread unrest and protests.",
+            "description": "The military seized power in Sudan, disrupting a power-sharing agreement with a civilian coalition and leading to widespread unrest and protests."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Seizure of Power",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Seizure of Power",
+            "wd_description": "The military seized control in Sudan in October, ending the power-sharing agreement with the civilian coalition.",
+            "description": "The military seized control in Sudan in October, ending the power-sharing agreement with the civilian coalition."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: Power-Sharing Agreement Disruption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Power-Sharing Agreement Disruption",
+            "wd_description": "The military coup disrupted a power-sharing agreement that had been in place for over two years, leading to political instability.",
+            "description": "The military coup disrupted a power-sharing agreement that had been in place for over two years, leading to political instability."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Protests and Violence",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.2.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Protests and Violence",
+            "wd_description": "Protests erupted across Sudan in response to the military coup, leading to violent clashes between protesters and security forces, resulting in numerous deaths and injuries.",
+            "description": "Protests erupted across Sudan in response to the military coup, leading to violent clashes between protesters and security forces, resulting in numerous deaths and injuries."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: Protests Against Coup",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Protests Against Coup",
+            "wd_description": "Protests broke out across Sudan as civilians opposed the military coup and demanded a return to civilian rule.",
+            "description": "Protests broke out across Sudan as civilians opposed the military coup and demanded a return to civilian rule."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: Security Force Violence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Security Force Violence",
+            "wd_description": "Security forces responded to the protests with violence, opening fire on demonstrators and leading to multiple fatalities.",
+            "description": "Security forces responded to the protests with violence, opening fire on demonstrators and leading to multiple fatalities."
+        },
+        {
+            "@id": "ev3.2.3",
+            "name": "t: Casualties and Injuries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Casualties and Injuries",
+            "wd_description": "The violent crackdown by security forces resulted in the deaths of more than 70 protesters and thousands of injuries.",
+            "description": "The violent crackdown by security forces resulted in the deaths of more than 70 protesters and thousands of injuries."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Economic and Political Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.3.4",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic and Political Impact",
+            "wd_description": "The military coup and subsequent unrest have had significant economic and political repercussions, including the resignation of Prime Minister Abdalla Hamdok and the reinstatement of Bashir loyalists.",
+            "description": "The military coup and subsequent unrest have had significant economic and political repercussions, including the resignation of Prime Minister Abdalla Hamdok and the reinstatement of Bashir loyalists."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Economic Crisis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Economic Crisis",
+            "wd_description": "The economic gains made during the power-sharing transition have been forfeited, exacerbating the economic crisis in Sudan.",
+            "description": "The economic gains made during the power-sharing transition have been forfeited, exacerbating the economic crisis in Sudan."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Political Instability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Political Instability",
+            "wd_description": "The coup has led to significant political instability, with ongoing power struggles between the military and pro-democracy protesters.",
+            "description": "The coup has led to significant political instability, with ongoing power struggles between the military and pro-democracy protesters."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: Resignation of PM",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Resignation of PM",
+            "wd_description": "Prime Minister Abdalla Hamdok resigned after realizing he could not work without political backing, further deepening the political crisis.",
+            "description": "Prime Minister Abdalla Hamdok resigned after realizing he could not work without political backing, further deepening the political crisis."
+        },
+        {
+            "@id": "ev3.3.4",
+            "name": "t: Reinstatement of Loyalists",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Reinstatement of Loyalists",
+            "wd_description": "The military ruler Gen Abdel Fattah al-Burhan appointed a caretaker administration that includes Bashir loyalists to steer the country to elections.",
+            "description": "The military ruler Gen Abdel Fattah al-Burhan appointed a caretaker administration that includes Bashir loyalists to steer the country to elections."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "International Response",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.4.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev3.4.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "The international community, including the UN and the Friends of Sudan group, has been involved in diplomatic efforts to resolve the crisis, but with limited success and varying levels of faith from Sudanese protesters.",
+            "description": "The international community, including the UN and the Friends of Sudan group, has been involved in diplomatic efforts to resolve the crisis, but with limited success and varying levels of faith from Sudanese protesters."
+        },
+        {
+            "@id": "ev3.4.1",
+            "name": "t: Diplomatic Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Diplomatic Efforts",
+            "wd_description": "The UN and the Friends of Sudan, which includes the US, UK, European states, and junta allies Saudi Arabia and the UAE, have been engaged in efforts to find a solution to the crisis.",
+            "description": "The UN and the Friends of Sudan, which includes the US, UK, European states, and junta allies Saudi Arabia and the UAE, have been engaged in efforts to find a solution to the crisis."
+        },
+        {
+            "@id": "ev3.4.2",
+            "name": "t: Protests' View on International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Protests' View on International Response",
+            "wd_description": "Many Sudanese protesters have little faith in the international efforts, feeling that the military should have no role in the government.",
+            "description": "Many Sudanese protesters have little faith in the international efforts, feeling that the military should have no role in the government."
+        },
+        {
+            "@id": "ev4",
+            "name": "GM's Transition to Electric Vehicles",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.9
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "GM's Transition to Electric Vehicles",
+            "wd_description": "GM's first all-electric Cadillac Lyriq rolled off the assembly line, representing a $35 billion investment in EV transition, amidst global challenges such as the Russia-Ukraine war affecting commodity markets, and supply chain disruptions from the pandemic.",
+            "description": "GM's first all-electric Cadillac Lyriq rolled off the assembly line, representing a $35 billion investment in EV transition, amidst global challenges such as the Russia-Ukraine war affecting commodity markets, and supply chain disruptions from the pandemic."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Launch of Cadillac Lyriq",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Launch of Cadillac Lyriq",
+            "wd_description": "GM launched its first all-electric Cadillac Lyriq, nine months earlier than scheduled, signifying the automaker's rapid move towards an all-electric lineup by 2035.",
+            "description": "GM launched its first all-electric Cadillac Lyriq, nine months earlier than scheduled, signifying the automaker's rapid move towards an all-electric lineup by 2035."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Global Commodity Market Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Global Commodity Market Impact",
+            "wd_description": "Russia’s war on Ukraine caused significant volatility in global commodities markets, particularly nickel, essential for EV batteries, highlighting the vulnerability of EV supply chains to price shocks.",
+            "description": "Russia’s war on Ukraine caused significant volatility in global commodities markets, particularly nickel, essential for EV batteries, highlighting the vulnerability of EV supply chains to price shocks."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Nickel Price Spike",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nickel Price Spike",
+            "wd_description": "The price of nickel surged by 250 percent due to the Russia-Ukraine conflict, causing chaos in the commodities market and raising the potential cost of EVs by as much as $2,000.",
+            "description": "The price of nickel surged by 250 percent due to the Russia-Ukraine conflict, causing chaos in the commodities market and raising the potential cost of EVs by as much as $2,000."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Supply Chain Disruptions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Supply Chain Disruptions",
+            "wd_description": "The ongoing pandemic has caused significant supply chain disruptions, exacerbated by the recent geopolitical tensions, affecting the availability of critical minerals for EV production.",
+            "description": "The ongoing pandemic has caused significant supply chain disruptions, exacerbated by the recent geopolitical tensions, affecting the availability of critical minerals for EV production."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "GM's EV Strategy and Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "GM's EV Strategy and Challenges",
+            "wd_description": "GM is investing $35 billion in its EV program and is focused on securing a diverse supply chain for critical minerals, building new battery plants, and developing recycling processes amidst global supply challenges.",
+            "description": "GM is investing $35 billion in its EV program and is focused on securing a diverse supply chain for critical minerals, building new battery plants, and developing recycling processes amidst global supply challenges."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Ultium Battery Joint Venture",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Ultium Battery Joint Venture",
+            "wd_description": "GM and LG Energy Solution's joint venture, Ultium, aims to produce cost-effective and resource-efficient batteries for GM's EVs, with significant reductions in cobalt usage.",
+            "description": "GM and LG Energy Solution's joint venture, Ultium, aims to produce cost-effective and resource-efficient batteries for GM's EVs, with significant reductions in cobalt usage."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Investment in New Battery Plants",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Investment in New Battery Plants",
+            "wd_description": "GM is building new Ultium battery plants, including a $2.3 billion facility at Spring Hill and another in Lordstown, Ohio, to ensure a stable supply of EV batteries.",
+            "description": "GM is building new Ultium battery plants, including a $2.3 billion facility at Spring Hill and another in Lordstown, Ohio, to ensure a stable supply of EV batteries."
+        },
+        {
+            "@id": "ev4.3.3",
+            "name": "t: Battery Recycling Initiatives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Battery Recycling Initiatives",
+            "wd_description": "GM is partnering with Li-Cycle to develop processes for recycling battery materials, aiming to reuse 95 percent of materials in new batteries or other industries.",
+            "description": "GM is partnering with Li-Cycle to develop processes for recycling battery materials, aiming to reuse 95 percent of materials in new batteries or other industries."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

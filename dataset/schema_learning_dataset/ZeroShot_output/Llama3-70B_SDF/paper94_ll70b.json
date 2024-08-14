@@ -1,0 +1,147 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper94_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "RLB supply chain dominated by LIB",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "",
+            "wd_node": "",
+            "wd_label": "RLB supply chain dominated by LIB",
+            "wd_description": "The RLB supply chain is dominated by LIB.",
+            "description": "The RLB supply chain is dominated by LIB."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Design and chemistry challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper94R/Event/qUFPaxeEN/Challenges-in-Durability--Reliability--and-Safety",
+                    "importance": 1
+                },
+                {
+                    "child": "paper94R/Event/3jLIg0CD5V/Failure-Mode-and-Effect-Analysis-for-RLB",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Design and chemistry challenges",
+            "wd_description": "The pursuit of newer designs and chemistries for LIBs faces challenges in durability, reliability, and safety, with a need for precise control of material properties.",
+            "description": "The pursuit of newer designs and chemistries for LIBs faces challenges in durability, reliability, and safety, with a need for precise control of material properties."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Durability challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Durability challenges",
+            "wd_description": "Durability issues arise from the high energy content and the complexity of balancing various energies in LIBs.",
+            "description": "Durability issues arise from the high energy content and the complexity of balancing various energies in LIBs."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Reliability challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Reliability challenges",
+            "wd_description": "Reliability issues in LIBs often stem from localized events that are difficult to detect, especially in the early stages.",
+            "description": "Reliability issues in LIBs often stem from localized events that are difficult to detect, especially in the early stages."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Safety challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Safety challenges",
+            "wd_description": "Safety issues in LIBs are a concern due to the high energy content and the difficulty in controlling material properties accurately.",
+            "description": "Safety issues in LIBs are a concern due to the high energy content and the difficulty in controlling material properties accurately."
+        },
+        {
+            "@id": "paper94R/Event/qUFPaxeEN/Challenges-in-Durability--Reliability--and-Safety",
+            "name": "Challenges in Durability  Reliability  and Safety",
+            "ta1explanation": "",
+            "description": "In the pursuit of new designs and chemistries, challenges in durability, reliability, and safety arise due to the complex nature of LIB/RLB systems, which involve balancing chemical, thermal, mechanical, and electrical energies.",
+            "wd_node": "paper94",
+            "wd_label": "paper94",
+            "participants": []
+        },
+        {
+            "@id": "paper94R/Event/3jLIg0CD5V/Failure-Mode-and-Effect-Analysis-for-RLB",
+            "name": "Failure Mode and Effect Analysis for RLB",
+            "ta1explanation": "",
+            "description": "Building FMEA-based diagnosis and prognosis capability for RLB operation and the knowledge base for the entire supply chain is proposed to mitigate risks and enhance reliability and safety.",
+            "wd_node": "paper94",
+            "wd_label": "paper94",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.1"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

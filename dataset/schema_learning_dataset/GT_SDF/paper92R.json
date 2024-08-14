@@ -1,0 +1,587 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper92R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-ion battery life cycle management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-ion battery life cycle management",
+            "wd_description": "The most critical phases of the life cycle of lithium-ion batteries are managed in a few key countries, focusing on raw material extraction, production, and recycling.",
+            "description": "The most critical phases of the life cycle of lithium-ion batteries are managed in a few key countries, focusing on raw material extraction, production, and recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "DRC cobalt supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "DRC cobalt supply",
+            "wd_description": "The Democratic Republic of Congo (DRC) is the main provider of cobalt, a critical raw material for lithium-ion battery production.",
+            "description": "The Democratic Republic of Congo (DRC) is the main provider of cobalt, a critical raw material for lithium-ion battery production."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Cobalt extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt extraction",
+            "wd_description": "Cobalt extraction in the DRC is a critical component of the lithium-ion battery supply chain.",
+            "description": "Cobalt extraction in the DRC is a critical component of the lithium-ion battery supply chain."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Chile lithium supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Chile lithium supply",
+            "wd_description": "Chile is the main provider of lithium, another essential raw material for lithium-ion batteries.",
+            "description": "Chile is the main provider of lithium, another essential raw material for lithium-ion batteries."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Lithium extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium extraction",
+            "wd_description": "Lithium extraction in Chile is a vital part of the lithium-ion battery supply chain.",
+            "description": "Lithium extraction in Chile is a vital part of the lithium-ion battery supply chain."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "China graphite and battery supply",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper92/Event/2UVyrMIPQF/China-Role-in-Battery-Supply-",
+                    "importance": 1
+                },
+                {
+                    "child": "paper92/Event/3ojCj6wnu8/natural-graphite"
+                },
+                {
+                    "child": "paper92/Event/GUoAe3fF3/synthetic-graphite"
+                },
+                {
+                    "child": "paper92/Event/EQ4A59Dqe/Lithium-ion-cells"
+                },
+                {
+                    "child": "paper92/Event/vuFevxQab/Lithium-ion-batteries"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China graphite and battery supply",
+            "wd_description": "China is the leading provider of synthetic and natural graphite, refined cobalt, and lithium-ion cells and batteries.",
+            "description": "China is the leading provider of synthetic and natural graphite, refined cobalt, and lithium-ion cells and batteries."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Graphite supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Graphite supply",
+            "wd_description": "China is the main provider of synthetic and natural graphite used in lithium-ion batteries.",
+            "description": "China is the main provider of synthetic and natural graphite used in lithium-ion batteries."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Refined cobalt supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Refined cobalt supply",
+            "wd_description": "China is a major supplier of refined cobalt, an important component in lithium-ion batteries.",
+            "description": "China is a major supplier of refined cobalt, an important component in lithium-ion batteries."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Battery production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery production",
+            "wd_description": "China leads in the production of lithium-ion cells and batteries.",
+            "description": "China leads in the production of lithium-ion cells and batteries."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "South Korea battery recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South Korea battery recycling",
+            "wd_description": "South Korea is at the forefront of battery recycling technology.",
+            "description": "South Korea is at the forefront of battery recycling technology."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "Recycling technology",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling technology",
+            "wd_description": "South Korea leads in the development and implementation of battery recycling technology.",
+            "description": "South Korea leads in the development and implementation of battery recycling technology."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "OEM recycling efforts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "OEM recycling efforts",
+            "wd_description": "Some original equipment manufacturers (OEMs) are implementing their own recycling programs.",
+            "description": "Some original equipment manufacturers (OEMs) are implementing their own recycling programs."
+        },
+        {
+            "@id": "ev1.5.1",
+            "name": "OEM initiatives",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "OEM initiatives",
+            "wd_description": "OEMs are developing and implementing their own battery recycling initiatives.",
+            "description": "OEMs are developing and implementing their own battery recycling initiatives."
+        },
+        {
+            "@id": "ev2",
+            "name": "European Commission on critical raw materials",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "paper92/Event/28TEBSQOu0/European-Commission-Designation",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "European Commission on critical raw materials",
+            "wd_description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production, highlighting the need for a sustainable supply chain, improved cell performance and durability, and innovation in recycling technology.",
+            "description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production, highlighting the need for a sustainable supply chain, improved cell performance and durability, and innovation in recycling technology."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Critical raw materials designation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Critical raw materials designation",
+            "wd_description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production.",
+            "description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "Cobalt",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt",
+            "wd_description": "Cobalt is designated as a critical raw material by the European Commission for its importance in battery production.",
+            "description": "Cobalt is designated as a critical raw material by the European Commission for its importance in battery production."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "Lithium",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium",
+            "wd_description": "Lithium is designated as a critical raw material by the European Commission for its role in battery production.",
+            "description": "Lithium is designated as a critical raw material by the European Commission for its role in battery production."
+        },
+        {
+            "@id": "ev2.1.3",
+            "name": "Graphite",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Graphite",
+            "wd_description": "Graphite is designated as a critical raw material by the European Commission for its importance in battery production.",
+            "description": "Graphite is designated as a critical raw material by the European Commission for its importance in battery production."
+        },
+        {
+            "@id": "ev2.1.4",
+            "name": "Nickel",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nickel",
+            "wd_description": "Nickel is designated as a critical raw material by the European Commission for its role in battery production.",
+            "description": "Nickel is designated as a critical raw material by the European Commission for its role in battery production."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Sustainable supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sustainable supply chain",
+            "wd_description": "The European Commission emphasizes the need for a sustainable supply chain for critical raw materials used in battery production.",
+            "description": "The European Commission emphasizes the need for a sustainable supply chain for critical raw materials used in battery production."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Cell performance and durability",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cell performance and durability",
+            "wd_description": "The European Commission stresses the importance of improved cell performance and durability in battery production.",
+            "description": "The European Commission stresses the importance of improved cell performance and durability in battery production."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Recycling technology innovation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling technology innovation",
+            "wd_description": "The European Commission calls for innovation in recycling technology to support sustainable battery production.",
+            "description": "The European Commission calls for innovation in recycling technology to support sustainable battery production."
+        },
+        {
+            "@id": "paper92/Event/2UVyrMIPQF/China-Role-in-Battery-Supply-",
+            "name": "China Role in Battery Supply ",
+            "ta1explanation": "",
+            "description": "China is the main provider of synthetic and natural graphite, refined cobalt, and lithium-ion cells and batteries.",
+            "wd_node": "wd:Q2",
+            "wd_label": "Earth",
+            "wd_description": "third planet from the Sun in the Solar System",
+            "participants": []
+        },
+        {
+            "@id": "paper92/Event/28TEBSQOu0/European-Commission-Designation",
+            "name": "European Commission Designation",
+            "ta1explanation": "",
+            "description": "The European Commission has designated cobalt, lithium, graphite, and nickel as critical raw materials for battery production.",
+            "wd_node": "wd:Q2",
+            "wd_label": "Earth",
+            "wd_description": "third planet from the Sun in the Solar System",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "paper92/Event/2FJjcejlts/Importance-of-Sustainable-Supply-Chain",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and"
+        },
+        {
+            "@id": "paper92/Event/2FJjcejlts/Importance-of-Sustainable-Supply-Chain",
+            "name": "Importance of Sustainable Supply Chain",
+            "ta1explanation": "",
+            "description": "The European Commission urges for a sustainable supply chain in the battery production process.",
+            "wd_node": "wd:Q2",
+            "wd_label": "Earth",
+            "wd_description": "third planet from the Sun in the Solar System",
+            "participants": []
+        },
+        {
+            "@id": "paper92/Event/3ojCj6wnu8/natural-graphite",
+            "name": "natural graphite",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper92",
+            "wd_label": "paper92",
+            "participants": []
+        },
+        {
+            "@id": "paper92/Event/GUoAe3fF3/synthetic-graphite",
+            "name": "synthetic graphite",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper92",
+            "wd_label": "paper92",
+            "participants": []
+        },
+        {
+            "@id": "paper92/Event/EQ4A59Dqe/Lithium-ion-cells",
+            "name": "Lithium ion cells",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper92",
+            "wd_label": "paper92",
+            "participants": []
+        },
+        {
+            "@id": "paper92/Event/vuFevxQab/Lithium-ion-batteries",
+            "name": "Lithium ion batteries",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper92",
+            "wd_label": "paper92",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        }
+    ],
+    "entities": []
+}

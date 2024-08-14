@@ -1,0 +1,262 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q4_26R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Devastating wildfires in Canada in 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Devastating wildfires in Canada in 2023",
+            "wd_description": "The 2023 wildfires in Canada, exacerbated by the climate crisis, consumed a record 45.7 million acres of boreal forests, with far-reaching effects that extended beyond Canada’s borders.",
+            "description": "The 2023 wildfires in Canada, exacerbated by the climate crisis, consumed a record 45.7 million acres of boreal forests, with far-reaching effects that extended beyond Canada’s borders."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Climate crisis impact on wildfires",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Climate crisis impact on wildfires",
+            "wd_description": "The climate crisis has intensified and increased the size of wildfires in Canada through altered precipitation patterns and elevated temperatures.",
+            "description": "The climate crisis has intensified and increased the size of wildfires in Canada through altered precipitation patterns and elevated temperatures."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Destruction of boreal forests",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Destruction of boreal forests",
+            "wd_description": "The wildfires consumed 45.7 million acres of boreal forests, threatening vital carbon storage and species habitats, with uncertainty surrounding the recovery of fir and spruce trees.",
+            "description": "The wildfires consumed 45.7 million acres of boreal forests, threatening vital carbon storage and species habitats, with uncertainty surrounding the recovery of fir and spruce trees."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Smoke impact beyond Canada",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Smoke impact beyond Canada",
+            "wd_description": "The wildfire smoke spread beyond Canada, creating dystopian conditions in New York City and hazy skies in Florida, demonstrating the far-reaching impact of the fires.",
+            "description": "The wildfire smoke spread beyond Canada, creating dystopian conditions in New York City and hazy skies in Florida, demonstrating the far-reaching impact of the fires."
+        },
+        {
+            "@id": "ev2",
+            "name": "Record-breaking global temperatures in September 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Record-breaking global temperatures in September 2023",
+            "wd_description": "September 2023 recorded the highest global temperatures ever at 1.75°C, driven by the El Niño weather event and ongoing emissions of warming gases, surpassing previous records significantly.",
+            "description": "September 2023 recorded the highest global temperatures ever at 1.75°C, driven by the El Niño weather event and ongoing emissions of warming gases, surpassing previous records significantly."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "El Niño weather event",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "El Niño weather event",
+            "wd_description": "The El Niño weather event contributed to the significant rise in global temperatures in September 2023, compounding the effects of ongoing emissions.",
+            "description": "The El Niño weather event contributed to the significant rise in global temperatures in September 2023, compounding the effects of ongoing emissions."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Global temperature increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global temperature increase",
+            "wd_description": "September 2023 saw a 1.75°C global temperature, 0.5°C higher than the previous record, and 0.93°C above the average temperature for September between 1991 and 2020.",
+            "description": "September 2023 saw a 1.75°C global temperature, 0.5°C higher than the previous record, and 0.93°C above the average temperature for September between 1991 and 2020."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Political implications for COP28",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Political implications for COP28",
+            "wd_description": "The unprecedented rise in global temperatures places new pressure on politicians as they prepare for the COP28 climate summit in November 2023.",
+            "description": "The unprecedented rise in global temperatures places new pressure on politicians as they prepare for the COP28 climate summit in November 2023."
+        },
+        {
+            "@id": "ev3",
+            "name": "Sanctions on North Korean citizens by South Korea, December 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sanctions on North Korean citizens by South Korea, December 2023",
+            "wd_description": "South Korea sanctioned eight North Korean citizens linked to nuclear and missile development through arms trade, cyberattacks, and other illicit activities, following a recent intercontinental ballistic missile test by North Korea.",
+            "description": "South Korea sanctioned eight North Korean citizens linked to nuclear and missile development through arms trade, cyberattacks, and other illicit activities, following a recent intercontinental ballistic missile test by North Korea."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Recent missile test by North Korea",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recent missile test by North Korea",
+            "wd_description": "North Korea recently fired an intercontinental ballistic missile, an action condemned by South Korea and the United States as a violation of UN Security Council resolutions.",
+            "description": "North Korea recently fired an intercontinental ballistic missile, an action condemned by South Korea and the United States as a violation of UN Security Council resolutions."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Sanctioned individuals and entities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanctioned individuals and entities",
+            "wd_description": "South Korea sanctioned eight North Korean individuals, including Ri Chang Ho and Yun Chol, for their involvement in nuclear development, arms trade, and cyberattacks.",
+            "description": "South Korea sanctioned eight North Korean individuals, including Ri Chang Ho and Yun Chol, for their involvement in nuclear development, arms trade, and cyberattacks."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "International response and condemnation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International response and condemnation",
+            "wd_description": "The missile test and subsequent sanctions were strongly condemned by South Korea and the United States, as part of ongoing international efforts to curb North Korea's weapons program.",
+            "description": "The missile test and subsequent sanctions were strongly condemned by South Korea and the United States, as part of ongoing international efforts to curb North Korea's weapons program."
+        },
+        {
+            "@id": "ev4",
+            "name": "Samsung SDI and Hyundai Motor EV Battery Supply Deal",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Samsung SDI and Hyundai Motor EV Battery Supply Deal",
+            "wd_description": "Samsung SDI will supply Hyundai Motor with electric vehicle batteries for seven years starting 2026, marking the first battery supply deal between the two companies.",
+            "description": "Samsung SDI will supply Hyundai Motor with electric vehicle batteries for seven years starting 2026, marking the first battery supply deal between the two companies."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Supply Deal Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Deal Announcement",
+            "wd_description": "Samsung SDI announced a supply deal with Hyundai Motor to provide electric vehicle batteries for seven years starting in 2026.",
+            "description": "Samsung SDI announced a supply deal with Hyundai Motor to provide electric vehicle batteries for seven years starting in 2026."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Battery Supply Details",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery Supply Details",
+            "wd_description": "Samsung SDI will supply prismatic batteries manufactured at its factory in Hungary for Hyundai Motor's EVs targeting the European market from 2026 through 2032.",
+            "description": "Samsung SDI will supply prismatic batteries manufactured at its factory in Hungary for Hyundai Motor's EVs targeting the European market from 2026 through 2032."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Target Market",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Target Market",
+            "wd_description": "The batteries supplied by Samsung SDI will be for Hyundai Motor's EVs targeting the European market.",
+            "description": "The batteries supplied by Samsung SDI will be for Hyundai Motor's EVs targeting the European market."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Production Location",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Production Location",
+            "wd_description": "The batteries will be manufactured at Samsung SDI's factory in Hungary.",
+            "description": "The batteries will be manufactured at Samsung SDI's factory in Hungary."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Investment Plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investment Plans",
+            "wd_description": "Samsung SDI plans to invest 2.7 trillion won to build a second joint EV battery plant with Stellantis in Indiana, targeting to start production in 2027.",
+            "description": "Samsung SDI plans to invest 2.7 trillion won to build a second joint EV battery plant with Stellantis in Indiana, targeting to start production in 2027."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Market Impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Market Impact",
+            "wd_description": "Shares of Samsung SDI were trading up 0.3% versus the benchmark KOSPI's 0.1% fall as of 0203 GMT.",
+            "description": "Shares of Samsung SDI were trading up 0.3% versus the benchmark KOSPI's 0.1% fall as of 0203 GMT."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

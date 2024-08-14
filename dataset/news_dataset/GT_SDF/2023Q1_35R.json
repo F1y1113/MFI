@@ -1,0 +1,246 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q1_35R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Surge in COVID-19 Deaths in China Following Lifting of Zero-COVID Policy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Surge in COVID-19 Deaths in China Following Lifting of Zero-COVID Policy",
+            "wd_description": "China experienced a significant surge in COVID-19 deaths after President Xi lifted the Zero-COVID Policy, with most deaths occurring among elderly individuals with underlying conditions.",
+            "description": "China experienced a significant surge in COVID-19 deaths after President Xi lifted the Zero-COVID Policy, with most deaths occurring among elderly individuals with underlying conditions."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Surge in COVID-19 Deaths",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Surge in COVID-19 Deaths",
+            "wd_description": "A significant increase in COVID-19 deaths has been reported in China since December 2022, particularly among individuals over 65 with underlying conditions, following the lifting of the Zero-COVID Policy.",
+            "description": "A significant increase in COVID-19 deaths has been reported in China since December 2022, particularly among individuals over 65 with underlying conditions, following the lifting of the Zero-COVID Policy."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Lifting of Zero-COVID Policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lifting of Zero-COVID Policy",
+            "wd_description": "The surge in COVID-19 cases and deaths began shortly after President Xi Jinping lifted China's Zero-COVID Policy, allowing for increased movement ahead of the holidays.",
+            "description": "The surge in COVID-19 cases and deaths began shortly after President Xi Jinping lifted China's Zero-COVID Policy, allowing for increased movement ahead of the holidays."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "In response to the surge in COVID-19 cases and deaths in China, several countries issued mandatory testing for travelers coming from China.",
+            "description": "In response to the surge in COVID-19 cases and deaths in China, several countries issued mandatory testing for travelers coming from China."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Expert Warnings and Travel Advisories",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expert Warnings and Travel Advisories",
+            "wd_description": "Experts believe that the surge in deaths may have peaked in some areas but warned that increased travel could lead to a further rise in cases, advising people to limit visits to certain areas.",
+            "description": "Experts believe that the surge in deaths may have peaked in some areas but warned that increased travel could lead to a further rise in cases, advising people to limit visits to certain areas."
+        },
+        {
+            "@id": "ev2",
+            "name": "Wildfires Ravage Central Chile, Prompting International Aid",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Wildfires Ravage Central Chile, Prompting International Aid",
+            "wd_description": "Dozens of wildfires have swept across central Chile, killing at least 23 people, destroying 800 homes, and leading to a state of emergency in three regions. The fires have highlighted the impact of climate change, prompting international aid.",
+            "description": "Dozens of wildfires have swept across central Chile, killing at least 23 people, destroying 800 homes, and leading to a state of emergency in three regions. The fires have highlighted the impact of climate change, prompting international aid."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Wildfires in Central Chile",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Wildfires in Central Chile",
+            "wd_description": "Wildfires have erupted across central Chile, affecting sparsely populated regions with large tracts of forest land and agricultural farms, resulting in widespread destruction and loss of life.",
+            "description": "Wildfires have erupted across central Chile, affecting sparsely populated regions with large tracts of forest land and agricultural farms, resulting in widespread destruction and loss of life."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Impact and Emergency Declaration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact and Emergency Declaration",
+            "wd_description": "The wildfires have caused the deaths of at least 23 people, destroyed 800 homes, and injured 66 others, leading to the declaration of a state of emergency in three regions.",
+            "description": "The wildfires have caused the deaths of at least 23 people, destroyed 800 homes, and injured 66 others, leading to the declaration of a state of emergency in three regions."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "International Aid Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Aid Response",
+            "wd_description": "In response to the wildfires, several countries, including Spain, the United States, and Argentina, have offered assistance in the form of aircraft, firefighters, and equipment to help combat the fires.",
+            "description": "In response to the wildfires, several countries, including Spain, the United States, and Argentina, have offered assistance in the form of aircraft, firefighters, and equipment to help combat the fires."
+        },
+        {
+            "@id": "ev3",
+            "name": "Russia Claims Control of Soledar",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russia Claims Control of Soledar",
+            "wd_description": "Russia's military announced the capture of the salt-mine town of Soledar, considering it an important step for advancing towards Bakhmut, though its strategic significance is debated.",
+            "description": "Russia's military announced the capture of the salt-mine town of Soledar, considering it an important step for advancing towards Bakhmut, though its strategic significance is debated."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Capture of Soledar",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Capture of Soledar",
+            "wd_description": "Russian forces claimed to have captured the town of Soledar after a prolonged battle, marking their first significant victory in Ukraine since July 2022.",
+            "description": "Russian forces claimed to have captured the town of Soledar after a prolonged battle, marking their first significant victory in Ukraine since July 2022."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Russian Military's Next Steps",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian Military's Next Steps",
+            "wd_description": "Following the capture of Soledar, Russia aims to advance its troops towards the nearby city of Bakhmut, a key objective in its offensive.",
+            "description": "Following the capture of Soledar, Russia aims to advance its troops towards the nearby city of Bakhmut, a key objective in its offensive."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Strategic Debate Over Soledar",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Strategic Debate Over Soledar",
+            "wd_description": "Military analysts, including the US-based Institute for the Study of War, questioned the strategic importance of Soledar, suggesting it may not significantly aid Russia's efforts to encircle Bakhmut.",
+            "description": "Military analysts, including the US-based Institute for the Study of War, questioned the strategic importance of Soledar, suggesting it may not significantly aid Russia's efforts to encircle Bakhmut."
+        },
+        {
+            "@id": "ev4",
+            "name": "US Efforts to Secure EV Battery Supply Chains",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "US Efforts to Secure EV Battery Supply Chains",
+            "wd_description": "The US is prioritizing the security of EV battery supply chains and the requisite minerals to facilitate clean energy deployment, reduce reliance on China, and enhance industrial competitiveness, supported by the Inflation Reduction Act.",
+            "description": "The US is prioritizing the security of EV battery supply chains and the requisite minerals to facilitate clean energy deployment, reduce reliance on China, and enhance industrial competitiveness, supported by the Inflation Reduction Act."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Inflation Reduction Act Provisions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Inflation Reduction Act Provisions",
+            "wd_description": "The Inflation Reduction Act includes credits and incentives to support the domestic manufacturing and processing of battery components and critical materials, prohibiting credits for components sourced from China.",
+            "description": "The Inflation Reduction Act includes credits and incentives to support the domestic manufacturing and processing of battery components and critical materials, prohibiting credits for components sourced from China."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Investment in US Battery Supply Chains",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investment in US Battery Supply Chains",
+            "wd_description": "Significant investments in US EV battery supply chains have been made, including GM's $650 million investment in Thacker Pass, with projections of $91 billion in investments over the next 10 years.",
+            "description": "Significant investments in US EV battery supply chains have been made, including GM's $650 million investment in Thacker Pass, with projections of $91 billion in investments over the next 10 years."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "China's Dominance and Expansion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "China's Dominance and Expansion",
+            "wd_description": "China continues to dominate the EV battery supply chain, with significant investments and expansions both domestically and internationally, including in Europe.",
+            "description": "China continues to dominate the EV battery supply chain, with significant investments and expansions both domestically and internationally, including in Europe."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Complex US-China Rivalry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Complex US-China Rivalry",
+            "wd_description": "The rivalry between the US and China in the EV battery value chain is complex, with US automakers engaging with Chinese suppliers while also seeking partnerships with non-Chinese battery makers.",
+            "description": "The rivalry between the US and China in the EV battery value chain is complex, with US automakers engaging with Chinese suppliers while also seeking partnerships with non-Chinese battery makers."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

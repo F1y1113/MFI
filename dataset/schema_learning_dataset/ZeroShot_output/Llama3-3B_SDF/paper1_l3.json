@@ -1,0 +1,147 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper1_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Nickel-Based Cathode Chemistry",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Nickel-Based Cathode Chemistry",
+            "wd_description": "Manufacturers used significantly lately due to the rising number of EVs, and the issue of echelon usage is becoming a study focus.",
+            "description": "Manufacturers used significantly lately due to the rising number of EVs, and the issue of echelon usage is becoming a study focus."
+        },
+        {
+            "@id": "ev2",
+            "name": "Echelon Usage Strategies and Models",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Echelon Usage Strategies and Models",
+            "wd_description": "Place an emphasis on green economies and sustainability.",
+            "description": "Place an emphasis on green economies and sustainability."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Raw Material Processing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.5",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Raw Material Processing",
+            "wd_description": "The raw materials undergo intense processing involving heat and chemical treatment to transform them into battery-grade chemicals like lithium carbonate, lithium hydroxide, and nickel sulphate.",
+            "description": "The raw materials undergo intense processing involving heat and chemical treatment to transform them into battery-grade chemicals like lithium carbonate, lithium hydroxide, and nickel sulphate."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Lithium Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium Processing",
+            "wd_description": "Lithium is processed into lithium carbonate and lithium hydroxide, essential for different battery chemistries.",
+            "description": "Lithium is processed into lithium carbonate and lithium hydroxide, essential for different battery chemistries."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Nickel Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nickel Processing",
+            "wd_description": "Nickel is processed using methods like high-pressure acid leaching (HPAL) to produce battery-grade nickel.",
+            "description": "Nickel is processed using methods like high-pressure acid leaching (HPAL) to produce battery-grade nickel."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Cobalt Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt Processing",
+            "wd_description": "Cobalt is processed to produce chemicals like cobalt sulphate, essential for battery production.",
+            "description": "Cobalt is processed to produce chemicals like cobalt sulphate, essential for battery production."
+        },
+        {
+            "@id": "ev1.2.4",
+            "name": "Graphite Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Graphite Processing",
+            "wd_description": "Graphite is processed into spherical forms for natural graphite and synthesized for synthetic graphite.",
+            "description": "Graphite is processed into spherical forms for natural graphite and synthesized for synthetic graphite."
+        },
+        {
+            "@id": "ev1.2.5",
+            "name": "Manganese Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Manganese Processing",
+            "wd_description": "Manganese is processed to produce battery-grade manganese.",
+            "description": "Manganese is processed to produce battery-grade manganese."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

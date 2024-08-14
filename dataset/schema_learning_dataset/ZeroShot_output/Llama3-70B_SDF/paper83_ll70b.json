@@ -1,0 +1,285 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper83_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Existing LCA studies on LIB production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Existing LCA studies on LIB production",
+            "wd_description": "Focuses on cell design, battery specific energy, energy consumption during manufacturing process, and electricity mix used.",
+            "description": "Focuses on cell design, battery specific energy, energy consumption during manufacturing process, and electricity mix used."
+        },
+        {
+            "@id": "ev2",
+            "name": "Recent study on LIB cell chemistries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recent study on LIB cell chemistries",
+            "wd_description": "Models the production of eight LIB cell chemistries using background life cycle inventory (LCI) data that consider future energy scenarios and sub-entities of key battery metals.",
+            "description": "Models the production of eight LIB cell chemistries using background life cycle inventory (LCI) data that consider future energy scenarios and sub-entities of key battery metals."
+        },
+        {
+            "@id": "ev3",
+            "name": "Study on life cycle impacts of solid-state and conventional LIBS",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Study on life cycle impacts of solid-state and conventional LIBS",
+            "wd_description": "Concludes that graphite produced in China significantly contributes to environmental impacts, and recycled battery raw materials may provide an additional source of avoided impacts.",
+            "description": "Concludes that graphite produced in China significantly contributes to environmental impacts, and recycled battery raw materials may provide an additional source of avoided impacts."
+        },
+        {
+            "@id": "ev4",
+            "name": "Study on parameterized LCIs for LIB production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Study on parameterized LCIs for LIB production",
+            "wd_description": "Focuses on the influence of raw materials on LIB production and their potential impact.",
+            "description": "Focuses on the influence of raw materials on LIB production and their potential impact."
+        },
+        {
+            "@id": "ev5",
+            "name": "Influence of raw materials on LIB production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Influence of raw materials on LIB production",
+            "wd_description": "Discusses the significance of raw materials on LIB production and their potential impact.",
+            "description": "Discusses the significance of raw materials on LIB production and their potential impact."
+        },
+        {
+            "@id": "ev6",
+            "name": "Potential impact of raw materials on LIB production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Potential impact of raw materials on LIB production",
+            "wd_description": "Explains the influence of raw materials on LIB production and their potential impact.",
+            "description": "Explains the influence of raw materials on LIB production and their potential impact."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Xu et al. study on LIB cell chemistries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper83R/Event/3uIqSPit3V/Limitations-in-Xu-et-al-study",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Xu et al. study",
+            "wd_description": "Xu et al. (2022) modeled the production of eight LIB chemistries, recommending the widespread deployment of lithium iron phosphate due to its low GHG emissions and advocating for low-carbon electricity in cell production.",
+            "description": "Xu et al. (2022) modeled the production of eight LIB chemistries, recommending the widespread deployment of lithium iron phosphate due to its low GHG emissions and advocating for low-carbon electricity in cell production."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "LIB chemistries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LIB chemistries",
+            "wd_description": "The study modeled the production of eight different LIB cell chemistries using background LCI data.",
+            "description": "The study modeled the production of eight different LIB cell chemistries using background LCI data."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "Use of low-carbon electricity in cell production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Low-carbon electricity",
+            "wd_description": "The study recommended using low-carbon electricity supply in cell production to reduce GHG emissions.",
+            "description": "The study recommended using low-carbon electricity supply in cell production to reduce GHG emissions."
+        },
+        {
+            "@id": "paper83R/Event/3uIqSPit3V/Limitations-in-Xu-et-al-study",
+            "name": "Limitations in Xu et al study",
+            "ta1explanation": "",
+            "description": "The study by Xu et al. used averaged LCIs for primary Ni and Co production and did not include electrolytic manganese production routes or secondary raw materials.",
+            "wd_node": "paper83",
+            "wd_label": "paper83",
+            "participants": []
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Pell & Lindsay study on solid-state and conventional LIBs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper83R/Event/1ZyNhGtgTC/Limitations-in-Pell-and-Lindsay-study",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pell & Lindsay study",
+            "wd_description": "Pell & Lindsay (2022) analyzed the life cycle impacts of solid-state and conventional LIBs, highlighting the significant environmental impacts of graphite production in China and the potential benefits of using recycled raw materials.",
+            "description": "Pell & Lindsay (2022) analyzed the life cycle impacts of solid-state and conventional LIBs, highlighting the significant environmental impacts of graphite production in China and the potential benefits of using recycled raw materials."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "Graphite production impacts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Graphite production impacts",
+            "wd_description": "The study found that graphite produced in China significantly contributes to the environmental impacts of LIB production.",
+            "description": "The study found that graphite produced in China significantly contributes to the environmental impacts of LIB production."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "Recycled raw materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycled raw materials",
+            "wd_description": "The study suggested that recycled battery raw materials could provide an additional source of avoided impacts, though they were excluded from the analysis.",
+            "description": "The study suggested that recycled battery raw materials could provide an additional source of avoided impacts, though they were excluded from the analysis."
+        },
+        {
+            "@id": "paper83R/Event/1ZyNhGtgTC/Limitations-in-Pell-and-Lindsay-study",
+            "name": "Limitations in Pell and Lindsay study",
+            "ta1explanation": "",
+            "description": "The Pell & Lindsay study applied a local sensitivity analysis and excluded recycled raw materials, limiting the examination of the influence of market share among different primary supply routes.",
+            "wd_node": "paper83",
+            "wd_label": "paper83",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

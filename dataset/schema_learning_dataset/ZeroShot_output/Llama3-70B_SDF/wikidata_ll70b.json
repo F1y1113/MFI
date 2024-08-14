@@ -1,0 +1,282 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "wikidata_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium Cobalt Graphite Mining and Processing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.6",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Cobalt Graphite Mining and Processing",
+            "wd_description": "Processes graphite, lithium, cobalt, nickel, and manganese from mining.",
+            "description": "Processes graphite, lithium, cobalt, nickel, and manganese from mining."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Lithium Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium Mining",
+            "wd_description": "Extracts lithium from mining.",
+            "description": "Extracts lithium from mining."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Cobalt Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt Mining",
+            "wd_description": "Extracts cobalt from mining.",
+            "description": "Extracts cobalt from mining."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Nickel Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nickel Mining",
+            "wd_description": "Extracts nickel from mining.",
+            "description": "Extracts nickel from mining."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Manganese Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Manganese Mining",
+            "wd_description": "Extracts manganese from mining.",
+            "description": "Extracts manganese from mining."
+        },
+        {
+            "@id": "ev1.6",
+            "name": "Graphite Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Graphite Processing",
+            "wd_description": "Processes graphite from mining.",
+            "description": "Processes graphite from mining."
+        },
+        {
+            "@id": "ev2",
+            "name": "Lithium Cobalt Graphite Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium Cobalt Graphite Recycling",
+            "wd_description": "Recycles lithium, cobalt, graphite, and nickel from spent batteries.",
+            "description": "Recycles lithium, cobalt, graphite, and nickel from spent batteries."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Pyrometallurgical Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pyrometallurgical Recycling",
+            "wd_description": "Uses high-temperature processes to recycle lithium, cobalt, and graphite.",
+            "description": "Uses high-temperature processes to recycle lithium, cobalt, and graphite."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Hydrometallurgical Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hydrometallurgical Recycling",
+            "wd_description": "Uses aqueous solutions to leach targeted metals out from the cathode substance.",
+            "description": "Uses aqueous solutions to leach targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Bioleaching Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bioleaching Recycling",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Direct Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Direct Recycling",
+            "wd_description": "Recycles batteries directly without intermediate processing steps.",
+            "description": "Recycles batteries directly without intermediate processing steps."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mining",
+            "wd_description": "The extraction of nickel from ore deposits through various mining techniques.",
+            "description": "The extraction of nickel from ore deposits through various mining techniques."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "Nickel Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "wikidata/Event/G9DsUED6A/Bioleaching",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nickel Mining",
+            "wd_description": "The industry focused on extracting nickel ore from the earth, with operations in multiple countries.",
+            "description": "The industry focused on extracting nickel ore from the earth, with operations in multiple countries."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "Cobalt Mining District",
+            "participants": [],
+            "children": [
+                {
+                    "child": "wikidata/Event/G9DsUED6A/Bioleaching",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt Mining District",
+            "wd_description": "A historic district in Cobalt, Ontario, known for its rich deposits of nickel and cobalt.",
+            "description": "A historic district in Cobalt, Ontario, known for its rich deposits of nickel and cobalt."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "Hydrometallurgy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "wikidata/Event/3KV27pLIae/Bioleaching"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Hydrometallurgy",
+            "wd_description": "The use of aqueous chemistry to extract nickel from ores, concentrates, and recycled materials.",
+            "description": "The use of aqueous chemistry to extract nickel from ores, concentrates, and recycled materials."
+        },
+        {
+            "@id": "wikidata/Event/3KV27pLIae/Bioleaching",
+            "name": "Bioleaching",
+            "ta1explanation": "",
+            "description": "Bioleaching, under the hydrometallurgical category, helps in metal extraction using biological methods.",
+            "wd_node": "wikidata",
+            "wd_label": "wikidata",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

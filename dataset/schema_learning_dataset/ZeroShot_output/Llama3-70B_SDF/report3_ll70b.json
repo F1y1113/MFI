@@ -1,0 +1,167 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report3_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Unobserved intranational flows and international trade in NMC supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unobserved intranational flows and international trade in NMC supply chain",
+            "wd_description": "Uncertainty due to unobserved intranational flows and international trade in China's NMC supply chain.",
+            "description": "Uncertainty due to unobserved intranational flows and international trade in China's NMC supply chain."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Unrefined cobalt processing within the DRC",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Unrefined cobalt processing within the DRC",
+            "wd_description": "Initial processing of unrefined cobalt in the Democratic Republic of Congo (DRC).",
+            "description": "Initial processing of unrefined cobalt in the Democratic Republic of Congo (DRC)."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "International trade of NMC components",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International trade of NMC components",
+            "wd_description": "Trade of NMC components from the DRC to China.",
+            "description": "Trade of NMC components from the DRC to China."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Processing and refining of NMC in China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Processing and refining of NMC in China",
+            "wd_description": "Processing and refining of NMC components in China.",
+            "description": "Processing and refining of NMC components in China."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Cathode production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cathode production",
+            "wd_description": "The process of creating cathode materials, which are crucial for determining battery characteristics like energy density and charging speed.",
+            "description": "The process of creating cathode materials, which are crucial for determining battery characteristics like energy density and charging speed."
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "LFP",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "LFP",
+            "wd_description": "Lithium Iron Phosphate cathode production, focusing on minimizing supply chain vulnerabilities associated with lithium sourcing.",
+            "description": "Lithium Iron Phosphate cathode production, focusing on minimizing supply chain vulnerabilities associated with lithium sourcing."
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "NMC",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NMC",
+            "wd_description": "Nickel Manganese Cobalt cathode production, which involves complex supply chain dependencies and higher vulnerability due to multiple critical materials.",
+            "description": "Nickel Manganese Cobalt cathode production, which involves complex supply chain dependencies and higher vulnerability due to multiple critical materials."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The process of recycling and reusing end-of-life battery components to recover valuable materials.",
+            "description": "The process of recycling and reusing end-of-life battery components to recover valuable materials."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3",
+            "relationObject": "ev5"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

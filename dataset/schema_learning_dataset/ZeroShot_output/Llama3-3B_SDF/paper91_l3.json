@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper91_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Raw Material Extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Raw Material Extraction",
+            "wd_description": "The extraction of lithium and cobalt for EV battery production.",
+            "description": "The extraction of lithium and cobalt for EV battery production."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "An American — Thomas Davenport — is credited with building the first electric vehicle (EV) in 1835, and by 1900 EVs were so popular that New York had a fleet of electric taxis and electric cars representing one third of all vehicles on the road.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.5",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "An American — Thomas Davenport — is credited with building the first electric vehicle (EV) in 1835, and by 1900 EVs were so popular that New York had a fleet of electric taxis and electric cars representing one third of all vehicles on the road.",
+            "wd_description": "The early history of electric vehicles.",
+            "description": "The early history of electric vehicles."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Over one hundred years ago electric cars were a common sight on the streets.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Over one hundred years ago electric cars were a common sight on the streets.",
+            "wd_description": "The early popularity of electric vehicles.",
+            "description": "The early popularity of electric vehicles."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Although it has a straightforward process and a reasonably mature technology, the main drawbacks are its high cost and high environmental pollution.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Although it has a straightforward process and a reasonably mature technology, the main drawbacks are its high cost and high environmental pollution.",
+            "wd_description": "The limitations of pyrometallurgy in recycling lithium-ion batteries.",
+            "description": "The limitations of pyrometallurgy in recycling lithium-ion batteries."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells.",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Combinations of both pyrometallurgy and hydrometallurgy are also used due to their advantages in sorting starting materials for cells.",
+            "wd_description": "The use of combinations of recycling methods.",
+            "description": "The use of combinations of recycling methods."
+        },
+        {
+            "@id": "ev2",
+            "name": "Lithium-Ion Battery Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Battery Recycling",
+            "wd_description": "The recycling of lithium-ion batteries.",
+            "description": "The recycling of lithium-ion batteries."
+        },
+        {
+            "@id": "ev3",
+            "name": "Direct Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Direct Recycling",
+            "wd_description": "The direct recycling of lithium-ion batteries.",
+            "description": "The direct recycling of lithium-ion batteries."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

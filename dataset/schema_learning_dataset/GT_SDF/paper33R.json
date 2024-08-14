@@ -1,0 +1,1036 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper33R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain",
+            "wd_description": "Overview of the supply chain for electric vehicle (EV) batteries, focusing on the key stages and factors involved in the production and distribution of cobalt, a critical raw material.",
+            "description": "Overview of the supply chain for electric vehicle (EV) batteries, focusing on the key stages and factors involved in the production and distribution of cobalt, a critical raw material."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Cobalt Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt Demand",
+            "wd_description": "The global demand for cobalt is expected to quadruple in the next four decades, driven primarily by the increasing demand for lithium-ion batteries used in EVs.",
+            "description": "The global demand for cobalt is expected to quadruple in the next four decades, driven primarily by the increasing demand for lithium-ion batteries used in EVs."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Lithium-ion Batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium-ion Batteries",
+            "wd_description": "Batteries that use lithium-ion technology, which are crucial for electric vehicles and other electronics.",
+            "description": "Batteries that use lithium-ion technology, which are crucial for electric vehicles and other electronics."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Cobalt Supply Chain Risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.5",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt Supply Chain Risks",
+            "wd_description": "Analysis of the risks associated with disruptions in the cobalt supply chain, including geographical concentration, political instability, and the dependency on copper and nickel mining.",
+            "description": "Analysis of the risks associated with disruptions in the cobalt supply chain, including geographical concentration, political instability, and the dependency on copper and nickel mining."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Geographical Concentration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper33R/Event/zMt2hTLf0/Disruption-Risk",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "graphical Concentration",
+            "wd_description": "More than half of the world's cobalt is mined in the Democratic Republic of the Congo, and almost half is refined in China.",
+            "description": "More than half of the world's cobalt is mined in the Democratic Republic of the Congo, and almost half is refined in China."
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "Democratic Republic of the Congo",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "atic Republic of the Congo",
+            "wd_description": "The DRC is the largest producer of mined cobalt, contributing to over half of the global supply.",
+            "description": "The DRC is the largest producer of mined cobalt, contributing to over half of the global supply."
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "China refines almost half of the global cobalt supply, highlighting its critical role in the supply chain.",
+            "description": "China refines almost half of the global cobalt supply, highlighting its critical role in the supply chain."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Political Stability",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.2.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "itical Stability",
+            "wd_description": "The political stability in major cobalt-producing countries is considered medium to very weak, increasing the risk of supply chain disruptions.",
+            "description": "The political stability in major cobalt-producing countries is considered medium to very weak, increasing the risk of supply chain disruptions."
+        },
+        {
+            "@id": "ev1.2.2.1",
+            "name": "Production Countries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "tion Countries",
+            "wd_description": "Countries where cobalt is produced, which are affected by varying levels of political stability.",
+            "description": "Countries where cobalt is produced, which are affected by varying levels of political stability."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "By product Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "product Mining",
+            "wd_description": "Nearly all cobalt is mined as a by-product of copper and nickel, affecting its supply dynamics.",
+            "description": "Nearly all cobalt is mined as a by-product of copper and nickel, affecting its supply dynamics."
+        },
+        {
+            "@id": "ev1.2.3.1",
+            "name": "Copper Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " Mining",
+            "wd_description": "Cobalt is often a by-product of copper mining, impacting its availability.",
+            "description": "Cobalt is often a by-product of copper mining, impacting its availability."
+        },
+        {
+            "@id": "ev1.2.3.2",
+            "name": "Nickel Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " Mining",
+            "wd_description": "Cobalt is often a by-product of nickel mining, impacting its availability.",
+            "description": "Cobalt is often a by-product of nickel mining, impacting its availability."
+        },
+        {
+            "@id": "ev1.2.4",
+            "name": "Supply Diversification",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.4.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper33R/Event/1AKs76e7CV/Factors-Reducing-Risks",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ply Diversification",
+            "wd_description": "Factors that mitigate supply risks, such as the diversification of cobalt production through artisanal mining and less concentrated market dynamics.",
+            "description": "Factors that mitigate supply risks, such as the diversification of cobalt production through artisanal mining and less concentrated market dynamics."
+        },
+        {
+            "@id": "ev1.2.4.1",
+            "name": "Artisanal Mining",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.4.1.1",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "nal Mining",
+            "wd_description": "The role of artisanal mining in diversifying the supply of cobalt, particularly in the Democratic Republic of the Congo.",
+            "description": "The role of artisanal mining in diversifying the supply of cobalt, particularly in the Democratic Republic of the Congo."
+        },
+        {
+            "@id": "ev1.2.4.1.1",
+            "name": "Democratic Republic of the Congo",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "c Republic of the Congo",
+            "wd_description": "The DRC's artisanal mines contribute significantly to the diversification of cobalt supply.",
+            "description": "The DRC's artisanal mines contribute significantly to the diversification of cobalt supply."
+        },
+        {
+            "@id": "ev1.2.4.2",
+            "name": "Market Concentration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.4.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.4.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.4.2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": " Concentration",
+            "wd_description": "Analysis of the concentration of individual mines, refineries, and companies in the cobalt supply chain.",
+            "description": "Analysis of the concentration of individual mines, refineries, and companies in the cobalt supply chain."
+        },
+        {
+            "@id": "ev1.2.4.2.1",
+            "name": "Individual Mines",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "l Mines",
+            "wd_description": "The concentration of individual cobalt mines and its impact on supply risk.",
+            "description": "The concentration of individual cobalt mines and its impact on supply risk."
+        },
+        {
+            "@id": "ev1.2.4.2.2",
+            "name": "Refineries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "s",
+            "wd_description": "The concentration of cobalt refineries and its impact on supply risk.",
+            "description": "The concentration of cobalt refineries and its impact on supply risk."
+        },
+        {
+            "@id": "ev1.2.4.2.3",
+            "name": "Companies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "The role of companies in the concentration of the cobalt supply chain.",
+            "description": "The role of companies in the concentration of the cobalt supply chain."
+        },
+        {
+            "@id": "ev1.2.5",
+            "name": "Network Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.5.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.5.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.5.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper33R/Event/2KrpjV6N0N/Important-Positions",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "work Analysis",
+            "wd_description": "Network analysis used to understand the structure and dependencies in the cobalt supply chain, highlighting key companies with high centrality.",
+            "description": "Network analysis used to understand the structure and dependencies in the cobalt supply chain, highlighting key companies with high centrality."
+        },
+        {
+            "@id": "ev1.2.5.1",
+            "name": "Degree Centrality",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": " Centrality",
+            "wd_description": "Measurement of the number of linkages per node in the supply chain network.",
+            "description": "Measurement of the number of linkages per node in the supply chain network."
+        },
+        {
+            "@id": "ev1.2.5.2",
+            "name": "Closeness Centrality",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ess Centrality",
+            "wd_description": "Measurement of how close a node is on average to all other nodes in the network.",
+            "description": "Measurement of how close a node is on average to all other nodes in the network."
+        },
+        {
+            "@id": "ev1.2.5.3",
+            "name": "Betweenness Centrality",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "nness Centrality",
+            "wd_description": "Measurement of a company's role in connecting other companies within the supply chain network.",
+            "description": "Measurement of a company's role in connecting other companies within the supply chain network."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Geographic Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper33R/Event/1kuCcLVQIZ/Detailed-Data-on-Supply-Chain",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Geographic Analysis",
+            "wd_description": "Geographic analysis of cobalt supply, including the location of mines and refineries, and the trade flows between countries.",
+            "description": "Geographic analysis of cobalt supply, including the location of mines and refineries, and the trade flows between countries."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Mines",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.1.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.1.5",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "es",
+            "wd_description": "Locations and production levels of cobalt mines, with a focus on the Democratic Republic of the Congo and other key countries.",
+            "description": "Locations and production levels of cobalt mines, with a focus on the Democratic Republic of the Congo and other key countries."
+        },
+        {
+            "@id": "ev1.3.1.1",
+            "name": "Democratic Republic of the Congo",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "atic Republic of the Congo",
+            "wd_description": "The DRC is the largest producer of cobalt, contributing significantly to the global supply.",
+            "description": "The DRC is the largest producer of cobalt, contributing significantly to the global supply."
+        },
+        {
+            "@id": "ev1.3.1.2",
+            "name": "Zambia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Zambia is a significant producer of cobalt in the African copper belt.",
+            "description": "Zambia is a significant producer of cobalt in the African copper belt."
+        },
+        {
+            "@id": "ev1.3.1.3",
+            "name": "China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "China is a notable producer and refiner of cobalt.",
+            "description": "China is a notable producer and refiner of cobalt."
+        },
+        {
+            "@id": "ev1.3.1.4",
+            "name": "Canada",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Canada is a key producer of cobalt with several mining operations.",
+            "description": "Canada is a key producer of cobalt with several mining operations."
+        },
+        {
+            "@id": "ev1.3.1.5",
+            "name": "Australia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "lia",
+            "wd_description": "Australia is an important producer of cobalt with multiple mining sites.",
+            "description": "Australia is an important producer of cobalt with multiple mining sites."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Refineries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2.5",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ineries",
+            "wd_description": "Locations and production levels of cobalt refineries, highlighting the dominance of China.",
+            "description": "Locations and production levels of cobalt refineries, highlighting the dominance of China."
+        },
+        {
+            "@id": "ev1.3.2.1",
+            "name": "China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "China is the largest refiner of cobalt, contributing to nearly half of the global refined supply.",
+            "description": "China is the largest refiner of cobalt, contributing to nearly half of the global refined supply."
+        },
+        {
+            "@id": "ev1.3.2.2",
+            "name": "Finland",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "d",
+            "wd_description": "Finland is a significant refiner of cobalt, contributing to the global supply.",
+            "description": "Finland is a significant refiner of cobalt, contributing to the global supply."
+        },
+        {
+            "@id": "ev1.3.2.3",
+            "name": "Canada",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Canada refines a notable portion of the global cobalt supply.",
+            "description": "Canada refines a notable portion of the global cobalt supply."
+        },
+        {
+            "@id": "ev1.3.2.4",
+            "name": "Belgium",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "m",
+            "wd_description": "Belgium is a key player in cobalt refining, contributing to the global supply.",
+            "description": "Belgium is a key player in cobalt refining, contributing to the global supply."
+        },
+        {
+            "@id": "ev1.3.2.5",
+            "name": "Zambia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Zambia refines a significant portion of cobalt, contributing to the global supply.",
+            "description": "Zambia refines a significant portion of cobalt, contributing to the global supply."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Trade Flows",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "de Flows",
+            "wd_description": "Analysis of cobalt trade flows between countries, focusing on major exporters and importers.",
+            "description": "Analysis of cobalt trade flows between countries, focusing on major exporters and importers."
+        },
+        {
+            "@id": "ev1.3.3.1",
+            "name": "Exporting Countries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3.1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ing Countries",
+            "wd_description": "Countries that export significant amounts of cobalt, such as the Democratic Republic of the Congo, Zambia, and South Africa.",
+            "description": "Countries that export significant amounts of cobalt, such as the Democratic Republic of the Congo, Zambia, and South Africa."
+        },
+        {
+            "@id": "ev1.3.3.1.1",
+            "name": "Democratic Republic of the Congo",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "c Republic of the Congo",
+            "wd_description": "The DRC is the largest exporter of cobalt, contributing 88% of global exports.",
+            "description": "The DRC is the largest exporter of cobalt, contributing 88% of global exports."
+        },
+        {
+            "@id": "ev1.3.3.1.2",
+            "name": "Zambia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Zambia exports 4% of global cobalt, making it a significant player.",
+            "description": "Zambia exports 4% of global cobalt, making it a significant player."
+        },
+        {
+            "@id": "ev1.3.3.1.3",
+            "name": "South Africa",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ica",
+            "wd_description": "South Africa exports 2% of global cobalt, contributing to the supply chain.",
+            "description": "South Africa exports 2% of global cobalt, contributing to the supply chain."
+        },
+        {
+            "@id": "ev1.3.3.2",
+            "name": "Importing Countries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3.2.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "ing Countries",
+            "wd_description": "Countries that import significant amounts of cobalt, such as China and Japan.",
+            "description": "Countries that import significant amounts of cobalt, such as China and Japan."
+        },
+        {
+            "@id": "ev1.3.3.2.1",
+            "name": "China",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "China is the largest importer of cobalt, receiving 97% of global imports.",
+            "description": "China is the largest importer of cobalt, receiving 97% of global imports."
+        },
+        {
+            "@id": "ev1.3.3.2.2",
+            "name": "Japan",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "",
+            "wd_description": "Japan imports 2% of global cobalt, contributing to its supply chain.",
+            "description": "Japan imports 2% of global cobalt, contributing to its supply chain."
+        },
+        {
+            "@id": "paper33R/Event/1kuCcLVQIZ/Detailed-Data-on-Supply-Chain",
+            "name": "Detailed Data on Supply Chain",
+            "ta1explanation": "",
+            "description": "This study provides detailed geographically explicit data on the cobalt supply chain to determine how susceptible primary cobalt production is to supply chain disruptions and to evaluate possible supply risks.",
+            "wd_node": "paper33R",
+            "wd_label": "paper33R",
+            "participants": []
+        },
+        {
+            "@id": "paper33R/Event/zMt2hTLf0/Disruption-Risk",
+            "name": "Disruption Risk",
+            "ta1explanation": "",
+            "description": "The risks for supply chain disruptions are high due to high concentration in the Democratic Republic of the Congo for mining and China for refining.",
+            "wd_node": "paper33R",
+            "wd_label": "paper33R",
+            "participants": []
+        },
+        {
+            "@id": "paper33R/Event/1AKs76e7CV/Factors-Reducing-Risks",
+            "name": "Factors Reducing Risks",
+            "ta1explanation": "",
+            "description": "Several factors reduce supply risks, including the concentration of individual mines and refineries remaining under the threshold of a concentrated market and the diversification provided by 80 artisanal cobalt mines.",
+            "wd_node": "paper33R",
+            "wd_label": "paper33R",
+            "participants": []
+        },
+        {
+            "@id": "paper33R/Event/2KrpjV6N0N/Important-Positions",
+            "name": "Important Positions",
+            "ta1explanation": "",
+            "description": "Network analysis shows the important position of companies with high betweenness and degree centrality. A disruption at these companies can affect the overall supply chain.",
+            "wd_node": "paper33R",
+            "wd_label": "paper33R",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.4",
+            "relationObject": "ev1.2.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.1",
+            "relationObject": "ev1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5.2",
+            "relationObject": "ev1.2.5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5.2",
+            "relationObject": "ev1.2.5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5.2",
+            "relationObject": "ev1.2.5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.5.2",
+            "relationObject": "ev1.2.5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        }
+    ],
+    "entities": []
+}

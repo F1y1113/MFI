@@ -1,0 +1,320 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q2_2R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Russian air strikes on Idlib province, Syria",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russian air strikes on Idlib province, Syria",
+            "wd_description": "At least nine people were reportedly killed after Russian air strikes on the rebel-held Idlib province in Syria. The United Nations expressed concerns about the hostilities in the province.",
+            "description": "At least nine people were reportedly killed after Russian air strikes on the rebel-held Idlib province in Syria. The United Nations expressed concerns about the hostilities in the province."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Casualties in Idlib",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Casualties in Idlib",
+            "wd_description": "Bombs dropped from warplanes killed nine people next to a market outside Jisr al-Shughour, and two others were killed in an air strike near Idlib city.",
+            "description": "Bombs dropped from warplanes killed nine people next to a market outside Jisr al-Shughour, and two others were killed in an air strike near Idlib city."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Monitoring group's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Monitoring group's statement",
+            "wd_description": "The Syrian Observatory for Human Rights monitoring group termed the attack the deadliest Russian attack this year.",
+            "description": "The Syrian Observatory for Human Rights monitoring group termed the attack the deadliest Russian attack this year."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Russia's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russia's response",
+            "wd_description": "Russia's military did not comment on the situation immediately. Their air campaign supporting the Syrian government has been crucial in turning the tide of the civil war.",
+            "description": "Russia's military did not comment on the situation immediately. Their air campaign supporting the Syrian government has been crucial in turning the tide of the civil war."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Retaliation for attacks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Retaliation for attacks",
+            "wd_description": "The strikes were said to be a retaliation for attacks that had killed civilians in government-held Hama and Latakia provinces.",
+            "description": "The strikes were said to be a retaliation for attacks that had killed civilians in government-held Hama and Latakia provinces."
+        },
+        {
+            "@id": "ev2",
+            "name": "Global Temperatures Surge to Record Highs in June 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Global Temperatures Surge to Record Highs in June 2023",
+            "wd_description": "Global temperatures reached record highs in June 2023, with average temperatures 1°C higher than historical averages for the month, signaling an intensifying climate crisis that may make this year the warmest on record.",
+            "description": "Global temperatures reached record highs in June 2023, with average temperatures 1°C higher than historical averages for the month, signaling an intensifying climate crisis that may make this year the warmest on record."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Record-High Global Temperatures",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Record-High Global Temperatures",
+            "wd_description": "Global average temperatures in June 2023 are approximately 1°C higher than those recorded for the same month since 1979, continuing a trend of intensifying global warming that could make this year the warmest on record.",
+            "description": "Global average temperatures in June 2023 are approximately 1°C higher than those recorded for the same month since 1979, continuing a trend of intensifying global warming that could make this year the warmest on record."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Impact of Heatwaves and Wildfires",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact of Heatwaves and Wildfires",
+            "wd_description": "The surge in global temperatures has led to catastrophic heatwaves in regions from Puerto Rico to Siberia, and massive wildfires in Canada have caused hazardous smoke conditions in cities like New York and Washington.",
+            "description": "The surge in global temperatures has led to catastrophic heatwaves in regions from Puerto Rico to Siberia, and massive wildfires in Canada have caused hazardous smoke conditions in cities like New York and Washington."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Unprecedented Ocean Warming",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unprecedented Ocean Warming",
+            "wd_description": "June 2023 also marked the second consecutive month of record-high ocean surface temperatures, contributing to overall global temperature rise, affecting marine life, coral reefs, and causing sea level rise.",
+            "description": "June 2023 also marked the second consecutive month of record-high ocean surface temperatures, contributing to overall global temperature rise, affecting marine life, coral reefs, and causing sea level rise."
+        },
+        {
+            "@id": "ev3",
+            "name": "Africa's largest oil refinery opens in Nigeria",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Africa's largest oil refinery opens in Nigeria",
+            "wd_description": "The biggest oil refinery ever built in Africa opened in Nigeria, aiming to alleviate chronic fuel shortages. Although the plant is not yet operational, it can produce 650,000 barrels of petroleum products daily.",
+            "description": "The biggest oil refinery ever built in Africa opened in Nigeria, aiming to alleviate chronic fuel shortages. Although the plant is not yet operational, it can produce 650,000 barrels of petroleum products daily."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Nigeria's fuel import situation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Nigeria's fuel import situation",
+            "wd_description": "Nigeria, a major oil producer, exports most of its oil while importing refined fuel for domestic use.",
+            "description": "Nigeria, a major oil producer, exports most of its oil while importing refined fuel for domestic use."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Refinery details",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Refinery details",
+            "wd_description": "The refinery includes a power station, deep seaport, and fertilizer plant. Building the plant cost $19bn (£15.2bn).",
+            "description": "The refinery includes a power station, deep seaport, and fertilizer plant. Building the plant cost $19bn (£15.2bn)."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Statement by Aliko Dangote",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Statement by Aliko Dangote",
+            "wd_description": "Aliko Dangote, the owner of the refinery and the richest man in Africa, stated that the first goal is to ramp up production to satisfy the country's needs this year.",
+            "description": "Aliko Dangote, the owner of the refinery and the richest man in Africa, stated that the first goal is to ramp up production to satisfy the country's needs this year."
+        },
+        {
+            "@id": "ev4",
+            "name": "EV Battery Technology Advancements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Technology Advancements",
+            "wd_description": "Manufacturers are evolving EV battery chemistries and technologies to address high metal prices, supply shortages, and consumer demands for increased driving range.",
+            "description": "Manufacturers are evolving EV battery chemistries and technologies to address high metal prices, supply shortages, and consumer demands for increased driving range."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Changing Chemistries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Changing Chemistries",
+            "wd_description": "Manufacturers are adapting anode and cathode chemistries to rely on cheaper, more common elements and address high battery metal prices.",
+            "description": "Manufacturers are adapting anode and cathode chemistries to rely on cheaper, more common elements and address high battery metal prices."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Diverse Cathode Chemistries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Diverse Cathode Chemistries",
+            "wd_description": "EV batteries are moving toward cathode chemistries with less nickel and might employ solid-state technology in the future.",
+            "description": "EV batteries are moving toward cathode chemistries with less nickel and might employ solid-state technology in the future."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Silicon-based Anodes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Silicon-based Anodes",
+            "wd_description": "Companies like Sila Nanotechnologies are developing silicon-based anodes to replace the graphite commonly used today.",
+            "description": "Companies like Sila Nanotechnologies are developing silicon-based anodes to replace the graphite commonly used today."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Supply Chain Issues",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply Chain Issues",
+            "wd_description": "High demand for EVs and mineral shortages are pushing manufacturers to adopt unique chemistries and reduce reliance on a small set of countries for critical minerals.",
+            "description": "High demand for EVs and mineral shortages are pushing manufacturers to adopt unique chemistries and reduce reliance on a small set of countries for critical minerals."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Concentration of Supply",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Concentration of Supply",
+            "wd_description": "Concerns about dependence on a small set of countries for critical minerals like cobalt used in EV batteries.",
+            "description": "Concerns about dependence on a small set of countries for critical minerals like cobalt used in EV batteries."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Rising Prices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Rising Prices",
+            "wd_description": "Manufacturers are responding to high battery metal prices by changing chemistries to rely on cheaper elements.",
+            "description": "Manufacturers are responding to high battery metal prices by changing chemistries to rely on cheaper elements."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Solid-state Battery Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Solid-state Battery Development",
+            "wd_description": "EV makers are exploring solid-state battery technology to improve energy density, increase battery lifespan, and reduce mineral demand.",
+            "description": "EV makers are exploring solid-state battery technology to improve energy density, increase battery lifespan, and reduce mineral demand."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Solid-state Technology",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Solid-state Technology",
+            "wd_description": "Solid-state batteries use a solid electrolyte rather than the liquid electrolyte in conventional cells, offering greater stability and energy density.",
+            "description": "Solid-state batteries use a solid electrolyte rather than the liquid electrolyte in conventional cells, offering greater stability and energy density."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Production Challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Production Challenges",
+            "wd_description": "The primary obstacle to widespread SSB adoption is scaling up production from a lab setting to an industrial scale.",
+            "description": "The primary obstacle to widespread SSB adoption is scaling up production from a lab setting to an industrial scale."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

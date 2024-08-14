@@ -1,0 +1,223 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q1_46R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "North Korea Fires Ballistic Missile Amid Rising Tensions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korea Fires Ballistic Missile Amid Rising Tensions",
+            "wd_description": "North Korea fired a ballistic missile towards the east coast, following warnings of a strong response to upcoming U.S.-South Korea military drills, as confirmed by South Korea's Joint Chiefs and Japan's coastguard.",
+            "description": "North Korea fired a ballistic missile towards the east coast, following warnings of a strong response to upcoming U.S.-South Korea military drills, as confirmed by South Korea's Joint Chiefs and Japan's coastguard."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Ballistic Missile Launch",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ballistic Missile Launch",
+            "wd_description": "North Korea fired a ballistic missile towards the Sea of Japan (East Sea), raising tensions ahead of planned U.S.-South Korea military exercises.",
+            "description": "North Korea fired a ballistic missile towards the Sea of Japan (East Sea), raising tensions ahead of planned U.S.-South Korea military exercises."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "North Korea's ICBM Launch",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "North Korea's ICBM Launch",
+            "wd_description": "North Korea confirmed the launch of a Hwasong-15 intercontinental ballistic missile (ICBM) as part of a sudden drill for a mobile counterattack against hostile forces.",
+            "description": "North Korea confirmed the launch of a Hwasong-15 intercontinental ballistic missile (ICBM) as part of a sudden drill for a mobile counterattack against hostile forces."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Upcoming US-South Korea Military Drills",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Upcoming US-South Korea Military Drills",
+            "wd_description": "The U.S. and South Korea are scheduled to conduct nuclear deterrence strategy drills, known as the deterrence strategy committee tabletop exercise, involving senior defense policymakers from both countries.",
+            "description": "The U.S. and South Korea are scheduled to conduct nuclear deterrence strategy drills, known as the deterrence strategy committee tabletop exercise, involving senior defense policymakers from both countries."
+        },
+        {
+            "@id": "ev2",
+            "name": "Western Allies Reject Ukraine's Request for Fighter Jets",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Western Allies Reject Ukraine's Request for Fighter Jets",
+            "wd_description": "After agreeing to send tanks to Ukraine, the US and UK declined Ukraine's request for Western fighter jets, including F-16s, deeming the request impractical and signaling a limit to military support.",
+            "description": "After agreeing to send tanks to Ukraine, the US and UK declined Ukraine's request for Western fighter jets, including F-16s, deeming the request impractical and signaling a limit to military support."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Rejection of Fighter Jets Request",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rejection of Fighter Jets Request",
+            "wd_description": "The US and UK rejected Ukraine's request for F-16 fighter jets and other Western aircraft, citing practical concerns and signaling a limit to their military support.",
+            "description": "The US and UK rejected Ukraine's request for F-16 fighter jets and other Western aircraft, citing practical concerns and signaling a limit to their military support."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "US and UK Responses",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US and UK Responses",
+            "wd_description": "US President Joe Biden and a spokesperson from Downing Street both confirmed that sending fighter jets to Ukraine was not feasible, with Biden stating \"no\" to the request for F-16s.",
+            "description": "US President Joe Biden and a spokesperson from Downing Street both confirmed that sending fighter jets to Ukraine was not feasible, with Biden stating \"no\" to the request for F-16s."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Ukraine's Request for Fighter Jets",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukraine's Request for Fighter Jets",
+            "wd_description": "Following the agreement by the US and Germany to send tanks, Ukraine requested 200 fighter jets, including F-16s, to enhance its defense capabilities against Russia.",
+            "description": "Following the agreement by the US and Germany to send tanks, Ukraine requested 200 fighter jets, including F-16s, to enhance its defense capabilities against Russia."
+        },
+        {
+            "@id": "ev3",
+            "name": "Devastating Earthquakes Hit Turkiye and Syria",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Devastating Earthquakes Hit Turkiye and Syria",
+            "wd_description": "Two powerful earthquakes struck the border of Turkiye and Syria, causing widespread destruction and a rising death toll of over 12,000 people. The disaster has overwhelmed rescue efforts and led to international support.",
+            "description": "Two powerful earthquakes struck the border of Turkiye and Syria, causing widespread destruction and a rising death toll of over 12,000 people. The disaster has overwhelmed rescue efforts and led to international support."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Earthquakes on the Turkiye-Syria Border",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Earthquakes on the Turkiye-Syria Border",
+            "wd_description": "Two powerful earthquakes, one with a magnitude of 7.8 and another with a magnitude of 7.5, struck the border of Turkiye and Syria, causing widespread devastation in both countries.",
+            "description": "Two powerful earthquakes, one with a magnitude of 7.8 and another with a magnitude of 7.5, struck the border of Turkiye and Syria, causing widespread devastation in both countries."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Rising Death Toll and Delayed Rescue Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rising Death Toll and Delayed Rescue Efforts",
+            "wd_description": "The death toll from the earthquakes has risen to over 12,000 people, with the number expected to increase as delayed rescue efforts struggle to reach affected areas, leading to criticism from affected communities.",
+            "description": "The death toll from the earthquakes has risen to over 12,000 people, with the number expected to increase as delayed rescue efforts struggle to reach affected areas, leading to criticism from affected communities."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "International Support and Acknowledgment of Disaster",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Support and Acknowledgment of Disaster",
+            "wd_description": "International support has been sent to Turkiye and Syria as leaders from both countries acknowledged the overwhelming nature of the disaster and the need for external assistance.",
+            "description": "International support has been sent to Turkiye and Syria as leaders from both countries acknowledged the overwhelming nature of the disaster and the need for external assistance."
+        },
+        {
+            "@id": "ev4",
+            "name": "Increase in North America’s EV battery manufacturing capacity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Increase in North America’s EV battery manufacturing capacity",
+            "wd_description": "A significant increase in North America's battery manufacturing capacity from 55 GWh/year in 2021 to nearly 1,000 GWh/year by 2030. This expansion is expected to support the production of 10 to 13 million all-electric vehicles annually by 2030.",
+            "description": "A significant increase in North America's battery manufacturing capacity from 55 GWh/year in 2021 to nearly 1,000 GWh/year by 2030. This expansion is expected to support the production of 10 to 13 million all-electric vehicles annually by 2030."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Planned battery plant projects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Planned battery plant projects",
+            "wd_description": "Most of the battery plant projects in North America are scheduled to begin production between 2025 and 2030.",
+            "description": "Most of the battery plant projects in North America are scheduled to begin production between 2025 and 2030."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Co-location with automotive plants",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Co-location with automotive plants",
+            "wd_description": "Many battery plants will be co-located with automotive plants to optimize supply chain logistics.",
+            "description": "Many battery plants will be co-located with automotive plants to optimize supply chain logistics."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Concentration of projects in specific states",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Concentration of projects in specific states",
+            "wd_description": "The highest growth in battery manufacturing capacity is expected in Kentucky, Tennessee, Georgia, and Michigan.",
+            "description": "The highest growth in battery manufacturing capacity is expected in Kentucky, Tennessee, Georgia, and Michigan."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

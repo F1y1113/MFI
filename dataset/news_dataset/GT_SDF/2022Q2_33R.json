@@ -1,0 +1,337 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_33R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Sweden and Finland's NATO membership bid",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sweden and Finland's NATO membership bid",
+            "wd_description": "Sweden and Finland's bid to join NATO requires unanimous agreement by all current members, but Turkey's President Erdogan opposes the move due to past sanctions and alleged support for the Kurdistan Workers' Party.",
+            "description": "Sweden and Finland's bid to join NATO requires unanimous agreement by all current members, but Turkey's President Erdogan opposes the move due to past sanctions and alleged support for the Kurdistan Workers' Party."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Turkey's opposition",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Turkey's opposition",
+            "wd_description": "President Recep Tayyip Erdogan opposed Sweden and Finland's bid to join NATO, citing sanctions placed on Turkey and their alleged support for the Kurdistan Workers' Party.",
+            "description": "President Recep Tayyip Erdogan opposed Sweden and Finland's bid to join NATO, citing sanctions placed on Turkey and their alleged support for the Kurdistan Workers' Party."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Statements from Sweden and Finland",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Statements from Sweden and Finland",
+            "wd_description": "The Finnish foreign minister stated that Finland would not negotiate with Turkey, while the Swedish Prime Minister emphasized NATO's role in strengthening Sweden in the new European reality.",
+            "description": "The Finnish foreign minister stated that Finland would not negotiate with Turkey, while the Swedish Prime Minister emphasized NATO's role in strengthening Sweden in the new European reality."
+        },
+        {
+            "@id": "ev2",
+            "name": "Ukraine secures release of 144 soldiers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine secures release of 144 soldiers",
+            "wd_description": "Ukraine secured the release of 144 soldiers, including 95 who defended the Azovstal steelworks in Mariupol, in the largest exchange of the crisis, while 144 Russian and separatist soldiers were returned to Russia.",
+            "description": "Ukraine secured the release of 144 soldiers, including 95 who defended the Azovstal steelworks in Mariupol, in the largest exchange of the crisis, while 144 Russian and separatist soldiers were returned to Russia."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Details of the prisoner swap",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Details of the prisoner swap",
+            "wd_description": "144 Ukrainian soldiers were exchanged for 144 Russian and separatist soldiers, verified by a pro-Russian separatist leader.",
+            "description": "144 Ukrainian soldiers were exchanged for 144 Russian and separatist soldiers, verified by a pro-Russian separatist leader."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Political reactions in Russia",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Political reactions in Russia",
+            "wd_description": "Following the seizure of the Azov men, many Russian politicians advocated for their trial and death, with some members of the State Duma planning to introduce legislation to disrupt prisoner swaps involving fighters deemed \"terrorists.\"",
+            "description": "Following the seizure of the Azov men, many Russian politicians advocated for their trial and death, with some members of the State Duma planning to introduce legislation to disrupt prisoner swaps involving fighters deemed \"terrorists.\""
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Fate of Azovstal defenders",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Fate of Azovstal defenders",
+            "wd_description": "More than a thousand Azovstal defenders who surrendered were moved to Russian-held territory in May, causing major concern for Kyiv's leaders who sought a prisoner swap.",
+            "description": "More than a thousand Azovstal defenders who surrendered were moved to Russian-held territory in May, causing major concern for Kyiv's leaders who sought a prisoner swap."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Reactions to the exchange",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reactions to the exchange",
+            "wd_description": "Some Russian military bloggers and pro-war politicians reacted negatively to the exchange plan, but Moscow did not respond to the prisoner swap.",
+            "description": "Some Russian military bloggers and pro-war politicians reacted negatively to the exchange plan, but Moscow did not respond to the prisoner swap."
+        },
+        {
+            "@id": "ev3",
+            "name": "Flood traps miners in Canadian-owned mine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Flood traps miners in Canadian-owned mine",
+            "wd_description": "A flood from torrential rainfall caused miners to be trapped in a Canadian-owned mine, prompting a 24-hour rescue effort with specialized equipment from Ghana and South Africa.",
+            "description": "A flood from torrential rainfall caused miners to be trapped in a Canadian-owned mine, prompting a 24-hour rescue effort with specialized equipment from Ghana and South Africa."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Rescue efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rescue efforts",
+            "wd_description": "The rescue effort has been ongoing 24-hours a day, utilizing specialized equipment to pump millions of liters of water out of the mine.",
+            "description": "The rescue effort has been ongoing 24-hours a day, utilizing specialized equipment to pump millions of liters of water out of the mine."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Search in first refuge chamber",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Search in first refuge chamber",
+            "wd_description": "After 4 weeks, rescuers reached the first refuge chamber at 560 meters from the surface, but no miners were found.",
+            "description": "After 4 weeks, rescuers reached the first refuge chamber at 560 meters from the surface, but no miners were found."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Search in second refuge chamber",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Search in second refuge chamber",
+            "wd_description": "Efforts are now directed towards reaching the second refuge chamber at 710 meters from the surface, despite difficult working conditions.",
+            "description": "Efforts are now directed towards reaching the second refuge chamber at 710 meters from the surface, despite difficult working conditions."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Miners' families",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Miners' families",
+            "wd_description": "The miners' wives have gathered near the area, holding prayer congregations with hopes of their husbands being found alive.",
+            "description": "The miners' wives have gathered near the area, holding prayer congregations with hopes of their husbands being found alive."
+        },
+        {
+            "@id": "ev4",
+            "name": "Private equity funds seeking minority stake in Benchmark Mineral Intelligence (BMI)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.10",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.11",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Private equity funds seeking minority stake in Benchmark Mineral Intelligence (BMI)",
+            "wd_description": "Private equity funds are seeking a minority stake in Benchmark Mineral Intelligence (BMI) to gain exposure to the electric-vehicle battery supply chain.",
+            "description": "Private equity funds are seeking a minority stake in Benchmark Mineral Intelligence (BMI) to gain exposure to the electric-vehicle battery supply chain."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Interest from private equity firms",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Interest from private equity firms",
+            "wd_description": "UK-based Hg Capital and Bowmark Capital are among the private equity firms seeking to buy a stake of up to 20% in Benchmark, valued at over 200 million pounds.",
+            "description": "UK-based Hg Capital and Bowmark Capital are among the private equity firms seeking to buy a stake of up to 20% in Benchmark, valued at over 200 million pounds."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Role of Cardean Bell",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Role of Cardean Bell",
+            "wd_description": "The process of selling a stake in Benchmark is being run by corporate advisory firm Cardean Bell.",
+            "description": "The process of selling a stake in Benchmark is being run by corporate advisory firm Cardean Bell."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Rising interest in battery materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rising interest in battery materials",
+            "wd_description": "Interest in battery materials such as lithium, nickel, cobalt, and graphite has been rising, driven by the energy transition and increasing EV sales.",
+            "description": "Interest in battery materials such as lithium, nickel, cobalt, and graphite has been rising, driven by the energy transition and increasing EV sales."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Benchmark's offerings",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark's offerings",
+            "wd_description": "Benchmark provides price assessments, detailed information about costs of production in the supply chain, and information about cathode and anode manufacturers and battery makers.",
+            "description": "Benchmark provides price assessments, detailed information about costs of production in the supply chain, and information about cathode and anode manufacturers and battery makers."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Growth in lithium-ion battery and EV supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Growth in lithium-ion battery and EV supply chain",
+            "wd_description": "The lithium-ion battery and EV supply chain is growing at 25% a year, driving demand for information about the sector.",
+            "description": "The lithium-ion battery and EV supply chain is growing at 25% a year, driving demand for information about the sector."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Benchmark's market position",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark's market position",
+            "wd_description": "Benchmark rivals price reporting agencies such as Fastmarkets, Platts, CRU, and Wood Mackenzie in its coverage of battery materials and related supply chains.",
+            "description": "Benchmark rivals price reporting agencies such as Fastmarkets, Platts, CRU, and Wood Mackenzie in its coverage of battery materials and related supply chains."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Benchmark's employment growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark's employment growth",
+            "wd_description": "Subscription-based Benchmark, started by Simon Moores in 2017, expects to employ more than 100 people by next year.",
+            "description": "Subscription-based Benchmark, started by Simon Moores in 2017, expects to employ more than 100 people by next year."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Benchmark as an ESG investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark as an ESG investment",
+            "wd_description": "Private equity funds see Benchmark as an ESG investment for the electric vehicle revolution.",
+            "description": "Private equity funds see Benchmark as an ESG investment for the electric vehicle revolution."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "Lithium-ion battery supply growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium-ion battery supply growth",
+            "wd_description": "Supplies of lithium-ion batteries are expected to rise 50% this year to 600 gigawatt hours from last year.",
+            "description": "Supplies of lithium-ion batteries are expected to rise 50% this year to 600 gigawatt hours from last year."
+        },
+        {
+            "@id": "ev4.10",
+            "name": "Volkswagen's EV plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Volkswagen's EV plans",
+            "wd_description": "Volkswagen delivered 452,000 battery-electric vehicles globally last year and aims for half of its global output to be all-electric by 2030.",
+            "description": "Volkswagen delivered 452,000 battery-electric vehicles globally last year and aims for half of its global output to be all-electric by 2030."
+        },
+        {
+            "@id": "ev4.11",
+            "name": "US EV sales goal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US EV sales goal",
+            "wd_description": "President Joe Biden has set a goal of 50% of new-vehicle sales being electric or plug-in electric by 2030.",
+            "description": "President Joe Biden has set a goal of 50% of new-vehicle sales being electric or plug-in electric by 2030."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

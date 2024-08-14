@@ -1,0 +1,50 @@
+Sunday, July 30, 2023 – A political convention organized by an Islamist party in northwestern Pakistan was attacked by a suicide bomber, killing not less than 54 people. Over 100 people were injured in the attack targeted at the Jamiat Ulema-e-Islam-Fazi (JUI-F) party members.
+
+No one has claimed responsibility for the attack, but the local branch of ISIS has previously targeted JUI-F party leaders who are considered apostates. Maulana Fazlur, the leader of the JUI-F party, has expressed deep sorrow and regret over the blast. A witness confirmed that over 500 people were at the convention when the blast occurred.
+
+The incident was condemned by the Prime Minister of Pakistan, Shehbaz Sharif. An investigation has been launched concerning the blast, and the office of the Prime Minister has requested a report from the Minister for Interior, Arabs Sanaullah, and the Khyber Pakhtunkhwa government.
+
+Source: CNN
+Thursday, July 26, 2023 – Military personnel in Niger has announced that they have removed the President, Mohamed Bazoum, from power. The announcement came after armed troops blocked the presidential palace in Niamey, the capital of Niger. A few hours after detaining the president, a group of soldiers appeared on the country’s national television.
+
+Colonel Amadou Abdramane, while reading a statement, said: “The defense and security forces had decided to put an end to the regime that people know due to the deteriorating security situation and bad governance". A National curfew was announced following the closure of the country's borders. All institutions of the republic have also been suspended.
+
+The United States Secretary of State, Anthony Blinken, said he had spoken to President Bazoum earlier and clarified that the U.S. supports him as the democratically elected president. He then said the U.S. called for his immediate release.
+
+Source: The Guardian
+Saturday, August 5, 2023 – The former Prime Minister of Pakistan, Imran Khan, has been sentenced to three years in prison over corruption allegations. He was found guilty of not declaring the money he earned from selling gifts he received while he was in office.
+
+Mr. Khan, a former cricket player before becoming a politician, was elected into office in 2018. He was, however, ousted last year with a vote of no confidence after falling out with Pakistan’s military.
+
+Judge Humayun Dilawar wrote in his ruling that the dishonesty of the former Prime Minister had been established beyond doubt. The judge confirmed that the police had been instructed to immediately arrest Mr Khan.
+
+The lawyer of Imran Khan, Intazar Hussain Panjutha, condemned the trial, saying the accused was not allowed to defend himself.
+
+Source: BBC 
+
+
+Improvements in the energy density of electric-vehicles batteries have been driven by advancements in cathodes over the past decade. The next incremental gains in performance and cost are expected to come from emerging technologies in other components, including next-generation anodes, solid-state batteries and sodium-ion cells.
+
+Aside from the technical advantages of certain materials, which include providing longer ranges and faster charging capabilities — hopefully at a lower cost — the move toward new battery materials is emerging as companies and countries grapple with the reality of just how much extraction will be required to make the clean transition.
+
+The history of cathode innovation tells us that shifting away from materials that have more vulnerable supply chains is possible, and in fact, it enabled the move to lower cobalt content and toward chemistries with higher nickel content. The rate at which other emerging technology innovations are adopted could have a significant impact on demand for key raw materials like graphite and lithium.
+
+In its latest electric vehicle outlook, BloombergNEF updated its battery chemistry forecasts, which now include sodium-ion batteries accounting for 3% of passenger car market battery demand in 2035 and 30% of battery demand in the two- and three-wheeler segment.
+
+Those sodium-ion batteries, which don’t use lithium, could help displace up to 7% of lithium demand in 2035. While that percentage seems small, it equates to more than half of all the lithium demand last year.
+
+The rush to secure lithium resources in South America and Africa is just beginning, and any technology that can help offset or alleviate some of the demand will be in favor when (not if) there are supply crunches.
+
+In an even more aggressive scenario, where sodium-ion batteries are used in all small vehicles, lithium displacement gets to 37% by 2035. This may be required if lithium supply cannot meet the significant ramp-up in demand, especially if the amount in batteries increases with the use of lithium-metal anodes enabled through solid-state electrolytes.
+
+However, this scenario would require a rapid supply chain and manufacturing expansion, with sodium-ion cells in 2035 being more than twice the volume of lithium-ion in 2023, a scale that has taken decades to reach.
+
+On the anode side, BNEF expects technologies that lean on silicon, lithium and hard carbon to start entering the battery market this decade, and estimates they could displace 46% of graphite demand in 2035 compared to a scenario in which the market doesn’t shift away from graphite.
+
+Silicon-based anode materials can have an impressive specific capacity up to 4,000 milliampere-hours per gram, over 10 times higher than natural and artificial graphite. Challenges associated with silicon, such as volumetric changes during cycling, are being addressed by reducing particle size and adding conductive materials and pre-lithiation treatments.
+
+The other exciting contender for anodes is lithium-metal, which have higher theoretical specific capacity than both silicon-based anodes and graphite. These anodes, which have to be paired with more advanced electrolytes, such as hybrid or solid-state electrolytes, would add to the lithium supply dilemma, in that they would create more demand.
+
+Lithium-metal anodes could account for 22% of the anode chemistry mix for electric vehicles by 2035, based on BloombergNEF’s analysis. That would represent about a quarter of total lithium demand that year.
+
+

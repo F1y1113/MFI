@@ -1,0 +1,93 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper87_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "End-of-life LIBS handling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.2
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "End-of-life LIBS handling",
+            "wd_description": "The effective utilization of retired LIBs, which still remain about 70-80% of the initial capacity, can extend battery life, conserve natural resources and protect the environment.",
+            "description": "The effective utilization of retired LIBs, which still remain about 70-80% of the initial capacity, can extend battery life, conserve natural resources and protect the environment."
+        },
+        {
+            "@id": "ev2",
+            "name": "Remanufacturing process",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Remanufacturing process",
+            "wd_description": "Presents a systematic discussion on the circular value chain (CVC) of spent LIBs, and proposes a 5R principle entailing reduce, redesign, remanufacturing, repurpose and recycling in the CVC process.",
+            "description": "Presents a systematic discussion on the circular value chain (CVC) of spent LIBs, and proposes a 5R principle entailing reduce, redesign, remanufacturing, repurpose and recycling in the CVC process."
+        },
+        {
+            "@id": "ev3",
+            "name": "Repurpose process",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Repurpose process",
+            "wd_description": "Presents a thorough summary of key issues and applications of repurpose process.",
+            "description": "Presents a thorough summary of key issues and applications of repurpose process."
+        },
+        {
+            "@id": "ev4",
+            "name": "Recycling process",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling process",
+            "wd_description": "Presents a comprehensive discussion on the recycling process, including pre-treatments and mainstream recycling technologies, from the prospects of technical, economic and regulation perspectives.",
+            "description": "Presents a comprehensive discussion on the recycling process, including pre-treatments and mainstream recycling technologies, from the prospects of technical, economic and regulation perspectives."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Reduce",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reduce",
+            "wd_description": "Reduces waste by prolonging battery life through proper handling and maintenance.",
+            "description": "Reduces waste by prolonging battery life through proper handling and maintenance."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Redesign",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Redesign",
+            "wd_description": "Redesigns the LIBs to optimize their performance and extend their lifespan.",
+            "description": "Redesigns the LIBs to optimize their performance and extend their lifespan."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

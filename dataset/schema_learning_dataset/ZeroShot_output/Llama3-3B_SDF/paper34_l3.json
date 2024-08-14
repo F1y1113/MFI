@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper34_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Cobalt Supply Chain Risk Assessment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cobalt Supply Chain Risk Assessment",
+            "wd_description": "To investigate the impact of geopolitical risks and demand shocks of EVs on the cobalt supply chain system.",
+            "description": "To investigate the impact of geopolitical risks and demand shocks of EVs on the cobalt supply chain system."
+        },
+        {
+            "@id": "ev2",
+            "name": "EV Demand Shock",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Demand Shock",
+            "wd_description": "Increased demand for electric vehicles (EVs) has led to increased cobalt demand.",
+            "description": "Increased demand for electric vehicles (EVs) has led to increased cobalt demand."
+        },
+        {
+            "@id": "ev3",
+            "name": "Geopolitical Risk",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Geopolitical Risk",
+            "wd_description": "Geopolitical changes have increased the risk of cobalt supply disruption.",
+            "description": "Geopolitical changes have increased the risk of cobalt supply disruption."
+        },
+        {
+            "@id": "ev4",
+            "name": "Cobalt Price Increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt Price Increase",
+            "wd_description": "The reduction of cobalt imports under geopolitical risks has a direct impact on cobalt prices and produces a superimposed effect.",
+            "description": "The reduction of cobalt imports under geopolitical risks has a direct impact on cobalt prices and produces a superimposed effect."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Recycling Technology Improvement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.33
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.67
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recycling Technology Improvement",
+            "wd_description": "Improving recycling technology can mitigate the impact of cobalt supply disruption.",
+            "description": "Improving recycling technology can mitigate the impact of cobalt supply disruption."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Inventory Management",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.67
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Inventory Management",
+            "wd_description": "Effective inventory management can help mitigate the impact of cobalt supply disruption.",
+            "description": "Effective inventory management can help mitigate the impact of cobalt supply disruption."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Material Substitution",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.67
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Material Substitution",
+            "wd_description": "Substituting materials can help mitigate the impact of cobalt supply disruption.",
+            "description": "Substituting materials can help mitigate the impact of cobalt supply disruption."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "price impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper34/Event/4NKmmPeMJ/Price-dynamics"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "price impacts",
+            "wd_description": "Cobalt prices are directly affected by supply disruptions due to geopolitical risks, leading to significant price increases.",
+            "description": "Cobalt prices are directly affected by supply disruptions due to geopolitical risks, leading to significant price increases."
+        },
+        {
+            "@id": "paper34/Event/4NKmmPeMJ/Price-dynamics",
+            "name": "Price dynamics",
+            "ta1explanation": "",
+            "description": "This includes the detailed changes in cobalt prices due to varying levels of supply disruption and demand changes.",
+            "wd_node": "paper34",
+            "wd_label": "paper34",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

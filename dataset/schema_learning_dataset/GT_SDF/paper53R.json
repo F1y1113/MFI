@@ -1,0 +1,248 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper53R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain decarbonization",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper53/Event/2M4juFWGOF/Decarbonizing-steel-and-aluminum",
+                    "importance": 1
+                },
+                {
+                    "child": "paper53/Event/3EeELLypuV/High-carbon-intensity-of-EV-manufacturing",
+                    "importance": 1
+                },
+                {
+                    "child": "paper53/Event/w2EWIo1zs/Impact-of-high-nickel-content-cathodes",
+                    "importance": 1
+                },
+                {
+                    "child": "paper53/Event/1OIjd0zJEs/Transition-from-LiCO3-to-LiOH-H2O",
+                    "importance": 1
+                },
+                {
+                    "child": "paper53/Event/1e57Eehbbo/Spodumene-hard-rock-deposits",
+                    "importance": 1
+                },
+                {
+                    "child": "paper53/Event/2aE1OoXvks/Life-Cycle-Assessment",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain decarbonization",
+            "wd_description": "The decarbonization of the EV battery supply chain focuses on reducing CO2 emissions from both the production of batteries and the materials that make up the batteries.",
+            "description": "The decarbonization of the EV battery supply chain focuses on reducing CO2 emissions from both the production of batteries and the materials that make up the batteries."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "embodied emissions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "embodied emissions",
+            "wd_description": "The emissions from the production of EVs are mainly embodied emissions due to decarbonized electricity production.",
+            "description": "The emissions from the production of EVs are mainly embodied emissions due to decarbonized electricity production."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "decarbonizing production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "decarbonizing production",
+            "wd_description": "Efforts to decarbonize the production of materials used in EVs, such as steel and aluminum, are crucial for reducing the carbon footprint of EVs.",
+            "description": "Efforts to decarbonize the production of materials used in EVs, such as steel and aluminum, are crucial for reducing the carbon footprint of EVs."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "lithium supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "lithium supply chain",
+            "wd_description": "The supply chain for lithium, a key material in EV batteries, involves various processes and has significant environmental impacts.",
+            "description": "The supply chain for lithium, a key material in EV batteries, involves various processes and has significant environmental impacts."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "hium extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium extraction",
+            "wd_description": "Lithium extraction involves both brine and hard rock mining, with each method having different environmental impacts.",
+            "description": "Lithium extraction involves both brine and hard rock mining, with each method having different environmental impacts."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "hium processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium processing",
+            "wd_description": "The processing of lithium into battery-grade materials involves various chemical and mechanical processes.",
+            "description": "The processing of lithium into battery-grade materials involves various chemical and mechanical processes."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "hium hydroxide production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hium hydroxide production",
+            "wd_description": "Lithium hydroxide is produced through different methods compared to lithium carbonate, and it is crucial for high-nickel cathode materials.",
+            "description": "Lithium hydroxide is produced through different methods compared to lithium carbonate, and it is crucial for high-nickel cathode materials."
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "act assessment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "act assessment",
+            "wd_description": "Life cycle assessments (LCA) are used to evaluate the environmental impacts of different lithium extraction and processing methods.",
+            "description": "Life cycle assessments (LCA) are used to evaluate the environmental impacts of different lithium extraction and processing methods."
+        },
+        {
+            "@id": "paper53/Event/2M4juFWGOF/Decarbonizing-steel-and-aluminum",
+            "name": "Decarbonizing steel and aluminum",
+            "ta1explanation": "",
+            "description": "Efforts are focused on decarbonizing the production of materials like steel and aluminum to reduce the embodied emissions of EVs.",
+            "wd_node": "paper53",
+            "wd_label": "paper53",
+            "participants": []
+        },
+        {
+            "@id": "paper53/Event/3EeELLypuV/High-carbon-intensity-of-EV-manufacturing",
+            "name": "High carbon intensity of EV manufacturing",
+            "ta1explanation": "",
+            "description": "Manufacturing EVs emits significantly more CO2 compared to internal combustion engine vehicles.",
+            "wd_node": "paper53",
+            "wd_label": "paper53",
+            "participants": []
+        },
+        {
+            "@id": "paper53/Event/w2EWIo1zs/Impact-of-high-nickel-content-cathodes",
+            "name": "Impact of high nickel content cathodes",
+            "ta1explanation": "",
+            "description": "Higher nickel content cathode materials like NMC 811 have different carbon footprints compared to traditional cathode materials.",
+            "wd_node": "paper53",
+            "wd_label": "paper53",
+            "participants": []
+        },
+        {
+            "@id": "paper53/Event/1OIjd0zJEs/Transition-from-LiCO3-to-LiOH-H2O",
+            "name": "Transition from LiCO3 to LiOH H2O",
+            "ta1explanation": "",
+            "description": "The shift from using LiCO3 to LiOH•H2O in lithium-ion batteries impacts the carbon emissions due to different manufacturing processes.",
+            "wd_node": "paper53",
+            "wd_label": "paper53",
+            "participants": []
+        },
+        {
+            "@id": "paper53/Event/1e57Eehbbo/Spodumene-hard-rock-deposits",
+            "name": "Spodumene hard rock deposits",
+            "ta1explanation": "",
+            "description": "Lithium extraction from spodumene 'hard rock' deposits in Australia involves different, higher carbon intensity processes.",
+            "wd_node": "paper53",
+            "wd_label": "paper53",
+            "participants": []
+        },
+        {
+            "@id": "paper53/Event/2aE1OoXvks/Life-Cycle-Assessment",
+            "name": "Life Cycle Assessment",
+            "ta1explanation": "",
+            "description": "Life Cycle Assessment (LCA) models are developed to calculate the CO2 impact of any lithium product using various extraction or refining processes.",
+            "wd_node": "paper53",
+            "wd_label": "paper53",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        }
+    ],
+    "entities": []
+}

@@ -1,0 +1,288 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_32R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "President Biden Accuses Oil Companies of War Profiteering",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "President Biden Accuses Oil Companies of War Profiteering",
+            "wd_description": "U.S. President Joe Biden accused oil companies of \"war profiteering\" and raised the possibility of a windfall tax if they do not increase domestic production to lower fuel costs.",
+            "description": "U.S. President Joe Biden accused oil companies of \"war profiteering\" and raised the possibility of a windfall tax if they do not increase domestic production to lower fuel costs."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Biden's Accusation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's Accusation",
+            "wd_description": "President Biden criticized oil companies for making record profits during the war while refusing to lower prices at the pump, accusing them of \"war profiteering.\"",
+            "description": "President Biden criticized oil companies for making record profits during the war while refusing to lower prices at the pump, accusing them of \"war profiteering.\""
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Windfall Tax Proposal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Windfall Tax Proposal",
+            "wd_description": "Biden suggested that Congress could impose tax penalties on oil companies if they do not invest in lowering fuel costs for American citizens.",
+            "description": "Biden suggested that Congress could impose tax penalties on oil companies if they do not invest in lowering fuel costs for American citizens."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "ExxonMobil Criticism",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ExxonMobil Criticism",
+            "wd_description": "Biden specifically targeted ExxonMobil, which reported $19.7 billion in earnings in the third quarter, accusing the company of prioritizing shareholder dividends over increasing production.",
+            "description": "Biden specifically targeted ExxonMobil, which reported $19.7 billion in earnings in the third quarter, accusing the company of prioritizing shareholder dividends over increasing production."
+        },
+        {
+            "@id": "ev2",
+            "name": "Ukraine Faces Russian Attacks as NATO and Poland Investigate Missile Crash",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine Faces Russian Attacks as NATO and Poland Investigate Missile Crash",
+            "wd_description": "Ukraine faced renewed Russian attacks in the east as NATO and Poland concluded that a missile crash in Poland, which killed two people, was likely caused by a stray Ukrainian air defense missile.",
+            "description": "Ukraine faced renewed Russian attacks in the east as NATO and Poland concluded that a missile crash in Poland, which killed two people, was likely caused by a stray Ukrainian air defense missile."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Russian Attacks in Eastern Ukraine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian Attacks in Eastern Ukraine",
+            "wd_description": "Ukraine confirmed fierce attacks in the east by Russian forces, which were reinforced with troops withdrawn from Kherson, following intense strikes on civilian infrastructure.",
+            "description": "Ukraine confirmed fierce attacks in the east by Russian forces, which were reinforced with troops withdrawn from Kherson, following intense strikes on civilian infrastructure."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Missile Crash in Poland",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile Crash in Poland",
+            "wd_description": "A missile crash at a grain facility in Poland, near the Ukrainian border, killed two people, marking the first deadly extension of the war into NATO territory.",
+            "description": "A missile crash at a grain facility in Poland, near the Ukrainian border, killed two people, marking the first deadly extension of the war into NATO territory."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "NATO and Poland's Conclusion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NATO and Poland's Conclusion",
+            "wd_description": "NATO and Poland concluded that the missile was likely a stray S-300 rocket fired by Ukraine's air defenses, with no evidence suggesting it was launched by Russia.",
+            "description": "NATO and Poland concluded that the missile was likely a stray S-300 rocket fired by Ukraine's air defenses, with no evidence suggesting it was launched by Russia."
+        },
+        {
+            "@id": "ev3",
+            "name": "UK Prime Minister Rishi Sunak's Visit to Kyiv",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UK Prime Minister Rishi Sunak's Visit to Kyiv",
+            "wd_description": "UK Prime Minister Rishi Sunak visited Kyiv, pledging continued support for Ukraine and announcing a new £50 million air defense package to help counter Russian drone attacks.",
+            "description": "UK Prime Minister Rishi Sunak visited Kyiv, pledging continued support for Ukraine and announcing a new £50 million air defense package to help counter Russian drone attacks."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Sunak's Visit to Kyiv",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sunak's Visit to Kyiv",
+            "wd_description": "Rishi Sunak made his first visit to Kyiv as the UK Prime Minister, reaffirming Britain's support for Ukraine and emphasizing the UK's commitment to standing with Ukraine.",
+            "description": "Rishi Sunak made his first visit to Kyiv as the UK Prime Minister, reaffirming Britain's support for Ukraine and emphasizing the UK's commitment to standing with Ukraine."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "New Air Defense Package",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "New Air Defense Package",
+            "wd_description": "Sunak announced a £50 million ($60 million) package, including anti-aircraft guns and radar technology, to help Ukraine defend against Russian drone attacks.",
+            "description": "Sunak announced a £50 million ($60 million) package, including anti-aircraft guns and radar technology, to help Ukraine defend against Russian drone attacks."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Continued UK Support for Ukraine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Continued UK Support for Ukraine",
+            "wd_description": "The UK pledged to increase the training provided to Ukrainian armed forces, reinforcing its ongoing support for Ukraine's defense efforts.",
+            "description": "The UK pledged to increase the training provided to Ukrainian armed forces, reinforcing its ongoing support for Ukraine's defense efforts."
+        },
+        {
+            "@id": "ev4",
+            "name": "Biden Administration's $2.8 Billion Grants for EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Biden Administration's $2.8 Billion Grants for EV Battery Supply Chain",
+            "wd_description": "President Joe Biden announced $2.8 billion in grants to boost the electric vehicle battery supply chain, funding projects to produce battery-grade materials and reduce dependence on foreign suppliers.",
+            "description": "President Joe Biden announced $2.8 billion in grants to boost the electric vehicle battery supply chain, funding projects to produce battery-grade materials and reduce dependence on foreign suppliers."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Grant Announcements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Grant Announcements",
+            "wd_description": "The $2.8 billion grants come from the infrastructure law and will fund projects across multiple states to produce battery-grade materials.",
+            "description": "The $2.8 billion grants come from the infrastructure law and will fund projects across multiple states to produce battery-grade materials."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Projects and Investments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Projects and Investments",
+            "wd_description": "Funded projects include efforts to make enough lithium and graphite to supply millions of EVs annually, and create an electrode binder facility to meet future demand.",
+            "description": "Funded projects include efforts to make enough lithium and graphite to supply millions of EVs annually, and create an electrode binder facility to meet future demand."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "American Battery Technology Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "American Battery Technology Project",
+            "wd_description": "Developing a new process to extract and refine lithium from a sedimentary deposit in Nevada through the American Battery Technology Company.",
+            "description": "Developing a new process to extract and refine lithium from a sedimentary deposit in Nevada through the American Battery Technology Company."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "Cirba Solutions Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cirba Solutions Project",
+            "wd_description": "Expanding and upgrading Cirba Solutions’ existing lithium-ion recycling facility in Lancaster, Ohio to produce more lithium.",
+            "description": "Expanding and upgrading Cirba Solutions’ existing lithium-ion recycling facility in Lancaster, Ohio to produce more lithium."
+        },
+        {
+            "@id": "ev4.2.3",
+            "name": "Ascend Elements Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ascend Elements Project",
+            "wd_description": "Constructing a cathode active materials (CAM) plant at a greenfield site in Hopkinsville, Kentucky.",
+            "description": "Constructing a cathode active materials (CAM) plant at a greenfield site in Hopkinsville, Kentucky."
+        },
+        {
+            "@id": "ev4.2.4",
+            "name": "Albemarle Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Albemarle Project",
+            "wd_description": "Constructing a new, commercial-scale U.S.-based lithium materials processing plant at Kings Mountain, North Carolina.",
+            "description": "Constructing a new, commercial-scale U.S.-based lithium materials processing plant at Kings Mountain, North Carolina."
+        },
+        {
+            "@id": "ev4.2.5",
+            "name": "Anovion Project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Anovion Project",
+            "wd_description": "Expanding Anovion's Sanborn, New York manufacturing into Alabama with a new graphite manufacturing facility.",
+            "description": "Expanding Anovion's Sanborn, New York manufacturing into Alabama with a new graphite manufacturing facility."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "American Battery Materials Initiative",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "American Battery Materials Initiative",
+            "wd_description": "The initiative aims to strengthen battery material and mineral supply chains through coordination with tribal nations and international partners.",
+            "description": "The initiative aims to strengthen battery material and mineral supply chains through coordination with tribal nations and international partners."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

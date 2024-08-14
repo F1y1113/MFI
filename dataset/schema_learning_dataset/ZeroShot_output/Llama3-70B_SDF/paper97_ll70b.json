@@ -1,0 +1,310 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper97_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Anode Transition",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Anode Transition",
+            "wd_description": "As the global transport sector ramps up the transition towards electromobility its anode.",
+            "description": "As the global transport sector ramps up the transition towards electromobility its anode."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Lithium Criticality",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.3
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium Criticality",
+            "wd_description": "In addition, lithium is a very large contributor to the overall criticality of all the cells within the primary material use, demand growth, concentration of reserves, and production categories.",
+            "description": "In addition, lithium is a very large contributor to the overall criticality of all the cells within the primary material use, demand growth, concentration of reserves, and production categories."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Cobalt Criticality",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cobalt Criticality",
+            "wd_description": "Another value chain identified as critical is cobalt, which displays high criticality in most of the categories (excluding company concentration and price volatility) for all cobalt-containing cells.",
+            "description": "Another value chain identified as critical is cobalt, which displays high criticality in most of the categories (excluding company concentration and price volatility) for all cobalt-containing cells."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Nickel Criticality",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Nickel Criticality",
+            "wd_description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum.",
+            "description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Cobalt Demand Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cobalt Demand Growth",
+            "wd_description": "Cobalt demand is increasingly growing, accompanied by a high production share from DRC, a country that scores poorly in most of the indicators.",
+            "description": "Cobalt demand is increasingly growing, accompanied by a high production share from DRC, a country that scores poorly in most of the indicators."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Nickel Mining Capacity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 0.4
+                },
+                {
+                    "child": "ev1.5.2",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Nickel Mining Capacity",
+            "wd_description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum.",
+            "description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum."
+        },
+        {
+            "@id": "ev1.6",
+            "name": "Aluminum Demand Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.1",
+                    "importance": 0.05
+                },
+                {
+                    "child": "ev1.6.2",
+                    "importance": 0.01
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Aluminum Demand Growth",
+            "wd_description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum.",
+            "description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum."
+        },
+        {
+            "@id": "ev1.7",
+            "name": "Iron Mining Capacity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.7.1",
+                    "importance": 0.1
+                },
+                {
+                    "child": "ev1.7.2",
+                    "importance": 0.05
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Iron Mining Capacity",
+            "wd_description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum.",
+            "description": "The material seemingly with the lesser impact to the overall criticality is iron, followed by aluminum."
+        },
+        {
+            "@id": "ev2",
+            "name": "Measures to Alleviate Criticality and Environmental Impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Measures to Alleviate Criticality and Environmental Impacts",
+            "wd_description": "Proposes measures such as the transition towards cobalt-free batteries, material efficiency improvements, and end-of-life recycling to reduce the criticality and environmental impacts of LIB cells.",
+            "description": "Proposes measures such as the transition towards cobalt-free batteries, material efficiency improvements, and end-of-life recycling to reduce the criticality and environmental impacts of LIB cells."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Cobalt-free Batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt-free Batteries",
+            "wd_description": "Transition towards using cobalt-free batteries to mitigate the high criticality associated with cobalt in LIB cells.",
+            "description": "Transition towards using cobalt-free batteries to mitigate the high criticality associated with cobalt in LIB cells."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Material Efficiency Improvements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Material Efficiency Improvements",
+            "wd_description": "Improve material efficiency in the production of LIB cells to reduce dependency on critical materials and lower environmental impacts.",
+            "description": "Improve material efficiency in the production of LIB cells to reduce dependency on critical materials and lower environmental impacts."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "End-of-Life Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "End-of-Life Recycling",
+            "wd_description": "Enhance end-of-life recycling processes for LIB cells to recover valuable materials and decrease overall criticality and environmental impacts.",
+            "description": "Enhance end-of-life recycling processes for LIB cells to recover valuable materials and decrease overall criticality and environmental impacts."
+        },
+        {
+            "@id": "ev1.1.1.4",
+            "name": "Graphite Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper97R/Event/2fZbv9aJFF/High-Criticality-Scores-for-Graphite",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Graphite Analysis",
+            "wd_description": "Graphite scores high in company concentration and political instability due to high production concentration in China and other countries with unstable governance.",
+            "description": "Graphite scores high in company concentration and political instability due to high production concentration in China and other countries with unstable governance."
+        },
+        {
+            "@id": "paper97R/Event/2fZbv9aJFF/High-Criticality-Scores-for-Graphite",
+            "name": "High Criticality Scores for Graphite",
+            "ta1explanation": "",
+            "description": "Natural graphite dominates the criticality scores in company concentration.",
+            "wd_node": "paper97",
+            "wd_label": "paper97",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.1",
+            "relationObject": "ev1.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.1",
+            "relationObject": "ev1.5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6.1",
+            "relationObject": "ev1.6.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.7.1",
+            "relationObject": "ev1.7.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

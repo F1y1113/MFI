@@ -1,0 +1,307 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_41R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Meeting between Chinese and Australian Foreign Ministers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Meeting between Chinese and Australian Foreign Ministers",
+            "wd_description": "Chinese Foreign Minister Wang Yi urged Australian Foreign Minister Penny Wong to view China as a partner rather than an opponent, aiming to improve bilateral relations.",
+            "description": "Chinese Foreign Minister Wang Yi urged Australian Foreign Minister Penny Wong to view China as a partner rather than an opponent, aiming to improve bilateral relations."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Wang Yi's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Wang Yi's statement",
+            "wd_description": "Chinese Foreign Minister Wang Yi urged Australia to accumulate \"positive energy\" and improve ties by viewing China as a partner rather than an opponent.",
+            "description": "Chinese Foreign Minister Wang Yi urged Australia to accumulate \"positive energy\" and improve ties by viewing China as a partner rather than an opponent."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Penny Wong's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Penny Wong's response",
+            "wd_description": "Australian Foreign Minister Penny Wong acknowledged the meeting as a first step toward stabilizing relations but noted that trade blockages would take time to be removed.",
+            "description": "Australian Foreign Minister Penny Wong acknowledged the meeting as a first step toward stabilizing relations but noted that trade blockages would take time to be removed."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "meeting discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "meeting discussion",
+            "wd_description": "During the meeting, Wang Yi emphasized that China was engaging in \"equal exchange and cooperation\" based on the needs of sovereign island nations.",
+            "description": "During the meeting, Wang Yi emphasized that China was engaging in \"equal exchange and cooperation\" based on the needs of sovereign island nations."
+        },
+        {
+            "@id": "ev2",
+            "name": "President of Sri Lanka flees to the Maldives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "President of Sri Lanka flees to the Maldives",
+            "wd_description": "Sri Lankan President Gotabaya Rajapaksa fled to the Maldives on a military jet hours before his resignation amid anti-government protests.",
+            "description": "Sri Lankan President Gotabaya Rajapaksa fled to the Maldives on a military jet hours before his resignation amid anti-government protests."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Rajapaksa's departure",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rajapaksa's departure",
+            "wd_description": "President Gotabaya Rajapaksa fled to the Maldives on a military jet due to anti-government protests taking over his presidential palace and office.",
+            "description": "President Gotabaya Rajapaksa fled to the Maldives on a military jet due to anti-government protests taking over his presidential palace and office."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "state of emergency",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "state of emergency",
+            "wd_description": "Prime Minister Ranil Wickremesinghe declared a state of emergency after Rajapaksa's departure.",
+            "description": "Prime Minister Ranil Wickremesinghe declared a state of emergency after Rajapaksa's departure."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Prime Minister's role",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Prime Minister's role",
+            "wd_description": "Ranil Wickremesinghe was appointed the acting President by Rajapaksa.",
+            "description": "Ranil Wickremesinghe was appointed the acting President by Rajapaksa."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Sri Lanka air force statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sri Lanka air force statement",
+            "wd_description": "The Sri Lankan air force confirmed Rajapaksa's departure, stating they provided a plane to fly him, his wife, and two security officials to the Maldives.",
+            "description": "The Sri Lankan air force confirmed Rajapaksa's departure, stating they provided a plane to fly him, his wife, and two security officials to the Maldives."
+        },
+        {
+            "@id": "ev3",
+            "name": "Earthquake in Southern Iran",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Earthquake in Southern Iran",
+            "wd_description": "A powerful earthquake and aftershocks struck the southern Iranian province of Hormozgan, resulting in fatalities and significant damage.",
+            "description": "A powerful earthquake and aftershocks struck the southern Iranian province of Hormozgan, resulting in fatalities and significant damage."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Earthquake",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Earthquake",
+            "wd_description": "A magnitude-six earthquake struck near the coast, southwest of Bandar Abbas, causing at least five fatalities and significant damage.",
+            "description": "A magnitude-six earthquake struck near the coast, southwest of Bandar Abbas, causing at least five fatalities and significant damage."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Aftershocks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Aftershocks",
+            "wd_description": "Two equally strong aftershocks were felt, extending the impact of the earthquake to neighboring regions including the UAE and other Gulf states.",
+            "description": "Two equally strong aftershocks were felt, extending the impact of the earthquake to neighboring regions including the UAE and other Gulf states."
+        },
+        {
+            "@id": "ev4",
+            "name": "Ford's EV battery supply chain strategy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ford's EV battery supply chain strategy",
+            "wd_description": "Ford is enhancing its battery supply chain by incorporating lower-cost, iron-based batteries from China and securing raw material supplies to boost electric vehicle production.",
+            "description": "Ford is enhancing its battery supply chain by incorporating lower-cost, iron-based batteries from China and securing raw material supplies to boost electric vehicle production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "short-term goals",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "short-term goals",
+            "wd_description": "Ford aims to produce 600,000 EVs annually by 2023, supported by its strategy to use cheaper and more abundant LFP batteries.",
+            "description": "Ford aims to produce 600,000 EVs annually by 2023, supported by its strategy to use cheaper and more abundant LFP batteries."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: increasing EV production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: increasing EV production",
+            "wd_description": "Ford plans to increase its EV production from 27,140 units to 600,000 units annually by 2023.",
+            "description": "Ford plans to increase its EV production from 27,140 units to 600,000 units annually by 2023."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: importing LFP batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: importing LFP batteries",
+            "wd_description": "Ford will import LFP battery packs from China’s CATL for its Mustang Mach-E and F-150 Lightning starting next year.",
+            "description": "Ford will import LFP battery packs from China’s CATL for its Mustang Mach-E and F-150 Lightning starting next year."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "long-term goals",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "long-term goals",
+            "wd_description": "Ford aims to produce 2 million EVs annually by 2026, with plans to establish a 40-GWh LFP cell factory in North America and reduce reliance on nickel and cobalt-based batteries.",
+            "description": "Ford aims to produce 2 million EVs annually by 2026, with plans to establish a 40-GWh LFP cell factory in North America and reduce reliance on nickel and cobalt-based batteries."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: domestic LFP production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: domestic LFP production",
+            "wd_description": "Ford plans to open a 40-GWh LFP cell factory in North America by 2026.",
+            "description": "Ford plans to open a 40-GWh LFP cell factory in North America by 2026."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: reducing reliance on nickel and cobalt",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: reducing reliance on nickel and cobalt",
+            "wd_description": "Ford is shifting to iron-based LFP batteries to avoid supply issues related to nickel and cobalt.",
+            "description": "Ford is shifting to iron-based LFP batteries to avoid supply issues related to nickel and cobalt."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "supplier deals and partnerships",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "supplier deals and partnerships",
+            "wd_description": "Ford has announced several supplier deals and partnerships to secure raw materials and battery components directly from mining companies.",
+            "description": "Ford has announced several supplier deals and partnerships to secure raw materials and battery components directly from mining companies."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: direct sourcing from mining companies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: direct sourcing from mining companies",
+            "wd_description": "Ford has secured contracts to buy raw materials directly from mining companies to ensure a steady supply for battery production.",
+            "description": "Ford has secured contracts to buy raw materials directly from mining companies to ensure a steady supply for battery production."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: diversification of battery chemistry",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: diversification of battery chemistry",
+            "wd_description": "Ford is adding LFP battery chemistry alongside its existing NCM chemistry to diversify its battery options and reduce costs.",
+            "description": "Ford is adding LFP battery chemistry alongside its existing NCM chemistry to diversify its battery options and reduce costs."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_46R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "South Korea's economic support offer rejected by North Korea",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "South Korea's economic support offer rejected by North Korea",
+            "wd_description": "North Korea rejected South Korea's offer of economic support in exchange for denuclearization, with Kim Yo Jong criticizing President Yoon Suk Yeol's proposal.",
+            "description": "North Korea rejected South Korea's offer of economic support in exchange for denuclearization, with Kim Yo Jong criticizing President Yoon Suk Yeol's proposal."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "South Korea's offer",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "South Korea's offer",
+            "wd_description": "South Korea offered economic support to North Korea in exchange for denuclearization.",
+            "description": "South Korea offered economic support to North Korea in exchange for denuclearization."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Kim Yo Jong's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Kim Yo Jong's response",
+            "wd_description": "Kim Yo Jong, the younger sister of Kim Jong Un, rejected the offer, criticizing President Yoon Suk Yeol as \"really simple\" and stating that North Korea would not sit face to face with South Korea.",
+            "description": "Kim Yo Jong, the younger sister of Kim Jong Un, rejected the offer, criticizing President Yoon Suk Yeol as \"really simple\" and stating that North Korea would not sit face to face with South Korea."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Unification Ministry's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Unification Ministry's response",
+            "wd_description": "The Unification Ministry in South Korea responded that North Korea distorted South Korea's idea and indicated its intention to continue nuclear development.",
+            "description": "The Unification Ministry in South Korea responded that North Korea distorted South Korea's idea and indicated its intention to continue nuclear development."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "initial proposal by Yoon",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "initial proposal by Yoon",
+            "wd_description": "President Yoon Suk Yeol first proposed the swap of economic cooperation for denuclearization during his inauguration speech in May.",
+            "description": "President Yoon Suk Yeol first proposed the swap of economic cooperation for denuclearization during his inauguration speech in May."
+        },
+        {
+            "@id": "ev2",
+            "name": "Accusation and trial of British mercenaries by DPR",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Accusation and trial of British mercenaries by DPR",
+            "wd_description": "The Russian-backed Donetsk People’s Republic (DPR) accused two more British citizens, Dylan Healy and Andrew Hill, of being mercenaries, initiating an inquiry against them.",
+            "description": "The Russian-backed Donetsk People’s Republic (DPR) accused two more British citizens, Dylan Healy and Andrew Hill, of being mercenaries, initiating an inquiry against them."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "British mercenaries accusation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "British mercenaries accusation",
+            "wd_description": "Dylan Healy and Andrew Hill were accused by the DPR of being mercenaries, similar to three previously convicted mercenaries.",
+            "description": "Dylan Healy and Andrew Hill were accused by the DPR of being mercenaries, similar to three previously convicted mercenaries."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "UK Foreign Office response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "UK Foreign Office response",
+            "wd_description": "The UK Foreign Office criticized the political exploitation of inmates and highlighted the issue with Russian authorities, supporting Ukraine's efforts to free them.",
+            "description": "The UK Foreign Office criticized the political exploitation of inmates and highlighted the issue with Russian authorities, supporting Ukraine's efforts to free them."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "European Court of Human Rights intervention",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "European Court of Human Rights intervention",
+            "wd_description": "The European Court of Human Rights granted interim measures to prevent the execution of the previously convicted mercenaries.",
+            "description": "The European Court of Human Rights granted interim measures to prevent the execution of the previously convicted mercenaries."
+        },
+        {
+            "@id": "ev3",
+            "name": "China announces countermeasures against the US following Pelosi's visit to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China announces countermeasures against the US following Pelosi's visit to Taiwan",
+            "wd_description": "The Chinese Foreign Ministry announced countermeasures against Washington, including the suspension of climate talks and military communications, following Speaker Pelosi’s visit to Taiwan.",
+            "description": "The Chinese Foreign Ministry announced countermeasures against Washington, including the suspension of climate talks and military communications, following Speaker Pelosi’s visit to Taiwan."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "suspension of climate talks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "suspension of climate talks",
+            "wd_description": "China announced the suspension of climate talks with the US as part of its countermeasures following Pelosi’s visit to Taiwan.",
+            "description": "China announced the suspension of climate talks with the US as part of its countermeasures following Pelosi’s visit to Taiwan."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "cancellation of military communications",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "cancellation of military communications",
+            "wd_description": "China canceled future phone calls and messages between Chinese and US defense leaders and annual naval meetings under the China-US military maritime consultation mechanism.",
+            "description": "China canceled future phone calls and messages between Chinese and US defense leaders and annual naval meetings under the China-US military maritime consultation mechanism."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Chinese Foreign Ministry statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese Foreign Ministry statement",
+            "wd_description": "The Chinese Foreign Ministry stated that Pelosi's visit seriously interfered with China’s internal affairs and threatened peace and stability across the Taiwan Strait.",
+            "description": "The Chinese Foreign Ministry stated that Pelosi's visit seriously interfered with China’s internal affairs and threatened peace and stability across the Taiwan Strait."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "sanctions on Pelosi",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sanctions on Pelosi",
+            "wd_description": "Beijing sanctioned Pelosi and her immediate family members over her visit to Taiwan and stepped up military drills and warplane incursions around the island.",
+            "description": "Beijing sanctioned Pelosi and her immediate family members over her visit to Taiwan and stepped up military drills and warplane incursions around the island."
+        },
+        {
+            "@id": "ev4",
+            "name": "SPARAR's new battery factory in West Virginia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "SPARAR's new battery factory in West Virginia",
+            "wd_description": "SPARAR announced the construction of a new factory in West Virginia, spurred by the Inflation Reduction Act, to produce cobalt-free storage devices and contribute to domestic battery production.",
+            "description": "SPARAR announced the construction of a new factory in West Virginia, spurred by the Inflation Reduction Act, to produce cobalt-free storage devices and contribute to domestic battery production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "factory construction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "factory construction",
+            "wd_description": "The 482,000-square-foot factory will be built in Bridgeport, West Virginia, employing 350 people initially.",
+            "description": "The 482,000-square-foot factory will be built in Bridgeport, West Virginia, employing 350 people initially."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "workforce development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "workforce development",
+            "wd_description": "SPARAR has an agreement with the United Mine Workers to hire and train idled workers, potentially revitalizing coal country.",
+            "description": "SPARAR has an agreement with the United Mine Workers to hire and train idled workers, potentially revitalizing coal country."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "production focus",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "production focus",
+            "wd_description": "Initially, the factory will produce batteries for forklifts, farm equipment, and energy storage, with plans to expand to electric vehicle batteries.",
+            "description": "Initially, the factory will produce batteries for forklifts, farm equipment, and energy storage, with plans to expand to electric vehicle batteries."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "future plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "future plans",
+            "wd_description": "The factory aims to gear up for the anticipated boom in the electric vehicle market, with EVs expected to make up 25% of cars by 2025 and 50% by 2030 in the U.S.",
+            "description": "The factory aims to gear up for the anticipated boom in the electric vehicle market, with EVs expected to make up 25% of cars by 2025 and 50% by 2030 in the U.S."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

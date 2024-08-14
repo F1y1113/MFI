@@ -1,0 +1,291 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q4_30R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Sanctions on North Korean citizens by South Korea, December 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sanctions on North Korean citizens by South Korea, December 2023",
+            "wd_description": "South Korea sanctioned eight North Korean citizens linked to nuclear and missile development through arms trade, cyberattacks, and other illicit activities, following a recent intercontinental ballistic missile test by North Korea.",
+            "description": "South Korea sanctioned eight North Korean citizens linked to nuclear and missile development through arms trade, cyberattacks, and other illicit activities, following a recent intercontinental ballistic missile test by North Korea."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Recent missile test by North Korea",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recent missile test by North Korea",
+            "wd_description": "North Korea recently fired an intercontinental ballistic missile, an action condemned by South Korea and the United States as a violation of UN Security Council resolutions.",
+            "description": "North Korea recently fired an intercontinental ballistic missile, an action condemned by South Korea and the United States as a violation of UN Security Council resolutions."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Sanctioned individuals and entities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanctioned individuals and entities",
+            "wd_description": "South Korea sanctioned eight North Korean individuals, including Ri Chang Ho and Yun Chol, for their involvement in nuclear development, arms trade, and cyberattacks.",
+            "description": "South Korea sanctioned eight North Korean individuals, including Ri Chang Ho and Yun Chol, for their involvement in nuclear development, arms trade, and cyberattacks."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "International response and condemnation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International response and condemnation",
+            "wd_description": "The missile test and subsequent sanctions were strongly condemned by South Korea and the United States, as part of ongoing international efforts to curb North Korea's weapons program.",
+            "description": "The missile test and subsequent sanctions were strongly condemned by South Korea and the United States, as part of ongoing international efforts to curb North Korea's weapons program."
+        },
+        {
+            "@id": "ev2",
+            "name": "Record-breaking global temperatures in September 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Record-breaking global temperatures in September 2023",
+            "wd_description": "September 2023 recorded the highest global temperatures ever at 1.75°C, driven by the El Niño weather event and ongoing emissions of warming gases, surpassing previous records significantly.",
+            "description": "September 2023 recorded the highest global temperatures ever at 1.75°C, driven by the El Niño weather event and ongoing emissions of warming gases, surpassing previous records significantly."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "El Niño weather event",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "El Niño weather event",
+            "wd_description": "The El Niño weather event contributed to the significant rise in global temperatures in September 2023, compounding the effects of ongoing emissions.",
+            "description": "The El Niño weather event contributed to the significant rise in global temperatures in September 2023, compounding the effects of ongoing emissions."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Global temperature increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Global temperature increase",
+            "wd_description": "September 2023 saw a 1.75°C global temperature, 0.5°C higher than the previous record, and 0.93°C above the average temperature for September between 1991 and 2020.",
+            "description": "September 2023 saw a 1.75°C global temperature, 0.5°C higher than the previous record, and 0.93°C above the average temperature for September between 1991 and 2020."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Political implications for COP28",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Political implications for COP28",
+            "wd_description": "The unprecedented rise in global temperatures places new pressure on politicians as they prepare for the COP28 climate summit in November 2023.",
+            "description": "The unprecedented rise in global temperatures places new pressure on politicians as they prepare for the COP28 climate summit in November 2023."
+        },
+        {
+            "@id": "ev3",
+            "name": "Severe flooding and landslide in northern Tanzania, December 2023",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Severe flooding and landslide in northern Tanzania, December 2023",
+            "wd_description": "Severe flooding and landslide in northern Tanzania have resulted in at least 47 deaths and 80 injuries, with widespread destruction of property and livelihoods, exacerbated by higher-than-usual rainfall in the region.",
+            "description": "Severe flooding and landslide in northern Tanzania have resulted in at least 47 deaths and 80 injuries, with widespread destruction of property and livelihoods, exacerbated by higher-than-usual rainfall in the region."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Heavy rainfall in Tanzania",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Heavy rainfall in Tanzania",
+            "wd_description": "Northern Tanzania experienced higher-than-usual rainfall, leading to severe flooding and landslides across several regions, including the capital Dar es Salaam.",
+            "description": "Northern Tanzania experienced higher-than-usual rainfall, leading to severe flooding and landslides across several regions, including the capital Dar es Salaam."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Flooding and landslides",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Flooding and landslides",
+            "wd_description": "The flooding and landslides in northern Tanzania resulted in at least 47 deaths, 80 injuries, and significant destruction of property, with national security forces deployed for rescue efforts.",
+            "description": "The flooding and landslides in northern Tanzania resulted in at least 47 deaths, 80 injuries, and significant destruction of property, with national security forces deployed for rescue efforts."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Impact on livelihoods",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on livelihoods",
+            "wd_description": "Crops were washed away in some parts of Tanzania, affecting the livelihood of the people, with flooding identified as the greatest natural disaster in the country.",
+            "description": "Crops were washed away in some parts of Tanzania, affecting the livelihood of the people, with flooding identified as the greatest natural disaster in the country."
+        },
+        {
+            "@id": "ev4",
+            "name": "Senator Manchin's Call for Strict EV Tax Credit Standards",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Senator Manchin's Call for Strict EV Tax Credit Standards",
+            "wd_description": "Democratic Senator Joe Manchin urged the U.S. Treasury to adopt the strictest possible standards to prevent Chinese-produced minerals or battery companies from receiving electric vehicle tax credits.",
+            "description": "Democratic Senator Joe Manchin urged the U.S. Treasury to adopt the strictest possible standards to prevent Chinese-produced minerals or battery companies from receiving electric vehicle tax credits."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Manchin's Letter to Treasury",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Manchin's Letter to Treasury",
+            "wd_description": "Senator Joe Manchin raised concerns in a letter to Treasury Secretary Janet Yellen about Chinese battery companies seeking to take advantage of U.S. EV tax credits.",
+            "description": "Senator Joe Manchin raised concerns in a letter to Treasury Secretary Janet Yellen about Chinese battery companies seeking to take advantage of U.S. EV tax credits."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Inflation Reduction Act Provisions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Inflation Reduction Act Provisions",
+            "wd_description": "The Inflation Reduction Act bars $7,500 in consumer EV tax credits if any battery components are manufactured or assembled by a \"foreign entity of concern.\"",
+            "description": "The Inflation Reduction Act bars $7,500 in consumer EV tax credits if any battery components are manufactured or assembled by a \"foreign entity of concern.\""
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Definition of Foreign Entity of Concern",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Definition of Foreign Entity of Concern",
+            "wd_description": "The auto industry awaits detailed guidance on what constitutes a \"foreign entity of concern\" as they plan battery production investments.",
+            "description": "The auto industry awaits detailed guidance on what constitutes a \"foreign entity of concern\" as they plan battery production investments."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Impact on Battery Supply Chains",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Impact on Battery Supply Chains",
+            "wd_description": "The rules aim to reduce U.S. dependency on Chinese battery supply chains, which currently dominate global cathode, anode, and lithium-ion battery cell production.",
+            "description": "The rules aim to reduce U.S. dependency on Chinese battery supply chains, which currently dominate global cathode, anode, and lithium-ion battery cell production."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Treasury's Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Treasury's Response",
+            "wd_description": "A Treasury spokesperson stated they will assess and respond to national security concerns associated with international and domestic supply chains as the clean energy market evolves.",
+            "description": "A Treasury spokesperson stated they will assess and respond to national security concerns associated with international and domestic supply chains as the clean energy market evolves."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Ford's Licensing Deal Concerns",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ford's Licensing Deal Concerns",
+            "wd_description": "Concerns have been raised about Ford's deal to license Chinese battery manufacturer CATL's technology for use in U.S. battery plants and its eligibility for tax credits.",
+            "description": "Concerns have been raised about Ford's deal to license Chinese battery manufacturer CATL's technology for use in U.S. battery plants and its eligibility for tax credits."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Ford's Michigan Plant Hold",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Ford's Michigan Plant Hold",
+            "wd_description": "Ford has put its planned $3.5 billion Michigan battery plant on hold, awaiting final guidance from the Treasury on tax credit eligibility.",
+            "description": "Ford has put its planned $3.5 billion Michigan battery plant on hold, awaiting final guidance from the Treasury on tax credit eligibility."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Lawmaker Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Lawmaker Concerns",
+            "wd_description": "U.S. lawmakers have expressed concerns about the arrangement between Ford and CATL meeting Treasury standards for tax credits.",
+            "description": "U.S. lawmakers have expressed concerns about the arrangement between Ford and CATL meeting Treasury standards for tax credits."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

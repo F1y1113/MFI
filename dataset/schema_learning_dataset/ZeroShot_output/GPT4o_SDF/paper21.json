@@ -1,0 +1,436 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper21",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Decarbonisation of the transportation sector",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Decarbonisation of the transportation sector",
+            "wd_description": "The transportation sector is shifting towards electric vehicles (EVs) equipped mainly with Lithium-Ion Batteries (LIBs) as a means to decarbonize.",
+            "description": "The transportation sector is shifting towards electric vehicles (EVs) equipped mainly with Lithium-Ion Batteries (LIBs) as a means to decarbonize."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Graphite supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Graphite supply chain",
+            "wd_description": "The primary anode material for LIBs is graphite, sourced as either natural graphite or synthetic graphite. Rapid LIB penetration might disrupt these graphite value chains.",
+            "description": "The primary anode material for LIBs is graphite, sourced as either natural graphite or synthetic graphite. Rapid LIB penetration might disrupt these graphite value chains."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Natural graphite",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Natural graphite",
+            "wd_description": "Natural graphite is mined and sourced directly from graphite ore.",
+            "description": "Natural graphite is mined and sourced directly from graphite ore."
+        },
+        {
+            "@id": "ev1.1.1.1",
+            "name": "Mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Mining",
+            "wd_description": "Mining activities for extracting natural graphite from the earth.",
+            "description": "Mining activities for extracting natural graphite from the earth."
+        },
+        {
+            "@id": "ev1.1.1.2",
+            "name": "Geographic origin analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Geographic origin analysis",
+            "wd_description": "Analysis to determine the geographical sources of natural graphite supply and potential barriers to its expansion.",
+            "description": "Analysis to determine the geographical sources of natural graphite supply and potential barriers to its expansion."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Synthetic graphite",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Synthetic graphite",
+            "wd_description": "Synthetic graphite is produced from a carbon precursor, usually needle coke.",
+            "description": "Synthetic graphite is produced from a carbon precursor, usually needle coke."
+        },
+        {
+            "@id": "ev1.1.2.1",
+            "name": "Needle coke",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Needle coke",
+            "wd_description": "Needle coke is a carbon precursor used to produce synthetic graphite.",
+            "description": "Needle coke is a carbon precursor used to produce synthetic graphite."
+        },
+        {
+            "@id": "ev1.1.2.1.1",
+            "name": "Petroleum extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Petroleum extraction",
+            "wd_description": "The process of extracting petroleum, which is a precursor for producing needle coke.",
+            "description": "The process of extracting petroleum, which is a precursor for producing needle coke."
+        },
+        {
+            "@id": "ev1.1.2.1.2",
+            "name": "Refining processes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Refining processes",
+            "wd_description": "Refining petroleum to produce needle coke for synthetic graphite.",
+            "description": "Refining petroleum to produce needle coke for synthetic graphite."
+        },
+        {
+            "@id": "ev1.1.2.2",
+            "name": "Petroleum refineries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Petroleum refineries",
+            "wd_description": "Refineries process petroleum to produce needle coke, a critical material for synthetic graphite.",
+            "description": "Refineries process petroleum to produce needle coke, a critical material for synthetic graphite."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Parametric model development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Parametric model development",
+            "wd_description": "A model was developed to quantify flows in the graphite value chain and its use in EVs between 2020 and 2050 under various scenarios.",
+            "description": "A model was developed to quantify flows in the graphite value chain and its use in EVs between 2020 and 2050 under various scenarios."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Scenarios",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Scenarios",
+            "wd_description": "The model includes scenarios on vehicle ownership, EV penetration, battery chemistries, and the share of natural versus synthetic graphite in batteries.",
+            "description": "The model includes scenarios on vehicle ownership, EV penetration, battery chemistries, and the share of natural versus synthetic graphite in batteries."
+        },
+        {
+            "@id": "ev1.2.1.1",
+            "name": "EV penetration",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV penetration",
+            "wd_description": "Scenarios considering the rate of EV adoption and penetration in the market.",
+            "description": "Scenarios considering the rate of EV adoption and penetration in the market."
+        },
+        {
+            "@id": "ev1.2.1.2",
+            "name": "Battery chemistries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Battery chemistries",
+            "wd_description": "Different battery chemistries considered in the scenarios.",
+            "description": "Different battery chemistries considered in the scenarios."
+        },
+        {
+            "@id": "ev1.2.1.3",
+            "name": "Recycling technologies",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling technologies",
+            "wd_description": "Various recycling technologies considered in the scenarios.",
+            "description": "Various recycling technologies considered in the scenarios."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Monte Carlo simulation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Monte Carlo simulation",
+            "wd_description": "Monte Carlo simulation was used to assess the uncertainty of the results in the model.",
+            "description": "Monte Carlo simulation was used to assess the uncertainty of the results in the model."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Recycling and societal changes",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recycling and societal changes",
+            "wd_description": "Efficient recycling techniques combined with societal changes, such as lower vehicle ownership and smaller vehicles, are needed to mitigate graphite supply shortages.",
+            "description": "Efficient recycling techniques combined with societal changes, such as lower vehicle ownership and smaller vehicles, are needed to mitigate graphite supply shortages."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Recycling techniques",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling techniques",
+            "wd_description": "The combination of the most efficient recycling techniques is essential to mitigate the risk of graphite supply shortages.",
+            "description": "The combination of the most efficient recycling techniques is essential to mitigate the risk of graphite supply shortages."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Societal changes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Societal changes",
+            "wd_description": "Societal changes such as lower vehicle ownership and smaller vehicles can help reduce the demand for graphite.",
+            "description": "Societal changes such as lower vehicle ownership and smaller vehicles can help reduce the demand for graphite."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.1",
+            "relationObject": "ev1.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.1",
+            "relationObject": "ev1.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.1",
+            "relationObject": "ev1.1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1.1",
+            "relationObject": "ev1.1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1.1",
+            "relationObject": "ev1.1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1.1",
+            "relationObject": "ev1.1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1.1",
+            "relationObject": "ev1.1.2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1",
+            "relationObject": "ev1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.1.2",
+            "relationObject": "ev1.2.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1",
+            "relationObject": "ev1.3.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

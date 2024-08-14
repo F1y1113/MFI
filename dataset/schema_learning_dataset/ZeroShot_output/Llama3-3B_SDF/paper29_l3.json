@@ -1,0 +1,87 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper29_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Li-ion battery supply chain expansion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Li-ion battery supply chain expansion",
+            "wd_description": "The industry that manufactures Li-ion batteries is expected to grow as much as ten times its current size, and the supply chain that feeds the materials into that industry also has to expand at a similar rate.",
+            "description": "The industry that manufactures Li-ion batteries is expected to grow as much as ten times its current size, and the supply chain that feeds the materials into that industry also has to expand at a similar rate."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Cobalt shipment increase",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt shipment increase",
+            "wd_description": "The total amount of cobalt shipments is not very flexible, with most being mined in the Democratic Republic of Congo, primarily as a co-extracted mineral.",
+            "description": "The total amount of cobalt shipments is not very flexible, with most being mined in the Democratic Republic of Congo, primarily as a co-extracted mineral."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Cobalt price increase",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt price increase",
+            "wd_description": "The price of elemental cobalt has more than doubled in the last 12 months to the $50/KG level.",
+            "description": "The price of elemental cobalt has more than doubled in the last 12 months to the $50/KG level."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Industry growth expectation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Industry growth expectation",
+            "wd_description": "The Li-ion battery industry is expected to grow as much as ten times its current size in the next 5-10 years.",
+            "description": "The Li-ion battery industry is expected to grow as much as ten times its current size in the next 5-10 years."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Battery industry demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper29/Event/2jcmUUq1z8/Cobalt-demand"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery industry demand",
+            "wd_description": "The expected growth of the battery industry is driving up demand for cobalt, influencing its market price.",
+            "description": "The expected growth of the battery industry is driving up demand for cobalt, influencing its market price."
+        },
+        {
+            "@id": "paper29/Event/2jcmUUq1z8/Cobalt-demand",
+            "name": "Cobalt demand",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper29",
+            "wd_label": "paper29",
+            "participants": []
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

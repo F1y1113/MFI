@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_34R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Critical stage of US-China ties",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Critical stage of US-China ties",
+            "wd_description": "Chinese Defense Minister Wei Fenghe stated that US-China ties were at a critical stage and called on the US to improve the bilateral relationship while rejecting US accusations and threats.",
+            "description": "Chinese Defense Minister Wei Fenghe stated that US-China ties were at a critical stage and called on the US to improve the bilateral relationship while rejecting US accusations and threats."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Wei Fenghe's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Wei Fenghe's statement",
+            "wd_description": "Wei Fenghe said it was up to the US to improve the bilateral relationship and firmly rejected US smearing, accusations, and threats.",
+            "description": "Wei Fenghe said it was up to the US to improve the bilateral relationship and firmly rejected US smearing, accusations, and threats."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Lloyd Austin's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lloyd Austin's response",
+            "wd_description": "Defense Secretary Lloyd Austin noted the increasing number of unsafe encounters between Chinese and other countries' planes and vessels, reaffirming US support for its allies, including Taiwan.",
+            "description": "Defense Secretary Lloyd Austin noted the increasing number of unsafe encounters between Chinese and other countries' planes and vessels, reaffirming US support for its allies, including Taiwan."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Russia-Ukraine discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russia-Ukraine discussion",
+            "wd_description": "At the meeting, Wei stated that China supported peace talks in Ukraine and opposed maximum pressure tactics, clarifying that China had not provided material support to Russia.",
+            "description": "At the meeting, Wei stated that China supported peace talks in Ukraine and opposed maximum pressure tactics, clarifying that China had not provided material support to Russia."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Expert analysis",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expert analysis",
+            "wd_description": "Meia Nouwens, a senior fellow at the International Institute for Strategic Studies, noted that Wei's speech was consistent with Beijing's stance on the Russia-Ukraine issue.",
+            "description": "Meia Nouwens, a senior fellow at the International Institute for Strategic Studies, noted that Wei's speech was consistent with Beijing's stance on the Russia-Ukraine issue."
+        },
+        {
+            "@id": "ev2",
+            "name": "Resignation of Boris Bondarev",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resignation of Boris Bondarev",
+            "wd_description": "Boris Bondarev, a counselor at the Russian permanent mission to the UN in Geneva, resigned from his position, criticizing Putin's war as aggressive and based on lies.",
+            "description": "Boris Bondarev, a counselor at the Russian permanent mission to the UN in Geneva, resigned from his position, criticizing Putin's war as aggressive and based on lies."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Bondarev's resignation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bondarev's resignation",
+            "wd_description": "Bondarev, the counselor on arms control, is the only high-level diplomat to resign from the Russian foreign ministry since the war began in February.",
+            "description": "Bondarev, the counselor on arms control, is the only high-level diplomat to resign from the Russian foreign ministry since the war began in February."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Bondarev's criticism of the war",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bondarev's criticism of the war",
+            "wd_description": "Bondarev called the war an aggressive move by Putin driven by lies, warmongering, and hatred, and noted that other diplomats feel similarly but are unlikely to speak out.",
+            "description": "Bondarev called the war an aggressive move by Putin driven by lies, warmongering, and hatred, and noted that other diplomats feel similarly but are unlikely to speak out."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Reactions to Bondarev's resignation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reactions to Bondarev's resignation",
+            "wd_description": "Hillel Neuer, executive director of UN Watch, commended Bondarev and urged other diplomats to follow his example.",
+            "description": "Hillel Neuer, executive director of UN Watch, commended Bondarev and urged other diplomats to follow his example."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Bondarev's future considerations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bondarev's future considerations",
+            "wd_description": "When asked about returning to Russia, Bondarev indicated that it would not be a good idea right now.",
+            "description": "When asked about returning to Russia, Bondarev indicated that it would not be a good idea right now."
+        },
+        {
+            "@id": "ev3",
+            "name": "Ukraine's EU candidate status recommendation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine's EU candidate status recommendation",
+            "wd_description": "Ukraine's bid to join the European Union received a boost as the European Commission recommended the country for candidate status due to Russia's invasion.",
+            "description": "Ukraine's bid to join the European Union received a boost as the European Commission recommended the country for candidate status due to Russia's invasion."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "European Commission recommendation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "European Commission recommendation",
+            "wd_description": "The European Commission President, Ursula von der Leyen, announced the recommendation for Ukraine to be given candidate status, contingent on further reforms.",
+            "description": "The European Commission President, Ursula von der Leyen, announced the recommendation for Ukraine to be given candidate status, contingent on further reforms."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Moldova's candidate status",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Moldova's candidate status",
+            "wd_description": "The commission also recommended candidate status for Ukraine's neighbor, Moldova.",
+            "description": "The commission also recommended candidate status for Ukraine's neighbor, Moldova."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Upcoming EU summit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Upcoming EU summit",
+            "wd_description": "Leaders of the 27 EU member states are set to meet for a summit next week to discuss their options.",
+            "description": "Leaders of the 27 EU member states are set to meet for a summit next week to discuss their options."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Zelensky's statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Zelensky's statement",
+            "wd_description": "Volodymyr Zelensky stated at a press conference that Russia's attack on Ukraine amounted to an attack on all of Europe. The German Chancellor, French President, and Italian Prime Minister were present at the conference.",
+            "description": "Volodymyr Zelensky stated at a press conference that Russia's attack on Ukraine amounted to an attack on all of Europe. The German Chancellor, French President, and Italian Prime Minister were present at the conference."
+        },
+        {
+            "@id": "ev4",
+            "name": "GM Cobalt Sourcing Agreement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "GM Cobalt Sourcing Agreement",
+            "wd_description": "GM has signed a multi-year sourcing agreement for cobalt supply from Glencore’s mining operation in Australia to support its EV battery production.",
+            "description": "GM has signed a multi-year sourcing agreement for cobalt supply from Glencore’s mining operation in Australia to support its EV battery production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Cobalt Supply Agreement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt Supply Agreement",
+            "wd_description": "GM signed a multi-year sourcing agreement with Glencore for cobalt from their mining operation in Australia.",
+            "description": "GM signed a multi-year sourcing agreement with Glencore for cobalt from their mining operation in Australia."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Use in Ultium Batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Use in Ultium Batteries",
+            "wd_description": "The cobalt sourced from Australia will be used in GM’s Ultium battery cathodes for models like the Chevrolet Silverado EV, GMC Hummer EV, and Cadillac LYRIQ.",
+            "description": "The cobalt sourced from Australia will be used in GM’s Ultium battery cathodes for models like the Chevrolet Silverado EV, GMC Hummer EV, and Cadillac LYRIQ."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Responsible Sourcing Initiative",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Responsible Sourcing Initiative",
+            "wd_description": "Both GM and Glencore are members of the Responsible Minerals Initiative, focusing on secure and sustainable sourcing of critical raw materials.",
+            "description": "Both GM and Glencore are members of the Responsible Minerals Initiative, focusing on secure and sustainable sourcing of critical raw materials."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

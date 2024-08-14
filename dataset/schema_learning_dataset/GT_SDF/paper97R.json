@@ -1,0 +1,309 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper97R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Transition to Electromobility and LIB Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Transition to Electromobility and LIB Development",
+            "wd_description": "As the global transport sector shifts towards electromobility, the value chain for raw materials used in lithium-ion battery (LIB) development becomes critical. This study assesses criticality aspects of LIB cells to identify supply risks and inform battery technology development.",
+            "description": "As the global transport sector shifts towards electromobility, the value chain for raw materials used in lithium-ion battery (LIB) development becomes critical. This study assesses criticality aspects of LIB cells to identify supply risks and inform battery technology development."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Value Chain Criticality Assessment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Value Chain Criticality Assessment",
+            "wd_description": "The study uses the ESSENZ method to systematically assess eleven criticality aspects of ten LIB cells, evaluating the criticality scores by aggregating the scores of eleven constituent value chains.",
+            "description": "The study uses the ESSENZ method to systematically assess eleven criticality aspects of ten LIB cells, evaluating the criticality scores by aggregating the scores of eleven constituent value chains."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Criticality Scores Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.1.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.1.4",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Criticality Scores Analysis",
+            "wd_description": "The criticality scores of LIB cells are analyzed by evaluating political stability, mining capacity, trade barriers, feasibility of exploration projects, and occurrence of co-production for materials like cobalt, lithium, nickel, and graphite.",
+            "description": "The criticality scores of LIB cells are analyzed by evaluating political stability, mining capacity, trade barriers, feasibility of exploration projects, and occurrence of co-production for materials like cobalt, lithium, nickel, and graphite."
+        },
+        {
+            "@id": "ev1.1.1.1",
+            "name": "Cobalt Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper97R/Event/2zB6TpFBAV/High-Criticality-Scores-for-Cobalt",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Cobalt Analysis",
+            "wd_description": "Cobalt dominates criticality scores in political stability, mining capacity, trade barriers, feasibility of exploration projects, and occurrence of co-production, primarily due to production concentration in the Democratic Republic of Congo.",
+            "description": "Cobalt dominates criticality scores in political stability, mining capacity, trade barriers, feasibility of exploration projects, and occurrence of co-production, primarily due to production concentration in the Democratic Republic of Congo."
+        },
+        {
+            "@id": "ev1.1.1.2",
+            "name": "Lithium Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper97R/Event/2xNLegueNe/High-Criticality-Scores-for-Lithium",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Analysis",
+            "wd_description": "Lithium scores high in demand growth, concentration of reserves, concentration of production, and primary material use, driven by fast development of EVs and concentrated reserves in Chile and production in Australia.",
+            "description": "Lithium scores high in demand growth, concentration of reserves, concentration of production, and primary material use, driven by fast development of EVs and concentrated reserves in Chile and production in Australia."
+        },
+        {
+            "@id": "ev1.1.1.3",
+            "name": "Nickel Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper97R/Event/3Gv0LMPzpF/High-Criticality-Scores-for-Nickel",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Nickel Analysis",
+            "wd_description": "Nickel dominates criticality scores in price volatility and partly influences mining capacity due to its progressive demand growth and significant market fluctuations.",
+            "description": "Nickel dominates criticality scores in price volatility and partly influences mining capacity due to its progressive demand growth and significant market fluctuations."
+        },
+        {
+            "@id": "ev1.1.1.4",
+            "name": "Graphite Analysis",
+            "participants": [],
+            "children": [
+                {
+                    "child": "paper97R/Event/2fZbv9aJFF/High-Criticality-Scores-for-Graphite",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Graphite Analysis",
+            "wd_description": "Graphite scores high in company concentration and political instability due to high production concentration in China and other countries with unstable governance.",
+            "description": "Graphite scores high in company concentration and political instability due to high production concentration in China and other countries with unstable governance."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Environmental Midpoint Impacts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental Midpoint Impacts",
+            "wd_description": "The criticality scores are complemented by twelve environmental midpoint impacts using life cycle assessments to provide a comprehensive view of the value chain impacts.",
+            "description": "The criticality scores are complemented by twelve environmental midpoint impacts using life cycle assessments to provide a comprehensive view of the value chain impacts."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Comparative LIB Cell Assessment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Comparative LIB Cell Assessment",
+            "wd_description": "The study develops a quadrant matrix chart depicting the relative performance of LIB cells based on their aggregated elemental criticality and environmental impact scores, identifying cells needing improvements.",
+            "description": "The study develops a quadrant matrix chart depicting the relative performance of LIB cells based on their aggregated elemental criticality and environmental impact scores, identifying cells needing improvements."
+        },
+        {
+            "@id": "ev2",
+            "name": "Measures to Alleviate Criticality and Environmental Impacts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Measures to Alleviate Criticality and Environmental Impacts",
+            "wd_description": "Proposes measures such as the transition towards cobalt-free batteries, material efficiency improvements, and end-of-life recycling to reduce the criticality and environmental impacts of LIB cells.",
+            "description": "Proposes measures such as the transition towards cobalt-free batteries, material efficiency improvements, and end-of-life recycling to reduce the criticality and environmental impacts of LIB cells."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Cobalt-free Batteries",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Cobalt-free Batteries",
+            "wd_description": "Transition towards using cobalt-free batteries to mitigate the high criticality associated with cobalt in LIB cells.",
+            "description": "Transition towards using cobalt-free batteries to mitigate the high criticality associated with cobalt in LIB cells."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Material Efficiency Improvements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Material Efficiency Improvements",
+            "wd_description": "Improve material efficiency in the production of LIB cells to reduce dependency on critical materials and lower environmental impacts.",
+            "description": "Improve material efficiency in the production of LIB cells to reduce dependency on critical materials and lower environmental impacts."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "End-of-Life Recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "End-of-Life Recycling",
+            "wd_description": "Enhance end-of-life recycling processes for LIB cells to recover valuable materials and decrease overall criticality and environmental impacts.",
+            "description": "Enhance end-of-life recycling processes for LIB cells to recover valuable materials and decrease overall criticality and environmental impacts."
+        },
+        {
+            "@id": "paper97R/Event/2zB6TpFBAV/High-Criticality-Scores-for-Cobalt",
+            "name": "High Criticality Scores for Cobalt",
+            "ta1explanation": "",
+            "description": "Cobalt dominates the criticality scores in political stability, mining capacity, trade barriers, feasibility of exploration projects, and co-production.",
+            "wd_node": "paper97",
+            "wd_label": "paper97",
+            "participants": []
+        },
+        {
+            "@id": "paper97R/Event/2xNLegueNe/High-Criticality-Scores-for-Lithium",
+            "name": "High Criticality Scores for Lithium",
+            "ta1explanation": "",
+            "description": "Lithium dominates the criticality scores in demand growth, concentration of reserves, concentration of production, and primary material use.",
+            "wd_node": "paper97",
+            "wd_label": "paper97",
+            "participants": []
+        },
+        {
+            "@id": "paper97R/Event/3Gv0LMPzpF/High-Criticality-Scores-for-Nickel",
+            "name": "High Criticality Scores for Nickel",
+            "ta1explanation": "",
+            "description": "Nickel dominates the criticality scores in price volatility.",
+            "wd_node": "paper97",
+            "wd_label": "paper97",
+            "participants": []
+        },
+        {
+            "@id": "paper97R/Event/2fZbv9aJFF/High-Criticality-Scores-for-Graphite",
+            "name": "High Criticality Scores for Graphite",
+            "ta1explanation": "",
+            "description": "Natural graphite dominates the criticality scores in company concentration.",
+            "wd_node": "paper97",
+            "wd_label": "paper97",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1.3",
+            "relationObject": "ev1.1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        }
+    ],
+    "entities": []
+}

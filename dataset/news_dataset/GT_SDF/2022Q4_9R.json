@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q4_9R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Dismissal of Germany's Cybersecurity Chief",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Dismissal of Germany's Cybersecurity Chief",
+            "wd_description": "Germany's cybersecurity chief, Arne Schönbohm, was fired after allegations surfaced of his connections to a firm linked to Russian security circles, following a satirical TV show revelation.",
+            "description": "Germany's cybersecurity chief, Arne Schönbohm, was fired after allegations surfaced of his connections to a firm linked to Russian security circles, following a satirical TV show revelation."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Dismissal of Schönbohm",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Dismissal of Schönbohm",
+            "wd_description": "Arne Schönbohm, head of the German Federal Office for Information, was relieved of his duties as the country’s cybersecurity chief following allegations of ties to a Russian-linked firm.",
+            "description": "Arne Schönbohm, head of the German Federal Office for Information, was relieved of his duties as the country’s cybersecurity chief following allegations of ties to a Russian-linked firm."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Allegations of Russian Connections",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Allegations of Russian Connections",
+            "wd_description": "Schönbohm's dismissal came after reports of his past connections to a Russian-linked cybersecurity firm, highlighted by a German satire show.",
+            "description": "Schönbohm's dismissal came after reports of his past connections to a Russian-linked cybersecurity firm, highlighted by a German satire show."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Public Scrutiny",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Public Scrutiny",
+            "wd_description": "The controversy surrounding Schönbohm's connections was brought to public attention by a satire show hosted by German comedian Jan Böhmermann, leading to increased scrutiny.",
+            "description": "The controversy surrounding Schönbohm's connections was brought to public attention by a satire show hosted by German comedian Jan Böhmermann, leading to increased scrutiny."
+        },
+        {
+            "@id": "ev2",
+            "name": "Russia Suspends Participation in UN-Brokered Grain Export Deal",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Russia Suspends Participation in UN-Brokered Grain Export Deal",
+            "wd_description": "Russia announced the suspension of its participation in the UN-brokered grain export deal with Ukraine after a drone attack on Sevastopol, Crimea, which Russia blames on Kyiv.",
+            "description": "Russia announced the suspension of its participation in the UN-brokered grain export deal with Ukraine after a drone attack on Sevastopol, Crimea, which Russia blames on Kyiv."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Suspension of Grain Deal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Suspension of Grain Deal",
+            "wd_description": "Russia suspended its involvement in the UN-brokered grain export deal with Ukraine, citing a drone attack on Sevastopol as the reason for its withdrawal.",
+            "description": "Russia suspended its involvement in the UN-brokered grain export deal with Ukraine, citing a drone attack on Sevastopol as the reason for its withdrawal."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Drone Attack on Sevastopol",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Drone Attack on Sevastopol",
+            "wd_description": "A drone attack targeted the Crimean city of Sevastopol, which Russia attributed to Kyiv, although this claim could not be independently verified.",
+            "description": "A drone attack targeted the Crimean city of Sevastopol, which Russia attributed to Kyiv, although this claim could not be independently verified."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Ukrainian Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukrainian Response",
+            "wd_description": "Ukraine accused Russia of fabricating the attack to justify its withdrawal from the grain deal and criticized Moscow for various forms of blackmail, including nuclear and food blackmail.",
+            "description": "Ukraine accused Russia of fabricating the attack to justify its withdrawal from the grain deal and criticized Moscow for various forms of blackmail, including nuclear and food blackmail."
+        },
+        {
+            "@id": "ev3",
+            "name": "Ukraine Faces Russian Attacks as NATO and Poland Investigate Missile Crash",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ukraine Faces Russian Attacks as NATO and Poland Investigate Missile Crash",
+            "wd_description": "Ukraine faced renewed Russian attacks in the east as NATO and Poland concluded that a missile crash in Poland, which killed two people, was likely caused by a stray Ukrainian air defense missile.",
+            "description": "Ukraine faced renewed Russian attacks in the east as NATO and Poland concluded that a missile crash in Poland, which killed two people, was likely caused by a stray Ukrainian air defense missile."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Russian Attacks in Eastern Ukraine",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian Attacks in Eastern Ukraine",
+            "wd_description": "Ukraine confirmed fierce attacks in the east by Russian forces, which were reinforced with troops withdrawn from Kherson, following intense strikes on civilian infrastructure.",
+            "description": "Ukraine confirmed fierce attacks in the east by Russian forces, which were reinforced with troops withdrawn from Kherson, following intense strikes on civilian infrastructure."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Missile Crash in Poland",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Missile Crash in Poland",
+            "wd_description": "A missile crash at a grain facility in Poland, near the Ukrainian border, killed two people, marking the first deadly extension of the war into NATO territory.",
+            "description": "A missile crash at a grain facility in Poland, near the Ukrainian border, killed two people, marking the first deadly extension of the war into NATO territory."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "NATO and Poland's Conclusion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "NATO and Poland's Conclusion",
+            "wd_description": "NATO and Poland concluded that the missile was likely a stray S-300 rocket fired by Ukraine's air defenses, with no evidence suggesting it was launched by Russia.",
+            "description": "NATO and Poland concluded that the missile was likely a stray S-300 rocket fired by Ukraine's air defenses, with no evidence suggesting it was launched by Russia."
+        },
+        {
+            "@id": "ev4",
+            "name": "Canada's Battery-Supply Chain Prowess and Investments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Canada's Battery-Supply Chain Prowess and Investments",
+            "wd_description": "Canada has risen in BloombergNEF's global ranking of battery-producing countries, second only to China, due to significant investments in critical mineral mining, battery component manufacturing, and EV production.",
+            "description": "Canada has risen in BloombergNEF's global ranking of battery-producing countries, second only to China, due to significant investments in critical mineral mining, battery component manufacturing, and EV production."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "BloombergNEF Ranking",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "BloombergNEF Ranking",
+            "wd_description": "Canada's position in BloombergNEF's global ranking improved to second place, reflecting its strong presence in the battery supply chain industry.",
+            "description": "Canada's position in BloombergNEF's global ranking improved to second place, reflecting its strong presence in the battery supply chain industry."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Federal Investments",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Federal Investments",
+            "wd_description": "Over the past 10 months, Canada has announced more than $15 billion in investments in critical mineral mining, battery component manufacturing, and EV production.",
+            "description": "Over the past 10 months, Canada has announced more than $15 billion in investments in critical mineral mining, battery component manufacturing, and EV production."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "International Outreach",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Outreach",
+            "wd_description": "Federal Innovation Minister François-Philippe Champagne is visiting Asia, Japan, South Korea, and Germany to consolidate relationships and promote Canada's battery-supply chain capabilities.",
+            "description": "Federal Innovation Minister François-Philippe Champagne is visiting Asia, Japan, South Korea, and Germany to consolidate relationships and promote Canada's battery-supply chain capabilities."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Supply Chain Links",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply Chain Links",
+            "wd_description": "The battery-supply chain includes raw material mining, refining, component manufacturing, and battery cell production, culminating in gigafactories producing battery packs.",
+            "description": "The battery-supply chain includes raw material mining, refining, component manufacturing, and battery cell production, culminating in gigafactories producing battery packs."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Environmental Stewardship",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Environmental Stewardship",
+            "wd_description": "Canada receives high marks for keeping the supply chain green due to its renewable energy resources and environmental regulations on mining.",
+            "description": "Canada receives high marks for keeping the supply chain green due to its renewable energy resources and environmental regulations on mining."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Efforts to Limit China's Influence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Efforts to Limit China's Influence",
+            "wd_description": "Canada is taking steps to limit China's influence in the domestic supply chain, including ordering Chinese companies to sell their interests in Canadian firms and limiting foreign-owned state companies' involvement in the critical mineral sector.",
+            "description": "Canada is taking steps to limit China's influence in the domestic supply chain, including ordering Chinese companies to sell their interests in Canadian firms and limiting foreign-owned state companies' involvement in the critical mineral sector."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

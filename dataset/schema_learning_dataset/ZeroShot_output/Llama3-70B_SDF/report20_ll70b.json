@@ -1,0 +1,434 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report20_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-Ion Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Recycling",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Greenbush",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Greenbush",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev2",
+            "name": "Core Lithium Investment Decision",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Core Lithium Investment Decision",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Core Lithium Construction Start",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Core Lithium Construction Start",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev3",
+            "name": "DSO Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "DSO Production",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev3.1",
+            "name": "DMS Factory Completion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "DMS Factory Completion",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev5",
+            "name": "Grants Investment Decision",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Grants Investment Decision",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Greenbush Development",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Greenbush Development",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev6",
+            "name": "Bioleaching Technique",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Bioleaching Technique",
+            "wd_description": "Uses bacteria to retrieve precious metals.",
+            "description": "Uses bacteria to retrieve precious metals."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Contamination Risk",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev6.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Contamination Risk",
+            "wd_description": "Bacteria are easily susceptible to contamination.",
+            "description": "Bacteria are easily susceptible to contamination."
+        },
+        {
+            "@id": "ev8",
+            "name": "Greenbush Development Completion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Greenbush Development Completion",
+            "wd_description": "xxxxx",
+            "description": "xxxxx"
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Market Dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.4",
+                    "importance": 1
+                },
+                {
+                    "child": "report20R/Event/N2zzaiHU8/Supply-Demand-Analysis",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Market Dynamics",
+            "wd_description": "The lithium market is influenced by global electric vehicle sales, energy storage installations, and production from new mining projects, with potential geopolitical risks.",
+            "description": "The lithium market is influenced by global electric vehicle sales, energy storage installations, and production from new mining projects, with potential geopolitical risks."
+        },
+        {
+            "@id": "ev2.2.1",
+            "name": "EV Sales",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Sales",
+            "wd_description": "Global electric vehicle sales drive demand for lithium, impacting market prices and production strategies.",
+            "description": "Global electric vehicle sales drive demand for lithium, impacting market prices and production strategies."
+        },
+        {
+            "@id": "ev2.2.2",
+            "name": "Energy Storage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy Storage",
+            "wd_description": "The growth in global energy storage installations influences the demand for lithium, with varying impacts based on technological advancements and market conditions.",
+            "description": "The growth in global energy storage installations influences the demand for lithium, with varying impacts based on technological advancements and market conditions."
+        },
+        {
+            "@id": "ev2.2.3",
+            "name": "New Mining Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "New Mining Projects",
+            "wd_description": "Contributions from new lithium mining projects, particularly in South America and Africa, are affecting the global supply and market balance.",
+            "description": "Contributions from new lithium mining projects, particularly in South America and Africa, are affecting the global supply and market balance."
+        },
+        {
+            "@id": "ev2.2.4",
+            "name": "Geopolitical Risks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.4.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2.4.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Geopolitical Risks",
+            "wd_description": "Geopolitical risks, such as tensions in key mining regions, could impact the stability of lithium supply and market conditions.",
+            "description": "Geopolitical risks, such as tensions in key mining regions, could impact the stability of lithium supply and market conditions."
+        },
+        {
+            "@id": "report20R/Event/N2zzaiHU8/Supply-Demand-Analysis",
+            "name": "Supply Demand Analysis",
+            "ta1explanation": "",
+            "description": "This event reflects the detailed analysis of supply and demand trends affecting the lithium market, including production capacities and market needs.",
+            "wd_node": "report20",
+            "wd_label": "report20",
+            "participants": []
+        },
+        {
+            "@id": "ev6.3",
+            "name": "Demand Dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev6.3.2",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Demand Dynamics",
+            "wd_description": "The demand for lithium is driven by various sectors, including electric vehicles and energy storage, with market conditions and technological advancements playing significant roles.",
+            "description": "The demand for lithium is driven by various sectors, including electric vehicles and energy storage, with market conditions and technological advancements playing significant roles."
+        },
+        {
+            "@id": "ev6.3.1",
+            "name": "EV Demand",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV Demand",
+            "wd_description": "The growing demand for electric vehicles is a major driver of lithium consumption, influencing market trends and production strategies.",
+            "description": "The growing demand for electric vehicles is a major driver of lithium consumption, influencing market trends and production strategies."
+        },
+        {
+            "@id": "ev6.3.2",
+            "name": "Energy Storage Demand",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Energy Storage Demand",
+            "wd_description": "The increasing installation of energy storage systems globally is boosting demand for lithium, with technological advancements enhancing efficiency.",
+            "description": "The increasing installation of energy storage systems globally is boosting demand for lithium, with technological advancements enhancing efficiency."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev2.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1",
+            "relationObject": "ev2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3",
+            "relationObject": "ev3.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1",
+            "relationObject": "ev5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4",
+            "relationObject": "ev5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5",
+            "relationObject": "ev5.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1",
+            "relationObject": "ev6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1",
+            "relationObject": "ev6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6",
+            "relationObject": "ev7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6",
+            "relationObject": "ev6.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1",
+            "relationObject": "ev8"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7",
+            "relationObject": "ev8"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2",
+            "relationObject": "ev"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

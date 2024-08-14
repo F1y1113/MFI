@@ -1,0 +1,769 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q1_10R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Forest Fires near Chernobyl Nuclear Reactor",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Forest Fires near Chernobyl Nuclear Reactor",
+            "wd_description": "Forest fires have erupted near the Chernobyl nuclear reactor, with Ukrainian authorities claiming that Russian control of the area is hampering efforts to control the flames.",
+            "description": "Forest fires have erupted near the Chernobyl nuclear reactor, with Ukrainian authorities claiming that Russian control of the area is hampering efforts to control the flames."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Fire Outbreak",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Fire Outbreak",
+            "wd_description": "At least seven fires have been spotted within Chernobyl’s exclusion zone, likely ignited by the armed aggression of the Russian Federation.",
+            "description": "At least seven fires have been spotted within Chernobyl’s exclusion zone, likely ignited by the armed aggression of the Russian Federation."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "t: Causes of Fires",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Causes of Fires",
+            "wd_description": "The fires may have been caused by shelling, arson, or other factors related to the armed aggression of the Russian Federation.",
+            "description": "The fires may have been caused by shelling, arson, or other factors related to the armed aggression of the Russian Federation."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "t: Satellite Imagery Confirmation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Satellite Imagery Confirmation",
+            "wd_description": "Satellite imagery taken by the European Space Agency confirmed the presence of at least seven fires within the exclusion zone.",
+            "description": "Satellite imagery taken by the European Space Agency confirmed the presence of at least seven fires within the exclusion zone."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Impact on Radiation Levels",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Impact on Radiation Levels",
+            "wd_description": "The fires within 10km of the Chernobyl plant are particularly dangerous, with concerns about the potential release of radioactive material.",
+            "description": "The fires within 10km of the Chernobyl plant are particularly dangerous, with concerns about the potential release of radioactive material."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "t: Historical Radiation Spikes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Historical Radiation Spikes",
+            "wd_description": "In 2020, a forest fire near the reactor caused radiation levels to spike to 16 times above normal.",
+            "description": "In 2020, a forest fire near the reactor caused radiation levels to spike to 16 times above normal."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "t: Current Monitoring Challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Current Monitoring Challenges",
+            "wd_description": "Ukrainian authorities claim that the ongoing war is hindering attempts to monitor radiation levels, making it difficult to respond to potential threats.",
+            "description": "Ukrainian authorities claim that the ongoing war is hindering attempts to monitor radiation levels, making it difficult to respond to potential threats."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Response and Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Response and Challenges",
+            "wd_description": "Ukrainian firefighters are unable to tackle the blazes due to Russian presence, and there are concerns about the safety and monitoring of the site.",
+            "description": "Ukrainian firefighters are unable to tackle the blazes due to Russian presence, and there are concerns about the safety and monitoring of the site."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "t: Firefighting Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Firefighting Efforts",
+            "wd_description": "Ukrainian firefighters are unable to control the fires due to the presence of Russian forces in the area.",
+            "description": "Ukrainian firefighters are unable to control the fires due to the presence of Russian forces in the area."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "t: Safety Concerns",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Safety Concerns",
+            "wd_description": "There are concerns that fierce fighting in the area could damage the reactor further and cause radioactive material to escape.",
+            "description": "There are concerns that fierce fighting in the area could damage the reactor further and cause radioactive material to escape."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Climate Change Factors",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 0.6
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Climate Change Factors",
+            "wd_description": "Climate scientists have pointed out that rising temperatures due to global heating are causing forests to dry out, making them more susceptible to fires.",
+            "description": "Climate scientists have pointed out that rising temperatures due to global heating are causing forests to dry out, making them more susceptible to fires."
+        },
+        {
+            "@id": "ev1.4.1",
+            "name": "t: Climate Change Impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Climate Change Impact",
+            "wd_description": "Warmer temperatures are causing bigger fire seasons around the world, which may mobilize radioactive particles from the Chernobyl region.",
+            "description": "Warmer temperatures are causing bigger fire seasons around the world, which may mobilize radioactive particles from the Chernobyl region."
+        },
+        {
+            "@id": "ev1.4.2",
+            "name": "t: Future Risks",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Future Risks",
+            "wd_description": "The rapidly changing climate and the presence of large amounts of dead, fire-prone wood in the Chernobyl region pose a high risk of radioactive contamination from future fires.",
+            "description": "The rapidly changing climate and the presence of large amounts of dead, fire-prone wood in the Chernobyl region pose a high risk of radioactive contamination from future fires."
+        },
+        {
+            "@id": "ev2",
+            "name": "North Korea missile tests",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "North Korea missile tests",
+            "wd_description": "Beginning on January 5, North Korea initiated a new round of missile tests over the Sea of Japan, aiming to circumvent American and Japanese missile defense technologies.",
+            "description": "Beginning on January 5, North Korea initiated a new round of missile tests over the Sea of Japan, aiming to circumvent American and Japanese missile defense technologies."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "missile tests",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "missile tests",
+            "wd_description": "North Korea began missile tests over the Sea of Japan on January 5.",
+            "description": "North Korea began missile tests over the Sea of Japan on January 5."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "defense circumvention",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "defense circumvention",
+            "wd_description": "The missile tests are targeted toward circumventing American and Japanese missile defense technologies in the region.",
+            "description": "The missile tests are targeted toward circumventing American and Japanese missile defense technologies in the region."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "diplomatic preemption",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "diplomatic preemption",
+            "wd_description": "Some analysts suspect the missile tests are intended to preempt a new push for diplomatic engagement with the U.S.",
+            "description": "Some analysts suspect the missile tests are intended to preempt a new push for diplomatic engagement with the U.S."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "sanctions",
+            "wd_description": "The U.S. has leveraged severe sanctions against North Korea due to its missile programs.",
+            "description": "The U.S. has leveraged severe sanctions against North Korea due to its missile programs."
+        },
+        {
+            "@id": "ev3",
+            "name": "Potential Russian Invasion of Ukraine",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Potential Russian Invasion of Ukraine",
+            "wd_description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation.",
+            "description": "Tensions rise as US President Joe Biden warns of a potential Russian invasion of Ukraine, with a build-up of Russian troops on the Ukrainian border and diplomatic efforts to de-escalate the situation."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "US warnings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "US warnings",
+            "wd_description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February.",
+            "description": "US President Joe Biden and officials warn of a distinct possibility of a Russian invasion of Ukraine in February."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Biden's statements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden's statements",
+            "wd_description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky.",
+            "description": "President Biden warns of a potential Russian invasion during a phone call with Ukrainian President Volodymyr Zelensky."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: White House statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: White House statement",
+            "wd_description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine.",
+            "description": "The White House issues a statement reaffirming the US's readiness to respond decisively if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: National Security Council spokesperson",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: National Security Council spokesperson",
+            "wd_description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion.",
+            "description": "Emily Horne, spokesperson for the National Security Council, reiterates Biden's warning of a possible invasion."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Russian troop build-up",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian troop build-up",
+            "wd_description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion.",
+            "description": "Tens of thousands of Russian troops are positioned on Ukraine's borders, raising fears of an imminent invasion."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "diplomatic efforts",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "diplomatic efforts",
+            "wd_description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders.",
+            "description": "Diplomatic efforts are underway to de-escalate the situation, including talks between the US, Ukraine, and European leaders."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Biden-Zelensky call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden-Zelensky call",
+            "wd_description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis.",
+            "description": "President Biden and President Zelensky discuss joint actions for the future and recent diplomatic efforts to de-escalate the crisis."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Macron-Putin call",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Macron-Putin call",
+            "wd_description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis.",
+            "description": "French President Emmanuel Macron is scheduled to speak with Russian President Vladimir Putin to discuss the crisis."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: US-Russia negotiations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: US-Russia negotiations",
+            "wd_description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO.",
+            "description": "Ongoing negotiations between the US and Russia, including the rejection of Russia's demand that Ukraine never join NATO."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "energy implications",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "energy implications",
+            "wd_description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany.",
+            "description": "The potential invasion has significant implications for energy projects, including the Nord Stream 2 pipeline from Russia to Germany."
+        },
+        {
+            "@id": "ev3.4.1",
+            "name": "t: Nord Stream 2 project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nord Stream 2 project",
+            "wd_description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine.",
+            "description": "The Nord Stream 2 pipeline, designed to double Russia's gas exports to Germany, faces potential sanctions if Russia invades Ukraine."
+        },
+        {
+            "@id": "ev3.4.2",
+            "name": "t: potential sanctions",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential sanctions",
+            "wd_description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs.",
+            "description": "Western allies, including the US and Germany, threaten to target Russia's economy and energy projects with sanctions if an invasion occurs."
+        },
+        {
+            "@id": "ev4",
+            "name": "U.S. Domestic EV Battery Supply Chain Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Domestic EV Battery Supply Chain Development",
+            "wd_description": "North American automotive OEMs are committed to establishing a domestic supply chain for EV batteries to meet the goal of converting at least half of the U.S. market to EVs by 2030, amidst significant investments and challenges.",
+            "description": "North American automotive OEMs are committed to establishing a domestic supply chain for EV batteries to meet the goal of converting at least half of the U.S. market to EVs by 2030, amidst significant investments and challenges."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "EV Battery Plant Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Plant Projects",
+            "wd_description": "Nearly a dozen EV battery plant projects involving capital expenditures of more than $1 billion have been initiated or announced, totaling $17 billion from Detroit's Big Three automakers.",
+            "description": "Nearly a dozen EV battery plant projects involving capital expenditures of more than $1 billion have been initiated or announced, totaling $17 billion from Detroit's Big Three automakers."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Project Announcements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Project Announcements",
+            "wd_description": "Major EV battery plant projects have been initiated or announced by North American automotive OEMs.",
+            "description": "Major EV battery plant projects have been initiated or announced by North American automotive OEMs."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: Investment Amount",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Investment Amount",
+            "wd_description": "Detroit's Big Three automakers have invested a total of $17 billion in these EV battery plant projects.",
+            "description": "Detroit's Big Three automakers have invested a total of $17 billion in these EV battery plant projects."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Dependency on Overseas Components",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Dependency on Overseas Components",
+            "wd_description": "In the near term, most components used to make EV batteries at new assembly plants will come from overseas, with over 90% of production still based in Asia.",
+            "description": "In the near term, most components used to make EV batteries at new assembly plants will come from overseas, with over 90% of production still based in Asia."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Overseas Production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Overseas Production",
+            "wd_description": "Most EV battery components, including lithium battery cells, anodes, cathodes, separators, and battery packs, are produced in Asia.",
+            "description": "Most EV battery components, including lithium battery cells, anodes, cathodes, separators, and battery packs, are produced in Asia."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Supply Chain Challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Supply Chain Challenges",
+            "wd_description": "The dependency on overseas production creates supply chain challenges for the North American EV market.",
+            "description": "The dependency on overseas production creates supply chain challenges for the North American EV market."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Domestic BMS and TMS Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Domestic BMS and TMS Production",
+            "wd_description": "The U.S. has a healthy supply of domestic producers for Battery Management Systems (BMS) and Thermal Management Systems (TMS), essential for EV battery safety and performance.",
+            "description": "The U.S. has a healthy supply of domestic producers for Battery Management Systems (BMS) and Thermal Management Systems (TMS), essential for EV battery safety and performance."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: BMS Producers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: BMS Producers",
+            "wd_description": "Major BMS producers in the U.S. include Leclanché North America, Infinion, and Nuvation Energy.",
+            "description": "Major BMS producers in the U.S. include Leclanché North America, Infinion, and Nuvation Energy."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: TMS Producers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: TMS Producers",
+            "wd_description": "Major TMS producers in the U.S. include Dana, VOSS Automotive, and Hanon Systems.",
+            "description": "Major TMS producers in the U.S. include Dana, VOSS Automotive, and Hanon Systems."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Global Lithium Battery Cell Producers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Global Lithium Battery Cell Producers",
+            "wd_description": "The majority of global lithium battery cell production is dominated by companies based in China, South Korea, and Japan, with Tesla emerging as a new contender.",
+            "description": "The majority of global lithium battery cell production is dominated by companies based in China, South Korea, and Japan, with Tesla emerging as a new contender."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: Leading Producers",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Leading Producers",
+            "wd_description": "The top global lithium battery cell producers include LG Energy Solution (South Korea), CATV (China), BYD (China), SK Innovation (South Korea), Samsung SDI (South Korea), and Panasonic (Japan).",
+            "description": "The top global lithium battery cell producers include LG Energy Solution (South Korea), CATV (China), BYD (China), SK Innovation (South Korea), Samsung SDI (South Korea), and Panasonic (Japan)."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Tesla's Production Plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Tesla's Production Plans",
+            "wd_description": "Tesla is expanding its battery cell production with new 4680 series high-energy cells at gigafactories in Austin, Berlin, and Shanghai.",
+            "description": "Tesla is expanding its battery cell production with new 4680 series high-energy cells at gigafactories in Austin, Berlin, and Shanghai."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Tesla's Battery Production Expansion",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.5.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.5.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.5.3",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Tesla's Battery Production Expansion",
+            "wd_description": "Tesla is set to become one of the world's largest producers of lithium battery cells with new production lines deploying its 4680 series high-energy, lower-cost battery cell design.",
+            "description": "Tesla is set to become one of the world's largest producers of lithium battery cells with new production lines deploying its 4680 series high-energy, lower-cost battery cell design."
+        },
+        {
+            "@id": "ev4.5.1",
+            "name": "t: 4680 Series Battery Cells",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: 4680 Series Battery Cells",
+            "wd_description": "Tesla's 4680 battery cells generate six times more power and have five times the energy storage capacity of previous designs.",
+            "description": "Tesla's 4680 battery cells generate six times more power and have five times the energy storage capacity of previous designs."
+        },
+        {
+            "@id": "ev4.5.2",
+            "name": "t: New Gigafactories",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: New Gigafactories",
+            "wd_description": "Tesla is launching large-scale battery cell production lines at gigafactories in Austin, Berlin, and Shanghai.",
+            "description": "Tesla is launching large-scale battery cell production lines at gigafactories in Austin, Berlin, and Shanghai."
+        },
+        {
+            "@id": "ev4.5.3",
+            "name": "t: Production Capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Production Capacity",
+            "wd_description": "The new gigafactories will have a combined production capacity of 100 GWh, sufficient to supply EV batteries for up to 600,000 vehicles per year.",
+            "description": "The new gigafactories will have a combined production capacity of 100 GWh, sufficient to supply EV batteries for up to 600,000 vehicles per year."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "U.S. Policy and Investments",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.6.1",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev4.6.2",
+                    "importance": 0.7
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Policy and Investments",
+            "wd_description": "The Biden Administration aims to develop a domestic lithium-ion battery supply chain to mitigate climate change impact and comply with new rules of origin under the USMCA.",
+            "description": "The Biden Administration aims to develop a domestic lithium-ion battery supply chain to mitigate climate change impact and comply with new rules of origin under the USMCA."
+        },
+        {
+            "@id": "ev4.6.1",
+            "name": "t: Infrastructure Investment and Jobs Act",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Infrastructure Investment and Jobs Act",
+            "wd_description": "The Infrastructure Investment and Jobs Act dedicates significant funds to support the domestic battery supply chain.",
+            "description": "The Infrastructure Investment and Jobs Act dedicates significant funds to support the domestic battery supply chain."
+        },
+        {
+            "@id": "ev4.6.2",
+            "name": "t: New Rules of Origin",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: New Rules of Origin",
+            "wd_description": "New USMCA rules require 70-75% of core parts in vehicles, including EV batteries, to be produced locally to qualify for tariff-free trade.",
+            "description": "New USMCA rules require 70-75% of core parts in vehicles, including EV batteries, to be produced locally to qualify for tariff-free trade."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Recycling Initiatives",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.7.1",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.7.2",
+                    "importance": 0.7
+                },
+                {
+                    "child": "ev4.7.3",
+                    "importance": 0.6
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Recycling Initiatives",
+            "wd_description": "The U.S. automotive industry is establishing a supply chain for recycled EV battery materials, involving several new partnerships and recycling centers.",
+            "description": "The U.S. automotive industry is establishing a supply chain for recycled EV battery materials, involving several new partnerships and recycling centers."
+        },
+        {
+            "@id": "ev4.7.1",
+            "name": "t: Redwood Materials and Ford Partnership",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Redwood Materials and Ford Partnership",
+            "wd_description": "Redwood Materials is building a closed-loop EV battery recycling supply chain for Ford to recycle key materials.",
+            "description": "Redwood Materials is building a closed-loop EV battery recycling supply chain for Ford to recycle key materials."
+        },
+        {
+            "@id": "ev4.7.2",
+            "name": "t: Li-Cycle and KSP Investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Li-Cycle and KSP Investment",
+            "wd_description": "Koch Strategic Platforms is investing $100 million in Li-Cycle to build new EV battery recycling centers in North America.",
+            "description": "Koch Strategic Platforms is investing $100 million in Li-Cycle to build new EV battery recycling centers in North America."
+        },
+        {
+            "@id": "ev4.7.3",
+            "name": "t: Other Recycling Projects",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Other Recycling Projects",
+            "wd_description": "Other companies like Retriev Technologies and American Battery Technology Co. are also building recycling facilities to support the EV battery supply chain.",
+            "description": "Other companies like Retriev Technologies and American Battery Technology Co. are also building recycling facilities to support the EV battery supply chain."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

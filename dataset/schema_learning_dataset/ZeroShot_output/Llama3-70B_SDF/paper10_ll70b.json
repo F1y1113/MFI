@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper10_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Li-ion batteries (LIBs)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Li-ion batteries (LIBs)",
+            "wd_description": "can reduce carbon emissions by powering xxxx",
+            "description": "can reduce carbon emissions by powering xxxx"
+        },
+        {
+            "@id": "ev1.1",
+            "name": "pyrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "pyrometallurgical",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.2",
+            "name": "hydrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "hydrometallurgical",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.3",
+            "name": "bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "bioleaching",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "paper10/Event/3ij6JPtZbe/Energy-consumption",
+            "name": "Energy consumption",
+            "ta1explanation": "",
+            "description": "",
+            "wd_node": "paper10",
+            "wd_label": "paper10",
+            "participants": []
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "Legislation and Policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Legislation and Policy",
+            "wd_description": "Government policies and legislation significantly impact the supply chain, manufacturing, and recycling of LIBs.",
+            "description": "Government policies and legislation significantly impact the supply chain, manufacturing, and recycling of LIBs."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

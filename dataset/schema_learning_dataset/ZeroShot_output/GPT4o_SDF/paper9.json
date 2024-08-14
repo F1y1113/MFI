@@ -1,0 +1,480 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper9",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium Supply Chain Overview",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Lithium Supply Chain Overview",
+            "wd_description": "A detailed overview of the global lithium supply chain, covering production methods, key producers, and regional specifics.",
+            "description": "A detailed overview of the global lithium supply chain, covering production methods, key producers, and regional specifics."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Lithium Recovery",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "xor",
+            "wd_node": "",
+            "wd_label": "Lithium Recovery",
+            "wd_description": "The processes for recovering lithium from different sources, primarily sea brine and hard rock.",
+            "description": "The processes for recovering lithium from different sources, primarily sea brine and hard rock."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Sea Brine Recovery",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Sea Brine Recovery",
+            "wd_description": "The extraction of lithium from sea brine, a less expensive method compared to hard rock recovery.",
+            "description": "The extraction of lithium from sea brine, a less expensive method compared to hard rock recovery."
+        },
+        {
+            "@id": "ev1.1.1.1",
+            "name": "Chile's Salar de Atacama",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.1.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Chile's Salar de Atacama",
+            "wd_description": "A major lithium extraction site operated by Albemarle and SQM.",
+            "description": "A major lithium extraction site operated by Albemarle and SQM."
+        },
+        {
+            "@id": "ev1.1.1.2",
+            "name": "Argentina’s Salar del Hombre Muerto",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Argentina’s Salar del Hombre Muerto",
+            "wd_description": "A lithium extraction site operated by FMC for producing lithium hydroxide and LCO.",
+            "description": "A lithium extraction site operated by FMC for producing lithium hydroxide and LCO."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Hard Rock Recovery",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Hard Rock Recovery",
+            "wd_description": "The extraction of lithium from pegmatite, a process that is more expensive but faster than sea brine recovery.",
+            "description": "The extraction of lithium from pegmatite, a process that is more expensive but faster than sea brine recovery."
+        },
+        {
+            "@id": "ev1.1.2.1",
+            "name": "Pegmatite",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.1.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Pegmatite",
+            "wd_description": "A significant lithium-bearing hard rock, processed to obtain lithium minerals like spodumene.",
+            "description": "A significant lithium-bearing hard rock, processed to obtain lithium minerals like spodumene."
+        },
+        {
+            "@id": "ev1.1.2.2",
+            "name": "Spodumene",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Spodumene",
+            "wd_description": "A lithium-bearing mineral obtained from pegmatite, used for further lithium extraction.",
+            "description": "A lithium-bearing mineral obtained from pegmatite, used for further lithium extraction."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Key Producers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Key Producers",
+            "wd_description": "The major companies involved in lithium production, including Albemarle, SQM, FMC, and Talison Lithium.",
+            "description": "The major companies involved in lithium production, including Albemarle, SQM, FMC, and Talison Lithium."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Albemarle",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.1.3",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.1.4",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2.1.5",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Albemarle",
+            "wd_description": "A leading lithium producer, involved in the extraction and supply of lithium globally.",
+            "description": "A leading lithium producer, involved in the extraction and supply of lithium globally."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Regional Specifics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Regional Specifics",
+            "wd_description": "Specifics of lithium production and reserves in different regions, including Australia, China, and India.",
+            "description": "Specifics of lithium production and reserves in different regions, including Australia, China, and India."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Australia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Australia",
+            "wd_description": "The largest producer of lithium, mainly from hard rock, with significant operations by Talison Lithium.",
+            "description": "The largest producer of lithium, mainly from hard rock, with significant operations by Talison Lithium."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "China",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China",
+            "wd_description": "Significant lithium processing capabilities, with companies like Sichuan Tianqi Lithium playing a major role.",
+            "description": "Significant lithium processing capabilities, with companies like Sichuan Tianqi Lithium playing a major role."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "India",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "India",
+            "wd_description": "Small known lithium reserves with potential for future development. Key areas include Bihar, Chhattisgarh, and Karnataka.",
+            "description": "Small known lithium reserves with potential for future development. Key areas include Bihar, Chhattisgarh, and Karnataka."
+        },
+        {
+            "@id": "ev1.3.3.1",
+            "name": "Bihar",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bihar",
+            "wd_description": "Presence of the lithium ore Lepidolite in the Bihar mica belt.",
+            "description": "Presence of the lithium ore Lepidolite in the Bihar mica belt."
+        },
+        {
+            "@id": "ev1.3.3.2",
+            "name": "Chhattisgarh",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chhattisgarh",
+            "wd_description": "Pegmatite presence in the Chitalnar, Mundwal, and Govindpal areas.",
+            "description": "Pegmatite presence in the Chitalnar, Mundwal, and Govindpal areas."
+        },
+        {
+            "@id": "ev1.3.3.3",
+            "name": "Karnataka",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Karnataka",
+            "wd_description": "Spodumene presence in Maralagall-Allapatna and hiddenite in Kabbur and Doddakadanur.",
+            "description": "Spodumene presence in Maralagall-Allapatna and hiddenite in Kabbur and Doddakadanur."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.2.1",
+            "relationObject": "ev1.1.2.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

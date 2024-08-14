@@ -1,0 +1,67 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper49_l3",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-Ion Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.3
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.2
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-Ion Recycling",
+            "wd_description": "Development in electrical energy storage has attracted several researches due to its development in electrical energy storage.",
+            "description": "Development in electrical energy storage has attracted several researches due to its development in electrical energy storage."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Pyrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pyrometallurgical",
+            "wd_description": "Strictly use the exact following format for each event:",
+            "description": "Strictly use the exact following format for each event:"
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Hydrometallurgical",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hydrometallurgical",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bioleaching",
+            "wd_description": "xxxx",
+            "description": "xxxx"
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

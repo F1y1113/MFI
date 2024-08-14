@@ -1,0 +1,251 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report1R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The EV battery supply chain involves various stages from the extraction of minerals to the assembly of finished batteries into EVs, with China currently dominating this global supply chain. Efforts to diversify production and strengthen local supply chains are ongoing.",
+            "description": "The EV battery supply chain involves various stages from the extraction of minerals to the assembly of finished batteries into EVs, with China currently dominating this global supply chain. Efforts to diversify production and strengthen local supply chains are ongoing."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Upstream",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1
+                },
+                {
+                    "child": "report1/Event/1nqIxefExV/De-risking",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Upstream",
+            "wd_description": "The upstream portion involves the extraction of minerals needed for EV batteries. There are concerns about meeting rising demand and the economic opportunities for countries involved in this stage.",
+            "description": "The upstream portion involves the extraction of minerals needed for EV batteries. There are concerns about meeting rising demand and the economic opportunities for countries involved in this stage."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "Extraction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "raction",
+            "wd_description": "This stage focuses on the extraction of minerals required for EV batteries. It has garnered considerable attention due to concerns about meeting demand and potential price increases.",
+            "description": "This stage focuses on the extraction of minerals required for EV batteries. It has garnered considerable attention due to concerns about meeting demand and potential price increases."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "Economic Opportunities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "nomic Opportunities",
+            "wd_description": "Strengthening the upstream supply chain offers economic opportunities, job creation, and supply chain reinforcement for participating countries.",
+            "description": "Strengthening the upstream supply chain offers economic opportunities, job creation, and supply chain reinforcement for participating countries."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Midstream",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1
+                },
+                {
+                    "child": "report1/Event/SG2Ce0Uz0/Supply-Chain-Diversification",
+                    "importance": 1
+                },
+                {
+                    "child": "report1/Event/MEsbVifRO/Traceability",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Midstream",
+            "wd_description": "The midstream portion involves processing, refining, and assembling raw materials into battery cells. It plays a crucial role in improving supply chain traceability and ethical sourcing of materials.",
+            "description": "The midstream portion involves processing, refining, and assembling raw materials into battery cells. It plays a crucial role in improving supply chain traceability and ethical sourcing of materials."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "Processing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "cessing",
+            "wd_description": "Raw materials extracted upstream are sent to facilities for processing. This step is essential for transforming raw minerals into usable components for battery production.",
+            "description": "Raw materials extracted upstream are sent to facilities for processing. This step is essential for transforming raw minerals into usable components for battery production."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "Refining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ining",
+            "wd_description": "The refining process further purifies the processed materials to meet the required standards for battery production.",
+            "description": "The refining process further purifies the processed materials to meet the required standards for battery production."
+        },
+        {
+            "@id": "ev1.2.3",
+            "name": "Assembling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "embling",
+            "wd_description": "Refined materials are assembled into battery cells, forming the building blocks of battery modules used in EVs.",
+            "description": "Refined materials are assembled into battery cells, forming the building blocks of battery modules used in EVs."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Downstream",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Downstream",
+            "wd_description": "The downstream portion involves the assembly of battery cells into modules and packs, culminating in the placement of finished batteries into EVs. This stage also includes the influence of manufacturers and automakers on mining practices.",
+            "description": "The downstream portion involves the assembly of battery cells into modules and packs, culminating in the placement of finished batteries into EVs. This stage also includes the influence of manufacturers and automakers on mining practices."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Modules",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ules",
+            "wd_description": "Battery cells are stacked in series or parallel in metal frames to form modules, which protect the cells from shocks and vibrations.",
+            "description": "Battery cells are stacked in series or parallel in metal frames to form modules, which protect the cells from shocks and vibrations."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Packs",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "ks",
+            "wd_description": "Modules are further assembled into packs, which are then integrated into EVs.",
+            "description": "Modules are further assembled into packs, which are then integrated into EVs."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Influence",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "luence",
+            "wd_description": "Battery manufacturers and automakers can influence responsible mining practices, similar to how coffee shops influence responsible coffee farming.",
+            "description": "Battery manufacturers and automakers can influence responsible mining practices, similar to how coffee shops influence responsible coffee farming."
+        },
+        {
+            "@id": "report1/Event/1nqIxefExV/De-risking",
+            "name": "De risking",
+            "ta1explanation": "",
+            "description": "De-risking refers to efforts aimed at reducing reliance on a single country for critical supply chain components, especially in the context of geopolitical risks.",
+            "wd_node": "report1",
+            "wd_label": "report1",
+            "participants": []
+        },
+        {
+            "@id": "report1/Event/MEsbVifRO/Traceability",
+            "name": "Traceability",
+            "ta1explanation": "",
+            "description": "Traceability refers to the ability to track the source of materials used in the battery supply chain to ensure ethical sourcing.",
+            "wd_node": "report1",
+            "wd_label": "report1",
+            "participants": []
+        },
+        {
+            "@id": "report1/Event/SG2Ce0Uz0/Supply-Chain-Diversification",
+            "name": "Supply Chain Diversification",
+            "ta1explanation": "",
+            "description": "Supply chain diversification involves spreading out production capacity to multiple countries to avoid over-reliance on a single nation.",
+            "wd_node": "report1",
+            "wd_label": "report1",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.1",
+            "relationObject": "ev1.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.2",
+            "relationObject": "ev1.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2",
+            "relationObject": "ev1.3.3"
+        }
+    ],
+    "entities": []
+}

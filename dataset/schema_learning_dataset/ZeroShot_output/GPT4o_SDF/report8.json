@@ -1,0 +1,2533 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "report8",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV Battery Supply Chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV Battery Supply Chain",
+            "wd_description": "The EV battery supply chain encompasses the sourcing, processing, and manufacturing of critical materials essential for electric vehicles, including lithium, nickel, cobalt, manganese, graphite, and rare earth elements.",
+            "description": "The EV battery supply chain encompasses the sourcing, processing, and manufacturing of critical materials essential for electric vehicles, including lithium, nickel, cobalt, manganese, graphite, and rare earth elements."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Raw Material Extraction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.7",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Raw Material Extraction",
+            "wd_description": "EVs require significantly more minerals such as copper, lithium, nickel, cobalt, manganese, graphite, and rare earth elements compared to conventional cars.",
+            "description": "EVs require significantly more minerals such as copper, lithium, nickel, cobalt, manganese, graphite, and rare earth elements compared to conventional cars."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Supply and Demand Imbalance",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply and Demand Imbalance",
+            "wd_description": "The rapid expansion of demand for critical materials and long production lead times result in supply shortages and price volatility.",
+            "description": "The rapid expansion of demand for critical materials and long production lead times result in supply shortages and price volatility."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Geopolitical Concentration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Geopolitical Concentration",
+            "wd_description": "High concentration of critical raw material production in specific countries or regions raises concerns among governments of resource-importing countries.",
+            "description": "High concentration of critical raw material production in specific countries or regions raises concerns among governments of resource-importing countries."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "Responsible Sourcing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Responsible Sourcing",
+            "wd_description": "Buyers, producers, and traders prioritize responsible sourcing, with mandatory compliance audits and reforms in purchasing rules by major companies.",
+            "description": "Buyers, producers, and traders prioritize responsible sourcing, with mandatory compliance audits and reforms in purchasing rules by major companies."
+        },
+        {
+            "@id": "ev1.5",
+            "name": "Governance and Transparency",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.5.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance and Transparency",
+            "wd_description": "Implementing robust governance frameworks, enhancing transparency, and promoting sustainable practices are crucial for ensuring ESG standards and decarbonizing the commodity supply chains.",
+            "description": "Implementing robust governance frameworks, enhancing transparency, and promoting sustainable practices are crucial for ensuring ESG standards and decarbonizing the commodity supply chains."
+        },
+        {
+            "@id": "ev1.6",
+            "name": "Challenges and Opportunities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.6.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.6.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Challenges and Opportunities",
+            "wd_description": "The EV revolution presents significant challenges and opportunities, necessitating interdisciplinary research to navigate global value chains and the changing geopolitical landscape.",
+            "description": "The EV revolution presents significant challenges and opportunities, necessitating interdisciplinary research to navigate global value chains and the changing geopolitical landscape."
+        },
+        {
+            "@id": "ev2",
+            "name": "Demand Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Demand Growth",
+            "wd_description": "The demand for critical materials such as lithium, nickel, cobalt, manganese, graphite, and rare earth elements is exponentially growing due to the adoption of emerging technologies and the EV revolution.",
+            "description": "The demand for critical materials such as lithium, nickel, cobalt, manganese, graphite, and rare earth elements is exponentially growing due to the adoption of emerging technologies and the EV revolution."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Lithium Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium Demand",
+            "wd_description": "The global demand for lithium is expected to increase significantly, up to 89 times the current demand by 2050.",
+            "description": "The global demand for lithium is expected to increase significantly, up to 89 times the current demand by 2050."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Nickel Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Nickel Demand",
+            "wd_description": "Nickel is crucial for battery cathodes, with increasing demand driven by the growth of electric vehicles and renewable energy storage.",
+            "description": "Nickel is crucial for battery cathodes, with increasing demand driven by the growth of electric vehicles and renewable energy storage."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Cobalt Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Cobalt Demand",
+            "wd_description": "Cobalt demand is rising due to its use in battery production, despite efforts to reduce dependency due to supply chain and ethical concerns.",
+            "description": "Cobalt demand is rising due to its use in battery production, despite efforts to reduce dependency due to supply chain and ethical concerns."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Manganese Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Manganese Demand",
+            "wd_description": "Manganese is an important component in battery technology, contributing to the overall performance and stability of batteries.",
+            "description": "Manganese is an important component in battery technology, contributing to the overall performance and stability of batteries."
+        },
+        {
+            "@id": "ev2.5",
+            "name": "Graphite Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.5.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Graphite Demand",
+            "wd_description": "Graphite is essential for battery anodes, with increasing demand driven by the expansion of electric vehicles and portable electronics.",
+            "description": "Graphite is essential for battery anodes, with increasing demand driven by the expansion of electric vehicles and portable electronics."
+        },
+        {
+            "@id": "ev2.6",
+            "name": "Rare Earth Elements Demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.6.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Rare Earth Elements Demand",
+            "wd_description": "Rare earth elements are crucial for electric motors and other components, with demand rising due to the growth in electric vehicle production.",
+            "description": "Rare earth elements are crucial for electric motors and other components, with demand rising due to the growth in electric vehicle production."
+        },
+        {
+            "@id": "ev3",
+            "name": "Long Lead Times",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Long Lead Times",
+            "wd_description": "Meeting the growing demand for critical materials involves long lead times for production, averaging around 16.5 years, leading to supply shortages and price volatility.",
+            "description": "Meeting the growing demand for critical materials involves long lead times for production, averaging around 16.5 years, leading to supply shortages and price volatility."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Production Delays",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production Delays",
+            "wd_description": "The production of critical materials involves lengthy processes and significant investments, contributing to delays in meeting demand.",
+            "description": "The production of critical materials involves lengthy processes and significant investments, contributing to delays in meeting demand."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Supply Shortages",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Supply Shortages",
+            "wd_description": "Due to long production lead times and growing demand, supply shortages are becoming increasingly common for critical materials.",
+            "description": "Due to long production lead times and growing demand, supply shortages are becoming increasingly common for critical materials."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Price Volatility",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Price Volatility",
+            "wd_description": "Supply shortages and high demand contribute to significant price volatility in the market for critical materials.",
+            "description": "Supply shortages and high demand contribute to significant price volatility in the market for critical materials."
+        },
+        {
+            "@id": "ev4",
+            "name": "Geopolitical Concentration",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Geopolitical Concentration",
+            "wd_description": "The concentration of critical raw material production in certain countries or regions raises concerns among governments of resource-importing countries.",
+            "description": "The concentration of critical raw material production in certain countries or regions raises concerns among governments of resource-importing countries."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "China",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "China",
+            "wd_description": "China holds a significant share of global production for several critical raw materials, including rare earth elements.",
+            "description": "China holds a significant share of global production for several critical raw materials, including rare earth elements."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Russia",
+            "wd_description": "Russia is a major producer of several critical materials essential for EV batteries, such as nickel and cobalt.",
+            "description": "Russia is a major producer of several critical materials essential for EV batteries, such as nickel and cobalt."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Australia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Australia",
+            "wd_description": "Australia has significant reserves and production capabilities for key EV battery materials, including lithium and manganese.",
+            "description": "Australia has significant reserves and production capabilities for key EV battery materials, including lithium and manganese."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "African Countries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "African Countries",
+            "wd_description": "Several African countries are key producers of critical raw materials, with the Democratic Republic of Congo being a major source of cobalt.",
+            "description": "Several African countries are key producers of critical raw materials, with the Democratic Republic of Congo being a major source of cobalt."
+        },
+        {
+            "@id": "ev5",
+            "name": "Responsible Sourcing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Responsible Sourcing",
+            "wd_description": "Increasingly, stakeholders in the EV battery supply chain are prioritizing responsible sourcing practices to ensure ethical and sustainable procurement of materials.",
+            "description": "Increasingly, stakeholders in the EV battery supply chain are prioritizing responsible sourcing practices to ensure ethical and sustainable procurement of materials."
+        },
+        {
+            "@id": "ev5.1",
+            "name": "Compliance Audits",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Compliance Audits",
+            "wd_description": "Mandatory compliance audits, such as those by the London Metal Exchange for cobalt, ensure adherence to ethical sourcing guidelines.",
+            "description": "Mandatory compliance audits, such as those by the London Metal Exchange for cobalt, ensure adherence to ethical sourcing guidelines."
+        },
+        {
+            "@id": "ev5.2",
+            "name": "Purchasing Reforms",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Purchasing Reforms",
+            "wd_description": "Major buyers like Apple, VW, and Tesla have reformed their purchasing rules to prioritize responsible sourcing of materials.",
+            "description": "Major buyers like Apple, VW, and Tesla have reformed their purchasing rules to prioritize responsible sourcing of materials."
+        },
+        {
+            "@id": "ev5.3",
+            "name": "Artisanal Mining Control",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev5.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev5.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Artisanal Mining Control",
+            "wd_description": "Measures to control artisanal mining, such as those by Huayou Cobalt, aim to improve ethical sourcing and reduce environmental and social impacts.",
+            "description": "Measures to control artisanal mining, such as those by Huayou Cobalt, aim to improve ethical sourcing and reduce environmental and social impacts."
+        },
+        {
+            "@id": "ev6",
+            "name": "Governance and Transparency",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance and Transparency",
+            "wd_description": "Implementing robust governance frameworks, enhancing transparency, and promoting sustainable practices are crucial for ensuring ESG standards and decarbonizing the commodity supply chains.",
+            "description": "Implementing robust governance frameworks, enhancing transparency, and promoting sustainable practices are crucial for ensuring ESG standards and decarbonizing the commodity supply chains."
+        },
+        {
+            "@id": "ev6.1",
+            "name": "Governance Frameworks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance Frameworks",
+            "wd_description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain.",
+            "description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain."
+        },
+        {
+            "@id": "ev6.2",
+            "name": "Transparency Mechanisms",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Transparency Mechanisms",
+            "wd_description": "Implementing transparency mechanisms ensures that the sourcing and supply chain processes are visible and accountable.",
+            "description": "Implementing transparency mechanisms ensures that the sourcing and supply chain processes are visible and accountable."
+        },
+        {
+            "@id": "ev6.3",
+            "name": "Sustainable Practices",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev6.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev6.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable Practices",
+            "wd_description": "Adopting sustainable practices in the extraction and processing of materials reduces environmental impacts and promotes long-term viability.",
+            "description": "Adopting sustainable practices in the extraction and processing of materials reduces environmental impacts and promotes long-term viability."
+        },
+        {
+            "@id": "ev7",
+            "name": "Challenges and Opportunities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Challenges and Opportunities",
+            "wd_description": "The EV revolution presents significant challenges and opportunities, necessitating interdisciplinary research to navigate global value chains and the changing geopolitical landscape.",
+            "description": "The EV revolution presents significant challenges and opportunities, necessitating interdisciplinary research to navigate global value chains and the changing geopolitical landscape."
+        },
+        {
+            "@id": "ev7.1",
+            "name": "Developed Countries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Developed Countries",
+            "wd_description": "Developed countries face the challenge of securing stable supplies of critical materials while benefiting from the growth of the EV market.",
+            "description": "Developed countries face the challenge of securing stable supplies of critical materials while benefiting from the growth of the EV market."
+        },
+        {
+            "@id": "ev7.2",
+            "name": "Developing Countries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Developing Countries",
+            "wd_description": "Developing countries can capitalize on the opportunities presented by the EV revolution but must address challenges related to governance and infrastructure.",
+            "description": "Developing countries can capitalize on the opportunities presented by the EV revolution but must address challenges related to governance and infrastructure."
+        },
+        {
+            "@id": "ev7.3",
+            "name": "Interdisciplinary Research",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev7.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev7.3.7",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Interdisciplinary Research",
+            "wd_description": "Addressing the challenges and opportunities of the EV revolution requires interdisciplinary research spanning various fields.",
+            "description": "Addressing the challenges and opportunities of the EV revolution requires interdisciplinary research spanning various fields."
+        },
+        {
+            "@id": "ev8",
+            "name": "Economic Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev8.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic Growth",
+            "wd_description": "The EV revolution drives economic growth in both developed and developing countries, creating new opportunities in the supply chain.",
+            "description": "The EV revolution drives economic growth in both developed and developing countries, creating new opportunities in the supply chain."
+        },
+        {
+            "@id": "ev8.1",
+            "name": "Job Creation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev8.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev8.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Job Creation",
+            "wd_description": "The expansion of the EV battery supply chain results in the creation of new jobs in mining, processing, and manufacturing sectors.",
+            "description": "The expansion of the EV battery supply chain results in the creation of new jobs in mining, processing, and manufacturing sectors."
+        },
+        {
+            "@id": "ev8.2",
+            "name": "Infrastructure Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev8.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev8.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Infrastructure Development",
+            "wd_description": "Investment in infrastructure supports the growth of the EV battery supply chain, including transportation and production facilities.",
+            "description": "Investment in infrastructure supports the growth of the EV battery supply chain, including transportation and production facilities."
+        },
+        {
+            "@id": "ev9",
+            "name": "Governance Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev9.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance Challenges",
+            "wd_description": "Developing countries face governance challenges in managing the extraction and processing of critical materials, impacting their ability to capitalize on the EV revolution.",
+            "description": "Developing countries face governance challenges in managing the extraction and processing of critical materials, impacting their ability to capitalize on the EV revolution."
+        },
+        {
+            "@id": "ev9.1",
+            "name": "Regulatory Gaps",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev9.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Regulatory Gaps",
+            "wd_description": "Inadequate regulatory frameworks can hinder effective management and sustainable development of the critical materials sector.",
+            "description": "Inadequate regulatory frameworks can hinder effective management and sustainable development of the critical materials sector."
+        },
+        {
+            "@id": "ev9.2",
+            "name": "Corruption",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev9.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev9.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Corruption",
+            "wd_description": "Corruption can undermine governance efforts, leading to exploitation and unsustainable practices in the critical materials sector.",
+            "description": "Corruption can undermine governance efforts, leading to exploitation and unsustainable practices in the critical materials sector."
+        },
+        {
+            "@id": "ev10",
+            "name": "Interdisciplinary Research",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev10.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev10.7",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Interdisciplinary Research",
+            "wd_description": "Addressing the challenges and opportunities of the EV revolution requires interdisciplinary research spanning various fields.",
+            "description": "Addressing the challenges and opportunities of the EV revolution requires interdisciplinary research spanning various fields."
+        },
+        {
+            "@id": "ev11",
+            "name": "Job Creation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev11.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev11.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Job Creation",
+            "wd_description": "The expansion of the EV battery supply chain results in the creation of new jobs in mining, processing, and manufacturing sectors.",
+            "description": "The expansion of the EV battery supply chain results in the creation of new jobs in mining, processing, and manufacturing sectors."
+        },
+        {
+            "@id": "ev11.1",
+            "name": "Mining Jobs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev11.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Mining Jobs",
+            "wd_description": "New job opportunities arise in the mining sector to meet the growing demand for critical materials.",
+            "description": "New job opportunities arise in the mining sector to meet the growing demand for critical materials."
+        },
+        {
+            "@id": "ev11.2",
+            "name": "Processing Jobs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev11.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Processing Jobs",
+            "wd_description": "The processing sector sees job growth as the demand for refined materials increases.",
+            "description": "The processing sector sees job growth as the demand for refined materials increases."
+        },
+        {
+            "@id": "ev11.3",
+            "name": "Manufacturing Jobs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev11.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev11.3.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Manufacturing Jobs",
+            "wd_description": "The manufacturing sector expands to produce batteries and other components, creating additional job opportunities.",
+            "description": "The manufacturing sector expands to produce batteries and other components, creating additional job opportunities."
+        },
+        {
+            "@id": "ev12",
+            "name": "Infrastructure Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev12.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Infrastructure Development",
+            "wd_description": "Investment in infrastructure supports the growth of the EV battery supply chain, including transportation and production facilities.",
+            "description": "Investment in infrastructure supports the growth of the EV battery supply chain, including transportation and production facilities."
+        },
+        {
+            "@id": "ev12.1",
+            "name": "Transportation Infrastructure",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev12.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Transportation Infrastructure",
+            "wd_description": "Developing transportation infrastructure ensures efficient movement of raw materials and finished products.",
+            "description": "Developing transportation infrastructure ensures efficient movement of raw materials and finished products."
+        },
+        {
+            "@id": "ev12.2",
+            "name": "Production Facilities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev12.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev12.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production Facilities",
+            "wd_description": "Establishing and upgrading production facilities are essential for meeting the increasing demand for EV batteries.",
+            "description": "Establishing and upgrading production facilities are essential for meeting the increasing demand for EV batteries."
+        },
+        {
+            "@id": "ev13",
+            "name": "Policy Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev13.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev13.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy Development",
+            "wd_description": "Developing comprehensive policies is crucial for managing the extraction and processing of critical materials sustainably.",
+            "description": "Developing comprehensive policies is crucial for managing the extraction and processing of critical materials sustainably."
+        },
+        {
+            "@id": "ev13.1",
+            "name": "Legislative Actions",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev13.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev13.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Legislative Actions",
+            "wd_description": "Enacting new laws to govern the extraction, processing, and trade of critical materials.",
+            "description": "Enacting new laws to govern the extraction, processing, and trade of critical materials."
+        },
+        {
+            "@id": "ev13.2",
+            "name": "Regulatory Guidelines",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev13.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev13.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Regulatory Guidelines",
+            "wd_description": "Developing and implementing guidelines to ensure sustainable practices in the critical materials sector.",
+            "description": "Developing and implementing guidelines to ensure sustainable practices in the critical materials sector."
+        },
+        {
+            "@id": "ev14",
+            "name": "Governance Frameworks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev14.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev14.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance Frameworks",
+            "wd_description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain.",
+            "description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain."
+        },
+        {
+            "@id": "ev14.1",
+            "name": "DRC Cobalt Framework",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev14.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev14.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "DRC Cobalt Framework",
+            "wd_description": "The Democratic Republic of Congo (DRC) is organizing artisanal cobalt miners into larger-scale operations and introducing traceability mechanisms.",
+            "description": "The Democratic Republic of Congo (DRC) is organizing artisanal cobalt miners into larger-scale operations and introducing traceability mechanisms."
+        },
+        {
+            "@id": "ev14.2",
+            "name": "Chilean Lithium Quotas",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev14.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev14.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Chilean Lithium Quotas",
+            "wd_description": "The Chilean government has implemented production quotas for major lithium miners and required compensation to local communities for water competition.",
+            "description": "The Chilean government has implemented production quotas for major lithium miners and required compensation to local communities for water competition."
+        },
+        {
+            "@id": "ev15",
+            "name": "Transparency Mechanisms",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev15.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev15.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Transparency Mechanisms",
+            "wd_description": "Implementing transparency mechanisms ensures that the sourcing and supply chain processes are visible and accountable.",
+            "description": "Implementing transparency mechanisms ensures that the sourcing and supply chain processes are visible and accountable."
+        },
+        {
+            "@id": "ev15.1",
+            "name": "Traceability Systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev15.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev15.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Traceability Systems",
+            "wd_description": "Traceability systems are designed to track the origin and movement of critical materials throughout the supply chain.",
+            "description": "Traceability systems are designed to track the origin and movement of critical materials throughout the supply chain."
+        },
+        {
+            "@id": "ev15.2",
+            "name": "Reporting Standards",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev15.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev15.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Reporting Standards",
+            "wd_description": "Reporting standards ensure that companies disclose their sourcing practices and the sustainability of their supply chains.",
+            "description": "Reporting standards ensure that companies disclose their sourcing practices and the sustainability of their supply chains."
+        },
+        {
+            "@id": "ev16",
+            "name": "Sustainable Practices",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev16.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev16.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable Practices",
+            "wd_description": "Adopting sustainable practices in the extraction and processing of materials reduces environmental impacts and promotes long-term viability.",
+            "description": "Adopting sustainable practices in the extraction and processing of materials reduces environmental impacts and promotes long-term viability."
+        },
+        {
+            "@id": "ev16.1",
+            "name": "Eco-friendly Technologies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev16.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev16.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Eco-friendly Technologies",
+            "wd_description": "The adoption of eco-friendly technologies aims to reduce the environmental footprint of extracting and processing critical materials.",
+            "description": "The adoption of eco-friendly technologies aims to reduce the environmental footprint of extracting and processing critical materials."
+        },
+        {
+            "@id": "ev16.2",
+            "name": "Community Engagement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev16.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev16.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Community Engagement",
+            "wd_description": "Engaging local communities and ensuring their participation in the supply chain process helps to address social and environmental concerns.",
+            "description": "Engaging local communities and ensuring their participation in the supply chain process helps to address social and environmental concerns."
+        },
+        {
+            "@id": "ev17",
+            "name": "Community Engagement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev17.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev17.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Community Engagement",
+            "wd_description": "Engaging local communities and ensuring their participation in the supply chain process helps to address social and environmental concerns.",
+            "description": "Engaging local communities and ensuring their participation in the supply chain process helps to address social and environmental concerns."
+        },
+        {
+            "@id": "ev17.1",
+            "name": "Community Engagement Programs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev17.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev17.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Community Engagement Programs",
+            "wd_description": "Programs aimed at involving local communities in decision-making processes and addressing their concerns.",
+            "description": "Programs aimed at involving local communities in decision-making processes and addressing their concerns."
+        },
+        {
+            "@id": "ev17.2",
+            "name": "Local Development Projects",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev17.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev17.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Local Development Projects",
+            "wd_description": "Development projects that benefit local communities, such as infrastructure improvements and social services.",
+            "description": "Development projects that benefit local communities, such as infrastructure improvements and social services."
+        },
+        {
+            "@id": "ev18",
+            "name": "Governance Frameworks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev18.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev18.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance Frameworks",
+            "wd_description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain.",
+            "description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain."
+        },
+        {
+            "@id": "ev18.1",
+            "name": "DRC Cobalt Framework",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev18.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev18.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "DRC Cobalt Framework",
+            "wd_description": "The Democratic Republic of Congo (DRC) is organizing artisanal cobalt miners into larger-scale operations and introducing traceability mechanisms.",
+            "description": "The Democratic Republic of Congo (DRC) is organizing artisanal cobalt miners into larger-scale operations and introducing traceability mechanisms."
+        },
+        {
+            "@id": "ev18.2",
+            "name": "Chilean Lithium Quotas",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev18.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev18.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Chilean Lithium Quotas",
+            "wd_description": "The Chilean government has implemented production quotas for major lithium miners and required compensation to local communities for water competition.",
+            "description": "The Chilean government has implemented production quotas for major lithium miners and required compensation to local communities for water competition."
+        },
+        {
+            "@id": "ev19",
+            "name": "Transparency Mechanisms",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev19.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev19.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Transparency Mechanisms",
+            "wd_description": "Implementing transparency mechanisms ensures that the sourcing and supply chain processes are visible and accountable.",
+            "description": "Implementing transparency mechanisms ensures that the sourcing and supply chain processes are visible and accountable."
+        },
+        {
+            "@id": "ev19.1",
+            "name": "Traceability Systems",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev19.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev19.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Traceability Systems",
+            "wd_description": "Traceability systems are designed to track the origin and movement of critical materials throughout the supply chain.",
+            "description": "Traceability systems are designed to track the origin and movement of critical materials throughout the supply chain."
+        },
+        {
+            "@id": "ev19.2",
+            "name": "Reporting Standards",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev19.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev19.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Reporting Standards",
+            "wd_description": "Reporting standards ensure that companies disclose their sourcing practices and the sustainability of their supply chains.",
+            "description": "Reporting standards ensure that companies disclose their sourcing practices and the sustainability of their supply chains."
+        },
+        {
+            "@id": "ev20",
+            "name": "Sustainable Practices",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev20.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev20.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Sustainable Practices",
+            "wd_description": "Adopting sustainable practices in the extraction and processing of materials reduces environmental impacts and promotes long-term viability.",
+            "description": "Adopting sustainable practices in the extraction and processing of materials reduces environmental impacts and promotes long-term viability."
+        },
+        {
+            "@id": "ev20.1",
+            "name": "Eco-friendly Technologies",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev20.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev20.1.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Eco-friendly Technologies",
+            "wd_description": "The adoption of eco-friendly technologies aims to reduce the environmental footprint of extracting and processing critical materials.",
+            "description": "The adoption of eco-friendly technologies aims to reduce the environmental footprint of extracting and processing critical materials."
+        },
+        {
+            "@id": "ev20.2",
+            "name": "Community Engagement",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev20.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev20.2.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Community Engagement",
+            "wd_description": "Engaging local communities and ensuring their participation in the supply chain process helps to address social and environmental concerns.",
+            "description": "Engaging local communities and ensuring their participation in the supply chain process helps to address social and environmental concerns."
+        },
+        {
+            "@id": "ev21",
+            "name": "Interdisciplinary Research",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev21.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev21.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev21.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev21.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev21.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev21.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev21.7",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Interdisciplinary Research",
+            "wd_description": "Addressing the challenges and opportunities of the EV revolution requires interdisciplinary research spanning various fields.",
+            "description": "Addressing the challenges and opportunities of the EV revolution requires interdisciplinary research spanning various fields."
+        },
+        {
+            "@id": "ev22",
+            "name": "Challenges and Opportunities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev22.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev22.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev22.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Challenges and Opportunities",
+            "wd_description": "The EV revolution presents significant challenges and opportunities, necessitating interdisciplinary research to navigate global value chains and the changing geopolitical landscape.",
+            "description": "The EV revolution presents significant challenges and opportunities, necessitating interdisciplinary research to navigate global value chains and the changing geopolitical landscape."
+        },
+        {
+            "@id": "ev23",
+            "name": "Responsible Sourcing",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev23.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev23.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev23.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Responsible Sourcing",
+            "wd_description": "Increasingly, stakeholders in the EV battery supply chain are prioritizing responsible sourcing practices to ensure ethical and sustainable procurement of materials.",
+            "description": "Increasingly, stakeholders in the EV battery supply chain are prioritizing responsible sourcing practices to ensure ethical and sustainable procurement of materials."
+        },
+        {
+            "@id": "ev24",
+            "name": "Governance and Transparency",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev24.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev24.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev24.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance and Transparency",
+            "wd_description": "Implementing robust governance frameworks, enhancing transparency, and promoting sustainable practices are crucial for ensuring ESG standards and decarbonizing the commodity supply chains.",
+            "description": "Implementing robust governance frameworks, enhancing transparency, and promoting sustainable practices are crucial for ensuring ESG standards and decarbonizing the commodity supply chains."
+        },
+        {
+            "@id": "ev25",
+            "name": "Economic Growth",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev25.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev25.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economic Growth",
+            "wd_description": "The EV revolution drives economic growth in both developed and developing countries, creating new opportunities in the supply chain.",
+            "description": "The EV revolution drives economic growth in both developed and developing countries, creating new opportunities in the supply chain."
+        },
+        {
+            "@id": "ev26",
+            "name": "Governance Challenges",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev26.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev26.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance Challenges",
+            "wd_description": "Developing countries face governance challenges in managing the extraction and processing of critical materials, impacting their ability to capitalize on the EV revolution.",
+            "description": "Developing countries face governance challenges in managing the extraction and processing of critical materials, impacting their ability to capitalize on the EV revolution."
+        },
+        {
+            "@id": "ev27",
+            "name": "Job Creation",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev27.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev27.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev27.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Job Creation",
+            "wd_description": "The expansion of the EV battery supply chain results in the creation of new jobs in mining, processing, and manufacturing sectors.",
+            "description": "The expansion of the EV battery supply chain results in the creation of new jobs in mining, processing, and manufacturing sectors."
+        },
+        {
+            "@id": "ev28",
+            "name": "Infrastructure Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev28.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev28.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Infrastructure Development",
+            "wd_description": "Investment in infrastructure supports the growth of the EV battery supply chain, including transportation and production facilities.",
+            "description": "Investment in infrastructure supports the growth of the EV battery supply chain, including transportation and production facilities."
+        },
+        {
+            "@id": "ev29",
+            "name": "Policy Development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev29.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev29.2",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Policy Development",
+            "wd_description": "Developing comprehensive policies is crucial for managing the extraction and processing of critical materials sustainably.",
+            "description": "Developing comprehensive policies is crucial for managing the extraction and processing of critical materials sustainably."
+        },
+        {
+            "@id": "ev30",
+            "name": "Governance Frameworks",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev30.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev30.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Governance Frameworks",
+            "wd_description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain.",
+            "description": "Various countries and organizations are developing governance frameworks to regulate the extraction and processing of critical materials for the EV supply chain."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5",
+            "relationObject": "ev1.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.6",
+            "relationObject": "ev1.1.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3",
+            "relationObject": "ev1.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3",
+            "relationObject": "ev1.3.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.4.2",
+            "relationObject": "ev1.4.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.5.2",
+            "relationObject": "ev1.5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.6.2",
+            "relationObject": "ev1.6.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.5",
+            "relationObject": "ev2.6"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.4.1",
+            "relationObject": "ev2.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.5.1",
+            "relationObject": "ev2.5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.6.1",
+            "relationObject": "ev2.6.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.1.1",
+            "relationObject": "ev3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2.1",
+            "relationObject": "ev3.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.3.1",
+            "relationObject": "ev3.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3",
+            "relationObject": "ev4.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1.1",
+            "relationObject": "ev4.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.2.1",
+            "relationObject": "ev4.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.3.1",
+            "relationObject": "ev4.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.4.1",
+            "relationObject": "ev4.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.2",
+            "relationObject": "ev5.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.1.1",
+            "relationObject": "ev5.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.2.2",
+            "relationObject": "ev5.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev5.3.1",
+            "relationObject": "ev5.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2",
+            "relationObject": "ev6.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.1.1",
+            "relationObject": "ev6.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.2.1",
+            "relationObject": "ev6.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev6.3.1",
+            "relationObject": "ev6.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.2",
+            "relationObject": "ev7.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.1.1",
+            "relationObject": "ev7.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.2.1",
+            "relationObject": "ev7.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev7.3.6",
+            "relationObject": "ev7.3.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.1",
+            "relationObject": "ev8.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.1.2",
+            "relationObject": "ev8.1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev8.2.1",
+            "relationObject": "ev8.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.1",
+            "relationObject": "ev9.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.1.1",
+            "relationObject": "ev9.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev9.2.1",
+            "relationObject": "ev9.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev10.6",
+            "relationObject": "ev10.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.2",
+            "relationObject": "ev11.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.1.1",
+            "relationObject": "ev11.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.2.1",
+            "relationObject": "ev11.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev11.3.1",
+            "relationObject": "ev11.3.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.1",
+            "relationObject": "ev12.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.1.1",
+            "relationObject": "ev12.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev12.2.1",
+            "relationObject": "ev12.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1",
+            "relationObject": "ev13.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.1.1",
+            "relationObject": "ev13.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev13.2.1",
+            "relationObject": "ev13.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14.1",
+            "relationObject": "ev14.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14.1.1",
+            "relationObject": "ev14.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev14.2.1",
+            "relationObject": "ev14.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15.1",
+            "relationObject": "ev15.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15.1.1",
+            "relationObject": "ev15.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev15.2.1",
+            "relationObject": "ev15.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16.1",
+            "relationObject": "ev16.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16.1.1",
+            "relationObject": "ev16.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev16.2.1",
+            "relationObject": "ev16.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev17.1",
+            "relationObject": "ev17.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev17.1.1",
+            "relationObject": "ev17.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev17.2.1",
+            "relationObject": "ev17.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev18.1",
+            "relationObject": "ev18.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev18.1.1",
+            "relationObject": "ev18.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev18.2.1",
+            "relationObject": "ev18.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev19.1",
+            "relationObject": "ev19.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev19.1.1",
+            "relationObject": "ev19.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev19.2.1",
+            "relationObject": "ev19.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev20.1",
+            "relationObject": "ev20.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev20.1.1",
+            "relationObject": "ev20.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev20.2.1",
+            "relationObject": "ev20.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev21.6",
+            "relationObject": "ev21.7"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev22.2",
+            "relationObject": "ev22.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev23.2",
+            "relationObject": "ev23.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev24.2",
+            "relationObject": "ev24.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev25.1",
+            "relationObject": "ev25.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev26.1",
+            "relationObject": "ev26.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev27.2",
+            "relationObject": "ev27.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev28.1",
+            "relationObject": "ev28.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev29.1",
+            "relationObject": "ev29.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev30.1",
+            "relationObject": "ev30."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

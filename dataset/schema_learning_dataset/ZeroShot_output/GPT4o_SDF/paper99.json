@@ -1,0 +1,433 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper99",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "U.S. Department of Energy (DOE) Battery Critical Materials Supply Chain R&D and Workshop",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Department of Energy (DOE) Battery Critical Materials Supply Chain R&D and Workshop",
+            "wd_description": "This event discusses the DOE EERE's findings from an RFI and workshop focused on battery critical materials supply chain R&D, aiming to reduce greenhouse gas pollution and decarbonize the U.S. economy.",
+            "description": "This event discusses the DOE EERE's findings from an RFI and workshop focused on battery critical materials supply chain R&D, aiming to reduce greenhouse gas pollution and decarbonize the U.S. economy."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "RFI issuance",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "RFI issuance",
+            "wd_description": "The RFI was issued on June 29, 2020, to gather feedback on challenges and opportunities in the critical battery materials supply chains, focusing on raw minerals production, refining, and processing.",
+            "description": "The RFI was issued on June 29, 2020, to gather feedback on challenges and opportunities in the critical battery materials supply chains, focusing on raw minerals production, refining, and processing."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Workshop",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Workshop",
+            "wd_description": "The workshop was held in December 2020, featuring discussions on lithium, nickel, and cobalt supply security, and cathode manufacturing, aiming to create a diverse, domestic battery supply chain.",
+            "description": "The workshop was held in December 2020, featuring discussions on lithium, nickel, and cobalt supply security, and cathode manufacturing, aiming to create a diverse, domestic battery supply chain."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Report findings",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Report findings",
+            "wd_description": "The report identified major themes such as resource characterization, technology intensity, scale-up, economics, and environment, highlighting the need for R&D funding and improved connectivity across the supply chain.",
+            "description": "The report identified major themes such as resource characterization, technology intensity, scale-up, economics, and environment, highlighting the need for R&D funding and improved connectivity across the supply chain."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "Resource characterization",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource characterization",
+            "wd_description": "Resource characterization focuses on understanding the nature of critical minerals and materials required for clean energy technologies.",
+            "description": "Resource characterization focuses on understanding the nature of critical minerals and materials required for clean energy technologies."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "Technology intensity",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Technology intensity",
+            "wd_description": "Technology intensity addresses the need for validating technologies at the pilot scale and improving energy and chemical efficiency in lithium extraction.",
+            "description": "Technology intensity addresses the need for validating technologies at the pilot scale and improving energy and chemical efficiency in lithium extraction."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "Scale-up",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Scale-up",
+            "wd_description": "Scale-up involves increasing investment in deployment-ready technologies for separation and purification, focusing on reducing processing costs.",
+            "description": "Scale-up involves increasing investment in deployment-ready technologies for separation and purification, focusing on reducing processing costs."
+        },
+        {
+            "@id": "ev1.3.4",
+            "name": "Economics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Economics",
+            "wd_description": "Economics covers the cost considerations of capital and overall project economics, emphasizing the need for R&D funding to improve project viability.",
+            "description": "Economics covers the cost considerations of capital and overall project economics, emphasizing the need for R&D funding to improve project viability."
+        },
+        {
+            "@id": "ev1.3.5",
+            "name": "Environment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.5.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.5.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Environment",
+            "wd_description": "The environmental aspect highlights the need for sustainable practices in resource extraction and processing, addressing environmental impacts.",
+            "description": "The environmental aspect highlights the need for sustainable practices in resource extraction and processing, addressing environmental impacts."
+        },
+        {
+            "@id": "ev2",
+            "name": "Strategic planning and forecasting for EERE programs",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategic planning and forecasting for EERE programs",
+            "wd_description": "Input from the workshop will inform the development of an R&D roadmap, facilitating strategic planning and forecasting for future EERE programs.",
+            "description": "Input from the workshop will inform the development of an R&D roadmap, facilitating strategic planning and forecasting for future EERE programs."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "R&D roadmap development",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "R&D roadmap development",
+            "wd_description": "Developing the R&D roadmap involves identifying key areas for funding opportunities, prizes, awards, and partnerships to strengthen the battery supply chain.",
+            "description": "Developing the R&D roadmap involves identifying key areas for funding opportunities, prizes, awards, and partnerships to strengthen the battery supply chain."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Strategic planning",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Strategic planning",
+            "wd_description": "Strategic planning focuses on addressing risks and capitalizing on opportunities identified in the report to enhance the battery supply chain.",
+            "description": "Strategic planning focuses on addressing risks and capitalizing on opportunities identified in the report to enhance the battery supply chain."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Forecasting",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Forecasting",
+            "wd_description": "Forecasting involves predicting future directions for EERE programs, including potential impacts on supply chain dynamics and industry trends.",
+            "description": "Forecasting involves predicting future directions for EERE programs, including potential impacts on supply chain dynamics and industry trends."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1.3",
+            "relationObject": "ev1.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2.3",
+            "relationObject": "ev1.2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.4",
+            "relationObject": "ev1.3.5"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.1.1",
+            "relationObject": "ev1.3.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.2.2",
+            "relationObject": "ev1.3.2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.3.2",
+            "relationObject": "ev1.3.3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.4.1",
+            "relationObject": "ev1.3.4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.3.5.1",
+            "relationObject": "ev1.3.5.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2",
+            "relationObject": "ev2.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.3",
+            "relationObject": "ev2.1.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.2.1",
+            "relationObject": "ev2.2.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3.1",
+            "relationObject": "ev2.3."
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

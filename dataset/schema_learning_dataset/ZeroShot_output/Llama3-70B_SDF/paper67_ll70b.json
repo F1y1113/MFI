@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper67_ll70b",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Lithium-ion Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 0.5
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 0.5
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Lithium-ion Recycling",
+            "wd_description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling.",
+            "description": "Three main methods are used in lithium-ion recycling: pyrometallurgical, hydrometallurgical, bioleaching, and direct recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Pyrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Pyrometallurgy",
+            "wd_description": "The battery is melted in a hot furnace to recover some of the cathode metal.",
+            "description": "The battery is melted in a hot furnace to recover some of the cathode metal."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Hydrometallurgy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hydrometallurgy",
+            "wd_description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance.",
+            "description": "In hydrometallurgy, specialized solution reagents are primarily used to leach the targeted metals out from the cathode substance."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Bioleaching",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bioleaching",
+            "wd_description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination.",
+            "description": "The bioleaching technique uses bacteria to retrieve precious metals, but it is challenging because the bacteria need a substantial amount of time to grow and are easily susceptible to contamination."
+        },
+        {
+            "@id": "ev3",
+            "name": "Estimations and modeling approaches for lithium demand",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1
+                },
+                {
+                    "child": "paper67/Event/1qXgIn4etR/Lithium-recycling-impact",
+                    "importance": 1
+                },
+                {
+                    "child": "paper67/Event/3p5KnQybFV/Uncertainty-in-demand-modeling"
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Estimations and modeling approaches for lithium demand",
+            "wd_description": "Various approaches are used to estimate lithium demand and supply, considering factors such as EV penetration, recycling rates, and production methods. Different models project different scenarios for future lithium availability.",
+            "description": "Various approaches are used to estimate lithium demand and supply, considering factors such as EV penetration, recycling rates, and production methods. Different models project different scenarios for future lithium availability."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "EV penetration modeling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EV penetration modeling",
+            "wd_description": "Gruber et al. projected lithium demand from 2010 to 2100 based on EV penetration, predicting 100% EV penetration between 2083 and 2087 and estimating significant lithium demand.",
+            "description": "Gruber et al. projected lithium demand from 2010 to 2100 based on EV penetration, predicting 100% EV penetration between 2083 and 2087 and estimating significant lithium demand."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Recycling impact",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Recycling impact",
+            "wd_description": "High recycling rates of lithium (90%) could significantly reduce the strain on lithium mining.",
+            "description": "High recycling rates of lithium (90%) could significantly reduce the strain on lithium mining."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Stochastic modeling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Stochastic modeling",
+            "wd_description": "Calisaya-Azpilcueta et al. used stochastic modeling to combine material flow analysis with sensitivity and uncertainty analysis, projecting a potential undersupply scenario for lithium by 2025.",
+            "description": "Calisaya-Azpilcueta et al. used stochastic modeling to combine material flow analysis with sensitivity and uncertainty analysis, projecting a potential undersupply scenario for lithium by 2025."
+        },
+        {
+            "@id": "paper67/Event/1qXgIn4etR/Lithium-recycling-impact",
+            "name": "Lithium recycling impact",
+            "ta1explanation": "",
+            "description": "High recycling rates significantly lower the strain on lithium mining and are crucial for meeting future demand.",
+            "wd_node": "paper67",
+            "wd_label": "paper67",
+            "participants": []
+        },
+        {
+            "@id": "paper67/Event/3p5KnQybFV/Uncertainty-in-demand-modeling",
+            "name": "Uncertainty in demand modeling",
+            "ta1explanation": "",
+            "description": "Demand modeling is influenced by a variety of factors such as vehicle manufacturing rates, market share of EV technologies, and battery specifications, leading to variability in predictions.",
+            "wd_node": "paper67",
+            "wd_label": "paper67",
+            "participants": []
+        },
+        {
+            "@id": "ev2",
+            "name": "Resource and reserve dynamics",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1
+                },
+                {
+                    "child": "paper67/Event/3PndETdE40/Dynamic-nature-of-reserves",
+                    "importance": 1
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Resource and reserve dynamics",
+            "wd_description": "Resources represent locations with metal presence, while reserves are economically feasible to mine. Feasibility depends on deposit size, metal content, and extraction process. Reserves are dynamic, influenced by socioeconomics, environmental policy, and technology.",
+            "description": "Resources represent locations with metal presence, while reserves are economically feasible to mine. Feasibility depends on deposit size, metal content, and extraction process. Reserves are dynamic, influenced by socioeconomics, environmental policy, and technology."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Resources",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Resources",
+            "wd_description": "Resources represent locations where a given metal is present in the Earth's crust.",
+            "description": "Resources represent locations where a given metal is present in the Earth's crust."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Reserves",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Reserves",
+            "wd_description": "Reserves represent resources that are economically feasible to mine.",
+            "description": "Reserves represent resources that are economically feasible to mine."
+        },
+        {
+            "@id": "paper67/Event/3PndETdE40/Dynamic-nature-of-reserves",
+            "name": "Dynamic nature of reserves",
+            "ta1explanation": "",
+            "description": "Reserves are dynamic and change according to current socioeconomics, environmental policy, and technology.",
+            "wd_node": "paper67",
+            "wd_label": "paper67",
+            "participants": []
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.1"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.1",
+            "relationObject": "ev1.3"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,394 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "paper80",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "U.S. EV lithium-ion cell manufacturing and investment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. EV lithium-ion cell manufacturing and investment",
+            "wd_description": "The U.S. held eight percent of global EV lithium-ion cell manufacturing capacity in 2020. Since then, automakers have significantly increased their commitments to domestic EV manufacturing, resulting in numerous job announcements and investments.",
+            "description": "The U.S. held eight percent of global EV lithium-ion cell manufacturing capacity in 2020. Since then, automakers have significantly increased their commitments to domestic EV manufacturing, resulting in numerous job announcements and investments."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "2020 manufacturing capacity",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "2020 manufacturing capacity",
+            "wd_description": "In 2020, the U.S. had eight percent of global EV lithium-ion cell manufacturing capacity, totaling 59 GWh.",
+            "description": "In 2020, the U.S. had eight percent of global EV lithium-ion cell manufacturing capacity, totaling 59 GWh."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "2022 job announcements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "2022 job announcements",
+            "wd_description": "In the first six months of 2022, 35 percent of all battery manufacturing jobs in the U.S. were announced, with four of the top five largest facilities announced in the past 12 months.",
+            "description": "In the first six months of 2022, 35 percent of all battery manufacturing jobs in the U.S. were announced, with four of the top five largest facilities announced in the past 12 months."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Investments in EV manufacturing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Investments in EV manufacturing",
+            "wd_description": "By June 2022, automakers announced over 115,000 jobs and $82.1 billion in investment for EV manufacturing in the U.S.",
+            "description": "By June 2022, automakers announced over 115,000 jobs and $82.1 billion in investment for EV manufacturing in the U.S."
+        },
+        {
+            "@id": "ev2",
+            "name": "Major investment projects by automakers",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Major investment projects by automakers",
+            "wd_description": "Significant investments by automakers include projects by Ford and SK Innovation, Toyota, Rivian, and Hyundai, aimed at increasing EV and battery production capacity in the U.S.",
+            "description": "Significant investments by automakers include projects by Ford and SK Innovation, Toyota, Rivian, and Hyundai, aimed at increasing EV and battery production capacity in the U.S."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Ford and SK Innovation investment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.1.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Ford and SK Innovation investment",
+            "wd_description": "In September 2021, Ford and SK Innovation announced an $11 billion investment to build batteries and assemble EVs in Kentucky and Tennessee, creating 11,000 jobs.",
+            "description": "In September 2021, Ford and SK Innovation announced an $11 billion investment to build batteries and assemble EVs in Kentucky and Tennessee, creating 11,000 jobs."
+        },
+        {
+            "@id": "ev2.1.1",
+            "name": "Kentucky project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Kentucky project",
+            "wd_description": "The investment in Kentucky will support the production of the F-150 Lightning and create jobs.",
+            "description": "The investment in Kentucky will support the production of the F-150 Lightning and create jobs."
+        },
+        {
+            "@id": "ev2.1.2",
+            "name": "Tennessee project",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Tennessee project",
+            "wd_description": "The investment in Tennessee will also support EV production and job creation.",
+            "description": "The investment in Tennessee will also support EV production and job creation."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Toyota investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Toyota investment",
+            "wd_description": "In December 2021, Toyota announced a $1.2 billion investment in a new battery production facility in North Carolina, expected to create 1,750 jobs and produce batteries for up to 1.2 million EVs per year.",
+            "description": "In December 2021, Toyota announced a $1.2 billion investment in a new battery production facility in North Carolina, expected to create 1,750 jobs and produce batteries for up to 1.2 million EVs per year."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Rivian investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rivian investment",
+            "wd_description": "Rivian announced a $5 billion investment in a new vehicle assembly plant in Georgia, projected to create 7,500 jobs.",
+            "description": "Rivian announced a $5 billion investment in a new vehicle assembly plant in Georgia, projected to create 7,500 jobs."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "Hyundai investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Hyundai investment",
+            "wd_description": "Hyundai announced a new facility to support 8,100 jobs in Georgia for building batteries and assembling EVs.",
+            "description": "Hyundai announced a new facility to support 8,100 jobs in Georgia for building batteries and assembling EVs."
+        },
+        {
+            "@id": "ev3",
+            "name": "Future price trends and supply chain challenges for batteries",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Future price trends and supply chain challenges for batteries",
+            "wd_description": "Estimates for future battery prices vary, with supply chain challenges and rising input costs potentially affecting price reductions. While economies of scale and efficiency gains have previously reduced costs, projections must be treated with caution.",
+            "description": "Estimates for future battery prices vary, with supply chain challenges and rising input costs potentially affecting price reductions. While economies of scale and efficiency gains have previously reduced costs, projections must be treated with caution."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Price trends",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Price trends",
+            "wd_description": "Estimates for future battery prices vary, with projections suggesting costs may not fall below $100 per kWh until 2024, and further drops to $65-$80 per kWh by 2030.",
+            "description": "Estimates for future battery prices vary, with projections suggesting costs may not fall below $100 per kWh until 2024, and further drops to $65-$80 per kWh by 2030."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Supply chain challenges",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Supply chain challenges",
+            "wd_description": "Supply chain slowdowns and rising input costs are affecting all battery chemistries, potentially slowing or reversing price drops.",
+            "description": "Supply chain slowdowns and rising input costs are affecting all battery chemistries, potentially slowing or reversing price drops."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Input cost impacts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Input cost impacts",
+            "wd_description": "The rising cost of raw materials and demand from adjacent industries could pressure battery prices.",
+            "description": "The rising cost of raw materials and demand from adjacent industries could pressure battery prices."
+        },
+        {
+            "@id": "ev4",
+            "name": "Battery energy storage system deployment",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Battery energy storage system deployment",
+            "wd_description": "The demand for battery energy storage systems is projected to grow significantly, with estimates suggesting a demand of up to 1,028 GWh by 2030.",
+            "description": "The demand for battery energy storage systems is projected to grow significantly, with estimates suggesting a demand of up to 1,028 GWh by 2030."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Current deployment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Current deployment",
+            "wd_description": "As of 2020, battery energy storage system deployment ranged between 17 to 34 GWh.",
+            "description": "As of 2020, battery energy storage system deployment ranged between 17 to 34 GWh."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Future demand",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Future demand",
+            "wd_description": "By 2030, the demand for battery energy storage systems is estimated to reach up to 1,028 GWh.",
+            "description": "By 2030, the demand for battery energy storage systems is estimated to reach up to 1,028 GWh."
+        }
+    ],
+    "relations": [
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev1.2",
+            "relationObject": "ev1.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.3",
+            "relationObject": "ev2.4"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev2.1.1",
+            "relationObject": "ev2.1.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev3.2",
+            "relationObject": "ev3.3"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        },
+        {
+            "@id": "Relations/00443/before",
+            "wd_node": "wd:Q79030196",
+            "wd_label": "before",
+            "wd_description": "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing",
+            "relationSubject": "ev4.1",
+            "relationObject": "ev4.2"
+        }
+    ],
+    "entities": [],
+    "provenanceData": []
+}

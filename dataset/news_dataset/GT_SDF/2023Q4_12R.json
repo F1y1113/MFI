@@ -1,0 +1,588 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q4_12R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling.",
+            "description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Raw material extraction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Raw material extraction",
+            "wd_description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries.",
+            "description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries."
+        },
+        {
+            "@id": "ev1.1.1",
+            "name": "t: Lithium mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Lithium mining",
+            "wd_description": "The process of extracting lithium from the earth which is used as a key component in EV batteries.",
+            "description": "The process of extracting lithium from the earth which is used as a key component in EV batteries."
+        },
+        {
+            "@id": "ev1.1.2",
+            "name": "t: Cobalt mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cobalt mining",
+            "wd_description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries.",
+            "description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries."
+        },
+        {
+            "@id": "ev1.1.3",
+            "name": "t: Nickel mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nickel mining",
+            "wd_description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries.",
+            "description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production",
+            "wd_description": "The manufacturing process of EV batteries including cell production and assembly.",
+            "description": "The manufacturing process of EV batteries including cell production and assembly."
+        },
+        {
+            "@id": "ev1.2.1",
+            "name": "t: Cell production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cell production",
+            "wd_description": "The process of producing individual battery cells from raw materials.",
+            "description": "The process of producing individual battery cells from raw materials."
+        },
+        {
+            "@id": "ev1.2.2",
+            "name": "t: Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Assembly",
+            "wd_description": "The assembly of battery cells into battery packs which are then installed into EVs.",
+            "description": "The assembly of battery cells into battery packs which are then installed into EVs."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact.",
+            "description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact."
+        },
+        {
+            "@id": "ev1.3.1",
+            "name": "t: Pyrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Pyrometallurgical recycling",
+            "wd_description": "A recycling method that uses high temperatures to recover metals from spent batteries.",
+            "description": "A recycling method that uses high temperatures to recover metals from spent batteries."
+        },
+        {
+            "@id": "ev1.3.2",
+            "name": "t: Hydrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hydrometallurgical recycling",
+            "wd_description": "A recycling method that uses aqueous solutions to extract metals from batteries.",
+            "description": "A recycling method that uses aqueous solutions to extract metals from batteries."
+        },
+        {
+            "@id": "ev1.3.3",
+            "name": "t: Direct recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Direct recycling",
+            "wd_description": "A method that recycles battery components directly without breaking them down into their elemental forms.",
+            "description": "A method that recycles battery components directly without breaking them down into their elemental forms."
+        },
+        {
+            "@id": "ev2",
+            "name": "Diplomatic tensions between India and Canada",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 0.9
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 0.8
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 0.8
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Diplomatic tensions between India and Canada",
+            "wd_description": "India has directed Canada to withdraw close to 40 diplomatic staff and confirmed those who stayed past October 10 would lose their diplomatic immunity.",
+            "description": "India has directed Canada to withdraw close to 40 diplomatic staff and confirmed those who stayed past October 10 would lose their diplomatic immunity."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Diplomatic staff withdrawal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Diplomatic staff withdrawal",
+            "wd_description": "India has instructed Canada to withdraw nearly 40 diplomatic staff from the country, with a deadline of October 10 for maintaining diplomatic immunity.",
+            "description": "India has instructed Canada to withdraw nearly 40 diplomatic staff from the country, with a deadline of October 10 for maintaining diplomatic immunity."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Allegations of involvement in killing",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Allegations of involvement in killing",
+            "wd_description": "Canada accused India of involvement in the killing of Sikh separatist leader Hardeep Singh Nijjar on Canadian soil, an allegation denied by India.",
+            "description": "Canada accused India of involvement in the killing of Sikh separatist leader Hardeep Singh Nijjar on Canadian soil, an allegation denied by India."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Trudeau's response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Trudeau's response",
+            "wd_description": "Canadian Prime Minister Justin Trudeau stated that he does not plan to escalate the rift with India and emphasized ongoing responsible and constructive engagement.",
+            "description": "Canadian Prime Minister Justin Trudeau stated that he does not plan to escalate the rift with India and emphasized ongoing responsible and constructive engagement."
+        },
+        {
+            "@id": "ev3",
+            "name": "EV battery supply chain",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain",
+            "wd_description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling.",
+            "description": "The detailed process of the EV battery supply chain including various stages such as raw material extraction, production, and recycling."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Raw material extraction",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Raw material extraction",
+            "wd_description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries.",
+            "description": "Involves the mining and processing of materials such as lithium, cobalt, and nickel required for EV batteries."
+        },
+        {
+            "@id": "ev3.1.1",
+            "name": "t: Lithium mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Lithium mining",
+            "wd_description": "The process of extracting lithium from the earth which is used as a key component in EV batteries.",
+            "description": "The process of extracting lithium from the earth which is used as a key component in EV batteries."
+        },
+        {
+            "@id": "ev3.1.2",
+            "name": "t: Cobalt mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cobalt mining",
+            "wd_description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries.",
+            "description": "The extraction of cobalt which is a crucial element in the cathode of EV batteries."
+        },
+        {
+            "@id": "ev3.1.3",
+            "name": "t: Nickel mining",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Nickel mining",
+            "wd_description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries.",
+            "description": "The process of mining nickel which is used to enhance the energy density and longevity of EV batteries."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Production",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Production",
+            "wd_description": "The manufacturing process of EV batteries including cell production and assembly.",
+            "description": "The manufacturing process of EV batteries including cell production and assembly."
+        },
+        {
+            "@id": "ev3.2.1",
+            "name": "t: Cell production",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Cell production",
+            "wd_description": "The process of producing individual battery cells from raw materials.",
+            "description": "The process of producing individual battery cells from raw materials."
+        },
+        {
+            "@id": "ev3.2.2",
+            "name": "t: Assembly",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Assembly",
+            "wd_description": "The assembly of battery cells into battery packs which are then installed into EVs.",
+            "description": "The assembly of battery cells into battery packs which are then installed into EVs."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Recycling",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "or",
+            "wd_node": "",
+            "wd_label": "Recycling",
+            "wd_description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact.",
+            "description": "The methods used to recycle EV batteries to recover valuable materials and reduce environmental impact."
+        },
+        {
+            "@id": "ev3.3.1",
+            "name": "t: Pyrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Pyrometallurgical recycling",
+            "wd_description": "A recycling method that uses high temperatures to recover metals from spent batteries.",
+            "description": "A recycling method that uses high temperatures to recover metals from spent batteries."
+        },
+        {
+            "@id": "ev3.3.2",
+            "name": "t: Hydrometallurgical recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Hydrometallurgical recycling",
+            "wd_description": "A recycling method that uses aqueous solutions to extract metals from batteries.",
+            "description": "A recycling method that uses aqueous solutions to extract metals from batteries."
+        },
+        {
+            "@id": "ev3.3.3",
+            "name": "t: Direct recycling",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Direct recycling",
+            "wd_description": "A method that recycles battery components directly without breaking them down into their elemental forms.",
+            "description": "A method that recycles battery components directly without breaking them down into their elemental forms."
+        },
+        {
+            "@id": "ev4",
+            "name": "EVs and the 2024 U.S. Presidential Election",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EVs and the 2024 U.S. Presidential Election",
+            "wd_description": "Electric vehicles have become a contentious issue in the 2024 U.S. presidential race, with Republican candidates criticizing EV policies while Democrats emphasize job creation and investment benefits.",
+            "description": "Electric vehicles have become a contentious issue in the 2024 U.S. presidential race, with Republican candidates criticizing EV policies while Democrats emphasize job creation and investment benefits."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Republican Criticism",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Republican Criticism",
+            "wd_description": "Republican contenders for the 2024 presidential nomination, including Trump and DeSantis, have criticized EVs, arguing they harm American jobs and benefit China.",
+            "description": "Republican contenders for the 2024 presidential nomination, including Trump and DeSantis, have criticized EVs, arguing they harm American jobs and benefit China."
+        },
+        {
+            "@id": "ev4.1.1",
+            "name": "t: Trump's Position",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Trump's Position",
+            "wd_description": "Trump has labeled EVs as a \"hoax\" and argues that they are strengthening China's economy at the expense of American jobs.",
+            "description": "Trump has labeled EVs as a \"hoax\" and argues that they are strengthening China's economy at the expense of American jobs."
+        },
+        {
+            "@id": "ev4.1.2",
+            "name": "t: DeSantis's Position",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: DeSantis's Position",
+            "wd_description": "DeSantis has criticized EVs for making the U.S. more dependent on China, reflecting general Republican concerns about EV technology and subsidies.",
+            "description": "DeSantis has criticized EVs for making the U.S. more dependent on China, reflecting general Republican concerns about EV technology and subsidies."
+        },
+        {
+            "@id": "ev4.1.3",
+            "name": "t: General Republican Sentiment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: General Republican Sentiment",
+            "wd_description": "Republicans view IRA subsidies as government overreach and express concern over EV manufacturing's reliance on minerals from China.",
+            "description": "Republicans view IRA subsidies as government overreach and express concern over EV manufacturing's reliance on minerals from China."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Democratic Response",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Democratic Response",
+            "wd_description": "Democrats, including President Biden, are emphasizing the job creation and economic benefits of EV investments to gain support in key battleground states.",
+            "description": "Democrats, including President Biden, are emphasizing the job creation and economic benefits of EV investments to gain support in key battleground states."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: Biden's Campaign Strategy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Biden's Campaign Strategy",
+            "wd_description": "Biden has promoted the IRA in ads and visits to manufacturing facilities, highlighting the job creation from EV and battery investments.",
+            "description": "Biden has promoted the IRA in ads and visits to manufacturing facilities, highlighting the job creation from EV and battery investments."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: Local Democratic Efforts",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Local Democratic Efforts",
+            "wd_description": "Democratic candidates in states like Arizona are focusing on the jobs created by EV investments and their positive local impacts.",
+            "description": "Democratic candidates in states like Arizona are focusing on the jobs created by EV investments and their positive local impacts."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "State-Level Nuances",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "State-Level Nuances",
+            "wd_description": "Some Republican state leaders, like Georgia's Governor Brian Kemp, support state-level incentives for EV projects despite opposing the IRA, complicating the political narrative.",
+            "description": "Some Republican state leaders, like Georgia's Governor Brian Kemp, support state-level incentives for EV projects despite opposing the IRA, complicating the political narrative."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: Kemp's Position",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Kemp's Position",
+            "wd_description": "Governor Brian Kemp has promoted state tax credits for EV manufacturers and aims to make Georgia the \"electric mobility capital\" of America.",
+            "description": "Governor Brian Kemp has promoted state tax credits for EV manufacturers and aims to make Georgia the \"electric mobility capital\" of America."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: Local Political Dynamics",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Local Political Dynamics",
+            "wd_description": "The support for EV projects by state-level Republicans adds complexity to the Democrats' efforts to claim credit for job creation through the IRA.",
+            "description": "The support for EV projects by state-level Republicans adds complexity to the Democrats' efforts to claim credit for job creation through the IRA."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Market Impact",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Market Impact",
+            "wd_description": "Investments in EV and battery manufacturing have surged, driven by the IRA, although high interest rates and supply chain concerns present challenges.",
+            "description": "Investments in EV and battery manufacturing have surged, driven by the IRA, although high interest rates and supply chain concerns present challenges."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: EV Investment Figures",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: EV Investment Figures",
+            "wd_description": "There have been roughly $128 billion in investments in domestic EV and battery manufacturing since the 2022 passage of the Inflation Reduction Act.",
+            "description": "There have been roughly $128 billion in investments in domestic EV and battery manufacturing since the 2022 passage of the Inflation Reduction Act."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: Challenges and Opportunities",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: Challenges and Opportunities",
+            "wd_description": "High interest rates have dampened demand, but domestic EV sales remain strong, with EVs expected to make up nearly 50% of car sales in America by 2030.",
+            "description": "High interest rates have dampened demand, but domestic EV sales remain strong, with EVs expected to make up nearly 50% of car sales in America by 2030."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

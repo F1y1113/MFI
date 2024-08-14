@@ -1,0 +1,401 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q3_47R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Damage to Zaporizhzhia nuclear power plant",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Damage to Zaporizhzhia nuclear power plant",
+            "wd_description": "The Ukrainian nuclear agency reported that part of the Zaporizhzhia nuclear power plant, controlled by Russia, was damaged by Russian rockets, though no radiation leak is suspected.",
+            "description": "The Ukrainian nuclear agency reported that part of the Zaporizhzhia nuclear power plant, controlled by Russia, was damaged by Russian rockets, though no radiation leak is suspected."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Enerhoatom report",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Enerhoatom report",
+            "wd_description": "Enerhoatom reported that a nitrogen-oxygen unit and a high-voltage power line at the Zaporizhzhia plant were damaged by Russian rockets.",
+            "description": "Enerhoatom reported that a nitrogen-oxygen unit and a high-voltage power line at the Zaporizhzhia plant were damaged by Russian rockets."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Russian and Ukrainian blame",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian and Ukrainian blame",
+            "wd_description": "Russian-appointed local officials blamed Ukraine for shelling, while Ukraine blamed Russian forces for launching rockets at civilian areas from the plant site.",
+            "description": "Russian-appointed local officials blamed Ukraine for shelling, while Ukraine blamed Russian forces for launching rockets at civilian areas from the plant site."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "plant control and operations",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "plant control and operations",
+            "wd_description": "Russia seized the Zaporizhzhia plant in March but kept Ukrainian employees to continue operations; the plant consists of six pressurized water reactors and stores radioactive waste.",
+            "description": "Russia seized the Zaporizhzhia plant in March but kept Ukrainian employees to continue operations; the plant consists of six pressurized water reactors and stores radioactive waste."
+        },
+        {
+            "@id": "ev1.4",
+            "name": "UK defense ministry statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "UK defense ministry statement",
+            "wd_description": "The UK's defense ministry stated that Russia has used the area around the Zaporizhzhia plant to minimize the risk of attack by Ukrainian forces due to its protected status.",
+            "description": "The UK's defense ministry stated that Russia has used the area around the Zaporizhzhia plant to minimize the risk of attack by Ukrainian forces due to its protected status."
+        },
+        {
+            "@id": "ev2",
+            "name": "Controversy over shelling of Donetsk prison holding Ukrainian war prisoners",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Controversy over shelling of Donetsk prison holding Ukrainian war prisoners",
+            "wd_description": "Russia and Ukraine exchanged accusations over the shelling of a prison in Donetsk holding Ukrainian war prisoners, with both sides blaming each other for the deaths of 40 prisoners.",
+            "description": "Russia and Ukraine exchanged accusations over the shelling of a prison in Donetsk holding Ukrainian war prisoners, with both sides blaming each other for the deaths of 40 prisoners."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Russian defense ministry statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Russian defense ministry statement",
+            "wd_description": "Russia's defense ministry claimed that 40 Ukrainian war prisoners were killed by Ukrainian shelling of a prison held by separatists in Donetsk.",
+            "description": "Russia's defense ministry claimed that 40 Ukrainian war prisoners were killed by Ukrainian shelling of a prison held by separatists in Donetsk."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Ukraine's military response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ukraine's military response",
+            "wd_description": "Ukraine's military denied carrying out the shelling and accused Russia of shelling the prison to cover up torture and shootings of prisoners.",
+            "description": "Ukraine's military denied carrying out the shelling and accused Russia of shelling the prison to cover up torture and shootings of prisoners."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "DPR spokesperson statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "DPR spokesperson statement",
+            "wd_description": "Daniil Bezsonov, a spokesperson for the Russian-backed separatist Donetsk People’s Republic, claimed the strike was a direct hit on a barracks holding prisoners.",
+            "description": "Daniil Bezsonov, a spokesperson for the Russian-backed separatist Donetsk People’s Republic, claimed the strike was a direct hit on a barracks holding prisoners."
+        },
+        {
+            "@id": "ev2.4",
+            "name": "accusation of US-made artillery use",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "accusation of US-made artillery use",
+            "wd_description": "The Russian defense ministry claimed that US-made Himars artillery was used in the operation and accused Ukraine of a deliberate provocation.",
+            "description": "The Russian defense ministry claimed that US-made Himars artillery was used in the operation and accused Ukraine of a deliberate provocation."
+        },
+        {
+            "@id": "ev3",
+            "name": "China warns the U.S. after Biden administration approves arms sales to Taiwan",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "China warns the U.S. after Biden administration approves arms sales to Taiwan",
+            "wd_description": "China warned the U.S. of taking countermeasures after the Biden administration approved more than $1.1 billion in arms sales to Taiwan.",
+            "description": "China warned the U.S. of taking countermeasures after the Biden administration approved more than $1.1 billion in arms sales to Taiwan."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Chinese embassy statement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Chinese embassy statement",
+            "wd_description": "Liu Pengyu, spokesman for the Chinese embassy, stated that China firmly opposes the arms sales, which jeopardize China-US relations and peace across the Taiwan Strait, and called for Washington to revoke them.",
+            "description": "Liu Pengyu, spokesman for the Chinese embassy, stated that China firmly opposes the arms sales, which jeopardize China-US relations and peace across the Taiwan Strait, and called for Washington to revoke them."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "U.S. State Department response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "U.S. State Department response",
+            "wd_description": "The State Department said the sales align with the longstanding U.S. policy to provide defensive weapons to Taiwan, describing the provision as essential for Taiwan's security.",
+            "description": "The State Department said the sales align with the longstanding U.S. policy to provide defensive weapons to Taiwan, describing the provision as essential for Taiwan's security."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Taiwan's reaction",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Taiwan's reaction",
+            "wd_description": "Taiwan thanked the U.S. for continuing to implement its security commitments and welcomed the latest arms sales.",
+            "description": "Taiwan thanked the U.S. for continuing to implement its security commitments and welcomed the latest arms sales."
+        },
+        {
+            "@id": "ev4",
+            "name": "EV battery supply chain transformation under the Inflation Reduction Act of 2022",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EV battery supply chain transformation under the Inflation Reduction Act of 2022",
+            "wd_description": "The Inflation Reduction Act of 2022 aims to promote US production of electric vehicles, renewable energy technologies, and critical minerals by revising the tax credit for EVs and imposing new sourcing requirements.",
+            "description": "The Inflation Reduction Act of 2022 aims to promote US production of electric vehicles, renewable energy technologies, and critical minerals by revising the tax credit for EVs and imposing new sourcing requirements."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "revised EV tax credit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "revised EV tax credit",
+            "wd_description": "The Inflation Reduction Act revises the existing US tax credit of $7,500 for qualifying EVs, eliminating the 200,000 vehicle limit and making substantial changes to eligibility criteria.",
+            "description": "The Inflation Reduction Act revises the existing US tax credit of $7,500 for qualifying EVs, eliminating the 200,000 vehicle limit and making substantial changes to eligibility criteria."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "critical mineral requirements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "critical mineral requirements",
+            "wd_description": "To qualify for the tax credit, a certain percentage of the vehicle battery's critical minerals must be sourced from a US free trade agreement partner or recycled in North America.",
+            "description": "To qualify for the tax credit, a certain percentage of the vehicle battery's critical minerals must be sourced from a US free trade agreement partner or recycled in North America."
+        },
+        {
+            "@id": "ev4.2.1",
+            "name": "t: starting percentage requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: starting percentage requirements",
+            "wd_description": "Starting in 2023, 40% of the critical minerals in the vehicle battery must be sourced from a US free trade agreement partner or recycled in North America.",
+            "description": "Starting in 2023, 40% of the critical minerals in the vehicle battery must be sourced from a US free trade agreement partner or recycled in North America."
+        },
+        {
+            "@id": "ev4.2.2",
+            "name": "t: increasing percentage requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: increasing percentage requirements",
+            "wd_description": "The required percentage of critical minerals will increase gradually to 80% by 2027.",
+            "description": "The required percentage of critical minerals will increase gradually to 80% by 2027."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "battery component requirements",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "battery component requirements",
+            "wd_description": "To qualify for the tax credit, a certain percentage of the vehicle battery's components must be manufactured or assembled in North America.",
+            "description": "To qualify for the tax credit, a certain percentage of the vehicle battery's components must be manufactured or assembled in North America."
+        },
+        {
+            "@id": "ev4.3.1",
+            "name": "t: starting percentage requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: starting percentage requirements",
+            "wd_description": "Starting in 2023, 50% of the battery components must be manufactured or assembled in North America.",
+            "description": "Starting in 2023, 50% of the battery components must be manufactured or assembled in North America."
+        },
+        {
+            "@id": "ev4.3.2",
+            "name": "t: increasing percentage requirements",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: increasing percentage requirements",
+            "wd_description": "The required percentage of battery components will increase gradually to 100% by 2029.",
+            "description": "The required percentage of battery components will increase gradually to 100% by 2029."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "exclusion of foreign entities",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "exclusion of foreign entities",
+            "wd_description": "The tax credit will be prohibited for vehicles with any critical minerals or components sourced from foreign entities of concern, such as China and Russia.",
+            "description": "The tax credit will be prohibited for vehicles with any critical minerals or components sourced from foreign entities of concern, such as China and Russia."
+        },
+        {
+            "@id": "ev4.4.1",
+            "name": "t: exclusion of critical minerals",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: exclusion of critical minerals",
+            "wd_description": "Starting in 2024, vehicles with any critical minerals sourced from foreign entities of concern will be ineligible for the tax credit.",
+            "description": "Starting in 2024, vehicles with any critical minerals sourced from foreign entities of concern will be ineligible for the tax credit."
+        },
+        {
+            "@id": "ev4.4.2",
+            "name": "t: exclusion of battery components",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: exclusion of battery components",
+            "wd_description": "Starting in 2023, vehicles with any battery components sourced from foreign entities of concern will be ineligible for the tax credit.",
+            "description": "Starting in 2023, vehicles with any battery components sourced from foreign entities of concern will be ineligible for the tax credit."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "tax credit for used clean vehicles",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "tax credit for used clean vehicles",
+            "wd_description": "The IRA establishes a tax credit for purchases of previously-owned clean vehicles, equivalent to 30% of the vehicle's sale price or $4,000, whichever is lower.",
+            "description": "The IRA establishes a tax credit for purchases of previously-owned clean vehicles, equivalent to 30% of the vehicle's sale price or $4,000, whichever is lower."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "outlook",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.6.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6.2",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "outlook",
+            "wd_description": "The IRA's passage is likely, with strong support from President Biden and Congressional Democrats, but it may prompt trade disputes and require substantial changes to sourcing practices within North America.",
+            "description": "The IRA's passage is likely, with strong support from President Biden and Congressional Democrats, but it may prompt trade disputes and require substantial changes to sourcing practices within North America."
+        },
+        {
+            "@id": "ev4.6.1",
+            "name": "t: potential trade disputes",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: potential trade disputes",
+            "wd_description": "The IRA may prompt trade disputes with countries such as Japan, South Korea, and the European Union due to its North American content and assembly requirements.",
+            "description": "The IRA may prompt trade disputes with countries such as Japan, South Korea, and the European Union due to its North American content and assembly requirements."
+        },
+        {
+            "@id": "ev4.6.2",
+            "name": "t: changes to sourcing practices",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "t: changes to sourcing practices",
+            "wd_description": "Even vehicle producers within North America will need to make substantial changes to their sourcing practices to comply with the IRA's requirements.",
+            "description": "Even vehicle producers within North America will need to make substantial changes to their sourcing practices to comply with the IRA's requirements."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

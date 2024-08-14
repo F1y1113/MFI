@@ -1,0 +1,350 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2022Q2_52R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "Boris Johnson comments on Putin's progress in Donbas",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Boris Johnson comments on Putin's progress in Donbas",
+            "wd_description": "British Prime Minister Boris Johnson commented on Russian President Vladimir Putin's slow but visible progress in the Donbas region of Eastern Ukraine, expressing concerns over the high cost to Russia.",
+            "description": "British Prime Minister Boris Johnson commented on Russian President Vladimir Putin's slow but visible progress in the Donbas region of Eastern Ukraine, expressing concerns over the high cost to Russia."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Putin's progress in Donbas",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Putin's progress in Donbas",
+            "wd_description": "Johnson noted that Putin continues to make progress in Donbas, despite the high cost to himself and the Russian military.",
+            "description": "Johnson noted that Putin continues to make progress in Donbas, despite the high cost to himself and the Russian military."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Invasion background",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Invasion background",
+            "wd_description": "Russia's invasion of Ukraine, launched on February 24, is termed a \"special military operation\" by Russia, but is considered a war of aggression by Ukraine and the West.",
+            "description": "Russia's invasion of Ukraine, launched on February 24, is termed a \"special military operation\" by Russia, but is considered a war of aggression by Ukraine and the West."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Johnson's perspective on ending the conflict",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Johnson's perspective on ending the conflict",
+            "wd_description": "Johnson stated that the conflict can end only if Putin acknowledges that the denazification of Ukraine has been achieved and withdraws with dignity and honor, although he clarified he does not support the premise that there were Nazis in Ukraine.",
+            "description": "Johnson stated that the conflict can end only if Putin acknowledges that the denazification of Ukraine has been achieved and withdraws with dignity and honor, although he clarified he does not support the premise that there were Nazis in Ukraine."
+        },
+        {
+            "@id": "ev2",
+            "name": "EU sanctions against Russia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "EU sanctions against Russia",
+            "wd_description": "The European Union is discussing further sanction packages to be levied against Russia due to its continued invasion of Ukraine. These sanctions aim to target oil and other economic areas to deter further military aggression.",
+            "description": "The European Union is discussing further sanction packages to be levied against Russia due to its continued invasion of Ukraine. These sanctions aim to target oil and other economic areas to deter further military aggression."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Sanctions discussion",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Sanctions discussion",
+            "wd_description": "Several EU leaders are building sanctions regarding oil and other economic deterrents.",
+            "description": "Several EU leaders are building sanctions regarding oil and other economic deterrents."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Bucha aftermath",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bucha aftermath",
+            "wd_description": "The discovery of slain Ukrainian civilians in Bucha has intensified the call for further sanctions against Russia.",
+            "description": "The discovery of slain Ukrainian civilians in Bucha has intensified the call for further sanctions against Russia."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "EU leaders involvement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "EU leaders involvement",
+            "wd_description": "Leaders of Ireland, Lithuania, and Denmark, among others, are involved in this next round of sanctions against Russia, hoping that the measures will lead to Russia's withdrawal from Ukraine.",
+            "description": "Leaders of Ireland, Lithuania, and Denmark, among others, are involved in this next round of sanctions against Russia, hoping that the measures will lead to Russia's withdrawal from Ukraine."
+        },
+        {
+            "@id": "ev3",
+            "name": "UK inflation rate increases to 9.1%",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.5",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "UK inflation rate increases to 9.1%",
+            "wd_description": "The pace of price growth in the UK increased to 9.1% in May from 9% in April, driven primarily by the cost of fuel and energy, according to the Office for National Statistics (ONS).",
+            "description": "The pace of price growth in the UK increased to 9.1% in May from 9% in April, driven primarily by the cost of fuel and energy, according to the Office for National Statistics (ONS)."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Causes of inflation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Causes of inflation",
+            "wd_description": "The main causes of inflation are the rising costs of fuel and energy.",
+            "description": "The main causes of inflation are the rising costs of fuel and energy."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Workers and unions' response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Workers and unions' response",
+            "wd_description": "Workers and unions are fighting for pay increases to cope with rising prices.",
+            "description": "Workers and unions are fighting for pay increases to cope with rising prices."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "Government caution",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Government caution",
+            "wd_description": "The government cautions against significant pay raises by employers to avoid an \"inflationary spiral\" similar to the 1970s.",
+            "description": "The government cautions against significant pay raises by employers to avoid an \"inflationary spiral\" similar to the 1970s."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Bank of England's warning",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Bank of England's warning",
+            "wd_description": "The Bank of England warned that inflation might hit 11 percent this year, the highest level since March 1982.",
+            "description": "The Bank of England warned that inflation might hit 11 percent this year, the highest level since March 1982."
+        },
+        {
+            "@id": "ev3.5",
+            "name": "Experts' recommendation",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Experts' recommendation",
+            "wd_description": "Experts suggest raising interest rates as a way to slow the rate of price growth by encouraging people to borrow less, spend less, and save more.",
+            "description": "Experts suggest raising interest rates as a way to slow the rate of price growth by encouraging people to borrow less, spend less, and save more."
+        },
+        {
+            "@id": "ev4",
+            "name": "Private equity funds seeking minority stake in Benchmark Mineral Intelligence (BMI)",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.5",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.6",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.7",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.8",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.9",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.10",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.11",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Private equity funds seeking minority stake in Benchmark Mineral Intelligence (BMI)",
+            "wd_description": "Private equity funds are seeking a minority stake in Benchmark Mineral Intelligence (BMI) to gain exposure to the electric-vehicle battery supply chain.",
+            "description": "Private equity funds are seeking a minority stake in Benchmark Mineral Intelligence (BMI) to gain exposure to the electric-vehicle battery supply chain."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "Interest from private equity firms",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Interest from private equity firms",
+            "wd_description": "UK-based Hg Capital and Bowmark Capital are among the private equity firms seeking to buy a stake of up to 20% in Benchmark, valued at over 200 million pounds.",
+            "description": "UK-based Hg Capital and Bowmark Capital are among the private equity firms seeking to buy a stake of up to 20% in Benchmark, valued at over 200 million pounds."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Role of Cardean Bell",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Role of Cardean Bell",
+            "wd_description": "The process of selling a stake in Benchmark is being run by corporate advisory firm Cardean Bell.",
+            "description": "The process of selling a stake in Benchmark is being run by corporate advisory firm Cardean Bell."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Rising interest in battery materials",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Rising interest in battery materials",
+            "wd_description": "Interest in battery materials such as lithium, nickel, cobalt, and graphite has been rising, driven by the energy transition and increasing EV sales.",
+            "description": "Interest in battery materials such as lithium, nickel, cobalt, and graphite has been rising, driven by the energy transition and increasing EV sales."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Benchmark's offerings",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark's offerings",
+            "wd_description": "Benchmark provides price assessments, detailed information about costs of production in the supply chain, and information about cathode and anode manufacturers and battery makers.",
+            "description": "Benchmark provides price assessments, detailed information about costs of production in the supply chain, and information about cathode and anode manufacturers and battery makers."
+        },
+        {
+            "@id": "ev4.5",
+            "name": "Growth in lithium-ion battery and EV supply chain",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Growth in lithium-ion battery and EV supply chain",
+            "wd_description": "The lithium-ion battery and EV supply chain is growing at 25% a year, driving demand for information about the sector.",
+            "description": "The lithium-ion battery and EV supply chain is growing at 25% a year, driving demand for information about the sector."
+        },
+        {
+            "@id": "ev4.6",
+            "name": "Benchmark's market position",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark's market position",
+            "wd_description": "Benchmark rivals price reporting agencies such as Fastmarkets, Platts, CRU, and Wood Mackenzie in its coverage of battery materials and related supply chains.",
+            "description": "Benchmark rivals price reporting agencies such as Fastmarkets, Platts, CRU, and Wood Mackenzie in its coverage of battery materials and related supply chains."
+        },
+        {
+            "@id": "ev4.7",
+            "name": "Benchmark's employment growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark's employment growth",
+            "wd_description": "Subscription-based Benchmark, started by Simon Moores in 2017, expects to employ more than 100 people by next year.",
+            "description": "Subscription-based Benchmark, started by Simon Moores in 2017, expects to employ more than 100 people by next year."
+        },
+        {
+            "@id": "ev4.8",
+            "name": "Benchmark as an ESG investment",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Benchmark as an ESG investment",
+            "wd_description": "Private equity funds see Benchmark as an ESG investment for the electric vehicle revolution.",
+            "description": "Private equity funds see Benchmark as an ESG investment for the electric vehicle revolution."
+        },
+        {
+            "@id": "ev4.9",
+            "name": "Lithium-ion battery supply growth",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lithium-ion battery supply growth",
+            "wd_description": "Supplies of lithium-ion batteries are expected to rise 50% this year to 600 gigawatt hours from last year.",
+            "description": "Supplies of lithium-ion batteries are expected to rise 50% this year to 600 gigawatt hours from last year."
+        },
+        {
+            "@id": "ev4.10",
+            "name": "Volkswagen's EV plans",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Volkswagen's EV plans",
+            "wd_description": "Volkswagen delivered 452,000 battery-electric vehicles globally last year and aims for half of its global output to be all-electric by 2030.",
+            "description": "Volkswagen delivered 452,000 battery-electric vehicles globally last year and aims for half of its global output to be all-electric by 2030."
+        },
+        {
+            "@id": "ev4.11",
+            "name": "US EV sales goal",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "US EV sales goal",
+            "wd_description": "President Joe Biden has set a goal of 50% of new-vehicle sales being electric or plug-in electric by 2030.",
+            "description": "President Joe Biden has set a goal of 50% of new-vehicle sales being electric or plug-in electric by 2030."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}

@@ -1,0 +1,246 @@
+{
+    "@context": [
+        "sdf.s3.jsonld",
+        {
+            "cmu": "https://www.cmu.edu/"
+        }
+    ],
+    "sdfVersion": "2.2",
+    "@id": "2023Q1_38R",
+    "version": "v0",
+    "events": [
+        {
+            "@id": "ev1",
+            "name": "President Biden's Surprise Visit to Kyiv",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev1.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev1.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "President Biden's Surprise Visit to Kyiv",
+            "wd_description": "U.S. President Joe Biden made a surprise visit to Kyiv, announcing a new $500 million assistance package for Ukraine and signaling strong American support for President Zelensky amid the ongoing conflict with Russia.",
+            "description": "U.S. President Joe Biden made a surprise visit to Kyiv, announcing a new $500 million assistance package for Ukraine and signaling strong American support for President Zelensky amid the ongoing conflict with Russia."
+        },
+        {
+            "@id": "ev1.1",
+            "name": "Biden's Visit to Kyiv",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Biden's Visit to Kyiv",
+            "wd_description": "President Joe Biden made an unannounced visit to Kyiv, marking his first trip to Ukraine since Russia's invasion nearly a year ago, arriving in the early morning hours.",
+            "description": "President Joe Biden made an unannounced visit to Kyiv, marking his first trip to Ukraine since Russia's invasion nearly a year ago, arriving in the early morning hours."
+        },
+        {
+            "@id": "ev1.2",
+            "name": "Announcement of New Assistance Package",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Announcement of New Assistance Package",
+            "wd_description": "During his visit, Biden announced a new $500 million assistance package for Ukraine, including military equipment such as artillery ammunition, javelins, and Howitzers, along with upcoming sanctions on Moscow.",
+            "description": "During his visit, Biden announced a new $500 million assistance package for Ukraine, including military equipment such as artillery ammunition, javelins, and Howitzers, along with upcoming sanctions on Moscow."
+        },
+        {
+            "@id": "ev1.3",
+            "name": "Significance of the Visit",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Significance of the Visit",
+            "wd_description": "Biden's in-person visit to Kyiv demonstrated strong American support for President Zelensky and Ukraine, highlighting the U.S. commitment to the country amid the ongoing conflict with Russia.",
+            "description": "Biden's in-person visit to Kyiv demonstrated strong American support for President Zelensky and Ukraine, highlighting the U.S. commitment to the country amid the ongoing conflict with Russia."
+        },
+        {
+            "@id": "ev2",
+            "name": "Xi Jinping Endorsed for Third Term as President of China",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev2.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev2.3",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Xi Jinping Endorsed for Third Term as President of China",
+            "wd_description": "Xi Jinping was officially endorsed for an unprecedented third term as President of China by the country's political elites, making him the longest-serving president since the founding of Communist China in 1949.",
+            "description": "Xi Jinping was officially endorsed for an unprecedented third term as President of China by the country's political elites, making him the longest-serving president since the founding of Communist China in 1949."
+        },
+        {
+            "@id": "ev2.1",
+            "name": "Endorsement of Xi Jinping",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Endorsement of Xi Jinping",
+            "wd_description": "Xi Jinping was officially endorsed for a third term as President of China, solidifying his position as the longest-serving president since 1949.",
+            "description": "Xi Jinping was officially endorsed for a third term as President of China, solidifying his position as the longest-serving president since 1949."
+        },
+        {
+            "@id": "ev2.2",
+            "name": "Ceremonial Vote in Great Hall of the People",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Ceremonial Vote in Great Hall of the People",
+            "wd_description": "Xi Jinping's reappointment as President was confirmed by a unanimous vote of 2,952 during a ceremonial session in Beijing’s Great Hall of the People, followed by a standing ovation.",
+            "description": "Xi Jinping's reappointment as President was confirmed by a unanimous vote of 2,952 during a ceremonial session in Beijing’s Great Hall of the People, followed by a standing ovation."
+        },
+        {
+            "@id": "ev2.3",
+            "name": "Xi Jinping's Role in Communist Party and Military",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Xi Jinping's Role in Communist Party and Military",
+            "wd_description": "Xi Jinping secured his position as the head of the Communist Party and military last fall, roles that hold the real power in China, making his presidential reappointment a formality.",
+            "description": "Xi Jinping secured his position as the head of the Communist Party and military last fall, roles that hold the real power in China, making his presidential reappointment a formality."
+        },
+        {
+            "@id": "ev3",
+            "name": "Surge in COVID-19 Deaths in China Following Lifting of Zero-COVID Policy",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev3.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev3.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "Surge in COVID-19 Deaths in China Following Lifting of Zero-COVID Policy",
+            "wd_description": "China experienced a significant surge in COVID-19 deaths after President Xi lifted the Zero-COVID Policy, with most deaths occurring among elderly individuals with underlying conditions.",
+            "description": "China experienced a significant surge in COVID-19 deaths after President Xi lifted the Zero-COVID Policy, with most deaths occurring among elderly individuals with underlying conditions."
+        },
+        {
+            "@id": "ev3.1",
+            "name": "Surge in COVID-19 Deaths",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Surge in COVID-19 Deaths",
+            "wd_description": "A significant increase in COVID-19 deaths has been reported in China since December 2022, particularly among individuals over 65 with underlying conditions, following the lifting of the Zero-COVID Policy.",
+            "description": "A significant increase in COVID-19 deaths has been reported in China since December 2022, particularly among individuals over 65 with underlying conditions, following the lifting of the Zero-COVID Policy."
+        },
+        {
+            "@id": "ev3.2",
+            "name": "Lifting of Zero-COVID Policy",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Lifting of Zero-COVID Policy",
+            "wd_description": "The surge in COVID-19 cases and deaths began shortly after President Xi Jinping lifted China's Zero-COVID Policy, allowing for increased movement ahead of the holidays.",
+            "description": "The surge in COVID-19 cases and deaths began shortly after President Xi Jinping lifted China's Zero-COVID Policy, allowing for increased movement ahead of the holidays."
+        },
+        {
+            "@id": "ev3.3",
+            "name": "International Response",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "International Response",
+            "wd_description": "In response to the surge in COVID-19 cases and deaths in China, several countries issued mandatory testing for travelers coming from China.",
+            "description": "In response to the surge in COVID-19 cases and deaths in China, several countries issued mandatory testing for travelers coming from China."
+        },
+        {
+            "@id": "ev3.4",
+            "name": "Expert Warnings and Travel Advisories",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Expert Warnings and Travel Advisories",
+            "wd_description": "Experts believe that the surge in deaths may have peaked in some areas but warned that increased travel could lead to a further rise in cases, advising people to limit visits to certain areas.",
+            "description": "Experts believe that the surge in deaths may have peaked in some areas but warned that increased travel could lead to a further rise in cases, advising people to limit visits to certain areas."
+        },
+        {
+            "@id": "ev4",
+            "name": "U.S. Moves to Build EV Battery Supply Chain in Congo and Zambia",
+            "participants": [],
+            "children": [
+                {
+                    "child": "ev4.1",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.2",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.3",
+                    "importance": 1.0
+                },
+                {
+                    "child": "ev4.4",
+                    "importance": 1.0
+                }
+            ],
+            "children_gate": "and",
+            "wd_node": "",
+            "wd_label": "U.S. Moves to Build EV Battery Supply Chain in Congo and Zambia",
+            "wd_description": "The U.S. State Department has signed a memorandum of understanding (MOU) with Congo and Zambia to help build an EV battery supply chain, shifting the countries from mere mineral extraction to processing, manufacturing, and assembling batteries.",
+            "description": "The U.S. State Department has signed a memorandum of understanding (MOU) with Congo and Zambia to help build an EV battery supply chain, shifting the countries from mere mineral extraction to processing, manufacturing, and assembling batteries."
+        },
+        {
+            "@id": "ev4.1",
+            "name": "MOU Announcement",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "MOU Announcement",
+            "wd_description": "The State Department's MOU with Congo and Zambia aims to build an EV battery supply chain, with the U.S. offering technical assistance, feasibility studies, and exploring opportunities for U.S. companies.",
+            "description": "The State Department's MOU with Congo and Zambia aims to build an EV battery supply chain, with the U.S. offering technical assistance, feasibility studies, and exploring opportunities for U.S. companies."
+        },
+        {
+            "@id": "ev4.2",
+            "name": "Strategic Goals",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Strategic Goals",
+            "wd_description": "The goal is to transform Congo and Zambia from being only sites of mineral extraction to processing, manufacturing, and assembling batteries, reducing reliance on China and increasing supply chain resilience.",
+            "description": "The goal is to transform Congo and Zambia from being only sites of mineral extraction to processing, manufacturing, and assembling batteries, reducing reliance on China and increasing supply chain resilience."
+        },
+        {
+            "@id": "ev4.3",
+            "name": "Impact on Labor Abuses",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Impact on Labor Abuses",
+            "wd_description": "The MOU raises questions about labor abuses in the Congolese cobalt sector, with potential for the partnership to enforce global standards and address issues such as child labor and forced labor.",
+            "description": "The MOU raises questions about labor abuses in the Congolese cobalt sector, with potential for the partnership to enforce global standards and address issues such as child labor and forced labor."
+        },
+        {
+            "@id": "ev4.4",
+            "name": "Competitive Advantage",
+            "participants": [],
+            "wd_node": "",
+            "wd_label": "Competitive Advantage",
+            "wd_description": "Building plants in Congo to produce battery cathode materials could be cost-effective, environmentally friendly, and support industrialized economic growth, creating competition for China’s battery industry.",
+            "description": "Building plants in Congo to produce battery cathode materials could be cost-effective, environmentally friendly, and support industrialized economic growth, creating competition for China’s battery industry."
+        }
+    ],
+    "relations": [],
+    "entities": [],
+    "provenanceData": []
+}
