@@ -35,7 +35,7 @@ def main(modelID, raw_dir, iter_dir, prompt_dir, output_dir, promptID):
     
     delete_files_in_folder(iter_dir)
         
-    with open('/home/aikes/SDFconversion/hs_txt/paper1.txt', 'r') as tex:
+    with open('GPT4o_HS/paper1.txt', 'r') as tex:
         default_structure = tex.read()
             
     with open(output_dir + 'llama3_final_iter0.txt', 'w', encoding='utf-8') as file:
@@ -75,10 +75,10 @@ def main(modelID, raw_dir, iter_dir, prompt_dir, output_dir, promptID):
     
 def _parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--raw_dir", default='/home/aikes/SDFconversion/raw_paragraph/', type=str)
-    parser.add_argument("--iter_dir", default='/home/aikes/SDFconversion/hs_final/hs_final_ll3_3b/', type=str)
-    parser.add_argument("--prompt_dir", default='/home/aikes/SDFconversion/prompt', type=str)
-    parser.add_argument("--output_dir", default='/home/aikes/SDFconversion/hs_final/hs_final_ll3_3b/', type=str)
+    parser.add_argument("--raw_dir", default='dataset/schema_learning_dataset/raw_paragraph', type=str)
+    parser.add_argument("--iter_dir", default='Schema_Learning/ZeroShot_output', type=str)
+    parser.add_argument("--prompt_dir", default='Schema_Learning/ZeroShot_output/prompt/prompt_iterations.txt', type=str)
+    parser.add_argument("--output_dir", default='Schema_Learning/ZeroShot_output', type=str)
     parser.add_argument("--promptID", default='prompt_iterations', type=str)
     parser.add_argument("--modelID", default='llama3', type=str) 
     

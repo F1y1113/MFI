@@ -127,7 +127,7 @@ def main(dir_eval, dir_gt, output_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dir_eval", default='../modified2_70', type=str)
+    parser.add_argument("--dir_eval", default='../sdf_output_llama3_70b/', type=str)
     parser.add_argument("--dir_gt", default='../ground_truth/academic/', type=str)
     parser.add_argument("--output_file", default='eval/result_all_70b.json', type=str)
 

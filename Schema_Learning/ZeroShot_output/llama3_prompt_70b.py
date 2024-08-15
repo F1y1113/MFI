@@ -64,10 +64,10 @@ def main(input_dir, prompt_dir, output_dir, promptID, mode, ID):
     
 def _parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", default='/home/aikes/SDFconversion/raw_paragraph/', type=str)
-    parser.add_argument("--prompt_dir", default='/home/aikes/SDFconversion/prompt', type=str)
-    parser.add_argument("--output_dir", default='/home/aikes/SDFconversion/hs_txt_llama3_70b', type=str)
-    parser.add_argument("--promptID", default='prompt_4', type=str)
+    parser.add_argument("--input_dir", default='dataset/schema_learning_dataset/raw_paragraph', type=str)
+    parser.add_argument("--prompt_dir", default='Schema_Learning/ZeroShot_output/prompt/prompt_single.txt', type=str)
+    parser.add_argument("--output_dir", default='Schema_Learning/ZeroShot_output', type=str)
+    parser.add_argument("--promptID", default='prompt_single', type=str)
     parser.add_argument("--mode", default='multi', type=str)
     parser.add_argument("--ID", default='paper1', type=str) 
     
