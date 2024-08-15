@@ -23,5 +23,5 @@ The script generates an SDF-formatted JSON file for each processed HS text file.
 - Event information (events)
 - Participant details (participants)
 - Relationships between events (relations)
-- 
-More detailed information about SDF structure can be found in [SDF](/Schema_Learning/schema_merged/README.md)
+  
+More detailed information about SDF structure can be found in [Final SDF Structure](/Schema_Learning/schema_merged/README.md).
