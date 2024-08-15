@@ -69,7 +69,7 @@ def main(paperID, input_hs, output_dir):
 
     # Initialize the schema dictionary to build the JSON structure
     schema_dict = {}
-    schema_dict['@context'] = []
+    schema_dict['@context'] = ["sdf.s3.jsonld", {"cmu": "https://www.cmu.edu/"}]
     schema_dict['sdfVersion'] = "2.2"
     schema_dict['@id'] = paperID
     schema_dict['version'] = "v0"
@@ -108,7 +108,7 @@ def main(paperID, input_hs, output_dir):
         if event_dict[event][3] != []:
             for re in range(len(event_dict[event][3])):
                 single_relation = {}
-                single_relation['@id'] = "Relations/00443/before"
+                single_relation['@id'] = "Relations/before"
                 single_relation['wd_node'] = "wd:Q79030196"
                 single_relation['wd_label'] = "before"
                 single_relation['wd_description'] = "qualifies something (inception or end of a thing, event, or date) as happening previously to another thing"
