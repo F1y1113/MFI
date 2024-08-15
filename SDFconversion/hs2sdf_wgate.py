@@ -125,7 +125,7 @@ def _parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ID", default=None, type=str, required=True)  # ID of the paper to process
     parser.add_argument("--input_dir", default='Schema_Learning/ZeroShot_output/GPT4o_HS', type=str)  # Input directory for HS text files
-    parser.add_argument("--output_dir", default='Schema_Learning/ZeroShot_output/Llama3-70B_SDF', type=str)  # Output directory for JSON files
+    parser.add_argument("--output_dir", default='/Schema_Learning/ZeroShot_output/GPT4o_SDF', type=str)  # Output directory for JSON files
     parser.add_argument("--llm", default='GPT-4o', type=str)  # Optional argument for specifying LLM model name (if applicable)
     args = parser.parse_args()
     return args
