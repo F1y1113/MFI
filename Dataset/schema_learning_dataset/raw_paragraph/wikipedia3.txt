@@ -1,0 +1,20 @@
+Lithium-ion battery:
+A lithium-ion or Li-ion battery is a type of rechargeable battery that uses the reversible intercalation of Li+ ions into electronically conducting solids to store energy. In comparison with other commercial rechargeable batteries, Li-ion batteries are characterized by higher specific energy, higher energy density, higher energy efficiency, a longer cycle life, and a longer calendar life. Also noteworthy is a dramatic improvement in lithium-ion battery properties after their market introduction in 1991: within the next 30 years, their volumetric energy density increased threefold while their cost dropped tenfold.
+
+There are at least 12 different chemistries of Li-ion batteries; see "List of battery types."
+
+The invention and commercialization of Li-ion batteries may have had one of the greatest impacts of all technologies in human history,[10] as recognized by the 2019 Nobel Prize in Chemistry. More specifically, Li-ion batteries enabled portable consumer electronics, laptop computers, cellular phones, and electric cars, or what has been called the e-mobility revolution.[11] It also sees significant use for grid-scale energy storage as well as military and aerospace applications.
+
+Lithium-ion cells can be manufactured to optimize energy or power density.[12] Handheld electronics mostly use lithium polymer batteries (with a polymer gel as an electrolyte), a lithium cobalt oxide (LiCoO2) cathode material, and a graphite anode, which together offer high energy density.[13][14] Lithium iron phosphate (LiFePO4), lithium manganese oxide (LiMn_2O_4 spinel, or Li_2MnO_3-based lithium-rich layered materials, LMR-NMC), and lithium nickel manganese cobalt oxide (LiNiMnCoO_2 or NMC) may offer longer life and a higher discharge rate. NMC and its derivatives are widely used in the electrification of transport, one of the main technologies (combined with renewable energy) for reducing greenhouse gas emissions from vehicles.
+
+Lithium-ion batteries can be a safety hazard if not properly engineered and manufactured because they have flammable electrolytes that, if damaged or incorrectly charged, can lead to explosions and fires. Much progress has been made in the development and manufacturing of safe lithium-ion batteries.[19] Lithium-ion solid-state batteries are being developed to eliminate the flammable electrolyte. Improperly recycled batteries can create toxic waste, especially from toxic metals, and are at risk of fire. Moreover, both lithium and other key strategic minerals used in batteries have significant issues at extraction, with lithium being water intensive in often arid regions and other minerals used in some Li-ion chemistries potentially being conflict minerals such as cobalt.[not verified in body] Both environmental issues have encouraged some researchers to improve mineral efficiency and find alternatives such as Lithium iron phosphate lithium-ion chemistries or non-lithium-based battery chemistries like iron-air batteries.
+
+Cathode:
+There are three classes of commercial cathode materials in lithium-ion batteries: (1) layered oxides, (2) spinel oxides and (3) oxoanion complexes. All of them were discovered by John Goodenough and his collaborators
+
+In the 1990s, the United States was the World’s largest miner of lithium minerals, contributing to 1/3 of the total production. By 2010 Chile replaced the USA the leading miner, thanks to the development of lithium brines in Salar de Atacama. By 2024, Australia and China joined Chile as the top 3 miners. Li-ion battery production is also heavily concentrated, with 60% coming from China in 2024
+
+Anode
+Main article: Research in lithium-ion batteries § Anode
+Negative electrode materials are traditionally constructed from graphite and other carbon materials, although newer silicon-based materials are being increasingly used (see Nanowire battery). In 2016, 89% of lithium-ion batteries contained graphite (43% artificial and 46% natural), 7% contained amorphous carbon (either soft carbon or hard carbon), 2% contained lithium titanate (LTO) and 2% contained silicon or tin-based materials.
+

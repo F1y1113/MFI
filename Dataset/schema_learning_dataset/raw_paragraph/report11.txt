@@ -1,0 +1,19 @@
+Increasing but unpredictable battery growth
+
+The vast majority (approximately 89 percent) of batteries will be destined for EVs, with a further 8 percent for the energy storage sector. Driven by a combination of rising consumer demand and government action, the EV market is growing dramatically and rapidly. As the world swaps fossil fuels for electric power, countries and players are scrambling to adjust.
+
+To meet this need, global battery production is expected to increase 14-fold between 2018 and 2030, with a CAGR of 25 percent. An impressive number of new, multi-billion-dollar gigafactories have been announced across the globe, funded by a combination of new players, governments and traditional automotive companies. In Europe alone, battery production capacity is expected to reach more than 1,100 GWh by 2030 if all plans are fully realized.
+
+However, the complexity of supply chains and scarcity of raw materials mean there are questions over whether consumer-driven demand for EV batteries can be met on the production side. As was demonstrated by the shortage of semiconductors disrupting production post-pandemic, the automotive supply chain has limited resilience around key components.
+
+To further complicate supply chain planning, there is a wide range of views on how much demand will increase and whether it can be met. Forecasts for global EV battery demand in 2030 vary from 1.5 to 4 terawatt hours (TWh) of annual new installed capacity.
+
+Raw material scarcity
+
+Batteries rely on a global supply chain, bringing together a range of materials such as metals from Africa, lithium from Latin America/Australia, nickel from Russia, and refined materials from China. In many cases, first-movers such as Chinese battery manufacturers have already secured vital supplies, leaving new players searching for sources. Raw material prices have risen dramatically – the average copper price has increased significantly from approximately $6.0k/mt in 2019 to approximately $9.3k/mt in 2021, while the average nickel price grew from roughly $13.9k/mt to about $18.5k/mt over the same time period. Prices have spiked even further in 2022 due to geopolitical uncertainty and sanctions.
+
+Predicted demand outstrips current supply, particularly in regions such as the EU, which lack major local sources. For example, graphite, lithium, and cobalt are already on the European Commission’s list of critical raw materials, flagged as potentially having high importance and supply risks. There is a danger that current fossil fuel dependencies in areas such as the EU could simply be replaced by new dependencies on imported minerals required for EV battery manufacture.
+
+Ensuring transparency and understand
+
+In such a complex and dynamic supply chain, taking a silo-based approach is simply not enough. For example, if you are a battery cell manufacturer, you need to understand and safeguard both material supply and the end-of-life needs of OEM customers, and research the requirements, constraints, opportunities, and technologies along the whole chain. You then need to use this to identify current and potential risks. More and more battery producers are engaging in upstream and downstream activities – for example, both BYD and Tesla are looking at acquiring lithium sources. Risks can change quickly in a volatile ecosystem, so this needs to be a constant exercise.

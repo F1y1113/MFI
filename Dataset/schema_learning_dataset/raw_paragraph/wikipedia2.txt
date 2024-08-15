@@ -1,0 +1,54 @@
+Batteries:
+The electric vehicle battery accounts for 30–40% of the value of the vehicle.[1] There is rapidly growing demand for its components because of growth in the electric vehicle market as well as in battery storage power stations. This is driven largely by the ongoing transition to renewable energy.
+
+The Li-NMC type uses the critical minerals lithium, cobalt, nickel, and manganese. This imposes limits on large-scale adoption of this type. [2] These three elements are concentrated in only 12 countries, with Australia being the only country that has all three.[3]
+
+The Lithium iron phosphate battery (LFP), which has become the leading technology in China, is more sustainable. The sodium-ion battery (Na-ion) completely avoids the need for critical minerals
+
+
+
+               Li-NMC	LFP	Sodium-ion
+  cobalt	X	-	-
+global 
+BEV market 
+share		59% 	41%	<1% (high potential)[6]
+lithium		X	X	-
+manganese	X	-	-
+nickel		X	-	-
+
+
+
+Securing the supply chain for these materials is a major world economic issue.[7] It has been estimated that battery recycling can provide up to 60% of market demand for the three critical elements.[2] Recycling and advancement in battery technology are proposed strategies to reduce demand for raw materials. Recyling lithium-ion batteries in particular reduces energy consumption.[8] Supply chain issues could create bottlenecks, increase costs of EVs and slow their uptake.[1][9] Nations set up incentives for domestic growth in the market, to further secure their stake in the supply chain.
+
+Deposits of critical minerals are concentrated in a small number of countries, mostly in the Global South. Mining these deposits presents dangers to nearby communities because of weak regulation, corruption, and environmental degradation. The mining impacts the quality of the food and water local communities depend upon, and the metals end up in their bodies. Miners also experience low pay, dangerous conditions, and violent treatment.
+
+Electric vehicles require more of these critical minerals than most cars, amplifying these effects. These communities face human rights violations, environmental justice issues, problems with child labour, and potentially generational legacies of contamination from mining activities. Environmental justice issues arising from the supply chain affect the entire globe, through depredation of the atmosphere from pollution byproduct. 
+
+Manufacture of battery technology is largely dominated by China. However, burning less petroleum products in vehicles can reduce the environmental impact of the petroleum industry because, as of 2023, most petroleum is used in vehicles.
+
+The battery supply chain includes:
+
+Upstream activities include mining for required raw materials, which include critical materials such as cobalt, lithium, nickel, manganese, and graphite as well as other required minerals such as copper.
+
+Midstream activities include refining and smelting of raw mineral ores with heat or chemical treatment to achieve the high-purity materials required for batteries,[3][1] as well as the manufacture of cathodes and anodes for battery cells.[13] Lower environmental impacts for refining can be achieved by decarbonized electricity generation, automated process control, exhaust gas cleaning, and recycling used electrolytes.[14]
+
+Downstream activities include manufacturing of the batteries and end goods for the consumer.[3] The production of lithium batteries in China has nearly three times higher emissions than the US because electricity generation in China relies more on coal.[2]
+
+End of life activities include recycling or recovery of materials when possible.[3]
+
+Disposal of spent LIBs without recycling could be detrimental to the environment.[2] Recycling lithium-ion batteries reduces energy consumption, reduces greenhouse gas emissions, and results in 51.3% natural resource savings when compared to discarding them in landfills.[8] Recycling can potentially lower the overall energy emissions of battery production as the LIB recycling industry grows larger.[2] When not recycled, the disposal of cobalt extraction involves non-sulfidic tailings, which has an impact on land use.[15] Even in the recycling process, CO2 emissions are still produced, continuing to impact the environment regardless of how LIBs are disposed.[2]
+
+Recycling of battery minerals is limited but is expected to rise in the 2030s when there are more spent batteries. Increasing recycling would bring considerable social and environmental benefits.
+
+Countries roles in the supply chain:
+China dominates the electric car industry, accounting for three-quarters of global lithium-ion battery production. Most refining of lithium, cobalt, and graphite takes place in China. Japan and Korea host significant midstream cell manufacturing and downstream supply chain activities. Europe and the United States have a relatively small share of the supply chain.[1]
+
+In 2021, 3.3 million EVs were sold in China, up 400% from 2019 and higher than the global sales in 2020.[1]
+
+Upstream activities (mining and processing) largely take place in countries with extractivist economies such as Australia,[need quotation to verify] Chile, and the Democratic Republic of the Congo.
+
+Environmental justice issues：
+Supply chain risks include sustainability challenges,[21] political instability and corruption in countries with mineral deposits,[22] and human rights or environmental justice concerns.[23][3] The supply of critical minerals is concentrated in a few countries: for example, the Democratic Republic of the Congo produced 74% of the world's cobalt in 2022.
+
+Extreme weather events, geopolitical issues, international trade regulation, consolidation of supply chain companies into a few large corporations, and rapidly changing technologies all present additional challenges to building a resilient supply chain.[3] Mineral extraction in the Global South for manufacturing of batteries and vehicles consumed in the Global North may replicate historical patterns of injustice and colonialism.
+
