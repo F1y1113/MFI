@@ -1,7 +1,7 @@
-Dataset/*.json
-Dataset/*.png
-Dataset/*.jpg
-Dataset/*.txt
-Schema_Learning/GT_SDF/*.json
-Schema_Learning/ZeroShot_output/*.json
-Schema_Learning/ZeroShot_output/GPT4o_HS/*.txt
+Dataset/**/*.json
+Dataset/**/*.png
+Dataset/**/*.jpg
+Dataset/**/*.txt
+Schema_Learning/GT_SDF/**/*.json
+Schema_Learning/ZeroShot_output/**/*.json
+Schema_Learning/ZeroShot_output/GPT4o_HS/**/*.txt
