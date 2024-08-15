@@ -1,0 +1,74 @@
+Electric vehicle battery:
+An electric vehicle battery is a rechargeable battery used to power the electric motors of a battery electric vehicle (BEV) or hybrid electric vehicle (HEV).
+
+Electric vehicle batteries account for over 90% of battery use in the energy sector. They are typically lithium-ion batteries that are designed for high power-to-weight ratio and energy density. Compared to liquid fuels, most current battery technologies have much lower specific energy. This increases the weight of vehicles or reduces their range.
+
+Li-NMC batteries using Lithium nickel manganese cobalt oxides are the most common in EV. The Lithium iron phosphate battery (LFP) is on the rise, reaching 41 % global market share by capacity for BEVs in 2023.[1]: 85  LFP batteries are heavier but cheaper and more sustainable. At the same time, the first commercial passenger cars are using a sodium-ion battery (Na-ion) completely avoiding the need for critical minerals.
+
+LFP batteries are heavier but cheaper and more sustainable. At the same time, the first commercial passenger cars are using a sodium-ion battery (Na-ion) completely avoiding the need for critical minerals.
+
+The battery makes up a significant portion of the cost and environmental impact of an electric vehicle. Growth in the industry has generated interest in securing ethical battery supply chains, which presents many challenges and has become an important geopolitical issue. As of December 2019, the cost of electric vehicle batteries has fallen 87% since 2010 on a per kilowatt-hour basis.
+
+Demand for EVBs exceeded 750 GWh in 2023. EVBs have much higher capacities than automotive batteries used for starting, lighting, and ignition (SLI) in combustion cars. The average battery capacity of available EV models reached from 21 to 123 kWh in 2023 with an average of 80 kWh.
+
+Electric vehicle battery types:
+
+As of 2024, the lithium-ion battery (LIB) with the variants Li-NMC, LFP and Li-NCA dominates the BEV market. The combined global production capacity in 2023 reached almost 2000 GWh with 772 GWh used for EVs in 2023. Most production is based in China where capacities increased by 45 % that year.
+
+With their high energy density and long cycle life, Lithium-ion batteries have become the leading battery type for use in EVs. They were initially developed and commercialized for use in laptops and consumer electronics. Recent EVs are using new variations on lithium-ion chemistry that sacrifice specific energy and specific power to provide fire resistance, environmental friendliness, rapid charging and longer lifespans. These variants have been shown to have a much longer lifetime.
+
+Lithium-NMC:
+Lithium nickel manganese cobalt oxides offer high performance and have become the global standard in BEV production since the 2010s. On the other hand, the exploitation of the required minerals causes environmental problems. The downside of traditional NMC batteries includes sensitivity to temperature, low temperature power performance, and performance degradation with age.
+
+Lithium iron phosphate (LFP):
+The Lithium iron phosphate battery has a shorter range but is cheaper, safer and more sustainable than the NMC battery.[26] It does not require the critical minerals manganese and cobalt. Since 2023, LFP has become the leading technology in China while the market share in Europe and North America remains lower than 10%. LFP is the dominant type in grid energy storage.
+
+Sodium-ion:
+The Sodium-ion battery completely avoids critical materials. Due to the high availability of sodium which is a part of salt water, cost projections are low. In early 2024, various Chinese manufacturers began with the delivery of their first models. Analysts see a high potential for this type especially for the use in small EVs, bikes and three-wheelers.
+
+Several types are in development:
+The solid-state battery could offer high energy density and potential safety improvements.
+The lithium-sulfur battery is also expected to meet high performance demands.
+The LMFP battery is a LFP battery that includes manganese as a cathode component.
+
+Supply chain:
+Lifecycle of lithium-based EV batteries
+During the first stage, the rare earth materials are extracted in different parts of the world. All the following steps are currently dominated by China. After they are refined by pre-processing factories, the battery manufacturing companies take over these materials and start to produce batteries and assemble them into packs. These battery packs are then sent to car manufacturing companies for EV integration.
+
+Manufacturing:
+There are mainly three stages during the manufacturing process of EV batteries: materials manufacturing, cell manufacturing and integration, as shown in Manufacturing process of EV batteries graph in grey, green and orange color respectively. 
+
+During the materials manufacturing process, the active material, conductivity additives, polymer binder and solvent are mixed first. After this, they are coated on the current collectors ready for the drying process. During this stage, the methods of making active materials depend on the electrode and the chemistry. 
+
+For the cathode, two of the most popular chemistry are transition metal oxides, i.e. Lithium nickel manganese cobalt oxides (Li-NMC) and Lithium metal phosphates, i.e. Lithium iron phosphates (LFP). For the anode, the most popular chemistry now is graphite. 
+
+In general, for active materials production, there are three steps: materials preparation, materials processing and refinement. Schmuch et al. discussed materials manufacturing in greater details.
+
+Reusing and repurposing:
+When an EV battery pack degrades to 70% to 80% of its original capacity, it is defined to reach the end-of-life. One of the waste management methods is to reuse the pack. By repurposing the pack for stationary storage, more value can be extracted from the battery pack while reducing the per kWh lifecycle impact. 
+
+The end-of-life management phase is struggled to grow, especially the recycling process mainly because of economics. For example, only 6% of lithium-ion batteries were collected for recycling in 2017–2018 in Australia.[35] However, closing the loop is extremely important. 
+
+Not only because of a predicted tightened supply of nickel, cobalt and lithium in the future, also recycling EV batteries has the potential to maximize the environmental benefit. Xu et al. predicted that in the sustainable development scenario, lithium, cobalt and nickel will reach or surpass the amount of known reserves in the future if no recycling is in place. Ciez and Whitacre found that by deploying battery recycling some green house gas (GHG) emission from mining could be avoided.
+
+Uneven and undesired battery degradation happens during EV operation.
+
+In addition, because a lot of factors could contribute to the low SOH at the end of life, such as temperature during operation, charging/discharging pattern and calendar degradation, the degradation mechanism could be different.
+
+Recycling:
+Although battery life span can be extended by enabling a second-life application, ultimately EV batteries need to be recycled. Recyclability is not currently an important design consideration for battery manufacturers, and in 2019 only 5% of electric vehicle batteries were recycled. BEV technologies lack an established recycling framework in many countries, making the usage of BEV and other battery-operated electrical equipment a large energy expenditure, ultimately increasing CO2 emissions - especially in countries lacking renewable energy resources.
+
+Currently, there are five types of recycling processes: Pyrometallurgical recovery, Physical materials separation, Hydrometallurgical metal reclamation, Direct recycling method and Biological metals reclamation. The most widely used processes are the first three processes listed, as shown in the examples of current lithium-ion battery recycling facilities. The last two methods are still on lab or pilot scale, however, they can potentially avoid the largest amount of emission from mining.
+
+Recycling vs mining:
+Battery recycling emissions under US average electricity grid. (a,b) for cylindrical cell and (c,d) for pouch cell. Adapted from Ciez and Whitacre.
+To develop a deeper understanding of the lifecycle of EV batteries, it is important to analyze the emission associated with different phases.
+
+As shown in the battery recycling emission plot a and c, the emission of the recycling process varies with the different recycling processes, different chemistry and different form factor. Thus, the net emission avoided compared to not recycling also varies with these factors. At a glance, as shown in the plot b and d, the direct recycling process is the most ideal process for recycling pouch cell batteries, while the hydrometallurgical process is most suitable for cylindrical type battery. However, with the error bars shown, the best approach cannot be picked with confidence
+
+EV parity:
+Cost parity
+One issue is purchase price, the other issue is total cost of ownership. Total cost of ownership of electric cars is often less than petrol or diesel cars.[51] In 2024 Gartner predicted that by 2027, next-generation BEVs will, on average, be cheaper to produce than a comparable ICE“.[52] In China, BEV are now cheaper than comparable combustion cars.[53] The development is driven by subsidies in the Chinese market. The USA are protecting their own manufacturers with tariffs, in the EU this is debated. This can delay cost parity.
+
+Recharging
+Batteries in BEVs must be periodically recharged. BEVs most commonly charge from the power grid (at home or using a street or shop recharging point), which is in turn generated from a variety of domestic resources, such as coal, hydroelectricity, nuclear, natural gas, and others. Home or grid power, such as photovoltaic solar cell panels, wind, or microhydro may also be used and are promoted because of concerns regarding global warming.

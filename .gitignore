@@ -1,8 +1,7 @@
 Dataset/*.json
 Dataset/*.png
 Dataset/*.jpg
-Dataset/news_dataset/*.txt
-Dataset/schema_learning_dataset/raw_paragraph/*.txt
+Dataset/*.txt
 Schema_Learning/GT_SDF/*.json
 Schema_Learning/ZeroShot_output/*.json
 Schema_Learning/ZeroShot_output/GPT4o_HS/*.txt
