@@ -1,5 +1,11 @@
 # SHIELD: LLM-Driven Schema Induction for Predictive Analytics in EV Battery Supply Chain Disruptions
 
+[Paper](https://arxiv.org/pdf/2408.05357)
+
+[Project Homepage](https://f1y1113.github.io/MFI/)
+
+[Dataset](https://drive.google.com/drive/folders/12kH2S9Rr7ev_XejRZ3HNPhKfk01-dSEv?usp=sharing)
+
 <!-- vscode-markdown-toc -->
 * 1. [Paper Abstract](#PaperAbstract)
 * 2. [Dataset](#Dataset)
@@ -22,15 +28,7 @@
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># SHIELD: LLM-Driven Schema Induction for Predictive Analytics in EV Battery Supply Chain Disruptions
-
-[Paper](https://arxiv.org/pdf/2408.05357)
-
-[Project Homepage](https://f1y1113.github.io/MFI/)
-
-[Dataset](https://drive.google.com/drive/folders/12kH2S9Rr7ev_XejRZ3HNPhKfk01-dSEv?usp=sharing)
-
-
+<!-- /vscode-markdown-toc -->
 
 ##  1. <a name='PaperAbstract'></a>Paper Abstract
 
