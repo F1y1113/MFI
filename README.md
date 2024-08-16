@@ -116,8 +116,8 @@ The ```eval_all.py``` script evaluates schema generation against a relation extr
 **Evaluation Metrics**: We compare the instantiated schemas learned by our system with manually annotated ground truth to assess the degree of overlap. For instance, the event of Raw Material Mining includes the subevent of Lithium Mining with an associated importance value, represented by the quadruple subevent(raw material mining, lithium mining, importance). Other relations include participants, gates, sequential events, etc.
 
 To evaluate the results, we 
-1. map the events in the learned schema $S_l$ to those in the ground-truth schema Sgt, 
-2. establish a one-to-one mapping of quadruples between the learned schema Sl and the ground-truth schema $S_gt$, 
+1. map the events in the learned schema $S_l$ to those in the ground-truth schema $S_{gt}$, 
+2. establish a one-to-one mapping of quadruples between the learned schema Sl and the ground-truth schema $S_{gt}$, 
 3. calculate Precision, Recall, and F-score as follows:
 
 $$
@@ -131,10 +131,6 @@ $$
 $$
 \text{F-score} = 2\cdot \frac{\text{Precision}\cdot \text{Recall}}{\text{Precision} + \text{Recall}}
 $$
-
-####  3.3.2. <a name='Requirements'></a>Requirements
-- Python 3.8+
-- JSON file structured in Schema Definition Files (SDF).
 
 ####  3.3.3. <a name='Usage-1'></a>Usage
 
