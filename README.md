@@ -155,7 +155,7 @@ These metrics provide a rigorous assessment of schema alignment, ensuring the le
 If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
 
 ```bibtex
-@misc{cheng2024shieldllmdrivenschemainduction,
+@misc{cheng2024shield,
   title={SHIELD: LLM-Driven Schema Induction for Predictive Analytics in EV Battery Supply Chain Disruptions},
   author={Zhi-Qi Cheng and Yifei Dong and Aike Shi and Wei Liu and Yuzhi Hu and Jason O'Connor and Alexander Hauptmann and Kate Whitefoot},
   year={2024},
