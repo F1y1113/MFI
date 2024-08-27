@@ -3,15 +3,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2408.05357-red)](https://arxiv.org/abs/2408.05357) 
 ![License](https://img.shields.io/badge/license-MIT-blue) 
 
-## Overview
 
 **SHIELD** is an advanced framework designed to enhance predictive analytics for the **EV battery supply chain** by integrating **Large Language Models (LLMs)** with domain expertise. The system addresses supply chain vulnerabilities by combining schema learning, event extraction, and predictive modeling, all within an interactive environment for risk assessment.
 
-![Project Banner](https://github.com/user-attachments/assets/20a96a6f-b603-4937-b7ff-209f6811242d)
-
 ## Table of Contents
 
-1. [Abstract](#abstract)
+1. [Overview](#overview)
 2. [Dataset](#dataset)
    - [News Dataset](#news-dataset)
      - [Dataset Structure](#dataset-structure)
@@ -30,7 +27,7 @@
 5. [Contributing](#contributing)
 6. [License](#license)
 
-## Abstract
+## Overview
 
 The electric vehicle (EV) battery supply chain is highly susceptible to global disruptions, necessitating advanced predictive analytics. We present **SHIELD** (Schema-based Hierarchical Induction for EV Supply Chain Disruption), a system that integrates **Large Language Models (LLMs)** with domain expertise for comprehensive risk assessment of the EV battery supply chain. SHIELD consists of three main components:
 
@@ -39,6 +36,8 @@ The electric vehicle (EV) battery supply chain is highly susceptible to global d
 3. **Interactive Interface**: Provides a user-friendly platform for visualizing results and incorporating expert feedback to refine decision-making processes.
 
 Evaluated on 12,070 paragraphs from 365 sources (2022-2023), SHIELD demonstrates superior performance compared to baseline GCNs and LLM+prompt methods (e.g., GPT-4o) in disruption prediction, showcasing its effectiveness in combining LLM capabilities with domain expertise for enhanced supply chain risk management.
+
+![Project Banner](https://github.com/user-attachments/assets/20a96a6f-b603-4937-b7ff-209f6811242d)
 
 ## Dataset
 
@@ -153,9 +152,7 @@ These metrics provide a rigorous assessment of schema alignment, ensuring the le
 
 ## Citation
 
-If you find this repository or
-
- our paper useful, please consider **starring** this repository and **citing** our paper:
+If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
 
 ```bibtex
 @misc{cheng2024shieldllmdrivenschemainduction,
