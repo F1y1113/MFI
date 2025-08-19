@@ -6,6 +6,17 @@
 
 **SHIELD** is an advanced framework designed to enhance predictive analytics for the **EV battery supply chain** by integrating **Large Language Models (LLMs)** with domain expertise. The system addresses supply chain vulnerabilities by combining schema learning, event extraction, and predictive modeling, all within an interactive environment for risk assessment.
 
+If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
+```bibtex
+@inproceedings{cheng2024shield,
+  title={SHIELD: LLM-Driven Schema Induction for Predictive Analytics in EV Battery Supply Chain Disruptions},
+  author={Cheng, Zhi-Qi and Dong, Yifei and Shi, Aike and Liu, Wei and Hu, Yuzhi and O’Connor, Jason and Hauptmann, Alexander G and Whitefoot, Kate},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track},
+  pages={303--333},
+  year={2024}
+}
+```
+
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -155,14 +166,12 @@ These metrics provide a rigorous assessment of schema alignment, ensuring the le
 If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
 
 ```bibtex
-@misc{cheng2024shield,
+@inproceedings{cheng2024shield,
   title={SHIELD: LLM-Driven Schema Induction for Predictive Analytics in EV Battery Supply Chain Disruptions},
-  author={Zhi-Qi Cheng and Yifei Dong and Aike Shi and Wei Liu and Yuzhi Hu and Jason O'Connor and Alexander Hauptmann and Kate Whitefoot},
-  year={2024},
-  eprint={2408.05357},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
-  url={https://arxiv.org/abs/2408.05357},
+  author={Cheng, Zhi-Qi and Dong, Yifei and Shi, Aike and Liu, Wei and Hu, Yuzhi and O’Connor, Jason and Hauptmann, Alexander G and Whitefoot, Kate},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track},
+  pages={303--333},
+  year={2024}
 }
 ```
 
